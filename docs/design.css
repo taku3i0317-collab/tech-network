@@ -86,3 +86,13 @@ img.uic { width: 1.05em !important; height: 1.05em !important; image-rendering: 
   .btn, .chip, .tile, .wtile, .mini, nav.toc button, .backbar a, .backbar button, .fbar a, .fbar button, .lchip { transition: transform 120ms ease-out, background-color 120ms ease-out, border-color 120ms ease-out; }
   .btn:active, .chip:active, .tile:active, .wtile:active, .mini:active, nav.toc button:active, .backbar a:active, .backbar button:active, .fbar a:active, .fbar button:active, .lchip:active { transform: scale(.96); }
 }
+
+/* S-024：シェアの小さな窓（Web Share API が使えないとき）。外の会社のスクリプトは使わず、ただのリンク */
+.shareSheet { position: fixed; left: 50%; bottom: 16px; transform: translateX(-50%); z-index: 300; width: min(420px, calc(100vw - 24px)); background: var(--panel); border: 1px solid var(--line); border-radius: 14px; box-shadow: 0 4px 18px rgba(0,0,0,.18); padding: 12px 14px; }
+.shareSheet[hidden] { display: none; }
+.shareSheet .t { margin: 0 0 10px; font-size: 14px; }
+.shareSheet .row { display: flex; gap: 8px; flex-wrap: wrap; }
+.shareSheet .row .btn { flex: 1; justify-content: center; min-height: 44px; }
+.shareSheet .row .close { flex: 0 0 44px; }
+.shareSheet .done { margin: 8px 0 0; font-size: 13px; color: var(--ok, #2e8b57); overflow-wrap: anywhere; }
+@media (prefers-reduced-motion: no-preference) { .shareSheet .btn { transition: transform 120ms ease-out, background-color 120ms ease-out; } .shareSheet .btn:active { transform: scale(.96); } }

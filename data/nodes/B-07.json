@@ -17,7 +17,20 @@
    "4": ""
   },
   "sources": [],
-  "refs": [],
+  "refs": [
+   {
+    "title": "F46. 電気を直接光にする（赤い LED）［B-07］",
+    "answer": "p 型と n 型の半導体の境目に電気を流すと、電子と穴が出会い、その段差（バンドギャップ）のエネルギーの光が出る。電球のようにフィラメントを熱くしないので、少しの電気で光る。ガリウムヒ素（GaAs）だけだと光は目に見えない赤外だが、リンを混ぜたガリウムヒ素リン（GaAsP）だと赤く見える。1962年に GE の研究者が GaAsP で最初の目に見える光の LED を作った。",
+    "hee": {
+     "1": "1970年代の電卓や時計の赤い数字は、赤い LED だった。",
+     "2": "リンを混ぜるほど光が短い波長（赤→だいだい→黄）になる。",
+     "3": "材料のヒ素は、金属の鉱石を焼いた煙のちり（白ヒ素）から取った。とても毒が強いので、工場では閉じた装置で扱う。",
+     "4": "青い LED は1990年代に日本の研究者たちが実用にし（2014年ノーベル物理学賞）、そこから白い LED が生まれた。"
+    },
+    "certainty": "1962 GE の GaAsP 赤色 LED ◎／バンドギャップと色 ◎／白ヒ素の出どころ ○／青色 LED 1993・ノーベル賞 2014 ◎",
+    "basis": "Wikipedia「Light-emitting diode」（History）https://en.wikipedia.org/wiki/Light-emitting_diode 、Wikipedia「Gallium arsenide phosphide」https://en.wikipedia.org/wiki/Gallium_arsenide_phosphide （英語）"
+   }
+  ],
   "people": [
    {
     "name": "赤崎勇",
@@ -59,9 +72,9 @@
   "real": "1907 ラウンドが SiC の発光を報告、1927 ロセフ。1962 ニック・ホロニアックの赤色 GaAsP LED、1993 中村修二らの青色 GaN LED（2014 ノーベル賞：赤崎・天野・中村）"
  },
  "game": {
-  "status": "❓",
+  "status": "✅",
   "buildable_now": false,
-  "play": "",
+  "play": "軽（光る明かり）",
   "missing": "",
   "item": null,
   "recipes": [],

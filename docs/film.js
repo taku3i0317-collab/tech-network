@@ -26,6 +26,7 @@
     close: EN() ? '✕ Close' : '✕ 閉じる',
     watch: EN() ? '▶ Watch' : '▶ できるまでを観る',
     detail: EN() ? 'Details' : '詳しく見る',
+    share: EN() ? '🔗 Share' : '🔗 シェア',
     hint: EN() ? 'Tap a circle to put it in the middle' : '丸を押すと、それが真ん中に',
     sum: (n, r) => EN() ? `${n} technologies · ${r} starting points` : `${n} の技術・${r} 個の始まり`,
   };
@@ -105,7 +106,7 @@
     root.setAttribute('role', 'dialog');
     root.innerHTML = `<canvas></canvas><div class="cnt"></div><div class="fhint" hidden></div><div class="cap" aria-live="polite"></div>
       <button type="button" class="skip"></button>${reduce() && film ? `<button type="button" class="nextb">${T.next}</button>` : ''}
-      <div class="bar" hidden><button type="button" class="watch">${T.watch}</button><a class="detail" href="#">${T.detail}</a></div>`;
+      <div class="bar" hidden><button type="button" class="watch">${T.watch}</button><button type="button" class="share">${T.share}</button><a class="detail" href="#">${T.detail}</a></div>`;
     document.body.appendChild(root);
     const cv = root.querySelector('canvas'), ctx = cv.getContext('2d', { alpha: false });
     const cap = root.querySelector('.cap'), cnt = root.querySelector('.cnt'), hint = root.querySelector('.fhint'), skip = root.querySelector('.skip'), bar = root.querySelector('.bar');
@@ -148,6 +149,7 @@
       root.classList.add('centerMode'); root.setAttribute('aria-label', nm(byId.get(S.id)));
       skip.textContent = T.close; bar.hidden = false; hint.hidden = false; hint.textContent = T.hint;
       root.querySelector('.detail').href = `${opt.base || ''}node.html#${S.id}`;
+      const sb = root.querySelector('.share'); sb.dataset.share = S.id; sb.dataset.shareView = 'center';   // share.js が拾う（S-024）
       const nx = root.querySelector('.nextb'); if (nx) nx.remove();
       cap.dataset.t = ''; if (push !== false && opt.onCenter) opt.onCenter(S.id);
       req();

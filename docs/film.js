@@ -98,7 +98,7 @@
       // 祖先の技術が持つ「なぜ動くか」の知恵（understanding）も知恵の扇に（線は点線）
       for (const [k, d] of [...dist]) if (byId.get(k).kind !== 'idea') for (const i of undOf.get(k) || []) if (!dist.has(i)) { dist.set(i, d + 1); via.set(i, k); und.add(i); }
     }
-    if (LAY0 === 'height' || LAY0 === 'gran' || LAY0 === 'pr') {
+    if (LAY0 === 'height' || LAY0 === 'atom' || LAY0 === 'gran' || LAY0 === 'pr') {
       // S-033・S-035：輪の決め方を変える（どちらも、前提の無い「始まり」はいちばん外の輪）
       //  height：始まりからの高さ（いちばん長い道）。輪＝真ん中の高さ − その物の高さ。8 輪より多い時は均等にまとめる
       //  gran：粒度（どのモノでも同じ意味）。1 製品・部品／2 素子・装置／3 工程・機械・道具（と知恵）／4 材料／5 始まり
@@ -107,7 +107,7 @@
       const psReq = k => ps(k).filter(p => EK.get(p + '>' + k) !== 'u');   // 高さは前提（requires・enables・part）だけで決める（理解のつながりは輪になることがあるため）
       const isRoot = k => k !== id && !(parents.get(k) || []).some(p => byId.has(p));
       const ring = new Map();
-      if (LAY0 === 'height') {
+      if (LAY0 === 'height' || LAY0 === 'atom') {
         // S-039：輪＝作る順番。その物から真ん中までのいちばん長い道の段数（前提は必ず使う物より外になる）。
         // 前提の無い始まりは全部、いちばん外のさらに1つ外の輪。理解のつながりが輪（ループ）を作る所は、その1本を数えない
         // 前提（requires・enables・part）の子だけで数える（こちらは輪にならない）。理解のつながりでしか届かない物だけ、理解の子で数える
@@ -130,6 +130,22 @@
         const R = Math.max(...[...set].map(k => ring.get(k)));
         for (const k of set) if (isRoot(k)) ring.set(k, R);   // 始まりは全部いちばん外
         ring.set(id, 0);
+        if (LAY0 === 'atom') {
+          // S-042 見本（原子の図）：軌道 n に入るのは 2n² まで。あふれたら PageRank の低い物から1つ外へ。前提は必ず外（あふれた物の前提もさらに外へ）。
+          // 始まりをいちばん外にそろえるのはやめる（いちばん内の入れる軌道に）
+          for (const k of set) if (k !== id) ring.set(k, Ld(k));
+          if (window.FILM_ATOM_PACK) {   // 詰める形（比べる見本）：前提は「内に来ない」まで緩める（同じ軌道はよい）。作る順番の低い物から、軌道を 2n² まで順に埋める
+            const ks = set.filter(k => k !== id).sort((a, b) => Ld(a) - Ld(b) || (byId.get(b).pr || 0) - (byId.get(a).pr || 0));
+            let n = 1, c = 0; for (const k of ks) { if (c >= 2 * n * n) { n++; c = 0; } ring.set(k, n); c++; }
+          } else {
+          const push = () => { for (let ch = true; ch;) { ch = false; for (const k of set) if (k !== id) for (const c of dagKids(k)) if (ring.get(k) <= ring.get(c)) { ring.set(k, ring.get(c) + 1); ch = true; } } };
+          for (let n = 1; n < 400; n++) {
+            const M = set.filter(k => ring.get(k) === n);
+            if (!M.length && !set.some(k => ring.get(k) > n)) break;
+            if (M.length > 2 * n * n) { M.sort((a, b) => (byId.get(b).pr || 0) - (byId.get(a).pr || 0)); for (const k of M.slice(2 * n * n)) ring.set(k, n + 1); push(); }
+          }
+          }
+        }
       } else if (LAY0 === 'pr') {   // S-039 の比べる見本：PageRank だけで輪を決める（高い物ほど内側、5 輪）
         const ks = set.filter(k => k !== id).sort((a, b) => (byId.get(b).pr || 0) - (byId.get(a).pr || 0));
         ks.forEach((k, i) => ring.set(k, 1 + Math.floor(i * 5 / Math.max(1, ks.length))));
@@ -175,7 +191,7 @@
         const cmean = k => { const cs = (dist.kidsIn ? dist.kidsIn.get(k) || [] : [via.get(k)]).map(c => ang.get(c)).filter(a => a != null); if (!cs.length) return ang.get(via.get(k)) ?? 0; let x = 0, y = 0; for (const a of cs) { x += Math.cos(a); y += Math.sin(a); } return Math.atan2(y, x); };
         const key = new Map(layers[d].map(k => [k, cmean(k)]));
         const L = layers[d].filter(k => LAY !== 'C' || kindOf(k) !== 'wisdom').sort((a, b) => KR[kindOf(a)] - KR[kindOf(b)] || key.get(a) - key.get(b) || (byId.get(a).year ?? 0) - (byId.get(b).year ?? 0));
-        if (LAY === 'height' && L.length < 14) {
+        if ((LAY === 'height' || LAY === 'atom') && L.length < 14) {
           // 少ない輪（作る順番の輪はこれが多い）：使う物の角度の近くに置き、となりと最低 0.3 ラジアン空ける（縦に1列に並ばないように）
           const A = L.map(k => key.get(k)).sort((a, b) => a - b), gap = Math.min(0.3, 2 * Math.PI / Math.max(1, L.length));
           const byK = L.slice().sort((a, b) => key.get(a) - key.get(b));
@@ -194,7 +210,26 @@
     // 輪の間：その世代に並ぶ数（C では知恵を数えない）で広さを決める
     const ringN = d => LAY === 'C' ? layers[d].filter(k => kindOf(k) !== 'wisdom').length : layers[d].length;
     const RAD = [0]; for (let d = 1; d <= nL; d++) RAD[d] = RAD[d - 1] + Math.max(d === 1 ? (LAY === 'D' ? 92 : 64) : d === 2 && LAY === 'D' ? 84 : LAY === 'height' && ringN(d) < 14 && nL > 10 ? 18 : 34, Math.min(90, Math.max(1, ringN(d)) * (sectorKey ? 1.5 : 1.15)));
+    let bandW = null;
+    if (LAY === 'atom') {   // S-042：軌道ごとの帯（電子雲）。幅は外ほど広く（FILM_ATOM_W：sqrt＝√n、lin＝n に比例）
+      const lin = window.FILM_ATOM_W === 'lin'; bandW = [0];
+      for (let d = 1; d <= nL; d++) { bandW[d] = lin ? 7 * d : 16 * Math.sqrt(d); RAD[d] = d === 1 ? 56 + bandW[1] / 2 : RAD[d - 1] + bandW[d - 1] / 2 + bandW[d] / 2 + 8; }
+    }
     const P = new Map([...dist.keys()].map(k => { const d = dist.get(k), a = ang.get(k); return [k, [Math.cos(a) * RAD[d], Math.sin(a) * RAD[d]]]; }));
+    if (bandW) {
+      // 帯の中で半径も角度も少しずらす（番号から決まる）→ 重ならないように押し合いを数回（同じ帯の中だけ、帯からは出さない）
+      const hs = k => { let h = 2166136261; for (const ch of k + '#') h = Math.imul(h ^ ch.charCodeAt(0), 16777619) >>> 0; return h; };
+      for (let d = 1; d <= nL; d++) {
+        const L = layers[d], w = bandW[d] * 0.42, da = Math.PI / Math.max(1, L.length) * 0.6;
+        const pol = L.map(k => { const h = hs(k); return [k, RAD[d] + ((h % 1000) / 500 - 1) * w, ang.get(k) + (((h >>> 10) % 1000) / 500 - 1) * da]; });
+        for (let it = 0; it < 6; it++) for (let i = 0; i < pol.length; i++) for (let j = i + 1; j < pol.length; j++) {
+          const a = pol[i], b = pol[j], ax = Math.cos(a[2]) * a[1], ay = Math.sin(a[2]) * a[1], bx = Math.cos(b[2]) * b[1], by = Math.sin(b[2]) * b[1], dd = Math.hypot(ax - bx, ay - by);
+          if (dd < 14 && dd > 0) { const f = (14 - dd) / 2 / dd, dr = ((a[1] - b[1]) || 1) * f, dt = Math.atan2(Math.sin(a[2] - b[2]), Math.cos(a[2] - b[2])) * f;
+            a[1] = Math.max(RAD[d] - w, Math.min(RAD[d] + w, a[1] + dr)); b[1] = Math.max(RAD[d] - w, Math.min(RAD[d] + w, b[1] - dr)); a[2] += dt; b[2] -= dt; }
+        }
+        for (const [k, r, a] of pol) { ang.set(k, a); P.set(k, [Math.cos(a) * r, Math.sin(a) * r]); }
+      }
+    }
     let band = null;
     if (LAY === 'C') {   // 知恵（考え方・発見）はいちばん外の帯にまとめる（年の順に1周）
       const W = [...dist.keys()].filter(k => k !== id && kindOf(k) === 'wisdom').sort((a, b) => (byId.get(a).year ?? 0) - (byId.get(b).year ?? 0));
@@ -241,7 +276,7 @@
     // S-039：丸の大きさ＝PageRank（この図の中で上位 10% は大きく、次の 30% はそのまま、ほかは少し小さく）
     const prf = new Map(), byPr = [...dist.keys()].filter(k => k !== id).sort((a, b) => (byId.get(b).pr || 0) - (byId.get(a).pr || 0));
     byPr.forEach((k, i) => prf.set(k, i < byPr.length * 0.1 ? 1.3 : i < byPr.length * 0.4 ? 1 : 0.8));
-    return { id, dir, prf, jit, aha, all, dist, via, layers, ang, nL, RAD, P, roots, grp, groups, lit, hops, sectors, band, kindOf, LAY, rk, und, sectorKey, open: new Set((window.FILM_OPEN || '').split(',').filter(Boolean)), badges: [],   // FILM_OPEN：見本で開いた扇を写す用
+    return { id, dir, bandW, prf, jit, aha, all, dist, via, layers, ang, nL, RAD, P, roots, grp, groups, lit, hops, sectors, band, kindOf, LAY, rk, und, sectorKey, open: new Set((window.FILM_OPEN || '').split(',').filter(Boolean)), badges: [],   // FILM_OPEN：見本で開いた扇を写す用
       total: dist.size - 1, entries: [...dist.entries()] };
   }
   const nodeR = (S, d) => d === 0 ? 34 : Math.max(3, Math.min(15, 0.45 * (2 * Math.PI * S.RAD[d]) / S.layers[d].length));
@@ -446,6 +481,11 @@
         }
       }
       const trA = k => !TR || film || TR.from.has(k) ? 1 : ease((trEl - 250) / 450);   // 新しく出る丸・線はうすく出る
+      if (S.bandW) {   // S-042：軌道の帯（うすい雲、ぼかさない）
+        ctx.strokeStyle = C.sub; ctx.globalAlpha = 0.07;
+        for (let d = 1; d <= S.nL; d++) if (!film || t >= layerStart(d) - 300) { ctx.lineWidth = S.bandW[d]; ctx.beginPath(); ctx.arc(0, 0, S.RAD[d], 0, Math.PI * 2); ctx.stroke(); }
+        ctx.globalAlpha = 1;
+      }
       // 線
       let arrived = 0;
       ctx.lineWidth = px; ctx.strokeStyle = C.sub; ctx.globalAlpha = film ? 0.25 : 0.3; ctx.beginPath();
@@ -617,7 +657,7 @@
       // 混んだ輪の「＋数」：点だけになった輪は、輪の右下に数
       if (!film) {
         ctx.globalAlpha = 1; ctx.font = `700 ${12 * px}px ${C.font}`; ctx.textAlign = 'left'; ctx.lineWidth = 4 * px; ctx.strokeStyle = C.bg; ctx.fillStyle = C.sub;
-        for (let d = 1; d <= S.nL; d++) if (!S.sectors && S.LAY !== 'C' && S.LAY !== 'height' && nodeR(S, d) * sc < 3) { const t2x = `+${S.layers[d].length}`, x = Math.cos(0.6) * S.RAD[d] + 6 * px, y = Math.sin(0.6) * S.RAD[d] + 4 * px; ctx.strokeText(t2x, x, y); ctx.fillText(t2x, x, y); }   // 文字のまわりを地の色でふちどり（点と重ならないように）
+        for (let d = 1; d <= S.nL; d++) if (!S.sectors && S.LAY !== 'C' && S.LAY !== 'height' && S.LAY !== 'atom' && nodeR(S, d) * sc < 3) { const t2x = `+${S.layers[d].length}`, x = Math.cos(0.6) * S.RAD[d] + 6 * px, y = Math.sin(0.6) * S.RAD[d] + 4 * px; ctx.strokeText(t2x, x, y); ctx.fillText(t2x, x, y); }   // 文字のまわりを地の色でふちどり（点と重ならないように）
       }
       ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
       // 人の肖像（4 の場面）

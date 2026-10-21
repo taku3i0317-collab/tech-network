@@ -252,13 +252,36 @@
     const grp = k => byId.get(k).kind === 'idea' ? 'idea' : k === '0-01' ? 'tool' : 'nature';
     const groups = { nature: 0, tool: 0, idea: 0 }; for (const k of roots) groups[grp(k)]++;
     // S-034「あ！」の一言：始まり（自然から得た物を先に）から via をたどって真ん中のすぐ外（部品など）まで行く道。部品の違う物を2つ
+    // S-047：「あ！」の選び方。① 両端とも子どもが知っている物（終わりは network_meta の aha.kid）② 見た目がかけ離れている（部品 ↔ 原料）
+    //  ③ 道が短い（2〜4 個）④ 出典のある丸だけ。ユーザーが選んだ物（aha.chosen）があればそれ。どれも無いときは前の決め方（始まりから via をたどる）
     const aha = [];
-    { const cand = [];
+    const AH = G.aha || {}, KID = AH.kid || {};
+    if (dir !== 'up') {
+      const parRP = k => (parents.get(k) || []).filter(p => dist.has(p) && EK.get(p + '>' + k) !== 'u');
+      const bfs = (a, b) => { const prev = new Map([[a, null]]); let q = [a]; while (q.length) { const nq = []; for (const u of q) for (const p of parRP(u)) if (!prev.has(p)) { prev.set(p, u); if (p === b) { const path = [b]; let x = b; while ((x = prev.get(x)) !== null) path.push(x); return path.reverse(); } nq.push(p); } q = nq; } return null; };
+      const okPath = q => Array.isArray(q) && q.length > 1 && q.every(k => dist.has(k)) && q.every((k, i) => i === 0 || parRP(q[i - 1]).includes(k));
+      const mk = (part, end, text, q) => { const pth = okPath(q) ? q : bfs(part, end); return pth && { part, root: end, text, path: [...pth].reverse().concat(part === id ? [] : [id]) }; };
+      for (const c of (AH.chosen || {})[id] || []) { const x = mk(c.part, c.end, c.text, c.path); if (x) aha.push(x); }
+      if (!aha.length) {
+        const cand = [];
+        const parts = parRP(id).length ? parRP(id) : [id];
+        for (const p of parts) for (const e of Object.keys(KID)) if (dist.has(e) && e !== p) {
+          const pth = bfs(p, e); if (!pth) continue;
+          const n = pth.length, src = pth.every(k => byId.get(k).src);
+          const score = (byId.get(p).kind === 'product' ? 2 : 0) + (n >= 2 && n <= 4 ? 3 : n <= 6 ? 1 : 0) + (src ? 2 : 0);
+          cand.push({ p, e, n, score });
+        }
+        cand.sort((a, b) => b.score - a.score || a.n - b.n || (a.p + a.e < b.p + b.e ? -1 : 1));
+        const usedP = new Set(), usedE = new Set();
+        for (const c of cand) { if (usedP.has(c.p) || usedE.has(c.e)) continue; usedP.add(c.p); usedE.add(c.e); aha.push(mk(c.p, c.e)); if (aha.length >= 2) break; }
+      }
+    }
+    if (!aha.length) { const cand = [];
       for (const r of roots) { const path = [r]; let u = r; while (via.has(u) && via.get(u) !== id) { u = via.get(u); path.push(u); }
         if (u === r || via.get(u) !== id) continue;
         cand.push({ part: u, root: r, path: [...path, id], score: (byId.get(r).kind !== 'idea' ? 2 : 0) + (byId.get(u).kind === 'product' ? 1 : 0) }); }
       cand.sort((a, b) => b.score - a.score || b.path.length - a.path.length || (a.root < b.root ? -1 : 1));
-      const seen = new Set(); for (const c of cand) { if (seen.has(c.part)) continue; seen.add(c.part); aha.push(c); if (aha.length >= 2) break; }
+      const seen = new Set(); for (const c of cand) { if (dir === 'up') break; if (seen.has(c.part)) continue; seen.add(c.part); aha.push(c); if (aha.length >= 2) break; }
       if (dir === 'up') {   // 「あ！」：真ん中の先にある大事な物（AI までの道の上のモノを先に）。道は via をたどって真ん中まで
         const far = [...dist.keys()].filter(k => k !== id && byId.get(k).kind === 'product').sort((a, b) => (AIPATH.has(b) - AIPATH.has(a)) || dist.get(b) - dist.get(a));
         for (const k of far.slice(0, 2)) { const path = [k]; let u = k; while (via.has(u)) { u = via.get(u); path.push(u); } aha.push({ part: id, root: k, path }); }
@@ -355,7 +378,8 @@
     // S-046：分解が終わった所で止めて「あ！」を1つずつ見せる（字の数に合わせて 2.5〜3.5 秒、1回のムービーで2つまで）。
     //  t1〜t5 は「図の時間」（あ！の間は止まる）。STARTS・T5 は本当の時間（押すと次の場面へ）
     let P2, t1, t2, t3, t4, t5, STARTS, AHD = [], AH = 0, T5;
-    const ahaText = a => (S.dir === 'up' ? T.ahaUp : T.aha)(nm(byId.get(a.part)), nm(byId.get(a.root)));
+    const kidNm = k => (!EN() && G.aha && G.aha.kid && G.aha.kid[k]) || nm(byId.get(k));   // 子ども向けの呼び名（砂（石英）など）
+    const ahaText = a => a.text || (S.dir === 'up' ? T.ahaUp : T.aha)(nm(byId.get(a.part)), kidNm(a.root));
     const timing = () => {
       P2 = Math.max(1800, Math.min(6500, S.nL * 750)); t1 = 1400; t2 = t1 + P2 + 700; t3 = t2 + 1800; t4 = t3 + 2400; t5 = t4 + 2300;
       AHD = S.aha.slice(0, 2).map(a => Math.min(3500, Math.max(2500, [...ahaText(a)].length / 5.5 * 1000))); AH = AHD.reduce((x, y) => x + y, 0); T5 = t5 + AH;
@@ -742,7 +766,7 @@
           const L = S.dir === 'up' ? ahaNow.path.slice().reverse() : ahaNow.path.filter(k => k !== S.id).reverse();
           const show = L.length > 4 ? [L[0], L[1], null, L[L.length - 1]] : L;
           const esc = x => String(x).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
-          card.innerHTML = show.map(k => k === null ? `<span class="dots">…${L.length - 3}</span>` : `<figure>${byId.get(k).icon ? `<img src="${byId.get(k).icon}" alt="">` : ''}<figcaption>${esc(nm(byId.get(k)))}</figcaption></figure>`).join(`<span class="ar">${S.dir === 'up' ? '→' : '←'}</span>`);
+          card.innerHTML = show.map(k => k === null ? `<span class="dots">…${L.length - 3}</span>` : `<figure>${byId.get(k).icon ? `<img src="${byId.get(k).icon}" alt="">` : ''}<figcaption>${esc(k === ahaNow.root ? kidNm(k) : nm(byId.get(k)))}</figcaption></figure>`).join(`<span class="ar">${S.dir === 'up' ? '→' : '←'}</span>`);
           if (window.Furigana) { Furigana.apply(card); Furigana.apply(cap); }
         }
       }

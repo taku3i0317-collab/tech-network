@@ -17,7 +17,20 @@
    "4": ""
   },
   "sources": [],
-  "refs": [],
+  "refs": [
+   {
+    "title": "F49. シートを宙に浮かせてゲートで包む（GAA）［9-38］",
+    "answer": "FinFET でもさらに細くすると、フィンの底の方で電流が漏れる。そこでシリコンと、シリコンゲルマニウム（SiGe）を交互に重ねた膜を育て、フィンにしたあと SiGe だけを溶かして抜くと、Si の薄いシートが何枚も宙に浮く。そのまわりをゲートでぐるりと包む（ゲート・オール・アラウンド）と、電流をしっかり止められる。2022年6月にサムスンが 3nm の世代で量産を始め、2025年ごろから TSMC・インテルも使う。",
+    "hee": {
+     "1": "トランジスタは「平屋」→「立てた板（FinFET）」→「重ねたシートを包む（GAA）」と形を変えてきた。",
+     "2": "SiGe と Si は、HCl の気体などで SiGe だけを選んで削れる。だから重ねたまま形を作って、あとで抜ける。",
+     "3": "シートは厚さ数nm、3枚重ねが多い。",
+     "4": "次は n 型と p 型のトランジスタを上下に重ねる形（CFET）が研究されている。"
+    },
+    "certainty": "サムスン 3nm GAA 2022年6月 ◎／TSMC N2 2025 ○",
+    "basis": "Wikipedia「Multigate device」（GAAFET）https://en.wikipedia.org/wiki/Multigate_device （英語）"
+   }
+  ],
   "people": [],
   "media": [],
   "requires": [
@@ -51,9 +64,9 @@
   "real": "2022年6月 サムスンが 3nm（MBCFET）で初期生産を開始、2025頃〜 TSMC・インテルも（TSMC N2 は2025年第4四半期に量産開始と報道）。チャネルを薄いシート状にして4方向をゲートで囲む"
  },
  "game": {
-  "status": "❓",
-  "buildable_now": true,
-  "play": "",
+  "status": "✅",
+  "buildable_now": false,
+  "play": "重",
   "missing": "",
   "item": null,
   "recipes": [],

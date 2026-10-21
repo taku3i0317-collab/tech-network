@@ -29,6 +29,18 @@
     },
     "certainty": "1982 IBM の化学増幅レジスト ◎／ノボラックが 248nm で不透明 ◎／材料の工業の作り方の細部 ○",
     "basis": "Wikipedia「Photoresist」（Chemical amplification）https://en.wikipedia.org/wiki/Photoresist 、Wikipedia「Photoacid」https://en.wikipedia.org/wiki/Photoacid （英語）"
+   },
+   {
+    "title": "C63. 光の粒が少なすぎる光で焼く（EUV レジスト）［2-33］",
+    "answer": "EUV（13.5nm）の光の粒（光子）1つのエネルギーは約92eV で、ArF（193nm）の約14倍ある。そのため同じ量の光でも光子の数は約14分の1しかなく、場所によって当たる数がばらつく（ショットノイズ）。EUV のレジストは化学増幅レジストを使い、光子がたたき出した電子が光酸発生剤をこわして酸を出す。光酸発生剤を多めに入れ、加熱のあいだに横へ広がる酸は、塩基のクエンチャーで止めて線をシャープに保つ。それでもたまに線が切れたりつながったりする「確率的な欠陥」が EUV のいちばんの悩みで、2010年代からはスズなどの金属酸化物のレジスト（EUV をよく吸う）も研究されている。",
+    "hee": {
+     "1": "EUV の光子は少なすぎて、1つの点に何個当たるかがばらつく。",
+     "2": "レジストに、わざと酸を止める塩基（クエンチャー）を入れる。",
+     "3": "本物の EUV レジストの光酸発生剤は、チップを汚さないように金属を含まない物を使う。",
+     "4": "EUV の光源もスズ、新しいレジストの候補もスズ。"
+    },
+    "certainty": "光子のエネルギー・ショットノイズ・クエンチャー ◎／金属酸化物レジストの実用化の時期 △",
+    "basis": "- Wikipedia「Extreme ultraviolet lithography」：https://en.wikipedia.org/wiki/Extreme_ultraviolet_lithography"
    }
   ],
   "people": [],

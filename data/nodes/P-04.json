@@ -52,7 +52,7 @@
  },
  "game": {
   "status": "❓",
-  "buildable_now": false,
+  "buildable_now": true,
   "play": "作品：設計図を入れると、光で樹脂を1層ずつ固めて小さな模型ができる",
   "missing": "光で固まる樹脂（光重合・光硬化樹脂）, CAD（コンピュータで形を描く）",
   "item": null,

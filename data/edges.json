@@ -2128,6 +2128,34 @@
 "or": false
 },
 {
+"from": "0-06",
+"to": "2-65",
+"kind": "requires",
+"group": 0,
+"or": false
+},
+{
+"from": "11-08",
+"to": "2-65",
+"kind": "requires",
+"group": 1,
+"or": false
+},
+{
+"from": "2-65",
+"to": "2-66",
+"kind": "requires",
+"group": 0,
+"or": false
+},
+{
+"from": "2-09",
+"to": "2-66",
+"kind": "requires",
+"group": 1,
+"or": false
+},
+{
 "from": "0-02",
 "to": "3-01",
 "kind": "requires",

@@ -1,6 +1,6 @@
 # tech-network — A map of technology / 技術の地図
 
-**What:** a CC0 knowledge graph of 642 technologies, products and discoveries — from stone tools to EUV lithography and AI — connected by "what cannot be made without what" (2078 links), each with years, people, sources and a certainty mark.
+**What:** a CC0 knowledge graph of 644 technologies, products and discoveries — from stone tools to EUV lithography and AI — connected by "what cannot be made without what" (2082 links), each with years, people, sources and a certainty mark.
 **For whom:** anyone who wants to know how our technical civilization was built, or what it would take to make something (a smartphone, a transistor, an EUV machine) from scratch — students, teachers, curious people, and AI systems that need checked prerequisites.
 **License:** CC0 1.0 (public domain). Use it for anything, no attribution required.
 
@@ -59,7 +59,7 @@ Inspiration (separate from the scientific sources): Jiro Aruma (Yakuri Kyoshitsu
 
 # 日本語
 
-**何か：** 石器から EUV 露光装置・AI まで、642 の技術・モノ・発見を「何が無いと何が作れないか」（2078 のつながり）で結んだ地図。1つ1つに年・人物・出典・確かさの印。
+**何か：** 石器から EUV 露光装置・AI まで、644 の技術・モノ・発見を「何が無いと何が作れないか」（2082 のつながり）で結んだ地図。1つ1つに年・人物・出典・確かさの印。
 **だれのため：** 技術の文明がどうやってできたかを知りたい人、何か（スマホ・トランジスタ・EUV）をゼロから作るには何が要るかを知りたい人。学生・先生・好奇心のある人、確かめた前提が要る AI。
 **ライセンス：** CC0 1.0（パブリックドメイン）。名前を書かなくても、何にでも自由に使えます。
 

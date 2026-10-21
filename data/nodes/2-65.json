@@ -1,0 +1,71 @@
+{
+ "id": "2-65",
+ "history": {
+  "name": "アマニ油とワニス",
+  "name_en": null,
+  "kind": "tech",
+  "trunk": "2",
+  "trunk_name": "化学",
+  "year": 1400,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "アマニ油をしみこませた布は自然に燃えることがある（出典：Wikipedia「Linseed oil」「Drying oil」）",
+  "hee1_en": null,
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "C83. 空気で固まる油（アマニ油とワニス）［2-65］",
+    "answer": "亜麻の種は重さの約4割が油で、しぼるとアマニ油がとれる。アマニ油はリノレン酸など二重結合の多い脂肪酸が多く、空気の酸素と反応して分子どうしがつながり、固い膜になる（乾性油）。煮るとあらかじめ少しつながってねばるワニスになり、速く乾く。油絵の具・ニス・印刷のインク・床材のリノリウムに使われてきた。",
+    "hee": {
+     "1": "アマニ油をしみこませた布は、空気で熱を出して自然に燃えることがある。",
+     "2": "油絵の具は、顔料をアマニ油でねった物。",
+     "3": "「乾く」と言っても水が蒸発するのではなく、酸素と反応して固まる。",
+     "4": "リノリウムの名前は、ラテン語の「亜麻」と「油」から。"
+    },
+    "certainty": "乾性油のしくみ・自然発火 ◎",
+    "basis": "- Wikipedia「Linseed oil」：https://en.wikipedia.org/wiki/Linseed_oil"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "0-06"
+    ]
+   ],
+   [
+    [
+     "11-08"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "亜麻の種は約4割が油。リノレン酸など二重結合の多い脂肪酸が空気の酸素で固まる（乾性油）。煮ると重合してねばるワニスになる。油絵の具・印刷のインク・リノリウムの材料"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "軽",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": null
+}

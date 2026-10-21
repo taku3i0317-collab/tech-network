@@ -1,0 +1,71 @@
+{
+ "id": "2-66",
+ "history": {
+  "name": "すすと印刷のインク",
+  "name_en": null,
+  "kind": "tech",
+  "trunk": "2",
+  "trunk_name": "化学",
+  "year": 1450,
+  "year_range": "紀元前〜1450",
+  "year_uncertain": true,
+  "hee1": "活字のインクが水でなく油なのは、金属にはじかれないため（出典：Wikipedia「Printing ink」「Carbon black」）",
+  "hee1_en": null,
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "C84. 金属の活字につく黒いインク（すすと油性インク）［2-66］",
+    "answer": "油や獣脂を空気の足りない炎で燃やすと、炭素が燃えきらずに細かいつぶ（すす、ランプブラック）になってけむりに出る。水でねった墨は金属の活字からはじかれるが、すすを油のワニスでねったインクは金属によくつき、紙に写ると空気で固まってにじまない。1450年ごろ、グーテンベルクはこの油性のインクと、鉛・錫・アンチモンの合金の活字、ぶどうしぼり機を改造した印刷機で本を刷った。今のインクの黒は、石油から作るカーボンブラック。",
+    "hee": {
+     "1": "活字のインクが水でなく油なのは、金属にはじかれないため。",
+     "2": "日本の墨は、油煙か松煙のすすを、にかわでかためた物。",
+     "3": "すすのつぶは数十ナノメートルと、とても小さい。",
+     "4": "グーテンベルクの年は資料で少し揺れる ⚠️。"
+    },
+    "certainty": "油性インクのしくみ・すす ◎／グーテンベルクの年 ○",
+    "basis": "- Wikipedia「Printing ink」：https://en.wikipedia.org/wiki/Printing_ink"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "2-65"
+    ]
+   ],
+   [
+    [
+     "2-09"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "空気の足りない炎のすす（炭素の細かいつぶ）を油のワニスでねると、金属の活字につき紙で固まる油性のインクになる。1450年ごろグーテンベルクの活版印刷のインク。墨は油煙・松煙をにかわでかためた物"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "軽",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": null
+}

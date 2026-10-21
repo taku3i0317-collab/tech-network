@@ -52,7 +52,7 @@
  },
  "game": {
   "status": "❓",
-  "buildable_now": false,
+  "buildable_now": true,
   "play": "実験：炭素の量のちがう鉄を磨いて顕微鏡で見て、模様をくらべる",
   "missing": "",
   "item": null,

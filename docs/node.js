@@ -1,7 +1,7 @@
 // node.html とノードのページ nodes/*.html の動き（S-054 で node.html から分けた）
 (async function () {
   // 軽いデータと重いデータを1つにまとめる（肖像は人物ごとに1か所にまとめてあるので番号から戻す）
-  const G = window.TECH_GRAPH, D = window.TECH_DETAIL, kindName = { r: 'requires', u: 'understanding', e: 'enables', p: 'part', t: 'tool', s: 'same' };
+  const G = window.TECH_GRAPH, D = window.TECH_DETAIL, kindName = { r: 'requires', u: 'understanding', e: 'enables', p: 'part', t: 'tool', s: 'same', i: 'improves', b: 'byproduct', d: 'demand', x: 'replaces' };
   const data = {
     goal: G.goal, year_inversions: D.year_inversions,
     nodes: G.nodes.map(n => { const m = { ...n, ...D.nodes[n.id] }; m.people = (m.people || []).map(p => p.pi != null ? { ...p, portrait: D.portraits[p.pi] } : p); return m; }),
@@ -244,8 +244,9 @@
     ].filter(([ids]) => ids && ids.length).map(([ids, h, note]) => `<p class="muted" style="margin-top:8px">${h}${note ? `（${note}）` : ''}</p>${chips(ids)}`).join('');
     // 前提でも理解でもないつながり（O-019）：つくるのに使った道具・同じしくみで回る物。説明の文と出典つき
     const XL = (D.extra_links || []).filter(x => x.from === id || x.to === id);
-    const xlLabel = x => x.kind === 'tool' ? (x.to === id ? 'つくるのに使った道具' : '道具として使われた先') : '同じしくみで回る';
-    const extraHtml = XL.map(x => `<p class="muted" style="margin-top:8px">${xlLabel(x)} <small class="term">（${x.kind === 'tool' ? '前提ではない：無くても作れたが、設計・計算に使われた' : '前提ではない：同じしくみ'}）</small></p>`
+    const XLL = { tool: ['つくるのに使った道具', '道具として使われた先', '前提ではない：無くても作れたが、設計・計算に使われた'], same: ['同じしくみで回る', '同じしくみで回る', '前提ではない：同じしくみ'], improves: ['これが改良した元', 'これを改良した物', '前の物を良くした'], byproduct: ['これが副産物としてできた元', 'これを作る時に一緒にできた物', '副産物'], demand: ['これの需要を生んだ物', 'これが需要を生んだ物', '必要が生まれて作られた'], replaces: ['これが置き換えた物', 'これを置き換えた物', '後から取って代わった'] };   // S-059
+    const xlLabel = x => (XLL[x.kind] || XLL.same)[x.to === id ? 0 : 1] + (x.certainty === '△' ? '（△ 未確認）' : '');
+    const extraHtml = XL.map(x => `<p class="muted" style="margin-top:8px">${xlLabel(x)} <small class="term">（${(XLL[x.kind] || XLL.same)[2]}）</small></p>`
       + `<div class="chips">${chip(x.from === id ? x.to : x.from)}</div><p class="muted">${esc(x.note)}${(x.sources || []).map(u => MK(noteNo(srcHtml(u)))).join('')}</p>`).join('');
     // 誤りの報告：.github/ISSUE_TEMPLATE の3つのひな形（GitHub の Issue フォーム）を、ノード番号を入れた状態で開く
     const issue = (template, tag) => `${REPO}/issues/new?` + new URLSearchParams({

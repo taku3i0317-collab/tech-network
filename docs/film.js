@@ -180,6 +180,9 @@
           const A = L.map(k => key.get(k)).sort((a, b) => a - b), gap = Math.min(0.3, 2 * Math.PI / Math.max(1, L.length));
           const byK = L.slice().sort((a, b) => key.get(a) - key.get(b));
           for (let i = 1; i < A.length; i++) if (A[i] - A[i - 1] < gap) A[i] = A[i - 1] + gap;
+          // 1つ内の輪の丸とほぼ同じ角度なら、左右に交互にずらす（1本道の前提が縦の1列に重ならないように）
+          const inner = d > 1 ? layers[d - 1].map(k => ang.get(k)).filter(a => a != null) : [];
+          for (let i = 0; i < A.length; i++) if (inner.some(b => Math.abs(Math.atan2(Math.sin(A[i] - b), Math.cos(A[i] - b))) < 0.25)) A[i] += (d % 2 ? 1 : -1) * 0.34;
           byK.forEach((k, i) => ang.set(k, A[i]));
         } else {
           const off = d % 2 ? 0 : Math.PI / Math.max(1, L.length);
@@ -190,7 +193,7 @@
     const nL = layers.length - 1;
     // 輪の間：その世代に並ぶ数（C では知恵を数えない）で広さを決める
     const ringN = d => LAY === 'C' ? layers[d].filter(k => kindOf(k) !== 'wisdom').length : layers[d].length;
-    const RAD = [0]; for (let d = 1; d <= nL; d++) RAD[d] = RAD[d - 1] + Math.max(d === 1 ? (LAY === 'D' ? 92 : 64) : d === 2 && LAY === 'D' ? 84 : LAY === 'height' && ringN(d) < 14 ? 18 : 34, Math.min(90, Math.max(1, ringN(d)) * (sectorKey ? 1.5 : 1.15)));
+    const RAD = [0]; for (let d = 1; d <= nL; d++) RAD[d] = RAD[d - 1] + Math.max(d === 1 ? (LAY === 'D' ? 92 : 64) : d === 2 && LAY === 'D' ? 84 : LAY === 'height' && ringN(d) < 14 && nL > 10 ? 18 : 34, Math.min(90, Math.max(1, ringN(d)) * (sectorKey ? 1.5 : 1.15)));
     const P = new Map([...dist.keys()].map(k => { const d = dist.get(k), a = ang.get(k); return [k, [Math.cos(a) * RAD[d], Math.sin(a) * RAD[d]]]; }));
     let band = null;
     if (LAY === 'C') {   // 知恵（考え方・発見）はいちばん外の帯にまとめる（年の順に1周）
@@ -654,7 +657,7 @@
     resize();
     if (film) { skip.textContent = T.skip; root.setAttribute('aria-label', (DIR === 'up' ? T.askUp : T.ask)(byId.get(id))); req(); }
     else toCenter(id, false);
-    return { center: k => toCenter(k, false), close, get id() { return S.id; }, get mode() { return mode; } };
+    return { center: k => toCenter(k, false), close, get id() { return S.id; }, get mode() { return mode; }, get view() { return view; } };   // view：真ん中の画面の位置（S-041 の見本が使う）
   }
   const play = (id, opt) => open(id, opt, true);
   const playUp = (id, opt) => open(id, { ...opt, dir: 'up' }, true);

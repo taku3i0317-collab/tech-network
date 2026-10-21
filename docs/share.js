@@ -6,7 +6,7 @@
   const G = window.TECH_GRAPH;
   const byId = new Map(G.nodes.map(n => [n.id, n]));
   const parents = new Map();
-  for (const [f, t, k] of G.edges) if (k === 'r' || k === 'e' || k === 'p') (parents.get(t) || parents.set(t, []).get(t)).push(f);
+  for (const [f, t, k] of G.edges) if (k === 'r' || k === 'e' || k === 'p' || k === 'u') (parents.get(t) || parents.set(t, []).get(t)).push(f);   // 中心図・ムービーと同じ数え方（S-031：なぜ動くかの知恵も）
   const EN = () => document.documentElement.lang === 'en';
   const nm = n => (EN() && n.name_en) || n.name;
   function ancestors(id) {

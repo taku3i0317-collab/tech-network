@@ -17,7 +17,20 @@
    "4": ""
   },
   "sources": [],
-  "refs": [],
+  "refs": [
+   {
+    "title": "F47. 青い光と黄色い粉で白（白色 LED）［B-20］",
+    "answer": "長いあいだ作れなかった明るい青色 LED を、1990年代に日本の研究者たちが窒化ガリウムで実用にした（2014年ノーベル物理学賞）。1996年には日本の会社が、青色 LED に、青い光を黄色に変える蛍光体（YAG:Ce）をかぶせた白色 LED を製品にした。青と黄色が混ざって白く見える。液晶は自分で光らないので、白色 LED の光を透明な板で広げて裏から照らす（バックライト）。",
+    "hee": {
+     "1": "白い LED の中身は青い LED。黄色く光る粉で白に見せている。",
+     "2": "窒化ガリウムを p 型にするマグネシウムは、熱で処理して初めて働く。これが見つかって明るい青色 LED ができた。",
+     "3": "2000年代後半、画面の裏の光は水銀の入った蛍光管から白色 LED に置きかわった。",
+     "4": "YAG はイットリウム・アルミニウム・ガーネットという宝石のような結晶。少しのセリウムが光の色を変える。"
+    },
+    "certainty": "青色 LED の実用化 1993 前後・ノーベル賞 2014 ◎／白色 LED の製品 1996 ◎／LED バックライトへの置きかわり 2000年代後半 ○",
+    "basis": "Wikipedia「Light-emitting diode」（Blue and white LEDs）https://en.wikipedia.org/wiki/Light-emitting_diode 、Wikipedia「Yttrium aluminium garnet」https://en.wikipedia.org/wiki/Yttrium_aluminium_garnet （英語）"
+   }
+  ],
   "people": [],
   "media": [],
   "requires": [
@@ -43,9 +56,9 @@
   "real": "1993年に明るい青色 LED（窒化ガリウム）が日亜化学でできた。1996年、日亜化学が青色 LED に黄色く光る蛍光体（YAG:Ce）を組み合わせた白色 LED を製品にした。液晶は自分で光らないので、裏や横から白色 LED の光を導光板で広げて照らす（2000年代後半に冷陰極蛍光管から置きかわった）"
  },
  "game": {
-  "status": "❓",
-  "buildable_now": true,
-  "play": "",
+  "status": "✅",
+  "buildable_now": false,
+  "play": "軽（白い明かり）＋スマホの部品",
   "missing": "",
   "item": null,
   "recipes": [],

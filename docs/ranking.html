@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- ホーム画面に置けるアプリ（S-026） -->
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#faf7f0">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" href="app_icon_192.png">
+<title>縁の下の力持ちランキング — 技術ネットワーク</title>
+<!-- S-039：PageRank（ブリンとペイジ 1998）で「多くの物に、間接にも使われている」技術を並べる。点は tools/gen_tree_views.py が計算（tech_network_graph.js の pr）。
+     上位 20（全体）と、分野ごとの上位 5。「〇〇個の物を支えている」＝その物から生まれた物の数（中心図の「これが生んだ物」と同じ数え方） -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&family=DotGothic16&display=swap">
+<link rel="stylesheet" href="design.css">
+<style>
+* { box-sizing: border-box; }
+body { margin: 0; line-height: 1.7; }
+.wrap { max-width: 760px; margin: 0 auto; padding: 12px 16px 48px; }
+nav { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; font-size: 13px; padding: 6px 0 10px; }
+nav a { text-decoration: none; }
+.muted { color: var(--sub); font-size: 13px; }
+ol.rank { list-style: none; padding: 0; margin: 8px 0 18px; display: grid; gap: 8px; }
+ol.rank li { display: grid; grid-template-columns: 2.2em 40px 1fr; gap: 4px 10px; align-items: center; border: 1px solid var(--line); border-radius: var(--radius); background: var(--panel); padding: 8px 12px; }
+ol.rank .no { font-family: var(--font-pixel); font-size: 20px; color: var(--accent); text-align: right; }
+ol.rank img { width: 40px; height: 40px; image-rendering: pixelated; }
+ol.rank .name { font-weight: 700; }
+ol.rank .name a { text-decoration: none; color: var(--ink); }
+ol.rank .sup { color: var(--sub); font-size: 13px; }
+ol.rank .hee { grid-column: 2 / 4; font-size: 14px; }
+ol.rank .act { grid-column: 2 / 4; display: flex; gap: 6px; flex-wrap: wrap; }
+details.trunk { border-top: 1px solid var(--line); padding: 6px 0; }
+details.trunk summary { cursor: pointer; font-weight: 700; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav><a href="network.html" id="back">← 技術ネットワーク図へ</a><button type="button" id="langBtn" class="btn" lang="en">English</button><button type="button" id="furiBtn" class="btn" aria-pressed="false">ふりがな</button></nav>
+  <h1 id="t">縁の下の力持ちランキング</h1>
+  <p class="muted" id="lead">たくさんの物に、間接にも使われている技術ほど上に来ます（Google の検索の順番を決めるのと同じ「PageRank」という計算で）。数は、その物から生まれた物の数です。</p>
+  <h2 id="h1">全体の上位 20</h2>
+  <ol class="rank" id="top"></ol>
+  <h2 id="h2">分野ごとの上位 5</h2>
+  <div id="trunks"></div>
+</div>
+<script src="tech_network_graph.js"></script>
+<script src="tech_network_detail.js"></script>
+<script src="film.js"></script>
+<script>
+(function () {
+  let EN = false;
+  try { EN = localStorage.getItem('tn-lang') === 'en'; } catch (e) { /* 保存できない環境 */ }
+  document.documentElement.lang = EN ? 'en' : 'ja';
+  const b = document.getElementById('langBtn'); b.textContent = EN ? '日本語' : 'English';
+  b.onclick = () => { try { localStorage.setItem('tn-lang', EN ? 'ja' : 'en'); } catch (e) { /* 保存できない */ } location.reload(); };
+  const G = window.TECH_GRAPH, D = window.TECH_DETAIL.nodes;
+  const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  const nm = n => (EN && n.name_en) || n.name;
+  if (EN) {
+    document.title = 'Unsung heroes — Technology network';
+    document.getElementById('back').textContent = '← Technology network';
+    document.getElementById('t').textContent = 'Unsung heroes ranking';
+    document.getElementById('lead').textContent = 'Technologies used, even indirectly, by many things rank higher (the same "PageRank" calculation that ordered Google search results). The number is how many things came from it.';
+    document.getElementById('h1').textContent = 'Top 20 overall';
+    document.getElementById('h2').textContent = 'Top 5 in each field';
+  }
+  const item = (n, i) => {
+    const d = D[n.id] || {}, hee = (EN && d.hee1_en) || d.hee1 || '', k = Film.countOf(n.id, 'up');
+    return `<li><span class="no">${i + 1}</span>${n.icon ? `<img src="${n.icon}" alt="">` : '<span></span>'}<div><div class="name"><a href="node.html#${n.id}">${esc(nm(n))}</a></div>
+      <div class="sup">${EN ? `supports ${k} things` : `${k} 個の物を支えている`}・PageRank ${n.pr}</div></div>
+      ${hee ? `<div class="hee">${esc(hee.replace(/（[^（）]*出典[:：][^）]*）/g, ''))}</div>` : ''}
+      <div class="act">${k ? `<button type="button" class="btn" data-up="${n.id}">${EN ? '▶ What it made' : '▶ これが生んだ物'}</button>` : ''}<a class="btn" href="network.html#center/${n.id}">${EN ? 'Ring view' : '中心図'}</a></div></li>`;
+  };
+  const byPr = G.nodes.slice().sort((a, b) => b.pr - a.pr);
+  document.getElementById('top').innerHTML = byPr.slice(0, 20).map(item).join('');
+  const trunks = [...new Set(G.nodes.map(n => n.trunk))].filter(t => t !== 'P' && t !== 'I');
+  document.getElementById('trunks').innerHTML = trunks.map(t => {
+    const L = byPr.filter(n => n.trunk === t).slice(0, 5), tn = L[0] && L[0].trunk_name;
+    return L.length ? `<details class="trunk"><summary>${esc(tn)}</summary><ol class="rank">${L.map(item).join('')}</ol></details>` : '';
+  }).join('');
+  document.addEventListener('click', e => { const x = e.target.closest('[data-up]'); if (x) Film.playUp(x.dataset.up, { onClose: id => { location.href = 'node.html#' + id; } }); });
+})();
+</script>
+<script src="ui_icons.js"></script>
+<script>UiIcons.init();</script>
+<script src="vendor/budoux-ja.min.js"></script>
+<script src="linebreak.js"></script>
+<script>LineBreak.init();</script>
+<script src="furigana.js"></script>
+<script>Furigana.init(document.getElementById('furiBtn'));</script>
+<script src="pwa.js"></script>
+</body>
+</html>

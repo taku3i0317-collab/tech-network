@@ -184,6 +184,7 @@ body.focusMode .intro { display: none; }
     <a class="btn" href="glossary.html" id="glossBtn">用語集</a>
     <button type="button" class="btn" data-film="B-10" id="filmAgain">はじめの動きをもう一度</button>
     <button type="button" class="btn" id="installBtn" hidden>ホーム画面に追加</button>
+    <a class="btn" href="ranking.html" id="rankBtn">縁の下の力持ちランキング</a>
     <a class="btn" href="credits.html" id="creditsBtn">影響を受けた作品</a>
     <select id="trunk" aria-label="分野でしぼる"><option value="">すべての分野</option></select>
     <label><input type="checkbox" id="all"> すべての技術</label>
@@ -256,7 +257,7 @@ body.focusMode .intro { display: none; }
     document.getElementById('intro').innerHTML = 'A map of how about 600 technologies, products and discoveries connect, from stone tools to AI: "what cannot be made without what". <b>Start by clicking a product (a big circle).</b> <small>(Only names and the first fun fact are in English for now; other text is Japanese.)</small>';
     for (const id of ['aiBtn', 'legendBtn', 'layoutBtn', 'toMap', 'toNode', 'toFocus', 'filmAgain', 'installBtn']) { const b = document.getElementById(id); b.textContent = tr(b.textContent); }
     document.querySelector('a[href="people.html"]').textContent = tr('人物の一覧');
-    document.getElementById('glossBtn').textContent = 'Glossary'; document.getElementById('creditsBtn').textContent = 'Inspirations';
+    document.getElementById('glossBtn').textContent = 'Glossary'; document.getElementById('creditsBtn').textContent = 'Inspirations'; document.getElementById('rankBtn').textContent = 'Unsung heroes ranking';
     document.querySelector('#trunk option').textContent = tr('すべての分野');
     for (const l of document.querySelectorAll('header label')) { const tx = l.lastChild; if (tx && tx.nodeType === 3) tx.textContent = tr(tx.textContent); }
   }

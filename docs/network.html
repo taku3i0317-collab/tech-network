@@ -107,6 +107,37 @@ small.term { color: var(--sub); font-weight: 400; }
   .hint { top: 8px; bottom: auto; right: 10px; left: 10px; text-align: center; }   /* S-012：下の「？図の見方」と重ならないよう上に */
   header h1 { display: none; }   /* スマホは「☰ メニュー」と検索だけ（S-012） */
 }
+/* S-015（ユーザーの決定：案B を基本、「全体の地図」で案A）：スマホは「近所の図」から。選んだ技術を真ん中に、前提を上・次の技術を下に大きなボタンで */
+.focus { position: absolute; inset: 0; z-index: 6; overflow: auto; background: var(--bg); padding-bottom: 76px; }
+.focus[hidden], .focus [hidden] { display: none !important; }
+.focus .time { position: relative; height: 34px; margin: 10px 12px 0; border-radius: 8px; background: linear-gradient(90deg, var(--band-a), var(--band-b)); font-size: 10px; color: var(--sub); }
+.focus .time span { position: absolute; top: 18px; transform: translateX(-50%); }
+.focus .time i { position: absolute; top: 2px; width: 3px; height: 16px; margin-left: -1px; background: var(--hl); border-radius: 2px; }
+.focus .time i.p { background: var(--sub); opacity: .6; height: 10px; top: 5px; }
+.focus h3 { font-size: 13px; color: var(--sub); margin: 14px 12px 6px; }
+.focus .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 0 12px; }
+.focus .tile { display: flex; align-items: center; gap: 8px; min-height: 52px; padding: 6px 8px; border: 1px solid var(--line); border-radius: 12px; background: var(--panel); color: var(--ink); text-decoration: none; font-size: 13px; line-height: 1.3; text-align: left; font-family: var(--font); cursor: pointer; }
+.focus .tile img { width: 32px; height: 32px; image-rendering: pixelated; flex: none; }
+.focus .tile .em { width: 32px; text-align: center; font-size: 22px; flex: none; }
+.focus .tile small { display: block; color: var(--sub); font-size: 11px; }
+.focus .tile.done { border-color: var(--ok, #2e8b57); border-width: 2px; }
+.focus .me { margin: 6px 12px; padding: 12px; border: 2px solid var(--hl); border-radius: 16px; background: var(--panel); }
+.focus .me .top { display: flex; gap: 12px; align-items: center; }
+.focus .me .top img { width: 64px; height: 64px; image-rendering: pixelated; flex: none; }
+.focus .me .top .em { font-size: 44px; }
+.focus .me h2 { font-size: 18px; margin: 0; }
+.focus .me .meta, .focus .muted { color: var(--sub); font-size: 13px; }
+.focus .me p { margin: 8px 0 0; }
+.focus .arrow { text-align: center; color: var(--hl); font-size: 18px; line-height: 1; margin: 4px 0; }
+.focus .more { display: block; margin: 8px 12px 0; font: inherit; font-size: 13px; color: var(--accent); background: none; border: 0; padding: 4px 0; cursor: pointer; }
+.focus .lead { margin: 12px; font-size: 14px; }
+.fbar { position: fixed; left: 0; right: 0; bottom: 0; z-index: 7; display: flex; gap: 8px; padding: 8px 12px calc(8px + env(safe-area-inset-bottom)); background: var(--panel); border-top: 1px solid var(--line); }
+.fbar[hidden] { display: none; }
+.fbar a, .fbar button { flex: 1; display: flex; align-items: center; justify-content: center; min-height: 44px; border: 1px solid var(--accent); border-radius: 10px; color: var(--accent); background: var(--panel); text-decoration: none; font: inherit; font-weight: 700; font-size: 14px; cursor: pointer; }
+.toFocus { position: absolute; left: 10px; top: 52px; z-index: 4; }
+.toFocus[hidden] { display: none; }
+body.focusMode .intro { display: none; }
+@media (max-width: 700px) { .intro { display: none; } }   /* スマホ：はじめの説明は近所の図のはじめの画面に出すので、図の上には出さない */
 </style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -138,6 +169,7 @@ small.term { color: var(--sub); font-weight: 400; }
     <canvas id="cv" role="img" aria-label="技術ネットワーク図"></canvas>
     <div class="hint" id="hint"></div>
     <button type="button" class="btn legendBtn" id="legendBtn" aria-expanded="false">？ 図の見方</button>
+    <button type="button" class="btn toFocus" id="toFocus" hidden>← 近所の図</button>
     <div class="legend" id="legend" hidden>
       <span>大きな丸＝モノ（押すと、使われている技術が光る）</span>
       <span><svg width="14" height="14"><path d="M7 1L13 7L7 13L1 7Z" fill="none" stroke="#8e5bd6" stroke-width="1.6"/></svg>発見・考え方</span>
@@ -152,7 +184,9 @@ small.term { color: var(--sub); font-weight: 400; }
     </div>
   </div>
   <aside id="card" aria-live="polite"></aside>
+  <div class="focus" id="focus" hidden></div>
 </main>
+<div class="fbar" id="fbar" hidden><button type="button" id="toMap">全体の地図</button><a id="toNode" href="node.html">詳しく見る</a></div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 <script src="tech_network_graph.js"></script>
 <script src="glossary.js"></script>
@@ -174,6 +208,11 @@ small.term { color: var(--sub); font-weight: 400; }
   try { LANG = localStorage.getItem('tn-lang') === 'en' ? 'en' : 'ja'; } catch (e) { /* 保存できない環境 */ }
   const EN_UI = { 'つながりで見る': 'Network view', '時間で見る': 'Timeline view', 'AI までの道': 'Road to AI', '人物の一覧': 'People',
     'すべての分野': 'All fields', ' すべての技術': ' All technologies', ' 今すぐ作れるだけ': ' Buildable now', ' なぜ動くかの線': ' "Why it works" lines',
+    // S-015：スマホの近所の図
+    'ほか': 'and', '全部見る': 'show all', '石器から AI まで、約600の技術・モノ・発見が「何が無いと何が作れないか」でつながっています。': 'About 600 technologies, products and discoveries, from stone tools to AI, linked by what each one needed. ',
+    'モノを1つ選んでみよう。': 'Pick a product to start.', 'モノ（年の順）': 'Products (by year)', 'これを作るのに要った物': 'Needed to make this', '前提': 'needs',
+    'なし（ここが出発点）': 'None (a starting point)', '✅ ゲームにある': '✅ in the game', 'まだゲームに無い': 'not in the game yet', 'この先に': 'leads to', 'の技術': 'technologies',
+    'これで作れるようになった物': 'Made possible by this', '次の技術': 'next', 'なし': 'None', 'へえ': 'Fun fact', '全体の地図': 'Whole map', '詳しく見る': 'Details', '← 近所の図': '← Neighbours',
     '？ 図の見方': '? How to read', 'すべての技術を表示中': 'Showing all technologies', 'ズームすると技術が見えます（モノを選んでも）': 'Zoom in (or pick a product) to see technologies' };
   const tr = ja => LANG === 'en' && EN_UI[ja] ? EN_UI[ja] : ja;
   document.documentElement.lang = LANG;
@@ -185,7 +224,7 @@ small.term { color: var(--sub); font-weight: 400; }
     document.getElementById('menuBtn').textContent = '☰ Menu';
     document.getElementById('q').placeholder = 'Search (technology, product, person, number)';
     document.getElementById('intro').innerHTML = 'A map of how about 600 technologies, products and discoveries connect, from stone tools to AI: "what cannot be made without what". <b>Start by clicking a product (a big circle).</b> <small>(Only names and the first fun fact are in English for now; other text is Japanese.)</small>';
-    for (const id of ['aiBtn', 'legendBtn', 'layoutBtn']) { const b = document.getElementById(id); b.textContent = tr(b.textContent); }
+    for (const id of ['aiBtn', 'legendBtn', 'layoutBtn', 'toMap', 'toNode', 'toFocus']) { const b = document.getElementById(id); b.textContent = tr(b.textContent); }
     document.querySelector('a[href="people.html"]').textContent = tr('人物の一覧');
     document.getElementById('glossBtn').textContent = 'Glossary';
     document.querySelector('#trunk option').textContent = tr('すべての分野');
@@ -465,7 +504,7 @@ small.term { color: var(--sub); font-weight: 400; }
     });
     return best;
   }
-  cv.addEventListener('click', ev => { const d = nodeAt(ev.offsetX, ev.offsetY); select(d ? d.id : null); if (d) centerKeep(d.id); });
+  cv.addEventListener('click', ev => { const d = nodeAt(ev.offsetX, ev.offsetY); select(d ? d.id : null); if (d) centerKeep(d.id); if (PHONE) history.pushState(null, '', '#map' + (d ? '/' + d.id : '')); });
   cv.addEventListener('mousemove', ev => {
     const d = nodeAt(ev.offsetX, ev.offsetY);
     cv.style.cursor = d ? 'pointer' : '';
@@ -541,6 +580,7 @@ small.term { color: var(--sub); font-weight: 400; }
   const pb = band.get('P');
   // 最初は「モノ」の帯が収まる倍率。スマホ幅では縮めすぎると読めないので、読める大きさで始めて横にドラッグする
   const narrow = box.width < 700;
+  const PHONE = matchMedia('(max-width: 700px)').matches;
   const k0 = narrow ? 0.62 : Math.max(Math.min(box.width / W, (box.height - 10) / (pb.y + pb.h + 10), 1), 0.2);
   DETAIL_K = k0 * 1.8;
   d3.select(cv).call(zoom.transform, d3.zoomIdentity.translate(narrow ? 4 : Math.max(4, (box.width - W * k0) / 2), 4).scale(k0));
@@ -719,7 +759,7 @@ small.term { color: var(--sub); font-weight: 400; }
       const d = byId.get(id);
       card.innerHTML = `<button class="close" aria-label="閉じる">×</button><h2><span>[${d.id}] ${esc(d.name)} ${d.status}</span></h2><p class="loading">読み込み中…</p>`;
       card.classList.add('open');
-      card.querySelector('.close').onclick = () => select(null);
+      card.querySelector('.close').onclick = () => { select(null); if (PHONE) history.pushState(null, '', '#map'); };
     }
     ensureDetail().then(() => { if (state.sel === id) fillCard(id); });
   }
@@ -757,10 +797,10 @@ small.term { color: var(--sub); font-weight: 400; }
       ${d.understanding.length ? `<div class="sec"><h3>なぜ動くかの説明 <small class="term">（理解：後で分かった科学）</small></h3><div class="chips">${d.understanding.map(chip).join('')}</div></div>` : ''}
       <div class="sec"><h3>すぐ次の技術（${next.length}）</h3><div class="chips">${next.map(chip).join('')}</div></div>`;
     card.classList.add('open');
-    card.querySelector('.close').onclick = () => select(null);
+    card.querySelector('.close').onclick = () => { select(null); if (PHONE) history.pushState(null, '', '#map'); };
     card.querySelectorAll('.lchip').forEach(b => b.onclick = ev => { ev.stopPropagation(); showPath(b.dataset.id, id, card); });
-    card.querySelectorAll('.wtile').forEach(b => b.onclick = () => { select(b.dataset.id); center(b.dataset.id); });
-    card.querySelectorAll('.chip:not(.lchip)').forEach(b => b.onclick = () => { select(b.dataset.id); center(b.dataset.id); });
+    card.querySelectorAll('.wtile').forEach(b => b.onclick = () => goMap(b.dataset.id));
+    card.querySelectorAll('.chip:not(.lchip)').forEach(b => b.onclick = () => goMap(b.dataset.id));
   }
   // 見えている図の真ん中の高さ。スマホでカードが下に開いているときは、カードより上の部分の真ん中（S-014：カードが図をふさぐ）
   function midY(b) {
@@ -783,7 +823,7 @@ small.term { color: var(--sub); font-weight: 400; }
   sel.onchange = () => { state.trunk = sel.value; render(); };
   document.getElementById('all').onchange = e => { state.all = e.target.checked; render(); };
   document.getElementById('layoutBtn').onclick = () => { applyLayout(layoutMode === 'net' ? 'time' : 'net'); render(); };
-  document.getElementById('aiBtn').onclick = () => { select(G.goal); centerKeep(G.goal); };   // AI までの道（U-11）
+  document.getElementById('aiBtn').onclick = () => { if (PHONE) { setMenu(false); location.hash = G.goal; } else { select(G.goal); centerKeep(G.goal); } };   // AI までの道（U-11）
   const lb = document.getElementById('legendBtn'), lg = document.getElementById('legend');
   lb.onclick = () => { lg.hidden = !lg.hidden; lb.setAttribute('aria-expanded', String(!lg.hidden)); };
   document.getElementById('now').onchange = e => { state.now = e.target.checked; render(); };
@@ -802,7 +842,7 @@ small.term { color: var(--sub); font-weight: 400; }
       + hit.map(d => `<button data-id="${d.id}"><span><b>${esc(d.name)}</b> <small>${kindName(d)}・[${d.id}]・${yearText(d)}</small></span></button>`).join(''))
       || '<p class="muted" style="padding:8px 10px;margin:0">見つかりませんでした</p>';
     resBox.hidden = false;
-    resBox.querySelectorAll('button').forEach(b => b.onclick = () => { resBox.hidden = true; select(b.dataset.id); centerKeep(b.dataset.id); });
+    resBox.querySelectorAll('button').forEach(b => b.onclick = () => { resBox.hidden = true; goAny(b.dataset.id); });
   }
   qi.oninput = () => { state.q = qi.value; render(); showResults(); if (state.q.trim()) ensureDetail().then(() => { render(); showResults(); }); };   // 本物・へえ・人物でも探せるように重いデータを読む
   qi.onfocus = () => { if (state.q.trim()) showResults(); };
@@ -811,9 +851,69 @@ small.term { color: var(--sub); font-weight: 400; }
     if (e.key !== 'Enter') return;
     const q = qi.value.trim().toLowerCase().replace(/[\[\]]/g, '');
     const hit = nodes.find(n => n.id.toLowerCase() === q) || nodes.find(n => n.name.toLowerCase().includes(q)) || nodes.find(n => matches(n, q));
-    if (hit) { resBox.hidden = true; select(hit.id); centerKeep(hit.id); }
+    if (hit) { resBox.hidden = true; goAny(hit.id); }
   };
-  const fromHash = () => { const h = decodeURIComponent(location.hash.slice(1)); if (byId.has(h)) { select(h); center(h); } };
+  // ---- S-015：スマホは「近所の図」（案B）が基本。「全体の地図」で今の図（案A：図と下のカード）。パソコンは今のまま ----
+  // URL：#9-23＝近所の図で 9-23、#map＝全体の地図、#map/9-23＝全体の地図で 9-23 を選んだところ。戻るボタンで前の画面へ戻れる
+  const focusEl = document.getElementById('focus'), fbar = document.getElementById('fbar'), toFocus = document.getElementById('toFocus');
+  let curFocus = null;
+  function goMap(id) { if (PHONE) location.hash = 'map/' + id; else { select(id); center(id); } }
+  function goAny(id) { if (PHONE) location.hash = (document.body.classList.contains('focusMode') ? '' : 'map/') + id; else { select(id); centerKeep(id); } }
+  const ficon = n => n.icon ? `<img src="${n.icon}" alt="">` : `<span class="em">${esc(isProd(n) ? (n.emoji || n.symbol) : isIdea(n) ? (n.emoji || '💡') : n.symbol)}</span>`;
+  const ftile = id => { const n = byId.get(id); return `<a class="tile ${n.status === '✅' ? 'done' : ''}" href="#${id}">${ficon(n)}<span>${esc(n.name)}<small>${n.year != null ? esc(yearText(n).replace(/（.*$/, '')) : ''}</small></span></a>`; };
+  const yPct = y => { const d = L.xs[0], r = L.xs[1]; return Math.max(0, Math.min(100, xs(Math.max(d[0], Math.min(d[d.length - 1], y))) / r[r.length - 1] * 100)); };
+  function tilesHtml(ids, max, key) {
+    const u = [...new Set(ids)].filter(i => byId.has(i)).sort((a, b) => (byId.get(a).year ?? 9999) - (byId.get(b).year ?? 9999));
+    if (!u.length) return '';
+    return `<div class="grid">${u.slice(0, max).map(ftile).join('')}</div>` + (u.length > max ? `<button type="button" class="more" data-more="${key}">${tr('ほか')} ${u.length - max} … ${tr('全部見る')}</button><div class="grid" data-rest="${key}" hidden>${u.slice(max).map(ftile).join('')}</div>` : '');
+  }
+  function showFocus(id) {
+    document.body.classList.add('focusMode');
+    focusEl.hidden = false; fbar.hidden = false; toFocus.hidden = true;
+    if (document.getElementById('card').classList.contains('open')) select(null);
+    curFocus = id;
+    const toNode = document.getElementById('toNode');
+    if (!id) {   // はじめの画面：モノを年の順に
+      toNode.style.display = 'none';
+      focusEl.innerHTML = `<p class="lead">${tr('石器から AI まで、約600の技術・モノ・発見が「何が無いと何が作れないか」でつながっています。')}<b>${tr('モノを1つ選んでみよう。')}</b></p>
+        <h3>${tr('モノ（年の順）')}</h3>${tilesHtml(prods.map(n => n.id), 999, 'p')}`;
+      focusEl.scrollTop = 0; return;
+    }
+    const d = byId.get(id);
+    toNode.style.display = ''; toNode.href = `node.html#${id}`;
+    const par = (parents.get(id) || []).filter(i => byId.has(i)), kid = (kids.get(id) || []).filter(i => byId.has(i));
+    const marks = [1800, 1900, 1950, 2000].map(y => `<span style="left:${yPct(y)}%">${y}</span>`).join('');
+    focusEl.innerHTML = `
+      <div class="time" aria-hidden="true">${marks}${par.map(i => byId.get(i).year != null ? `<i class="p" style="left:${yPct(byId.get(i).year)}%"></i>` : '').join('')}${d.year != null ? `<i style="left:${yPct(d.year)}%"></i>` : ''}</div>
+      <h3>▲ ${tr('これを作るのに要った物')}（${tr('前提')} ${new Set(par).size}）</h3>
+      ${tilesHtml(par, 6, 'par') || `<p class="muted" style="margin:0 12px">${tr('なし（ここが出発点）')}</p>`}
+      <div class="arrow">↓</div>
+      <div class="me"><div class="top">${ficon(d)}<div><h2>[${d.id}] ${esc(d.name)}</h2>
+        <div class="meta">${esc(yearText(d))}・${esc(d.trunk_name)}<br>${d.status === '✅' ? tr('✅ ゲームにある') : tr('まだゲームに無い')}・${tr('この先に')} ${d.descendants} ${tr('の技術')}</div></div></div>
+        <p class="hee" id="fhee"></p></div>
+      <div class="arrow">↓</div>
+      <h3>▼ ${tr('これで作れるようになった物')}（${tr('次の技術')} ${new Set(kid).size}）</h3>
+      ${tilesHtml(kid, 8, 'kid') || `<p class="muted" style="margin:0 12px">${tr('なし')}</p>`}`;
+    focusEl.querySelectorAll('.more').forEach(b => b.onclick = () => { focusEl.querySelector(`[data-rest="${b.dataset.more}"]`).hidden = false; b.remove(); });
+    focusEl.scrollTop = 0;
+    ensureDetail().then(() => { const h = document.getElementById('fhee'); if (h && curFocus === id) h.textContent = d.hee1 ? tr('へえ') + '：' + d.hee1 : ''; });
+  }
+  function showMap(id) {
+    document.body.classList.remove('focusMode');
+    focusEl.hidden = true; fbar.hidden = true; toFocus.hidden = false;
+    resize();
+    // カードは重いデータを読んでから開くので、開いたあとでカードより上の真ん中に合わせ直す
+    if (id && byId.has(id)) { if (state.sel !== id) select(id); center(id); ensureDetail().then(() => requestAnimationFrame(() => center(id))); } else if (state.sel) select(null);
+  }
+  document.getElementById('toMap').onclick = () => { location.hash = 'map' + (curFocus ? '/' + curFocus : ''); };
+  toFocus.onclick = () => { location.hash = state.sel || ''; if (!state.sel) fromHash(); };
+  const fromHash = () => {
+    const h = decodeURIComponent(location.hash.slice(1));
+    const m = h.match(/^map(?:\/(.*))?$/);
+    if (PHONE) { if (m) showMap(m[1]); else showFocus(byId.has(h) ? h : null); return; }
+    const id = m ? m[1] : h;
+    if (id && byId.has(id)) { select(id); center(id); }
+  };
   window.addEventListener('hashchange', fromHash);
   let saved = 'time';
   try { saved = localStorage.getItem('tn-layout') || 'time'; } catch (e) { /* 保存できない環境では時間軸 */ }

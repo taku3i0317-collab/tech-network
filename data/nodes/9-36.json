@@ -17,7 +17,20 @@
    "4": ""
   },
   "sources": [],
-  "refs": [],
+  "refs": [
+   {
+    "title": "F39. 溝に銅をうめて削る（銅配線・ダマシン法）［9-36］",
+    "answer": "銅はアルミより電気抵抗が約40%低いが、プラズマで削りにくい。そこで絶縁膜に先に溝と穴を掘り、タンタルの薄い膜をしいてから、電気めっきで銅をうめ、CMP で上の余分を削る。溝の形がそのまま配線になる。1997年に IBM が発表した。",
+    "hee": {
+     "1": "名前はダマスカスの象嵌細工（金属に溝を彫って別の金属をうめる）から。",
+     "2": "銅はシリコンの中を動きまわってトランジスタをこわす。タンタルの膜で閉じこめる。",
+     "3": "めっきの液に特別な添加剤を入れ、溝の底から先に銅が積もるようにする（ボトムアップ）。",
+     "4": "今のチップの配線は10層をこえ、ほとんどが銅のダマシン。"
+    },
+    "certainty": "IBM の発表 1997 ◎／抵抗が約40%低い ○（Al 約2.7・Cu 約1.7 µΩ·cm）",
+    "basis": "Wikipedia「Copper interconnects」https://en.wikipedia.org/wiki/Copper_interconnects 、Wikipedia「Damascene」（英語）"
+   }
+  ],
   "people": [],
   "media": [],
   "requires": [
@@ -53,9 +66,9 @@
   "real": "1997 IBM が発表。Cu は Al より電気抵抗が約40%低いがエッチングしにくい → 溝を掘って Cu を電気めっきで埋め、CMP で余分を削る（象嵌＝ダマシン）"
  },
  "game": {
-  "status": "❓",
-  "buildable_now": true,
-  "play": "",
+  "status": "✅",
+  "buildable_now": false,
+  "play": "重",
   "missing": "",
   "item": null,
   "recipes": [],

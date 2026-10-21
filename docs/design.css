@@ -26,7 +26,8 @@ body { font-family: var(--font); background: var(--bg); color: var(--ink); }
 a { color: var(--accent); }
 
 /* 見出し：ページ 20px／節 16px／小見出し 13px。大きな見出し（ページの題・節の見出し・カードの題）だけドット風の書体 */
-header h1, header.top h1, section h2, #card h2 span, .pixel { font-family: var(--font-pixel); letter-spacing: .02em; font-weight: 400; }
+/* S-015（ユーザーの決定：書体③）：見出しは全部ドット（小さな見出しも）。本文・ボタン・図の名前は BIZ UDPゴシック。ドットには太字が無いので太くしない */
+h1, h2, h3, h4, #card h2 span, #card .sec h3, .layers .layer h3, #card .layer h4, nav.toc b, .hero .col h3, .term dt, .pixel { font-family: var(--font-pixel); letter-spacing: .02em; font-weight: 400; }
 header h1 { font-size: 18px; }
 header.top h1 { font-size: 20px; }
 section h2, #card h2 { font-size: 16px; }

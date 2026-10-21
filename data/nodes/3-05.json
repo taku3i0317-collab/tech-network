@@ -1,7 +1,7 @@
 {
  "id": "3-05",
  "history": {
-  "name": "高炉",
+  "name": "高炉（バニラ溶鉱炉の扱い）",
   "name_en": "Blast furnace",
   "kind": "tech",
   "trunk": "3",

@@ -1,0 +1,76 @@
+{
+ "id": "14-23",
+ "history": {
+  "name": "天井の搬送 OHT",
+  "name_en": null,
+  "kind": "tech",
+  "trunk": "14",
+  "trunk_name": "輸送",
+  "year": 2000,
+  "year_range": null,
+  "year_uncertain": true,
+  "hee1": "半導体工場の天井には、何kmものレールと何百台もの台車が走っている",
+  "hee1_en": null,
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "F62. 天井を走るウェハーの箱（OHT）［14-23］",
+    "answer": "300mm ウェハーの工場（2000年ごろから）は、ウェハー25枚の密閉の箱 FOUP（約8kg）を人が運ぶのをやめた。天井のレールを走る台車（OHT）が装置の前の台（ロードポート）の真上まで来て、ベルトで FOUP を吊り下ろす。工場全体の自動搬送をまとめて AMHS と呼ぶ ⚠️。",
+    "hee": {
+     "1": "大きな工場では、天井のレールは何kmにもなり、何百台もの台車が走っている。",
+     "2": "200mm までは、人がウェハーの箱を手で運んでいた。",
+     "3": "台車どうしがぶつからないよう、コンピュータが道を決めて渋滞を避けている。",
+     "4": "人が近くを歩かないので、空気中のごみも減る。"
+    },
+    "certainty": "300mm 工場で自動搬送 ○／FOUP 約8kg ○／レールの長さ・台数 △（工場で大きくちがう）",
+    "basis": "Wikipedia「Automated material handling system」https://en.wikipedia.org/wiki/Automated_material_handling_system （英語）、Wikipedia「FOUP」https://en.wikipedia.org/wiki/FOUP （英語）"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "14-22"
+    ]
+   ],
+   [
+    [
+     "4-08"
+    ]
+   ],
+   [
+    [
+     "1-26"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "300mm ウェハーの工場（2000年ごろから）は、約8kg の FOUP を人が運ぶのをやめ、天井のレールを走る台車（OHT）が装置のロードポートの真上まで来て、ベルトで FOUP を吊り下ろす（工場全体の自動搬送 AMHS）。200mm 以前は人が箱を運んでいた ⚠️（会社名は出さない）"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "自動化（FOUP を工程から工程へ）",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": null
+}

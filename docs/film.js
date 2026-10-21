@@ -242,6 +242,7 @@
       total: dist.size - 1, entries: [...dist.entries()] };
   }
   const nodeR = (S, d) => d === 0 ? 34 : Math.max(3, Math.min(15, 0.45 * (2 * Math.PI * S.RAD[d]) / S.layers[d].length));
+  const MW = new Map();   // 名前の幅（画面の px、12px の太字）
   const nodeRk = (S, k) => (S.rk.get(k) || nodeR(S, S.dist.get(k))) * (S.prf.get(k) || 1);
   // アイコンのアトラス：全部のノードのアイコンを 16×16 で1枚の canvas に（1回だけ、読めた物から）
   let ATL = null;
@@ -312,10 +313,15 @@
     const stats = window.FILM_STATS = { id, frames: 0, start: performance.now(), first: 0, worst: 0, last: 0 };
 
     // 中心図の見る場所（拡大・移動）
-    let zoom = 1, panX = 0, panY = 0, s = 0, centerAt = 0;
+    let zoom = 1, panX = 0, panY = 0, s = 0, centerAt = 0, TR = null, glowK = null, glowAt = 0;   // TR＝真ん中を変える動き（S-040）、glowK＝押した丸が光っている間
     function toCenter(newId, push) {
-      if (newId !== S.id) { S = scene(newId, DIR); people = null; }
-      mode = 'center'; zoom = 1; panX = panY = 0; s = 0; S.sel = null; centerAt = reduce() ? 0 : performance.now();
+      if (newId !== S.id) {
+        const old = S, ov = view, was = mode === 'center';
+        S = scene(newId, DIR); people = null;
+        // S-040：前の図にもあった丸は、前の画面の位置から次の位置へ動いて移る（動きを減らす設定の人はすぐ切り替える）
+        TR = was && !reduce() ? { at: performance.now(), to: new Map(S.P), from: new Map([...old.entries].map(([k]) => { const [x, y] = old.P.get(k); return [k, [ov.cx + x * ov.sc, ov.cy + y * ov.sc]]; })), osc: ov.sc, gone: [...old.entries].filter(([k]) => !S.dist.has(k)).map(([k]) => k), oldS: old } : null;
+      }
+      glowK = null; mode = 'center'; zoom = 1; panX = panY = 0; s = 0; S.sel = null; centerAt = reduce() ? 0 : performance.now();
       root.classList.add('centerMode'); root.setAttribute('aria-label', nm(byId.get(S.id)));
       skip.textContent = T.close; bar.hidden = false; hint.hidden = false; hint.textContent = T.hint;
       const lg = root.querySelector('.flegend'); lg.hidden = false;
@@ -325,6 +331,7 @@
       root.querySelector('.watch').hidden = !countOf(S.id, 'down'); root.querySelector('.watchUp').hidden = !countOf(S.id, 'up');
       const sb = root.querySelector('.share'); sb.dataset.share = S.id; sb.dataset.shareView = 'center';   // share.js が拾う（S-024）
       const nx = root.querySelector('.nextb'); if (nx) nx.remove();
+      cap.style.bottom = bar.offsetHeight ? `${bar.offsetHeight + 10}px` : '';   // ボタンが2行になって下の帯が高いときも、文が隠れないように
       cap.dataset.t = ''; if (push !== false && opt.onCenter) opt.onCenter(S.id);
       req();
     }
@@ -332,7 +339,7 @@
       if (newId !== S.id || S.dir !== DIR) S = scene(newId, DIR);
       mode = 'film'; people = null; loadPeople(); timing();
       t0 = clk(); jump = 0; still = reduce() ? 0 : -1; s = 0;
-      root.classList.remove('centerMode'); skip.textContent = T.skip; bar.hidden = true; hint.hidden = true;
+      root.classList.remove('centerMode'); cap.style.bottom = ''; skip.textContent = T.skip; bar.hidden = true; hint.hidden = true;
       root.setAttribute('aria-label', (DIR === 'up' ? T.askUp : T.ask)(byId.get(S.id)));
       if (still >= 0 && !root.querySelector('.nextb')) { const b = document.createElement('button'); b.type = 'button'; b.className = 'nextb'; b.textContent = T.next; root.appendChild(b); }
       req();
@@ -378,7 +385,9 @@
       const k = hit(e.clientX, e.clientY);
       if (!k) { S.sel = null; req(); return; }
       if (k === S.id) return;
-      if (S.sel === k) toCenter(k); else { S.sel = k; req(); }   // S-032：1回目は前提と使う物の線を光らせる、もう1回で真ん中に
+      if (glowK) return;   // 光っている間の2回目は無視
+      if (S.sel === k) { if (reduce()) toCenter(k); else { glowK = k; glowAt = performance.now(); req(); setTimeout(() => { if (!done && glowK === k) toCenter(k); }, 260); } }   // S-040：押した丸が少し光ってから真ん中へ
+      else { S.sel = k; req(); }   // S-032：1回目は前提と使う物の線を光らせる、もう1回で真ん中に
     };
     cv.addEventListener('pointerup', up); cv.addEventListener('pointercancel', e => ptrs.delete(e.pointerId));
     cv.addEventListener('wheel', e => { if (mode !== 'center') return; e.preventDefault(); zoom = Math.max(0.6, Math.min(8, zoom * Math.exp(-e.deltaY * 0.0015))); req(); }, { passive: false });
@@ -416,6 +425,23 @@
       view = { cx, cy, sc };
       ctx.translate(cx, cy); ctx.scale(sc, sc);
       const px = 1 / sc;
+      // S-040：動いている間は、丸ごとに前の画面の位置→次の位置（S-038 の揺らぎ：遅れ 0〜120ms・速さ ±13%）
+      let trEl = 0;
+      if (TR && !film) {
+        trEl = (performance.now() - TR.at) / (window.FILM_TR_SLOW || 1);   // FILM_TR_SLOW：途中の写真を撮るときだけゆっくりに
+        if (trEl > 900) { S.P = TR.to; TR = null; }
+        else {
+          const P = new Map();
+          for (const [k] of S.entries) {
+            const to = TR.to.get(k), fr = TR.from.get(k);
+            if (!fr) { P.set(k, to); continue; }
+            const jt = S.jit.get(k), q = ease((trEl - (k === S.id ? 0 : jt.delay)) / (600 * jt.speed)), x0 = (fr[0] - cx) / sc, y0 = (fr[1] - cy) / sc;
+            P.set(k, [x0 + (to[0] - x0) * q, y0 + (to[1] - y0) * q]);
+          }
+          S.P = P; req();
+        }
+      }
+      const trA = k => !TR || film || TR.from.has(k) ? 1 : ease((trEl - 250) / 450);   // 新しく出る丸・線はうすく出る
       // 線
       let arrived = 0;
       ctx.lineWidth = px; ctx.strokeStyle = C.sub; ctx.globalAlpha = film ? 0.25 : 0.3; ctx.beginPath();
@@ -436,14 +462,17 @@
       }
       ctx.stroke();
       if (!film) {   // S-032：止まった後は、輪の中のノードどうしのつながりを全部（細く・薄く）。part は太く、understanding は点線
-        const fade = Math.min(1, (performance.now() - centerAt) / 500);
+        const fade = TR ? 1 : Math.min(1, (performance.now() - centerAt) / 500);
         const draw = (list, alpha, col, w) => {
           for (const kk of ['r', 'p', 'u']) {
             const L = list.filter(e => (e[2] === 'e' ? 'r' : e[2]) === kk); if (!L.length) continue;
-            ctx.globalAlpha = alpha * fade; ctx.strokeStyle = kk === 'u' ? '#8e5bd6' : col; ctx.lineWidth = (kk === 'p' ? 2.4 : 1) * w * px;
-            ctx.setLineDash(kk === 'u' ? [3 * px, 3 * px] : []); ctx.beginPath();
-            for (const [f, t2] of L) { if (hid(f) || hid(t2)) continue; const [x1, y1] = S.P.get(f), [x2, y2] = S.P.get(t2); ctx.moveTo(x1, y1); ctx.lineTo(x2, y2); }
-            ctx.stroke();
+            ctx.strokeStyle = kk === 'u' ? '#8e5bd6' : col; ctx.lineWidth = (kk === 'p' ? 2.4 : 1) * w * px;
+            ctx.setLineDash(kk === 'u' ? [3 * px, 3 * px] : []);
+            for (const shared of TR ? [true, false] : [false]) {   // S-040：前の図にもあった線は端といっしょに動く（うすくしない）、新しい線はうすく出る
+              ctx.globalAlpha = alpha * (shared ? 1 : TR ? Math.min(fade, trA('')) : fade); ctx.beginPath();
+              for (const [f, t2] of L) { if (hid(f) || hid(t2)) continue; if (TR && shared !== (TR.from.has(f) && TR.from.has(t2))) continue; const [x1, y1] = S.P.get(f), [x2, y2] = S.P.get(t2); ctx.moveTo(x1, y1); ctx.lineTo(x2, y2); }
+              ctx.stroke();
+            }
           }
           ctx.setLineDash([]);
         };
@@ -512,6 +541,11 @@
         ctx.stroke(); ctx.globalAlpha = 1; ctx.fillStyle = C.hl;
         for (const [x, y] of heads) ctx.fillRect(x - 3 * px, y - 3 * px, 6 * px, 6 * px);
       }
+      // S-040：次の図に無い丸は、前の場所でうすく消える
+      if (TR && !film && TR.gone.length) {
+        const g = 1 - ease(trEl / 350);
+        if (g > 0) { ctx.globalAlpha = g; for (const k of TR.gone) { const [fx, fy] = TR.from.get(k), x = (fx - cx) / sc, y = (fy - cy) / sc, r = Math.max(2 * px, nodeRk(TR.oldS, k) * TR.osc / sc * 0.8); ctx.fillStyle = colOf(k); ctx.beginPath(); ctx.arc(x, y, r, 0, Math.PI * 2); ctx.fill(); } }
+      }
       // 点
       ctx.imageSmoothingEnabled = false;
       const rootSet = film && t >= t2 ? new Set(S.roots) : null;
@@ -529,8 +563,10 @@
             ctx.globalAlpha = 0.5 * p; ctx.strokeStyle = C.hl; ctx.lineWidth = 2 * px; ctx.beginPath(); ctx.moveTo(bx, by); ctx.lineTo(x, y); ctx.stroke();
           }
         } else if (film) a = ease(t / 900);
+        if (!film && TR) a = trA(k);
         const r = nodeRk(S, k) * (film && !d ? 0.6 + 0.4 * a : 1) * swell, rs = r * sc;   // rs＝画面での半径
         ctx.globalAlpha = a;
+        if (!film && glowK === k) { const q = Math.min(1, (performance.now() - glowAt) / 260); ctx.globalAlpha = 0.7 * (1 - q * 0.5); ctx.fillStyle = C.hl; ctx.beginPath(); ctx.arc(x, y, r + (4 + 10 * q) * px, 0, Math.PI * 2); ctx.fill(); ctx.globalAlpha = a; req(); }   // S-040：押した丸が光る
         if (!film && hid(k)) continue;
         if (!film && rs < 3 && d) { ctx.fillStyle = colOf(k); ctx.fillRect(x - 2 * px, y - 2 * px, 4 * px, 4 * px); continue; }   // 混んだ輪は小さな点
         ctx.beginPath(); ctx.arc(x, y, r, 0, Math.PI * 2); ctx.fillStyle = C.bg; ctx.fill();
@@ -572,7 +608,8 @@
         const boxes = [];
         labels.sort((a, b) => (b[4] || 0) - (a[4] || 0) || a[3] - b[3]);   // S-039：混んでいる所は PageRank の高い物の名前を先に
         for (const [x, y, text] of labels) {
-          const w = ctx.measureText(text).width, b = [x - w / 2, y - 12 * px, x + w / 2, y + 3 * px];
+          let w0 = MW.get(text); if (w0 == null) { w0 = 0; for (const ch of text) w0 += ch.codePointAt(0) > 0x2e80 ? 12 : 7.2; MW.set(text, w0); }   // 文字の幅は数えて見積もる（measureText は日本語で重い、S-040）
+          const w = w0 * px, b = [x - w / 2, y - 12 * px, x + w / 2, y + 3 * px];
           if (boxes.some(o => o[0] < b[2] && b[0] < o[2] && o[1] < b[3] && b[1] < o[3])) continue;
           boxes.push(b); ctx.strokeText(text, x, y); ctx.fillText(text, x, y);
         }

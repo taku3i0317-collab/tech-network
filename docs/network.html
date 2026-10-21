@@ -971,6 +971,7 @@ body.focusMode .intro { display: none; }
   const fromHash = () => {
     const h = decodeURIComponent(location.hash.slice(1));
     const m = h.match(/^map(?:\/(.*))?$/);
+    if (PHONE && /^center\//.test(h) && document.body.classList.contains('focusMode')) return;   // S-040：中心図の真ん中を変えるたびに、後ろの画面を作り直さない（重い）
     if (PHONE) { if (m) showMap(m[1]); else showFocus(byId.has(h) ? h : null); return; }
     const id = m ? m[1] : h;
     if (id && byId.has(id)) { select(id); center(id); }

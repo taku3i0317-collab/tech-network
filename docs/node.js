@@ -1,0 +1,401 @@
+// node.html とノードのページ nodes/*.html の動き（S-054 で node.html から分けた）
+(async function () {
+  // 軽いデータと重いデータを1つにまとめる（肖像は人物ごとに1か所にまとめてあるので番号から戻す）
+  const G = window.TECH_GRAPH, D = window.TECH_DETAIL, kindName = { r: 'requires', u: 'understanding', e: 'enables', p: 'part', t: 'tool', s: 'same' };
+  const data = {
+    goal: G.goal, year_inversions: D.year_inversions,
+    nodes: G.nodes.map(n => { const m = { ...n, ...D.nodes[n.id] }; m.people = (m.people || []).map(p => p.pi != null ? { ...p, portrait: D.portraits[p.pi] } : p); return m; }),
+    edges: G.edges.map(([from, to, k]) => ({ from, to, kind: kindName[k] }))
+  };
+  const REPO = 'https://github.com/taku3i0317-collab/tech-network';
+  const nodes = data.nodes, byId = new Map(nodes.map(n => [n.id, n]));
+  // 日本語／英語（O-021）：network.html と同じ保存（tn-lang）。英語はノードの名前とへえ①だけ
+  let LANG = 'ja';
+  try { LANG = localStorage.getItem('tn-lang') === 'en' ? 'en' : 'ja'; } catch (e) { /* 保存できない環境 */ }
+  document.documentElement.lang = LANG;
+  document.getElementById('langBtn').textContent = LANG === 'en' ? '日本語' : 'English';
+  document.getElementById('langBtn').addEventListener('click', () => { try { localStorage.setItem('tn-lang', LANG === 'en' ? 'ja' : 'en'); } catch (e) { /* 保存できない */ } location.reload(); });
+  if (LANG === 'en') for (const n of nodes) { n.name_ja = n.name; if (n.name_en) n.name = n.name_en; }
+  // 文の中の言葉をリンクに（S-009）。プレビューはノードならアイコン・名前・へえ①、用語集なら説明
+  AutoLink.init(LANG === 'en' ? D.terms_en : D.terms);
+  const GL = window.GLOSSARY || {};
+  AutoLink.preview(document.body, g => {
+    if (g.startsWith('g:')) { const t = GL[g.slice(2)]; return t && { name: esc(LANG === 'en' ? t.en : g.slice(2)), text: esc(LANG === 'en' ? t.en_def : t.ja_def) }; }
+    const n = byId.get(g); return n && { icon: n.icon, name: `[${g}] ${esc(n.name)}`, text: esc((LANG === 'en' && n.hee1_en) || n.hee1 || '') };
+  });
+  const isProd = n => n.kind === 'product', isIdea = n => n.kind === 'idea';
+  const kids = new Map(), parentsOf = new Map();
+  for (const e of data.edges) if (e.kind === 'requires') {
+    (kids.get(e.from) || kids.set(e.from, []).get(e.from)).push(e.to);
+    (parentsOf.get(e.to) || parentsOf.set(e.to, []).get(e.to)).push(e.from);
+  }
+  const walk = (s, next) => { const seen = new Set(), q = [s]; while (q.length) { const u = q.pop(); for (const v of next.get(u) || []) if (!seen.has(v)) { seen.add(v); q.push(v); } } return seen; };
+  function makeable(without) {
+    const ok = new Set(); let grew = true;
+    while (grew) { grew = false;
+      for (const n of nodes) { if (ok.has(n.id) || n.id === without) continue;
+        if (n.requires.every(alts => alts.some(a => a.every(i => i !== without && (ok.has(i) || !byId.has(i)))))) { ok.add(n.id); grew = true; } } }
+    return ok;
+  }
+  const ALL = makeable(null);
+  const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  // 本文の中の [番号] をリンクに、~~消し線~~ を del に
+  const rich = s => esc(s).replace(/~~(.*?)~~/g, '<del>$1</del>').replace(/\[(\d+|B|P|I)-(\d+[a-z]?)\]/g, (m, t, n) => byId.has(`${t}-${n}`) ? `<a href="#${t}-${n}">[${t}-${n}]</a>` : m);
+  // ---- 出典（S-016）：文の中の「（…出典：…）」を取り出して番号 [n] にし、ページの一番下の「出典」の欄にまとめる ----
+  // TECH_TREE などの文はそのまま（書き換えない）で、見せるときだけ形を変える。同じ出典は同じ番号
+  let notes = [];
+  const MK = no => `\uE000${no}\uE001`;   // 番号の目印（文を esc・リンクにしたあとで <sup> に置きかえる）
+  const srcHtml = t => esc(String(t).replace(/^\s*[-・]\s*/gm, '').trim()).replace(/\n/g, '<br>').replace(/https?:\/\/[^\s（）、」]+/g, u => `<a href="${u}" target="_blank" rel="noopener">${(() => { try { return decodeURI(u); } catch (e) { return u; } })().replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, '').slice(0, 60)}</a>`);   // 日本語の URL は読める形で
+  const noteNo = html => { let i = notes.findIndex(n => n.html === html); if (i < 0) { notes.push({ html, refs: 0 }); i = notes.length - 1; } return i + 1; };
+  function cite(raw) {
+    let s = String(raw || ''), from = 0;
+    for (;;) {
+      const p = s.indexOf('出典', from);
+      if (p < 0) break;
+      if (!/[:：]/.test(s[p + 2] || '')) { from = p + 2; continue; }
+      let depth = 0, open = -1, close = -1;
+      for (let j = p - 1; j >= 0; j--) { if (s[j] === '）') depth++; else if (s[j] === '（') { if (!depth) { open = j; break; } depth--; } }
+      if (open >= 0) { let dd = 0; for (let j = p; j < s.length; j++) { if (s[j] === '（') dd++; else if (s[j] === '）') { if (!dd) { close = j; break; } dd--; } } }
+      let src, before, after;
+      if (open >= 0 && close >= 0) {   // かっこの中の出典：かっこごと取り出す（「S-001 で追加」のような作業の覚え書きは出さない）
+        const pre = s.slice(open + 1, p).replace(/[A-Z]+-\d+\s*で追加[。、]?/g, '').replace(/[。、\s]+$/, '');
+        src = s.slice(p + 3, close).trim(); before = s.slice(0, open) + (pre ? `（${pre}）` : ''); after = s.slice(close + 1);
+      } else {   // かっこの外：文の終わり（。）まで
+        let end = s.indexOf('。', p); if (end < 0) end = s.length;
+        src = s.slice(p + 3, end).trim(); before = s.slice(0, p).replace(/[、。\s]+$/, ''); after = s.slice(end);
+      }
+      // 出典がいくつも並んでいたら（「」、」や「URL 、」で区切る）、1つずつ別の番号に
+      const m = src.split(/(?<=[」\s])、\s*/).map(x => x.trim()).filter(Boolean).map(x => MK(noteNo(srcHtml(x)))).join('');
+      s = before + m + after; from = before.length + m.length;
+    }
+    return s;
+  }
+  // 目印を <sup>[n]</sup> に。同じ番号が何度も出たら、出典の欄の ↩ も a・b… と増える
+  const supAll = html => html.replace(/\uE000(\d+)\uE001/g, (m, no) => { const n = notes[no - 1], k = n.refs++; return `<sup class="fn" id="fnref-${no}-${k}"><a href="#" data-fn="${no}" aria-label="出典 ${no}">[${no}]</a></sup>`; });
+  const yearText = d => d.year == null ? '年 ?' : (d.year < 0 ? `前${(-d.year).toLocaleString()}年` : `${d.year}年`) + (d.year_range ? `（${d.year_range}）` : '') + (d.year_uncertain ? ' ⚠️' : '');
+  const chip = id => { const n = byId.get(id); return n ? `<a class="chip${n.status === '✅' ? ' done' : ''}" href="#${id}">${id} ${esc(n.name)} ${n.status}</a>` : ''; };
+  const silhouette = `<svg width="40" height="40" viewBox="0 0 34 34" aria-hidden="true"><circle cx="17" cy="11" r="7" fill="var(--sub)"/><path d="M4 33c0-8 6-13 13-13s13 5 13 13z" fill="var(--sub)"/></svg>`;
+
+  // ---- この技術の裏にいる人たち（NET-04）：祖先（前提と、発見→技術のつながり）と自分に付いている人物。重複なし、年代順 ----
+  const parentsAll = new Map();
+  for (const e of data.edges) if (e.kind === 'requires' || e.kind === 'enables' || e.kind === 'part') (parentsAll.get(e.to) || parentsAll.set(e.to, []).get(e.to)).push(e.from);
+  // 人物の年（"1804"・"1040年代"・"8〜9世紀"・"前…"）を並べるための数に。読めなければ技術の年
+  const personYear = (p, n) => {
+    const s = String(p.year || ''), c = s.match(/(\d+)\s*(?:〜\d+)?\s*世紀/);
+    if (c) return (+c[1] - 1) * 100 + 50;
+    const m = s.match(/\d+/);
+    return m ? (s.includes('前') ? -m[0] : +m[0]) : (n.year ?? 9999);
+  };
+  const ANON_BEFORE = 1500;   // これより古く、人物の記録がない技術を「名前の残っていない人たち」として数える
+  // 祖先の層（NET-09）：選んだノードから前提を何段さかのぼるか（いちばん短い段数）。via は1段近づく次の点
+  function layersOf(id) {
+    const dist = new Map(), via = new Map(); let q = [id]; dist.set(id, 0);
+    while (q.length) {
+      const nq = [];
+      for (const u of q) for (const p of parentsAll.get(u) || []) if (!dist.has(p)) { dist.set(p, dist.get(u) + 1); via.set(p, u); nq.push(p); }
+      q = nq;
+    }
+    dist.delete(id);
+    return { dist, via };
+  }
+  const LAYER_NAME = k => k === 1 ? '直接の前提' : k === 2 ? 'その前提' : `${k}段前`;
+  function layersHtml(id) {
+    const L = layersOf(id), by = new Map();
+    for (const [i, k] of L.dist) (by.get(k) || by.set(k, []).get(k)).push(i);
+    if (!by.size) return '';
+    const ks = [...by.keys()].sort((a, b) => a - b);
+    const one = k => `<div class="layer"><h3>${k}層：${LAYER_NAME(k)}（${by.get(k).length}）</h3><div class="chips">${by.get(k)
+      .sort((a, b) => (byId.get(a).year ?? 0) - (byId.get(b).year ?? 0)).map(i => `<button class="chip lchip" data-id="${i}">${i} ${esc(byId.get(i).name)} ${byId.get(i).status}</button>`).join('')}</div></div>`;
+    const near = ks.filter(k => k <= 2), far = ks.filter(k => k > 2), farN = far.reduce((x, k) => x + by.get(k).length, 0);
+    return `<section class="layers"><h2>さかのぼる（近い順、全部で ${L.dist.size}）</h2>
+      <div class="pathbox" hidden></div>${near.map(one).join('')}
+      ${far.length ? `<details class="farlayers"><summary>さらにさかのぼると、あと ${farN} 個（${far[0]}〜${far[far.length - 1]}段前）</summary>${far.map(one).join('')}</details>` : ''}
+      <p class="muted">技術を押すと、そこから${esc(byId.get(id).name)}までの道が出ます</p></section>`;
+  }
+  function peopleBehind(id) {
+    const ids = [id, ...walk(id, parentsAll)], seen = new Map(), anon = [];
+    for (const i of ids) {
+      const n = byId.get(i); if (!n) continue;
+      if (!n.people.length && n.year != null && n.year < ANON_BEFORE) anon.push(i);
+      for (const p of n.people) {
+        const o = seen.get(p.name);
+        if (o) { if (!o.techs.includes(i)) o.techs.push(i); }
+        else seen.set(p.name, { p, techs: [i], y: personYear(p, n) });
+      }
+    }
+    const L = layersOf(id), lay = o => Math.min(...o.techs.map(i => i === id ? 0 : (L.dist.get(i) ?? 99)));
+    return { people: [...seen.values()].sort((a, b) => lay(a) - lay(b) || a.y - b.y), anon };   // 近い層から（同じ層は年の順）
+  }
+  const crowd = `<svg width="48" height="48" viewBox="0 0 48 48" aria-hidden="true"><g fill="var(--sub)" opacity=".55"><circle cx="11" cy="17" r="5"/><path d="M2 40c0-7 4-11 9-11s9 4 9 11z"/><circle cx="37" cy="17" r="5"/><path d="M28 40c0-7 4-11 9-11s9 4 9 11z"/></g><g fill="var(--sub)"><circle cx="24" cy="14" r="6"/><path d="M13 44c0-8 5-13 11-13s11 5 11 13z"/></g></svg>`;
+  // 人の壁：最初は閉じた <details>（数字だけ）。開くと肖像が年代順に並ぶ。肖像を押すとその技術へ
+  function wallHtml(id) {
+    const { people, anon } = peopleBehind(id);
+    if (!people.length && !anon.length) return '';
+    const tile = (img, name, sub, href, title) => `<a class="wtile" href="${href}" title="${esc(title)}">${img}<b>${esc(name)}</b><small>${esc(sub)}</small></a>`;
+    const anonTile = anon.length ? tile(crowd, '名前の残っていない、無数の人たち', `${anon.length} の技術（${anon.slice(0, 3).map(i => byId.get(i).name).join('・')}${anon.length > 3 ? '…' : ''}）`, '#' + anon[0], `${ANON_BEFORE}年より前で、発明した人の名前が残っていない技術：` + anon.map(i => byId.get(i).name).join('、')) : '';
+    const tiles = people.map(({ p, techs }) => tile(p.portrait ? `<img src="${p.portrait}" alt="">` : silhouette, p.name, techs.map(i => byId.get(i).name).join('・'), '#' + techs[0], `${p.name}（${p.year}）`)).join('');
+    return `<details class="wall"><summary>この技術の裏にいる人：<b>${people.length}</b> 人${anon.length ? `＋名前の残っていない人たち（${anon.length} の技術）` : ''}</summary>
+      <p class="muted">祖先の技術に名前が残っている人を、近い層から（同じ層は年代順）。肖像を押すとその技術へ</p><div class="wgrid">${tiles}${anonTile}</div></details>`;
+  }
+
+  // ここにたどり着く道のり：まだの前提を、OR はいちばん少ない方を選んで数える（両方の案は並べて見せる）
+  function plan(id) {
+    const memo = new Map();
+    const cost = u => {
+      if (memo.has(u)) return memo.get(u).c;
+      const n = byId.get(u); if (!n || n.status === '✅') { memo.set(u, { c: 0, pick: [] }); return 0; }
+      memo.set(u, { c: 1e9, pick: [] });   // 循環よけ
+      let c = 1; const pick = [];
+      for (const alts of n.requires) {
+        let best = null, bc = 1e9;
+        for (const a of alts) { const s = a.reduce((x, i) => x + cost(i), 0); if (s < bc) { bc = s; best = a; } }
+        c += bc; pick.push({ alts, best });
+      }
+      memo.set(u, { c, pick }); return c;
+    };
+    cost(id);
+    const order = [], seen = new Set();
+    const visit = u => { if (seen.has(u)) return; seen.add(u); const m = memo.get(u); if (!m || m.c === 0) return; for (const p of m.pick) for (const i of p.best) visit(i); order.push(u); };
+    visit(id);
+    return { n: memo.get(id).c, order, memo };
+  }
+
+  function render() {
+    // 番号は #番号 でも ?id=番号 でも（S-012：?id= を無視して [10-16] が出ていた）。両方あれば # を使う
+    // S-054：ノードごとのページ nodes/<番号>.html（window.NODE_ID）。ほかのノードの番号が来たら、そのページへ移る。前の node.html#番号・?id= も新しいページへ案内
+    const h = decodeURIComponent(location.hash.slice(1)), qid = new URLSearchParams(location.search).get('id');
+    const want = byId.has(h) ? h : byId.has(qid) ? qid : null;
+    if (!window.NODE_ID || (want && want !== window.NODE_ID)) { location.replace(new URL('nodes/' + (want || data.goal) + '.html', document.baseURI).href + (/[?&]lang=en/.test(location.search) ? '?lang=en' : '')); return; }
+    const id = window.NODE_ID;
+    const d = byId.get(id);
+    const page = document.getElementById('page');
+    document.getElementById('back').href = 'network.html#' + encodeURIComponent(id);
+    if (!d) { page.innerHTML = `<p>「${esc(id)}」というノードはありません。</p>`; return; }
+    if (LANG === 'en' && d.name_en) document.title = `${d.name_en} — what it is, when and how it was made | Technology network`;   // 英語のときは英語の題（日本語は書き出した題のまま）
+    window.scrollTo(0, 0);
+
+    // へえ①〜④：ゲームの説明（lang）→ 参考文献（REFERENCES）→ TECH_TREE の順に探す
+    notes = [];
+    const ref = d.refs[0];
+    const hee = k => (LANG === 'en' && k === '1' && d.hee1_en) || d.hee_game['note' + k] || (ref && ref.hee[k]) || (k === '1' ? d.hee1 : d.hee_tree[k]) || '';
+    const levels = [['1', '①子ども'], ['2', '②学生'], ['3', '③大人'], ['4', '④ガチ']];
+    const richL = t => AutoLink.link(rich(t), d.id, g => '#' + g);   // S-009：文の中の言葉をリンクに
+    const heeHtml = levels.map(([k, lv]) => hee(k) ? `<div class="lv">${lv}</div><div>${richL(cite(hee(k)))}</div>` : '').join('');
+
+    const anc = walk(id, parentsOf), desc = walk(id, kids);
+    const still = makeable(id), lost = [...ALL].filter(x => x !== id && !still.has(x));
+    const usedBy = nodes.filter(n => isProd(n) && n.id !== id && walk(n.id, parentsOf).has(id));
+    // あと何個：作る順番の一覧の数（共通の前提を何度も数えないように。以前は合計の見積もりをそのまま出していて、[10-16] で 8367 と出ていた）
+    const { order, memo } = plan(id), remain = order.length;
+    const item = u => {
+      const m = memo.get(u), n = byId.get(u);
+      const ors = m.pick.filter(p => p.alts.length > 1).map(p => `<div class="or">別の作り方（どれか1つ）：${p.alts.map(a => a.map(i => `<a href="#${i}">${i}</a>`).join('+')).join(' または ')}</div>`).join('');
+      return `<li><a href="#${u}">[${u}] ${esc(n.name)}</a> <span class="muted">${yearText(n)}</span>${ors}</li>`;
+    };
+    // 時代ごとにまとめて折りたたむ（いちばん古い時代だけ開く）。進み具合は祖先のうち ✅ の数
+    const ERAS = [['紀元前', -1e9, -1], ['1〜1500年', 0, 1500], ['1501〜1800年', 1501, 1800], ['1801〜1900年', 1801, 1900], ['1901〜1950年', 1901, 1950], ['1951年〜', 1951, 1e9]];
+    const ancAll = [...walk(id, parentsAll)].map(i => byId.get(i)).filter(Boolean);
+    const doneN = ancAll.filter(n => n.status === '✅').length;
+    const groups = ERAS.map(([label, lo, hi]) => {
+      const all = ancAll.filter(n => (n.year ?? 0) >= lo && (n.year ?? 0) <= hi), todo = order.filter(u => { const y = byId.get(u).year ?? 0; return y >= lo && y <= hi; });
+      return { label, all, todo, done: all.filter(n => n.status === '✅').length };
+    }).filter(g => g.all.length || g.todo.length);
+    let opened = false;
+    const pathHtml = groups.map(g => {
+      const open = !opened && g.todo.length ? (opened = true, ' open') : '';
+      return `<details class="era"${open}><summary><b>${g.label}</b>　✅ ${g.done} / ${g.all.length}${g.todo.length ? `　<span class="muted">あと ${g.todo.length}</span>` : '　<span class="ok">ぜんぶ作れる</span>'}</summary>${g.todo.length ? `<ol class="path">${g.todo.map(item).join('')}</ol>` : ''}</details>`;
+    }).join('');
+    const progress = ancAll.length ? `<div class="progress" title="✅ ${doneN} / ${ancAll.length}"><span style="width:${Math.round(doneN / ancAll.length * 100)}%"></span></div>` : '';
+    const gaps = [
+      ...(parentsOf.get(id) || []).map(p => ({ dir: '前提', o: byId.get(p) })),
+      ...(kids.get(id) || []).map(c => ({ dir: '子', o: byId.get(c) }))
+    ].filter(x => x.o && x.o.year != null && d.year != null).map(x => ({ ...x, gap: Math.abs(x.o.year - d.year) }))
+      .filter(x => x.gap >= 100).sort((a, b) => b.gap - a.gap);
+    const ic = d.icon ? `<img src="${d.icon}" alt="">` : esc(isProd(d) ? (d.emoji || d.symbol) : isIdea(d) ? (d.emoji || '💡') : d.symbol);
+    const chips = ids => `<div class="chips">${ids.map(chip).join('')}</div>`;
+    const wall = wallHtml(id);
+    // 部品表（S-002・S-003）：このモノがどの部品のモノでできているか。部品から、その中身の技術へ進める
+    const partsHtml = (d.parts || []).filter(i => byId.has(i)).map(pid => {
+      const p = byId.get(pid), pre = (parentsAll.get(pid) || []).filter(i => byId.has(i));
+      return `<li><a href="#${pid}"><b>${esc(p.name)}</b></a> ${p.status}<div class="muted">中身：${pre.slice(0, 8).map(i => `<a href="#${i}">${esc(byId.get(i).name)}</a>`).join('・') || '—'}${pre.length > 8 ? ` ほか ${pre.length - 8}` : ''}</div></li>`;
+    }).join('');
+    // 素材：ゲームで作れる物には、どこで作れるかを出す
+    const MAT = D.materials || {};
+    const matsHtml = (d.materials || []).map(name => {
+      const x = MAT[name], nd = x && byId.get(x.node);
+      if (!x) return `<li><b>${esc(name)}</b></li>`;
+      const ok = nd && nd.status === '✅';
+      return `<li><b>${esc(name)}</b>：${ok ? `<span class="ok">ゲームで作れる</span>（${esc(x.where)}${x.chapter ? `。${esc(x.chapter)}` : ''}）` : `まだゲームに無い（${esc(x.where)}）`} <a href="#${x.node}">[${x.node}]</a></li>`;
+    }).join('');
+    // 画像・動画（NET-10）：ファイルは持たずリンクだけ。作者とライセンスを必ず出す（docs/MEDIA.md）
+    const mediaHtml = (d.media || []).filter(m => m.url && m.author && m.license).map(m => {
+      const isVideo = m.kind === '動画', file = /\.(webm|ogv|mp4)(\?|$)/i.test(m.url);
+      const body = isVideo && file ? `<video controls preload="none" src="${esc(m.url)}"></video>`
+        : isVideo ? `<p><a href="${esc(m.url)}" target="_blank" rel="noopener">動画を開く</a></p>`
+        : `<a href="${esc(m.page || m.url)}" target="_blank" rel="noopener"><img src="${esc(m.url)}" alt="${esc(m.description || d.name)}" loading="lazy"></a>`;
+      return `<figure class="media">${body}<figcaption>${esc(m.description || '')}<br><span class="muted">作者：${esc(m.author)}／ライセンス：${esc(m.license)}${m.page ? MK(noteNo(srcHtml(m.page))) : ''}</span></figcaption></figure>`;
+    }).join('');
+    // 発見・考え方（ideas.md）とのつながり。発見のページでは「作れるようになった技術」「説明する技術」、技術のページでは逆向き
+    const ideaHtml = [
+      [d.enables, 'この考え方で作れるようになった技術', 'この考えがないと作れなかった＝前提'],
+      [d.explains, 'この考え方が説明する技術', 'なぜ動くかが、この考えで分かる＝理解'],
+      [d.enabled_by, 'これを作れるようにした考え方', ''],
+      [d.explained_by, 'なぜ動くかを説明する考え方', '']
+    ].filter(([ids]) => ids && ids.length).map(([ids, h, note]) => `<p class="muted" style="margin-top:8px">${h}${note ? `（${note}）` : ''}</p>${chips(ids)}`).join('');
+    // 前提でも理解でもないつながり（O-019）：つくるのに使った道具・同じしくみで回る物。説明の文と出典つき
+    const XL = (D.extra_links || []).filter(x => x.from === id || x.to === id);
+    const xlLabel = x => x.kind === 'tool' ? (x.to === id ? 'つくるのに使った道具' : '道具として使われた先') : '同じしくみで回る';
+    const extraHtml = XL.map(x => `<p class="muted" style="margin-top:8px">${xlLabel(x)} <small class="term">（${x.kind === 'tool' ? '前提ではない：無くても作れたが、設計・計算に使われた' : '前提ではない：同じしくみ'}）</small></p>`
+      + `<div class="chips">${chip(x.from === id ? x.to : x.from)}</div><p class="muted">${esc(x.note)}${(x.sources || []).map(u => MK(noteNo(srcHtml(u)))).join('')}</p>`).join('');
+    // 誤りの報告：.github/ISSUE_TEMPLATE の3つのひな形（GitHub の Issue フォーム）を、ノード番号を入れた状態で開く
+    const issue = (template, tag) => `${REPO}/issues/new?` + new URLSearchParams({
+      template, title: `[${tag}] [${d.id}] ${d.name}`, node: d.id
+    }).toString();
+    const issues = (LANG === 'en'
+      ? [['1-year-person.yml', 'year/person', 'Wrong year or person'], ['2-prerequisite.yml', 'link', 'Wrong prerequisite (link)'], ['3-source.yml', 'source', 'Add a source']]
+      : [['1-year-person.yml', '年・人物', '年・人物の誤り'], ['2-prerequisite.yml', 'つながり', '前提（つながり）の誤り'], ['3-source.yml', '出典', '出典の追加']])
+      .map(([t, tag, label]) => `<a class="btn" href="${issue(t, tag)}" target="_blank" rel="noopener">${label}</a>`).join(' ');
+    const req = d.requires.map(alts => alts.map(a => a.map(chip).join(' + ')).join(' <span class="muted">または</span> ')).join('<br>');
+
+    let html = `
+      <header class="top">
+        <div class="ic">${ic}</div>
+        <div>
+          <h1>[${d.id}] ${esc(d.name)}</h1>
+          <div class="meta">${yearText(d)}・${esc(d.trunk_name)}${d.trunk === 'P' || d.trunk === 'I' ? '' : `<small class="term">（${d.trunk === 'B' ? '枝' : '幹' + d.trunk}）</small>`}</div>
+          <div style="margin:6px 0;display:flex;gap:6px;flex-wrap:wrap">${window.Film && Film.countOf(d.id, 'down') ? `<button type="button" class="btn" data-film="${d.id}">${LANG === 'en' ? '▶ Watch how it is made' : '▶ できるまでを観る'}</button>` : ''}${window.Film && Film.countOf(d.id, 'up') ? `<button type="button" class="btn" data-film-up="${d.id}">${LANG === 'en' ? '▶ What it made' : '▶ これが生んだ物'}</button>` : ''}<button type="button" class="btn" data-share="${d.id}" data-share-view="node">${LANG === 'en' ? '🔗 Share' : '🔗 シェア'}</button></div>
+          <div>${d.status === '✅' ? '<span class="badge ok">✅ ゲームにある</span>' : `<span class="badge">${d.status} まだ</span>`}${isProd(d) ? '<span class="badge">モノ</span>' : ''}${isIdea(d) ? '<span class="badge">◆ 発見・考え方</span>' : ''}${d.buildable_now ? '<span class="badge ok">今すぐ作れる</span>' : ''}${d.year_uncertain ? '<span class="badge warn">⚠️ 年は諸説・未確認</span>' : ''}</div>
+        </div>
+      </header>
+
+      ${heeHtml ? `<section><h2>へえ</h2><div class="hee">${heeHtml}</div></section>` : ''}
+
+      ${d.people.length ? `<section><h2>人物</h2><p class="muted">肖像は自作のドット絵（髪・ひげ・服などの特徴だけ）。存命の人は載せない</p><div class="people">${d.people.map(p => `<div class="person">${p.portrait ? `<img class="portrait" src="${p.portrait}" alt="">` : silhouette}<div><b>${esc(p.name)}</b><span class="muted">${esc(p.tool)}・${esc(p.year)}</span><div>${richL(p.intro || '')}</div></div></div>`).join('')}</div></section>` : ''}
+
+      ${d.play ? `<section><h2>遊び方（${isIdea(d) ? 'ゲームで発見する実験' : '作って置いて動かす作品'}）</h2><div>${rich(d.play)}</div></section>` : ''}
+
+      ${isIdea(d) && ideaHtml ? `<section><h2>この考え方がつながる技術</h2>${ideaHtml}</section>` : ''}
+
+      ${d.real_full ? `<section><h2>本当の話 <small class="term">（本物：工程・反応式）</small></h2><div>${d.real_full.split('\n').map(t => richL(cite(t))).join('<br>')}${(d.sources || []).map(u => MK(noteNo(srcHtml(u)))).join('')}</div></section>` : ''}
+
+      ${partsHtml ? `<section><h2>部品表 <small class="term">（このモノを形づくる部品（部品のモノ・技術））</small></h2><ul class="parts">${partsHtml}</ul></section>` : ''}
+
+      ${matsHtml ? `<section><h2>素材 <small class="term">（ゲームで作った素材が入っている所）</small></h2><ul class="mats">${matsHtml}</ul></section>` : ''}
+
+      ${mediaHtml ? `<section><h2>画像・動画</h2><div class="medias">${mediaHtml}</div></section>` : ''}
+
+      ${wall ? `<section>${wall}</section>` : ''}
+
+
+      <section><h2>確かさ</h2>
+        ${d.refs.length ? d.refs.map(r => `<div class="ref"><b>${esc(r.title)}</b>${r.answer ? `<div>${rich(cite(r.answer))}${r.basis ? r.basis.split(/(?<=[」\s])、\s*/).map(x => x.trim()).filter(Boolean).map(x => MK(noteNo(srcHtml(x)))).join('') : ''}</div>` : ''}<div class="muted">確かさ：${esc(r.certainty || '—')}${!r.answer && r.basis ? r.basis.split(/(?<=[」\s])、\s*/).map(x => x.trim()).filter(Boolean).map(x => MK(noteNo(srcHtml(x)))).join('') : ''}</div></div>`).join('')
+          + `<p><a href="${REPO}/blob/master/docs/REFERENCES.md">REFERENCES.md（参考文献のまとめ）を開く</a></p>`
+          : `<p class="muted">まだ REFERENCES.md に項目がない（確かさは未評価）。${d.year_uncertain ? '年は ⚠️（諸説・未確認）。' : ''}</p>`}
+        ${!d.real_full && d.sources && d.sources.length ? `<p class="muted">出典 ${d.sources.map(u => MK(noteNo(srcHtml(u)))).join('')}</p>` : ''}
+        <p class="muted">◎ 信頼できる出典2つ以上で一致／○ 1つで確認／△ 未確認（ゲームでは ⚠️）</p>
+      </section>
+
+      ${d.missing ? `<section><h2>足りない技術</h2><p>${esc(d.missing)}</p><p class="muted">前提に要るのに、まだ技術ネットワークにノードがない（network_proposals.md で追加を提案中）</p></section>` : ''}
+
+      ${isIdea(d) ? '' : `<section><h2>ゲームでの作り方</h2>
+        ${d.status === '✅' ? '' : '<p class="muted">まだゲームにない。予定：</p>'}
+        ${d.machine_recipes.length ? `<p class="muted">機械で（GameTest が機械の設定から書き出した表）</p><ul>${d.machine_recipes.map(r => `<li>${esc(r)}</li>`).join('')}</ul>` : ''}
+        ${d.recipes.length ? `<p class="muted">作業台・かまどで</p><ul>${d.recipes.map(r => `<li>${esc(r)}</li>`).join('')}</ul>` : ''}
+        ${d.hee_game.note2 ? `<p>${rich(d.hee_game.note2)}</p>` : ''}
+        ${d.game_text ? `<p class="muted">${rich(d.game_text)}</p>` : ''}
+        ${d.placeholder ? `<p class="muted">⚠️ 省略・近似：${esc(d.placeholder)}</p>` : ''}
+        ${!d.recipes.length && !d.machine_recipes.length && !d.hee_game.note2 && !d.game_text ? '<p class="muted">（まだ書いていない）</p>' : ''}
+      </section>`}
+
+      ${layersHtml(id)}
+
+      <section><h2>ここにたどり着くには</h2>
+        ${remain === 0 ? '<p>もうゲームで作れる（✅）。</p>' : `<p>さかのぼると ${ancAll.length} の技術のうち、ゲームで作れるのは <b>✅ ${doneN}</b>。あと <span class="big">${remain}</span> 個 <small class="term">（別の作り方は、いちばん少ない方で数えた）</small></p>${progress}<p class="muted">作る順番（時代ごと）：</p>${pathHtml}`}
+      </section>
+
+      ${isIdea(d) ? '' : `<section><h2>影響</h2>
+        <p>これが無いと作れなくなる技術 <small class="term">（別の作り方も考えたうえで）</small>：<span class="big">${lost.length}</span></p>
+        <div class="chips">${lost.map(chip).join('')}</div>
+        <p style="margin-top:10px">これを使う「モノ」：${usedBy.length} 個</p>
+        <div class="chips">${usedBy.map(n => chip(n.id)).join('') || '<span class="muted">なし</span>'}</div>
+        <p class="muted">この技術の祖先 ${anc.size}・子孫 ${desc.size}</p>
+      </section>`}
+
+      ${gaps.length ? `<section><h2>時を超えたつながり（年の差 100年以上）</h2><table class="gap">${gaps.map(g => `<tr><td>${g.dir}</td><td>${chip(g.o.id)}</td><td>${yearText(g.o)}</td><td>${g.gap.toLocaleString()} 年</td></tr>`).join('')}</table></section>` : ''}
+
+      <section><h2>つながり</h2>
+        <p class="muted">これが無いと作れない <small class="term">（前提。全部そろうと作れる。「または」は別の作り方）</small></p><div>${req || 'なし'}</div>
+        ${d.understanding.length ? `<p class="muted" style="margin-top:8px">なぜ動くかの説明 <small class="term">（理解：後で分かった科学）</small></p><div class="chips">${d.understanding.map(chip).join('')}</div>` : ''}
+        ${isIdea(d) ? '' : ideaHtml}
+        ${extraHtml}
+        <p class="muted" style="margin-top:8px">すぐ次の技術（${(kids.get(id) || []).length}）</p><div class="chips">${(kids.get(id) || []).map(chip).join('') || 'なし'}</div>
+      </section>
+
+      <section><h2>誤りを見つけたら</h2>
+        <p class="muted">誤りを報告（GitHub の Issue）：</p>
+        <p style="display:flex;flex-wrap:wrap;gap:6px">${issues}</p>
+        <p class="muted">ノード番号が入ったひな形が開きます（GitHub のアカウントが要ります）。</p>
+      </section>`;
+    // 出典の番号を、ページに出てくる順に振り直す（Wikipedia と同じ）。一番下に「出典」の欄
+    const fnOrder = [];
+    html.replace(/\uE000(\d+)\uE001/g, (m, no) => { if (!fnOrder.includes(+no)) fnOrder.push(+no); return m; });
+    const remap = new Map(fnOrder.map((o, i) => [o, i + 1]));
+    notes = fnOrder.map(o => ({ html: notes[o - 1].html, refs: 0 }));
+    html = supAll(html.replace(/\uE000(\d+)\uE001/g, (m, no) => MK(remap.get(+no))));
+    if (notes.length) html += `<section id="notes"><h2>出典</h2><ol class="notes">${notes.map((n, i) => `<li id="fn-${i + 1}">${
+      n.refs > 1 ? '↩ ' + [...Array(n.refs)].map((_, k) => `<a href="#" class="back" data-back="fnref-${i + 1}-${k}" aria-label="本文へ戻る">${String.fromCharCode(97 + k)}</a>`).join('')
+        : `<a href="#" class="back" data-back="fnref-${i + 1}-0" aria-label="本文へ戻る">↩</a>`}${n.html}</li>`).join('')}</ol></section>`;
+    page.innerHTML = html;
+    // S-012 決定3：絵を上に。大きなアイコンと、前提→これ→次 の小さな図（それぞれ4つまで）。押すとそのノードへ
+    const miniOf = i => { const n = byId.get(i); if (!n) return '';
+      const mi = n.icon ? `<img src="${n.icon}" alt="">` : `<i>${esc(isProd(n) ? (n.emoji || n.symbol) : isIdea(n) ? (n.emoji || '💡') : n.symbol)}</i>`;
+      return `<a class="mini" href="#${i}" title="[${i}] ${esc(n.name)}">${mi}<span>${esc(n.name)}</span></a>`; };
+    const col = (ids, cls, h) => { const u = [...new Set(ids)].filter(i => byId.has(i));
+      return `<div class="col ${cls}"><h3>${h}</h3>${u.slice(0, 4).map(miniOf).join('') || '<span class="more">なし</span>'}${u.length > 4 ? `<span class="more">ほか ${u.length - 4}</span>` : ''}</div>`; };
+    const EN = LANG === 'en';
+    const hero = document.createElement('figure'); hero.className = 'hero'; hero.style.margin = '12px 0 0';
+    hero.innerHTML = col(parentsAll.get(id) || [], 'l', EN ? 'needs' : '前提') + `<div class="me"><span>→</span><div class="bigic">${ic}</div><span>→</span></div>` + col(kids.get(id) || [], 'r', EN ? 'leads to' : '次の技術');
+    const top = page.querySelector('header.top'); top.after(hero);
+    // 目次：ページの見出しから作る（# はノード番号に使っているので、ボタンでその見出しへスクロール）
+    const secs = [...page.querySelectorAll('section > h2')];
+    const toc = document.createElement('nav'); toc.className = 'toc'; toc.setAttribute('aria-label', EN ? 'Contents' : '目次');
+    toc.innerHTML = `<b>${EN ? 'Contents' : '目次'}</b>` + secs.map((h, k) => `<button type="button" data-k="${k}">${esc(h.childNodes[0].textContent.trim().replace(/（.*$/, ''))}</button>`).join('');
+    toc.onclick = e => { const b = e.target.closest('button'); if (b) secs[+b.dataset.k].parentElement.scrollIntoView({ behavior: 'smooth' }); };
+    hero.after(toc);
+    const back = document.getElementById('backbar'); back.href = `network.html#${id}`; back.textContent = EN ? '← Back to the map' : '← 図に戻る';
+    document.getElementById('topBtn').textContent = EN ? '↑ Top' : '↑ 上へ';
+    document.getElementById('topBtn').onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
+    // 祖先を押すと、そこからこのノードまでの1本の道を矢印で（NET-09）
+    const L = layersOf(id), box = page.querySelector('.pathbox');
+    page.querySelectorAll('.lchip').forEach(b => b.onclick = () => {
+      const path = [b.dataset.id]; let u = b.dataset.id;
+      while (L.via.has(u)) { u = L.via.get(u); path.push(u); }
+      box.hidden = false;
+      box.innerHTML = `<div class="pathline">${path.map(i => `<a class="chip" href="#${i}">${esc(byId.get(i).name)}</a>`).join('<span class="arrow">→</span>')}</div>`;
+      box.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+    });
+  }
+  const go = document.getElementById('go');
+  go.onkeydown = e => {
+    if (e.key !== 'Enter') return;
+    const q = go.value.trim().toLowerCase().replace(/[\[\]]/g, '');
+    const hit = nodes.find(n => n.id.toLowerCase() === q) || nodes.find(n => n.name.toLowerCase().includes(q));
+    if (hit) location.hash = hit.id;
+  };
+  const flash = el => { el.classList.add('hl'); setTimeout(() => el.classList.remove('hl'), 1600); };
+  page.addEventListener('click', e => {
+    const a = e.target.closest('a[data-fn], a[data-back]');
+    if (!a) return;
+    e.preventDefault();
+    const el = document.getElementById(a.dataset.fn ? 'fn-' + a.dataset.fn : a.dataset.back);
+    if (el) { el.scrollIntoView({ block: 'center' }); flash(el); }   // Wikipedia と同じく、すぐ飛ぶ（色で場所を知らせる）
+  });
+  window.addEventListener('hashchange', render);
+  // S-054：ノードのページは <base href="../"> なので、#番号 のリンクはそのノードのページへ（ほかの # はそのまま）
+  document.addEventListener('click', e => {
+    const a = e.target.closest('a[href^="#"]'); if (!a || e.defaultPrevented || e.ctrlKey || e.metaKey) return;
+    const h2 = decodeURIComponent(a.getAttribute('href').slice(1)); e.preventDefault();
+    if (byId.has(h2)) location.href = new URL('nodes/' + h2 + '.html', document.baseURI).href + (LANG === 'en' ? '?lang=en' : ''); else location.hash = h2;
+  });
+  render();
+})();

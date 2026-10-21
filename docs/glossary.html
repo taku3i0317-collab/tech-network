@@ -89,7 +89,7 @@ dl { margin: 0; }
     const hit = keys.filter(k => !q || (k + ' ' + GL[k].en + ' ' + GL[k].ja_def + ' ' + GL[k].en_def).toLowerCase().includes(q));
     page.innerHTML = `<dl>${hit.map(k => {
       const t = GL[k], name = LANG === 'en' ? t.en : k, sub = LANG === 'en' ? k : t.en;
-      const def = AutoLink.link(esc(LANG === 'en' ? t.en_def : t.ja_def), 'g:' + k, g => 'node.html#' + g);
+      const def = AutoLink.link(esc(LANG === 'en' ? t.en_def : t.ja_def), 'g:' + k, g => 'nodes/' + g + '.html');
       return `<div class="term" id="${esc(k)}"><dt>${esc(name)}<small lang="${LANG === 'en' ? 'ja' : 'en'}">${esc(sub)}</small></dt><dd>${def}</dd></div>`;
     }).join('')}</dl>${hit.length ? '' : `<p class="muted">${LANG === 'en' ? 'No match' : '見つかりません'}</p>`}`;
   }

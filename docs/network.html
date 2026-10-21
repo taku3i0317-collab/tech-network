@@ -851,7 +851,7 @@ body.focusMode .intro { display: none; }
     const chips = ids => `<div class="chips">${ids.map(chip).join('')}</div>`;
     card.innerHTML = `<button class="close" aria-label="閉じる">×</button>
       <h2>${head}<span>[${d.id}] ${esc(d.name)} ${d.status}</span></h2>
-      <a class="more" href="node.html#${encodeURIComponent(d.id)}">詳しく見る →</a><button type="button" class="more" data-share="${d.id}" data-share-view="map">${tr('🔗 シェア')}</button>${Film.countOf(d.id, 'down') ? ` <button type="button" class="more" data-film="${d.id}">${tr('▶ できるまでを観る')}</button>` : ''}${Film.countOf(d.id, 'up') ? ` <button type="button" class="more" data-film-up="${d.id}">${tr('▶ これが生んだ物')}</button>` : ''}
+      <a class="more" href="nodes/${encodeURIComponent(d.id)}.html">詳しく見る →</a><button type="button" class="more" data-share="${d.id}" data-share-view="map">${tr('🔗 シェア')}</button>${Film.countOf(d.id, 'down') ? ` <button type="button" class="more" data-film="${d.id}">${tr('▶ できるまでを観る')}</button>` : ''}${Film.countOf(d.id, 'up') ? ` <button type="button" class="more" data-film-up="${d.id}">${tr('▶ これが生んだ物')}</button>` : ''}
       <div class="meta"><span style="color:${isIdea(d) ? IDEA : isProd(d) ? DS.prod : color(d.trunk)}">${isIdea(d) ? '◆' : '●'}</span> ${isProd(d) ? '<b>モノ</b>・' : ''}${esc(d.trunk_name)}${d.trunk === 'P' || d.trunk === 'I' ? '' : `<small class="term">（${d.trunk === 'B' ? '枝' : '幹' + d.trunk}）</small>`}・${yearText(d)}${d.buildable_now ? '・<b>今すぐ作れる</b>' : ''}</div>
       ${wallHtml(id)}
       ${d.people.length ? `<div class="sec"><h3>人物</h3><div class="people">${d.people.map(p => `<div class="person">${p.portrait ? `<img class="portrait" src="${p.portrait}" alt="">` : silhouette}<div><b>${esc(p.name)}</b><small>${esc(p.tool)}・${esc(p.year)}</small></div></div>`).join('')}</div></div>` : ''}
@@ -953,7 +953,7 @@ body.focusMode .intro { display: none; }
       focusEl.scrollTop = 0; return;
     }
     const d = byId.get(id);
-    toNode.style.display = ''; toNode.href = `node.html#${id}`;
+    toNode.style.display = ''; toNode.href = `nodes/${id}.html`;
     const par = (parents.get(id) || []).filter(i => byId.has(i)), kid = (kids.get(id) || []).filter(i => byId.has(i));
     const marks = [1800, 1900, 1950, 2000].map(y => `<span style="left:${yPct(y)}%">${y}</span>`).join('');
     focusEl.innerHTML = `

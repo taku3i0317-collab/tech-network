@@ -47,7 +47,7 @@ section h2 { display: flex; justify-content: space-between; gap: 8px; }
 <div class="wrap">
   <nav>
     <a href="network.html">← 技術ネットワーク図へ</a>
-    <a href="node.html#10-16">AI までの道</a>
+    <a href="nodes/10-16.html">AI までの道</a>
     <a href="glossary.html">用語集</a>
     <input type="search" id="q" placeholder="名前・技術でさがす" aria-label="人物をさがす">
     <button type="button" id="furiBtn" class="btn" aria-pressed="false">ふりがな</button>
@@ -85,7 +85,7 @@ section h2 { display: flex; justify-content: space-between; gap: 8px; }
     const list = [...people.values()].filter(o => !q || o.p.name.toLowerCase().includes(q) || o.techs.some(i => byId.get(i).name.toLowerCase().includes(q)))
       .sort((a, b) => a.y - b.y);
     const portrait = o => o.p.pi != null ? `<img src="${D.portraits[o.p.pi]}" alt="">` : silhouette;
-    const card = o => `<a class="person" href="node.html#${o.techs[0]}">${portrait(o)}<span><b>${esc(o.p.name)}</b><small>${esc(o.p.year)}・${esc(o.p.tool || '')}</small><small>${o.techs.map(i => esc(byId.get(i).name)).join('・')}</small></span></a>`;
+    const card = o => `<a class="person" href="nodes/${o.techs[0]}.html">${portrait(o)}<span><b>${esc(o.p.name)}</b><small>${esc(o.p.year)}・${esc(o.p.tool || '')}</small><small>${o.techs.map(i => esc(byId.get(i).name)).join('・')}</small></span></a>`;
     const html = ERAS.map(([label, lo, hi]) => {
       const xs = list.filter(o => o.y >= lo && o.y <= hi);
       return xs.length ? `<section><h2>${label}<span class="muted">${xs.length} 人</span></h2><div class="grid">${xs.map(card).join('')}</div></section>` : '';

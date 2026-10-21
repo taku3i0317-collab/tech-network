@@ -432,7 +432,7 @@
     const cntMemo = new Map(), cntOf = (k, d) => { const key = k + d; if (!cntMemo.has(key)) cntMemo.set(key, countOf(k, d)); return cntMemo.get(key); };
     function syncBar() {
       const tg = S.sel || S.id;
-      root.querySelector('.detail').href = `${opt.base || ''}node.html#${tg}`;
+      root.querySelector('.detail').href = `${opt.base || ''}nodes/${tg}.html`;
       root.querySelector('.watch').hidden = !cntOf(tg, 'down'); root.querySelector('.watchUp').hidden = !cntOf(tg, 'up');
       root.querySelector('.toC').hidden = !S.sel;
       const sb = root.querySelector('.share'); sb.dataset.share = tg; sb.dataset.shareView = 'center';   // share.js が拾う（S-024）

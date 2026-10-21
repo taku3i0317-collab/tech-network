@@ -75,7 +75,7 @@ details.trunk summary { cursor: pointer; font-weight: 700; }
   }
   const item = (n, i) => {
     const d = D[n.id] || {}, hee = (EN && d.hee1_en) || d.hee1 || '', k = Film.countOf(n.id, 'up');
-    return `<li><span class="no">${i + 1}</span>${n.icon ? `<img src="${n.icon}" alt="">` : '<span></span>'}<div><div class="name"><a href="node.html#${n.id}">${esc(nm(n))}</a></div>
+    return `<li><span class="no">${i + 1}</span>${n.icon ? `<img src="${n.icon}" alt="">` : '<span></span>'}<div><div class="name"><a href="nodes/${n.id}.html">${esc(nm(n))}</a></div>
       <div class="sup">${EN ? `supports ${k} things` : `${k} 個の物を支えている`}・PageRank ${n.pr}</div></div>
       ${hee ? `<div class="hee">${esc(hee.replace(/（[^（）]*出典[:：][^）]*）/g, ''))}</div>` : ''}
       <div class="act">${k ? `<button type="button" class="btn" data-up="${n.id}">${EN ? '▶ What it made' : '▶ これが生んだ物'}</button>` : ''}<a class="btn" href="network.html#center/${n.id}">${EN ? 'Ring view' : '中心図'}</a></div></li>`;
@@ -87,7 +87,7 @@ details.trunk summary { cursor: pointer; font-weight: 700; }
     const L = byPr.filter(n => n.trunk === t).slice(0, 5), tn = L[0] && L[0].trunk_name;
     return L.length ? `<details class="trunk"><summary>${esc(tn)}</summary><ol class="rank">${L.map(item).join('')}</ol></details>` : '';
   }).join('');
-  document.addEventListener('click', e => { const x = e.target.closest('[data-up]'); if (x) Film.playUp(x.dataset.up, { onClose: id => { location.href = 'node.html#' + id; } }); });
+  document.addEventListener('click', e => { const x = e.target.closest('[data-up]'); if (x) Film.playUp(x.dataset.up, { onClose: id => { location.href = 'nodes/' + id + '.html'; } }); });
 })();
 </script>
 <script src="ui_icons.js"></script>

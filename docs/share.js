@@ -15,8 +15,8 @@
     return seen.size - 1;
   }
   function payload(id, view) {
-    const n = byId.get(id), page = view === 'node' ? 'node.html#' : view === 'map' ? 'network.html#map/' : 'network.html#center/';
-    const url = new URL(page + encodeURIComponent(id), location.href).href;
+    const n = byId.get(id), page = view === 'node' ? 'nodes/' : view === 'map' ? 'network.html#map/' : 'network.html#center/';
+    const url = new URL(page + encodeURIComponent(id) + (view === 'node' ? '.html' : ''), document.baseURI).href;   // S-054：ノードのページ。<base> のあるページでも正しい URL に
     const k = ancestors(id), title = EN() ? 'Technology network' : '技術ネットワーク';
     const text = !n ? title : k
       ? (EN() ? `To make ${nm(n)}, it took ${k} technologies.` : `${nm(n)}を作るには、${k} の技術が要った。`)

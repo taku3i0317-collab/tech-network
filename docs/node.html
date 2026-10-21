@@ -3,6 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- ホーム画面に置けるアプリ（S-026） -->
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#faf7f0">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="apple-mobile-web-app-title" content="技術ネット">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="icon" type="image/png" href="app_icon_192.png">
 <title>技術の詳細</title>
 <!-- 1枚のページで、URL の #番号（例 node.html#9-07）を見て中身を表示する。データは tech_network_graph.js（軽い：番号・名前・年・つながり）と tech_network_detail.js（重い：本物・へえ・出典・人物）。どちらも tools/gen_tree_views.py が書き出す -->
 <style>
@@ -534,5 +541,6 @@ header.top .ic { display: none; }   /* 大きなアイコンを絵の欄に出�
 <script>LineBreak.init();</script>
 <script src="furigana.js"></script>
 <script>Furigana.init(document.getElementById('furiBtn'));</script>
+<script src="pwa.js"></script>
 </body>
 </html>

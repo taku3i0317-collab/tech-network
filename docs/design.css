@@ -96,3 +96,7 @@ img.uic { width: 1.05em !important; height: 1.05em !important; image-rendering: 
 .shareSheet .row .close { flex: 0 0 44px; }
 .shareSheet .done { margin: 8px 0 0; font-size: 13px; color: var(--ok, #2e8b57); overflow-wrap: anywhere; }
 @media (prefers-reduced-motion: no-preference) { .shareSheet .btn { transition: transform 120ms ease-out, background-color 120ms ease-out; } .shareSheet .btn:active { transform: scale(.96); } }
+
+/* S-026：iPhone の「ホーム画面に追加」の案内（1回だけ） */
+.iosHint { position: fixed; left: 50%; bottom: calc(16px + env(safe-area-inset-bottom)); transform: translateX(-50%); z-index: 250; width: min(380px, calc(100vw - 24px)); display: flex; gap: 8px; align-items: center; background: var(--panel); border: 1px solid var(--accent); border-radius: 12px; padding: 10px 12px; font-size: 14px; box-shadow: 0 4px 14px rgba(0,0,0,.15); }
+.iosHint button { margin-left: auto; border: 0; background: none; font-size: 18px; color: var(--sub); min-width: 36px; min-height: 36px; }

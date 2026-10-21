@@ -3,6 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- ホーム画面に置けるアプリ（S-026） -->
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#faf7f0">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="apple-mobile-web-app-title" content="技術ネット">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="icon" type="image/png" href="app_icon_192.png">
 <!-- リンクの見た目（OGP、S-023）：SNS でリンクを貼ったときの題・説明・絵。絵は docs/og_image.png（中心図、1200×630）。URL は公開の場所に合わせる（tech-network は export_tech_network.py が書きかえる） -->
 <meta property="og:type" content="website">
 <meta property="og:title" content="技術ネットワーク — スマホを作るには、254 の技術が要った">
@@ -176,6 +183,7 @@ body.focusMode .intro { display: none; }
     <a class="btn" href="people.html">人物の一覧</a>
     <a class="btn" href="glossary.html" id="glossBtn">用語集</a>
     <button type="button" class="btn" data-film="B-10" id="filmAgain">はじめの動きをもう一度</button>
+    <button type="button" class="btn" id="installBtn" hidden>ホーム画面に追加</button>
     <a class="btn" href="credits.html" id="creditsBtn">影響を受けた作品</a>
     <select id="trunk" aria-label="分野でしぼる"><option value="">すべての分野</option></select>
     <label><input type="checkbox" id="all"> すべての技術</label>
@@ -235,7 +243,7 @@ body.focusMode .intro { display: none; }
     'モノを1つ選んでみよう。': 'Pick a product to start.', 'モノ（年の順）': 'Products (by year)', 'これを作るのに要った物': 'Needed to make this', '前提': 'needs',
     'なし（ここが出発点）': 'None (a starting point)', '✅ ゲームにある': '✅ in the game', 'まだゲームに無い': 'not in the game yet', 'この先に': 'leads to', 'の技術': 'technologies',
     'これで作れるようになった物': 'Made possible by this', '次の技術': 'next', 'なし': 'None', 'へえ': 'Fun fact', '全体の地図': 'Whole map', '詳しく見る': 'Details', '← 近所の図': '← Neighbours',
-    '影響を受けた作品': 'Inspirations', '🔗 シェア': '🔗 Share', '▶ できるまでを観る': '▶ Watch how it is made', 'はじめの動きをもう一度': 'Play the intro again', '？ 図の見方': '? How to read', 'すべての技術を表示中': 'Showing all technologies', 'ズームすると技術が見えます（モノを選んでも）': 'Zoom in (or pick a product) to see technologies' };
+    '影響を受けた作品': 'Inspirations', 'ホーム画面に追加': 'Add to Home Screen', '🔗 シェア': '🔗 Share', '▶ できるまでを観る': '▶ Watch how it is made', 'はじめの動きをもう一度': 'Play the intro again', '？ 図の見方': '? How to read', 'すべての技術を表示中': 'Showing all technologies', 'ズームすると技術が見えます（モノを選んでも）': 'Zoom in (or pick a product) to see technologies' };
   const tr = ja => LANG === 'en' && EN_UI[ja] ? EN_UI[ja] : ja;
   document.documentElement.lang = LANG;
   document.getElementById('langBtn').textContent = LANG === 'en' ? '日本語' : 'English';
@@ -246,7 +254,7 @@ body.focusMode .intro { display: none; }
     document.getElementById('menuBtn').textContent = '☰ Menu';
     document.getElementById('q').placeholder = 'Search (technology, product, person, number)';
     document.getElementById('intro').innerHTML = 'A map of how about 600 technologies, products and discoveries connect, from stone tools to AI: "what cannot be made without what". <b>Start by clicking a product (a big circle).</b> <small>(Only names and the first fun fact are in English for now; other text is Japanese.)</small>';
-    for (const id of ['aiBtn', 'legendBtn', 'layoutBtn', 'toMap', 'toNode', 'toFocus', 'filmAgain']) { const b = document.getElementById(id); b.textContent = tr(b.textContent); }
+    for (const id of ['aiBtn', 'legendBtn', 'layoutBtn', 'toMap', 'toNode', 'toFocus', 'filmAgain', 'installBtn']) { const b = document.getElementById(id); b.textContent = tr(b.textContent); }
     document.querySelector('a[href="people.html"]').textContent = tr('人物の一覧');
     document.getElementById('glossBtn').textContent = 'Glossary'; document.getElementById('creditsBtn').textContent = 'Inspirations';
     document.querySelector('#trunk option').textContent = tr('すべての分野');
@@ -1004,7 +1012,8 @@ body.focusMode .intro { display: none; }
   window.openFilm = open;
   if (/^#center\//.test(location.hash) || (PH && /^#[^/]+$/.test(location.hash))) fromHash();
   // 初めての1回だけ、スマホのムービー（番号つきの URL で来た人には出さない）。スマホの2回目からは中心図（前に見ていた物）
-  else if (!location.hash) { ctl = Film.firstTime('B-10', opts); if (!ctl && PH) openCenter(lastId() || 'B-10'); }
+  // ホーム画面のアプリから開いたとき（?app=1）は、どの画面でも中心図から（S-026）
+  else if (!location.hash) { ctl = Film.firstTime('B-10', opts); if (!ctl && (PH || /[?&]app=1/.test(location.search))) openCenter(lastId() || 'B-10'); }
 })();
 </script>
 <script src="ui_icons.js"></script>
@@ -1014,5 +1023,6 @@ body.focusMode .intro { display: none; }
 <script>LineBreak.init();</script>
 <script src="furigana.js"></script>
 <script>Furigana.init(document.getElementById('furiBtn'));</script>
+<script src="pwa.js"></script>
 </body>
 </html>

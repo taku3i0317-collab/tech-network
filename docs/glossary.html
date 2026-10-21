@@ -3,6 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- ホーム画面に置けるアプリ（S-026） -->
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#faf7f0">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="apple-mobile-web-app-title" content="技術ネット">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="icon" type="image/png" href="app_icon_192.png">
 <title>用語集 — 技術ネットワーク</title>
 <!-- 用語集（S-009）：ノードではない基本の言葉（原子・電子・酸化・還元・合金・波長 など）を、子ども向けの短い説明で。
      データは docs/glossary.json（tools/gen_tree_views.py が glossary.js を作る）。説明の中の言葉も自動でリンク（autolink.js）。見た目は design.css（案 C） -->
@@ -91,5 +98,6 @@ dl { margin: 0; }
 <script>LineBreak.init();</script>
 <script src="furigana.js"></script>
 <script>Furigana.init(document.getElementById('furiBtn'));</script>
+<script src="pwa.js"></script>
 </body>
 </html>

@@ -3,6 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- ホーム画面に置けるアプリ（S-026） -->
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#faf7f0">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="apple-mobile-web-app-title" content="技術ネット">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="icon" type="image/png" href="app_icon_192.png">
 <title>人物の一覧 — 技術ネットワーク</title>
 <!-- 技術ネットワークに出てくる人物（自作のドット絵の肖像）の一覧。時代ごと。押すとその人が関わった技術のページ（node.html）へ。
      データは tech_network_graph.js と tech_network_detail.js（tools/gen_tree_views.py）。見た目は design.css（docs/DESIGN_SYSTEM.md） -->
@@ -89,5 +96,6 @@ section h2 { display: flex; justify-content: space-between; gap: 8px; }
 <script>LineBreak.init();</script>
 <script src="furigana.js"></script>
 <script>Furigana.init(document.getElementById('furiBtn'));</script>
+<script src="pwa.js"></script>
 </body>
 </html>

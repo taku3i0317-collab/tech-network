@@ -1,0 +1,67 @@
+{
+ "id": "I-55",
+ "history": {
+  "name": "ゼロモーメントポイント",
+  "name_en": null,
+  "kind": "idea",
+  "trunk": "I",
+  "trunk_name": "発見・考え方",
+  "year": 1968,
+  "year_range": "1968〜1972",
+  "year_uncertain": true,
+  "hee1": "二足歩行ロボットの歩き方のもとは、足の不自由な人を歩かせる着るロボットの研究",
+  "hee1_en": null,
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://muzejnt.rs/eng/?p=552",
+   "https://doi.org/10.1142/S0219843604000083",
+   "https://ja.wikipedia.org/wiki/%E3%82%BC%E3%83%AD%E3%83%A2%E3%83%BC%E3%83%A1%E3%83%B3%E3%83%88%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88"
+  ],
+  "refs": [],
+  "people": [
+   {
+    "name": "ミオミル・ヴコブラトヴィッチ",
+    "tool": "🦿 歩く外骨格",
+    "year": "1968",
+    "intro": "2本足で転ばずに歩く考え（ZMP）を示した",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACP0lEQVR42mNgGAUjHTCSojgqKuo/MeqWLVtGtLksxCosKCj47+3tjSF++/ZtbMr/E+sIRmJ9bmNjQ1LQHjlyhKiQYKKF5QwMDAw2NjZERRnTQCfCoeWAMD0uhjA9LoJsI4FP1HcAzAJi2VTPhgwMDAyrLn3DaRmynJEAlQqiiuTA/wHO5gwMDAwM+RN3Yshv7Y1nYGBgYPAuXoghNzHfnYGBgYFhw96TDB1z1zNSJQ3s27eF4c3zuwz79m2BWwyzHF2Oamng7uMXcLaTkw+DiKQyg5OTDzwEYD5Fl0PXS3YaUJaVQAlubABd7s6jF3C9l289pCwENuw9iSHGyc4GZ798+wGrOC69JIUAUuL5X5LoDxf//vMXAwMDA8OFGw8YuDk5MMSJSXwkV8cVyYEojsAHeuZvJMpykssBZHB49lYUvm2qN+0bJMSEAim+J9kBMEeICvEzxPs7oIgv3HiA4fW7jyRZThGoSA78/+bIgv9vjiz4X5Ec+J9cc4hKA05OHhgWBDibM/xXd4OyXzCcuv/9P2bJuYORIgfALNbRMUARv3//DgMDAwNDq6kVgwwHB4NNXQIDNzcPg6KiCkbbkJBDWEixGKWEdI1jkGlaAGczLD+DoQZJP06HsJBq8f37d7D5lEFRUQWnHD6HsBBrMTKorc3DKpaUlIdXHzaHMGGRJNn36KFACCDbRXKjFJvviZEjmAivXLmAV+GbN68YRETEGBYtWgIXO/EBUhMyIol9/fqF4cCBXQwiImJEOQAAQwLo8RbH3vsAAAAASUVORK5CYII="
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "10-27"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [
+   "P-24"
+  ],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "足の裏には、体にかかる力の回転（モーメント）がちょうど0になる点がある。その点が足の裏の中にあれば転ばない、と考えて歩き方を決める。ベオグラードのミハイロ・プーピン研究所のミオミル・ヴコブラトヴィッチ（1931〜2012）が、足の不自由な人を助ける「歩く外骨格」のために1968年に発表し、のちに二足歩行ロボットがこの考えで歩けるようになった（最初に歩いたロボットは1984年の早稲田大学の WL シリーズ） ⚠️（発表の年・最初のロボットの名前は資料で違う）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "実験：積み木の人形の重心をずらして、足の裏から外へ出ると倒れることを確かめる",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAV0lEQVR42mNgoBAwYhOMCAv6jy62YtU6rGpZcJns4eYEZ+/YtQ+nC5go9cKoAbQwICIs6D9yFMKiFFvaIOiCVysmMbxaMYm2XmDBJykWkUf7QKQ4M1EMANt5FeHhbSciAAAAAElFTkSuQmCC"
+}

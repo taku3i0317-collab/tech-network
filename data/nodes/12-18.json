@@ -1,0 +1,66 @@
+{
+ "id": "12-18",
+ "history": {
+  "name": "削岩機",
+  "name_en": null,
+  "kind": "tech",
+  "trunk": "12",
+  "trunk_name": "建築・土木",
+  "year": 1861,
+  "year_range": "1857〜1871",
+  "year_uncertain": false,
+  "hee1": "空気で動く削岩機は、使い終わった空気でトンネルの中の息苦しさまで減らした（S-019 で追加。出典：Tunnels & Tunnelling（モン・スニ・トンネルの歴史） https://www.tunnelsandtunnelling.com/?p=488 、Britannica「Germain Sommeiller」 https://www.britannica.com/biography/Germain-Sommeiller 、亜留間次郎さん（Arumaddilo）が作った Wikipedia 日本語版「削岩機」 https://ja.wikipedia.org/wiki/%E5%89%8A%E5%B2%A9%E6%A9%9F ）",
+  "hee1_en": null,
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [
+   {
+    "name": "ジェルマン・ソメイエ",
+    "tool": "⛏️ 圧縮空気の削岩機",
+    "year": "1861",
+    "intro": "アルプスのトンネルで圧縮空気の削岩機を使った",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACB0lEQVR42mNgGAUjHTCSolhLTvQ/MequPXpNtLksxCo0UZX8rywphCH+/ssPbMr/E+sIRmJ9LiPCR1LQPnnziaiQYKKF5QwMDAwyInxERRnTQCfCoeWAZZNqGZZNqiXIbipJpV42hKUBmAXEgDuPXjDU9cwmKiGykBICUXnNKKGBS45qIVCRHPg/wNmcgYGBgUFFToKkEICBDXtPMnTMXc9IlRDgNAxl0NPUZLh0/TrD9/OrccoxPJpMvUR49zHCN9/Pr2bYOKkIxXKYb7HJIesl2wHKsqhBLyEigFMtuhy6XrIcsGHvScyoYGeDs1++/YBVHJdektIAUuL5X5Loj4iKn78YGBgYGC7ceMDAzcmBIU5M4iMpEUINgjsCOcuhF1SkWE5yLoBZvmxSLcPh2VtRxG1TveFyNGuQVCQHokQFNtAzfyPRvifZATBHiArxM8T7O6CIL9x4gOH1u48kWU4RqEgO/P/myIL/b44s+F+RHPifgZZtQlFRCbgFFRVFDAwMDAxxcTEoahYtWgJJsB19cLHXr18wUuQAmMV8fIgC5sSJfXgNtLBwgrM/ffpA0CEsxFpMDkDS/x+XQxhJtfjr1y8M3Nw8GCFhYeEEl8MFsIUICzV9TE6IMMIcQIzlhHxIrBpYaLx+/YJxwBulLOjxgwv8/PmDgZ2dg6A6aNAysLNzEOUAAKxJ8O6XRU0oAAAAAElFTkSuQmCC"
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-26"
+    ]
+   ],
+   [
+    [
+     "14-05"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "アルプスを抜けるモン・スニ（フレジュス）鉄道トンネル（約13km）は1857年に手掘りで始まったが、とても遅かった。技師ジェルマン・ソメイエ（1815〜1871）は、水の力で空気を押し縮め、その圧縮空気で岩に穴をあける機械を1861年から使った。煙を出さず、使ったあとの空気が換気にも役立った。1870年に貫通、1871年に開通 ⚠️（機械のもとの考えは別の人とする資料もある）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAZ0lEQVR42mNgoBAwogtYOfj8x6X42IEtGOpZ0DV6+fhg1bxtyxas4kzIHFya8QEmYmzBB1iw+O8/KS5hojQWmIgJMHK8xmDl4PO/pWfGf3zRShUvsOBLNHJibP/lxNgYjtE9EEeYAQAuah7kIW+RSgAAAABJRU5ErkJggg=="
+}

@@ -1,0 +1,58 @@
+{
+ "id": "10-38",
+ "history": {
+  "name": "ストレージ管のグラフィック端末",
+  "name_en": null,
+  "kind": "tech",
+  "trunk": "10",
+  "trunk_name": "制御・計算",
+  "year": 1972,
+  "year_range": "1962〜1972",
+  "year_uncertain": false,
+  "hee1": "この画面は、線を消すとき画面全体をピカッと光らせて、いっぺんに消していた（S-019 で追加。出典：TekWiki「4010」 https://w140.com/tekwiki/wiki/4010 、TekWiki「DVST」 https://w140.com/tekwiki/wiki/DVST 、TekWiki「564」 https://w140.com/tekwiki/wiki/564 、亜留間次郎さん（Arumaddilo）が作った Wikipedia 日本語版「直視型双安定ストレージチューブ」 https://ja.wikipedia.org/wiki/%E7%9B%B4%E8%A6%96%E5%9E%8B%E5%8F%8C%E5%AE%89%E5%AE%9A%E3%82%B9%E3%83%88%E3%83%AC%E3%83%BC%E3%82%B8%E3%83%81%E3%83%A5%E3%83%BC%E3%83%96 、亜留間次郎さん（Arumaddilo）が作った Wikipedia 日本語版「Tektronix 4010」 https://ja.wikipedia.org/wiki/Tektronix_4010 ）",
+  "hee1_en": null,
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "15-11"
+    ]
+   ],
+   [
+    [
+     "10-07"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "ブラウン管の蛍光面のすぐ裏に電荷を残しておくと、一度描いた線が光り続ける（直視型双安定ストレージ管、テクトロニクスのオシロスコープ 564 で1962年に製品に）。高価なメモリに絵を覚えさせなくても線画を出せるので、この管を使った端末 Tektronix 4010（1971〜1972年）が、1970年代にコンピューターの絵（グラフィックス）を安く広めた ⚠️（4010 の年は 1971 と 1972 の2説）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAkElEQVR42mNgoBAwMjAwMKipaf0nR/OtW9cYWWAcLy8/kjRv27aJgYGBgYGJVFtPsAmh8JmIVQgTs/j1jrABMIXIhmDTTNAL6IZgA0yEnAkzBJvtRAciLs0YBuCziSgDSNXMwMDAwIKeMHAlLHR5lKSMDaipaf2HGbJt2yaGW7euMZIdiAQzE7KtxGYiBmoBAL0iNTyyop8IAAAAAElFTkSuQmCC"
+}

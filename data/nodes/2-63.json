@@ -1,0 +1,53 @@
+{
+ "id": "2-63",
+ "history": {
+  "name": "ザイロン",
+  "name_en": null,
+  "kind": "tech",
+  "trunk": "2",
+  "trunk_name": "化学",
+  "year": 1998,
+  "year_range": "1980年代〜1998",
+  "year_uncertain": false,
+  "hee1": "火星探査機のパラシュートのひもにも使われた、とてもじょうぶな糸（S-019 で追加。出典：SRI「75 years of innovation: Zylon」 https://www.sri.com/press/story/75-years-of-innovation-synthetic-polymer-zylon/ 、東洋紡「ザイロン 技術資料」 https://www.toyobo.co.jp/seihin/kc/pbo/zylon-p/bussei-p/technical.pdf 、亜留間次郎さん（Arumaddilo）が作った Wikipedia 日本語版「ザイロン」 https://ja.wikipedia.org/wiki/%E3%82%B6%E3%82%A4%E3%83%AD%E3%83%B3 ）",
+  "hee1_en": null,
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "2-51"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "棒のようにまっすぐな分子が並んだ合成繊維（PBO）。1980年代にアメリカの SRI インターナショナルで作られ、1998年に日本の東洋紡が「ザイロン」の名前で作り始めた。引っぱる強さはケブラーの約1.6倍で、650℃まで分解しにくく燃えにくい。日光や湿気には弱い"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAbUlEQVR42mNgGGjAiMyZlifynxhNWZPewPWxYFMQFGSCVeO6dWfwuwAGkuyU4C5pa1KDa0a2Ga8LTAw+wV1RVXcLKsrHwMDwhoEoA85c4GM4c+EWhgvmHWJgGHUBDVyANSUSSkgEUyK2FDd4AQC+SUW6oY9X9gAAAABJRU5ErkJggg=="
+}

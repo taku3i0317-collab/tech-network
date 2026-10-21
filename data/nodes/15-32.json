@@ -1,0 +1,61 @@
+{
+ "id": "15-32",
+ "history": {
+  "name": "腕木通信",
+  "name_en": null,
+  "kind": "tech",
+  "trunk": "15",
+  "trunk_name": "通信・情報",
+  "year": 1794,
+  "year_range": "1791〜1794",
+  "year_uncertain": false,
+  "hee1": "馬で1日かかる知らせを、塔のリレーなら1時間かからずにパリへ届けられた（S-019 で追加。出典：ETHW「France Builds Visual Telegraph」 https://ethw.org/France_Builds_Visual_Telegraph 、フロリダ州立大学 Molecular Expressions「Claude Chappe」 https://micro.magnet.fsu.edu/optics/timeline/people/chappe.html 、亜留間次郎さん（Arumaddilo）が作った Wikipedia 日本語版「腕木通信」 https://ja.wikipedia.org/wiki/%E8%85%95%E6%9C%A8%E9%80%9A%E4%BF%A1 、亜留間次郎さん（Arumaddilo）が作った Wikipedia 日本語版「クロード・シャップ」 https://ja.wikipedia.org/wiki/%E3%82%AF%E3%83%AD%E3%83%BC%E3%83%89%E3%83%BB%E3%82%B7%E3%83%A3%E3%83%83%E3%83%97 ）",
+  "hee1_en": null,
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [
+   {
+    "name": "クロード・シャップ",
+    "tool": "🗼 腕木の塔",
+    "year": "1794",
+    "intro": "フランスで腕木通信の塔の線を作った",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACqElEQVR42u1WMWgTYRT+/uNQQyCRoOaWi0IyFKHQLroo2BZcHMINXQ6pOji4u9zi+jK4W5BgrdKOvx1cCtKCreBWKEiRBPQyJEc1tAdFdDkHuetdcv9/d0mxSx8E/rz37v/e/733/vcDZ3LKwmRGIvJOAsSyLCGOmvSxaZpjga+srEjtatqNKpVKrN627bECTB3AuEAiUZJyl0RhEv2y/CcG8D9EkVU/EXnjFKFpmiAiT9ZNioj6OPB8ZwP5zkbiuru9GrtfJgbiwLOswzUgYyC2C1zXheM4AIByuRzoj/QZIVjYBns1SIHrut7c3Bw459nakHOO+mQR3da//7WKNgQqYghAkIb6ZHG0NiQi9u7D54guNz2Pm+Yz5Kbnh/xlNs45iIhlmgVE5M1cZWh3eqjqGmoVDQDQ+3EA7dLFwK9l94ZsLbsHAGh3etj9+h2NJmdE5MXdCaqsCLvbq6jqWsQWBh+UQVtV11DVNRRrN7yRLqLBFAR0nz8XrJ2fB7H6tANNEXXB4uIiGk3O1nYPhwL59fsPAGBn7xvyuQtDej94pTYLpTYLx3Hgum62LiAiZlmWBwCNJmcAvKeP6hGfqYlrQuYaTc7YlQnPMAxpESoycMMwhNR9fPk+8pO1c/gwmYoQAAqFAuJYuP34Xizg81drvi8KhcJoN6FonPpBXC4V8aB+J+L7em0T+/3DAHxwpojGupoEPti/PsB+/zBgI3zquKkqe1OwNGO1duthQOET4zoAYGHhfsRnefktAOAF/3J8SW0tsbFexT6wNnFMN6e70g0Naz1Y9/Y2EwNR0wKPIqHvPVEgLCtw395BqTI1xIRhrQc2kcQxop7kiUdhhPkBpAFPOmFaH5+N1tYSO/VXsTqYH5Ec9TvIl/REPwBof3qDfElPFcBfyqBi9K3PUwsAAAAASUVORK5CYII="
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "7-04"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "丘の上に10〜15kmおきに塔を建て、塔の上の大きな腕木（長い棒と両はしの小さな腕）をロープで動かして形を作る。となりの塔の係が望遠鏡で形を読み、同じ形を作って次へ送る。腕の角度の組み合わせを暗号表のページと行に当てはめて言葉にした。フランスのクロード・シャップ（1763〜1805）が1791年に試し、1794年にパリ〜リールの線（15局）ができた ⚠️（最初の知らせの中身・線の長さは資料で違う）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAVElEQVR42mNgoBZIslP6n2Sn9J9UfUyUWsyI7AJSNM47dI+RLG+hi1HsBYoNYCFVA7rfB94LgzQQYfHsZaMGE/qPK/HgdAGSZhQ2/dLBtiO3iDIAABcBGjwiGfuZAAAAAElFTkSuQmCC"
+}

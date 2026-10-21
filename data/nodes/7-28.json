@@ -1,0 +1,66 @@
+{
+ "id": "7-28",
+ "history": {
+  "name": "自由電子レーザー",
+  "name_en": null,
+  "kind": "tech",
+  "trunk": "7",
+  "trunk_name": "光学",
+  "year": 1976,
+  "year_range": "1971〜1977",
+  "year_uncertain": false,
+  "hee1": "電子の速さを変えるだけで、光の色を選べるレーザー（S-019 で追加。出典：APS Physics「Focus: Landmarks—The First Free-Electron Laser」 https://physics.aps.org/story/v25/st10 、Physics Today 追悼「John Michael Julius Madey」 https://physicstoday.aip.org/obituaries/john-michael-julius-madey 、IEEE Spectrum「EUV FEL」 https://spectrum.ieee.org/euv-fel 、亜留間次郎さん（Arumaddilo）が作った Wikipedia 日本語版「自由電子レーザー」 https://ja.wikipedia.org/wiki/%E8%87%AA%E7%94%B1%E9%9B%BB%E5%AD%90%E3%83%AC%E3%83%BC%E3%82%B6%E3%83%BC ）",
+  "hee1_en": null,
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [
+   {
+    "name": "ジョン・マディ",
+    "tool": "🔦 自由電子レーザー",
+    "year": "1976",
+    "intro": "電子を磁石の列で走らせて光を出すレーザーを作った",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACRUlEQVR42mNgGAUjHTCSojgqKuo/MeqWLVtGtLksxCosKCj47+3tjSF++/ZtbMr/E+sIRmJ9bmNjQ1LQHjlyhKiQYKKF5QwMDAw2NjZERRnTQCfCoeWAMD0uhjA9LoJsI4FP1HcAzAJi2VTPhgwMDAyrLn3DaRmynJEAlQqiiuTA/wHO5gwMDAwM+RN3Yshv7Y1nYGBgYPAuXoghNzHfnYGBgYFhw96TDB1z1zNSJQ3s27eF4c3zuwz79m2BWwyzHF2Oamng7uMXcLaTkw+DiKQyg5OTDzwEYD5Fl0PXS3YaUJaVQAlubABd7s6jF3C9l289pCwENuw9iSHGyc4GZ798+wGrOC69JIUAUuL5X5LoDxf//vMXAwMDA8OFGw8YuDk5MMSJSXwkV8cVyYEojsAHeuZvJMpykssBZHB49lYUvm2qN+0bJMSEAim+J9kBMEeICvEzxPs7oIgv3HiA4fW7jyRZThGoSA78/+bIgv9vjiz4X5Ec+J9cc4hKAxJyZhgWBDibM/xXd4OyXzAs2P0UQ82LR6cYKXIAzGIBERUU8S8fnzAwMDAwuKbOYuARUWDocWJgYGHlYODhl8FoGxJyCAspFqOUkK5xDDz7dsHZDLXbMNQg6cfpEBZSLf7y8Qk2nzLw8MvglMPnEBZiLUYpA3b2YBUztIjAqw+bQ5iwSJLse/RQIASQ7SK5UYrN98TIEUyEH97cwavwx/f3DBycggyLFi1BZLMb1xgYGBgYFi16BRf78/sHw4vHpxk4OAWJcgAA4FbppDWLRjMAAAAASUVORK5CYII="
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "7-13"
+    ]
+   ],
+   [
+    [
+     "9-47"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "光の速さ近くまで加速した電子を、N極とS極が交互に並んだ磁石の列（アンジュレーター）の中でくねくね走らせて光を出す。原子や分子が光を出すふつうのレーザーと違い、電子のエネルギーや磁石の間隔を変えると波長を広く変えられる。スタンフォード大学のジョン・マディ（1943〜2016）が1971年に考え、1976年に光が強まるのを確かめ、1977年に発振させた。半導体の露光に使う EUV 光（13.5nm）の光源にする研究もあるが、まだ実用になっていない（今の EUV 光源はスズのプラズマ [7-18]） ⚠️（最初に動いた年は 1976・1977・1978 の説）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAX0lEQVR42mNgoAawcvD5b+Xg858cNhOlljMxDDpwZBrD/yPTGP4TK85EU5cQI86ELECsJmRxnF6wyWJgJFqc1IBDFqc4EFkYGBgYylb5QLlbGGBJ9NiBLYzEiA+DpAwA0zhHBSTZso8AAAAASUVORK5CYII="
+}

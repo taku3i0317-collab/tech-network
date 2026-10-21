@@ -1,8 +1,8 @@
 # tech-network — 技術の地図 / A map of technology
 
-石器から AI まで、615 の技術・モノ・発見が「何が無いと何が作れないか」でつながる地図です。
+石器から AI まで、630 の技術・モノ・発見が「何が無いと何が作れないか」でつながる地図です。
 教育 MOD「Semiconductor Lab」（Minecraft）のために作り、世界中の人に確かめてもらうために公開しています。
-From stone tools to AI: 615 technologies, products and discoveries, connected by "what cannot be made without what".
+From stone tools to AI: 630 technologies, products and discoveries, connected by "what cannot be made without what".
 Made for the educational Minecraft mod "Semiconductor Lab", and published so that people everywhere can check it.
 
 - 図 / Map: https://taku3i0317-collab.github.io/tech-network/ （GitHub Pages、docs/）。「English」ボタンで英語に / English button available

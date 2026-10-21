@@ -1,0 +1,71 @@
+{
+ "id": "14-21",
+ "history": {
+  "name": "E6B フライトコンピューター",
+  "name_en": null,
+  "kind": "tech",
+  "trunk": "14",
+  "trunk_name": "輸送",
+  "year": 1937,
+  "year_range": "1933〜1940",
+  "year_uncertain": false,
+  "hee1": "電池のいらない、くるくる回す計算機。今もパイロットが練習で使う（S-019 で追加。出典：AOPA「Wind triangle computers」（2000） https://www.aopa.org/news-and-media/all-news/2000/april/pilot/wind-triangle-computers 、スミソニアン博物館の所蔵品 https://www.si.edu/object/nmah_690053 、亜留間次郎さん（Arumaddilo）が作った Wikipedia 日本語版「風の三角形」 https://ja.wikipedia.org/wiki/%E9%A2%A8%E3%81%AE%E4%B8%89%E8%A7%92%E5%BD%A2 、亜留間次郎さん（Arumaddilo）が作った Wikipedia 日本語版「E6Bフライトコンピューター」 https://ja.wikipedia.org/wiki/E6B%E3%83%95%E3%83%A9%E3%82%A4%E3%83%88%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%E3%83%BC ）",
+  "hee1_en": null,
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [
+   {
+    "name": "フィリップ・ドルトン",
+    "tool": "✈️ 円形の計算尺",
+    "year": "1937",
+    "intro": "風の三角形を解く円形の計算尺を作った",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACQ0lEQVR42mNgGAUjHTCSothJS+I/Mer2XXtBtLksxCoMMpH7b64sgiH+9P03bMr/E+sIRmJ9riMjAOfX1VVgVdfU1AFnX3nygaiQYKKW5ehyOjICREUZEylpAJ/lpKgh2wG0AEQ7ICohgYEWaol2gIqcBE1CgIUUxcipHD2ukeVICQG82aQiOfD/t8fXSU5cdx69YFi2YAEDAwMDA5esJkPH3PWMVAkBTsNQBj1NTYZL168zfD+/Gqccw6PJ1AsBXTV5BmVZCXgaePHmA4OEiACKb9Hl7jx6wcDAwMBw9/ELhsu3HuINAYKJUFkWNfEhW44O0OXQ9ZLlgA17T2JGBTsbnP3y7Qes4rj0kpQGkILuf0miP1z8+89fDAwMDAwXbjxg4ObkwBCHWY4v6EmujiuSA1EcgQ/0zN9IlOUk5wJkcHj2VhS+bao37RskxIQCKb4n2QEwR4gK8TPE+zugiC/ceIDh9buPJFlOEahIDvz/5siC/2+OLPhfkRz4n4GWdYGNljSGBQHO5gz/1d2g7BcMR46fwlBz5NpTRoocALNYQ0YIRfzR608MDAwMDK2mVgwyHBwMNnUJDFzsLAxyonwYbUNCDmEhxWKUUs41jkGmaQGczdA9HUMNkn6cDmEh1eJHrz9h8ymDnCgfTjl8DmEh1mJk0L50J1axaDdLvPqwOYQJiyTJvkcPBUIA2S6SG6XYfE+MHMFEeOPJO7wK333+ziDEy8mwaNESuNiJD5CakBFJ7NvPPwzHrj9lEOLlJMoBAOiP5ldN4naHAAAAAElFTkSuQmCC"
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "10-21"
+    ]
+   ],
+   [
+    [
+     "14-12"
+    ]
+   ],
+   [
+    [
+     "14-02"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "飛行機は横風で流されるので、「機首の向きと空気に対する速さ」「風の向きと強さ」「地面に対する進路と速さ」の3本の矢印を三角形にして考える（風の三角形）。アメリカのフィリップ・ドルトン（1903〜1941）は、この三角形と、時間・速さ・距離の計算を、手で回す円形の計算尺にまとめた（特許1937年）。第二次世界大戦のころから E-6B の名で広まり、今もパイロットの練習で使われる ⚠️（特許番号・名前の由来は資料で違う）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAsElEQVR42q2TsQ3DIBBFP8iTUSBqF1FmYAAKBnDhATyD5cI1omAMFyxDqlgYDpTI/hUC3te/4wBuilGb79eYqP1126v7AwUrKQAA07zAGp0fp9KEt2BKSooqHWvB07xc4DyJ8+Esh7fgL2CNhjX6Ypgn4WVMou7TqExFGlCGPTUNnA+I8WAxHsz50DQYeh0HkLL1bwnyWpUU6MzEM8/I/hmkEq5KWLe927ASfuQz3dYHzvBiPpEmh/wAAAAASUVORK5CYII="
+}

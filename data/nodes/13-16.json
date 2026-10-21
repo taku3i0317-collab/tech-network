@@ -1,0 +1,61 @@
+{
+ "id": "13-16",
+ "history": {
+  "name": "血管をしばって血を止める",
+  "name_en": null,
+  "kind": "tech",
+  "trunk": "13",
+  "trunk_name": "医薬・衛生",
+  "year": 1552,
+  "year_range": "1537〜1564",
+  "year_uncertain": false,
+  "hee1": "床屋出身の外科医が、油が足りなくなったおかげでやさしい手当てを見つけた（S-019 で追加。出典：Hernigou（2013）「Ambroise Paré」 International Orthopaedics https://pmc.ncbi.nlm.nih.gov/articles/PMC3609990/ 、Wellcome Collection（パレの外科書） https://wellcomecollection.org/works/bjdkvy9n 、亜留間次郎さん（Arumaddilo）が作った Wikipedia 日本語版「アンブロワーズ・パレ」 https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%B3%E3%83%96%E3%83%AD%E3%83%AF%E3%83%BC%E3%82%BA%E3%83%BB%E3%83%91%E3%83%AC ）",
+  "hee1_en": null,
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [
+   {
+    "name": "アンブロワーズ・パレ",
+    "tool": "🧵 糸で血管をしばる",
+    "year": "1552",
+    "intro": "焼くかわりに糸で血管をしばって血を止めた",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACOUlEQVR42u1Xv2vbQBh9F7uWg4WTGgtUsLWoBOIhkCnJmvwD6dCllCylawfTwUs8pEsGk8EdTZZQvHhIuhbSNcmU0sEppYaienCRK1xj49guKEN7ciRb1p0qMIR803E/9N73vh93ImCwDVk24cPOGg3itSfM+rGlxUUu8K+tFtM+wuI1L7iTxDQl5ry89gvOSnwOM7Z7AlPLJJNImClR9P3xeqeDqmEQ32VYNQwCMWSmknGfFEKAcZdyoFzcRbm46znee/0ymBwAgIwimalk3AJgsW9aA/lCCfVmG1VNJ4G0YgB49uqNTQ23tcAUyL14Ym5vrQEAHisylwLUTk4vsH94TAJRYH71KVaWl/H56gq9y4rrGrS3wSVh7cfIm95lBe+LWRs49XbS2u2zvgmoaRn5QsmKsZx0v2DoWr5QQr5QgpqW/5/AyenFeCiEiDX++as1cd7tLFcO0OTJKJL5UIyOQtEfAAA+ffmO2Pz4PADUm218mJJ8XElY1XSSUSRzUsk5GxUF96p/5kbkbEjUthXVLrdWs3kfOAEnie71ALFoZPwG5ADnJkBJ9Id/oD5KjAHTcAX2HmBVg9drbgKSNHoh53JZAMDOznPbnqOjd38rZ//AmtN17/8CwgIcj4+aj7ownN45fz+wxu12y5NImBXYj906b7oRIbzA3W4HsZiI8/OPtvn19U1rzc0mKRIO0mM/ihBKgAXcy0PWPVQNXW+QmT9Kw874uFm/fw1BiHru+yctBCHKROAGUCj9C5FaYqYAAAAASUVORK5CYII="
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "0-06"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "当時は、けがを煮えた油で焼き、切った足の血を真っ赤な鉄で焼いて止めていた。フランスの床屋外科医アンブロワーズ・パレ（1510〜1590）は、油が足りなくなったとき軟膏をぬったほうが痛みもはれも少ないことに気づき、1552年には焼くかわりに糸で血管をしばって血を止めた。1564年の本でこの方法を広めた ⚠️（結紮を最初に考えたのはパレではなく、広めたのがパレ。場所・年は資料で違う）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAU0lEQVR42mNgGJTAxa/rPzFiRBtCsmZkjYQ0M1HqXRYGBgaGLhc1rLbsgtK45Mv23GJkgXG8HHQwDTiFW27bgStU9AKyiSiAywK33KCJhVHAwAAAZUEhqDNZzQYAAAAASUVORK5CYII="
+}

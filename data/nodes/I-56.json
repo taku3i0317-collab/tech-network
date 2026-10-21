@@ -1,0 +1,61 @@
+{
+ "id": "I-56",
+ "history": {
+  "name": "仕事が原因のがん",
+  "name_en": null,
+  "kind": "idea",
+  "trunk": "I",
+  "trunk_name": "発見・考え方",
+  "year": 1775,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "昔のイギリスでは、せまい煙突に入れるように8歳くらいの子どもが煙突掃除をしていた",
+  "hee1_en": null,
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://www.lindahall.org/about/news/scientist-of-the-day/percival-pott/",
+   "https://education-uk.org/documents/acts/1788-chimney-sweepers-act.html",
+   "https://ja.wikipedia.org/wiki/%E7%85%99%E7%AA%81%E6%8E%83%E9%99%A4%E4%BA%BA%E7%99%8C"
+  ],
+  "refs": [],
+  "people": [
+   {
+    "name": "パーシヴァル・ポット",
+    "tool": "🧹 煙突掃除人のがん",
+    "year": "1775",
+    "intro": "仕事が原因のがんに初めて気づいた一人",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACpElEQVR42u1WMYsTQRT+ZllMQmQjYsw2iUJSXHPgNZpG8JLSIqS4ZpETC/+AWFwa20kh1gEJ4iFJOaaw1BPk4OyEa0RyoEmRXaJHshg0Nmtx7rq72ZndTQ6v8UFg8t7b+d587715A/yXMxYiMlJKrdMAaTQaXBw57GNN01YC73Q6QrscdaNCoRCoHwwGKwUYOYBVgXgiheUujMIw+kX5Dw3gX4gkqn5KqbVKEWqaBkqpJeomiUd9EHh6uIf0cC90PdrvBu4Xi4Eg8Dhrdw2IGAjsAtM0YRgGACCXyzn6WX6TC+a2YdB1UmCaplWtVsEYi9eGjDHU1jMY9U/+lwrqAiiPIQBOGmrrmeXakFJKXr5+79GlNrZwQ3uE1MbWgr/IxhgDpZTEmgWUUmvzCsHRUEcxr6JUUAEA+tcJ1EsXHL/+QF+w9Qc6AOBoqOPw0xc024xQSq2gO0EWFeFov4tiXvXY3OB+8duKeRXFvIpM6bq11EXkT4FDd+Kcsza+TQL1UQeaxOuCVquFZpuR3uF0IZAf818AgA8fPyOdSi7o7eClUgVSqQLDMGCaZrwuoJSSRqNhAUCzzQgA6+G9msfn2tpVLnPNNiPk8ppVr9eFRSiJwOv1Ope6d09feX6idnYfJlYRAoCiKAhi4eb924GAj5/1bF8oirLcTcgbp3YQ2YsZ3K3d8vg+773F+HjqgPtnCm+sy2Hg/v61AcbHU4cN96mDpqroTUGijNVsVnUo3Nl5AADY3r7j8dndfXESYPOJoxuPdbLSq9gGVpS/F8zBwRvhhuVyxdXOk9BA5KjAy4jre4sXCIkLPJt9Rzp9foGJcrni2HgSxIh8midehhFiBxAFPOyEUX1sNsZjnZz5q1j254cn8/lPJBLJUL8/1CKRSEYK4Dfw7mKg1r3fbgAAAABJRU5ErkJggg=="
+   }
+  ],
+  "media": [],
+  "requires": [],
+  "understanding": [],
+  "enables": [
+   "2-62"
+  ],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "ロンドンの外科医パーシヴァル・ポット（1714〜1788）は1775年、小さいころから煙突に入っていた掃除人に皮ふのがんが多いことを書き、体にたまったすすが原因だと考えた。仕事や身のまわりの物ががんの原因になると気づいた、いちばん古い例の1つとされる。そのあとイギリスでは、小さな子どもを煙突に登らせることを法律で少しずつ禁止した（1788年に8歳以上、1875年に登録制） ⚠️（「最初の職業がん」という評価は20世紀に広まった）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "実験：すすの付いた紙と付いていない紙を並べ、すすが手や服にどれだけ移るかを見る（体に付いた物が長く残ることを確かめる）",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAeklEQVR42mNgoBAwkqJYTU3rPzL/1q1rjEyUuoBiA0gG6N6Ah8EUP4P/hDRPuvGL4data4w4A3GKn8F/GwcDDI1HDlxgyNl0gVFNTes/ugEsxDjbxsGAQe3GLwzNVAlEogwIm3GKAZvtRBuQp8FGu3QwDAxgwZZoSAEA1Ssk9LzZG6QAAAAASUVORK5CYII="
+}

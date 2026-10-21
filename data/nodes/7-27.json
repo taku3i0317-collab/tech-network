@@ -1,0 +1,66 @@
+{
+ "id": "7-27",
+ "history": {
+  "name": "ペッツバールレンズ",
+  "name_en": null,
+  "kind": "tech",
+  "trunk": "7",
+  "trunk_name": "光学",
+  "year": 1840,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "このレンズの前は、写真をとるあいだ何分もじっとしていなければならなかった（S-019 で追加。出典：COMSOL「Happy Birthday, Joseph Petzval」 https://www.comsol.com/blogs/happy-birthday-joseph-petzval 、Acta Universitatis Carolinae（2005）ペッツバールの伝記 https://dml.cz/bitstream/handle/10338.dmlcz/143837/ActaCarolinae_046-2005-3_20.pdf 、亜留間次郎さん（Arumaddilo）が作った Wikipedia 日本語版「ペッツバールレンズ」 https://ja.wikipedia.org/wiki/%E3%83%9A%E3%83%83%E3%83%84%E3%83%90%E3%83%BC%E3%83%AB%E3%83%AC%E3%83%B3%E3%82%BA ）",
+  "hee1_en": null,
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [
+   {
+    "name": "ヨーゼフ・ペッツバール",
+    "tool": "📷 明るいレンズ",
+    "year": "1840",
+    "intro": "計算で明るい肖像写真のレンズを設計した",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACDElEQVR42mNgGAUjHTCSolhLTvQ/MequPXpNtLksxCo0UZX8rywphCH+/ssPbMr/E+sIRmJ9LiPCR1LQPnnziaiQYKKF5QwMDAwyInxERRnTQCfCoeWAZZNqGZZNqiXIbipJpV42hKUBmAXEgDuPXjDU9cwmKiGykBICUXnNKKGBS45qIVCRHPg/wNmcgYGBgUFFToKkEICBDXtPMnTMXc9IlRDgNAxl0NPUZLh0/TrD9/OrccoxPJpMvUR49zHCN9/Pr2bYOKkIxXKYb7HJIesl2wHKshIMdT2z4XEsISKAUy1Mrq5nNkNdz2wGZVkJyh2wYe9JzKhgZ4OzX779gFUcl16S0gAs8WjJif4X5OFARMXPXwwMDAwMF248YODmxBSH1QW78CQ+khLhtUevGZHLdeQsh15QkVIRkdQeQK+UAuSUUYP70V2Sa0KyGiQwR3z98YuBm4ON7GqYLAfAHPHz9x8G9MbJkzefSG4NkeUAbKFBqq9JdoCoqAQ8AVZUFDEwMDAwxMXFoKhZtGgJJOd09MHFXr9+wUiRA2AW8/EhCh9l/t/4S86PrHD2p08fCDqEhViLyQFI+v/jcggjqRZ//fqFgZubh+HEiX0o4hYWTnA5XABbiLBQ08fkhAgjzAHEWE7Ih8SqgYXG69cvGAe8UcqCHj+4wM+fPxjY2TkIqoMGLQM7OwdRDgAAg5T4sX7nUVkAAAAASUVORK5CYII="
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "7-03"
+    ]
+   ],
+   [
+    [
+     "B-02"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "数学者ヨーゼフ・ペッツバール（1807〜1891）が計算で設計した4枚組のレンズ（F3.6 ほど）。それまでの写真のレンズより20倍ほど多く光を集めるので、写すのにかかる時間が大きく短くなり、人がじっと座っていられる長さで肖像写真がとれるようになった。ウィーンのフォクトレンダーが作った ⚠️（短くなった時間・明るさの倍率は資料で違う）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAZElEQVR42mNgGPKAkVQNFmVd/2HsE11ljEyUuoAFxpiWJ/KfGA2L0A2AaQwKMiHKxkXbUPlMpGjGBigOAyYGBgaGdevOkB+IWZPeQKPyDFGByMDhhD0WEAYRSgcM/6kaBsMAAABGnhWwPteSYQAAAABJRU5ErkJggg=="
+}

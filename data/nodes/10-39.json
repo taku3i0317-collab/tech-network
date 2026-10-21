@@ -1,0 +1,53 @@
+{
+ "id": "10-39",
+ "history": {
+  "name": "BASIC で動く小さなマイコンの板",
+  "name_en": null,
+  "kind": "tech",
+  "trunk": "10",
+  "trunk_name": "制御・計算",
+  "year": 1992,
+  "year_range": "1992〜1995",
+  "year_uncertain": false,
+  "hee1": "「スタンプ」は郵便切手。切手くらい小さいコンピューター（S-019 で追加。出典：Parallax「Our Story」 https://www.parallax.com/pages/our-story 、亜留間次郎さん（Arumaddilo）が作った Wikipedia 日本語版「BASIC Stamp」 https://ja.wikipedia.org/wiki/BASIC_Stamp ）",
+  "hee1_en": null,
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "10-14"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "切手くらいの大きさの板に、小さなコンピューター（マイコン）とプログラムを覚えておく部品をのせた物。機械語ではなく、やさしい BASIC の言葉でプログラムを書けるので、趣味でものを作る人や学校の授業で広く使われた（1992年に最初の型、1995年に2番目の型） ⚠️（使われた数は作った会社の発表）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAaUlEQVR42mNgoBAwogtYWeX8x6fh2LEpKHpY0DU6OHgRsvQ/skFYXYDLkAMHtmG4gBGXC2S+xKFofsKzCG4IsgtYsPiNJBeQFAZQuf+DywW0jwVY6CMbQtUwYCQ1JaK7gOIwYMFnC10AANMOYgyeQLFiAAAAAElFTkSuQmCC"
+}

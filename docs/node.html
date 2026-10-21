@@ -179,7 +179,7 @@ header.top .ic { display: none; }   /* 大きなアイコンを絵の欄に出�
   // TECH_TREE などの文はそのまま（書き換えない）で、見せるときだけ形を変える。同じ出典は同じ番号
   let notes = [];
   const MK = no => `\uE000${no}\uE001`;   // 番号の目印（文を esc・リンクにしたあとで <sup> に置きかえる）
-  const srcHtml = t => esc(String(t).replace(/^\s*[-・]\s*/gm, '').trim()).replace(/\n/g, '<br>').replace(/https?:\/\/[^\s（）、」]+/g, u => `<a href="${u}" target="_blank" rel="noopener">${u.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, '').slice(0, 60)}</a>`);
+  const srcHtml = t => esc(String(t).replace(/^\s*[-・]\s*/gm, '').trim()).replace(/\n/g, '<br>').replace(/https?:\/\/[^\s（）、」]+/g, u => `<a href="${u}" target="_blank" rel="noopener">${(() => { try { return decodeURI(u); } catch (e) { return u; } })().replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, '').slice(0, 60)}</a>`);   // 日本語の URL は読める形で
   const noteNo = html => { let i = notes.findIndex(n => n.html === html); if (i < 0) { notes.push({ html, refs: 0 }); i = notes.length - 1; } return i + 1; };
   function cite(raw) {
     let s = String(raw || ''), from = 0;
@@ -198,7 +198,8 @@ header.top .ic { display: none; }   /* 大きなアイコンを絵の欄に出�
         let end = s.indexOf('。', p); if (end < 0) end = s.length;
         src = s.slice(p + 3, end).trim(); before = s.slice(0, p).replace(/[、。\s]+$/, ''); after = s.slice(end);
       }
-      const m = MK(noteNo(srcHtml(src)));
+      // 出典がいくつも並んでいたら（「」、」や「URL 、」で区切る）、1つずつ別の番号に
+      const m = src.split(/(?<=[」\s])、\s*/).map(x => x.trim()).filter(Boolean).map(x => MK(noteNo(srcHtml(x)))).join('');
       s = before + m + after; from = before.length + m.length;
     }
     return s;

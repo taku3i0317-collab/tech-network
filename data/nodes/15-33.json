@@ -1,0 +1,66 @@
+{
+ "id": "15-33",
+ "history": {
+  "name": "ヘルシュライバー",
+  "name_en": null,
+  "kind": "tech",
+  "trunk": "15",
+  "trunk_name": "通信・情報",
+  "year": 1929,
+  "year_range": "1920年代〜1934",
+  "year_uncertain": false,
+  "hee1": "文字を絵として送るから、雑音で点が消えても人が見れば読めた（S-019 で追加。出典：Hellschreiber.com「History」 https://www.hellschreiber.com/hellschreiber-history.htm 、Crypto Museum「Hellschreiber」 https://www.cryptomuseum.com/telex/hell/index.htm 、亜留間次郎さん（Arumaddilo）が作った Wikipedia 日本語版「ヘルシュライバー」 https://ja.wikipedia.org/wiki/%E3%83%98%E3%83%AB%E3%82%B7%E3%83%A5%E3%83%A9%E3%82%A4%E3%83%90%E3%83%BC ）",
+  "hee1_en": null,
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [
+   {
+    "name": "ルドルフ・ヘル",
+    "tool": "📠 ヘルシュライバー",
+    "year": "1929",
+    "intro": "文字を点の絵で送る通信を作った",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACKElEQVR42mNgGAUjHTCSojgqKuo/MeqWLVtGtLksxCosKCj47+3tjSF++/ZtbMr/E+sIRmJ9bmNjQ1LQHjlyhKiQYKKF5QwMDAw2NjZERRnTQCfCoeWAMD0uhjA9LoJsI4FP1HcAzAJi2VTPhgwMDAyrLn3DaRmynJEAlQqiiuTA/wHO5gwMDAwMKnISRBt659ELOHvD3pMMHXPXM1IlBDgNQxn0NDUZLl2/zvD9/GqccgyPJlMvDdx9jPDN9/OrGTZOKkKxHOZbbHLIesl2gLIsatBLiOCOYHQ5dL1kOWDD3pOYUcHOBme/fPsBqzguvSSlAaTE878k0R8RFT9/MTAwMDBcuPGAgZuTA0OcmMRHcnVckRyI4gh8oGf+RqIsJzkXIIPDs7ei8G1TvWnfICEmFEjxPckOgDlCVIifId7fAUV84cYDDK/ffSTJcopARXLg/zdHFvx/c2TB/4rkwP/kmkNUGnBy8sCwIMDZnOG/uhuU/YLh1P3vGGr27dvBSJEDYBbr6BigiN+/f4eBgYGBodXUikGGg4PBpi6BgZubh0FRUQWjbUjIISykWIxSyrnGMcg0LYCzGZafwVCDpB+nQ1hItfj+/TvYfMqgqKiCUw6fQ1iItRgZ1NbmYRVLSsrDqw+bQ5iwSJLse/RQIASQ7SK5UYrN98TIEUyEV65cwKvwzZtXDCIiYgyLFi2Bi534AKkJGZHEvn79wnDgwC4GERExohwAAJXe4SUwyT/EAAAAAElFTkSuQmCC"
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "15-07"
+    ]
+   ],
+   [
+    [
+     "10-03"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "文字を小さな点のます目に分け、点のある所だけ音をオンにして順に送る。受け手は回るらせんに紙テープを当て、オンの間だけ点を打って文字の形を作り直す。文字を記号に直さず形のまま送るので、雑音で点が欠けても人の目で読める。ドイツのルドルフ・ヘル（1901〜2002）の特許（1929年）、報道で使われ始めたのは1934年 ⚠️（発明した町・点の数は資料で違う）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAWElEQVR42mNgGAWMLn5d/ykxgIWBgYEhJMSLLM1r1myDGMDAwMDQ1xIGlyiqWcVASBwGmJA52BTgE8cwoK8lDKtiXOJYXYDsZELi8FigOBDXrNk2mqApAABPASGJGQWXmwAAAABJRU5ErkJggg=="
+}

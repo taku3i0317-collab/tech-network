@@ -48,7 +48,7 @@
   "enabled_by": [],
   "explained_by": [],
   "frontier": false,
-  "real": "1751 クロンステットが単離。1890 モンド法 Ni+4CO→Ni(CO)4（約50℃で気体化）→約200℃で分解して純Ni"
+  "real": "1751 クロンステットが単離。1890 モンド法 Ni+4CO→Ni(CO)4（約50℃で気体化）→約200℃で分解して純Ni。とても純粋なニッケルは、ルートヴィヒ・モンド（1839〜1909）が1890年に発表した方法で取り出す。ニッケルは一酸化炭素と低めの温度で反応して気体（ニッケルカルボニル）になるが、鉄や銅はほとんど気体にならない。この気体を約200℃に温めると分解して純粋なニッケルが残る（工業では1900年ごろから、カルボニル冶金）。（S-019 で追加。出典：Grace's Guide「Mond Nickel Co」 https://www.gracesguide.co.uk/Mond_Nickel_Co 、Today in Science「Ludwig Mond」 https://todayinsci.com/M/Mond_Ludwig/MondLudwig-Bio.htm 、亜留間次郎さん（Arumaddilo）が作った Wikipedia 日本語版「モンドプロセス」 https://ja.wikipedia.org/wiki/%E3%83%A2%E3%83%B3%E3%83%89%E3%83%97%E3%83%AD%E3%82%BB%E3%82%B9 、亜留間次郎さん（Arumaddilo）が作った Wikipedia 日本語版「カルボニル冶金」 https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%AB%E3%83%9C%E3%83%8B%E3%83%AB%E5%86%B6%E9%87%91 ）"
  },
  "game": {
   "status": "✅",

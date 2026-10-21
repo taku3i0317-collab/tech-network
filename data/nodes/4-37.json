@@ -1,0 +1,63 @@
+{
+ "id": "4-37",
+ "history": {
+  "name": "NaS 電池",
+  "name_en": null,
+  "kind": "tech",
+  "trunk": "4",
+  "trunk_name": "動力・電気",
+  "year": 1966,
+  "year_range": "1966〜2002",
+  "year_uncertain": false,
+  "hee1": "中身がアツアツにとけている電池。300℃に保ったまま、電気の貯金箱として働く（S-019 で追加。出典：米国特許 US3413150A https://patents.google.com/patent/US3413150A/en 、東京電力「NaS 電池」 https://www.tepco.co.jp/en/corpinfo/consultant/newtech/newtech-e.html 、政府広報（Highlighting Japan 2017年7月） https://gov-online.go.jp/eng/publicity/book/hlj/html/201707/201707_07_en.html 、亜留間次郎さん（Arumaddilo）が作った Wikipedia 日本語版「溶融塩電池」 https://ja.wikipedia.org/wiki/%E6%BA%B6%E8%9E%8D%E5%A1%A9%E9%9B%BB%E6%B1%A0 、Wikipedia 日本語版「ナトリウム・硫黄電池」 https://ja.wikipedia.org/wiki/%E3%83%8A%E3%83%88%E3%83%AA%E3%82%A6%E3%83%A0%E3%83%BB%E7%A1%AB%E9%BB%84%E9%9B%BB%E6%B1%A0 ）",
+  "hee1_en": null,
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "4-07"
+    ]
+   ],
+   [
+    [
+     "2-08"
+    ]
+   ],
+   [
+    [
+     "2-11"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "とけたナトリウムととけた硫黄を、ナトリウムのイオンだけを通すセラミック（ベータアルミナ）の管で仕切った電池で、約300℃で動く（溶融塩電池のなかま）。アメリカのフォード社が1966年に発表し、日本では日本ガイシと東京電力が1984年から開発して、2002年に送電網用に実用化した。昼と夜の電気のならしや、太陽・風の電気の調整に使われる。塩化ニッケルを使う ZEBRA 電池もなかま"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAhklEQVR42mNgwAKOTGP4T4iNE1CkmRxDGHEZYuXg85+BgYHBy8eHYduWLQzHDmzBqpYRl2YvHx8UMVyGMBGjGeYSmKvwGkAqoNgAFlwSDlwZDNY+IQwMDAwMR7esYTjwbQZpLoBpRmfTLwyOblmDlU10GBz4NoPhwCoYz4XOsbBtyxYGugEAHNA6poWi5egAAAAASUVORK5CYII="
+}

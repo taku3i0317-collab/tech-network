@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>影響を受けた作品 — 技術ネットワーク</title>
+<!-- S-020（S-018 のユーザーの決定）：科学の出典とは別の「影響を受けた作品」。名前と作品名・出版社だけ（絵・肖像は使わない、「公認」に見える書き方はしない）。
+     今は1つだけ。ほかの作品はユーザーが選んだら足す -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&family=DotGothic16&display=swap">
+<link rel="stylesheet" href="design.css">
+<style>
+* { box-sizing: border-box; }
+body { margin: 0; line-height: 1.7; }
+.wrap { max-width: 760px; margin: 0 auto; padding: 12px 16px 48px; }
+nav { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; font-size: 13px; padding: 6px 0 10px; }
+nav a { text-decoration: none; }
+.card { border: 1px solid var(--line); border-radius: var(--radius); background: var(--panel); padding: 12px 16px; margin: 12px 0; }
+.muted { color: var(--sub); font-size: 13px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav><a href="network.html" id="back">← 技術ネットワーク図へ</a><button type="button" id="langBtn" class="btn" lang="en">English</button></nav>
+  <h1 id="t">影響を受けた作品</h1>
+  <p class="muted" id="lead">科学の出典（事実の裏付け）とは別に、このプロジェクトが影響を受けた人・作品です。事実の出典は、それぞれの技術のページの一番下にあります。</p>
+  <div class="card" id="list">
+    <p><b>亜留間次郎さん（薬理凶室）</b><br>配信・動画、『アリエナイ医学事典』（三才ブックス）ほか。いちばん影響を受けました。</p>
+  </div>
+</div>
+<script>
+(function () {
+  let en = false;
+  try { en = localStorage.getItem('tn-lang') === 'en'; } catch (e) { /* 保存できない環境 */ }
+  document.documentElement.lang = en ? 'en' : 'ja';
+  const b = document.getElementById('langBtn');
+  b.textContent = en ? '日本語' : 'English';
+  b.onclick = () => { try { localStorage.setItem('tn-lang', en ? 'ja' : 'en'); } catch (e) { /* 保存できない */ } location.reload(); };
+  if (en) {
+    document.title = 'Inspirations — Technology network';
+    document.getElementById('back').textContent = '← Technology network';
+    document.getElementById('t').textContent = 'Inspirations';
+    document.getElementById('lead').textContent = 'Separate from the scientific sources, these are the people and works that inspired this project. The sources for the facts are at the bottom of each technology page.';
+    document.getElementById('list').innerHTML = '<p><b>Jiro Aruma (Yakuri Kyoshitsu)</b><br>Streams and videos, “Arienai Igaku Jiten” (Sansai Books) and more. Our biggest influence.</p>';
+  }
+})();
+</script>
+<script src="vendor/budoux-ja.min.js"></script>
+<script src="linebreak.js"></script>
+<script>LineBreak.init();</script>
+</body>
+</html>

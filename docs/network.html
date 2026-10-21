@@ -104,6 +104,9 @@ small.term { color: var(--sub); font-weight: 400; }
   header .btn { min-height: 32px; padding: 0 10px; font-size: 13px; }
   .intro { font-size: 13px; padding: 6px 12px; }
   .legend { display: none; }
+  /* S-020 C：スマホの下のカードは下からすべって出る（220ms）、閉じるときは少し速く下がる（180ms） */
+  aside#card { display: block; transform: translateY(105%); visibility: hidden; }
+  aside#card.open { transform: none; visibility: visible; }
   .hint { top: 8px; bottom: auto; right: 10px; left: 10px; text-align: center; }   /* S-012：下の「？図の見方」と重ならないよう上に */
   header h1 { display: none; }   /* スマホは「☰ メニュー」と検索だけ（S-012） */
 }
@@ -138,6 +141,10 @@ small.term { color: var(--sub); font-weight: 400; }
 .toFocus[hidden] { display: none; }
 body.focusMode .intro { display: none; }
 @media (max-width: 700px) { .intro { display: none; } }   /* スマホ：はじめの説明は近所の図のはじめの画面に出すので、図の上には出さない */
+@media (max-width: 700px) and (prefers-reduced-motion: no-preference) {
+  aside#card { transition: transform 180ms ease-in, visibility 0s 180ms; }
+  aside#card.open { transition: transform 220ms cubic-bezier(.2, 0, 0, 1), visibility 0s; }
+}
 </style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -155,6 +162,8 @@ body.focusMode .intro { display: none; }
     <button type="button" id="aiBtn" class="btn">AI までの道</button>
     <a class="btn" href="people.html">人物の一覧</a>
     <a class="btn" href="glossary.html" id="glossBtn">用語集</a>
+    <button type="button" class="btn" data-film="B-10" id="filmAgain">はじめの動きをもう一度</button>
+    <a class="btn" href="credits.html" id="creditsBtn">影響を受けた作品</a>
     <select id="trunk" aria-label="分野でしぼる"><option value="">すべての分野</option></select>
     <label><input type="checkbox" id="all"> すべての技術</label>
     <label><input type="checkbox" id="now"> 今すぐ作れるだけ</label>
@@ -213,7 +222,7 @@ body.focusMode .intro { display: none; }
     'モノを1つ選んでみよう。': 'Pick a product to start.', 'モノ（年の順）': 'Products (by year)', 'これを作るのに要った物': 'Needed to make this', '前提': 'needs',
     'なし（ここが出発点）': 'None (a starting point)', '✅ ゲームにある': '✅ in the game', 'まだゲームに無い': 'not in the game yet', 'この先に': 'leads to', 'の技術': 'technologies',
     'これで作れるようになった物': 'Made possible by this', '次の技術': 'next', 'なし': 'None', 'へえ': 'Fun fact', '全体の地図': 'Whole map', '詳しく見る': 'Details', '← 近所の図': '← Neighbours',
-    '？ 図の見方': '? How to read', 'すべての技術を表示中': 'Showing all technologies', 'ズームすると技術が見えます（モノを選んでも）': 'Zoom in (or pick a product) to see technologies' };
+    '影響を受けた作品': 'Inspirations', '▶ できるまでを観る': '▶ Watch how it is made', 'はじめの動きをもう一度': 'Play the intro again', '？ 図の見方': '? How to read', 'すべての技術を表示中': 'Showing all technologies', 'ズームすると技術が見えます（モノを選んでも）': 'Zoom in (or pick a product) to see technologies' };
   const tr = ja => LANG === 'en' && EN_UI[ja] ? EN_UI[ja] : ja;
   document.documentElement.lang = LANG;
   document.getElementById('langBtn').textContent = LANG === 'en' ? '日本語' : 'English';
@@ -224,9 +233,9 @@ body.focusMode .intro { display: none; }
     document.getElementById('menuBtn').textContent = '☰ Menu';
     document.getElementById('q').placeholder = 'Search (technology, product, person, number)';
     document.getElementById('intro').innerHTML = 'A map of how about 600 technologies, products and discoveries connect, from stone tools to AI: "what cannot be made without what". <b>Start by clicking a product (a big circle).</b> <small>(Only names and the first fun fact are in English for now; other text is Japanese.)</small>';
-    for (const id of ['aiBtn', 'legendBtn', 'layoutBtn', 'toMap', 'toNode', 'toFocus']) { const b = document.getElementById(id); b.textContent = tr(b.textContent); }
+    for (const id of ['aiBtn', 'legendBtn', 'layoutBtn', 'toMap', 'toNode', 'toFocus', 'filmAgain']) { const b = document.getElementById(id); b.textContent = tr(b.textContent); }
     document.querySelector('a[href="people.html"]').textContent = tr('人物の一覧');
-    document.getElementById('glossBtn').textContent = 'Glossary';
+    document.getElementById('glossBtn').textContent = 'Glossary'; document.getElementById('creditsBtn').textContent = 'Inspirations';
     document.querySelector('#trunk option').textContent = tr('すべての分野');
     for (const l of document.querySelectorAll('header label')) { const tx = l.lastChild; if (tx && tx.nodeType === 3) tx.textContent = tr(tx.textContent); }
   }
@@ -482,7 +491,19 @@ body.focusMode .intro { display: none; }
         text(d.name, `700 12px ${LABEL_FONT}`, 'center', 'alphabetic', C.ink, 0, 0, ls, C.bg, 3); ctx.restore();
       }
     }
+    // S-020 B：丸を選んだ瞬間に、輪が1回だけ広がって消える（250ms、くり返さない。動きを減らす設定では出さない）
+    if (state.sel && selPulse && !REDUCE_MOTION.matches) {
+      const p = (performance.now() - selPulse) / 250, d = byId.get(state.sel);
+      if (p < 1 && d && !d.hidden) {
+        const r = R(d) * (isIdea(d) ? 1.25 : 1) * (isLand(d) ? pinScale() : 1);
+        ctx.globalAlpha = 0.9 * (1 - p); ctx.strokeStyle = C.hl; ctx.lineWidth = 3 / K;
+        ctx.beginPath(); ctx.arc(d.x, d.y, r * (1 + 0.8 * p) + 4 / K, 0, Math.PI * 2); ctx.stroke(); ctx.globalAlpha = 1;
+        requestDraw();
+      } else selPulse = 0;
+    }
   }
+  let selPulse = 0;
+  const REDUCE_MOTION = matchMedia('(prefers-reduced-motion: reduce)');
 
   // ---- 当たり判定：見えている点の四分木（d3.quadtree）で、押した場所の点を探す ----
   let qt = null;
@@ -770,7 +791,8 @@ body.focusMode .intro { display: none; }
     state.path = null;
     state.sel = id; render();
     const card = document.getElementById('card');
-    if (!id) { card.classList.remove('open'); card.innerHTML = ''; return; }
+    if (!id) { card.classList.remove('open'); setTimeout(() => { if (!card.classList.contains('open')) card.innerHTML = ''; }, 250); return; }   // 中身は下がり終わってから消す（S-020 C）
+    selPulse = performance.now();
     // カードは先に開いて（図の幅が決まり、中央合わせがずれない）、中身は重いデータを読んでから
     if (!window.TECH_DETAIL) {
       const d = byId.get(id);
@@ -795,7 +817,7 @@ body.focusMode .intro { display: none; }
     const chips = ids => `<div class="chips">${ids.map(chip).join('')}</div>`;
     card.innerHTML = `<button class="close" aria-label="閉じる">×</button>
       <h2>${head}<span>[${d.id}] ${esc(d.name)} ${d.status}</span></h2>
-      <a class="more" href="node.html#${encodeURIComponent(d.id)}">詳しく見る →</a>
+      <a class="more" href="node.html#${encodeURIComponent(d.id)}">詳しく見る →</a>${isProd(d) ? ` <button type="button" class="more" data-film="${d.id}">${tr('▶ できるまでを観る')}</button>` : ''}
       <div class="meta"><span style="color:${isIdea(d) ? IDEA : isProd(d) ? DS.prod : color(d.trunk)}">${isIdea(d) ? '◆' : '●'}</span> ${isProd(d) ? '<b>モノ</b>・' : ''}${esc(d.trunk_name)}${d.trunk === 'P' || d.trunk === 'I' ? '' : `<small class="term">（${d.trunk === 'B' ? '枝' : '幹' + d.trunk}）</small>`}・${yearText(d)}${d.buildable_now ? '・<b>今すぐ作れる</b>' : ''}</div>
       ${wallHtml(id)}
       ${d.people.length ? `<div class="sec"><h3>人物</h3><div class="people">${d.people.map(p => `<div class="person">${p.portrait ? `<img class="portrait" src="${p.portrait}" alt="">` : silhouette}<div><b>${esc(p.name)}</b><small>${esc(p.tool)}・${esc(p.year)}</small></div></div>`).join('')}</div></div>` : ''}
@@ -907,7 +929,7 @@ body.focusMode .intro { display: none; }
       <div class="arrow">↓</div>
       <div class="me"><div class="top">${ficon(d)}<div><h2>[${d.id}] ${esc(d.name)}</h2>
         <div class="meta">${esc(yearText(d))}・${esc(d.trunk_name)}<br>${d.status === '✅' ? tr('✅ ゲームにある') : tr('まだゲームに無い')}・${tr('この先に')} ${d.descendants} ${tr('の技術')}</div></div></div>
-        <p class="hee" id="fhee"></p></div>
+        <p class="hee" id="fhee"></p>${isProd(d) ? `<button type="button" class="btn" data-film="${d.id}" style="margin-top:8px">${tr('▶ できるまでを観る')}</button>` : ''}</div>
       <div class="arrow">↓</div>
       <h3>▼ ${tr('これで作れるようになった物')}（${tr('次の技術')} ${new Set(kid).size}）</h3>
       ${tilesHtml(kid, 8, 'kid') || `<p class="muted" style="margin:0 12px">${tr('なし')}</p>`}`;
@@ -941,6 +963,20 @@ body.focusMode .intro { display: none; }
   fromHash();
 })();
 </script>
+<script src="film.js"></script>
+<script>
+// S-020：「〇〇を作るには？」ミニムービー（film.js）。終わったらそのモノへ（スマホは近所の図、パソコンは図で選ぶ）
+(function () {
+  const go = id => { if (location.hash.slice(1) === id) window.dispatchEvent(new HashChangeEvent('hashchange')); else location.hash = id; };
+  const open = id => Film.play(id, { onEnd: go });
+  document.addEventListener('click', e => { const b = e.target.closest('[data-film]'); if (b) { e.preventDefault(); if (b.closest('#menu')) { document.getElementById('menu').hidden = true; document.getElementById('menuBtn').setAttribute('aria-expanded', 'false'); } open(b.dataset.film); } });
+  window.openFilm = open;
+  // 初めての1回だけ、スマホのムービー（番号つきの URL で来た人には出さない）
+  if (!location.hash) Film.firstTime('B-10', { onEnd: go });
+})();
+</script>
+<script src="ui_icons.js"></script>
+<script>UiIcons.init();</script>
 <script src="vendor/budoux-ja.min.js"></script>
 <script src="linebreak.js"></script>
 <script>LineBreak.init();</script>

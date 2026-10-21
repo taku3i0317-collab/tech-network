@@ -52,7 +52,7 @@
  },
  "game": {
   "status": "❓",
-  "buildable_now": false,
+  "buildable_now": true,
   "play": "作品：パソコンの頭。命令を読んで計算する",
   "missing": "",
   "item": null,

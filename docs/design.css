@@ -76,3 +76,13 @@ button, input, select, textarea { font-family: var(--font); }   /* S-013：ボ�
 :lang(en) { hyphens: auto; overflow-wrap: break-word; }
 body { font-size: clamp(14px, 13px + 0.3vw, 15.5px); overflow-wrap: break-word; }
 img, video, canvas, svg { max-width: 100%; }
+
+/* S-020：画面の印（✅ ❓ ⚠️ など）は絵文字ではなく 16×16 のドット絵（ui_icons.js）。文字の大きさに合わせる */
+img.uic { width: 1.05em !important; height: 1.05em !important; image-rendering: pixelated; vertical-align: -0.17em; margin: 0 0.05em; }   /* カードの題の img 32px の決まりより強く */
+
+/* S-020 A：押したときの手ごたえ。押した瞬間に色が変わり（全員）、少し沈む（96%、120ms。動きを減らす設定では沈まない） */
+.btn:active, .chip:active, .tile:active, .wtile:active, .mini:active, nav.toc button:active, .backbar a:active, .backbar button:active, .fbar a:active, .fbar button:active, .lchip:active { background-color: color-mix(in srgb, var(--accent) 14%, var(--panel)); border-color: var(--accent); }
+@media (prefers-reduced-motion: no-preference) {
+  .btn, .chip, .tile, .wtile, .mini, nav.toc button, .backbar a, .backbar button, .fbar a, .fbar button, .lchip { transition: transform 120ms ease-out, background-color 120ms ease-out, border-color 120ms ease-out; }
+  .btn:active, .chip:active, .tile:active, .wtile:active, .mini:active, nav.toc button:active, .backbar a:active, .backbar button:active, .fbar a:active, .fbar button:active, .lchip:active { transform: scale(.96); }
+}

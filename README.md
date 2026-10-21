@@ -20,6 +20,10 @@ https://github.com/taku3i0317-collab/tech-network/issues
 - 存命の人の顔（肖像）は載せません。肖像は自作のドット絵です / No portraits of living people; portraits are original pixel art
 - 文は自分の言葉で書いています（Wikipedia などの丸写しはしない）/ Texts are written in our own words (no copying)
 
+## 影響を受けた作品 / Inspirations
+科学の出典とは別に、影響を受けた人・作品 / Separate from the scientific sources, the people and works that inspired this project:
+- 亜留間次郎さん（薬理凶室）— 配信・動画、『アリエナイ医学事典』（三才ブックス）ほか。いちばん影響を受けました。/ Jiro Aruma (Yakuri Kyoshitsu) — streams and videos, "Arienai Igaku Jiten" (Sansai Books) and more. Our biggest influence.
+
 ## ライセンス / License
 CC0 1.0（パブリックドメイン）。名前を書かなくても、何にでも自由に使えます。/ CC0 1.0 (public domain dedication). Use it for anything, no attribution required.
 例外：docs/vendor/budoux-ja.min.js（日本語の折り返しの道具 BudouX、Google）は Apache License 2.0（docs/vendor/LICENSE-budoux.txt）。/ Exception: docs/vendor/budoux-ja.min.js (BudouX by Google, for Japanese line breaks) is under the Apache License 2.0 (docs/vendor/LICENSE-budoux.txt).

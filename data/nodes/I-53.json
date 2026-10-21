@@ -47,7 +47,7 @@
  },
  "game": {
   "status": "❓",
-  "buildable_now": false,
+  "buildable_now": true,
   "play": "実験：見つけたトランジスタの形をハンコにして、それを並べて NOT・AND、さらに足し算の回路を作る",
   "missing": "",
   "item": null,

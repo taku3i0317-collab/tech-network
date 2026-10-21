@@ -41,6 +41,18 @@
     },
     "certainty": "全部が鏡・反射型マスク・真空 ◎／2019 量産 ○⚠️（7nm 世代）／届く光の割合 △（鏡の枚数と反射率による）",
     "basis": "- Wikipedia「Extreme ultraviolet lithography」：https://en.wikipedia.org/wiki/Extreme_ultraviolet_lithography"
+   },
+   {
+    "title": "O85. 鏡をもっと大きく（High-NA EUV）［9-40・v1.0］",
+    "answer": "EUV の NA を 0.33 から 0.55 に上げると、もっと細い線が描ける。ところが NA を上げると光がマスクに当たる角度が大きくなりすぎるので、縦と横で縮小の倍率をかえた「アナモルフィック」の投影光学（片方 1/4・もう片方 1/8）にした。そのため1回に焼ける範囲が半分になり、大きなチップは2回に分けてつなぐ。焦点深度は NA の2乗で浅くなり、板はいっそう平らでなければならない。2020年代に作られ始めた（⚠️ 年は出典で確かめ中）。",
+    "hee": {
+     "1": "鏡を大きくすると、もっと細かく描ける。",
+     "2": "縦と横で縮める倍率がちがう、ふしぎな光学。",
+     "3": "1回に焼ける広さが半分になったので、大きなチップは2回に分けてつなぐ。",
+     "4": "細かくするほど、ピントの深さは浅く、時間はかかる（代償がある）。"
+    },
+    "certainty": "NA 0.55・アナモルフィック 4×/8×・半分のショット ◎／2020年代 ○⚠️",
+    "basis": "- Wikipedia「Extreme ultraviolet lithography」（High-NA）：https://en.wikipedia.org/wiki/Extreme_ultraviolet_lithography"
    }
   ],
   "people": [],

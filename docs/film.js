@@ -375,6 +375,7 @@
     if (film) loadPeople();
 
     // ムービーの時間割（ms）
+    // S-049：「あ！」の場面はやめた（ユーザー「無くていい」）。window.FILM_AHA を立てたときだけ出す（データ aha と候補 docs/aha_candidates.md は残す）
     // S-046：分解が終わった所で止めて「あ！」を1つずつ見せる（字の数に合わせて 2.5〜3.5 秒、1回のムービーで2つまで）。
     //  t1〜t5 は「図の時間」（あ！の間は止まる）。STARTS・T5 は本当の時間（押すと次の場面へ）
     let P2, t1, t2, t3, t4, t5, STARTS, AHD = [], AH = 0, T5;
@@ -382,7 +383,7 @@
     const ahaText = a => a.text || (S.dir === 'up' ? T.ahaUp : T.aha)(nm(byId.get(a.part)), kidNm(a.root));
     const timing = () => {
       P2 = Math.max(1800, Math.min(6500, S.nL * 750)); t1 = 1400; t2 = t1 + P2 + 700; t3 = t2 + 1800; t4 = t3 + 2400; t5 = t4 + 2300;
-      AHD = S.aha.slice(0, 2).map(a => Math.min(3500, Math.max(2500, [...ahaText(a)].length / 5.5 * 1000))); AH = AHD.reduce((x, y) => x + y, 0); T5 = t5 + AH;
+      AHD = !window.FILM_AHA ? [] : S.aha.slice(0, 2).map(a => Math.min(3500, Math.max(2500, [...ahaText(a)].length / 5.5 * 1000))); AH = AHD.reduce((x, y) => x + y, 0); T5 = t5 + AH;
       STARTS = [...new Set([0, t1, t2, ...(AHD.length > 1 ? [t2 + AHD[0]] : []), t2 + AH, t3 + AH, t4 + AH, T5])];
     };
     const gmap = rt => rt < t2 ? rt : rt < t2 + AH ? t2 - 1 : rt - AH;   // 本当の時間 → 図の時間

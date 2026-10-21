@@ -17,7 +17,20 @@
    "4": ""
   },
   "sources": [],
-  "refs": [],
+  "refs": [
+   {
+    "title": "C82. 熱と油に強いゴム（フッ素ゴム）［2-64］",
+    "answer": "ふつうのゴムは、熱や油でふくらんだり固くなったりして、すき間をふさげなくなる。フッ素をたくさんふくむ合成ゴム（フッ素ゴム）は、200〜250℃でも、油・燃料・多くの薬品にふれても長くもつ。フッ化ビニリデンとヘキサフルオロプロピレンという2つのつぶ（モノマー）を水の中でまぜてつなぎ（乳化共重合）、ビスフェノールと酸化マグネシウムで鎖どうしをつないで（加硫）作る。1957年にデュポンが「バイトン」として出した（1958年とする資料もある）。エンジン・化学工場・半導体装置の真空の O リングに使われる。",
+    "hee": {
+     "1": "フライパンのテフロンの親せき。フッ素の力で熱と油に強くなったゴム。",
+     "2": "CF3 の出っぱりが鎖をきれいに並ばせないので、プラスチックでなくゴムになる。",
+     "3": "真空の装置の O リングは、ガスを出しにくいフッ素ゴムがよく使われる。",
+     "4": "作るときにフッ化水素や塩素を使うので、工場では漏れを厳しく管理する。"
+    },
+    "certainty": "フッ素ゴムの組成・加硫 ◎／バイトンの年（1957/58）△",
+    "basis": "- Wikipedia「FKM」：https://en.wikipedia.org/wiki/FKM"
+   }
+  ],
   "people": [],
   "media": [],
   "requires": [
@@ -43,15 +56,15 @@
   "real": "フッ素を多くふくむ合成ゴム。ふつうのゴムがだめになる 200〜250℃でも長く使え、油や燃料・多くの薬品にも強いので、エンジンや化学工場の O リング（すき間をふさぐ輪のパッキン）に使われる。1957年にデュポンが「バイトン」として出した ⚠️（1958年とする資料もある）"
  },
  "game": {
-  "status": "❓",
-  "buildable_now": true,
-  "play": "",
+  "status": "✅",
+  "buildable_now": false,
+  "play": "軽",
   "missing": "",
   "item": null,
   "recipes": [],
   "machine_recipes": [],
   "placeholder": null,
-  "game_text": "未定（実装の前に相談）",
+  "game_text": "",
   "hee_game": {}
  },
  "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAg0lEQVR42sVSMRLAIAhLPd/C4FMYfKyDT+ngZ+hSe4h00jvZjBBDDHC6Lg8kSuLhrd1Tf/QGmTMAoNYCfQYglihaRub8DapGsXcTAVGS3mClaqJXjXQsrJo4rOC97igZDF5WEKyBf1+ofdqqINr9usvafZ0P69OUg1rLFBwbrK1RPl8P1L1MWoivDnkAAAAASUVORK5CYII="

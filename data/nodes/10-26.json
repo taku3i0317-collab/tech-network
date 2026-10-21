@@ -17,7 +17,20 @@
    "4": ""
   },
   "sources": [],
-  "refs": [],
+  "refs": [
+   {
+    "title": "F61. 熱い部品を取り出した最初のロボット（産業用ロボット）［10-26］",
+    "answer": "覚えた動きをくり返す腕。1954年にデボルが特許を出し（1961年成立）、1961年に最初の産業用ロボット「ユニメート」がアメリカの自動車工場で働き始めた。腕は油の圧力で動き、手順は磁気ドラムに記憶した。",
+    "hee": {
+     "1": "最初の仕事は、ダイカスト（溶けた金属を型に流す）の機械から熱い部品を取り出すこと＝人がさわると危ない仕事だった",
+     "2": "動きは人がペンダント（手元の操作盤）で腕を動かして1つずつ覚えさせた（ティーチング）",
+     "3": "日本では1969年に国産化され、1977年には全部の関節を電気のモーターで動かすロボットが出た（機械遺産）",
+     "4": "1978年には、水平に動く腕（SCARA 型）の試作機が日本の大学で作られ、電子部品の組み立てに広まった"
+    },
+    "certainty": "特許 1954 出願・1961 成立 ◎／1961 自動車工場に導入 ◎（最初の工場の名前は資料で分かれる △）／油圧・磁気ドラム ◎／1969 国産化・1977 電動 ○",
+    "basis": "The Henry Ford「Unimate」https://www.thehenryford.org/collections-and-research/digital-collections/artifact/449359 、Wikipedia「Unimate」https://en.wikipedia.org/wiki/Unimate 、日本機械学会 機械遺産 No.076 https://www.jsme.or.jp/kikaiisan/heritage_076.html"
+   }
+  ],
   "people": [],
   "media": [],
   "requires": [
@@ -48,15 +61,15 @@
   "real": "ジョージ・デボルが1954年に「覚えた動きをくり返す腕」の特許を出し（1961年に成立）、ジョセフ・エンゲルバーガーと作ったユニメーション社のユニメートが、1961年にアメリカの GM の工場に入った（最初の工場の名前は資料で分かれる）。最初の仕事は、ダイカスト（溶けた金属を型に流す鋳造）の機械から熱い部品を取り出すこと。腕は油の圧力で動き、手順は磁気ドラムに記憶した。日本では1969年に川崎重工業がユニメートを国産化し、1977年に安川電機が全部の関節を電気モーターで動かす MOTOMAN-L10 を出した（機械遺産 No.076）。1978年には山梨大学で水平に動く SCARA 型の試作機が作られた（未来技術遺産）"
  },
  "game": {
-  "status": "❓",
-  "buildable_now": true,
+  "status": "✅",
+  "buildable_now": false,
   "play": "",
   "missing": "",
   "item": null,
   "recipes": [],
   "machine_recipes": [],
   "placeholder": null,
-  "game_text": "未定（実装の前に相談）",
+  "game_text": "ロボットの腕とペンダント（O-037）",
   "hee_game": {}
  },
  "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAjElEQVR42mNgGHTAysHnv5WDz39i1TOia0bmx+idwKkxa9IbRgYGBgYmUlwXFGTCEBRkgtsFDAwMDNPyRP4j24DPhccObGFkIjWMjh3YwnjswBa44UyUBjoTqbajsyl2ASOhQKKqF7ABFuToCwr6gyK5bp3If/SEg9ULEM0meG1at+4MVkNYkBUMCAAAgTIwdkwCXzcAAAAASUVORK5CYII="

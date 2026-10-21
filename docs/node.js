@@ -7,7 +7,7 @@
     nodes: G.nodes.map(n => { const m = { ...n, ...D.nodes[n.id] }; m.people = (m.people || []).map(p => p.pi != null ? { ...p, portrait: D.portraits[p.pi] } : p); return m; }),
     edges: G.edges.map(([from, to, k]) => ({ from, to, kind: kindName[k] }))
   };
-  const REPO = 'https://github.com/taku3i0317-collab/semiconductor-lab';
+  const REPO = 'https://github.com/taku3i0317-collab/tech-network';
   const nodes = data.nodes, byId = new Map(nodes.map(n => [n.id, n]));
   // 日本語／英語（O-021）：network.html と同じ保存（tn-lang）。英語はノードの名前とへえ①だけ
   let LANG = 'ja';

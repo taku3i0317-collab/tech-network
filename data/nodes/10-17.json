@@ -39,7 +39,7 @@
  },
  "game": {
   "status": "❓",
-  "buildable_now": false,
+  "buildable_now": true,
   "play": "作品（形を描いて 3D プリンターで出す）",
   "missing": "",
   "item": null,

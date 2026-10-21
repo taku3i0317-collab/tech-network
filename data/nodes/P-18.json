@@ -44,7 +44,7 @@
  },
  "game": {
   "status": "❓",
-  "buildable_now": false,
+  "buildable_now": true,
   "play": "作品：傾けると向きが分かる",
   "missing": "",
   "item": null,

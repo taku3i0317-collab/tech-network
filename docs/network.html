@@ -965,14 +965,25 @@ body.focusMode .intro { display: none; }
 </script>
 <script src="film.js"></script>
 <script>
-// S-020：「〇〇を作るには？」ミニムービー（film.js）。終わったらそのモノへ（スマホは近所の図、パソコンは図で選ぶ）
+// S-020・S-021：「〇〇を作るには？」ミニムービー（film.js）。終わり・とばすと「中心図」（真ん中にそのモノ、外へいくほど昔の前提）で止まる。
+// URL：#center/番号＝中心図。丸を押して真ん中を変えるたびに残るので、戻るボタンで前の真ん中へ、さらに戻ると中心図を閉じる。✕ で閉じるとそのモノへ
 (function () {
+  let ctl = null, quiet = false;
   const go = id => { if (location.hash.slice(1) === id) window.dispatchEvent(new HashChangeEvent('hashchange')); else location.hash = id; };
-  const open = id => Film.play(id, { onEnd: go });
+  const opts = { onCenter: k => { if (location.hash !== '#center/' + k) history.pushState(null, '', '#center/' + k); },
+                 onClose: k => { ctl = null; if (!quiet) go(k); quiet = false; } };
+  const open = id => { if (ctl) ctl.close(); ctl = Film.play(id, opts); };
   document.addEventListener('click', e => { const b = e.target.closest('[data-film]'); if (b) { e.preventDefault(); if (b.closest('#menu')) { document.getElementById('menu').hidden = true; document.getElementById('menuBtn').setAttribute('aria-expanded', 'false'); } open(b.dataset.film); } });
+  const fromHash = () => {
+    const m = location.hash.match(/^#center\/(.+)$/);
+    if (m) { const id = decodeURIComponent(m[1]); if (ctl) ctl.center(id); else ctl = Film.center(id, opts); }
+    else if (ctl) { quiet = true; ctl.close(); }
+  };
+  window.addEventListener('hashchange', fromHash);
   window.openFilm = open;
+  if (/^#center\//.test(location.hash)) fromHash();
   // 初めての1回だけ、スマホのムービー（番号つきの URL で来た人には出さない）
-  if (!location.hash) Film.firstTime('B-10', { onEnd: go });
+  else if (!location.hash) ctl = Film.firstTime('B-10', opts);
 })();
 </script>
 <script src="ui_icons.js"></script>

@@ -51,7 +51,7 @@
  },
  "game": {
   "status": "❓",
-  "buildable_now": false,
+  "buildable_now": true,
   "play": "作品：向けた先の景色を絵にする",
   "missing": "",
   "item": null,

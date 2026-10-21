@@ -525,7 +525,7 @@ header.top .ic { display: none; }   /* 大きなアイコンを絵の欄に出�
 })();
 </script>
 <script src="film.js"></script>
-<script>document.addEventListener('click', e => { const b = e.target.closest('[data-film]'); if (b) Film.play(b.dataset.film, { onEnd: id => { location.hash = id; } }); });</script>
+<script>document.addEventListener('click', e => { const b = e.target.closest('[data-film]'); if (b) Film.play(b.dataset.film, { onClose: id => { location.hash = id; } }); });</script>
 <script src="ui_icons.js"></script>
 <script>UiIcons.init();</script>
 <script src="vendor/budoux-ja.min.js"></script>

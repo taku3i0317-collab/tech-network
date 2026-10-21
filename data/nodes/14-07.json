@@ -1,0 +1,53 @@
+{
+ "id": "14-07",
+ "history": {
+  "name": "空気入りタイヤ",
+  "name_en": "Pneumatic tire",
+  "kind": "tech",
+  "trunk": "14",
+  "trunk_name": "輸送",
+  "year": 1845,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "空気入りタイヤは獣医さんが子どものために作った",
+  "hee1_en": "The pneumatic tire was made by a veterinarian for his child",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "2-29"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1845 トムソンが特許、1888 ジョン・ボイド・ダンロップ（獣医）が息子の三輪車のために再発明"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "乗り物の部品",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAlUlEQVR42qVTsQ2AMAxzUG/pwAlMzAhxCyN3oYq5U09g4JkwVYpEEoZkdB3HbVwgWKSBOY+s4c9zkytgNXpCSTYvy4brOtVJkgOAOydpzdO8qk5aLQTgI4KcR+72p3llTUDikj84k34xU0CbatUQzUHyDi3bvw6sR3Qd9NW0Wsi6e6uF5Mo/Idn3g700apxwlMOfKVwvBChg7jvF5OYAAAAASUVORK5CYII="
+}

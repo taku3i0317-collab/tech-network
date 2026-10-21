@@ -1,0 +1,80 @@
+{
+ "id": "7-13",
+ "history": {
+  "name": "レーザー原理",
+  "name_en": "Laser principle",
+  "kind": "tech",
+  "trunk": "7",
+  "trunk_name": "光学",
+  "year": 1960,
+  "year_range": "1917〜1960",
+  "year_uncertain": false,
+  "hee1": "最初のレーザーは宝石のルビーで光った",
+  "hee1_en": "The first laser shone using a ruby gemstone.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "O62. 宝石が光った最初のレーザー（ルビーレーザー）［7-13］",
+    "answer": "1960年、ヒューズ研究所のセオドア・メイマンは、クロムを少し含むルビーの棒にらせん形のキセノン閃光ランプを巻きつけ、強い閃光で照らして、694nm の赤い光のパルスを出した。これが最初のレーザー。考え方の元は1917年のアインシュタインの「誘導放出」と、1954年のタウンズのメーザー（マイクロ波）。人工ルビーは1902年のベルヌーイの炎溶融法で作れた。",
+    "hee": {
+     "1": "最初のレーザーは宝石のルビーで光った。",
+     "2": "レーザーの光は色の幅がとても狭く、波がそろったまま遠くまで続く（干渉の縞がずっと見える）。",
+     "3": "発明したときは「使い道を探している発明」と言われたが、今はバーコード・光通信・手術・半導体の露光にまで使う。",
+     "4": "ルビーは3準位なので、原子の半分以上を上の状態に上げる強い閃光が要った（反転分布）。"
+    },
+    "certainty": "1960 メイマン・694nm ◎／1917 アインシュタイン・1954 タウンズ ◎／1902 ベルヌーイ ◎／コヒーレンス長の数字 △（ゲームの値）",
+    "basis": "- Wikipedia「Ruby laser」：https://en.wikipedia.org/wiki/Ruby_laser"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-14",
+     "1-40",
+     "7-02"
+    ]
+   ],
+   [
+    [
+     "6-08"
+    ]
+   ],
+   [
+    [
+     "7-05"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [
+   "I-27"
+  ],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1917 アインシュタインの誘導放出、1954 タウンズのメーザー（アンモニア）、1960 メイマン（ヒューズ研究所）がルビーで初のレーザー（694nm、パルス）。人工ルビーは1902 ベルヌーイの火炎溶融法"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "実験＋作品",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAQElEQVR42mNgGB7AoqzrP7l6mCi1nGIDWGCMI9MY/lv7hBCl6eiWNQwlD6jtApssBkaGrDUkBCLDIAnEUUAFAADAYg6Y72ev2gAAAABJRU5ErkJggg=="
+}

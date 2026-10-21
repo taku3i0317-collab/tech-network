@@ -1,0 +1,71 @@
+{
+ "id": "8-31",
+ "history": {
+  "name": "研削盤",
+  "name_en": "Grinding machine",
+  "kind": "tech",
+  "trunk": "8",
+  "trunk_name": "精密・計測",
+  "year": 1876,
+  "year_range": "1876〜1956",
+  "year_uncertain": false,
+  "hee1": "硬すぎて刃物で削れない鋼も、砥石でこすれば髪の毛の100分の1の正確さで形をそろえられる（O-009 で追加。出典：日本機械学会「機械遺産 No.059・No.114・No.106」、Wikipedia「Grinding machine」、Schaeffler「Impeccably round and smooth」）",
+  "hee1_en": "Even steel too hard to cut with a blade can be shaped to one hundredth of a hair's accuracy by rubbing it with a grinding wheel. (Added in O-009. Sources: JSME \"Mechanical Engineering Heritage No.059, No.114, No.106\", Wikipedia \"Grinding machine\", Schaeffler \"Impeccably round and smooth\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "O43. 転がすと軽く回る（玉軸受と研削盤）［8-20］［8-31］",
+    "answer": "軸と受けの間に鋼の球をはさむと、こすれる代わりに転がるので摩擦がずっと小さくなる。1794年ヴォーンの馬車の軸受、1869年の自転車を経て、1883年ドイツのフィッシャーが焼入れした鋼球を研削で同じ大きさの真球にそろえる機械を作り、量産が始まった。硬い鋼を仕上げる研削盤は1876年ブラウン＆シャープ社の万能研削盤から広まった。",
+    "hee": {
+     "1": "球の大きさがそろっていないと、大きい球だけに力がかかってすぐ傷む。そろえることが発明の核心だった。",
+     "2": "焼入れした鋼は刃物で削れないので、砥石で少しずつ削る。",
+     "3": "シュヴァインフルトは「軸受の町」になり、1907年スウェーデンでは SKF が自動調心玉軸受を作った。",
+     "4": "モーター・ハードディスク・露光装置のステージも、正確な球に支えられている。"
+    },
+    "certainty": "ヴォーン 1794 の特許 ◎／フィッシャー 1883 の鋼球研削機 ○（Schaeffler の資料）／ブラウン＆シャープ 1876 の万能研削盤 ◎／摩擦係数のめやす ○",
+    "basis": "- Wikipedia「Ball bearing」：https://en.wikipedia.org/wiki/Ball_bearing"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "8-01"
+    ]
+   ],
+   [
+    [
+     "1-26"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "焼入れして硬くした鋼は、旋盤の刃では削れない。回る砥石で少しずつ削ると、1000分の1mm の正確さで仕上げられる。1876年、アメリカのブラウン＆シャープ社のジョセフ・ブラウンが万能研削盤を作った。1883年、ドイツのフリードリッヒ・フィッシャーは焼入れした鋼の球を研削で同じ大きさの真球にする機械を作り、玉軸受（[8-20]）の量産につながった（Schaeffler の資料）。日本の研削盤は機械遺産に選ばれている（大隈の GPB 形円筒研削盤・岡本の平面研削盤 PSG-6B など）。砥石の粒は、のちにアチソン炉（[3-10]）の炭化ケイ素も使われた"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAl0lEQVR42mNgoBAwYhO0cvD5j0382IEtjAQNsHLw+S8nxobVtkevfmEYwoRNs46ZG8OjV79QsI6ZG4OcGBuG61iw2bRtyxZszsXqMiZKAxGrC7x8fBgYGBj+o4tdObWLgbaBCIsqWKAhByA2zXgBcmjjShdUAYzk2oLhHVIMQFbLAhPAFnW4AEztsQNbGBkpCSSSYgUXAAAhwVTftPwDFAAAAABJRU5ErkJggg=="
+}

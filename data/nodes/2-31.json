@@ -1,0 +1,72 @@
+{
+ "id": "2-31",
+ "history": {
+  "name": "光で固まる膜：アスファルトと重クロム酸ゼラチン",
+  "name_en": "Films that harden in light: asphalt and dichromated gelatin",
+  "kind": "tech",
+  "trunk": "2",
+  "trunk_name": "化学",
+  "year": 1826,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "最初の写真と IC の作り方は同じ原理",
+  "hee1_en": "The first photograph and the way ICs are made use the same principle",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "C1. 光で固まる瀝青＝レジストの一番古い祖先（ニエプスのヘリオグラフ）［2-31］",
+    "answer": "天然アスファルト（瀝青）は、紫外線を含む日光を浴びると酸化して分子どうしが橋かけされ、油（溶剤）に溶けなくなる。ニエプスは瀝青を溶剤に溶かしてピューター板に塗り、光に当て、ラベンダー油と白い石油の混合液で光の当たらなかった所を洗い流した。こうして残った像が、現存する最古の写真『ル・グラの窓からの眺め』（1826〜27年ごろ）。光の当たった所が残るので、今のネガ型フォトレジストと同じしくみ。",
+    "hee": {
+     "1": "最初の写真と IC の作り方は同じ原理（塗る → 光を当てる → 溶かす）。",
+     "2": "天然アスファルトは、地下の油が地表で軽い成分を失った残り（死海・トリニダードのピッチ湖・ラ・ブレア）。",
+     "3": "露光には晴れた日で少なくとも8時間、数日かかったという説もある⚠️。遅すぎて、ダゲールの銀板写真（1839）に取って代わられた。",
+     "4": "「リソグラフィー（石版印刷）」という名前も、版画から来ている。"
+    },
+    "certainty": "瀝青が光で溶けなくなること・ニエプスの方法 ◎／最古の写真の年（1826〜27）○／露光時間 △（8時間説〜数日説）→ ⚠️／テレビン油は ゲームでのラベンダー油の代わり（溶かす働きは同じ）",
+    "basis": "- Wikipedia「View from the Window at Le Gras」：https://en.wikipedia.org/wiki/View_from_the_Window_at_Le_Gras"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "2-35",
+     "2-07"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1826頃 ニエプス：ユダヤのアスファルトは光で硬くなり、未露光部をラベンダー油で洗い流す＝現存最古の写真は「フォトレジスト」だった。1852 タルボット：重クロム酸ゼラチンは光で Cr(VI)→Cr(III) に還元され、Cr(III) がゼラチンを橋かけして水に溶けなくなる（写真製版）"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "実験",
+  "missing": "",
+  "item": "natural_asphalt",
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": "近似：原油・石油の蒸留は作らない（地表の天然アスファルトだけ）。",
+  "game_text": "ゼラチン＋重クロム酸 → 感光膜（枝[B-02]写真と共通）",
+  "hee_game": {
+   "note1": "地面にしみ出した、黒くねばる石。昔の人は接着や防水に使った。",
+   "note2": "荒野と砂漠の地表近く（Y56〜90）の砂・砂岩・テラコッタの中にある。ツルハシで掘ると瀝青（アスファルト）が出る（シルクタッチならブロックのまま）。",
+   "note3": "地下の油が地表近くまで上がり、軽い成分が蒸発して重い成分だけ残った物が天然アスファルト（瀝青）。死海（昔はアスファルト湖と呼ばれた）、トリニダード島のピッチ湖、ロサンゼルスのラ・ブレア・タール坑が有名。",
+   "note4": "メソポタミアでは5000年以上前から、瀝青を れんがの目地や船の防水に使った。ラ・ブレアのタール坑には、マンモスやサーベルタイガーが はまって化石になって残っている。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAa0lEQVR42mNUU9P6z0ABYEIXMDLQwKoQlzgTsTadu3ADqzgjJV4wMtCgzAC8XjAy0MDwNzYx2rmAUEzA2EzEKEaOCZg4LFaYcGlCjjZc4vQPA6INwJVsic4LuJItXgPQQ5dkA2AaCTkfXR4AiLgkyW8n0sgAAAAASUVORK5CYII="
+}

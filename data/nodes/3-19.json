@@ -1,0 +1,58 @@
+{
+ "id": "3-19",
+ "history": {
+  "name": "副産物回収式コークス炉",
+  "name_en": "By-product coke oven",
+  "kind": "tech",
+  "trunk": "3",
+  "trunk_name": "熱",
+  "year": 1881,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "昔のコークス炉は、ガスとタールを燃やして捨てていた",
+  "hee1_en": "Old coke ovens burned off and threw away their gas and tar.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-10"
+    ]
+   ],
+   [
+    [
+     "3-12"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "C(石炭)→コークス＋揮発分。初期の蜂の巣炉（ビーハイブ炉）はガスとタールを燃やして捨てた。1881 ドイツでヒュッセナーとカール・オットーが競って副産物回収式コークス炉を建設し、タール・安水・ガスを回収。のちホフマンが蓄熱室（ジーメンス式）を加えてオットー・ホフマン炉となる（1890年代）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "マルチブロック。出力: コークス＋コールタール[2-20]＋安水[2-21]＋石炭ガス（[3-18]の燃料・ガス灯）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAX0lEQVR42mNgGCgwxc/gPwMDAwMLModYkLPpAiOMzcjAwMBg5eDznxxXHDuwhRHFOcTSGF6ACdg4GDBMYWAgSCO7ggnGWPZJhmjaxsEA0wBywagB0IREakrEliKHMAAAxHE0z9VHElwAAAAASUVORK5CYII="
+}

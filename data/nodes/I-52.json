@@ -1,0 +1,62 @@
+{
+ "id": "I-52",
+ "history": {
+  "name": "転位論",
+  "name_en": "Dislocation theory",
+  "kind": "idea",
+  "trunk": "I",
+  "trunk_name": "発見・考え方",
+  "year": 1934,
+  "year_range": "1907〜1959",
+  "year_uncertain": false,
+  "hee1": "金属が曲がるのは、結晶の中の原子の並びの「ずれ」が少しずつ動くから",
+  "hee1_en": "Metals bend because \"slips\" in the arrangement of atoms in the crystal move little by little.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://en.wikipedia.org/wiki/Dislocation",
+   "https://en.wikipedia.org/wiki/Necking_(engineering)",
+   "https://www.ias.ac.in/article/fulltext/boms/019/06/0857-0872"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "8-11"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [
+   "1-08",
+   "1-51",
+   "9-08",
+   "14-13"
+  ],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "金属の結晶の中には、原子の並びの「ずれ」の線（転位）があり、それが少しずつ動くことで金属は割れずに曲がる。1934年、イギリスの G・I・テイラー、ハンガリー出身のエゴン・オロワン、マイケル・ポラニーが別々にこの考えを出した。1956年には電子顕微鏡で転位が直接見えた。冷たいまま圧延すると硬くなる（加工硬化）のは転位がからみ合うから、ジュラルミンが時間とともに硬くなるのは小さな粒が転位の動きを止めるから。1958〜59年には、CZ 法で種結晶の首を細く絞って転位を外へ逃がし、転位の無いシリコンの結晶が作られた（今のウェハーはすべてこれ）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "実験：針金を何度も曲げると硬くなり、やがて折れるのをためす",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAVElEQVR42mNgoAawcvD5Tw7NwMDAwESp5cPdgK6wLeQZcOzAFsYj0xj+W/uEMByZxvD/2IEtjCQZYOXg898mi4GRUW4No00WAyNytI20WKCLAQMPADOWHbd0gsTvAAAAAElFTkSuQmCC"
+}

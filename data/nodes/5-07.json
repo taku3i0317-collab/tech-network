@@ -1,0 +1,87 @@
+{
+ "id": "5-07",
+ "history": {
+  "name": "ターボ分子ポンプ",
+  "name_en": "Turbomolecular pump",
+  "kind": "tech",
+  "trunk": "5",
+  "trunk_name": "真空",
+  "year": 1958,
+  "year_range": "1913〜1958",
+  "year_uncertain": false,
+  "hee1": "羽根の先は音速に近い速さで回っている",
+  "hee1_en": "The tips of its blades spin at nearly the speed of sound.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "O58. 羽根車で分子をはじく（ターボ分子ポンプ）［5-07］",
+    "answer": "ターボ分子ポンプは、何十段もの羽根車を毎分数万回転させ、羽根の先が気体分子の速さ（数百m/s）に近い速さで分子を下へはじき出す。1958年、ファイファー社のベッカーが発表した（祖先は1913年ゲーデの分子ポンプ）。油や水銀の蒸気を使わないので、蒸気が容器に戻って膜を汚すことがない。",
+    "hee": {
+     "1": "羽根の先は、音より速いくらいの速さで回っている。",
+     "2": "高速回転を支える精密な玉軸受（のちに磁気軸受）があって初めて作れた。",
+     "3": "拡散ポンプの油や水銀の蒸気は、冷却トラップで止めないと装置を汚した。",
+     "4": "今の半導体装置の真空は、ほとんどがターボ分子ポンプとドライポンプ。"
+    },
+    "certainty": "ベッカー 1958・ゲーデ 1913 ◎／毎分数万回転 ◎",
+    "basis": "- Wikipedia「Turbomolecular pump」：https://en.wikipedia.org/wiki/Turbomolecular_pump"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "5-04"
+    ]
+   ],
+   [
+    [
+     "8-01",
+     "8-05"
+    ]
+   ],
+   [
+    [
+     "4-08"
+    ]
+   ],
+   [
+    [
+     "8-20"
+    ]
+   ],
+   [
+    [
+     "1-29"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1913 ゲーデの分子ポンプが祖先。1958 ヴィリー・ベッカー（ファイファー社）がタービン型を発表。羽根の先端が分子の速さ（数百m/s）に近い速度で回り、分子をたたいて一方向へ送る。油を使わないので清浄"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "重（玉軸受がないと回せない・きれいな真空）",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAoUlEQVR42mNgoBAwogtYOfj8x6fh2IEtjDglCWnGpoYFXUGXixpcwYY/agwMDAwMASy3GBBiqOoxDCjbc4uxy0Xt/y+PIgYvqNgvZAVbtjAQ5QK2HX0MvzyKGGBsBFAj3gUwgMweYi7Y8EeNwcvHh3QXIHi3GBgYGP4zMKjBE5CVgxr+dICeULx8fGDM/0QlZXwpEm8yJmQALkNZKMkXVAEA/GZRXo9TsCIAAAAASUVORK5CYII="
+}

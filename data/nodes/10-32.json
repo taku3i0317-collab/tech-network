@@ -1,0 +1,58 @@
+{
+ "id": "10-32",
+ "history": {
+  "name": "浮動小数点の標準",
+  "name_en": "Floating-point standard",
+  "kind": "tech",
+  "trunk": "10",
+  "trunk_name": "制御・計算",
+  "year": 1985,
+  "year_range": "1977〜1985",
+  "year_uncertain": false,
+  "hee1": "コンピュータで 0.1＋0.2 を計算すると、ほんの少しだけ 0.3 からずれることがある（O-010 で追加。出典：IEEE Milestones「IEEE Standard 754, 1985」「Intel 8087, 1980」、IEEE Milestone「IEEE Standard 754 for Binary Floating-Point Arithmetic, 1985」（https://ethw.org/Milestones:IEEE_Standard_754_for_Binary_Floating-Point_Arithmetic,_1985））",
+  "hee1_en": "When a computer calculates 0.1 + 0.2, the answer can be just slightly off from 0.3. (Added in O-010. Sources: IEEE Milestones \"IEEE Standard 754, 1985\", \"Intel 8087, 1980\", IEEE Milestone \"IEEE Standard 754 for Binary Floating-Point Arithmetic, 1985\" (https://ethw.org/Milestones:IEEE_Standard_754_for_Binary_Floating-Point_Arithmetic,_1985))",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "10-11"
+    ]
+   ],
+   [
+    [
+     "10-13"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "小数を「数字の並び（仮数）×2の何乗（指数）」の形で表し、どのコンピュータでも同じ計算をすれば同じ答えになるように決めた規格。2進の浮動小数点は1941年のツーゼの Z3 がすでに使っていたが、メーカーごとに形がばらばらで、同じ計算でも答えがちがった。1977年に IEEE の小委員会ができ、1980年のインテルの計算用チップ 8087 が最初に実装し、1985年に承認された（IEEE マイルストーン）。AI チップ（[B-11]）が使う半分の長さ（16ビット）の形も、2008年の改訂版で決まった"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAmElEQVR42t2TsQ3DIBBF31mZw+UVXsGewLJSMYUHyhRUVsQEyQoUlFnkUiGhgOUirvzKf8D9/yXgWrweGIDqYKqDldoeXXl5XFx1YFzc4SOVgyPtVKTcMq1Izp5JKUor3vvpmVZEAOzjDEB6L6qDzfMdgBA2UoqS59X23kv3b4RbtlMSwlbZbUU4r8RcXEqxWeKvVs4u8H++38FEKvjR8O4AAAAASUVORK5CYII="
+}

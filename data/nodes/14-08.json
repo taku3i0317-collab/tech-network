@@ -1,0 +1,68 @@
+{
+ "id": "14-08",
+ "history": {
+  "name": "自転車",
+  "name_en": "Bicycle",
+  "kind": "tech",
+  "trunk": "14",
+  "trunk_name": "輸送",
+  "year": 1885,
+  "year_range": "1817〜1885",
+  "year_uncertain": false,
+  "hee1": "最初の自転車にはペダルがなかった",
+  "hee1_en": "The first bicycles had no pedals.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "14-07"
+    ]
+   ],
+   [
+    [
+     "8-02"
+    ]
+   ],
+   [
+    [
+     "8-20"
+    ]
+   ],
+   [
+    [
+     "1-26"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1817 ドライスのドライジーネ（足で地面をける）、1870年代 ペニー・ファージング（前輪が巨大）、1885 ローバー安全型（後輪チェーン駆動＝今の形）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "乗り物（任意）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAmUlEQVR42mNgGFnAysHnv5WDz39kMRZsimDsYwe2MKLLYxNjwGcIIXFGUgzA5gomGENNTes/DJsZ6MAVwhS/eXaPwcxAh+HNs3sMampaqBagC8BcoKam9d/Kwec/TB7ZZTAxJmzOh9l669Y1RgYGBgYRKSW4i/DGAkwSWdGbZ/cw/G/l4PMfRRzDT2hi+OQZcSmCOZ9Y+SEMAJ/RUuhkmGxHAAAAAElFTkSuQmCC"
+}

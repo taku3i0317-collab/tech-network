@@ -1,0 +1,66 @@
+{
+ "id": "10-03",
+ "history": {
+  "name": "電信",
+  "name_en": "Telegraph",
+  "kind": "product",
+  "trunk": "10",
+  "trunk_name": "制御・計算",
+  "year": 1837,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "電信のおかげで、馬で何日もかかった知らせが一瞬で届いた",
+  "hee1_en": "Thanks to the telegraph, news that took days by horse arrived in an instant.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [
+   {
+    "name": "モールス",
+    "tool": "📟 電鍵（トン・ツー）",
+    "year": "1837〜44",
+    "intro": "1837〜44年、アメリカで電信を実用にした（1844 ワシントン〜ボルティモア）",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACLklEQVR42mNgGAUjHTCSori9vf0/MeoqKyuJNpeFWIUzZ878n5aWhiH+6NEjbMr/E+sIRmJ9HhUVBedzP96PVd1XWUc4e9myZUSFBBO1LEeXi4qKIirKmEhJA/gsJ0UN2Q6gBSDaAc+PLmeghVqiHaAiJ0GTEGAhRTFyKkePa2Q5hkfLqeOAiuRAsnIAck74eOfU/4656xmpEgKchqEMepqaDJeuX2f4fn41TjmGR5OpUxRXJAf+11WTZ1CWlYCngRdvPjBIiAjA1dx59AJD7s6jFwwMDAwMdx+/YLh86yEDvhAgmAiVZSUYJK0j4XGMbDk6gMlJWkcySFpHMijLSlCeCzbsPYkZFexscPbLtx+wiuPSS1IagAUdv4rZfwsLCwZdVoj495+/GBgYGBgu3HjAwM3JAVcPE4fVBfiCnuTquL29/X+qrSRmlsOSE2Yffk50lUx2ObA1PxVFznvibCT5ZbRrkMDKhXv37jEoKSlhqCG2GibLATBHvH79miE/Px/DYlJbQxSB9vb2/w8fPvz/8OHD/8Q21cgOAVFRCbgFFRVFDAwMDAxxcTEoahYtWgLJOR19cLHXr19QlgtgFvPxIQqffft24jXQyckdzv706QNBh7AQazE5AEn/f1wOYSTV4q9fvzBwc/MwnDixD0XcwsIJLocLYAsRFmr6mJwQYYQ5gBjLCfmQWDWw0Hj9+gXjgDdKWdDjBxf4+fMHAzs7B0F10KBlYGfnIMoBADmd8kh5Ry13AAAAAElFTkSuQmCC"
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "10-02"
+    ]
+   ],
+   [
+    [
+     "4-03"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1837 クックとホイートストン（英）、1837〜44 モールス（米、1844 ワシントン〜ボルティモア）。1858・1866 大西洋横断ケーブル（絶縁にグッタペルカ）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "2地点間で文字を送るブロック（幹15 はこのノードを参照。海底ケーブルは[15-03]）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAmUlEQVR42mNgGPKAkRTFSXZK/2HseYfuMTIwMDCwkKLZy0YNWeg/zBCSXLCmyuM/skuYSDFAg42F4d6pewzINhN0QpeL2n9kftmeW4wEA5GQJqwGkKKJYEAhBxI+l8GjEVkDUlRhKFYyU2JI+vUHJS2wYNGIlY8uvu3ILQaUhHTv1D24LfgATB2KFxgYGBhu/PoDoaEm0w0AAG1CPr///7/wAAAAAElFTkSuQmCC"
+}

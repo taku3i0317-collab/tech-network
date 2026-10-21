@@ -1,0 +1,58 @@
+{
+ "id": "1-55",
+ "history": {
+  "name": "合成ダイヤモンド",
+  "name_en": "Synthetic diamond",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": 1954,
+  "year_range": "1900年代〜1954",
+  "year_uncertain": false,
+  "hee1": "工場で使うダイヤモンドのほとんどは、黒鉛をぎゅっと押して作った合成ダイヤモンド（O-010 で追加。出典：ASME Landmark #198、Nobel Prize「Physics 1946」、GIA、Wikipedia「Synthetic diamond」）",
+  "hee1_en": "Most diamonds used in factories are synthetic diamonds made by squeezing graphite hard (added in O-010. Sources: ASME Landmark #198, Nobel Prize \"Physics 1946\", GIA, Wikipedia \"Synthetic diamond\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-07"
+    ]
+   ],
+   [
+    [
+     "1-37"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "黒鉛を約5万気圧・1500℃ほどの高い圧力と温度にすると、炭素の並びが変わってダイヤモンドになる（高い圧力ではダイヤモンドの方が安定）。パーシー・ブリッジマンは1900年代から超高圧の装置を作り、高圧の物理を開いた（1946年ノーベル物理学賞）。1954年12月、アメリカの GE がベルト型のプレスで、鉄やニッケルを溶媒にして再現性のある合成に成功した（ASME ランドマーク #198）。スウェーデンの ASEA は1953年2月に先に合成していたが公表しなかった。今の工業用のダイヤモンド（ウェハーを切る刃や研磨の粉）の大部分は合成"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAgklEQVR42u2SsQ3AIAwEH0/FKNTMEDEEYgZqRmErUhkRxw7p0uQ7Hu6NXga+lpOGT3k8AT2nC0MafMSAI4bpr2c5gDQYAEptEyy1Yb1bQxwb68Q3KrWh5+Sc9QN+ZHncBcly+IE1VRZJWsNaiAbfAnYhElb3wNoHDd7Kpzx2i/ULOAHZnkc988t/igAAAABJRU5ErkJggg=="
+}

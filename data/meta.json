@@ -1,0 +1,47 @@
+{
+ "generated_by": "tools/gen_tree_views.py",
+ "start": "0-01",
+ "goal": "10-16",
+ "real_note": "本物の全文は real_full。図のカードに出す短い本物は real_full の1行目の先頭400字",
+ "year_note": "西暦。紀元前はマイナス。year_uncertain=true は諸説・未確認（⚠️）",
+ "requires_note": "requires はノードを作るのに要る項目の並び（全部そろう＝AND）。1項目の中の複数案は OR、案の中は AND",
+ "edge_kinds": {
+  "requires": "前提（無いと作れない）",
+  "understanding": "理解（後で分かった科学。作るのには要らない）",
+  "enables": "発見→技術（その考えがないと作れなかった。作れるかの判定には数えない）",
+  "part": "部品→モノ（そのモノを形づくる部品のモノ。作れるかの判定には数えない）"
+ },
+ "kinds": {
+  "tech": "技術",
+  "product": "モノ（TECH_TREE の「種類: モノ」と products.md）",
+  "idea": "発見・考え方（ideas.md）"
+ },
+ "license": "CC0-1.0",
+ "source_repository": "https://github.com/taku3i0317-collab/semiconductor-lab",
+ "explained_inversions": [
+  {
+   "node": "9-08",
+   "year": 1951,
+   "requires": "1-17",
+   "requires_year": 1956,
+   "gap": 5,
+   "explained": "Y-1"
+  },
+  {
+   "node": "9-08",
+   "year": 1951,
+   "requires": "9-11",
+   "requires_year": 1955,
+   "gap": 4,
+   "explained": "Y-1"
+  },
+  {
+   "node": "9-09",
+   "year": 1952,
+   "requires": "1-17",
+   "requires_year": 1956,
+   "gap": 4,
+   "explained": "Y-1"
+  }
+ ]
+}

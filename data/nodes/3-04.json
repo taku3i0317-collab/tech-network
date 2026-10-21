@@ -1,0 +1,96 @@
+{
+ "id": "3-04",
+ "history": {
+  "name": "ふいご",
+  "name_en": "Bellows",
+  "kind": "tech",
+  "trunk": "3",
+  "trunk_name": "熱",
+  "year": -1450,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "風を送ると火はもっと熱くなる。日本のたたらの名前は、このふいごのこと",
+  "hee1_en": "Blowing air makes a fire hotter. The name of Japan's tatara furnace comes from this bellows",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "M3. 風を送ると火はもっと熱くなる（ふいご）［3-04］",
+    "answer": "火に風を送って酸素を多く入れると、木炭がよく燃えて約1200〜1300℃になる。ふつうのたき火（約800℃）では鉄鉱石から鉄はとれないが、ふいごを使う炉ならとれる。エジプトのレクミラの墓（TT100、第18王朝、紀元前1450年ごろ）の壁画には、足で踏むふいごで金属を溶かす職人が描かれている。",
+    "hee": {
+     "1": "風を送ると火はもっと熱くなる。",
+     "2": "西暦31年、中国・後漢の杜詩は水車でふいごを動かした（「水排」）。人の足のかわりに川の力で風を送り続けられる。",
+     "3": "日本のたたら製鉄の「たたら（踏鞴）」は、もともと足で踏む大きなふいごの名前。",
+     "4": "高炉［1-09］は、強い風をずっと送り続けないと鉄が溶けて流れ出ない。だから水車ふいごが高炉の前提になる。"
+    },
+    "certainty": "ふいご＋木炭で約1200〜1300℃（TECH_TREE の決定）○／レクミラの墓の壁画の年代 ○／杜詩 31年の水排 ○（ニーダム『中国の科学と文明』第4巻2部）／たたら＝踏鞴 ○",
+    "basis": "TECH_TREE［3-04］、ニーダム『Science and Civilisation in China』Vol. 4 Part 2（機械工学、水排）、テーベの貴族の墓 TT100（レクミラ）の壁画"
+   }
+  ],
+  "people": [
+   {
+    "name": "杜詩",
+    "tool": "💨 水車ふいご",
+    "year": "31",
+    "intro": "31年（後漢）、水車の力で動くふいごを作った",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACE0lEQVR42t1XPUvDUBQ9KanaD4yGBkWlYOnkIg6Ki1NFHNwcFH+CFhHBXyFIEfEniA5uHYq4dREdRASn2oK2UjXEttTPDnHQhLx8NO+1gYp3St59751zz73v5YYDgwmCqBrfR0fjAIBCIUfMq1YVjnZPjpVAMBhuOuftrc5EwIcOG8civVv0RhVoU0GtAC0469yOp+Dv18BgRFQ5f7ilzdVGHWW5eR3wVEUYaC26SuO/1UAmlUQmlXR93t9a8rYG+nrDOgCN5UvPWN0+QqXmUQ1oNr+xR6jh5PNMgc2VOXVhZhwAEBuWmBTQLJ29ws7BCedJDUiJNSSSe5ASa0y+thQYiw0hNizpCjwqNQyIvUS0Zp+mQL70jJv8Q3sKmKU3gpvN7KNJmyuBdPbKMtbT7defn5Sa7bjTWqZTYJBOXV+e1cc/Pn+uuOtcEaFAt2WcpviYjuHvRjoJ45EzX1Qs4Mz3gAaeSSVxeXxBjE8sTuo+zzsi46lwUkED3j08pY6eWQEtFZE+6+f5IHMGuVJnAmdWwO4bAYDqzm+LQHQqrlr6PvmLbEQjXZZ1d+e59k6BBhyJD5I/HkUFAEnA39MFYUS0NEVuRHgWYEKB6agNKdIM6x2JcKzA1aJiF6mrDwDkXNmSGp4W2AuzU8Rn42wpegAQRkTbVDQh0vmmlDfnx8neX14R6A+5zgOA+4tbBPpDVAS+AbLr6gOtjdG5AAAAAElFTkSuQmCC"
+   }
+  ],
+  "media": [
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Metal_Working%2C_Tomb_of_Rekhmire_MET_31.6.22_EGDP017258.jpg/960px-Metal_Working%2C_Tomb_of_Rekhmire_MET_31.6.22_EGDP017258.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Metal_Working,_Tomb_of_Rekhmire_MET_31.6.22_EGDP017258.jpg",
+    "kind": "画像",
+    "author": "Nina M. Davies（壁画の模写、メトロポリタン美術館）",
+    "license": "CC0",
+    "description": "古代エジプトのレクミラの墓（TT100）の壁画を写した絵（紀元前1450年ごろ）。足でふむふいごで火を強め、金属を溶かす職人たち。",
+    "verified": "2026-10-20 Commons API で CC0 を確認（O-007 で再確認）"
+   }
+  ],
+  "requires": [
+   [
+    [
+     "0-07"
+    ]
+   ],
+   [
+    [
+     "0-08"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "送風で O2 を増やすと燃焼が速まり約1200〜1300℃に（決定：ふいご＋木炭 ≈1300℃）。エジプトの足踏みふいご（レクミラの墓 TT100 の壁画、第18王朝・紀元前1479〜1396年頃）、31年 後漢の杜詩が水車ふいご、日本のたたらの「踏鞴」はふいごそのもの"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "実験",
+  "missing": "",
+  "item": "bellows",
+  "recipes": [
+   "作業台：木材×5 ＋ 革×3 ＋ 棒 → ふいご"
+  ],
+  "machine_recipes": [],
+  "placeholder": "近似：1回踏むと約1秒ぶんの風（ゲームの値）",
+  "game_text": "かまど/窯の横に置く新ブロック。手押し→水車駆動（[4-01]の軸）で連続",
+  "hee_game": {
+   "note1": "炉の横に置いて踏むと、風を送って火を熱くする。",
+   "note2": "素手で右クリックするたびに約1秒ぶんの風。横で水車が回っていれば、水車ふいごになってずっと風を送る。塊鉄炉・高炉の横に置く。",
+   "note3": "風で酸素をたくさん送ると、木炭がよく燃えて約1200〜1300℃になる。ふつうのたき火（約800℃）では鉄はとれない。エジプトのレクミラの墓の壁画（紀元前1450年ごろ）には、足で踏むふいごが描かれている。",
+   "note4": "西暦31年、中国・後漢の杜詩は水車でふいごを動かした。日本のたたら製鉄の「たたら（踏鞴）」は、もともと足で踏む大きなふいごの名前。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAMklEQVR42mPsclH7z0ABYGFgYGBQMlMiS/O9U/cYmBgoBKMGjBowagBSbrx36h7ZBgAAlo8HnR4aacgAAAAASUVORK5CYII="
+}

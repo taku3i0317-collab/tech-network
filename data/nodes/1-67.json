@@ -1,0 +1,47 @@
+{
+ "id": "1-67",
+ "history": {
+  "name": "浮遊選鉱",
+  "name_en": "Froth flotation",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": 1905,
+  "year_range": "1877〜1905",
+  "year_uncertain": false,
+  "hee1": "鉱石の中の金属の粒は、泡にくっついて浮かび上がる（O-012 で追加。出典：Wikipedia「Froth flotation」、Fuerstenau, Jameson, Yoon 編『Froth Flotation: A Century of Innovation』（SME, 2007））",
+  "hee1_en": "The metal grains in ore stick to bubbles and float up (added in O-012. Sources: Wikipedia \"Froth flotation\", Fuerstenau, Jameson, Yoon (eds.), Froth Flotation: A Century of Innovation (SME, 2007))",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "細かくくだいた鉱石を水に入れ、油や薬を加えて泡を立てると、金属の硫化物の粒は泡にくっついて浮かび、いらない岩の粒は沈む。1877年にドイツのベッセル兄弟が黒鉛で、1898年にイギリスのフランシス・エルモアが油を使う方法を始め、1905年にミネラルズ・セパレーション社がオーストラリアのブロークンヒルで泡を使う浮選を実用にした。銅が1% もない鉱石からでも精鉱が作れるようになり、閃亜鉛鉱と方鉛鉱を分けたり、輝水鉛鉱を集めたりするのにも使う"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAZ0lEQVR42mNgoCawKOv6j87GJoYMGPFJ4gMnusrgehmsHHz+E7IRWd7KwQfVMmQBYpyO0wB0hbgMQTaACd1fyApR/IkPYDgJSRybHE4XkANYiHERjH/swBZGogzAppCgC3CFwyggDABvbEaLqSK5wAAAAABJRU5ErkJggg=="
+}

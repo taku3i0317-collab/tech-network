@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>用語集 — 技術ネットワーク</title>
+<!-- 用語集（S-009）：ノードではない基本の言葉（原子・電子・酸化・還元・合金・波長 など）を、子ども向けの短い説明で。
+     データは docs/glossary.json（tools/gen_tree_views.py が glossary.js を作る）。説明の中の言葉も自動でリンク（autolink.js）。見た目は design.css（案 C） -->
+<style>
+* { box-sizing: border-box; }
+body { margin: 0; line-height: 1.7; font-size: 15px; }
+.wrap { max-width: 860px; margin: 0 auto; padding: 12px 16px 48px; }
+nav { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; font-size: 13px; padding: 6px 0 10px; }
+nav a { text-decoration: none; }
+nav input { padding: 4px 8px; border: 1px solid var(--line); background: var(--panel); color: var(--ink); width: 200px; max-width: 100%; }
+h1 { font-size: 20px; margin: 4px 0; }
+.muted { color: var(--sub); font-size: 13px; }
+dl { margin: 0; }
+.term { border: 1px solid var(--line); border-radius: var(--radius); background: var(--panel); padding: 10px 14px; margin: 10px 0; scroll-margin-top: 12px; }
+.term:target { border-color: var(--hl); }
+.term dt { font-weight: 700; font-size: 16px; }
+.term dt small { font-weight: 400; color: var(--sub); margin-left: 8px; }
+.term dd { margin: 4px 0 0; overflow-wrap: anywhere; }
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&family=DotGothic16&display=swap">
+<link rel="stylesheet" href="design.css">
+</head>
+<body>
+<div class="wrap">
+  <nav>
+    <a href="network.html" id="back">← 技術ネットワーク図へ</a>
+    <a href="people.html" id="ppl">人物の一覧</a>
+    <input type="search" id="q" placeholder="言葉をさがす" aria-label="言葉をさがす">
+    <button type="button" id="langBtn" class="btn" lang="en">English</button>
+  </nav>
+  <header class="top"><div><h1 id="title">用語集</h1>
+    <div class="muted" id="lead">技術の説明によく出てくる基本の言葉。説明の中の言葉や技術の名前は、押すとそのページへ行けます。</div></div></header>
+  <main id="page"><p class="muted">読み込み中…</p></main>
+</div>
+<script src="tech_network_graph.js"></script>
+<script src="tech_network_detail.js"></script>
+<script src="glossary.js"></script>
+<script src="autolink.js"></script>
+<script>
+(function () {
+  const GL = window.GLOSSARY || {}, G = window.TECH_GRAPH, D = window.TECH_DETAIL;
+  const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  // 日本語／英語（network.html・node.html と同じ保存 tn-lang。保存できない環境では毎回日本語）
+  let LANG = 'ja';
+  try { LANG = localStorage.getItem('tn-lang') === 'en' ? 'en' : 'ja'; } catch (e) { /* 保存できない環境 */ }
+  document.documentElement.lang = LANG;
+  const btn = document.getElementById('langBtn');
+  btn.textContent = LANG === 'en' ? '日本語' : 'English';
+  btn.addEventListener('click', () => { try { localStorage.setItem('tn-lang', LANG === 'en' ? 'ja' : 'en'); } catch (e) { /* 保存できない */ } location.reload(); });
+  const byId = new Map(G.nodes.map(n => [n.id, n]));
+  if (LANG === 'en') {
+    for (const n of G.nodes) if (n.name_en) n.name = n.name_en;
+    document.getElementById('title').textContent = 'Glossary';
+    document.getElementById('lead').textContent = 'Basic words that often appear in the explanations. Words and technology names inside the explanations link to their pages.';
+    document.getElementById('back').textContent = '← Technology network';
+    document.getElementById('ppl').textContent = 'People';
+    document.getElementById('q').placeholder = 'Search words';
+  }
+  AutoLink.init(LANG === 'en' ? D.terms_en : D.terms);
+  AutoLink.preview(document.body, g => {
+    if (g.startsWith('g:')) { const t = GL[g.slice(2)]; return t && { name: esc(LANG === 'en' ? t.en : g.slice(2)), text: esc(LANG === 'en' ? t.en_def : t.ja_def) }; }
+    const n = byId.get(g); return n && { icon: n.icon, name: `[${g}] ${esc(n.name)}`, text: esc((LANG === 'en' && D.nodes[g] && D.nodes[g].hee1_en) || (D.nodes[g] && D.nodes[g].hee1) || '') };
+  });
+  const keys = Object.keys(GL).sort((a, b) => (LANG === 'en' ? GL[a].en.localeCompare(GL[b].en) : a.localeCompare(b, 'ja')));
+  const page = document.getElementById('page');
+  function render(q) {
+    const hit = keys.filter(k => !q || (k + ' ' + GL[k].en + ' ' + GL[k].ja_def + ' ' + GL[k].en_def).toLowerCase().includes(q));
+    page.innerHTML = `<dl>${hit.map(k => {
+      const t = GL[k], name = LANG === 'en' ? t.en : k, sub = LANG === 'en' ? k : t.en;
+      const def = AutoLink.link(esc(LANG === 'en' ? t.en_def : t.ja_def), 'g:' + k, g => 'node.html#' + g);
+      return `<div class="term" id="${esc(k)}"><dt>${esc(name)}<small>${esc(sub)}</small></dt><dd>${def}</dd></div>`;
+    }).join('')}</dl>${hit.length ? '' : `<p class="muted">${LANG === 'en' ? 'No match' : '見つかりません'}</p>`}`;
+  }
+  render('');
+  document.getElementById('q').addEventListener('input', e => render(e.target.value.trim().toLowerCase()));
+  if (location.hash) { const el = document.getElementById(decodeURIComponent(location.hash.slice(1))); if (el) el.scrollIntoView(); }
+})();
+</script>
+</body>
+</html>

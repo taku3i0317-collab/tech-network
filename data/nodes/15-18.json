@@ -1,0 +1,58 @@
+{
+ "id": "15-18",
+ "history": {
+  "name": "静電容量式タッチパネル",
+  "name_en": "Capacitive touchscreen",
+  "kind": "tech",
+  "trunk": "15",
+  "trunk_name": "通信・情報",
+  "year": 1965,
+  "year_range": "1965〜2007",
+  "year_uncertain": false,
+  "hee1": "指が近づくだけで、画面の下の見えない電極が「ここに指がある」と気づく（S-003 で追加。出典：Electronics Letters（1965）、CERN「The first touchscreens」、Google Patents US3482241）",
+  "hee1_en": "Just by bringing your finger close, invisible electrodes under the screen notice \"there is a finger here\". (Added in S-003. Sources: Electronics Letters (1965), CERN \"The first touchscreens\", Google Patents US3482241)",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "4-03"
+    ]
+   ],
+   [
+    [
+     "9-22"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "指は少しだけ電気をためられるので、指が近づくと画面の下の電極の静電容量（電気をためる量）が変わる。1965年、イギリス王立レーダー研究所の研究者が、ブラウン管の表面に細い銅線を張った航空管制用の「タッチディスプレイ」を発表した。1973年には CERN が加速器の制御室で透明なタッチ画面を使った。スマホは透明な電極（ITO、[2-46]）を縦横の格子に並べ、交点ごとの変化を IC で読むので、何本の指でも同時に分かる"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAo0lEQVR42mNgoBAwwhgWZV3/SdF4oquMkYGBgYEFWbBHoYzhhdMjBgYGBgaJfXI42SUPuuB6mJANgCkilo1hgMQ+OZLYBF0gsU8OxfnYXMCC7gKYRgYGBrhfe6B8hBwRYVDyoIvhRFcZ44muMkbkQCM6DHABdDUs2FzwwukRxNnTGKBpowxFjmHeCuJc8MLpEYaTSYqFgU8HxLgANS8gBQ7dAADgiGc5APem5wAAAABJRU5ErkJggg=="
+}

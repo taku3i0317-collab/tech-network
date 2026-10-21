@@ -1,0 +1,68 @@
+{
+ "id": "15-11",
+ "history": {
+  "name": "テレビ",
+  "name_en": "Television",
+  "kind": "product",
+  "trunk": "15",
+  "trunk_name": "通信・情報",
+  "year": 1926,
+  "year_range": "1897〜1927",
+  "year_uncertain": false,
+  "hee1": "日本のテレビの最初の映像はカタカナの「イ」",
+  "hee1_en": "The first image on Japanese television was the katakana letter \"イ\" (i)",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [
+   {
+    "name": "高柳健次郎",
+    "tool": "📺 ブラウン管",
+    "year": "1926",
+    "intro": "1926年、ブラウン管にカタカナの「イ」の字を映した",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACRklEQVR42mNgGAUjHTCSolhCROg/MepevHlHtLksxCqUkxT7LyLIjyH+7cdPbMr/E+sIRmJ9LsDHQ1LQfvj0haiQYKKF5QwMDAwCfDxERRnTQCfCoeWAHRNyGHZMyCHInlYaTr1sCEsDMAuIAfeevmbI6l5JVEJkISUEPAqmoIQGLjmqhUBRlNt/H1t9BgYGBobKBWcw5FdWezIwMDAwhLdux5BrTzBhYGBgYNhy+CJD37JdjFRJA/v2bWF48/wuw759W+AWwyxHl6NaIrz39DWc7eTkwyAiqczg5OQDDwGYT9Hl0PWSnQaUpEVRghsbQJeDWawkLcpw7d4zykJgy+GLGGIc7Kxw9qt3n7CK49JLUgggJZ7/eREucPEfP38zMDAwMFy+84SBm5MdQ5yYxEdydVwU5YbiCHxg0oo9RFlOcjmADM6vPY3CNww2pX2DhJhQIMX3JDsA5ggRAR6GKA8LFPFlO04wvPnwhSTLKQJFUW7/H2zq+v9gU9f/oii3/+SaQ1QacHLywLDAx1aXgdsyBsJ++prhwgum/5gl5w5GihwAs1hHxwBF/P79OwwMDAwMprZJDBxcQgzTUqUZuLl5GBQVVTDahoQcwkKKxchAN6SQgWN2CZzNsC0PQw2SfpwOYSHV4vv372DzKYOiogpOOXwOYSHWYmRQW5uHVSwpKQ+vPmwOYcIiSbLv0UOBEEC2i+RGKTbfEyNHMBFeuXIBr8I3b14xiIiIMSxatATR+XgD8S2y2NevXxgOHNjFICIiRpQDABRr92Teg3UiAAAAAElFTkSuQmCC"
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "5-02"
+    ]
+   ],
+   [
+    [
+     "5-05"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [
+   "I-27"
+  ],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1897 ブラウンの陰極線管、1926 ジョン・ロジー・ベアードの機械式テレビ、同年 高柳健次郎がブラウン管に「イ」の字を表示、1927 ファーンズワースの電子式撮像"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "映像を表示するブロック（任意）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAdElEQVR42mNgoDZIslP6T44chkJkxeh8klxDSCMLPqd52ajBmFjl5x26x8iCRTE+g+Bg25FbCBfAQM8fJ7xeKmHZhyHGRGq4oFtCsgHormCiNN0MvBdYkKOlxAY1ijAANDqR5VlgCQI5wSDx0QGGPBPDQAMAS+kxSUGB+RAAAAAASUVORK5CYII="
+}

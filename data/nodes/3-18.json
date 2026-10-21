@@ -1,0 +1,58 @@
+{
+ "id": "3-18",
+ "history": {
+  "name": "蓄熱式炉＝設備",
+  "name_en": "Regenerative furnace (equipment)",
+  "kind": "tech",
+  "trunk": "3",
+  "trunk_name": "熱",
+  "year": 1856,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "捨てるはずの排ガスの熱で、次の空気を温めておく炉",
+  "hee1_en": "A furnace that uses the heat of exhaust gas, which would be wasted, to warm up the next air.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "3-12"
+    ]
+   ],
+   [
+    [
+     "3-19"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1856 ジーメンス（シーメンス）兄弟（フリードリヒとヴィルヘルム）が特許：排ガスでれんがの格子を温め、流れを切り替えて次の空気とガスを予熱 → 炎だけで鉄の融点を超える。これは「炉＝設備」で、製鋼の「工程」としての使い方は1864 マルタンの平炉法＝[1-12]"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "マルチブロック設備。[1-12]平炉法・ガラス溶解炉の熱源",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAiklEQVR42mNgGGjAyMDAwDDFz+A/NsmcTRcIyjPBOAYeFxhsHAzgNC7DYDQMwA3g+ZHA8IVjAZxGB1P8DP7nbLrACKMxDEDWzPMjAasLkA0ZRi5gQVbE8yOB4ciBCwwMDAZY43yKn8F/GwcDhikMDP+xSuKKb3zqWPApxJYOsKZEfKkNF8Bl4BAEAMDpblmh8ZdmAAAAAElFTkSuQmCC"
+}

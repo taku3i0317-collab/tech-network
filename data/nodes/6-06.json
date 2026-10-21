@@ -1,0 +1,78 @@
+{
+ "id": "6-06",
+ "history": {
+  "name": "塩酸",
+  "name_en": "Hydrochloric acid",
+  "kind": "tech",
+  "trunk": "6",
+  "trunk_name": "ガス",
+  "year": 1900,
+  "year_range": null,
+  "year_uncertain": true,
+  "hee1": "水素を塩素の中で燃やすと塩化水素になり、水に溶かすと塩酸になる",
+  "hee1_en": "Burn hydrogen in chlorine and you get hydrogen chloride; dissolve it in water and you get hydrochloric acid.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "E8. 塩から塩素と苛性ソーダ（クロルアルカリ電解・塩酸）［6-05］［6-06］",
+    "answer": "塩水を電気分解すると、塩素・水素・水酸化ナトリウム（苛性ソーダ）が同時にできる。2NaCl + 2H₂O → Cl₂ + H₂ + 2NaOH。工業になったのは1890年代。塩素と水素を燃やせば塩化水素になり、水に溶かすと塩酸。この合成塩酸は20世紀初めに重要な製法になった（今の塩酸は大部分がほかの塩素化反応の副生）。",
+    "hee": {
+     "1": "海の塩から、プールの消毒薬（塩素）と、石けんの材料（苛性ソーダ）が同時にできる。",
+     "2": "塩素と苛性ソーダが混ざると反応して戻ってしまうので、隔膜などで分けておく必要がある。",
+     "3": "1894年ごろのカストナー・ケルナー法は、水銀を使って分けた。のちに水銀の汚染が問題になり、今は「イオン交換膜」で分ける方式が主流。",
+     "4": "塩素は、半導体ではシリコンの精製（トリクロロシラン、シリコン編の2）に欠かせない。電気の章で塩素を作ったのは、次のシリコンの章のため。"
+    },
+    "certainty": "反応・1890年代 ◎／カストナー・ケルナー法の年 ○／合成塩酸が20世紀初めに重要な製法に ○",
+    "basis": "Chemistry World「Castner's electrode」（英語）、IARC モノグラフ（塩酸）https://www.ncbi.nlm.nih.gov/books/NBK424680"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "6-05"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-41"
+  ],
+  "frontier": false,
+  "real": "クロルアルカリ法で得た Cl2 と H2 を H2+Cl2→2HCl（燃焼）→水に溶かす。20世紀初め、クロルアルカリの発達に続いてこの合成塩酸が重要な製法になった（今の塩酸は大部分が塩素化反応の副生）"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": "hydrochloric_acid",
+  "recipes": [
+   "作業台：芒硝の仕込み（塩と硫酸） ＋ 水入りバケツ ＋ 空のガラス瓶 → 塩酸"
+  ],
+  "machine_recipes": [
+   "塩酸合成炉「塩酸を作る」：水素ガス（袋詰め） 1 mol ＋ 袋詰め塩素 1 mol ＋ 水入りバケツ 1/4 ＋ 空のガラス瓶 → 塩酸（5 秒）。H2 + Cl2 → 2HCl を水に溶かす。電気なし",
+   "シリコーンの反応器「加水分解」：ジメチルジクロロシラン ＋ 蒸留水 → シリコーン油 ＋ 塩酸（2 kW × 15 秒＝30 kJ）。(CH3)2SiCl2 + H2O → シリコーン油 + 2HCl"
+  ],
+  "placeholder": null,
+  "game_text": "Ge精鉱の浸出を硫酸→塩酸に置換可、GeCl4蒸留[1-34]の前提",
+  "hee_game": {
+   "note1": "金属をとかす強い酸。胃の中にも、うすい塩酸がある。",
+   "note2": "HCl の水溶液（約25%、1本に HCl 2mol）。塩酸合成炉 [6-06] で作る。タングステン酸 [1-28] や四塩化ゲルマニウム [1-34] に使う。",
+   "note3": "錬金術師は「塩の精」と呼んだ（塩に硫酸をかけて熱して作った）。濃い塩酸は塩化水素を出し、湿った空気の中で白くけむる。胃液はおよそ 0.1mol/L の塩酸。",
+   "note4": "塩化水素は水にものすごく溶ける：20℃で水 1L に気体約450L。それでも約38% より濃くはできない。半導体工場では、うすい塩酸＋過酸化水素（RCA 洗浄の SC-2、1965年）でウェハーの金属汚れを落とす。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAQklEQVR42mNgoBAw4pKICAv6j8xfsWodI9EGqKlp/ccmfuvWNQz1LLhcUFWWhcJv65qGVR0TpWEwasCoAVRJygMPAIbMDxrBr+RrAAAAAElFTkSuQmCC"
+}

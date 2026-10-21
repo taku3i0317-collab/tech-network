@@ -1,0 +1,58 @@
+{
+ "id": "4-30",
+ "history": {
+  "name": "三相交流送電",
+  "name_en": "Three-phase AC transmission",
+  "kind": "tech",
+  "trunk": "4",
+  "trunk_name": "動力・電気",
+  "year": 1891,
+  "year_range": "1885〜1895",
+  "year_uncertain": false,
+  "hee1": "電柱の上の電線が3本ずつ並んでいるのは、三相交流だから（O-011 で追加。出典：IEEE Milestones「Rotating Fields and Early Induction Motors」、Wikipedia「Mikhail Dolivo-Dobrovolsky」）",
+  "hee1_en": "Power lines on utility poles come in sets of three because they carry three-phase AC. (Added in O-011. Sources: IEEE Milestones \"Rotating Fields and Early Induction Motors\", Wikipedia \"Mikhail Dolivo-Dobrovolsky\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "4-22"
+    ]
+   ],
+   [
+    [
+     "4-10"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "3本の電線に少しずつずれた交流を流すと、モーターの中に回る磁界ができ（[4-22]）、同じ太さの電線で多くの電気を送れる。1891年、ドイツの AEG のミハイル・ドリヴォ＝ドブロヴォルスキーとオスカー・フォン・ミラーらが、ラウフェンからフランクフルトまで約175km、変圧器で電圧を上げて三相交流を送った（IEEE マイルストーン）。回転磁界を考えたフェラリスは特許を取らずに公開していた。今の発電所から家までの送電と、工場のモーターのほとんどは三相交流"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAe0lEQVR42mNgwAOsHHz+MxAATPg0e/n4EDSEhYGBgaHLRQ1D0S8PH4ZtW7YwePn4MASw3MKQL9tzixGvs3HR6IARlws2/FGDswNYbjEQ7QJSbCfoAi8fSDjQ1AVMDNQGyLbhYtPOBei2EOJT1wXYTCdGjAlXdBErRjEAAGC6TjqzQIIkAAAAAElFTkSuQmCC"
+}

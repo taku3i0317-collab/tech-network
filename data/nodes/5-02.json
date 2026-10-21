@@ -1,0 +1,122 @@
+{
+ "id": "5-02",
+ "history": {
+  "name": "真空管",
+  "name_en": "Vacuum tube",
+  "kind": "tech",
+  "trunk": "5",
+  "trunk_name": "真空",
+  "year": 1904,
+  "year_range": "1904〜1906",
+  "year_uncertain": false,
+  "hee1": "トランジスタの前は、ガラスの電球みたいな部品で増幅していた",
+  "hee1_en": "Before transistors, signals were amplified with parts that looked like glass light bulbs.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "E10. 電気を増やす・揺らす（真空管と発振器）［5-02］［4-09］",
+    "answer": "真空のガラス管の中に、電子を出す熱いフィラメント、電子を受け取る板、その間の細い網（グリッド）を入れると、網にかけた小さな電圧で大きな電流を操れる（三極真空管）。ド・フォレストが1906年に作った。出力の一部を入力に戻すと、電気がひとりでに揺れ続ける「発振器」になる（アームストロング1912年ごろ、マイスナー1913年ごろ）。",
+    "hee": {
+     "1": "小さな声を大きくする「増幅」ができる、最初の電子部品。",
+     "2": "発振器の速い電気の揺れを金属のそばのコイルに流すと、金属が中から熱くなる（誘導加熱）。ゲームで帯域精製炉の電源になっているのはこのため。",
+     "3": "ド・フォレスト本人は、最初なぜ増幅できるのかよく分かっていなかった。中に残ったガスのおかげだと思っていたが、実は真空が良いほどうまく働く（ラングミュアの高真空管、1913年ごろ）。",
+     "4": "真空管は熱くて大きくて壊れやすい。これを小さな固体に置き換えたのがトランジスタ（第1章）。ゲームではトランジスタを作るための精製炉を、真空管の発振器が動かしている。歴史の順番どおり。"
+    },
+    "certainty": "ド・フォレスト1906 ◎／発振器の発明者と年 ○（複数人が1912〜13年に独立に）",
+    "basis": "リンダ・ホール図書館「Scientist of the Day」ド・フォレスト／アームストロング、コロンビア大学 アームストロング文書ブログ（英語）"
+   }
+  ],
+  "people": [
+   {
+    "name": "フレミング",
+    "tool": "💡 二極管",
+    "year": "1904",
+    "intro": "1904年、熱した陰極から電子が出るエジソン効果を使って、二極管を作った",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACPUlEQVR42u1WMUgbURj+Lr32IimmSANxqEJwqEMFl3JUCiZLhwri4OAhEZHMoeKQbDo9J6HtGLqIXIYM6tChQ5OhFWyXFBcdQvDiYORQkmCw6fIcmjvvTC55dznpUL/p8f7/f9/3/v9//x1wj3v87+CcBiaWZmhgwA8AUC+qWP+07egs3inxu+gUAOCiegkACAz4qRMhvF3ylcVpE7GGhelJbUntiHjghLwTXo0/h4fjVr/nj9Zc6QFCCAWA8DCHkaEgk9hCqYycQgEAyWSyI4eH5UBJkpjJjTGu90D9WVhf+05yljaU0u40YWJphhpvcpvUiHY2SZJQLfzs2JS2MtA3Poux0VEcHB7iKp+xtKH0kflMjx0BV/kMdj8sm8gLpbKlzRUBp3tpU42DT59Y+mq2wYk5U2xPAna+/mgthfBIX5+dV9ruW8Xa6gGtefwjL6koinjxsFmKxh8AwK+jY/j6vDclau4DgCzLTGOZeWQSQmjs9WDrk2vzElLfTrsOoJ7nwOd4zGR7+z5lsMt38zkmhOhzoVgsIhQKtfjIssx8e0f/A4QQqqoq4vF4CzHL7HcNhBCqKApVFIVqH6w7+yMKBII6QSKxDACIRudNPpubW39fzvqGvqeq5d5egUbc338zfLLZLx0PjETe6OtardJVCM9K7ASGeGolhLNLXK9fwud7jP39rGlfFCO6zQrtMsK7eWMnGeE0ASzk3W7I6qNlQ1XLnAf/GPzt+lih0fgNQfB29WumFoLgZRJwDVa09YJM5ip8AAAAAElFTkSuQmCC"
+   },
+   {
+    "name": "ド・フォレスト",
+    "tool": "📻 三極管",
+    "year": "1906",
+    "intro": "1906年、二極管にグリッドを足して、電流を操れる三極管（オーディオン）を作った",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACOklEQVR42mNgGAUjHTCSolhLTvQ/MequPXpNtLksxCo0UZX8rywphCH+/ssPbMr/E+sIRmJ9LiPCR1LQPnnziaiQYKKF5QwMDAwyInxERRnTQCfCoeWAZZNqGZZNqiXIbipJpV42hKUBmAXEgDuPXjDU9cwmKiGykBICUXnNKKGBS45qIVCRHPg/wNmcgYGBgUFFToKkEICBDXtPMnTMXc9IlRDgNAxl0NPUZLh0/TrD9/OrccoxPJpMvUR49zHCN9/Pr2bYOKkIxXKYb7HJIesl2wHKsqhBLyEigFMtuhy6XrIcsGHvScyoYGeDs1++/YBVHJdektIAUuL5X5Loj4iKn78YGBgYGC7ceMDAzcmBIU5M4iMpEUINgjsCOcuhF1SkWE5yLoBZvmxSLcPh2VtRxG1TveFyNGuQVCQHokQFNtAzfyPRvifZATBHiArxM8T7O6CIL9x4gOH1u48kWU4RqEgO/P/myIL/b44s+F+RHPifXHOISgNOTh4YFgQ4mzP8V3eDsl8wnLr/HUPNvn07KMsFMIt1dAxQxO/fv8PAwMDA0GpqxSDDwcFgU5fAwM3Nw6CoqILRNiTkEBZSLEYp5VzjGGSaFsDZDMvPYKhB0o/TISykWnz//h1sPmVQVFTBKYfPISzEWowMamvzsIolJeXh1YfNIUxYJEn2PXooEALIdpHcKMXme2LkCCbCK1cu4FX45s0rBhERMYZFi5bAxU58gNSEjEhiX79+YThwYBeDiIgYUQ4AAJS3+1j1lt3NAAAAAElFTkSuQmCC"
+   }
+  ],
+  "media": [
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Fleming_valves.jpg/960px-Fleming_valves.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Fleming_valves.jpg",
+    "kind": "画像",
+    "author": "John Ambrose Fleming",
+    "license": "Public domain",
+    "description": "フレミングが1904年に作った、最初の二極真空管（フレミング・バルブ）の試作品。",
+    "verified": "2026-10-20 Commons API で PD を確認"
+   }
+  ],
+  "requires": [
+   [
+    [
+     "5-05",
+     "5-15"
+    ]
+   ],
+   [
+    [
+     "1-28"
+    ]
+   ],
+   [
+    [
+     "2-15"
+    ]
+   ],
+   [
+    [
+     "5-12"
+    ]
+   ],
+   [
+    [
+     "5-16"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-25",
+   "I-26"
+  ],
+  "frontier": false,
+  "real": "1904 フレミング二極管（熱した陰極から電子が出るエジソン効果を整流に利用）、1906 ド・フォレストのオーディオン（三極管＝網状のグリッドで電流を制御、増幅できる）。1913頃 ラングミュアとアーノルドが「高真空でないと安定しない」と示した。1914 ラングミュアのトリウム入りW フィラメント（Th はモナザイト[1-19]から）⚠️"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": "vacuum_tube",
+  "recipes": [],
+  "machine_recipes": [
+   "真空管封止台「真空管の封止」：真空管の組立品（未排気） ＋ 隣の真空容器（減らない、0.1 Pa 以下） → 三極真空管（0.5 kW × 10 秒＝5 kJ）。封じるたびに容器へ空気がもどる"
+  ],
+  "placeholder": null,
+  "game_text": "ROADMAP v0.2a #7。[4-09]発振器・[4-11]整流器の部品",
+  "hee_game": {
+   "note1": "電球の中に電極を足したら、電気の流れを操れた。",
+   "note2": "ド・フォレストのオーディオン（1906）。熱いタングステンのフィラメントから電子が飛び出し、プレートが集める。あいだのグリッドに小さな電圧をかけると大きな電流を操れる＝増幅。高周波発振器の部品。",
+   "note3": "フレミングの二極管（1904）は、熱いフィラメントから電流が出る「エジソン効果」を使った。ド・フォレストはそこにジグザグのグリッドを足した。トランジスタの前は、ラジオも電話の中継器も初期のコンピューターも、こういう管で増幅していた。",
+   "note4": "ド・フォレストの最初のオーディオンは中にガスが残った「軟真空管」で、動きが不安定だった。ラングミュアとアーノルド（1913頃）が高真空（約 10⁻⁴ Pa）なら安定すると示し、拡散ポンプとゲッターが必要になった（管の内側の銀色の膜が、残りのガスを食べたゲッター）。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAXUlEQVR42mNgoCWICAv6HxEW9B+fGiaa2W5R1vV/zY1H/9fcePTfoqwLpysYcWnOUONCEduxax/DilXrMNSz4DKZx8YPVWDXPtqEwagBw8IAnAmpZ94KFL4CrfIMABQjGlIxky+nAAAAAElFTkSuQmCC"
+}

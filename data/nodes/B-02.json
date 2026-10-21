@@ -1,0 +1,58 @@
+{
+ "id": "B-02",
+ "history": {
+  "name": "銀塩写真",
+  "name_en": "Silver halide photography",
+  "kind": "product",
+  "trunk": "B",
+  "trunk_name": "枝",
+  "year": 1839,
+  "year_range": "1839〜1878",
+  "year_uncertain": false,
+  "hee1": "フォトリソグラフィの祖先（第3章 [7-11] の伏線）",
+  "hee1_en": "The ancestor of photolithography (a setup for Chapter 3, [7-11]).",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "B-02a"
+    ]
+   ],
+   [
+    [
+     "B-02b"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": ""
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAhklEQVR42mNgGPKAkYGBgUFNTes/OZpv3brGyITMIYWGARYYQ01N67+Xlx8DAwMDUfS2bZtQvSAipYThRDMDHQYGBgaGUxeuYMi9eXYP1QvomogFLOgC2GxDNxhZDQuxNuEymAnZT2YGOig0AwMDw7ZtmzDEkV3DghaN/4mlqZaQhn5eYgAA8MdfSJz8udwAAAAASUVORK5CYII="
+}

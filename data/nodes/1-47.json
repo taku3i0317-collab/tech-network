@@ -1,0 +1,54 @@
+{
+ "id": "1-47",
+ "history": {
+  "name": "天然磁石",
+  "name_en": "Lodestone",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": -600,
+  "year_range": "-600〜1088",
+  "year_uncertain": true,
+  "hee1": "最初の磁石は掘り出した石だった",
+  "hee1_en": "The first magnets were stones dug out of the ground",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "磁鉄鉱 Fe3O4 の一部は自然に磁石になっている（雷の大電流で磁化したと考えられている）。紀元前6世紀ごろギリシャのタレスが鉄を引きつける石を記した⚠️、中国の司南（漢代⚠️）、1088 沈括の磁針"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": "magnet",
+  "recipes": [
+   "作業台：磁鉄鉱（原石）×4 → 天然磁石"
+  ],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {
+   "note1": "鉄をくっつける石。方位磁針の始まり。",
+   "note2": "自然に磁化した磁鉄鉱（落雷でも磁化する）。古代から「ロードストーン」として知られる。",
+   "note3": "磁鉄鉱の中では小さな磁区（磁石の向きがそろった区画）がばらばらの向きを向いている。雷の大電流が作る強い磁場で磁区の向きがそろうと、石全体が磁石になると考えられている。",
+   "note4": "日本語の「磁石」は中国の「慈石」から：子を抱く母のように鉄を引き寄せる石。中国では漢の時代に磁石のスプーンで南を指す「司南」が作られた。1600年、イギリスのギルバートは『磁石論』で「地球そのものが大きな磁石だ」と書いた。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAXElEQVR42mO0cvD5z0AAvHl2j0FESgmrHBOyImxsBgYGnJpRDEBWBGOjG4TXAFJtxmoAMRrwGkAOGGIGYIsVJlIUYwtk2nmB2Cil3AXEJFe8BpCS+kiKBXyakdkAT4YiRX9JftgAAAAASUVORK5CYII="
+}

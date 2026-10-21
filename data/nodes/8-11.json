@@ -1,0 +1,82 @@
+{
+ "id": "8-11",
+ "history": {
+  "name": "電子顕微鏡",
+  "name_en": "Electron microscope",
+  "kind": "tech",
+  "trunk": "8",
+  "trunk_name": "精密・計測",
+  "year": 1931,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "電子を「光」の代わりに使うと、ウイルスまで見える",
+  "hee1_en": "Using electrons instead of \"light\" lets you see even viruses.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "O57. 電子の波で見る（電子顕微鏡）［8-11］",
+    "answer": "電子も波の性質を持ち（ド・ブロイ 1924）、数万V で速めると波長は光の 10 万分の1ほどになる。1931年、ルスカとクノールは銅のコイルの電磁レンズで電子の像を結び、1933年に光学顕微鏡の分解能（光の波長の半分ほど＝約0.2〜0.3µm）を超えた。電子は空気で散るので、鏡筒の中は高真空にする。",
+    "hee": {
+     "1": "光の顕微鏡では、光の波長より細かい物はぼやけて見えない。",
+     "2": "ルスカは発明から55年後の1986年にノーベル物理学賞を受けた。",
+     "3": "実際の分解能は、レンズのゆがみ（収差）で決まる。今は原子1個が見えるほど。",
+     "4": "半導体工場では、走査型電子顕微鏡（SEM）で回路の線幅を毎日測っている。"
+    },
+    "certainty": "ルスカとクノール 1931・1933 光学を超える ◎／1986 ノーベル賞 ◎／1930年代末の分解能 約10nm ○",
+    "basis": "- Wikipedia「Electron microscope」：https://en.wikipedia.org/wiki/Electron_microscope"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "5-05"
+    ]
+   ],
+   [
+    [
+     "1-28"
+    ]
+   ],
+   [
+    [
+     "4-10",
+     "4-11"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [
+   "I-25",
+   "I-26"
+  ],
+  "explained_by": [
+   "I-44"
+  ],
+  "frontier": false,
+  "real": "1931 エルンスト・ルスカとマックス・クノールが電磁レンズで像を結び、1933 光学顕微鏡の分解能を超えた（ルスカは1986 ノーベル物理学賞）。電子の波長（ド・ブロイ1924）は可視光の数万分の1。1965 ケンブリッジ社の走査型（SEM）市販"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "実験（光学顕微鏡と見比べる）",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "検査台の上位（nm 級の線幅測定＝CD-SEM）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAe0lEQVR42qWTsQ0AIQwDHcRUVAzAfEzCABToR/qWbxFyQvSkjNDZcQJwWcKaKZfJ+k9v4qIygAYVL8StzgCaOgAECzIq5kko3GagOlhntuYPmhLLwMqCWt0zYIBoQxrcyn+3EC17/S1IufnOmgFGxWQu1rfiubarj3WqDxgrQXrNgR2XAAAAAElFTkSuQmCC"
+}

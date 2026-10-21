@@ -1,0 +1,63 @@
+{
+ "id": "10-30",
+ "history": {
+  "name": "自分の位置と地図を同時に作る計算",
+  "name_en": "SLAM (simultaneous localization and mapping)",
+  "kind": "tech",
+  "trunk": "10",
+  "trunk_name": "制御・計算",
+  "year": 1986,
+  "year_range": "1986〜2000年代",
+  "year_uncertain": false,
+  "hee1": "ロボット掃除機は『自分はどこ？』と『部屋はどんな形？』を同じ計算で少しずつ当てていく。（S-004 で追加。出典：doc.ic.ac.uk、arxiv.org）",
+  "hee1_en": "A robot vacuum guesses \"Where am I?\" and \"What shape is the room?\" bit by bit, with the same calculation. (Added in S-004. Sources: doc.ic.ac.uk, arxiv.org)",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "10-14"
+    ]
+   ],
+   [
+    [
+     "10-04"
+    ]
+   ],
+   [
+    [
+     "7-23"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "知らない部屋で、ロボットは『地図が無いと自分の位置がわからない』『位置がわからないと地図が書けない』という困りごとに出会う。1986年ごろ、アメリカとイギリスの研究者たちが、位置と地図の両方を『どのくらい確かか』という確率で一緒に見積もり、センサーで見るたびに少しずつ直す方法を示した。1995年ごろ SLAM という名前がつき、2000年代に計算が速くなってロボット掃除機・自動運転・AR に使われるようになった"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAfklEQVR42mNgoBAw4pLoclH7j8wv23MLq1oWXJq9HHTQhf9jM4QJn+aWSxDMwMDA4OWgg+EqrAbAAEwjOptoA2r0sLOJCkRsYbDtwBUGosKAVIDVgLI9txi3HbhC0HaquAAv6HJR+48t6qgPIsKC/pNDYxhAqoUYgUiyzdQAANpTRU6XIVO3AAAAAElFTkSuQmCC"
+}

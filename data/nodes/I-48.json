@@ -1,0 +1,60 @@
+{
+ "id": "I-48",
+ "history": {
+  "name": "オンサーガーの相反定理",
+  "name_en": "Onsager reciprocal relations",
+  "kind": "idea",
+  "trunk": "I",
+  "trunk_name": "発見・考え方",
+  "year": 1931,
+  "year_range": "1854〜1931",
+  "year_uncertain": false,
+  "hee1": "温度差から電気が起きるのと、電気で熱を運べるのは、表と裏の同じ現象",
+  "hee1_en": "Electricity arising from a temperature difference and electricity carrying heat are two sides of the same phenomenon.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://www.nobelprize.org/prizes/chemistry/1968/summary/",
+   "https://courses.physics.ucsd.edu/2019/Fall/physics210b/PhysRev.37.405.pdf"
+  ],
+  "refs": [],
+  "people": [
+   {
+    "name": "ラース・オンサーガー",
+    "tool": "🔄 相反定理",
+    "year": "1931",
+    "intro": "1931年、熱と電気のつながりの定理を示した（1903〜1976）",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACVklEQVR42mNgGAUjHTCSolhLTvQ/MequPXpNtLksxCo0UZX8rywphCH+/ssPbMr/E+sIRmJ9LiPCB+cvm1SLVV1UXjOc/eTNJ6JCgolalqPLyYjwERVlTKSkAXyWk6KGbAfQAhDtgKaSVAZaqCXaASpyEjQJARZSFCOncvS4RpYjJQTwZpOK5MD/585fYmBgYGD4yCqHIb+1N56BgYGBwbt4IYYc/+9HDAwMDAxGhnoMHXPXM1IlEe7bt4XhzfO7DPv2bYFbDLMcXY5qIaCrJs+gLCvBkD9xJ9YQuPPoBVa5ifnuDHcfv2C4fOsh3hAgmAaUZSVQghsbQJe78+gFXO/lWw8pywUb9p7EEONkZ4OzX779gFUcl16SQgAp6P6XJPrDxb///MXAwMDAcOHGAwZuTg4McZjl+IKe5Oq4IjkQxRH4QM/8jURZTnI5gAwOz96KwrdN9aZ9g4SYUCDF9yQ7AOYIUSF+hnh/BxTxhRsPMLx+95EkyykCFcmB/98cWfD/zZEF/yuSA/8z0LIucHLywLAgwNmc4b+6G5T9guHU/e//MUvOHYwUOQBmsY6OAYr4/ft3GBgYGBhcU2cx8IgoMPQ4MTBwc/MwKCqqYLQNCTmEhRSLUUpI1zgGnn274GyG5Wcw1CDpx+kQFlItvn//DjafMigqquCUw+cQFmItRga1tXlYxZKS8vDqw+YQJiySJPsePRQIAWS7SG6UYvM9MXIEE+GVKxfwKnzz5hWDiIgYw6JFS+BiL25cY2BgYGBYtOgVXOzr1y8MBw7sYhARESPKAQAQGPPP+kgn+gAAAABJRU5ErkJggg=="
+   }
+  ],
+  "media": [],
+  "requires": [],
+  "understanding": [],
+  "enables": [],
+  "explains": [
+   "3-09"
+  ],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "温度差があると電気が起き（ゼーベック効果）、電気を流すと熱が運ばれる（ペルチェ効果）。この2つの係数が同じ量でつながっていることを、1854年にウィリアム・トムソン（のちのケルビン卿）が予想し、1931年にラース・オンサーガーが、熱・電気・物の流れが少しずれた状態では、おたがいの影響が必ず「あいこ」になる定理として示した（1968年ノーベル化学賞）。熱電対で温度を測るしくみや、電気で冷やす小さな冷却板（ペルチェ素子）の理論の土台"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "実験：熱電対の両端を温めると電気が流れ、逆に電気を流すと片方が冷えるのを確かめる",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAiklEQVR42mNgGAWMDAwMDFYOPv+RBY8d2MKIzO9yUftftucWIzZ1LDBOAMstBgYGBoZfHkUMASy3/uOyEaZuwx81BgYGBgYWdAXbtmxhOHbgFoYLcBnIhM9/MI1le1ANRAYshDQj2/7Lw4eBYUcfdgNgfoKBsj23GGGBBxOz+rPlPwOD2mjSG3QAAJiaMD2a8aQFAAAAAElFTkSuQmCC"
+}

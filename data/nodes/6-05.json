@@ -1,0 +1,83 @@
+{
+ "id": "6-05",
+ "history": {
+  "name": "クロルアルカリ電解",
+  "name_en": "Chlor-alkali electrolysis",
+  "kind": "tech",
+  "trunk": "6",
+  "trunk_name": "ガス",
+  "year": 1890,
+  "year_range": "1890〜1892",
+  "year_uncertain": false,
+  "hee1": "塩から塩素と苛性ソーダが同時にできる",
+  "hee1_en": "Salt gives chlorine and caustic soda at the same time",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "E8. 塩から塩素と苛性ソーダ（クロルアルカリ電解・塩酸）［6-05］［6-06］",
+    "answer": "塩水を電気分解すると、塩素・水素・水酸化ナトリウム（苛性ソーダ）が同時にできる。2NaCl + 2H₂O → Cl₂ + H₂ + 2NaOH。工業になったのは1890年代。塩素と水素を燃やせば塩化水素になり、水に溶かすと塩酸。この合成塩酸は20世紀初めに重要な製法になった（今の塩酸は大部分がほかの塩素化反応の副生）。",
+    "hee": {
+     "1": "海の塩から、プールの消毒薬（塩素）と、石けんの材料（苛性ソーダ）が同時にできる。",
+     "2": "塩素と苛性ソーダが混ざると反応して戻ってしまうので、隔膜などで分けておく必要がある。",
+     "3": "1894年ごろのカストナー・ケルナー法は、水銀を使って分けた。のちに水銀の汚染が問題になり、今は「イオン交換膜」で分ける方式が主流。",
+     "4": "塩素は、半導体ではシリコンの精製（トリクロロシラン、シリコン編の2）に欠かせない。電気の章で塩素を作ったのは、次のシリコンの章のため。"
+    },
+    "certainty": "反応・1890年代 ◎／カストナー・ケルナー法の年 ○／合成塩酸が20世紀初めに重要な製法に ○",
+    "basis": "Chemistry World「Castner's electrode」（英語）、IARC モノグラフ（塩酸）https://www.ncbi.nlm.nih.gov/books/NBK424680"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "6-01"
+    ]
+   ],
+   [
+    [
+     "6-04"
+    ],
+    [
+     "0-16"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-21"
+  ],
+  "frontier": false,
+  "real": "2NaCl+2H2O→Cl2+H2+2NaOH（1890年代）。隔膜で分ける"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": "chlorine_gas",
+  "recipes": [],
+  "machine_recipes": [
+   "電解槽「塩水の電気分解（クロルアルカリ）」：水入りバケツ ＋ 塩×2 → 水素ガス（袋詰め） ＋ 袋詰め塩素 ＋ 水酸化ナトリウム×2 ＋ バケツ（5 kW × 128 秒＝640 kJ）。2NaCl + 2H2O → Cl2 + H2 + 2NaOH"
+  ],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {
+   "note1": "黄緑色の毒の気体。塩と電気から作れる。",
+   "note2": "Cl2。塩水を電気分解 [6-05] すると＋極から出る。1袋＝約1mol。ガスホルダーに貯める（水素と混ぜると爆発：H2 + Cl2 → 2HCl）。水素と燃やすと塩酸 [6-06] になる。",
+   "note3": "1774年シェーレが塩酸と二酸化マンガンから作ったが、酸素を含む化合物だと思っていた。1810年デービーが元素だと示し、ギリシャ語の「クロロス（黄緑）」から名付けた。",
+   "note4": "塩素は空気の約2.5倍重く、くぼ地にたまる。1915年イーペルで最初の大規模な化学兵器になった一方、1908年からの水道水の塩素消毒はそれよりはるかに多くの命を救った。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAZ0lEQVR42mNgGPKAEV0gyU7pPz4N8w7dQ9HDgq7Zy0aNwcYNu+YjuxgYGBgY/iMbwkKsZgYGBqicGoohLMRqxmUIE6WBOAwMYEGK2/8MDIQD8sguBoZtR24xoMQCsYaga6ZKShx4AAD7JTFihVBNvQAAAABJRU5ErkJggg=="
+}

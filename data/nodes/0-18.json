@@ -1,0 +1,67 @@
+{
+ "id": "0-18",
+ "history": {
+  "name": "ロープ",
+  "name_en": "Rope",
+  "kind": "tech",
+  "trunk": "0",
+  "trunk_name": "生存・道具",
+  "year": -41000,
+  "year_range": "-52000〜-41000",
+  "year_uncertain": false,
+  "hee1": "細い繊維も、より合わせると重い物を吊れる （IMP-24 で追加、network_proposals N-2）",
+  "hee1_en": "Even thin fibers can hold up heavy things once you twist them together (added in IMP-24, network_proposals N-2)",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "S7. 逆向きに撚るとほどけない（ロープ）［0-18］",
+    "answer": "繊維を撚って糸にし、その糸を何本か逆向きに撚りあわせると、ほどけようとする力がつり合ってロープになる。引くと撚りが締まり、繊維どうしの摩擦で力を分けあう。",
+    "hee": {
+     "1": "細い繊維も、より合わせると重い物を吊れる。",
+     "2": "撚りの向きを段ごとに逆にするのがほどけない秘密。",
+     "3": "アブリ・デュ・マラ（フランス）の石器についていた3本撚りのひもの切れはし（約4万1000〜5万2000年前、ネアンデルタール人）⚠️。",
+     "4": "古代エジプトはパピルスやヤシの繊維の太いロープで巨石を運んだ。"
+    },
+    "certainty": "撚りのしくみ ◎／アブリ・デュ・マラのひも ○（Hardy ほか 2020、1研究・小さな断片なので ⚠️）／エジプトのロープ ○",
+    "basis": "- Hardy ほか 2020「Direct evidence of Neanderthal fibre technology and its cognitive and behavioral implications」Scientific Reports 10, 4889：https://doi.org/10.1038/s41598-020-61839-w"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "繊維をより合わせて長く強い綱にする。人類最古の撚りひもは、フランスのアブリ・デュ・マラで見つかった約4万1000〜5万2000年前の3本撚りのひも（長さ約6mm、針葉樹の樹皮の内側の繊維。ネアンデルタール人が作った。Hardy ほか 2020、Scientific Reports）。撚る向きを2段で変える作り方は今のロープと同じ（出典：CNRS「Neanderthal cord weaver」、NPR 2020-04-10）。ゲームのロープは、リネンの糸（織物ノード、約1万年前）から作る"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "軽",
+  "missing": "",
+  "item": "rope",
+  "recipes": [
+   "作業台：リネンの糸×3 → ロープ"
+  ],
+  "machine_recipes": [],
+  "placeholder": "近似：撚りの段（糸 → ストランド → ロープ）を1回にまとめた。",
+  "game_text": "繊維 → ロープ（作業台）。滑車 [8-19]・クレーン（[P-01]）に使う",
+  "hee_game": {
+   "note1": "細い糸も、よりあわせると重い物をつれる太い綱になる。",
+   "note2": "リネンの糸3つで作る（3本の糸を撚りあわせる）。のちに滑車やクレーンで重い物をつり上げるのに使う予定。",
+   "note3": "繊維を撚って糸にし、その糸を何本か「逆向き」に撚りあわせる。逆向きにすると、ほどけようとする力どうしがつり合って、ロープがほどけない。引っぱると撚りが締まり、繊維どうしの摩擦で力を分けあう。",
+   "note4": "フランスのアブリ・デュ・マラ遺跡で、約4万1000〜5万2000年前の石器に、3本の撚った束をさらに撚りあわせたひもの切れはしがついていた（ネアンデルタール人、2020年発表）⚠️。古代エジプトではパピルスやヤシの繊維で太いロープを作り、大きな石を運んだ。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABEUlEQVR42q2TsW6DMBCGPyNmxJCBuYoydUDMCGXOUOUZMld5ms48RAfmCjGjDJkQYvbAYPECdOm5xk1oq/a2s+/+++/3b/hjqFuHp+JhBsjiCIDWTACU9aBWAV6e0rk1E+djQT9qALabBIB+1OirpjXTAki5zfk+tcV+s5s3bxeeXy8KIBSA1kzkTrG+airTkcURwsoFkwhlZ5d21XSWZvlZOx/yHQD5PuVkprmsBxXIrTv5llhlPaiq6ewaInDgJttNYhVfC3cNy8BH/q5ZBgVu0o/6Rwxk2IKBIJ+PhTWS75FDvvvCNBSBsjiyPvhQewGSPCa/84H/7r6p7lpZ3vmeAwE7ffUz+R8pi6NF47/FO31cnQ/LmIBzAAAAAElFTkSuQmCC"
+}

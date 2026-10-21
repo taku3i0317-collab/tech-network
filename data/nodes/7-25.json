@@ -1,0 +1,63 @@
+{
+ "id": "7-25",
+ "history": {
+  "name": "半導体レーザー",
+  "name_en": "Semiconductor laser",
+  "kind": "tech",
+  "trunk": "7",
+  "trunk_name": "光学",
+  "year": 1962,
+  "year_range": "1962〜1970",
+  "year_uncertain": false,
+  "hee1": "光ファイバーの中を走る光は、米つぶより小さな半導体レーザーが出している（O-010 で追加。出典：IEEE Milestones「Semiconductor Laser, 1962」、Wikipedia「Laser diode」）",
+  "hee1_en": "The light running through optical fibers comes from semiconductor lasers smaller than a grain of rice. (Added in O-010. Sources: IEEE Milestones \"Semiconductor Laser, 1962\", Wikipedia \"Laser diode\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "7-13"
+    ]
+   ],
+   [
+    [
+     "B-07"
+    ]
+   ],
+   [
+    [
+     "1-44"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "ガリウムヒ素の p-n 接合に強い電流を流し、結晶の割れた面を鏡にして光を行き来させると、レーザーの光が出る。1962年の秋、GE のロバート・ホール（スケネクタディ）、ニック・ホロニアック（シラキュース、目に見える赤い光）、IBM、MIT リンカーン研究所が、ほぼ同時に別々に発表した（IEEE マイルストーン「Semiconductor Laser, 1962」）。はじめは強く冷やさないと動かなかったが、1970年に半導体ヘテロ構造（[9-48]）で室温で連続して光るようになった。光ファイバー通信・CD/DVD/ブルーレイ・レーザーポインター・バーコードの読み取りに使われる"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAY0lEQVR42mNgGPKAEZuglVXOf2zix45NwVDPgk2zg4MXLgv/oxvCiK65K2YKXieXLclh6IqZwmDtE8JwdMsaTBdse7KNgK+34Q8DfF44cGAbA14vkBOIDMQagMtQJoZRMPAAAE3cJPWO03ODAAAAAElFTkSuQmCC"
+}

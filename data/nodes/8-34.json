@@ -1,0 +1,63 @@
+{
+ "id": "8-34",
+ "history": {
+  "name": "NC",
+  "name_en": "NC",
+  "kind": "tech",
+  "trunk": "8",
+  "trunk_name": "精密・計測",
+  "year": 1952,
+  "year_range": "1949〜1956",
+  "year_uncertain": false,
+  "hee1": "最初の NC 工作機械は、穴のあいた紙テープを読んで刃を動かしていた（O-010 で追加。出典：日本機械学会「機械遺産 No.126」、Wikipedia「Numerical control」「John T. Parsons」）",
+  "hee1_en": "The first NC machine tool moved its cutter by reading paper tape with holes punched in it. (Added in O-010. Sources: JSME \"Mechanical Engineering Heritage No.126\", Wikipedia \"Numerical control\" \"John T. Parsons\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "8-01"
+    ]
+   ],
+   [
+    [
+     "8-08"
+    ]
+   ],
+   [
+    [
+     "10-04"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "旋盤やフライス盤の刃の動きを、数字の指令（はじめは穴をあけた紙テープ）で決め、サーボモーター（位置のフィードバック）で軸を正確に動かす工作機械。1949年にジョン・パーソンズが構想し、1952年に MIT のサーボ機構研究所が NC のフライス盤を公開した（構想を出したパーソンズの名前は長く出なかった）。日本では1956年に最初の NC 装置が作られ、1968年の NC 旋盤は機械遺産に選ばれている。3D プリンターも、NC と同じ形の位置の指令（G コード）で動く"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAtElEQVR42t2SPQ7CMAyFv1Q5Fe3AjDxWHKIH4BAcoIeoOkbMDIEzsYUBXKVpWkV04y22Y/vFf7ATBuBwlPBL8vPujFXjenYA1NLycONqkvovgwBgY2fTYTxjaLpPZTkEIdTSwvACoEoDmg7je6aWYj2HKveoJL4npIRFBEqirWyRzGaw9VMtLZ4xAN8hy3KNJxFuzi2k+oDJ1jUSE2gFqdSY+F5Ur0oOJpe4GlAKzbF7SP4Eb3zpVqtuKEHRAAAAAElFTkSuQmCC"
+}

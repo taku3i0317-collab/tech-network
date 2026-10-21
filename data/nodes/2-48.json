@@ -1,0 +1,86 @@
+{
+ "id": "2-48",
+ "history": {
+  "name": "冷媒フロン",
+  "name_en": "CFC refrigerants",
+  "kind": "tech",
+  "trunk": "2",
+  "trunk_name": "化学",
+  "year": 1928,
+  "year_range": "1928〜1930",
+  "year_uncertain": false,
+  "hee1": "フロンは、毒のない安全な冷媒として作られたのに、空の上でオゾン層を壊していた（S-004 で追加。出典：en.wikipedia.org、inventionandtech.com）",
+  "hee1_en": "CFCs were made as safe, non-toxic refrigerants, yet high in the sky they were destroying the ozone layer (added in S-004. Sources: en.wikipedia.org, inventionandtech.com)",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "C46. 安全な冷媒が空の上でオゾン層を壊していた（フロン）［2-48］",
+    "answer": "それまでの冷媒（アンモニア・二酸化硫黄・塩化メチル）は毒や燃える危険があった。1928年、GM のトマス・ミジリーたちがジクロロジフルオロメタン（CFC-12、商品名フレオン）を冷媒に選び、1930年に工業生産が始まった。毒がなく燃えない「夢の冷媒」とされたが、とても安定なので成層圏まで上り、強い紫外線で分解して出た塩素がオゾンを次々に壊す。1974年モリーナとローランドが警告し、1985年に南極のオゾンホールが見つかり（ファーマンら、ドブソン計）、1987年のモントリオール議定書で世界中の国が生産をやめた。オゾン層は少しずつ戻っている。ミジリーは有鉛ガソリンの開発者でもある。",
+    "hee": {
+     "1": "フロンは、毒のない安全な冷媒として作られたのに、空の上でオゾン層を壊していた。",
+     "2": "塩素の原子1つが、オゾンを何万個も壊す。",
+     "3": "世界中の国が約束を守ってフロンをやめたので、オゾン層は戻りつつある。",
+     "4": "オゾン 300 DU は、地上の圧力に集めるとたった 3mm の厚さ。"
+    },
+    "certainty": "ミジリー 1928・生産 1930 ◎／1974・1985・1987 ◎／回復の見通し（WMO・UNEP 2022）◎",
+    "basis": "- Wikipedia「Chlorofluorocarbon」/「Thomas Midgley Jr.」：https://en.wikipedia.org/wiki/Chlorofluorocarbon"
+   }
+  ],
+  "people": [
+   {
+    "name": "トマス・ミジリー",
+    "tool": "🧊 フロン",
+    "year": "1928",
+    "intro": "1928年、冷蔵庫の冷媒にフロンを選んだ。のちにオゾン層を壊すと分かった（1889〜1944）",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACQ0lEQVR42mNgGAUjHTCSolhLTvQ/MequPXpNtLksxCo0UZX8rywphCH+/ssPbMr/E+sIRmJ9LiPCB+cvm1SLVV1UXjOc/eTNJ6JCgolalqPLyYjwERVlTKSkAXyWk6KGbAfQAhDtgKaSVAZaqCXaASpyEjQJARZSFCOncvS4RpYjJQTwZpOK5MD/585fIjlx3Xn0gqGuZzYDAwMDg5GhHkPH3PWMVAkBTsNQBj1NTYZL168zfD+/Gqccw6PJ1AsBXTV5BmVZCXgaePHmA4OEiACKb9Hl7jx6wcDAwMBw9/ELhsu3HuINAYKJUFkWNfEhW44O0OXQ9ZLlgA17T2JGBTsbnP3y7Qes4rj0kpQGkILuf0miP1z8+89fDAwMDAwXbjxg4ObkwBCHWY4v6EmujiuSA1EcgQ/0zN9IlOUk5wJkcHj2VhS+bao37RskxIQCKb4n2QEwR4gK8TPE+zugiC/ceIDh9buPJFlOEahIDvz/5siC/2+OLPhfkRz4n4GWdYGTkweGBQHO5gz/1d2g7BcMp+5/x1Czb98ORoocALNYR8cARfz+/TsMDAwMDK2mVgwyHBwMNnUJDNzcPAyKiioYbUNCDmEhxWKUUs41jkGmaQGczbD8DIYaJP04HcJCqsX379/B5lMGRUUVnHL4HMJCrMXIoLY2D6tYUlIeXn3YHMKERZJk36OHAiGAbBfJjVJsvidGjmAivHLlAl6Fb968YhAREWNYtGgJXOzEB0hNyIgk9vXrF4YDB3YxiIiIEeUAAK7m58Q1zS7nAAAAAElFTkSuQmCC"
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "3-22"
+    ]
+   ],
+   [
+    [
+     "2-10"
+    ]
+   ],
+   [
+    [
+     "11-13"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-17"
+  ],
+  "frontier": false,
+  "real": "それまでの冷媒（アンモニア・二酸化硫黄・塩化メチル）は毒や燃える危険があった。1928年、ゼネラルモーターズ（冷蔵庫の部門フリジデール）のトマス・ミジリーが、アルバート・ヘン、ロバート・マクナリーとともに、ジクロロジフルオロメタン（CFC-12、商品名フレオン）を冷媒に選んだ。1930年に GM とデュポンの合弁会社で工業生産が始まった。毒がなく燃えない「夢の冷媒」とされたが、のちにオゾン層を壊すことがわかった（idea の項目を参照）。ミジリーは有鉛ガソリンの開発者でもある"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "実験＋軽",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAdElEQVR42mNgoCWwcvD5D2NblHX9R6aJ0tzSM+M/NkOQAROxrrEo6/p/oquMEd0QRly2e/n4wPnbtmxhOHZgC1a1TIQ0MzAwMHj5+KCEB1lewAVYsAluefWJaJto4wIfMT4MsW20csHAG4A1DLZt2cIwdAAAeiwnEr2I8LIAAAAASUVORK5CYII="
+}

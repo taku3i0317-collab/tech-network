@@ -1,0 +1,83 @@
+{
+ "id": "9-33",
+ "history": {
+  "name": "ワイヤーボンディング",
+  "name_en": "Wire bonding",
+  "kind": "tech",
+  "trunk": "9",
+  "trunk_name": "半導体プロセス",
+  "year": 1957,
+  "year_range": null,
+  "year_uncertain": true,
+  "hee1": "チップと外をつなぐ線は、髪の毛の3分の1ほどの太さの金",
+  "hee1_en": "The wire connecting the chip to the outside is gold about a third as thick as a hair.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "F22. 穴を通して細くする（伸線・ボンディング線）［1-58］（［9-33］の前提）",
+    "answer": "金属の棒を、少しずつ小さくなる穴（ダイス）に次々と通して引っぱると、細く長い線になる。古代から手で引き、14世紀のニュルンベルクで水車の力で引くようになった（年は ⚠️）。すり減らないダイヤモンドの穴を使うと、チップをつなぐ直径約25µm の金線まで引ける。",
+    "hee": {
+     "1": "電線の銅線は、太い棒を小さな穴に何十回も通して細く引きのばしている。",
+     "2": "金は1g から数km の線が引けるほどよくのびる。",
+     "3": "チップと外をつなぐ線は、髪の毛の3分の1ほどの太さの金。",
+     "4": "1893年のローブリングの撚り線機（ASME ランドマーク #139）は、鋼線をより合わせて吊り橋のワイヤロープを作った。"
+    },
+    "certainty": "伸線のしくみ ◎／ニュルンベルクの水車 △（年が不確か）／ASME #139 ◎／25µm の金線 ◎／ダイヤモンドのダイスの普及の年 △",
+    "basis": "Wikipedia「Wire drawing」https://en.wikipedia.org/wiki/Wire_drawing 、ASME「Roebling 80-Ton Wire Rope Machine」https://www.asme.org/about-asme/engineering-history/landmarks （英語）"
+   },
+   {
+    "title": "F23. 髪の毛より細い金の線でつなぐ（ワイヤーボンディング）［9-33］",
+    "answer": "チップを足の付いた台（ヘッダー）に載せ、直径約25µm の金の線を、温めた台の上でチップのアルミのパッドと足に押しつけてくっつける（熱圧着）。パッド1つに線1本。1950年代後半にベル研で熱圧着が考えられ、のちに超音波でくっつける方法が加わった。",
+    "hee": {
+     "1": "チップと外をつなぐ線は、髪の毛の3分の1ほどの太さの金。",
+     "2": "足と台のすき間はガラスで溶かしふさいである（ガラスと金属の封着）。",
+     "3": "初期の IC はトランジスタと同じ丸い金属の缶（TO-5）に入っていた。",
+     "4": "今のボンダーは1秒に20本以上の線をつなぐ。"
+    },
+    "certainty": "熱圧着と金線 ◎（教科書）／ベル研 1957 △（年は未確認）／TO-5・ガラス封着 ◎",
+    "basis": "Wikipedia「Wire bonding」https://en.wikipedia.org/wiki/Wire_bonding 、Wikipedia「TO-5」https://en.wikipedia.org/wiki/TO-5 （英語）"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "9-32"
+    ]
+   ],
+   [
+    [
+     "1-58"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1957 ベル研の熱圧着ボンディング⚠️。直径約25µm の金線でチップの端子とピンをつなぐ"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "重",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "ボンダー（チップ → パッケージ）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAi0lEQVR42u1Suw2FMAw8o4zANK6oGSWKGCZCzMAE1FSeJiW9qSKFYPSkl4KGq/w9nT9AIwgAmIMCgMhMdcEy9ZptHxOZLMxBM8lTs+X/hNVQx1yp4k6x3iI+JlqmXvM4rkwOw3itPlZTmY+JmIOKzOSe5O/7BhF7aaXa7p/TldfqWv+gmcDVc394ASfCpi/WyED3wgAAAABJRU5ErkJggg=="
+}

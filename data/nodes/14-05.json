@@ -1,0 +1,66 @@
+{
+ "id": "14-05",
+ "history": {
+  "name": "鉄道",
+  "name_en": "Railways",
+  "kind": "product",
+  "trunk": "14",
+  "trunk_name": "輸送",
+  "year": 1804,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "線路の幅は、馬車の車輪の幅に由来すると言われる⚠️",
+  "hee1_en": "The width of railway tracks is said to come from the wheel spacing of horse carts ⚠️",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [
+   {
+    "name": "トレビシック",
+    "tool": "🚂 蒸気機関車",
+    "year": "1804",
+    "intro": "1804年、蒸気機関車を走らせた",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACC0lEQVR42mNgGAUjHTCSolhLTvQ/MequPXpNtLksxCo0UZX8rywphCH+/ssPbMr/E+sIRmJ9LiPCR1LQPnnziaiQYKKF5QwMDAwyInxERRnTQCfCoeWAZZNqGZZNqiXIbipJpV42hKUBmAXEgDuPXjDU9cwmKiGykBICUXnNKKGBS45qIVCRHPj/3PlLWC0kJgQYGBgYjAz1GDrmrmekSghwGoYy6GlqMly6fp3h+/nVOOUYHk2mTSL8fn41w8ZJRSiW33n0AqccTbKhhIgAWXJULQc42dng7JdvP2AVp4oDOuauZ3zy5hNmVPz8xcDAwMBw4cYDBm5ODgxx5PoAXwIkKRHeefSCQUVOAkXMQEOB4pKQhdiabcPekwwlif5wscOzt6KosU31hrM37D3JgC3kKG6QVCQH/kd2BDbQM38jwWAn2wEwR4gK8TPE+zugiC/ceIDh9buPJFlOEahIDvz/5siC/2+OLPhfkRz4n4GWbUI5MxW4BfnhaQwMDAwMcXExKGoWLVrCwMDAwDBx5Sy42KNTdxgpcgDMYhEVROrfOXEVXgPd88Pg7Dd3XhB0CAuxFpMDkPT/x+UQRlIt/vjkHQO/jBBGSLjnh8HlcAFsIcJCTR+TEyKMMAcQYzkhHxKrBhYaj07dYRzwRikLevzgbAu8/8rAKchNUB0DAwPD49N3GTgFuYlyAAALouhYCvhbSAAAAABJRU5ErkJggg=="
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "4-02"
+    ]
+   ],
+   [
+    [
+     "1-08"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1804 トレビシックの蒸気機関車、1825 ストックトン・ダーリントン鉄道、1830 リバプール・マンチェスター鉄道（スチーブンソンのロケット号）。1872 新橋〜横浜"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "バニラのレール・トロッコの「本物化」（蒸気機関車＝燃料付きトロッコ）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAtklEQVR42tVSOw7CMAx9iSKO0kNkytABoQw9C0MP0YHTWBVDh045RI7CEgbi1k0/QjAg3mQ/PzuWX4BfQ3FgnU8ch5GUFMmaRKnbFZY163ziXB81HA1kGDn94j0AyLjMp7gnmm9gnU+i4S30RAgjKf2tC5qvySvxdJnvcdMNAKAxEbjfsj1RZU5Yu+QaA4TShcf5CgDo6ip1dZUkt6Vb2XjKG7RDVO3wepG5Ld3ChU8OuPqJ/4kndvdSlyfuvUYAAAAASUVORK5CYII="
+}

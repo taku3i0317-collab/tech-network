@@ -1,0 +1,81 @@
+{
+ "id": "8-18",
+ "history": {
+  "name": "人工水晶",
+  "name_en": "Synthetic quartz",
+  "kind": "tech",
+  "trunk": "8",
+  "trunk_name": "精密・計測",
+  "year": 1948,
+  "year_range": null,
+  "year_uncertain": true,
+  "hee1": "時計の水晶は、ほとんどが圧力鍋の中で育てた人工の結晶",
+  "hee1_en": "Almost all the quartz in watches is artificial crystal grown in a pressure cooker.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "O54. 工場で育てる水晶（人工水晶）［8-18］",
+    "answer": "鋼の圧力釜の下に石英のくずとアルカリの水、上に種の水晶を入れ、下を約350℃・1000気圧以上に熱すると、溶けた石英が少し冷たい上で種の上に結晶として出てくる（水熱合成）。第二次大戦で無線機用の天然水晶（ブラジル産）が足りなくなったのをきっかけに、1940年代末からベル研究所などが工業化した。",
+    "hee": {
+     "1": "地下の熱い水の中で水晶ができるのと同じことを、工場の釜でやる。",
+     "2": "今の水晶振動子の水晶は、ほとんどが人工水晶。",
+     "3": "育つのに何週間もかかる。",
+     "4": "合成石英ガラス（[7-15]）は結晶ではなくガラスで、作り方がまったく違う。"
+    },
+    "certainty": "大戦中の天然水晶不足と戦後の工業化 ◎／約350℃・1000気圧以上 ○（方式で違う）／年 1948 ⚠️",
+    "basis": "- Wikipedia「Hydrothermal synthesis」：https://en.wikipedia.org/wiki/Hydrothermal_synthesis"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "8-15"
+    ]
+   ],
+   [
+    [
+     "6-03"
+    ]
+   ],
+   [
+    [
+     "1-26"
+    ]
+   ],
+   [
+    [
+     "2-08"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1940年代末〜1950年代 ベル研などが工業化（第二次大戦で天然水晶＝ブラジル産が不足したため）。鋼の圧力容器（オートクレーブ）にアルカリ水と石英くずを入れ、下を約400℃・上を少し低くすると、溶けた SiO2 が上の種結晶に育つ（約1000気圧）⚠️年・条件は要確認"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "重（D の加圧加熱釜）",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "[8-15] の上位素材（ネザークォーツ近似を卒業）。精度の高い発振器",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAXUlEQVR42mNgoCWwKOv6T5HmNTce/SfLEJhmGMZnCBM+g3rmrSBoGROl4cREaeAykaO5JCkCbghZLkAOG9qGQUlSBEFx6rsAFkjoNiKHPHIYMJKa9k90lTEyDCoAAHBBMyqeV+1TAAAAAElFTkSuQmCC"
+}

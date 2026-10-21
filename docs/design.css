@@ -1,0 +1,60 @@
+/* 技術ネットワークのウェブの共通デザイン（docs/DESIGN_SYSTEM.md の「案 C：中間＝生成りの紙・青緑のモノ・大きな見出しだけドット風」）。
+   network.html と node.html の両方が読む。色・文字・部品の大きさはここで決め、ページの中では変数を使う。
+   文字は BIZ UDPゴシック（Google Fonts から読む。フォントのファイルはリポジトリに入れない：SIL OFL で CC0 とは別のため） */
+:root {
+  /* 色：意味のある所だけ */
+  --bg: #faf7f0; --panel: #fffdf8; --ink: #2b2622; --sub: #6b6259; --line: #e4dccd;
+  --band-a: #f3eee3; --band-b: #faf7f0;
+  --accent: #2f6f8f;      /* リンク・ボタン・数字 */
+  --hl: #d9480f;          /* 選んだ・光っている・道 */
+  --prod: #fffdf8;        /* モノ・発見の丸の中 */
+  --ok: #2e7d32; --warn: #b26b00;
+  --node-tech: #7a6f64;   /* 技術（幹の区別は色でなく、帯の名前とアイコンの形） */
+  --node-done: #4a423b;   /* ✅ 作った技術は塗る（❓ は輪だけ） */
+  --node-prod: #2f6f8f;   /* モノ（青緑） */
+  --node-idea: #7c4dab;   /* 発見・考え方（ひし形） */
+  --edge: #b6aa98;        /* つながりの線（1色） */
+  --icon: #4a423b;        /* 単色のドット絵のアイコン */
+  /* 文字 */
+  --font: "BIZ UDPGothic", system-ui, sans-serif;
+  --font-pixel: "DotGothic16", "BIZ UDPGothic", sans-serif;   /* 大きな見出しだけ */
+  /* 形・余白（4・8・12・16・24 の段） */
+  --radius: 6px; --gap-1: 4px; --gap-2: 8px; --gap-3: 12px; --gap-4: 16px; --gap-5: 24px;
+  color-scheme: light;
+}
+body { font-family: var(--font); background: var(--bg); color: var(--ink); }
+a { color: var(--accent); }
+
+/* 見出し：ページ 20px／節 16px／小見出し 13px。大きな見出し（ページの題・節の見出し・カードの題）だけドット風の書体 */
+header h1, header.top h1, section h2, #card h2 span, .pixel { font-family: var(--font-pixel); letter-spacing: .02em; font-weight: 400; }
+header h1 { font-size: 18px; }
+header.top h1 { font-size: 20px; }
+section h2, #card h2 { font-size: 16px; }
+section h2 { margin: 0 0 var(--gap-3); }
+#card .sec h3, .layers .layer h3 { font-size: 13px; letter-spacing: .02em; }
+
+/* 入力・ボタン：高さ 36px */
+header input[type=search], header select, nav input { min-height: 36px; border-radius: var(--radius); font-size: 14px; font-family: var(--font); }
+.btn, #card .more { min-height: 36px; display: inline-flex; align-items: center; padding: 0 14px; border-radius: var(--radius); font-size: 14px; font-weight: 700; text-decoration: none; }
+
+/* カード：枠 1px・角 12px・内側 16px */
+section, header.top { background: var(--panel); border: 1px solid var(--line); border-radius: calc(var(--radius) * 1.5); padding: var(--gap-4); margin-top: var(--gap-3); box-shadow: 0 1px 0 var(--line); }
+#card { padding: var(--gap-4); }
+section, #card { overflow-wrap: anywhere; }   /* 長い URL・英単語でスマホの幅からはみ出さない */
+
+/* チップ（ノードの小さなボタン） */
+.chip, #card .chip { border-radius: var(--radius); padding: 2px 10px; font-size: 13px; font-family: var(--font); }
+
+/* 図の上に浮く箱 */
+.legend, .hint { border-radius: var(--radius); border: 1px solid var(--line); }
+.legend .sw { background: var(--edge) !important; }   /* 線は1色 */
+
+/* アイコンは単色のドット絵（絵文字・テクスチャは形だけを1色に） */
+#card h2 img, header.top .ic img { image-rendering: pixelated; }   /* S-008：アイコンは色付き（素材の色） */
+
+/* 自動リンク（S-009）：文の中の言葉のリンクは、色を増やさず点線の下線で。プレビューは小さなカード */
+a.al { color: inherit; text-decoration: underline dotted var(--accent); text-underline-offset: 3px; }
+a.al:hover { color: var(--accent); }
+.alprev { position: fixed; z-index: 50; background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius, 6px); padding: 8px 10px; display: flex; gap: 8px; align-items: flex-start; box-shadow: 0 2px 8px rgba(0,0,0,.12); font-size: 13px; color: var(--ink); pointer-events: none; }
+.alprev img { width: 32px; height: 32px; image-rendering: pixelated; flex: none; }
+.alprev p { margin: 4px 0 0; color: var(--sub); }

@@ -1,0 +1,68 @@
+{
+ "id": "14-06",
+ "history": {
+  "name": "鋼のレール",
+  "name_en": "Steel rails",
+  "kind": "tech",
+  "trunk": "14",
+  "trunk_name": "輸送",
+  "year": 1857,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "鋼のレールは鉄のレールの10倍以上もった⚠️",
+  "hee1_en": "Steel rails lasted more than 10 times longer than iron rails ⚠️.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-63"
+    ]
+   ],
+   [
+    [
+     "14-05"
+    ]
+   ],
+   [
+    [
+     "1-26"
+    ]
+   ],
+   [
+    [
+     "1-51"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "錬鉄のレールはすぐすり減った。1857 ロバート・マシェットがベッセマー鋼のレールを試作、数年たってもすり減らなかった"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "高速・長寿命のレール",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAZklEQVR42mNgoDawcvD5b+Xg859YcRYYI8lO6T8DAwODko8PAwMDA4PGv2soitHF5x26x4hiAEzAimnLfwYGBoZjUD7cBTjEmSj18qgXRr1AFS8wonvhBpMWzKkoCtHF56G5hGwAAMAOapJueWTlAAAAAElFTkSuQmCC"
+}

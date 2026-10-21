@@ -1,0 +1,105 @@
+{
+ "id": "4-13",
+ "history": {
+  "name": "ボルタ電池",
+  "name_en": "Voltaic pile",
+  "kind": "tech",
+  "trunk": "4",
+  "trunk_name": "動力・電気",
+  "year": 1800,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "最初の電池は、銅と亜鉛のお皿を塩水の布ではさんで積み重ねた",
+  "hee1_en": "The first battery was a stack of copper and zinc disks with cloth soaked in salt water between them",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "C48. 最初の電池と、力が落ちない電池（ボルタの電堆・ダニエル電池）［4-13］［4-36］",
+    "answer": "1800年、イタリアのヴォルタが、銅と亜鉛の板を塩水をしみこませた布ではさんで何十段も積み（電堆）、初めて電気が流れ続けることを示した。でも銅の側に水素の泡がたまって、だんだん電気が流れにくくなる（分極）。1836年、イギリスのダニエルは、亜鉛は硫酸亜鉛、銅は硫酸銅の液に入れて素焼きのつぼで分け、銅の側で水素でなく銅が出るようにして、分極しない安定した電池を作った。これは電信の電源になった。",
+    "hee": {
+     "1": "最初の電池は、銅と亜鉛のお皿を塩水の布ではさんで積み重ねた。",
+     "2": "ヴォルタの電池が出てすぐ、水を電気で分ける実験が行われた（1800 ニコルソンとカーライル）。",
+     "3": "液を2つに分けると、電池の力が落ちなくなった。",
+     "4": "電圧の単位「ボルト」はヴォルタの名前から。"
+    },
+    "certainty": "ヴォルタ 1800・ダニエル 1836 ◎／分極のしくみ ◎",
+    "basis": "- Wikipedia「Voltaic pile」：https://en.wikipedia.org/wiki/Voltaic_pile"
+   }
+  ],
+  "people": [
+   {
+    "name": "ヴォルタ",
+    "tool": "🪙 銅と亜鉛の円板",
+    "year": "1800",
+    "intro": "1800年、銅と亜鉛の円板を塩水の布ではさんで積み、電気が流れ続ける電池を作った",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACHklEQVR42mNgGAVEgKioqP9RUVH/yWETAkwD7TkWYhXa2NgwMDAw/IfSBNlHjhwhylxGYh1QUFDw39vbG0P89u3bGGJHjhxhWLZsGSNFDoDF4bJlyxijoqKQfUgUgDkC2RySowBLsDOQE2X4ooOJSIPIAsToHfBcQJIDwvS4GML0uAiyjQQ+Ud8BMAuIZVO9HGBgYGBYdekbTsuQ5YwEqOgARHBy4fUhstydR5/g+s594CMvCpYtW8b46OxuFDFOw1AG86g6Bk7DUAz1uOQend2Nt1AimAbuPn4BZ38/v5ph46Qihu/nVyP59gVOOWS9ZDtAWVYChS8hgjuC0eXQ9ZLlgA17T2IGNzsbnP3y7Qes4rj0kpQIO+auh8Xd/5JEf0RU/PzFwMDAwHDhxgMGbk4ODHGY5Uj6Ka8NK5IDURyBD/TM30iU5SSXA8jg8OytKHzbVG+yzGEkRTExoUCK70l2AMwRokL8DPH+DijiCzceYHj97iNJllMEKpID/785suD/myML/lckB/4n1xyiXCsqKgG3oKKiiIGBgYEhLi4GRc2iRUsgOaejDy72+vULynIBzGI+PkQBc+LEPrwGWlg4wdmfPn0g6BAWYi0mByDp/4/LIYykWvz16xcGbm4ejJCwsHCCy+EC2EKEhZo+JidEGGEOIMZyQj4kVg0sNF6/fsE4eLpmsPjBBX7+/MHAzs5BUB00aBnY2TmIcgAA/mv9dYCQi6cAAAAASUVORK5CYII="
+   }
+  ],
+  "media": [
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Voltaic_pile%2C_circa_1805.jpg/960px-Voltaic_pile%2C_circa_1805.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Voltaic_pile,_circa_1805.jpg",
+    "kind": "画像",
+    "author": "Daderot",
+    "license": "Public domain",
+    "description": "1805年ごろに作られたボルタ電池（金属の円板を積み重ねた電堆）。博物館の展示。",
+    "verified": "2026-10-20 Commons API で PD を確認"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Pile_de_Volta.jpg/960px-Pile_de_Volta.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Pile_de_Volta.jpg",
+    "kind": "画像",
+    "author": "Gillard",
+    "license": "Public domain",
+    "description": "銅と亜鉛の円板と、しめった布を交互に積んだボルタ電池のイラスト。",
+    "verified": "2026-10-20 Commons API で PD を確認"
+   }
+  ],
+  "requires": [
+   [
+    [
+     "1-13"
+    ]
+   ],
+   [
+    [
+     "1-03"
+    ]
+   ],
+   [
+    [
+     "0-16"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-21"
+  ],
+  "frontier": false,
+  "real": "1800 アレッサンドロ・ヴォルタ。銅と亜鉛の円板を、塩水をしみこませた布をはさんで何十段も積む（電堆）。初めて電気が「流れ続けた」。同じ年にニコルソンとカーライルがこれで水を電気分解し、1820 エルステッドが電流で磁針が振れるのを見つけた"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "実験＋軽",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAS0lEQVR42mNgGAjQ5aL2H8ZmotQwFnymk2XAhj9qDF4+PlgVb9uyheHYgS2MyGKMpLqgbM8tRopcwMBwi2HUBUPeBbhcQnZmohgAALgRN7bmxUrMAAAAAElFTkSuQmCC"
+}

@@ -1,0 +1,58 @@
+{
+ "id": "9-49",
+ "history": {
+  "name": "サイリスタ",
+  "name_en": "Thyristor",
+  "kind": "tech",
+  "trunk": "9",
+  "trunk_name": "半導体プロセス",
+  "year": 1957,
+  "year_range": "1956〜1957",
+  "year_uncertain": false,
+  "hee1": "電車のモーターの速さを変える装置は、最初はサイリスタという半導体のスイッチで作られた（O-011 で追加。出典：IEEE Milestones「SCR/Thyristor, 1957」、ETHW IEEE Milestones 'SCR/Thyristor, 1957' / IEEE Spectrum（https://ethw.org/Milestones:SCR/Thyristor,_1957））",
+  "hee1_en": "The devices that change the speed of train motors were first made with semiconductor switches called thyristors. (Added in O-011. Sources: IEEE Milestones \"SCR/Thyristor, 1957\", ETHW IEEE Milestones 'SCR/Thyristor, 1957' / IEEE Spectrum (https://ethw.org/Milestones:SCR/Thyristor,_1957))",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "9-16"
+    ]
+   ],
+   [
+    [
+     "4-11"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "シリコンに p・n・p・n の4つの層を作った半導体のスイッチ。小さな電流を1回流すだけでオンになり、大きな電流を流し続ける。1956年ごろベル研究所で p-n-p-n のスイッチが研究され、1957年にアメリカの GE が3本足の SCR（シリコン制御整流器）を作って売り出した（IEEE マイルストーン「SCR/Thyristor, 1957」）。水銀整流器やガス入りの管を置きかえ、電車・電力のインバータは最初サイリスタで作られた（GTO・IGCT はその子孫、[9-41]）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAf0lEQVR42mNgoCXoclH73+Wi9h+fGiZKLaHYABZ0JyPzvRx0YEwU8bI9txhhbEZs/kbSiAK2HbiCohmrF8r23GLcduAKUZpxhgG6Ibg0UyUaKQ5Egi640hL0/8g0hv9kp4NtB64w2GQxMOIyhIXY8EA3xCYLkgRYSAlUmKbBBQAzfDw7HWuYjwAAAABJRU5ErkJggg=="
+}

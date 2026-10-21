@@ -1,0 +1,63 @@
+{
+ "id": "B-09",
+ "history": {
+  "name": "ゲーム機",
+  "name_en": "Game console",
+  "kind": "product",
+  "trunk": "B",
+  "trunk_name": "枝",
+  "year": 1972,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "ファミコンの CPU は、電卓を生んだ技術の孫",
+  "hee1_en": "The Famicom's CPU is a grandchild of the technology that gave birth to the calculator.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "10-13"
+    ]
+   ],
+   [
+    [
+     "10-12"
+    ]
+   ],
+   [
+    [
+     "9-39"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1972 ポン（専用回路）、1977 Atari 2600、1983 ファミリーコンピュータ（6502 系 CPU）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "ROADMAP v0.4 #7",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAl0lEQVR42mNgGAWMMIaamtZ/UjTeunWNkYGBgYEFWdDLy48hRK2DYc2tCgYGBgaGELUOBgYGBjgfBrZt2wRnM8Fs9/Lyw7Blza0KFM0wA728/OAuZkGXtPYJYWDYgmkzzGXILkQxAC64pQPDyTB5dM0YYYDNj6gA02AMA5ImaMFDGAvACCsmStMBC1KcEpUOYN7D48qhBgCsrzxoRpPs1gAAAABJRU5ErkJggg=="
+}

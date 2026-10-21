@@ -1,0 +1,59 @@
+{
+ "id": "I-34",
+ "history": {
+  "name": "超伝導のトンネル効果と電圧の量子標準",
+  "name_en": "Superconducting tunneling and the quantum voltage standard",
+  "kind": "idea",
+  "trunk": "I",
+  "trunk_name": "発見・考え方",
+  "year": 1962,
+  "year_range": "1962〜1963",
+  "year_uncertain": false,
+  "hee1": "電圧の「1ボルト」の基準は、超伝導の小さな素子とマイクロ波の周波数で作られている",
+  "hee1_en": "The standard for \"1 volt\" is made with tiny superconducting devices and the frequency of microwaves",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://www.nobelprize.org/prizes/physics/1973/summary/",
+   "https://en.wikipedia.org/wiki/Josephson_effect",
+   "https://physics.umd.edu/courses/Phys798C/AnlageSpring24/Rowell_JJ_Observation_ASC_2012.pdf"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "5-14"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [
+   "8-25"
+  ],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "2つの超伝導体を、とても薄い絶縁の膜をはさんでつなぐと、電圧をかけなくても電流が流れ、マイクロ波を当てると電圧が周波数とプランク定数だけで決まる飛び飛びの値になる。1962年に理論で予言され、1963年1月にベル研究所で初めて観測された（1973年ノーベル物理学賞。予言した人は存命なので名前を出さない）。この現象を使うと、世界のどこでも同じ電圧の基準を作れるので、ワット天秤（[8-25]）や電圧の標準に使われる。2019年の単位の決め方（[I-09]）につながる"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "実験：冷やした超伝導の素子にマイクロ波を当て、電圧が階段のようにとびとびに変わるのを測る",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAATUlEQVR42mNgoAawcvD5T65eFlI1TMsTgVuWNekNI0kuQNZMlAvQNcBtJCYMsNlGMAyw+o/YWCDWRnTARGkSYKQkHRw7sIWRYRQMAgAAruUdab8tiMYAAAAASUVORK5CYII="
+}

@@ -1,0 +1,68 @@
+{
+ "id": "B-11",
+ "history": {
+  "name": "AIチップ",
+  "name_en": "AI chip",
+  "kind": "tech",
+  "trunk": "B",
+  "trunk_name": "枝",
+  "year": 2012,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "石器から始めて、考える機械の部品にたどり着く",
+  "hee1_en": "Starting from stone tools, you reach the parts of a thinking machine.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "10-32"
+    ]
+   ],
+   [
+    [
+     "9-38"
+    ]
+   ],
+   [
+    [
+     "9-40"
+    ]
+   ],
+   [
+    [
+     "10-12"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "2012 AlexNet が GPU で画像認識の性能を大きく上げ、以後 GPU・専用 AI チップが EUV 世代のプロセスで作られる"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "ROADMAP v1.0 #5",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAmElEQVR42mNgoDaYlifyHx+NDpgotZAFmWNllfP/CY8Xg5XVNpw0AwMDw7FjUxhhehiRnfeEZxFRtsp8iWNgYGBgyJr0hpER3QUODl5wBTCAbPCBA9uIcwGyIeguQ3YBC4wBccG2/w4OXlhtl/kSx/CEZxHUBW9IdwHMAJJdgO4SolyALxCJigV8AD0WmHApwkcPrrxAMQAABZ59b7qiMVkAAAAASUVORK5CYII="
+}

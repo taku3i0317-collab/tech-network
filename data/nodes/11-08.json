@@ -1,0 +1,58 @@
+{
+ "id": "11-08",
+ "history": {
+  "name": "製粉",
+  "name_en": "Milling",
+  "kind": "tech",
+  "trunk": "11",
+  "trunk_name": "農業・食",
+  "year": -9500,
+  "year_range": "-9500〜1785",
+  "year_uncertain": true,
+  "hee1": "粉ひきは、人類が最初に機械にやらせた仕事の一つ",
+  "hee1_en": "Grinding flour was one of the first jobs people gave to machines",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "0-04"
+    ]
+   ],
+   [
+    [
+     "0-01"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "石臼は新石器時代から、水車製粉はローマ時代、1785 オリバー・エヴァンズの自動製粉所、1870年代 ハンガリーのローラー製粉"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "小麦→小麦粉（バニラはパンを小麦から直接作る＝省略を明記）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAlUlEQVR42mNgoDZw8ev6T44cAwMDA0OSndJ/mhpCjAUoCgmJEW0IyZqR/UvIuUyUxhoLPi946exjYGBgYJD7oPR/3qF7jES7IMlO6b+XjRqc72WjhjMcmNDjF10zNkNwhguyIWuqPP4n2Sn9R2YTlQZc/LpQNCAbiE0zRhjIfZiB03BsckzYEs+2I7cwFMLEyE5UuAAAhmNal4+y3ZEAAAAASUVORK5CYII="
+}

@@ -1,0 +1,76 @@
+{
+ "id": "4-36",
+ "history": {
+  "name": "ダニエル電池",
+  "name_en": null,
+  "kind": "tech",
+  "trunk": "4",
+  "trunk_name": "動力・電気",
+  "year": 1836,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "液を2つに分けたら、電池の力が落ちなくなった",
+  "hee1_en": null,
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "C48. 最初の電池と、力が落ちない電池（ボルタの電堆・ダニエル電池）［4-13］［4-36］",
+    "answer": "1800年、イタリアのヴォルタが、銅と亜鉛の板を塩水をしみこませた布ではさんで何十段も積み（電堆）、初めて電気が流れ続けることを示した。でも銅の側に水素の泡がたまって、だんだん電気が流れにくくなる（分極）。1836年、イギリスのダニエルは、亜鉛は硫酸亜鉛、銅は硫酸銅の液に入れて素焼きのつぼで分け、銅の側で水素でなく銅が出るようにして、分極しない安定した電池を作った。これは電信の電源になった。",
+    "hee": {
+     "1": "最初の電池は、銅と亜鉛のお皿を塩水の布ではさんで積み重ねた。",
+     "2": "ヴォルタの電池が出てすぐ、水を電気で分ける実験が行われた（1800 ニコルソンとカーライル）。",
+     "3": "液を2つに分けると、電池の力が落ちなくなった。",
+     "4": "電圧の単位「ボルト」はヴォルタの名前から。"
+    },
+    "certainty": "ヴォルタ 1800・ダニエル 1836 ◎／分極のしくみ ◎",
+    "basis": "- Wikipedia「Voltaic pile」：https://en.wikipedia.org/wiki/Voltaic_pile"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "4-13"
+    ]
+   ],
+   [
+    [
+     "2-12"
+    ]
+   ],
+   [
+    [
+     "0-03"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1836 ジョン・フレデリック・ダニエル。Zn｜ZnSO4‖CuSO4｜Cu、約1.1V。正極で銅が出るので水素の泡がたまらない。電信の電源"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "実験＋軽",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": null
+}

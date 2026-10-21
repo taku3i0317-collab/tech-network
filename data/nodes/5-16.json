@@ -1,0 +1,58 @@
+{
+ "id": "5-16",
+ "history": {
+  "name": "ゲッター",
+  "name_en": "Getter",
+  "kind": "tech",
+  "trunk": "5",
+  "trunk_name": "真空",
+  "year": 1894,
+  "year_range": "1893〜1895",
+  "year_uncertain": true,
+  "hee1": "真空管の銀色の部分は、残りの空気を食べた跡",
+  "hee1_en": "The silver part of a vacuum tube is the mark left after it ate up the leftover air.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-39"
+    ],
+    [
+     "2-44"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-22"
+  ],
+  "frontier": false,
+  "real": "封じきった真空管の中で、金属を蒸発させて残った気体を吸わせる。1894（伊特許。米特許 537,693 は1895）マリニャーニが電球の残りのガスを薬剤の蒸気で固める方法を発明。特許文の薬剤はヒ素・硫黄・ヨウ素で、実際の製造では赤リンを使った⚠️。1920年代の真空管は主にマグネシウム（初めの短い間は一部で赤リン）、のちにバリウム⚠️（⛔バニラになし→Mg で統一）。真空管の内側の銀色の膜がゲッター"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAXElEQVR42mNgoBAw4pKwKOv6j8w/0VXGSLSp6JpxiRGtGZ8cE6VhgNeAaXki/6flifwnywBkjfgMoZ0Xsia9YcTGRgcs+EzHp5FqXqA4IdEmKSMbQigJ0yYMSAEAL+En5LjCF7AAAAAASUVORK5CYII="
+}

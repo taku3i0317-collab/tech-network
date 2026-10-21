@@ -1,0 +1,63 @@
+{
+ "id": "4-32",
+ "history": {
+  "name": "高圧直流送電",
+  "name_en": "High-voltage direct current transmission",
+  "kind": "tech",
+  "trunk": "4",
+  "trunk_name": "動力・電気",
+  "year": 1954,
+  "year_range": "1929〜1970",
+  "year_uncertain": false,
+  "hee1": "海の底のケーブルで遠くへ電気を送るときは、交流より直流の方がむだが少ない（O-011 で追加。出典：IEEE Milestones「Gotland High Voltage Direct Current Link, 1954」、ETHW「Uno Lamm」）",
+  "hee1_en": "When sending electricity far through cables on the sea floor, direct current wastes less than alternating current. (Added in O-011. Sources: IEEE Milestones \"Gotland High Voltage Direct Current Link, 1954\", ETHW \"Uno Lamm\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "4-11"
+    ]
+   ],
+   [
+    [
+     "15-03"
+    ]
+   ],
+   [
+    [
+     "4-10"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "交流を直流に変えて送り、向こう側でまた交流にもどす送電。長い海底ケーブルでは交流よりむだが少ない。スウェーデンの ASEA のウノ・ラムが25年かけて大きな電力を扱える水銀アークバルブを作り、1954年、本土とゴットランド島の間を約96km の海底ケーブルでつなぎ、20MW・100kV の直流送電を始めた（IEEE マイルストーン）。1970年には半導体のサイリスタのバルブが加わった。今は遠くの大きな発電所や海の上の風力発電所と町を結ぶのに使われる"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAf0lEQVR42mNgoCWwcvD5b+Xg8x+fGhZ8mr18fGDc/8cObGHEpo6RgYGB4cg0BgxbDnybwbBtyxYGBgYGBi8fHwYHrgwMzTZZDIx4nY+NjQ6YKA0nnF4oW+WDwu8K20K8F7A5GZc3mGgS96TIMdHNdlxqqBON2ExGT7qE5AcOAAB35y6jYcMd/wAAAABJRU5ErkJggg=="
+}

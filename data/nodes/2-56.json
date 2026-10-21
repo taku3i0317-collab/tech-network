@@ -1,0 +1,66 @@
+{
+ "id": "2-56",
+ "history": {
+  "name": "ガラスの自動成形機",
+  "name_en": "Automatic glass-forming machines",
+  "kind": "tech",
+  "trunk": "2",
+  "trunk_name": "化学",
+  "year": 1903,
+  "year_range": "1903〜1926",
+  "year_uncertain": false,
+  "hee1": "電球のガラスの球は、1分に何百個も機械で吹いて作られるようになった（O-011 で追加。出典：ASME Landmark #86「Owens AR Bottle Machine」・#81「Corning Ribbon Machine」、ASME Landmark #81「Corning Ribbon Machine」（最大 約2000個/分）（https://www.asme.org/about-asme/engineering-history/landmarks/81-corning-ribbon-machine））",
+  "hee1_en": "Glass bulbs for light bulbs came to be blown by machine, hundreds per minute (added in O-011. Sources: ASME Landmark #86 \"Owens AR Bottle Machine\", #81 \"Corning Ribbon Machine\", ASME Landmark #81 \"Corning Ribbon Machine\" (up to about 2000 per minute) (https://www.asme.org/about-asme/engineering-history/landmarks/81-corning-ribbon-machine))",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "C35. 口で吹いていたびんを機械が作る（自動製びん機）［2-56］",
+    "answer": "1903年アメリカのマイケル・オーエンスが、溶けたガラスを真空で型に吸い上げ、圧縮空気で吹いてびんにする全自動の製びん機を作った（ASME ランドマーク #86）。それまでは職人と子どもの手伝いが口で吹いていた。1926年コーニング社のリボンマシンは、ガラスの帯から電球の球を1分間に最大約2000個作り（ASME ランドマーク #81）、電球が安くなった。",
+    "hee": {
+     "1": "電球のガラスの球は、1分に何百個も機械で吹いて作られるようになった。",
+     "2": "人の息と手の仕事が、真空・圧縮空気・型に置きかわった。",
+     "3": "製びん工場で働いていた子どもたちの仕事が減った ⚠️。",
+     "4": "同じ形のびんが大量にできるので、びん詰めの飲み物や薬が広まった。"
+    },
+    "certainty": "オーエンス 1903（ASME #86）◎／リボンマシン 1926・最大約2000個/分（ASME #81）◎／児童労働が減った ○⚠️／オーエンスの機械の速さ（職人の何倍か）△ → ⚠️（ゲームの本数は記号）",
+    "basis": "- ASME Landmark #86「Owens AR Bottle Machine」：https://www.asme.org/about-asme/engineering-history/landmarks/86-owens-ar-bottle-machine"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "2-14"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "溶けたガラスを機械で吸い上げ、型の中で吹いてびんや電球の球を作る。1903年、アメリカのマイケル・オーエンスが全自動の製びん機を作り（ASME ランドマーク #86）、職人が口で吹いていた仕事を置きかえた。1926年、コーニング社のリボンマシンは、ガラスの帯から電球の球を1分間に何百〜2000個も作れるようになり（ASME ランドマーク #81）、電球が安くなった"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "軽",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAfklEQVR42mNgGGjAyMDAwGDl4PMfXeLYgS2MxBjABGN4+fig0MQCFhhj25YtMFv/k2IAigusHHz+Y3OBRVnXf1x8JmQJUp2PYQA2ALMNF81EaTQOMgO2bdkCZ1s5+Py3cvD57yPGx8B06hCDjxgfAzKf6dQhVJNgqZFUehgAAN49NrFadZJhAAAAAElFTkSuQmCC"
+}

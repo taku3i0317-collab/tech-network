@@ -1,0 +1,78 @@
+{
+ "id": "8-22",
+ "history": {
+  "name": "メートル原器",
+  "name_en": "Meter prototype",
+  "kind": "tech",
+  "trunk": "8",
+  "trunk_name": "精密・計測",
+  "year": 1799,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "1メートルは、地球の大きさから決めた長さだった（NET-06 で追加。出典：Wikipedia「Mètre des Archives」、Quality Magazine「The Emergence of the Metric System」）",
+  "hee1_en": "One meter was a length decided from the size of the Earth. (Added in NET-06. Sources: Wikipedia \"Mètre des Archives\", Quality Magazine \"The Emergence of the Metric System\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "O32. 1メートルは地球から決めた（メートル原器）［8-22］",
+    "answer": "フランス革命のあと、ばらばらだった長さの単位をやめ、北極から赤道までの子午線の長さの1000万分の1を1メートルと決めた。ドランブルとメシャンが1792〜98年にダンケルク〜バルセロナを三角測量し、1799年にその長さの白金の棒（アルシーヴのメートル）を国立公文書館に納めた。",
+    "hee": {
+     "1": "1メートルは、地球の大きさから決めた長さだった。",
+     "2": "メシャンは測量の小さなずれに悩み続けたと伝えられる（あとで分かった子午線の値とは約0.2mm ずれていた）。",
+     "3": "1893年、マイケルソンはメートル原器をカドミウムの赤い光の波長で測った（約155万波長）。1960年に光の波長、1983年に光の速さでメートルが決め直された。",
+     "4": "日本の尺は、1891年に「1メートルの33分の10」と決められた。"
+    },
+    "certainty": "子午線の1000万分の1・1792〜98 の測量・1799 の白金の原器 ◎／原器と後の値のずれ 約0.2mm ○／マイケルソンとブノワ 1893 の 1,553,163.5 波長 ○／1尺＝10/33 m（1891 度量衡法）◎",
+    "basis": "- Wikipedia「Mètre des Archives」：https://en.wikipedia.org/wiki/M%C3%A8tre_des_Archives"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-20"
+    ]
+   ],
+   [
+    [
+     "12-11"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "メートルは北極から赤道までの子午線の長さの1000万分の1と決め、ドランブルとメシャンが1792〜98年に子午線を三角測量した。1799年、その長さの白金の棒（アルシーヴのメートル）と白金のキログラムがパリの国立公文書館に納められた"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": "metre_bar",
+  "recipes": [
+   "作業台：セオドライト（測量器） ＋ 白金のインゴット×3 → メートル原器（白金）"
+  ],
+  "machine_recipes": [],
+  "placeholder": "近似：子午線の測量の手間は、セオドライトをレシピに入れるだけ。長さはブロックの中心の間で測る。",
+  "game_text": "実装（IMP2 O-007）：metre_bar（白金インゴット×3＋セオドライト（戻る）、item/MetreBarItem）。ブロックを右クリックで印 → 別のブロックで長さを m（小数3桁）と尺・トワーズで（1ブロック＝1m）。のちの [8-06] 光波干渉測長は、この棒を光の波長で測る（マイケルソンとブノワ 1893：1m＝カドミウム赤線の約155万波長）。⚠️ 子午線の測量の手間はセオドライトをレシピに入れるだけ（省略）。キログラム原器は [8-23]",
+  "hee_game": {
+   "note1": "「1メートル」の見本になる白金の棒。ブロックを2つ右クリックすると、間の長さが分かる。",
+   "note2": "白金インゴット×3＋セオドライト（戻る）。ブロックを右クリックで1つ目の印、別のブロックを右クリックで長さ（m）と、昔の単位（尺・トワーズ）。マイクラでは1ブロック＝1m。",
+   "note3": "フランス革命のあと、国ごと・町ごとにばらばらだった長さの単位をやめ、「北極から赤道までの子午線の1000万分の1」を1メートルと決めた。ドランブルとメシャンが1792〜98年にダンケルクからバルセロナまでを三角測量し、1799年、その長さの白金の棒が国立公文書館に納められた。",
+   "note4": "原器は、両はしの面の間が1mの「端度器」。さびず形が変わりにくい白金が選ばれた。1889年に白金イリジウムの国際原器（目盛りの線の間が1m）に代わり、1893年マイケルソンはこれを光の波長で測った（カドミウムの赤い光の約155万波長）。1960年に光の波長、1983年に光の速さでメートルが決め直された。日本の尺は1891年に「1メートルの33分の10」と決めた。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAPUlEQVR42mNgIBNYlHX9Z2BgYGAmV7OPGB/Dj18MDWRpXnPj0X8rB5//o5pHNQ8nzQwMDAxWDj7ka6YUAABSmGNqp96L4AAAAABJRU5ErkJggg=="
+}

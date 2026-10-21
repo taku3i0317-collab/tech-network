@@ -1,0 +1,69 @@
+{
+ "id": "P-10",
+ "history": {
+  "name": "冷却",
+  "name_en": "Cooling",
+  "kind": "product",
+  "trunk": "P",
+  "trunk_name": "モノ（作品）",
+  "year": 1963,
+  "year_range": "1882〜1963",
+  "year_uncertain": false,
+  "hee1": "パソコンのチップは、冷やさないと数秒で危ない温度になる",
+  "hee1_en": "Without cooling, a computer's chip would reach a dangerous temperature in a few seconds.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://en.wikipedia.org/wiki/Heat_pipe",
+   "https://www.lanl.gov/"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "3-21"
+    ]
+   ],
+   [
+    [
+     "4-18"
+    ]
+   ],
+   [
+    [
+     "1-04"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [
+   "銅",
+   "アルミニウム"
+  ],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "CPU や GPU の熱を、銅の板とヒートパイプで薄い金属のひだ（放熱フィン）まで運び、ファンの風で空気へ逃がす。冷やさないとチップは熱で壊れたり遅くなったりする"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "作品：CPU のとなりに置くと、熱くなりすぎない",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAVElEQVR42mNgoCboclH73+Wi9h8fH10PE7pA2Z5bjPj4OIGVg89/UmicLiAVjBowGAxgQU8LXj4+DAwMDATpYwe2MDIwMDAw4kum+AAshTIxDHkAAK9UKfTedIvuAAAAAElFTkSuQmCC"
+}

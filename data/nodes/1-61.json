@@ -1,0 +1,63 @@
+{
+ "id": "1-61",
+ "history": {
+  "name": "トーマス法",
+  "name_en": "Thomas process",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": 1878,
+  "year_range": "1877〜1879",
+  "year_uncertain": false,
+  "hee1": "鉄から取りのぞいたリンのかすが、畑の肥料になった（O-012 で追加。出典：Wikipedia「Gilchrist–Thomas process」「Sidney Gilchrist Thomas」、IOM3「Steel heroes」・Grace's Guide「Percy Gilchrist」（https://www.iom3.org/resource/steel-heroes.html））",
+  "hee1_en": "The phosphorus slag removed from iron became fertilizer for fields. (Added in O-012. Sources: Wikipedia \"Gilchrist–Thomas process\" \"Sidney Gilchrist Thomas\", IOM3 \"Steel heroes\", Grace's Guide \"Percy Gilchrist\" (https://www.iom3.org/resource/steel-heroes.html))",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "3-08"
+    ]
+   ],
+   [
+    [
+     "3-12"
+    ]
+   ],
+   [
+    [
+     "0-10"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "ベッセマー転炉は、リンの多い鉄鉱石から作った銑鉄ではもろい鋼しかできなかった。1877〜78年、イギリスのシドニー・ギルクリスト・トーマスと従兄弟のパーシー・ギルクリストが、転炉の内側を焼いたドロマイトなどの塩基性のれんがにして石灰を入れ、リンを石灰と結びつけてスラグに移す方法を作った（1879年にミドルズブラで公開）。ヨーロッパに多いリンの多い鉄鉱石が使えるようになり、リンを吸ったスラグ（トーマスりん肥）は畑の肥料にもなった"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAiUlEQVR42sWSMQ6AIAxFPxzLiZl09GyepGF2MBzEi9TFGKOlVBb/Qkr4L/TnA6e2BQJFrXtYj5/nJ20LRPZZvOZwH6ZEkomuuTCjrhwsQGyZASATYUokXYBm9kKiZ08LEr3htiARAOrKoTAPQa4feCHmCiOQVwYWROuFGqIGaZXKbNk9sF4j/9MBRBhPuDfmMj4AAAAASUVORK5CYII="
+}

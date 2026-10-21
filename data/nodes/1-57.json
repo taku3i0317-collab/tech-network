@@ -1,0 +1,58 @@
+{
+ "id": "1-57",
+ "history": {
+  "name": "炭素繊維",
+  "name_en": "Carbon fiber",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": 1961,
+  "year_range": "1958〜1961",
+  "year_uncertain": false,
+  "hee1": "炭素繊維は、鉄の4分の1ほどの重さで、鉄より強い ⚠️（O-011 で追加。出典：Wikipedia「National Historic Chemical Landmarks」、Asia News Network）",
+  "hee1_en": "Carbon fiber weighs about a quarter as much as steel, yet is stronger than steel ⚠️ (Added in O-011. Sources: Wikipedia \"National Historic Chemical Landmarks\", Asia News Network)",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-07"
+    ]
+   ],
+   [
+    [
+     "3-10"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "細い繊維を、空気を断って高い温度で焼くと、黒鉛の層が並んだ、軽くてとても強い炭素の繊維になる。1958年、アメリカのユニオン・カーバイドのロジャー・ベーコンがレーヨンから高性能の炭素繊維を作り、1961年、日本の大阪工業技術試験所の進藤昭男がアクリル繊維（PAN）から作る方法を発明した（今の主流）。鉄より軽くて強いので、飛行機の胴体や翼、釣りざお、テニスのラケット、自転車に使われる"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAcElEQVR42mNgoBAwMjAwMFg5+PxnYGBgePPsHgMDAwODiJQSAzH8Ywe2MLLATDIz0GFgMNBhOHXhClF8mGFMyBwUxUTw4QaQoxnmDSZkDrGaYXwUF5CqeTQMhlUYwDMTqRnpzbN7DLduXWOkNDczAACWSJwx8g95iwAAAABJRU5ErkJggg=="
+}

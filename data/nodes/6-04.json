@@ -1,0 +1,52 @@
+{
+ "id": "6-04",
+ "history": {
+  "name": "岩塩鉱",
+  "name_en": "Rock salt mine",
+  "kind": "tech",
+  "trunk": "6",
+  "trunk_name": "ガス",
+  "year": -1500,
+  "year_range": null,
+  "year_uncertain": true,
+  "hee1": "岩塩は「石になった海」",
+  "hee1_en": "Rock salt is \"a sea that turned to stone\".",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "蒸発岩層（古い海の跡）。地下の塩層・砂漠。最古の岩塩採掘は紀元前4500年頃（アゼルバイジャン・ナヒチェヴァンのドゥズダグ、出土土器の型式による推定）。年 -1500 はハルシュタット（オーストリア）の青銅器時代の採掘（最古の証拠は紀元前15世紀）"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": "rock_salt_ore",
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "新鉱石。乾燥バイオーム地下",
+  "hee_game": {
+   "note1": "砂漠の地下深くにある塩の層。大むかし、ここは海だった。",
+   "note2": "蒸発岩の層。砂漠・荒野バイオームの地下（y0〜48）だけ、石を大きなレンズ状に置き換えて生成。軟らかい（モース硬度 2.5）のでどのツルハシでも岩塩が出る。シルクタッチならブロックのまま。",
+   "note3": "岩塩は「石になった海」。約2億5500万年前に干上がったツェヒシュタイン海は、北ヨーロッパの広い範囲の地下に塩を残した。",
+   "note4": "岩塩坑は乾いていて安定しているので、古い坑道を放射性廃棄物や公文書の保管に使う例もある。塩は熱をよく伝え、ゆっくり流れてひび割れを自分でふさぐ。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA0UlEQVR42p1Ruw2DMBB9WCgDeAgXzMAEFJFHcImYJTWiilymtChQBqDINF6BFBHhON0FlNf4d+d7n8K5agEA6wMAIKcICu1+ReFctTTNFXXbQcM89ADwrZmHHnXb4XZ/wPCidV339Mzfc4obg38wTSPKoyIujcp5XewmgTZoTVxOThHG+qA20E81L4xk3JEkOtBo+f7ygg4xZx3XfCilKZIk6W3HQCqQEuHnXQqSgZw6ZWR9+EjQnOf0OXKKKHOKqMfnqQglbwrnqsX6gLNxcrwB/yV3IxpG0gIAAAAASUVORK5CYII="
+}

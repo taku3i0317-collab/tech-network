@@ -1,0 +1,73 @@
+{
+ "id": "2-14",
+ "history": {
+  "name": "ソーダ石灰ガラス",
+  "name_en": "Soda-lime glass",
+  "kind": "tech",
+  "trunk": "2",
+  "trunk_name": "化学",
+  "year": -2500,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "砂だけだと1700℃いるが、ソーダを混ぜると1000℃で溶ける",
+  "hee1_en": "Sand alone needs 1700°C, but with soda mixed in it melts at 1000°C.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "2-03"
+    ],
+    [
+     "2-04"
+    ],
+    [
+     "2-05"
+    ]
+   ],
+   [
+    [
+     "0-10"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "SiO2+Na2CO3→Na2SiO3+CO2（融点を約1700℃→約1000℃に下げる）＋CaO（水に溶けなくする）。組成はおよそ SiO2 72%・Na2O 14%・CaO 10%。紀元前2500〜2000年頃のメソポタミアのビーズ⚠️（まとまった出土は紀元前15〜14世紀から）、大プリニウスがナトロンでガラスができた伝説を記録"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": "soda_lime_glass",
+  "recipes": [
+   "かまど：ガラスの調合原料 を焼く → ソーダ石灰ガラス",
+   "溶鉱炉：ガラスの調合原料 を焼く → ソーダ石灰ガラス",
+   "かまど：割れたガラス（カレット） を焼く → ソーダ石灰ガラス"
+  ],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "決定：バニラのガラス＝ソーダ石灰ガラスの近似（窓・建材はバニラのまま。CHEMISTRY #36）。実験器具（瓶・管・レンズ用の素材）はこのMODの「ソーダ石灰ガラス」（砂+ソーダ+石灰）か[2-15]ホウケイ酸ガラスを必須にする",
+  "hee_game": {
+   "note1": "砂・ソーダ・石灰からきちんと作ったふつうのガラス。実験器具に使う。",
+   "note2": "Na2O-CaO-SiO2 のガラス。ソーダで融点が約1700℃→約1000℃に下がり、石灰で水に溶けなくなる。真空容器・水銀真空計・ライデン瓶に必要。（窓・建材のガラスはバニラのまま）",
+   "note3": "ガラスは紀元前2500〜2000年頃のメソポタミアで、ビーズとして作られ始めた⚠️（たくさん見つかるのは紀元前15〜14世紀から）。大プリニウスは、浜辺でナトロンの塊を鍋の台にした商人が、朝にガラスを見つけた話を書いている（たぶん伝説だが、材料の組み合わせは正しい）。",
+   "note4": "熱膨張が約9×10⁻⁶/K と大きく、むらに熱すると割れる。そのため耐熱の実験ガラスはのちにホウケイ酸ガラス（ショット 1880〜90年代、パイレックス 1915）になった。厚いガラスがうっすら緑なのは砂の鉄分のせい。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAWElEQVR42mNgGAWM2AQjwoL+w9gPFCwYFB6cgMutWLUORQ8LNs0hTRPQRZE5/5ENYSKsGRWENE1AcSETpWEwagCaAStWrWNcU1eAV8OaugKUtEBxQhp4AABphyLSPGmMhQAAAABJRU5ErkJggg=="
+}

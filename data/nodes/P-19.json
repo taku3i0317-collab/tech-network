@@ -1,0 +1,59 @@
+{
+ "id": "P-19",
+ "history": {
+  "name": "振動モーター",
+  "name_en": "Vibration motor",
+  "kind": "product",
+  "trunk": "P",
+  "trunk_name": "モノ（作品）",
+  "year": 1980,
+  "year_range": "1970年代〜1990年代",
+  "year_uncertain": true,
+  "hee1": "マナーモードのブルブルは、中で片寄ったおもりが回っている",
+  "hee1_en": "The buzz in silent mode is an off-center weight spinning inside",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://en.wikipedia.org/wiki/Vibrating_alert",
+   "https://patents.google.com/patent/US4864276"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "4-20"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [
+   "銅",
+   "鋼"
+  ],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "片寄ったおもりを回す小さなモーター（または、ばねのおもりを電磁石でゆらす部品）で、音を出さずに知らせる"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "作品：知らせが来るとブルブルゆれる",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAZUlEQVR42mNgGFRgWp7If2xssg2hC2BkYGBgsHLwwWvrsQNbGJFdlzXpDSNMjgXG8PLxwap525YtWL0JM4SFkBOhBkNdeALDECZKw4CgC7Zt2QIPg2MH8BiAza8DnxoHJinTHQAAk/YqRG7jBBUAAAAASUVORK5CYII="
+}

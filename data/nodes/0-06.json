@@ -1,0 +1,71 @@
+{
+ "id": "0-06",
+ "history": {
+  "name": "織物",
+  "name_en": "Weaving",
+  "kind": "tech",
+  "trunk": "0",
+  "trunk_name": "生存・道具",
+  "year": -8000,
+  "year_range": "-30000〜-8000",
+  "year_uncertain": false,
+  "hee1": "亜麻の茎を水につけて腐らせると、布にする糸がとれる",
+  "hee1_en": "Soak flax stems in water until they rot, and you get fibers to spin into thread for cloth",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "S5. 茎を水で腐らせて糸を取る（亜麻とリネン）［0-06］",
+    "answer": "亜麻の茎の皮の内側には長い靱皮繊維の束があり、ペクチンで皮や芯にくっついている。茎を水に浸けると微生物がペクチンを分解し（レッティング）、たたいて芯を落とすと繊維が取れる。繊維を撚って糸にし、織ると亜麻布（リネン）になる。",
+    "hee": {
+     "1": "亜麻の茎を水につけて腐らせると、布にする糸がとれる。",
+     "2": "繊維は主にセルロースで、ぬれるとかえって強くなる。",
+     "3": "イスラエルのナハル・ヘマル洞窟で約9000年前の亜麻の布・網。ジョージアのズズアナ洞窟では約3万年前の野生の亜麻の繊維が報告されている⚠️。",
+     "4": "line・lining・lingerie・linoleum はラテン語 linum（亜麻）から。日本は大麻・苧麻から同じように布を作った。"
+    },
+    "certainty": "レッティングのしくみ ◎／ナハル・ヘマル 約9000年前 ○／ズズアナ 約3万年前 △（人の利用かに議論）→ ゲーム内は ⚠️／エジプトの S 撚り △ → ⚠️／語源 ◎",
+    "basis": "- Kvavadze ほか 2009「30,000-year-old wild flax fibers」Science 325：https://www.science.org/doi/10.1126/science.1175404"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "0-04"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "亜麻布は約9000〜1万年前（ナハル・ヘマル、層の年代は紀元前8210〜7780年）、亜麻繊維自体は約3万年前の痕跡（ズズアナ洞窟）。茎を水に浸けて腐らせ（レッティング＝ペクチンを微生物が分解）繊維を取り出す"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "実験＋軽",
+  "missing": "",
+  "item": "flax",
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": "近似：種は草から出る（本物の祖先は野生の亜麻）。",
+  "game_text": "バニラの糸はクモ由来なので代用不可 → 新規作物「亜麻」＋亜麻繊維・リネン",
+  "hee_game": {
+   "note1": "青い花がさく草。茎の中に、布になる長い糸がかくれている。",
+   "note2": "草をこわすと、ときどき出る。耕した土に植えると亜麻が育ち、熟すと亜麻の茎2つと種がとれる。種は亜麻仁（あまに）ともいう。",
+   "note3": "亜麻の茎の皮のすぐ内側には、細長い細胞がつながった「靱皮（じんぴ）繊維」の束がある。長さ数十cmにもなる丈夫な繊維で、これをとり出して糸にしたのが亜麻布（リネン）。",
+   "note4": "亜麻の種をしぼった亜麻仁油は、空気にふれると固まる（乾性油）。油絵の具やリノリウム（亜麻仁油＋コルクなど。名前は linum＝亜麻 から）に使われてきた。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAMUlEQVR42mNgGAX0AV0uav+n+Bn8J1tDl4vaf5JtHJx+JyssSPYaybYQYytVDRx8AAAC9yPL9cZ/gwAAAABJRU5ErkJggg=="
+}

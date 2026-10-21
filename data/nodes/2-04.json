@@ -1,0 +1,71 @@
+{
+ "id": "2-04",
+ "history": {
+  "name": "海藻灰ソーダ",
+  "name_en": "Kelp ash soda",
+  "kind": "tech",
+  "trunk": "2",
+  "trunk_name": "化学",
+  "year": 1750,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "海藻の灰からソーダがとれた。その灰の液からヨウ素も見つかった",
+  "hee1_en": "Soda was obtained from seaweed ash, and iodine was discovered in the liquid from that ash.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "O29. 海藻の灰からソーダとヨウ素［2-04］（ダゲレオタイプの前提）",
+    "answer": "塩分の多い所の植物の灰は、ガラス・石けんの原料のアルカリとして18世紀に売られた。スペインのバリラ（陸の塩生植物＝オカヒジキの仲間の灰）は炭酸ナトリウム（ソーダ）が多く、スコットランドのケルプ（海藻の灰）はソーダが数%しかなく大半はカリウムの塩とヨウ素だった ⚠️（ゲームでは海藻灰からもソーダが取れる近似）。1811年クールトアは、海藻灰の液に濃硫酸を加えると紫の蒸気が出て黒い結晶がつくのを見つけた＝ヨウ素の発見。",
+    "hee": {
+     "1": "海藻の灰からソーダがとれた。その灰の液からヨウ素も見つかった。",
+     "2": "ヨウ素はギリシャ語の「すみれ色」。紫の蒸気から名付けられた。",
+     "3": "昆布は海水のヨウ素を何千倍にも濃くためている。",
+     "4": "日本は千葉県の地下のかん水からヨウ素を取り、世界有数の産出国。"
+    },
+    "certainty": "クールトア 1811 ◎／ケルプ産業・バリラ ◎／昆布のヨウ素の濃縮 ○／日本の生産 ◎",
+    "basis": "- Wikipedia「Iodine」（歴史）：https://en.wikipedia.org/wiki/Iodine"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "0-02"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "海藻や塩生植物（オカヒジキ類）の灰は Na2CO3 を多く含む（陸の木灰は K2CO3＝[2-02]）。18世紀スペインのバリラ、スコットランドのケルプ産業。1811 クールトアが海藻灰の母液からヨウ素を発見"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "軽",
+  "missing": "",
+  "item": "kelp_ash",
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": "近似：本物のスコットランドの海藻灰は炭酸ナトリウムが数%しかなく、大半はカリウムの塩（ここでは浸出液からソーダが取れる）。⚠️",
+  "game_text": "バニラの昆布→乾燥昆布→燃やす→新規「海藻灰」→水で溶かして煮詰め→炭酸ナトリウム（不純）。副産物ヨウ素は[B-02a]へ",
+  "hee_game": {
+   "note1": "昆布を燃やした灰。水に溶かすとソーダがとれ、その液からヨウ素も取り出せる。",
+   "note2": "乾燥昆布をたき火で焼く（30秒）。4つ＋水バケツで海藻灰の浸出液。",
+   "note3": "18世紀のスコットランドでは、浜の海藻を集めて燃やす「ケルプ産業」がさかえ、灰をガラスや石けんの原料として売った。スペインではオカヒジキの仲間の灰「バリラ」が有名だった。",
+   "note4": "陸の木の灰はカリウム（K2CO3）が多いが、海の植物の灰はナトリウム（Na2CO3）が多い。海水のナトリウムを取りこんでいるから。昆布はさらに海水のヨウ素を何千倍にも濃くためている。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAiklEQVR42mNgGAXDADDikogIC/qPzF+xah1WtUzYBNXUtP5LSKmhaFRT0/pPlAvQbYYBCSk1hm3bNjHcunWNEacLYJpxOdfIQAPDAiZkzStWrWM8d+EGTlcgexHFCxFhQf8lpNQYXjy7Bfc3NkOQ1cDUMcFM27ZtE04bz124wcDAwICiGV940RcAADiIOXKCmzeXAAAAAElFTkSuQmCC"
+}

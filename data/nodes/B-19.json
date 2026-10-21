@@ -1,0 +1,70 @@
+{
+ "id": "B-19",
+ "history": {
+  "name": "TFT 液晶",
+  "name_en": "TFT LCD",
+  "kind": "tech",
+  "trunk": "B",
+  "trunk_name": "枝",
+  "year": 1979,
+  "year_range": "1962〜1988",
+  "year_uncertain": false,
+  "hee1": "画面の画素1つ1つの裏に薄いトランジスタが1個ずつあり、何百万個もガラスの上に並んでいる（S-002 で追加。出典：Wikipedia「Thin-film transistor」、IEEE Milestones「Amorphous Silicon TFT Switches」）",
+  "hee1_en": "Behind each pixel of a screen is one thin transistor, and millions of them are lined up on glass. (Added in S-002. Sources: Wikipedia \"Thin-film transistor\", IEEE Milestones \"Amorphous Silicon TFT Switches\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "B-18"
+    ]
+   ],
+   [
+    [
+     "9-23"
+    ]
+   ],
+   [
+    [
+     "9-30"
+    ]
+   ],
+   [
+    [
+     "5-14"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-12"
+  ],
+  "frontier": false,
+  "real": "1962年、RCA のワイマーが薄い膜でトランジスタ（TFT）を作った。1973〜74年、ウェスチングハウスのブロディらが画素1つに1つの TFT を付けた液晶（アクティブマトリクス）を見せた。1979年、英国ダンディー大学のスピアとルカンバーが水素を含むアモルファスシリコンの TFT を示し、ガラスの上に大きく作れる道が開けた。1988年にシャープが14型のカラー TFT 液晶を発表した。2004年には東京工業大学のグループが、透明でよく電気を通す酸化物（IGZO）の TFT を発表し、高精細な画面に使われている"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAP0lEQVR42mNgoBAwMjAwMFhZ5fwnR/OxY1MYWWCconllcIm+pC6CfBhgotQLTNhMJYY/GgajYUDVMKDYCxQDAG6BOGlfYLnRAAAAAElFTkSuQmCC"
+}

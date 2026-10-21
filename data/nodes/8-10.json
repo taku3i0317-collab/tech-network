@@ -1,0 +1,88 @@
+{
+ "id": "8-10",
+ "history": {
+  "name": "光学顕微鏡",
+  "name_en": "Optical microscope",
+  "kind": "tech",
+  "trunk": "8",
+  "trunk_name": "精密・計測",
+  "year": 1670,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "光の顕微鏡では、光の波長より細かい物は見えない",
+  "hee1_en": "With a light microscope, you cannot see things smaller than the wavelength of light.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "O25. 光の波長より細かい物は見えない（光学顕微鏡とアッベの限界）［8-10］",
+    "answer": "顕微鏡で見分けられる一番細い線は、光の波長 λ と対物レンズの開口数 NA で決まり、d ≈ λ ÷ 2NA（アッベ 1873）。空気中では NA は 1 をこえられないので、緑の光（約550nm）なら 0.3µm ほどが限界。もっと細かく見るには、波長を短くする（紫外線）、油や水で NA を上げる（油浸）、光の代わりに電子を使う（電子顕微鏡）。露光の解像度（レイリーの式）と同じ物理。",
+    "hee": {
+     "1": "光の顕微鏡では、光の波長より細かい物は見えない。",
+     "2": "1670年代レーウェンフックは、小さな球のようなレンズ1つの顕微鏡（約270倍）で細菌を初めて見た。",
+     "3": "アッベはツァイスの工場で、この限界を理論で示し、1878年に油浸レンズを作った。",
+     "4": "半導体の線が光の波長より細くなってから、チップの検査は電子顕微鏡に変わった。"
+    },
+    "certainty": "アッベの限界 1873・油浸 1878 ◎／レーウェンフックの単レンズ約270倍 ◎／単レンズの解像度 約1µm ○／紫外線顕微鏡 1904（ケーラー）○",
+    "basis": "- Wikipedia「Diffraction-limited system」（アッベの限界）：https://en.wikipedia.org/wiki/Diffraction-limited_system"
+   }
+  ],
+  "people": [],
+  "media": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Hooke-microscope.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Hooke-microscope.png",
+    "kind": "画像",
+    "author": "Robert Hooke",
+    "license": "Public domain",
+    "description": "ロバート・フックが1665年の本『ミクログラフィア』に描いた、自分の顕微鏡とランプ。",
+    "verified": "2026-10-20 Commons API で PD を確認"
+   }
+  ],
+  "requires": [
+   [
+    [
+     "7-04"
+    ]
+   ],
+   [
+    [
+     "7-03"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1670年代 レーウェンフックの単レンズ顕微鏡（約270倍）。1873 アッベが「波長の約半分より細かい物は見えない」（回折限界 d≈λ/2NA）と示し、ツァイスと油浸レンズ（[7-16]の祖先）を作った"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "実験（見える一番細い線）",
+  "missing": "",
+  "item": "simple_microscope",
+  "recipes": [
+   "作業台：クラウンレンズ（凸） ＋ 銅インゴット×2 → 単レンズ顕微鏡"
+  ],
+  "machine_recipes": [],
+  "placeholder": "近似：NA 0.2 はゲームの値（⚠️ レーウェンフックの一番よいレンズは約1µm まで見えたとされる）。本物の枠は真ちゅう。",
+  "game_text": "検査台ブロック：ウェハー・マスクの欠陥・線幅を表示",
+  "hee_game": {
+   "note1": "小さな丸いレンズ1つで、目に見えないほど小さな物を大きく見る道具。",
+   "note2": "クラウンレンズ＋銅×2。もう片方の手にマスク・原図・ウェハーを持って右クリック → 模様の1マスが見えるか。NA 0.2 なので、見分けられる線は約1.4µm（密着露光・等倍投影のマスクまで）。",
+   "note3": "1670年代、オランダの織物商レーウェンフックは、自分で磨いた小さな球のようなレンズ1つの顕微鏡（約270倍）で、水の中の小さな生き物や細菌を初めて見た。",
+   "note4": "レンズが小さく強く曲がっているほど倍率は上がるが、目を近づけないと見えない。レーウェンフックのレンズの作り方は秘密にされ、その性能は長いあいだ他の人には出せなかった。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAPklEQVR42mNgGAiQZKf0H8ZmIkezBhsLA1kGJNkp/S9yMyDf2Vdagv53uaj9H9U8qhkn6HJRI18zzIAByZkAU6JFgKEAbSwAAAAASUVORK5CYII="
+}

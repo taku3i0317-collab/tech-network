@@ -1,0 +1,74 @@
+{
+ "id": "10-09",
+ "history": {
+  "name": "トランジスタ論理",
+  "name_en": "Transistor logic",
+  "kind": "tech",
+  "trunk": "10",
+  "trunk_name": "制御・計算",
+  "year": 1956,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "部屋いっぱいの計算機が、机くらいになった",
+  "hee1_en": "Computers that filled a room shrank to about the size of a desk",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "L9. 論理回路の歴史（お題の答え合わせ）［10-05］［10-09］［10-10］［10-11］（O-016、v0.3b）",
+    "answer": "トランジスタ1個と抵抗の NOT（RTL のインバータ）を並べると NOR になり、NOR だけでどの論理も作れる。1961年のフェアチャイルドの「マイクロロジック」は RTL の IC の最初の製品群で、1960年代のアポロ誘導コンピュータは3入力の NOR ゲートの IC だけで組まれた。のちに DTL・TTL の NAND が主役になった。足し算は XOR（和）と AND（けた上がり）でできる。",
+    "hee": {
+     "1": "ゲート1種類（NAND だけ、または NOR だけ）で、どんな論理回路も作れる（万能ゲート）。",
+     "2": "ド・モルガンの法則（1847）：NOT(A AND B) ＝ NOT A OR NOT B。",
+     "3": "1937年、ジョージ・スティビッツが電話のリレーで2進数の足し算器を台所で作った（モデルK）。",
+     "4": "アポロ誘導コンピュータには、同じ NOR ゲートの IC が何千個も使われた。当時アメリカで作られた IC の大きな割合を買ったといわれる ⚠️。"
+    },
+    "certainty": "マイクロロジック 1961（RTL）◎／アポロ誘導コンピュータが NOR の IC で組まれた ◎／ド・モルガン 1847 ◎／スティビッツのモデルK 1937 ◎／DTL・TTL の NAND の最初の製品の年 △⚠️／アポロが IC の大きな割合を買った ○⚠️",
+    "basis": "Computer History Museum「1961 – Fairchild's Micrologic」、Wikipedia「Apollo Guidance Computer」「Resistor–transistor logic」「De Morgan's laws」「George Stibitz」"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "9-04"
+    ],
+    [
+     "9-17"
+    ]
+   ],
+   [
+    [
+     "10-05"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1950年代後半、トランジスタで AND/OR/NOT（RTL・DTL）。1956 MIT リンカーン研究所の TX-0、1959頃 IBM 7090 など真空管からの置換。消費電力・寿命が桁違いに改善"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "論理ゲートアイテム（ディスクリート）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAsklEQVR42rVTsQ2EMAw8ELNkCPiSkgplCgZgCAZgioiKkjLPEJQs4q8sTN5GekXvKpHvTudzAvyzptbR1DoCgDiDNEyhkTRg3R/YF4dxOwpTgMkpiB3si4PVv9lNLctzijOtM0mbXWIrK8Cm84gI9Bq+c5JVWsG914AnMnMqThgAYn/ZbToPDOG3ncs7nZ6s3UtsaQnyCJaIKqBlwSIsZD20xx3HGUSnJ62f/ZSzP1N2fQAuGW7lpdcB5QAAAABJRU5ErkJggg=="
+}

@@ -1,0 +1,65 @@
+{
+ "id": "1-22",
+ "history": {
+  "name": "錫石 SnO2",
+  "name_en": "Cassiterite SnO2",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": -3000,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "スズの鉱石は、花こう岩の近くや川の砂から取れる",
+  "hee1_en": "Tin ore is found near granite and in river sand.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "O8. 花こう岩の黒い石からスズ（錫石とスズの製錬）［1-22］［1-30］（青銅・スペキュラムの前提）",
+    "answer": "スズの鉱石は錫石 SnO2。花こう岩が冷えるときの熱水からタングステンの鉱石といっしょに鉱脈にでき、重くてさびないので川の砂にも集まる。木炭で焼くと SnO2 + 2C → Sn + 2CO でスズが出る。融点 232℃ のやわらかい金属。",
+    "hee": {
+     "1": "5000年前の青銅の材料が、最先端の EUV の光源になる。",
+     "2": "スズの棒を曲げると「スズ鳴き」の音がする。寒いと灰色の粉になる（スズペスト、13.2℃より下）。",
+     "3": "コーンウォール（イギリス）は青銅器時代からのスズの産地。今の大産地は東南アジアの漂砂鉱床。",
+     "4": "EUV 露光装置は、溶けたスズの小さな粒にレーザーを当ててプラズマにし、13.5nm の光を出す。"
+    },
+    "certainty": "錫石の産状・還元・融点・スズペスト ◎／コーンウォールの青銅器時代の採掘 ○／EUV のスズ液滴（粒の大きさ・回数）○",
+    "basis": "- Wikipedia「Cassiterite」：https://en.wikipedia.org/wiki/Cassiterite"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "花崗岩系の熱水・漂砂（コーンウォール、マレーシア）。錫青銅の最初の証拠は紀元前3000年頃の近東・バルカン（どこで錫を掘ったかは未解明）"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "軽",
+  "missing": "",
+  "item": "cassiterite_ore",
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "鉄マンガン重石と同じ花崗岩帯",
+  "hee_game": {
+   "note1": "花こう岩の中に、黒っぽい重い粒が入った岩。スズの鉱石。",
+   "note2": "花こう岩の中だけにできる（y−10〜70、鉄マンガン重石と同じ帯）。鉄のツルハシ以上で錫石が落ちる。",
+   "note3": "スズとタングステンは、花こう岩が冷えるときに最後に残った熱い水から、同じ鉱脈にいっしょに沈殿することが多い。イギリスのコーンウォールは青銅器時代からのスズの産地。",
+   "note4": "錫石はとても重く（密度 約7）、さびない。岩が風化しても川の砂の中に残って集まる（漂砂鉱床）。マレーシアやインドネシアの大きなスズ鉱山は、この川や海の砂を掘っている（ゲームでは花こう岩の中だけ）。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABEklEQVR42n2TsW3EMAxF3wlXGy5cqA6MVCkC14EHuCLwDBnAwxwySKobILhaAwgewIULQwtcCoEGTSvHypb49T8/ydP35/sDIKwJgK6ukJCzZ3EG8G+eC5628UzLTNt4rj+/W9I49EzLvANKjgtrom08wAaelplx6IuMbeO53eNGcPrqXx6Xj9dDkjDK40IgcbtHAJwFCkCrKskfh56urnDaNJ1sQfpfvsOasgc2SoxWpeQ4qUdqKgHFXHvX1VVu439uW3atTs7PALoLWp4F6LtpmQlr2ivYD1DczYIeLE3orDw7QCK1NCsHD2yyNU8el3aHNWUFtj5tYMmPwzIJU25lLEoudynmXejqqri6drVLeX8dH57xZmIbfgAAAABJRU5ErkJggg=="
+}

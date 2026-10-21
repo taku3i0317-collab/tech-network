@@ -1,0 +1,66 @@
+{
+ "id": "5-03",
+ "history": {
+  "name": "水銀柱と圧力の単位",
+  "name_en": "Mercury column and pressure units",
+  "kind": "tech",
+  "trunk": "5",
+  "trunk_name": "真空",
+  "year": 1643,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "天気予報の「hPa（ヘクトパスカル）」はパスカルの名前",
+  "hee1_en": "The \"hPa (hectopascal)\" in weather forecasts is named after Pascal.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [
+   {
+    "name": "トリチェリ",
+    "tool": "🧪 水銀を満たしたガラス管",
+    "year": "1643",
+    "intro": "1643年、水銀を満たしたガラス管を逆さに立てると約76cmで止まり、上に真空ができることを示した",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACR0lEQVR42u1WMUgjQRR9m4tuQo6ceBmI4Nl4V2ghCAfmCkEUbCyihY2IIpLWwkuRJim02SJcEcsgYpPGwkSwkhyCFqZSLNRCQXJXeKzn6aLEaDEWl113N9k4m4xY6K9m5/8///83/79Z4E1euwh2jDvbCGWxO8jLzOc6WQ2/fmmh7S3NZfv/rm8rmVPWJATWylt9XlvQ/j5XmJBwPEdwAGj1eZmuzPHSTeh4jurtoGALgVQiilQi+uR6LhziM4Z6BNQALHKcP0MsnmRqRqcdBMZm5g1oWOm4IRCZHqHDAz0AgM9tflsIqJLO5iAtrvJBwN09iq6ODuwfHqKwu2KpQ36BzxQAwMmvx2oKuyvIJGYNwdVqK+n0vjUn0P7JCL3f12Rpa9aZfbkRkVts1NZ//l5W3OdyBWsb29o46aVQvAMA7B2dwuN2le2rEosnsbaxXf9rGIsnMRcOaZOgHzkzUel9uD7H6WwO4akgxmbmkUpEsZVcN+h7Q0OaLp3N8WVClc0i0yM0PBWsemB8KQNpcVUw+3LhgRKhUNL8AZPBPoNuObMJ+eKqKunUnYAuCcgXVxoaatW1TBRTAsWGjyDkHQWASGQWADAxMQ71nf0uDYJ0fqMAIEk/Sj5NAO7r6wFC/NTrNZLLzs7PqgcGAv2Gb0W5hCyf2esBQvwUAMzBa5HSGRRAxUQEu4Fvbq7h8bwvQyIQ6Nd0VqIo/1lTn4iTd8UMaBgQEazuulr19droe+PF/4qd5vuxHMXiLUTR9aRdCVqIoospgQf9NAI/+ipbrAAAAABJRU5ErkJggg=="
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "2-14"
+    ]
+   ],
+   [
+    [
+     "1-45"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1643 トリチェリ：水銀を満たしたガラス管を逆さに立てると約76cm で止まり、上に「トリチェリの真空」ができる。1648 パスカルの義兄ペリエがピュイ・ド・ドーム山で高いほど水銀柱が低いことを確認。1atm＝101325Pa＝760mmHg、1Torr≈133Pa"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAZElEQVR42mNgoCWwKOv6b1HW9Z9szdjY6ICJUldSbAALPkkrB5//DAwMDP9o6YJRA9BiATnBlCRFMPSdOgRn9zAwwOVOdJUxwtiMyJqZoBrwgX9mdigGUOwFRlxewAeQXUAxAABA2CC7awi3AwAAAABJRU5ErkJggg=="
+}

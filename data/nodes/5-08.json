@@ -1,0 +1,71 @@
+{
+ "id": "5-08",
+ "history": {
+  "name": "イオンポンプ",
+  "name_en": "Ion pump",
+  "kind": "tech",
+  "trunk": "5",
+  "trunk_name": "真空",
+  "year": 1958,
+  "year_range": null,
+  "year_uncertain": true,
+  "hee1": "空気を外に出すのではなく、金属の中に閉じ込める",
+  "hee1_en": "Instead of pushing air out, it traps it inside metal",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "5-07"
+    ],
+    [
+     "5-05"
+    ]
+   ],
+   [
+    [
+     "4-10"
+    ]
+   ],
+   [
+    [
+     "4-04"
+    ]
+   ],
+   [
+    [
+     "1-41"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1958頃 バリアン社（ホール⚠️）のスパッタイオンポンプ。放電で気体をイオンにし、チタン陰極にたたき込んで閉じ込める（チタンが飛び散って新しい面が気体を吸う）。可動部・油なし、10⁻⁹Pa"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAh0lEQVR42s2SMQrDMAxFn4JPFTxkDjqJz9Bz+CSmcwaTa6lDCaRUNShdosl8Se9LtuHPkOMwL2qRxn1r8iFEAOfayUt6sF/6NHLqFeuV4WQuYFWlVywXJBekV2xVdQHJE5+t8djejQC5IPPS7J4TpNEF5YJw5W0jtekqJOQyAktkna//f4t4AVvJQYP6Zl1KAAAAAElFTkSuQmCC"
+}

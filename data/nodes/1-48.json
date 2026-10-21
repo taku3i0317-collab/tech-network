@@ -1,0 +1,63 @@
+{
+ "id": "1-48",
+ "history": {
+  "name": "純酸素転炉",
+  "name_en": "Basic oxygen furnace",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": 1952,
+  "year_range": "1949〜1953",
+  "year_uncertain": false,
+  "hee1": "空気の代わりに酸素を吹くと、鋼が数十分でできる（S-001 で追加。出典：Wikipedia「Basic oxygen steelmaking」、レオーベン大学「70 Years of LD-Steelmaking」）",
+  "hee1_en": "Blow oxygen instead of air, and steel is made in a few tens of minutes. (Added in S-001. Sources: Wikipedia \"Basic oxygen steelmaking\", University of Leoben \"70 Years of LD-Steelmaking\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-26"
+    ]
+   ],
+   [
+    [
+     "6-07"
+    ]
+   ],
+   [
+    [
+     "3-12"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "溶けた銑鉄に、空気ではなく純粋な酸素を吹きつけて炭素を燃やし、短い時間で鋼にする。スイスのロベルト・ドゥラーの研究をもとに、オーストリアの VÖEST が1949年に工夫し、1952年11月にリンツ、1953年5月にドナヴィッツで30トンの転炉が動き始めた（LD はリンツ・ドナヴィッツの頭文字）。ベッセマー転炉と平炉に代わり、2000年には世界の鋼の約6割がこの方法"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAnklEQVR42s2SvQ2EMAyFnxGzMEQqCirkyShuGgtRpsoQzHKSr4CLwIQAooCviZwf+9l5QIauqbRrKs3dKXCTMrXpap6rjqs4eKHDBK5mbZmnYPgAAGIMqE1S7D5O0DIv1BkF9nEvguBHAgD3lXg2r1FJmasGQE0LG+iM9BSTQqHb3/iSBMEL9SKX+49DtA7cG+i/yNJMlLfympSVn+cHNNlEfpE/O60AAAAASUVORK5CYII="
+}

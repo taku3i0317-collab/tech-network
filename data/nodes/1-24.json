@@ -1,0 +1,65 @@
+{
+ "id": "1-24",
+ "history": {
+  "name": "ボーキサイト",
+  "name_en": "Bauxite",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": 1821,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "アルミの原料ボーキサイトは、熱い国で岩が風化してできた土",
+  "hee1_en": "Bauxite, the raw material for aluminum, is soil made when rocks weather in hot countries.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "F5. 熱い国の赤い土（ボーキサイト）［1-24］（アルミ → Al 配線の前提）",
+    "answer": "ボーキサイトはアルミニウムの水酸化物（ギブサイトなど）と酸化鉄のまざった赤茶色の岩。暑く雨の多い土地で、岩が長いあいだ風化して溶けやすい成分が流れ去り、アルミと鉄が残ってできる。地表近くに広がるので露天掘りで取る。",
+    "hee": {
+     "1": "アルミの原料ボーキサイトは、熱い国で岩が風化してできた土。",
+     "2": "1821年、ベルティエが南フランスのレ・ボー村の近くで見つけ、村の名前が付いた。",
+     "3": "赤い色は鉄さびの色。アルミを取ったあとに「赤泥」が残る。",
+     "4": "2010年、ハンガリー・アイカで赤泥のため池が決壊し、強いアルカリの泥が村を襲った。捨て方が今も課題。"
+    },
+    "certainty": "成分・でき方 ◎（USGS）／ベルティエ 1821・名前の由来 ◎／アイカの事故 2010 ◎",
+    "basis": "USGS「Bauxite and Alumina Statistics and Information」https://www.usgs.gov/centers/national-minerals-information-center/bauxite-and-alumina-statistics-and-information 、ブリタニカ「bauxite」https://www.britannica.com/science/bauxite （英語）"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "熱帯の風化残留土。1821年 ベルティエがレ・ボー近くで発見、名前は村から"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "軽",
+  "missing": "",
+  "item": "bauxite_ore",
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": "近似：本物の地表に広がる層（ラテライト）ではなく、土・石の中の塊として出る。",
+  "game_text": "ジャングル/サバンナの地表付近",
+  "hee_game": {
+   "note1": "ジャングルやサバンナの地面の近くにある、赤茶色の鉱石。",
+   "note2": "ジャングル・サバンナだけ、Y 56〜90 の土・粗い土・石を置き換えて出る。ツルハシで掘る（木でもよい）。シルクタッチなら鉱石のブロックのまま。",
+   "note3": "ボーキサイトは地下深くではなく、地表の近くに毛布のように広がっていることが多い。だから露天掘り（地面をはがして掘る）で取る。",
+   "note4": "アルミを取り出したあとに残る「赤泥」は、強いアルカリを含む。ため池の決壊（2010年ハンガリー・アイカの事故）のように、捨て方が大きな課題になっている。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABAUlEQVR42oVTO27DMAx9NjITHD13yNTB4GwUmTP4EDlSkIN06hwUnoUMmXICDx0EXcAdAsqUQiOaqCc+8vGj5jL2S4gJACBMAIAQE4QJNe6dVp2Pwz6DShCmgtx9doUdYkJbR7dOeldsvs8ZV7u1gEeuifZNmJ4lDIf+JbLaNrBNkBUIE6brLYM2mNapQWolISY0p6+PRZhe5CrBI1qsFaactZZfd92+KWcXYkL3N2/WuJVdy24uY7940oZDj+l62ywBAH6mx3MKntTz929Bss1VZcK0NtGT+a6BIaZ1kTwHOxFvO4VpDbC1dVaNXa5ijLVUu3neOPVeLJL9xu+O9fsHLpy00zg59X8AAAAASUVORK5CYII="
+}

@@ -1,0 +1,63 @@
+{
+ "id": "14-20",
+ "history": {
+  "name": "ターボチャージャー",
+  "name_en": "Turbocharger",
+  "kind": "tech",
+  "trunk": "14",
+  "trunk_name": "輸送",
+  "year": 1905,
+  "year_range": "1905〜1920年代",
+  "year_uncertain": false,
+  "hee1": "ターボは、捨てるはずだった排気ガスの勢いを使ってエンジンに空気を押し込む。（S-004 で追加。出典：en.wikipedia.org、accelleron-industries.com）",
+  "hee1_en": "A turbo uses the force of exhaust gas, which would be wasted, to push air into the engine. (Added in S-004. Sources: en.wikipedia.org, accelleron-industries.com)",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "14-10"
+    ]
+   ],
+   [
+    [
+     "4-06"
+    ]
+   ],
+   [
+    [
+     "6-03"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1905年11月、スイスの技師アルフレッド・ビュッヒがドイツで特許を取った。捨てていた排気ガスで羽根車（タービン）を回し、同じ軸の圧縮機でエンジンに空気を押し込むので、同じ大きさでも強い力が出る。当時は材料が熱に耐えられず、実用は1920年代の大型ディーゼルから。今の大型バスやトラックのディーゼルにはほぼ付いている"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAhUlEQVR42sVTMQ7AIAhE46s6dTY8l3R28lvtRHKhCG3SpCxEQO84kOhvK1Fy2/mM8nNIaRlCZ3bjhwgREdUIfXUZra1oZ8iuBoiKhRibQ0rIQAuRgT2jVYuuxcoAz535Npka9Wl9yMAbnfXpItk2rAaPRUQNXjFY7YE+ZtHDv4Bqexc/swvMJVL2lAewJgAAAABJRU5ErkJggg=="
+}

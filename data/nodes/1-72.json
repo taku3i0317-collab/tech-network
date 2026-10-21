@@ -1,0 +1,53 @@
+{
+ "id": "1-72",
+ "history": {
+  "name": "粉末冶金と熱間静水圧プレス",
+  "name_en": "Powder metallurgy and hot isostatic pressing",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": 1955,
+  "year_range": "1820年代〜1955",
+  "year_uncertain": false,
+  "hee1": "とても溶けにくい金属は、粉を固めて焼いて形にする（O-012 で追加。出典：Wikipedia「Powder metallurgy」「Hot isostatic pressing」、ASME Landmark #103）",
+  "hee1_en": "Metals that are very hard to melt are shaped by pressing powder and baking it. (Added in O-012. Sources: Wikipedia \"Powder metallurgy\", \"Hot isostatic pressing\", ASME Landmark #103)",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-28"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "金属の粉を型で固めて、溶けない温度で焼き固める（焼結）。溶かせないほど融点の高い金属でも形にできる。1820年代にイギリスのウィリアム・ハイド・ウォラストンが白金の粉から延びる白金を作り、1910年にクーリッジがタングステンの粉から電球の線を作った（[1-28]）。1955年、アメリカのバテル研究所が、高温の中で四方から同じ圧力をかけて粉や部品のすき間をなくす熱間静水圧プレス（HIP）を作った（ASME ランドマーク #103）。ネオジム磁石も焼結で作る"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAhUlEQVR42mNgoCWwcvD5b+Xg8x+fGiZKLWHCZzsDAwODl48PAyFXoICIsKD/+GjaGmLl4POfkGas3oGFNkwSnyEtPTNQ1LIgG+Tl48MgJ8b2f8WqdYwRYUFYaatXv/4zEAp5fC4gGCN0jwVGfN7x8vFh2LZlCwMDAwPDsQNbGAdnXqAYAAB5i3A9BjAPfQAAAABJRU5ErkJggg=="
+}

@@ -1,0 +1,47 @@
+{
+ "id": "2-35",
+ "history": {
+  "name": "原油と蒸留",
+  "name_en": "Crude oil and distillation",
+  "kind": "tech",
+  "trunk": "2",
+  "trunk_name": "化学",
+  "year": 1859,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "原油を熱して、沸く温度のちがいでガス・灯油・重油などに分ける",
+  "hee1_en": "Crude oil is heated and separated into gas, kerosene, heavy oil and more by their different boiling temperatures.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1859 ドレークがペンシルベニアで機械掘りの油井。常圧蒸留でガス・ナフサ・灯油・軽油・重油・アスファルトに分ける"
+ },
+ "game": {
+  "status": "⛔",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "決定：原油は入れない（実装しない）。エチレンは[2-36]エタノール脱水、[2-31]はゼラチン系で代替",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAfklEQVR42u1SsQ3AIAxLELdk4AQm5irncgATJ3ToM+mEZKGWgip1qhcEsh1jIHoJniHFpIb7WjIvTUGDmNREgokEIyLySBQJdhw7P5kgx6EY1x61ZG7RMQHfiXDKqAM328MwQZ+i7+G7V5g1wYR+Rrip9sfWrsErP/CqWPpBJzKhSSgud3jCAAAAAElFTkSuQmCC"
+}

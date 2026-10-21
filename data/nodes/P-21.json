@@ -1,0 +1,79 @@
+{
+ "id": "P-21",
+ "history": {
+  "name": "通信チップとアンテナ",
+  "name_en": "Radio chips and antennas",
+  "kind": "product",
+  "trunk": "P",
+  "trunk_name": "モノ（作品）",
+  "year": 1999,
+  "year_range": "1979〜2008",
+  "year_uncertain": false,
+  "hee1": "スマホの GPS は電波を「聞くだけ」で、衛星に何も送っていない",
+  "hee1_en": "A smartphone's GPS only \"listens\" to radio waves; it sends nothing to the satellites.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://www.gps.gov/"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "15-20"
+    ]
+   ],
+   [
+    [
+     "15-21"
+    ]
+   ],
+   [
+    [
+     "15-17"
+    ]
+   ],
+   [
+    [
+     "B-17"
+    ]
+   ],
+   [
+    [
+     "15-22"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [
+   "シリコン",
+   "ゲルマニウム",
+   "銅"
+  ],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "携帯電話の電波・Wi-Fi・Bluetooth・GPS の電波を、本体の枠や基板の銅の模様のアンテナで受け、専用のチップで情報に直す。電波を受けて強める部分には、シリコンにゲルマニウムを混ぜたトランジスタ（SiGe）も使われる。GPS は衛星の電波を聞くだけで、何も送っていない"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "作品：遠くの人や機械と電波でつながる",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAcklEQVR42mNgGBKgy0XtPwzD+DA5JmINKdtzixGbOBOlrhsGBrDAGFZWOf+xKTh2bAojQQO6XNT+fzDzwpAUOFXAEIAUZehRyMDAwMCI7AIHB1RDDhzYRpkLiA7Esj23GA8c2EZ+IHa5qP3f8A3i5KEHAEphKsUEWSNSAAAAAElFTkSuQmCC"
+}

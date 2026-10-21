@@ -1,0 +1,58 @@
+{
+ "id": "B-20",
+ "history": {
+  "name": "白色 LED バックライト",
+  "name_en": "White LED backlight",
+  "kind": "tech",
+  "trunk": "B",
+  "trunk_name": "枝",
+  "year": 1996,
+  "year_range": "1993〜1996",
+  "year_uncertain": false,
+  "hee1": "白い LED の中身は青い LED で、黄色く光る粉をかぶせて青と黄色を混ぜて白に見せている（S-002 で追加。出典：半導体産業人協会「白色 LED」、LEDinside）",
+  "hee1_en": "A white LED is really a blue LED covered with a powder that glows yellow; blue and yellow mix to look white. (Added in S-002. Sources: Semiconductor History Museum of Japan (SSIS) \"White LED\", LEDinside)",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "B-07"
+    ]
+   ],
+   [
+    [
+     "1-44"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1993年に明るい青色 LED（窒化ガリウム）が日亜化学でできた。1996年、日亜化学が青色 LED に黄色く光る蛍光体（YAG:Ce）を組み合わせた白色 LED を製品にした。液晶は自分で光らないので、裏や横から白色 LED の光を導光板で広げて照らす（2000年代後半に冷陰極蛍光管から置きかわった）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAbklEQVR42mNgGF7gyDSG/6SwGRgYGFiQJax9QhiOMKz5z8DAwECIbZPFwEgVFzBR6u2BN4BiwMjAwMBgUdb1nxzNJ7rKGOHRWJIUQZLmnnkrqBMGcBdI7JNjKHnQBTFdoQwvu0ehjIGBoWuQ5B8AoF83hMRw7icAAAAASUVORK5CYII="
+}

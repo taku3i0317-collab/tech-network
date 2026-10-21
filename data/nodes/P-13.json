@@ -1,0 +1,64 @@
+{
+ "id": "P-13",
+ "history": {
+  "name": "GPU",
+  "name_en": "GPU",
+  "kind": "product",
+  "trunk": "P",
+  "trunk_name": "モノ（作品）",
+  "year": 1999,
+  "year_range": "1982〜1999",
+  "year_uncertain": false,
+  "hee1": "マイクラのブロックの影や光も、GPU の何千個もの計算器が同時に計算している",
+  "hee1_en": "The shadows and light on Minecraft blocks are calculated at the same time by thousands of calculators in the GPU.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://en.wikipedia.org/wiki/GeForce_256",
+   "https://www.nvidia.com/en-us/about-nvidia/corporate-timeline/"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "10-25"
+    ]
+   ],
+   [
+    [
+     "10-12"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [
+   "シリコン",
+   "銅"
+  ],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "画面の画素の色を、何千個もの小さな計算器で同時に計算するチップと、専用のメモリをのせた板。マインクラフトのブロックの見え方を計算しているのもここ。同じしくみが AI の学習にも使われる"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "作品：画面に3Dの世界を描く",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAiklEQVR42mNgGBTAysHnP7l6mSi1nAXGUFPTItkVt25dY4Qb4OXlx3DqwhUMRWYGOhjiZgY6DNu2bUJ1AbIkDJy6cIXh1IUrKGIwcbxhgM0lMMNwhgEuV+ATw2oANv9iDYNn91ANgAWKl5cfVtu3bduEVY4FOUoYGBgYRKSU/uOKMmQ5mHomhlEAAJOHOQ+5T/DaAAAAAElFTkSuQmCC"
+}

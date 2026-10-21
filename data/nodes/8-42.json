@@ -1,0 +1,61 @@
+{
+ "id": "8-42",
+ "history": {
+  "name": "目盛り刻み機",
+  "name_en": "Dividing engine",
+  "kind": "tech",
+  "trunk": "8",
+  "trunk_name": "精密・計測",
+  "year": 1775,
+  "year_range": "1766〜1775",
+  "year_uncertain": false,
+  "hee1": "六分儀の目盛りを、人の手ではなく機械が刻むようになった（O-012 で追加。出典：Smithsonian NMAH 694508、MacTutor「Jesse Ramsden」、Wikipedia「Dividing engine」）",
+  "hee1_en": "Sextant scales came to be engraved by a machine instead of by hand. (Added in O-012. Sources: Smithsonian NMAH 694508, MacTutor \"Jesse Ramsden\", Wikipedia \"Dividing engine\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [
+   {
+    "name": "ジェシー・ラムスデン",
+    "tool": "📏 目盛り刻み機",
+    "year": "1775",
+    "intro": "1775年、目盛りを機械で正確に刻む機械を完成させた（1735〜1800）",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACnElEQVR42u1Wv2/TQBT+zjKQKFXSokI8NAYpGbpUogtMSLQZGUKQunhBDPwHDHhhvQz8AZFQhFiSrdcMjKhIqAOwIHVBKJXAQYqtlpJYoAKLGVAs/7g720lFF55kyX7v+b5333vv3gH/5YyFyIyUUu80QEzTFOKoST8bhjEXeLfbldrVtAvpus7VW5Y1V4CpA5gXSCRKUu6SKEyiX5b/xAD+hSiy6qeUevMUoWEYoJR6sm5SRNTzwAvDXRSGu4nvo70ed71MDPDAs7wHa0DGALcLXNeF4zgAgHK57Ot/VDaEYEEbrJ6fAtd1vXq9DsZYtjZkjKGxVsJo8Pe7pmsxUBFDAPw0NNZKs7UhpZTsvHwT0uXXt3DDeIz8+lbMX2ZjjIFSSjLNAkqpt3GF4GBoo1rRUNM1AIB9NIa2vOj7DSw7ZhtYNgDgYGhj/+NntDqMUEo93pmgyopwtNdDtaKFbEHwqERt1YqGakVDqXbdm+kgiqbAp/vCef/d+Trm6tMONEXUBe12G60OI/39SSyQk1+/AQDvP3xCIZ+L6afBK7VNKLVNOI4D13WzdQGllJim6QFAq8MIAO/h/UbI59rqVSFzrQ4j5PKq12w2pUWoyMCbzaaQutdPX4QeWTsHN5OpCAGgWCyCx8LNB7e5gE+e9ae+KBaLs52EonE6DeLSxRLuNW6FfJ/3X+HweOKDR2eKaKyrSeDR/p0CHB5PfDaCu+ZNVdmdgqQZq5oe7+Od1t3Q951H27H/bOstmetKNgVeXK6F9N8nX+ILncthobQSVXtJgZAswMEAomA83VTGRwMhIyQLcBKQzCYKRE0LfBoSWN9PjcIxzrR7AFgorXDrQxLI2d+K1Wh+RPLz5Bty+aVEPwCwh++Qyy+lCuAPJSJcFvemZigAAAAASUVORK5CYII="
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-11"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "円や直線の目盛りを、人の手ではなく機械で正確に等しく刻む。それまで六分儀（[8-21]）や計算尺（[10-21]）の目盛りは職人が手で刻んでいた。イギリスのジェシー・ラムスデンは1766年ごろ最初の機械を作り、1775年に完成させた機械では誤差を角度の0.5秒より小さくした（スミソニアン、セント・アンドルーズ大学の資料）。経度委員会は、特許を取らずに作り方を公開し、ほかの人に教えることを条件に賞金を出した。のちの回折格子の刻線機（[8-12]、1882年）の先祖"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAp0lEQVR42mNgoBAwYhNMslP6j0183qF7GOpZsGk0MfjEIMZjwvDqyxkUmoGB4T+6IUzImk0MPsElth25hUGbGHzCcB0juuasSW8Y8fl5Wp7IfwYGBoYzF/gY5h26x8iELElIMzY1TPgUJ9kp/ccVoEQZQAxgwSeJLdrwugAWQMQEIkZCgsXEmQt8DIRoZJcxkpKQth25heEtipMy0QBXlDKRYxADNQEAUyxg8xZikXsAAAAASUVORK5CYII="
+}

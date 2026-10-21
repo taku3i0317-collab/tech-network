@@ -1,0 +1,63 @@
+{
+ "id": "0-16",
+ "history": {
+  "name": "塩田",
+  "name_en": "Salt pans",
+  "kind": "tech",
+  "trunk": "0",
+  "trunk_name": "生存・道具",
+  "year": -6000,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "豆腐を固める「にがり」から、飛行機の金属マグネシウムが取れる",
+  "hee1_en": "From nigari, the bittern used to set tofu, we can get magnesium metal for airplanes.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "0-03"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "海水（塩分約3.5%）を砂に撒いて天日で濃くし（揚げ浜式・入浜式）、かん水を釜で煮詰めると NaCl が先に結晶する。残った母液が「にがり（苦汁）」＝ MgCl2 が主成分（ほかに MgSO4・KCl）。日本では縄文晩期の製塩土器から、能登の揚げ浜式は今も続く"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": "salt_pan",
+  "recipes": [
+   "作業台：砂×3 ＋ 粘土玉×2 ＋ 大釜 → 塩田",
+   "作業台：砂×3 ＋ 粘土玉×2 ＋ 土器 → 塩田"
+  ],
+  "machine_recipes": [
+   "塩田「天日で塩」：海辺の水と日光（減らない、雨の日は止まる） → 塩 ＋ にがり 8回に1個できる（60 秒）。電気なし"
+  ],
+  "placeholder": "近似：かん水を煮つめる釜の燃料は省略（日光だけで動く）。",
+  "game_text": "決定：新ブロック「塩田」。海・浜バイオームでのみ動く（これで「海水」を区別する）。雨天は止まる案⚠️",
+  "hee_game": {
+   "note1": "お日さまの力で海水から塩を作る。浜辺の水のとなりに置こう。",
+   "note2": "海・浜バイオームで、横に水があり、真上に空が見えて雨が降っていないときだけ動く。1分で塩1個、塩8個ごとににがり1個。右クリックで受け取る（塩64・にがり16までためる）。煮つめ釜は大釜でも土器 [0-03] でもよい。",
+   "note3": "揚げ浜式：砂をしいた浜に海水をまき、天日で乾かす。塩のついた砂を海水で洗って濃い塩水（かん水）を取り、釜で煮つめる。能登では今もこのやり方が続いている。",
+   "note4": "日本では縄文晩期の製塩土器が見つかっている。江戸時代は瀬戸内の入浜式塩田（潮の満ち引きで海水を引き込む）がさかんだった。1972年からはイオン交換膜による電気透析で作るのが主流。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAuElEQVR42mOMCAv6/0DBgkHhwQmGBwoWDMQCmHpGi7Ku/yVJEQzkgJ55KxiYFB6cwKvoy5FNKDQ6YCLkbB4bPxQawwBsNuKyDVs4MKE7lcfGD6ttyIYis5mIDTCYoV+ObEKxgIlU56O7jkXhwQmGL0e4UGwgFjxQsMD0AiH/o4sxPVCwwBlF2PyMbhETIdvwGY7VAEIakC1SeHCCgQVbOsDlImyGsxCyGZ/4g1vfILmR2GQLizpkAADoK1mZ8IjjRAAAAABJRU5ErkJggg=="
+}

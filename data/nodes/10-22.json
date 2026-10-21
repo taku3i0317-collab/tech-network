@@ -1,0 +1,63 @@
+{
+ "id": "10-22",
+ "history": {
+  "name": "キーボード",
+  "name_en": "Keyboard",
+  "kind": "tech",
+  "trunk": "10",
+  "trunk_name": "制御・計算",
+  "year": 1986,
+  "year_range": "1874〜1986",
+  "year_uncertain": false,
+  "hee1": "キーボードの中にも、押されたキーを調べる小さなコンピュータが入っている（S-002 で追加。出典：Wikipedia「QWERTY」、Computer Hope「Keyboard history」）",
+  "hee1_en": "Inside a keyboard is a small computer that checks which keys are pressed. (Added in S-002. Sources: Wikipedia \"QWERTY\", Computer Hope \"Keyboard history\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "8-26"
+    ]
+   ],
+   [
+    [
+     "10-14"
+    ]
+   ],
+   [
+    [
+     "2-29"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "タイプライターの配列をそのまま使い、キーの下のスイッチ（ばね・金属の接点・ゴムのドーム）が押されたことを電気の信号にし、中の小さなマイクロコンピュータが「どのキーか」を調べて送る。1986年の IBM モデル M が、今の101キー配列のもとになった"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAd0lEQVR42mNgoDWwcvD5j0+eaUBtZ2BgYGBhYGBgUFPTwqrQzECH4c2zezgNuXXrGiPcCyJSSgxeXn4oNC5xLy8/uCGMMBcgCxIDtm3bhOoCBgYGhlMXrpBEU9cF5NhOFRewoEug24AtarG6gJyEduvWNUaGoQ8Aq0pLUihQu6oAAAAASUVORK5CYII="
+}

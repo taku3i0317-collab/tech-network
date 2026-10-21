@@ -1,0 +1,58 @@
+{
+ "id": "1-36",
+ "history": {
+  "name": "単体ホウ素",
+  "name_en": "Elemental boron",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": 1892,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "マグネシウムに酸素を奪わせて、ホウ素を取り出す",
+  "hee1_en": "Magnesium steals the oxygen, leaving boron behind.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-33"
+    ]
+   ],
+   [
+    [
+     "1-39"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "B2O3+3Mg→2B+3MgO（1892 モアッサン、純度約90%）。高純度は BCl3 の水素還元 2BCl3+3H2→2B+6HCl"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "第2章の Si ドーピングの入力",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAsklEQVR42sVTSwrDIBQci4cQD/AIWQWP0kXpEUsXPUrIqgQPIN7CbqKo9dlACJ3l88047wecCaIxEI2hlyM5IgCYaYihAADWvkWdK1pkMw1Qmoq4dxbzsn6JyD1kAFCaYDY3uYjskb2zicyJXLjmeGehNEFpSkItJCv32zXUlmvBHI/nq3QwL2si1r/mbvJcdoxRqO5Bt4RfU+BGWTjYHoJhetDaA7FnE2PNrU08fAv/xwfFOF4ByG9ddgAAAABJRU5ErkJggg=="
+}

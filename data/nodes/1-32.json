@@ -1,0 +1,73 @@
+{
+ "id": "1-32",
+ "history": {
+  "name": "銀",
+  "name_en": "Silver",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": -3000,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "石見銀山も灰吹法で銀を取り出していた",
+  "hee1_en": "The Iwami Silver Mine also got its silver by cupellation.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "O13. 鉛から銀を取り出す（灰吹法）［1-32］（蒸着の金属）",
+    "answer": "銀をふくむ鉛を骨灰の皿にのせ、空気を当てて約1000℃に熱すると、鉛は一酸化鉛 PbO になって溶け、皿にしみこむ。酸化しにくい銀だけが皿の上に玉になって残る（灰吹法、キューペレーション）。",
+    "hee": {
+     "1": "石見銀山も灰吹法で銀を取り出していた（1533年に朝鮮半島から伝わった）。",
+     "2": "鉛が全部なくなる瞬間、銀の玉がぱっと輝く（「銀のひらめき」）。",
+     "3": "同じ皿で金や銀の純度を調べる「試金」も行われてきた。",
+     "4": "銀は可視光の反射率が金属で一番高く（95%以上）、真空蒸着で鏡や半透明鏡にする [5-14]。"
+    },
+    "certainty": "灰吹法の化学 ◎／紀元前3000年ごろから ○／石見銀山 1533・灰吹法 ◎（世界遺産の説明）／世界の銀産出に占める割合 △ → ゲーム内は ⚠️",
+    "basis": "- Wikipedia「Cupellation」：https://en.wikipedia.org/wiki/Cupellation"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-27"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "銀を含む方鉛鉱から鉛を製錬 → 灰吹法（キューペレーション、紀元前3000年頃〜）：溶けた鉛に空気を当てて PbO にし、骨灰の皿に吸わせると銀だけ残る。1850 パークス法（亜鉛で銀を抜き出す）"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "軽",
+  "missing": "",
+  "item": "silver_ingot",
+  "recipes": [
+   "作業台：銀の粒×9 → 銀インゴット"
+  ],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {
+   "note1": "白く光る金属。電気と熱を一番よく通す。",
+   "note2": "銀の粒×9（インゴット1つ → 粒9つにも戻せる）。c:ingots/silver。",
+   "note3": "写真の感光材（臭化銀・ヨウ化銀）、鏡、電気の接点に使われてきた。",
+   "note4": "電気伝導率は全金属で一番（銅よりわずかに上）。それでも配線の主役が銅なのは、ずっと安いから。IC の配線もアルミ → 銅へ移ったが、銀はほとんど使われない。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAU0lEQVR42mNgGAUUA0Z0AYuyrv/4NJzoKkPRw4KuuSQpAq+NPQwM/5ENYSJFMwMDA0NJUgSKK5koDYOBNwAeiAoPTjCsqTtBlCYFBgaGE6MpGA4AJDIWN609FmYAAAAASUVORK5CYII="
+}

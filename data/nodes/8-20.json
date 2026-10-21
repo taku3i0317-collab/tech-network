@@ -1,0 +1,84 @@
+{
+ "id": "8-20",
+ "history": {
+  "name": "玉軸受",
+  "name_en": "Ball bearing",
+  "kind": "tech",
+  "trunk": "8",
+  "trunk_name": "精密・計測",
+  "year": 1883,
+  "year_range": "1794〜1907",
+  "year_uncertain": false,
+  "hee1": "鋼の玉をはさむと、こすれる代わりに転がる。だから車輪やモーターは軽く回る（NET-06 で追加。出典：Wikipedia「Bearing (mechanical)」、Schaeffler「Impeccably round and smooth」、Wikipedia「Jules Suriray」、Wikipedia「Sven Gustaf Wingqvist」）",
+  "hee1_en": "Put steel balls in between, and things roll instead of rubbing. That is why wheels and motors turn easily (added in NET-06. Sources: Wikipedia \"Bearing (mechanical)\", Schaeffler \"Impeccably round and smooth\", Wikipedia \"Jules Suriray\", Wikipedia \"Sven Gustaf Wingqvist\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "O43. 転がすと軽く回る（玉軸受と研削盤）［8-20］［8-31］",
+    "answer": "軸と受けの間に鋼の球をはさむと、こすれる代わりに転がるので摩擦がずっと小さくなる。1794年ヴォーンの馬車の軸受、1869年の自転車を経て、1883年ドイツのフィッシャーが焼入れした鋼球を研削で同じ大きさの真球にそろえる機械を作り、量産が始まった。硬い鋼を仕上げる研削盤は1876年ブラウン＆シャープ社の万能研削盤から広まった。",
+    "hee": {
+     "1": "球の大きさがそろっていないと、大きい球だけに力がかかってすぐ傷む。そろえることが発明の核心だった。",
+     "2": "焼入れした鋼は刃物で削れないので、砥石で少しずつ削る。",
+     "3": "シュヴァインフルトは「軸受の町」になり、1907年スウェーデンでは SKF が自動調心玉軸受を作った。",
+     "4": "モーター・ハードディスク・露光装置のステージも、正確な球に支えられている。"
+    },
+    "certainty": "ヴォーン 1794 の特許 ◎／フィッシャー 1883 の鋼球研削機 ○（Schaeffler の資料）／ブラウン＆シャープ 1876 の万能研削盤 ◎／摩擦係数のめやす ○",
+    "basis": "- Wikipedia「Ball bearing」：https://en.wikipedia.org/wiki/Ball_bearing"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "8-31"
+    ]
+   ],
+   [
+    [
+     "1-26"
+    ]
+   ],
+   [
+    [
+     "8-01"
+    ]
+   ],
+   [
+    [
+     "8-04"
+    ],
+    [
+     "8-05"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "軸と受けの間に鋼の球をはさむと、こすれる代わりに転がるので摩擦がずっと小さくなる。1794 フィリップ・ヴォーン（ウェールズ・カーマーゼンの製鉄業者）が馬車の車軸の玉軸受で特許（鉄の鋳物の球を手で作った）。1869 ジュール・シュリレ（パリの自転車職人）が自転車の玉軸受で特許、同じ年のパリ〜ルーアンの自転車レースで勝ったジェームズ・ムーアの自転車に使われた ⚠️。1883 フリードリヒ・フィッシャー（ドイツ・シュヴァインフルト）が、焼き入れた鋼の球を同じ大きさ・真球に研削する機械を作り、量産が始まった（シュヴァインフルトは軸受の町に）。1907 スヴェン・ヴィングクヴィスト（スウェーデン）が軸が傾いても回る自動調心玉軸受を発明し SKF を設立（スウェーデン特許 25406）。古代ローマのネミ湖の船（1世紀、カリグラ帝）から、回転台に使われたとみられる玉が見つかっている ⚠️"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "実験（玉の精度で消費電力が変わる。ユーザーの決定 2026-10-20 O-013：①に一工夫）",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAlUlEQVR42qVTOQ4AIQhU4qusrA3PNVtb+S23EUNm0cTVDsIxBzp3+byVjIm7lW+1fOqD1ZiZVws7DvK6OTO7p5QtZKmRIQGbLZiIYiDsrRY/KehmoWLFIzc1IhRICxgTd4xRA9oprzYuXaLbO6Cdx0jBqqUdP6Rg6RS0v2INotEx3ktQBdPfk0PyJ6csW81T/vuZrt8LYzp6XxeHsVMAAAAASUVORK5CYII="
+}

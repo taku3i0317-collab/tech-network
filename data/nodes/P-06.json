@@ -1,0 +1,85 @@
+{
+ "id": "P-06",
+ "history": {
+  "name": "きみのパソコン",
+  "name_en": "Your computer",
+  "kind": "product",
+  "trunk": "P",
+  "trunk_name": "モノ（作品）",
+  "year": 2026,
+  "year_range": "1977〜2026",
+  "year_uncertain": false,
+  "hee1": "目の前のパソコンの中には、150年前のタイプライターから1999年の GPU まで、いろいろな時代の発明が入っている",
+  "hee1_en": "The computer in front of you holds inventions from many eras, from the typewriter of 150 years ago to the GPU of 1999.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://en.wikipedia.org/wiki/Personal_computer",
+   "https://www.nvidia.com/en-us/about-nvidia/corporate-timeline/"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "B-16"
+    ]
+   ],
+   [
+    [
+     "15-16"
+    ]
+   ],
+   [
+    [
+     "15-17"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [
+   "P-07",
+   "P-08",
+   "P-09",
+   "P-10",
+   "P-11",
+   "P-12",
+   "P-13",
+   "P-14",
+   "P-15"
+  ],
+  "materials": [
+   "シリコン",
+   "銅",
+   "アルミニウム",
+   "ガラス",
+   "プラスチック",
+   "鋼"
+  ],
+  "enabled_by": [],
+  "explained_by": [
+   "I-16"
+  ],
+  "frontier": false,
+  "real": "いまマインクラフトを動かしているパソコン。ふたを開けると、画面（モニター）・マウス・キーボード・冷却・電源・CPU・GPU・メモリ・SSD に分かれ、それぞれが別々の発明の積み重ね。部品どうしは銅の配線と USB・Wi-Fi などの決まりごとでつながる。年は「いま」（2026年）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "作品：作業台で9つの部品を組み立てると、パソコンが動く",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAfElEQVR42mNgoBAwoguoqWn9x6fh1q1rKHpYsCny8vLDqnnbtk0YYkyUeoEFl0SIWgcKf82tCqzqmPBpXnOrAq4R3UCCXlhzq4IhRK2DIUStA6ftBL1AyHacLkDWiOwdklyAz9lUjUa8BsCcT3IYoHsDn3dokxKxpXmaAQCJHSpEVAC+SgAAAABJRU5ErkJggg=="
+}

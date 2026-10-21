@@ -1,0 +1,65 @@
+{
+ "id": "15-12",
+ "history": {
+  "name": "磁気記録",
+  "name_en": "Magnetic recording",
+  "kind": "tech",
+  "trunk": "15",
+  "trunk_name": "通信・情報",
+  "year": 1898,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "カセットテープの茶色は、さびた鉄の粉",
+  "hee1_en": "The brown on cassette tape is rusted iron powder.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "10-01"
+    ]
+   ],
+   [
+    [
+     "1-06"
+    ]
+   ],
+   [
+    [
+     "2-37"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-37"
+  ],
+  "frontier": false,
+  "real": "1898 ヴァルデマール・ポールセンの鋼線録音、1928 フリッツ・プフロイマーの磁気テープ（紙に酸化鉄を塗る）⚠️"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "データ保存アイテム（[10-08]コアメモリと並ぶ記憶）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAcUlEQVR42mNgGPKAkYGBgUFNTes/OZpv3brGyALjeHn5kaR527ZNDAwMDAws6BKnLlzBq9HMQAeFz4RLEbJCdD5BA7C5BJfLmIh1Ki4XsFBiO1YDcNmECzCREgvY5DASkoiUEl4b3zy7h5KQhn5eYgAABGMjrTBzOk4AAAAASUVORK5CYII="
+}

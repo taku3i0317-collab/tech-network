@@ -1,0 +1,65 @@
+{
+ "id": "8-16",
+ "history": {
+  "name": "走査プローブ顕微鏡",
+  "name_en": "Scanning probe microscope",
+  "kind": "tech",
+  "trunk": "8",
+  "trunk_name": "精密・計測",
+  "year": 1981,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "原子1個の凸凹を、とがった針でなぞって見る",
+  "hee1_en": "It sees the bumps of single atoms by tracing them with a sharp needle",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "8-13"
+    ]
+   ],
+   [
+    [
+     "8-07"
+    ]
+   ],
+   [
+    [
+     "5-07"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-33"
+  ],
+  "frontier": false,
+  "real": "1981 ビーニッヒとローラー（IBM チューリッヒ）の走査トンネル顕微鏡（1986 ノーベル賞）、1986 原子間力顕微鏡。トンネル電流は距離0.1nm で約10倍変わる"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "⚠️範囲：[7-17] の表面粗さ検査として任意。実装は保留",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAYklEQVR42mNgoBAwwhhWDj7/idFw7MAWRmQ+CzKnK2wLXs1lq3wwxFjwKfDygfC3bdlCnv+sHHz+E/IaE6WBOPAGEAwDig05Mo3hPwPNAcwWUmkMv5JKw/MCuYGFni8GBgAAW8Ez92ow9W0AAAAASUVORK5CYII="
+}

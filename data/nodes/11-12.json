@@ -1,0 +1,75 @@
+{
+ "id": "11-12",
+ "history": {
+  "name": "缶詰",
+  "name_en": "Canning",
+  "kind": "tech",
+  "trunk": "11",
+  "trunk_name": "農業・食",
+  "year": 1804,
+  "year_range": "1804〜10",
+  "year_uncertain": false,
+  "hee1": "缶詰は発明から約50年、缶切りがなかった⚠️",
+  "hee1_en": "For about 50 years after cans were invented, there was no can opener⚠️",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "C52. 煮てから封をするか、封をしてから煮るか（缶詰とボルドー液）［11-12］［11-16］",
+    "answer": "1804〜10年、フランスのニコラ・アペールは、食べ物をびんにつめてしっかり封をし、湯で長く煮ると腐らないことを見つけ、ナポレオンの軍の懸賞を取った。1810年にはイギリスのピーター・デュランドが、ブリキ（鉄にスズをめっきした板）の缶の特許を取った。なぜ腐らないか（加熱で菌が死に、封で新しい菌が入らない）は、1860年代のパスツールまでわからなかった。1885年、フランスのピエール・ミラルデは、硫酸銅と石灰をまぜたボルドー液がブドウのべと病（カビの病気）を防ぐと発表した。",
+    "hee": {
+     "1": "缶詰が発明されてから約50年、缶切りがなかった ⚠️。",
+     "2": "アペールは、なぜ腐らないのかを知らないまま、缶詰のもとを作った。",
+     "3": "ボルドーの農家が、ブドウ泥棒よけに道ばたのブドウに青い薬をぬったら、そこだけ病気にならなかった。",
+     "4": "ボルドー液の銅は、カビの胞子が芽を出すのを止める。石灰は銅を葉にくっつけ、雨で流れにくくする。"
+    },
+    "certainty": "アペール 1804〜10・デュランド 1810・ミラルデ 1885 ◎／缶切りがなかった年数 △",
+    "basis": "- Wikipedia「Nicolas Appert」：https://en.wikipedia.org/wiki/Nicolas_Appert"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "2-14"
+    ],
+    [
+     "1-26",
+     "1-30"
+    ]
+   ],
+   [
+    [
+     "0-02"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1804〜10 ニコラ・アペールの瓶詰（ナポレオン軍の懸賞）、1810 ピーター・デュランドのブリキ缶の特許。なぜ腐らないかは1860年代のパスツールまで分からなかった"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "長期保存食",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAeUlEQVR42mNgGGjAiMyxcvD5T4ymYwe2MGIYYOXg8z+A5RZRtm74owY3hAVZ4pdHEXHu3rIFzmSiWhh0uaj9J0Vj2Z5bjFRxAVYDfnkUoYQHOh8ZsGATZNvRh5dP0AWkABbkuPXy8SFK07YtWxgYGG5RORrJTcoDDwDc3CVLzGKnlgAAAABJRU5ErkJggg=="
+}

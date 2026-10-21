@@ -1,0 +1,65 @@
+{
+ "id": "15-21",
+ "history": {
+  "name": "Bluetooth",
+  "name_en": "Bluetooth",
+  "kind": "tech",
+  "trunk": "15",
+  "trunk_name": "通信・情報",
+  "year": 1999,
+  "year_range": "1994〜1999",
+  "year_uncertain": false,
+  "hee1": "Bluetooth は、国々をまとめた昔の王様のあだ名「青い歯」から名前が付いた（S-003 で追加。出典：Bluetooth SIG「Origin of the Bluetooth name」、Ericsson「Bluetooth: a wireless success story」）",
+  "hee1_en": "Bluetooth is named after the nickname \"Blue Tooth\" of an old king who united countries. (Added in S-003. Sources: Bluetooth SIG \"Origin of the Bluetooth name\", Ericsson \"Bluetooth: a wireless success story\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "15-07"
+    ]
+   ],
+   [
+    [
+     "9-24"
+    ]
+   ],
+   [
+    [
+     "10-14"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-14"
+  ],
+  "frontier": false,
+  "real": "ケーブルの代わりに数m〜10m を結ぶ近い距離の無線。1994年、エリクソン（スウェーデン）で開発が始まった。2.4GHz の電波で1秒に1600回周波数を飛び移るので、混信に強い。1998年に企業の連合ができ、1999年に規格1.0。名前は、10世紀にデンマークとノルウェーをまとめたハーラル「青歯王」から"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAkElEQVR42mNgGGjAiC6gpqb1H8a+desaIyEDWNA1e3n5IQv9RzfkyDSG/zZZCIuZ0DWHqHXAFXt5+cFddGQaw3+Y5iPTGP5jGMDAwMAQotbBYO0TgmIIDCDbitMLa25VMDBs6YDQ5AQiehhs27aJYECieOHWrWuM27ZtIikamdAFSDWEidKENIgNIDUwBw4AADGrNYyOUm2GAAAAAElFTkSuQmCC"
+}

@@ -1,0 +1,58 @@
+{
+ "id": "11-04",
+ "history": {
+  "name": "品種改良",
+  "name_en": "Plant breeding",
+  "kind": "tech",
+  "trunk": "11",
+  "trunk_name": "農業・食",
+  "year": 1865,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "修道院の庭のエンドウから遺伝学が始まった",
+  "hee1_en": "Genetics began with peas in a monastery garden",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "0-04"
+    ]
+   ],
+   [
+    [
+     "8-10"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1865 メンデルがエンドウで遺伝の法則（1900 再発見）。1960年代「緑の革命」：ボーローグの背の低い小麦（肥料をやっても倒れない）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "2つの作物を交配して収量・耐性の高い種",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAmUlEQVR42mNgGNRgWp7I/2l5Iv/xqWHBpzkoyATKO/M/a9IbRqIMgNkYFGTCUFV3i4GBgYGhrcmEgYHhzH8GBgYGdIOY0A3AZRMuOSb8TkeAoCATBmzhgdUF69adwTBg3bozg9QFjLhigYGBgeHMBT4GBgYGBhODT0QFMgZIslP6n2SnhDchMVGaMplI0YzNCyzEGkCS30kBAHvtSQkx+HVuAAAAAElFTkSuQmCC"
+}

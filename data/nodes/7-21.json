@@ -1,0 +1,76 @@
+{
+ "id": "7-21",
+ "history": {
+  "name": "超低膨張ガラス",
+  "name_en": "Ultra-low expansion glass",
+  "kind": "tech",
+  "trunk": "7",
+  "trunk_name": "光学",
+  "year": 1960,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "温めても冷やしても長さがほとんど変わらないガラス",
+  "hee1_en": "Glass whose length hardly changes whether you heat it or cool it.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "O64. 温めても伸びないガラス（超低膨張ガラス ULE）［7-21］",
+    "answer": "1960年代、アメリカのコーニング社は、合成石英と同じ火炎加水分解で SiCl4 に TiCl4 を混ぜ、SiO2 に TiO2 を約7%入れたガラスを作った。TiO2 の入った網目は温まると縮む向きに働くので、石英のわずかな膨張を打ち消し、室温で熱膨張がほぼ 0（±0.03×10⁻⁶/K ほど）になる。宇宙望遠鏡の鏡や、EUV 露光の鏡・マスクの土台になっている。",
+    "hee": {
+     "1": "温めても冷やしても長さがほとんど変わらないガラス。",
+     "2": "10cm の鋼の棒は 3℃ で約 3.6µm 伸びるが、ULE は約 0.01µm。",
+     "3": "ハッブル宇宙望遠鏡の主鏡も ULE。",
+     "4": "膨張がちょうど 0 になる温度（ゼロクロス）は TiO2 の量で決まり、使う温度に合わせて作る。"
+    },
+    "certainty": "コーニング・TiO2 約7%・±0.03×10⁻⁶/K ◎／ハッブルの主鏡 ◎／各材料の膨張係数 ○（代表値）",
+    "basis": "- Wikipedia「Ultra low expansion glass」：https://en.wikipedia.org/wiki/Ultra_low_expansion_glass"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "7-15"
+    ]
+   ],
+   [
+    [
+     "1-41"
+    ]
+   ],
+   [
+    [
+     "6-01"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1960年代 コーニング社。SiCl4 と TiCl4 を一緒に火炎加水分解し、SiO2 に TiO2 を約7%入れる。TiO2 は温度が上がると縮む向きに働き、石英の膨張を打ち消して室温付近で熱膨張ほぼ0（±0.03×10⁻⁶/K 程度）。宇宙望遠鏡の鏡、EUV ミラー・マスク基板に使う"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "軽＋実験",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAg0lEQVR42mNgoBAwYhO0KOv6j038RFcZhnoWbBpLkiIYeuatQFFYkhTB0MPA8B+XQQwWZV3/19x49N+irOs/NhfAxGFqcGom5Gd0tXAv9MxbAXcavjA40VXGCPMKRhjANGP1Iw45JkqjkQWbM0mJRooDkeJoZCQpIUHFkL1CcVIeBgAA68B7+8o1VSIAAAAASUVORK5CYII="
+}

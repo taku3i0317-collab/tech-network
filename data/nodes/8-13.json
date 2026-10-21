@@ -1,0 +1,63 @@
+{
+ "id": "8-13",
+ "history": {
+  "name": "液滴発生器",
+  "name_en": "Droplet generator",
+  "kind": "tech",
+  "trunk": "8",
+  "trunk_name": "精密・計測",
+  "year": 2006,
+  "year_range": "1880〜2007",
+  "year_uncertain": false,
+  "hee1": "EUV の光源とインクジェットプリンターは親戚",
+  "hee1_en": "EUV light sources and inkjet printers are relatives.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "8-15"
+    ]
+   ],
+   [
+    [
+     "1-30"
+    ]
+   ],
+   [
+    [
+     "8-11"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1880 キュリー兄弟が圧電効果（結晶を押すと電圧）を発見し、翌1881年にリップマンが予言した逆の効果（電圧をかけると伸び縮み）も兄弟が確かめた。1878 レイリーが液体の柱が一定間隔の滴に分かれる理由（レイリー・プラトー不安定性）を解いた（実験での観察は1873年のプラトーが先）。2006 サイマーの Sn 液滴＋CO2 レーザー光源が稼働、2007 ASML が量産用に採用。インクジェットプリンター（1970年代〜）と同じ原理で溶けた Sn を毎秒数万滴"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "[7-18]EUV 光源の部品",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAZElEQVR42mNgoBAwYhO0cvD5j0382IEtGOpZsGn+Z2aH1TYrBob/6IYwYbOF6dQhBh8xPgamU4cYkNnYXIATIHsDl5eIMoRszQwMDAwWZV3/GQYUjLqATi5gJMXmE11ljFR3AQA4ZSoy48Ea5gAAAABJRU5ErkJggg=="
+}

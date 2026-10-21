@@ -1,0 +1,58 @@
+{
+ "id": "15-09",
+ "history": {
+  "name": "真空管ラジオ",
+  "name_en": "Vacuum tube radio",
+  "kind": "product",
+  "trunk": "15",
+  "trunk_name": "通信・情報",
+  "year": 1920,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "ラジオは最初、家具のように大きかった",
+  "hee1_en": "At first, radios were as big as furniture.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "5-02"
+    ]
+   ],
+   [
+    [
+     "4-09"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1920 米国 KDKA が定時ラジオ放送、1925 日本の放送開始。三極管で増幅し、スピーカーで聞ける"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "電力を使うラジオ（第1章のトランジスタラジオの前段）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAaElEQVR42mNgoBAw4pJIslP6j8yfd+geVrUsuDR62aihS/3HZhAjumYsGlHAtiO3UAxhwqZ5xhUnOI3MhrkM2XtMlAbicDQAPdBwieFMBxk6+wZBGOBLBwS9gOwNZO/g8hoLejKlOwAAvYQxbKhvtb8AAAAASUVORK5CYII="
+}

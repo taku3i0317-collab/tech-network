@@ -1,0 +1,58 @@
+{
+ "id": "1-74",
+ "history": {
+  "name": "超硬合金",
+  "name_en": "Cemented carbide",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": 1923,
+  "year_range": "1923〜1926",
+  "year_uncertain": false,
+  "hee1": "超硬合金の名前「ヴィディア」は、ドイツ語で「ダイヤモンドのような」という意味（O-012 で追加。出典：Wikipedia「Cemented carbide」「Tungsten carbide」、Sandvik Coromant 'Celebrating 100 years of cemented carbide' / 三菱マテリアル 超硬の歴史（https://www.mmhm.co.jp/en/carbide/history.html））",
+  "hee1_en": "The cemented carbide name \"Widia\" means \"like diamond\" in German. (Added in O-012. Sources: Wikipedia \"Cemented carbide\", \"Tungsten carbide\", Sandvik Coromant 'Celebrating 100 years of cemented carbide' / Mitsubishi Materials, history of cemented carbide (https://www.mmhm.co.jp/en/carbide/history.html))",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-28"
+    ]
+   ],
+   [
+    [
+     "3-15"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "炭化タングステンの細かい粉をコバルトで焼き固めた、ダイヤモンドの次に近いほど硬い材料。1923年、ドイツのオスラム社のカール・シュレーターらが、電球のタングステン線を引くダイスの研究から作り、1926年にクルップ社が「ヴィディア」（ダイヤのような、の意味）として売り出した。旋盤やドリルの刃物を、ハイスよりさらに速く削れるようにした"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAhklEQVR42mNgoCWYlifyf1qeyH98aljwaQ4KMoHyzvzPmvSGEZs6JkpdyUTYdgaGoCATBlxeweuCoAYWhqAGFtID7sUBj/9WDj5wG60cfP6/OOCBNUApDgNGvH6HOn9dwx+42Lp1ZxiQYwSvB5E1EowFdNtxBixajFAnDAglV1wAV+ocYgAA46A2EFoHNTkAAAAASUVORK5CYII="
+}

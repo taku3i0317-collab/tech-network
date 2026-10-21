@@ -1,0 +1,66 @@
+{
+ "id": "B-23",
+ "history": {
+  "name": "溶解アセチレンと灯台の自動点滅器",
+  "name_en": "Dissolved acetylene and the automatic lighthouse flasher",
+  "kind": "tech",
+  "trunk": "B",
+  "trunk_name": "枝",
+  "year": 1906,
+  "year_range": "1896〜1907",
+  "year_uncertain": false,
+  "hee1": "昔の灯台の中には、昼は光に反応して自動で火を消す仕組みが入っていた（O-008 で追加。出典：Nobel Prize「Physics 1912 授賞演説」、Wikipedia「Agamassan」、Linda Hall Library「Gustaf Dalén」）",
+  "hee1_en": "Old lighthouses had a device that sensed daylight and put out the flame automatically during the day. (Added in O-008. Sources: Nobel Prize \"Physics 1912 Award Ceremony Speech\", Wikipedia \"Agamassan\", Linda Hall Library \"Gustaf Dalén\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [
+   {
+    "name": "グスタフ・ダレン",
+    "tool": "🗼 灯台の点滅器",
+    "year": "1907",
+    "intro": "1907年、明るくなると自動でガスを止める太陽弁を作った（1869〜1937）",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACB0lEQVR42mNgGAUjHTCSolhLTvQ/MequPXpNtLksxCo0UZX8rywphCH+/ssPbMr/E+sIRmJ9LiPCR1LQPnnziaiQYKKF5QwMDAwyInxERRnTQCfCoeWAZZNqGZZNqiXIbipJpV42hKUBmAXEgDuPXjDU9cwmKiGykBICUXnNKKGBS45qIVCRHPg/wNmcgYGBgUFFToKkEICBDXtPMnTMXc9IlRDgNAxl0NPUZLh0/TrD9/OrccoxPJpMvUR49zHCN9/Pr2bYOKkIxXKYb7HJIesl2wHKsqhBLyEigFMtuhy6XrIcsGHvScyoYGeDs1++/YBVHJdektIAUuL5X5Loj4iKn78YGBgYGC7ceMDAzcmBIU5M4iMpEUINgjsCOcuhF1SkWE5yLoBZvmxSLcPh2VtRxG1TveFyNGuQVCQHokQFNtAzfyPRvifZATBHiArxM8T7O6CIL9x4gOH1u48kWU4RqEgO/P/myIL/b44s+F+RHPifgZZtQlFRCbgFFRVFDAwMDAxxcTEoahYtWgJJsB19cLHXr18wUuQAmMV8fIgC5sSJfXgNtLBwgrM/ffpA0CEsxFpMDkDS/x+XQxhJtfjr1y8M3Nw8GCFhYeEEl8MFsIUICzV9TE6IMMIcQIzlhHxIrBpYaLx+/YJxwBulLOjxgwv8/PmDgZ2dg6A6aNAysLNzEOUAAKxJ8O6XRU0oAAAAAElFTkSuQmCC"
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "B-14"
+    ]
+   ],
+   [
+    [
+     "3-13"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "アセチレンは押し縮めると爆発しやすく、そのままではボンベで運べなかった。1896年、フランスのジョルジュ・クロードとアルベール・エスが、アセチレンがアセトンにたくさん溶けて安全になることを見つけた。スウェーデンの AGA 社のグスタフ・ダレンは、ボンベの中に珪藻土などのすき間の多い詰め物（アガマッサン、1906年）を入れてアセトンを含ませ、さらに灯台の火を必要なときだけ点滅させる装置と、明るくなると自動でガスを止める「太陽弁」（1907年）を作った。これで灯台を人がいなくても何か月も動かせるようになった（1912年ノーベル物理学賞）。ダレン自身は1912年、実験中の事故で目が見えなくなった"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAsUlEQVR42mNgoBAwMjAwMByZxvCfgYGBwSYLwo8IC/qPTfGKVeuwqoeDI9MY/sMkj0xj+P//Ucj//49CUMRgbBQXYAP/H4WgKpRbg1UtEy4XHN2yBi4OY+N0AbYw8HBzQrFpx659WMOABVtgQBViGAIDyOqZsCnA5gJcgInSdMCEz3aVXzkMKr9yGBgYGBg83Jywpg8WfKbfYZtCZy+gBx6yF3B5g2IvYBiwY9c+BroCAD2bW7kdy2GqAAAAAElFTkSuQmCC"
+}

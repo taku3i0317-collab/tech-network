@@ -1,0 +1,105 @@
+{
+ "id": "9-07",
+ "history": {
+  "name": "Ge 単結晶の引き上げ",
+  "name_en": "Ge single-crystal pulling",
+  "kind": "tech",
+  "trunk": "9",
+  "trunk_name": "半導体プロセス",
+  "year": 1950,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "社内では「単結晶なんて要らない」と反対された",
+  "hee1_en": "Inside the company, people objected: \"We don't need single crystals.\"",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "4. 1つの大きな結晶にする（CZ 法・単結晶の引き上げ）［9-07］［9-08］",
+    "answer": "溶かしたシリコンに小さな種の結晶を浸け、ゆっくり回しながら引き上げると、全体が1つの結晶（単結晶）になる。",
+    "hee": {
+     "1": "綿あめのように、溶けた液体から結晶を「引き上げて」作る。",
+     "2": "発見したのはポーランドのチョクラルスキーで、1916年。金属が結晶になる速さを調べる実験から生まれた（ペンをインクではなく溶けたスズに浸してしまった、と言われる）。",
+     "3": "半導体に使ったのはベル研究所のティールとリトルで、1950年（ゲルマニウム）。当時は「多結晶で十分」という意見が強く、ティールは反対されながら続けた。単結晶にしたらトランジスタの性能が一気にそろった。",
+     "4": "るつぼは石英（SiO₂）。シリコンを溶かすと石英が少しずつ溶け出し、結晶に酸素が入る。これが CZ 結晶の弱点で、次の FZ 法が生まれた理由。ホウ素は結晶の上から下までほぼ均一に入るが（偏析係数 約0.8）、リンは下のほうに多くたまる（約0.35）。"
+    },
+    "certainty": "1916年・1950年 ◎（IEEE 公式認定＋コンピュータ歴史博物館＋全米工学アカデミー）／ペンの逸話 ○（伝記サイトと Wikipedia。IEEE には無い）／偏析係数 B 0.8・P 0.35 ◎／電力 17.4kWh/kg ○（1つの論文の改良後の値）／ネッキング（ダッシュ 1959）△",
+    "basis": "IEEE Milestone「Czochralski Process, 1916」、コンピュータ歴史博物館「1951 成長接合トランジスタ」、全米工学アカデミーのティール追悼文、チョクラルスキーの伝記サイト https://janczochralski.com/en/method/ ・Wikipedia「Czochralski method」https://en.wikipedia.org/wiki/Czochralski_method（すべて英語）"
+   }
+  ],
+  "people": [
+   {
+    "name": "ティール",
+    "tool": "💎 種結晶",
+    "year": "1950",
+    "intro": "1950年、リトルとゲルマニウムの単結晶の引き上げを始めた。のちにシリコンでも",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACT0lEQVR42mNgGAUjHTCSothJS+I/Mer2XXtBtLksxCoMMpH7b64sgiH+9P03bMr/E+sIRmJ9riMjQFLQXnnygaiQYKKF5QwMDAw6MgJERRnTQCfCoeWAuroKhrq6CoLsqIQE6mVDWBqAWUAMuPPoBcOyBQuISogspIRAU1MHSmjgkqNaCFQkB/4PcDZnYGBgYMifuBNDfmtvPAMDAwODd/FCDLmJ+e4MDAwMDBv2nmTomLuekSppYN++LQxvnt9l2LdvC9ximOXoclRLhHcfv0CkBycfBhFJZQYnJx94CMB8ii6HrpfsNKAsK4ES3NgAutydRy/gei/fekhZCGzYexJDjJOdDc5++fYDVnFcekkKAaTE878k0R8u/v3nLwYGBgaGCzceMHBzcmCIE5P4SK6OK5IDURyBD/TM30iU5SSXA8jg8OytKHzbVG/aN0iICQVSfE+yA2COEBXiZ4j3d0ARX7jxAMPrdx9JspwiUJEc+P/NkQX/3xxZ8L8iOfA/ueYQlQYk5MwwLAhwNmf4r+4GZb9gWLD7KYaaF49OMVLkAJjFAiIqKOJfPj5hYGBgYGg1tWKQ4eBgsKlLYGBh5WDg4ZfBaBsScggTLosl5Mz+C4ioYFgOLyFd4xhkODjgbGwAph9mHsEQwOVjdN9j8SkDD78MTjkk8zBChIVYi1HKgJ09WMUMLSLw6sPmECYskiT7Hj0UCAFku0hulGLzPTFyBHPBhzd38Cr88f09AwenIMOiRUvgYic+QGpCRiSxP79/MLx4fJqBg1OQKAcAAMsv9ii9MkyPAAAAAElFTkSuQmCC"
+   },
+   {
+    "name": "リトル",
+    "tool": "💎 種結晶",
+    "year": "1950",
+    "intro": "1950年、ティールとゲルマニウムの単結晶の引き上げ装置を作った",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACJ0lEQVR42mNgGAUjHTCSolhLTvQ/MequPXpNtLksxCo0UZX8rywphCH+/ssPbMr/E+sIRmJ9LiPCR1LQPnnziaiQYKKF5QwMDAwyInxERRnTQCfCoeWAZZNqGZZNqiXIbipJpV42hKUBmAXEgDuPXjDU9cwmKiGykBICUXnNKKGBS45qIVCRHPg/wNmcgYGBgUFFToKkEICBDXtPMnTMXc9IlRDgNAxl0NPUZLh0/TrD9/OrccoxPJpMvUR49zHCN9/Pr2bYOKkIxXKYb7HJIesl2wHKsqhBLyEigFMtuhy6XrIcsGHvScyoYGeDs1++/YBVHJdektIAUuL5X5Loj4iKn78YGBgYGC7ceMDAzcmBIU5M4iO5Oq5IDkRxBD7QM38jUZaTnAuQweHZW1H4tqnetG+QEBMKpPieZAfAHCEqxM8Q7++AIr5w4wGG1+8+kmQ5RaAiOfD/myML/r85suB/RXLgf3LNISoNODl5YFgQ4GzO8F/dDcp+wXDq/ncMNfv27WCkyAEwi3V0DFDE79+/A0l4sV4MXEI8DNN8fBi4uXkYFBVVMNqGhBzCQorFKKWcaxwD15YtcDbD8jMYapD043QIC6kW379/B5tPGRQVVXDK4XMIC7EWI4Pa2jysYklJeXj1YXMIExZJkn2PHgqEALJdJDdKsfmeGDmCifDKlQt4Fb5584pBRESMYdGiJQixO5D6Hlns69cvDAcO7GIQEREjygEAMWTyLzZixasAAAAASUVORK5CYII="
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "9-01"
+    ]
+   ],
+   [
+    [
+     "1-07"
+    ]
+   ],
+   [
+    [
+     "6-01"
+    ]
+   ],
+   [
+    [
+     "3-14"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-06"
+  ],
+  "frontier": false,
+  "real": "1950 ゴードン・ティールとジョン・リトル（ベル研）。多結晶では粒界で電子が散乱し性能がばらつく → 種結晶を融液に浸けて回しながら引き上げ1つの結晶に"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": "germanium_single_crystal",
+  "recipes": [],
+  "machine_recipes": [
+   "単結晶引き上げ機「単結晶の引き上げ」：ゲルマニウムの種結晶（減らない） ＋ 精製ゲルマニウム×4 ＋ 水素ガス（袋詰め） → ゲルマニウム単結晶（3 kW × 60 秒＝180 kJ）。純度と経路を受け継ぐ"
+  ],
+  "placeholder": null,
+  "game_text": "引き上げ機ブロック（第1章の Ge を「単結晶」に格上げ）",
+  "hee_game": {
+   "note1": "全体が1つの結晶になった、ゲルマニウムの棒。",
+   "note2": "引き上げ機で、種結晶＋精製ゲルマニウム4個から。純度と経路はもとのゲルマニウムのまま。使い道は成長接合型トランジスタ [9-10] などで増える予定。",
+   "note3": "多結晶は、向きのちがう小さな結晶の寄せ集め。そのさかい目（粒界）で電子や正孔がぶつかって消えやすく、場所によって性質がばらつく。単結晶なら粒界がないので、電子が長く生き残り（少数キャリアの寿命が長い）、どこを切っても同じ性質になる。",
+   "note4": "ティールは1952年にテキサス・インスツルメンツへ移り、1954年に引き上げ法でシリコンの成長接合トランジスタを作った。ゲルマニウムで始まった単結晶の技術が、そのままシリコンの時代の入り口になった。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAP0lEQVR42mNgGAhg5eDzH8ZmIkeznBgbA1kGWDn4/E+L8SDf2QvmTPkfERb0f1TzqGacICIsiHzNMAMGJGcCAKvSR8B0NtnrAAAAAElFTkSuQmCC"
+}

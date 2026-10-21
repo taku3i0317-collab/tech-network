@@ -1,0 +1,53 @@
+{
+ "id": "13-12",
+ "history": {
+  "name": "輸血と血液型",
+  "name_en": "Blood transfusion and blood types",
+  "kind": "tech",
+  "trunk": "13",
+  "trunk_name": "医薬・衛生",
+  "year": 1901,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "血液型が分かるまで、輸血はばくちだった",
+  "hee1_en": "Until blood types were known, a transfusion was a gamble.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "13-04"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1901 カール・ラントシュタイナーが ABO 式血液型を発見（1930 ノーベル賞）。1914〜 クエン酸ナトリウムで血液を固まらないように保存"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "解説のみ",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAbElEQVR42mNgoBAw4pKwKOv6j8w/0VXGSJLJyAagG4bTBfgUEuUaYgxAV8NEaSCyoAt0uajhdcU6ND7FLhh4AxhxhXLQuTmofjdKIS1BWZR1/V9z49F/i7Ku/8SmDwZSY4S2gQiznZArKHYBAJWcKnbxJw+ZAAAAAElFTkSuQmCC"
+}

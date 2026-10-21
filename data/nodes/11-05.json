@@ -1,0 +1,53 @@
+{
+ "id": "11-05",
+ "history": {
+  "name": "堆肥",
+  "name_en": "Compost",
+  "kind": "tech",
+  "trunk": "11",
+  "trunk_name": "農業・食",
+  "year": -2000,
+  "year_range": null,
+  "year_uncertain": true,
+  "hee1": "落ち葉を食べる小さな生き物が肥料を作る",
+  "hee1_en": "Tiny creatures that eat fallen leaves make fertilizer.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "0-04"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "有機物を微生物が分解し、窒素・リン・カリを土に返す。古代から"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "バニラのコンポスター＝堆肥の近似。[6-10]硝石床の入口",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAjklEQVR42mNgGHQgyU7pPyl86htCFReQAhhxSUzxM0CxKWfTBaxqWXBptHEwYJi04RBDXoAdRJyB4T82g5jQNds4GDCc+/CJgYGBAa6ZgYGB4dyHTww2DgYYLmNE14wMkF2ADI4cuAB3CRO65KQNh+BsmGZkMWQ23AXotuOyGVkc5gpGbCFOLMAVM0MMAABUCErz+tuBEwAAAABJRU5ErkJggg=="
+}

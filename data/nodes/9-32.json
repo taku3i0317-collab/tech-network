@@ -1,0 +1,71 @@
+{
+ "id": "9-32",
+ "history": {
+  "name": "ダイシング",
+  "name_en": "Dicing",
+  "kind": "tech",
+  "trunk": "9",
+  "trunk_name": "半導体プロセス",
+  "year": 1960,
+  "year_range": null,
+  "year_uncertain": true,
+  "hee1": "1枚のウェハーから何百個のチップが切り出される",
+  "hee1_en": "Hundreds of chips are cut out of a single wafer.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "L7. ウェハーをチップに分ける（スクライブ → ダイシングソー）［9-32］（O-013）",
+    "answer": "1枚のウェハーには同じチップがたくさん並んでいる（同じマスクを全体に焼くから）。それを1個ずつに分けるのがダイシング。1960年ごろはダイヤモンドの先で格子の傷を付け（スクライブ）、ウェハーを曲げたり転がしたりして傷にそって割った。のちに、ダイヤモンドの粒を付けた薄い円盤の刃（ダイシングソー）で切るようになった。",
+    "hee": {
+     "1": "ガラス切りと同じで、浅い傷を付けて曲げると、傷の線できれいに割れる。",
+     "2": "シリコンの結晶には割れやすい面（{111}）があるので、傷の向きを結晶の向きにそろえる。ウェハーの平らな切りかき（オリフラ）が目印。",
+     "3": "チップ1個を工場では「ダイ」（さいころ）と呼ぶ。複数形は dice。",
+     "4": "良いダイの割合が歩留まり。歩留まりが半分になると、チップ1個の値段はほぼ倍になる。"
+    },
+    "certainty": "スクライブして割る方法が初期の主流 ○／ダイシングソーへの移り変わり（1960年代〜70年代）○⚠️（はっきりした年は確かめていない）／{111} 面で割れやすい ◎",
+    "basis": "Wikipedia「Wafer dicing」、S. M. Sze『VLSI Technology』（組み立ての章）"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "9-22"
+    ]
+   ],
+   [
+    [
+     "8-08"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "初期はダイヤモンドで傷（スクライブ）を付けて割る、後にダイヤモンドを付けた薄い円盤刃で切る"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "ダイシング台（ROADMAP v0.3 #7）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAlklEQVR42t1SsQ2AMAxzUcUd3JEpM+ISxDmISxBzptzBHSxhoYhCJahgIqOVuHZt4OW4FEjUWQpX7S/7PnXIXEN0AFMbb5ezYakiIn88Zq5vJW87Fkh2JuLGcryrjG5XQNQZU/x6ykKELZWp9q74JIVc+UcbfpOD8wfeWRCZAABFyDcAT0ZkwmcpuJwiiQ44F+l1lX8wK5CaUByB/rBEAAAAAElFTkSuQmCC"
+}

@@ -1,0 +1,60 @@
+{
+ "id": "1-43",
+ "history": {
+  "name": "アンチモン",
+  "name_en": "Antimony",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": -3000,
+  "year_range": "-3000〜1540",
+  "year_uncertain": false,
+  "hee1": "アンチモンは水と同じく、固まるときに少しふくらむ（だから活字の角がくっきり出る）",
+  "hee1_en": "Like water, antimony expands a little when it freezes (so the edges of printing type come out sharp)",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "C21. 固まるとふくらむ金属（アンチモン）［1-43］",
+    "answer": "輝安鉱（Sb2S3）を空気中で焼くと三酸化アンチモン、炭素で還元するとアンチモン。輝安鉱の粉は少なくとも紀元前3000年から目の化粧（コール）に使われた。アンチモンは固まるときに少しふくらむので、鉛・錫と混ぜた活字合金は型の角までくっきり出る。15族なので、ゲルマニウムやシリコンに入れると n型になる。五塩化アンチモンはフッ素を付ける反応（スワーツ反応）の触媒。",
+    "hee": {
+     "1": "アンチモンは水と同じく、固まるときに少しふくらむ。",
+     "2": "古代エジプトの黒いアイシャドウは輝安鉱の粉だった。",
+     "3": "1540年のビリングッチョ『ピロテクニア』にアンチモンの章がある（鉄で硫黄を奪う方法がそこにあるかは未確認 ⚠️）。",
+     "4": "愛媛の市ノ川鉱山の輝安鉱の大きな結晶は、世界の博物館にある。"
+    },
+    "certainty": "焙焼と還元 ◎／コールの使用（紀元前3000年ごろから）○／ビリングッチョ 1540 の書名と年 ◎・鉄による方法 △（監査 V-21：不明）⚠️／固まるときの膨張と活字合金 ◎",
+    "basis": "- Wikipedia「Antimony」（歴史・製錬）：https://en.wikipedia.org/wiki/Antimony"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "輝安鉱の粉は少なくとも紀元前3000年から、古代エジプトなどでアイシャドウ（コール）に使われた。製錬：融点が低い（約550℃）ので加熱して溶け出させ（溶離）、鉄で硫黄を奪う Sb2S3+3Fe→2Sb+3FeS（1540年ヴェネツィア刊のビリングッチョ『ピロテクニア』にアンチモンの章がある。鉄で硫黄を奪う方法がそこに書かれているかは未確認で、鉄による方法は17世紀の文献と結びつけられることが多い⚠️）。または焙焼 Sb2S3→Sb2O3 → 炭素還元"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "軽",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAiElEQVR42mNgoAawcvD5T7EcLoUkiWMTJFYMpyQhPkFDcLGJthmdJikMrBx8/sMwLnVMyBLHDmxhJORHKwef/8cObGHEagAhQ9A1MzAwMDCSkoDQNTMwMDCwIHMiwoLgmjzcnDAMlRNj+8/AwMCwYtU6RgwXRIQF/cemCRvYsWsf3BAWdImhBwCWEU+F/hQbGAAAAABJRU5ErkJggg=="
+}

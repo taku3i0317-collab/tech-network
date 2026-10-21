@@ -1,0 +1,58 @@
+{
+ "id": "B-21",
+ "history": {
+  "name": "ボールマウス",
+  "name_en": "Ball mouse",
+  "kind": "tech",
+  "trunk": "B",
+  "trunk_name": "枝",
+  "year": 1968,
+  "year_range": "1963〜1972",
+  "year_uncertain": true,
+  "hee1": "最初のマウスは木の箱に車輪が2つ付いたもので、ボールではなかった（S-002 で追加。出典：Computer History Museum「Revolution: Input & Output」、Wikipedia「Bill English」）",
+  "hee1_en": "The first mouse was a wooden box with two wheels, not a ball. (Added in S-002. Sources: Computer History Museum \"Revolution: Input & Output\", Wikipedia \"Bill English\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "2-29"
+    ]
+   ],
+   [
+    [
+     "10-10"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1963〜64年、SRI のエンゲルバートが考え、イングリッシュが作った最初のマウスは、直角に付けた2つの車輪で動きを測るもので、ボールは使っていない（1968年の有名な実演もこの車輪式）。ボールを転がして測る最初のマウスは、西ドイツのテレフンケンが1968年10月に発表した「ロールクーゲル」とされる ⚠️。1972年ごろ、ゼロックス PARC に移ったイングリッシュが車輪をボールに替えたマウスを作り、アルトで使われてパソコンのマウスの形になった。ボールの回転を X・Y の2本の軸に伝え、スリット付きの円板と光で数える"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAnElEQVR42mNgoBAw4pNUU9P6j8y/desaI0mmoxuADbDgkpjiZ/DfxsGA4cgBtv8MDAwMOZsuYLWdCZ/msBmnGCbd+MVg42DAMMXP4D9RYQDTjA0cOXABwyVMxGpmYGDA6hKcYRA24xQKf1WGGQPRYUAKYCFkM7p4ngYbYRdgcy7RXsClEJccdaMRluKOHLhAlGa8mQk9vnElZYoBACPwQonugd5MAAAAAElFTkSuQmCC"
+}

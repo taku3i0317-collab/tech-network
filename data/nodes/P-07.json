@@ -1,0 +1,70 @@
+{
+ "id": "P-07",
+ "history": {
+  "name": "モニター",
+  "name_en": "Monitor",
+  "kind": "product",
+  "trunk": "P",
+  "trunk_name": "モノ（作品）",
+  "year": 1996,
+  "year_range": "1971〜1996",
+  "year_uncertain": false,
+  "hee1": "画面の色は、赤・緑・青の3色の点の明るさの組み合わせだけでできている",
+  "hee1_en": "Screen colors are made only by mixing the brightness of red, green and blue dots",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://en.wikipedia.org/wiki/Liquid-crystal_display",
+   "https://ethw.org/Milestones:Liquid_Crystal_Display,_1968"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "B-19"
+    ]
+   ],
+   [
+    [
+     "B-20"
+    ]
+   ],
+   [
+    [
+     "B-06"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [
+   "ガラス",
+   "インジウム",
+   "シリコン"
+  ],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "白色 LED の光を導光板で広げ、偏光フィルム・液晶・カラーフィルターを通して、画素ごとの TFT で光の通り具合を変える。赤・緑・青の3つの点の明るさで色を作る（[I-12]）。透明な電極にはインジウムの化合物（ITO）を使う"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "作品：置いて電気をつなぐと、画面が映る",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAcElEQVR42mNgGGjAyMDAwKCmpvWfHM23bl1jZIFxhAISSNL8bsMCBgYGBgYmdAmLX+8YLH69I9ogJmyCJ9iEyDeAFM04XTC0DGBBjxZk4OXlx8DAwMCwbdsm8kxXU9P6TyiRMVElKaPbSij5MgwqAACN7hlBQNiJ1wAAAABJRU5ErkJggg=="
+}

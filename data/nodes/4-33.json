@@ -1,0 +1,53 @@
+{
+ "id": "4-33",
+ "history": {
+  "name": "水車タービン",
+  "name_en": "Water turbine",
+  "kind": "tech",
+  "trunk": "4",
+  "trunk_name": "動力・電気",
+  "year": 1827,
+  "year_range": "1827〜1929",
+  "year_uncertain": false,
+  "hee1": "水力発電所の水車は、昔の木の水車とはちがう、金属の羽根車のタービン（O-011 で追加。出典：ASME Landmark #57「Kaplan Turbine」・#157「Pelton Waterwheel」、Wikipedia「Water turbine」）",
+  "hee1_en": "The wheel in a hydroelectric plant is not an old wooden water wheel but a turbine with metal blades (added in O-011. Sources: ASME Landmark #57 \"Kaplan Turbine\", #157 \"Pelton Waterwheel\", Wikipedia \"Water turbine\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "8-01"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "昔の水車より速く回り、水の力をむだなく取り出せる羽根車の水車。1827年にフランスのブノワ・フルネロンが最初の実用的な水車タービンを作り、1849年にアメリカのジェームズ・フランシスが今も一番多く使われるフランシス水車を、1880年ごろレスター・ペルトンが高い所から落ちる細い水の勢いで回すペルトン水車を（ASME ランドマーク #157）、1913年にオーストリアのヴィクトール・カプランが羽根の角度を変えられるカプラン水車を考えた（ASME ランドマーク #57）。水力発電所の発電機（[4-01]）を回すのはこのタービン水車"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAyUlEQVR42rVTMQ7DIAw8R7yFR2RiyFBVDLylQx+RIW/JgKoMHZh4BE+pItGhcgQE0iHtTcjgs31ngJOgWrBXOtbi3lk6JOBEI0K12rzKHRGlyZw4rxLeWWJCPpf3ACDKKvdnICBkhFA6emfJAxgHmY3XpdW5xSPMq4QRYRtXlCKlOrwuNwCAWSYgGcckXXRnbRSlC5vCSkezTDvRPh2GXAPvLPFs38BaNV0YBxm3Bw0b/7NINaKr1gCAh7XNVT5Er3Rs/Yuf2Xgab2Thd36wVE/pAAAAAElFTkSuQmCC"
+}

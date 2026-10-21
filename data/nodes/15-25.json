@@ -1,0 +1,58 @@
+{
+ "id": "15-25",
+ "history": {
+  "name": "エレクトレットコンデンサーマイク",
+  "name_en": "Electret condenser microphone",
+  "kind": "tech",
+  "trunk": "15",
+  "trunk_name": "通信・情報",
+  "year": 1962,
+  "year_range": "1962〜1968",
+  "year_uncertain": false,
+  "hee1": "電話やおもちゃのマイクの多くは、電気をためたままのプラスチックの膜でできている（S-004 で追加。出典：aps.org、lemelson.mit.edu）",
+  "hee1_en": "Many microphones in phones and toys are made of a plastic film that keeps an electric charge stored in it. (Added in S-004. Sources: aps.org, lemelson.mit.edu)",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "15-23"
+    ]
+   ],
+   [
+    [
+     "2-38"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "コンデンサーマイクは、ふつう膜に高い電圧をかけておく必要があった。1962年、ベル研究所の2人の研究者が、電気をためたままにできるテフロン（フッ素樹脂）の膜＝エレクトレットを使い、その電圧をいらなくしたマイクを完成させた（米国特許3,118,022、1964年）。1968年から大量生産され、小さく安いので、100年使われた電話の炭素マイクに代わった。今も1年に20億個以上作られる。（よく「電池が要らないマイク」と言われるが、正しくは膜にかける電圧が要らないということで、中の小さな増幅用トランジスタには少し電気が要る。）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAWUlEQVR42mNgGPKAEV3AysHnfwDLLayKN/xRYzh2YAuKHiZ0Rbg045JjwWaLl48PVgO2bdnCwMCAaggTpWEwSA2A+BVCI7NJAl0uav+xsYdIGFAF4PM3VQEAgjMdbxyH0JYAAAAASUVORK5CYII="
+}

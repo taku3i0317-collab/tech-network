@@ -1,0 +1,60 @@
+{
+ "id": "4-24",
+ "history": {
+  "name": "羽根のない扇風機",
+  "name_en": "Bladeless fan",
+  "kind": "tech",
+  "trunk": "4",
+  "trunk_name": "動力・電気",
+  "year": 2009,
+  "year_range": "1981〜2009",
+  "year_uncertain": false,
+  "hee1": "羽根のない扇風機は、本当は台の中に羽根があり、輪から出る風がまわりの空気を引っぱって何倍にもふやしている。（S-004 で追加。出典：designingbuildings.co.uk、arxiv.org）",
+  "hee1_en": "A bladeless fan actually has blades inside its base, and the air coming out of the ring pulls the surrounding air along, multiplying the flow many times. (Added in S-004. Sources: designingbuildings.co.uk, arxiv.org)",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "4-21"
+    ]
+   ],
+   [
+    [
+     "4-18"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [
+   "I-18"
+  ],
+  "explained_by": [],
+  "frontier": false,
+  "real": "台の中のモーターと羽根車で空気を吸い、輪っかの中の細いすき間から薄く速く吹き出す。輪の断面は飛行機の翼のような形で、吹き出した風がその面に沿って流れ（コアンダ効果）、輪の後ろやまわりの空気を引きこんで前へ送る。羽根が見えないので指を入れても安全で、風のむらも少ない。輪にすき間のある羽根のない扇風機の考えは1981年に日本の東京芝浦電気（今の東芝）が特許を出していたが、製品にしたのは2009年のダイソン"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAa0lEQVR42mNgoBAwoguoqWn9x6fh1q1rjDgl1dS0/uMzAK88Ic0E1RGjGZtaJkoDkboGEBsGVI0FitMBIz7bvLz8GBgYGBi2bduEMwGx4LNt27ZNtI8FFlxh4OXlB3cB1Cv/iQoDijITOQAApLU1ZKRvXVQAAAAASUVORK5CYII="
+}

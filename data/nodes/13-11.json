@@ -1,0 +1,61 @@
+{
+ "id": "13-11",
+ "history": {
+  "name": "X線診断",
+  "name_en": "X-ray diagnosis",
+  "kind": "tech",
+  "trunk": "13",
+  "trunk_name": "医薬・衛生",
+  "year": 1895,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "レントゲンは特許を取らず、誰でも使えるようにした",
+  "hee1_en": "Röntgen did not patent it, so that anyone could use it.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [
+   {
+    "name": "レントゲン",
+    "tool": "🦴 手の骨の写真",
+    "year": "1895",
+    "intro": "1895年、放電管から出る見えない光線で妻の手の骨を写した",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACDElEQVR42mNgGAUjHTCSolhLTvQ/MequPXpNtLksxCo0UZX8rywphCH+/ssPbMr/E+sIRmJ9LiPCR1LQPnnziaiQYKKF5QwMDAwyInxERRnTQCfCoeWAZZNqGZZNqiXIbipJpV42hKUBmAXEgDuPXjDU9cwmKiGykBICUXnNKKGBS45qIVCRHPg/wNmcgYGBgUFFToKkEICBDXtPMnTMXc9IlRDgNAxl0NPUZLh0/TrD9/OrccoxPJpMvUR49zHCN9/Pr2bYOKkIxXKYb7HJIesl2wHKshIMdT2z4XEsISKAUy1Mrq5nNkNdz2wGZVkJyh2wYe9JzKhgZ4OzX779gFUcl16S0gAs8WjJif4X5OFARMXPXwwMDAwMF248YODmxBSH1QW78CQ+khLhtUevGZHLdeQsh15QkVIRkdQeQK+UAuSUUYP70V2Sa0KyGiQwR3z98YuBm4ON7GqYLAfAHPHz9x8G9MbJkzefSG4NkeUAbKFBqq9JdoCoqAQ8AVZUFDEwMDAwxMXFoKhZtGgJJOd09MHFXr9+wUiRA2AW8/EhCh9l/t/4S86PrHD2p08fCDqEhViLyQFI+v/jcggjqRZ//fqFgZubh+HEiX0o4hYWTnA5XABbiLBQ08fkhAgjzAHEWE7Ih8SqgYXG69cvGAe8UcqCHj+4wM+fPxjY2TkIqoMGLQM7OwdRDgAAg5T4sX7nUVkAAAAASUVORK5CYII="
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "B-03"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1895 ヴィルヘルム・レントゲンが放電管から出る見えない光線で妻の手の骨を撮影（1901 第1回ノーベル物理学賞）。数か月で病院に広まった"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "解説のみ（X線管は枝）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAfklEQVR42mNgoBAwMjAwMKipaf0nR/OtW9cYmdAFq8qyGKrKshiIFcfpgqqyLIa2rmkYbHQX4PUCzEZsmmEGsKArRgbILsAlx4JNkJALkA1kQdaMyyZs4hgGYAsoWMgPbhdgRCOyJLZYQDaMKumACZffkG3FFwYUZyZKczMDADhpW6fVNg5xAAAAAElFTkSuQmCC"
+}

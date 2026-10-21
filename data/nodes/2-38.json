@@ -1,0 +1,84 @@
+{
+ "id": "2-38",
+ "history": {
+  "name": "PTFE",
+  "name_en": "PTFE",
+  "kind": "tech",
+  "trunk": "2",
+  "trunk_name": "化学",
+  "year": 1938,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "マンハッタン計画で UF6（腐食性ガス）を扱うのに使われた",
+  "hee1_en": "It was used in the Manhattan Project to handle UF6 (a corrosive gas).",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "C17. 布を白くする粉と、甘いにおいの麻酔（さらし粉・クロロホルム）［2-38 の前半］",
+    "answer": "消石灰に塩素を吸わせると、次亜塩素酸カルシウムを含むさらし粉になる（1799 テナントの特許）。さらし粉でエタノールを酸化・塩素化すると、炭素1つのクロロホルム CHCl3 が切りはなされる（ハロホルム反応）。クロロホルムは1831年に3人が別々に作り、1847年にシンプソンが麻酔に使った。今はフロンや PTFE の原料。PTFE の次の段（CHCl3 + 2HF → CHClF2）は五塩化アンチモンの触媒が要る（スワーツ反応、1890年代）。",
+    "hee": {
+     "1": "さらし粉のおかげで、布を白くするのに何か月も日に当てなくてよくなった。",
+     "2": "クロロホルムは昔の手術の麻酔。体に悪いので今は使わない。",
+     "3": "同じ年（1831）に、アメリカ・フランス・ドイツの3人が別々に作った。",
+     "4": "フッ素を付けるスワーツ反応は、アンチモンの化合物がフッ素を運ぶ役をする。"
+    },
+    "certainty": "反応 ◎／テナント 1799・1831 の3人・シンプソン 1847 ◎／スワーツ反応の SbCl5 触媒 ◎",
+    "basis": "- Wikipedia「Bleaching powder」/「Calcium hypochlorite」：https://en.wikipedia.org/wiki/Calcium_hypochlorite"
+   },
+   {
+    "title": "C22. 空なのに重いボンベ（PTFE、テフロン）［2-38］",
+    "answer": "1938年4月、デュポンのロイ・プランケットは、冷媒（フロン）を作る実験のためにテトラフルオロエチレン（TFE）をボンベにためていた。弁を開けてもガスが出ないのに重さは変わらず、ボンベを切ると中に白いすべすべの粉がたまっていた。TFE が勝手に重合したポリテトラフルオロエチレン（PTFE）だった（1941 特許、1945 商標テフロン）。TFE は、クロロホルムにアンチモンの触媒でフッ化水素を反応させた R-22（CHClF2、スワーツ反応）を約700℃で熱分解して作る。",
+    "hee": {
+     "1": "テフロンは、空っぽなのに重いボンベの中から見つかった。",
+     "2": "フッ素が炭素をすき間なく包むので、ほとんど何にも溶けず、何もくっつかない。",
+     "3": "マンハッタン計画で、ウラン濃縮の腐食性の六フッ化ウランを扱う部品に使われた。",
+     "4": "R-22 はオゾン層を壊すので、モントリオール議定書で冷媒としては減らすことになった。"
+    },
+    "certainty": "プランケット 1938 の発見の話 ◎／スワーツ反応・熱分解の反応 ◎／マンハッタン計画での使用 ◎／商標 1945 ○",
+    "basis": "- Science History Institute「Roy J. Plunkett」：https://www.sciencehistory.org/education/scientific-biographies/roy-j-plunkett/"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "2-10"
+    ]
+   ],
+   [
+    [
+     "2-39",
+     "6-05"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1938 デュポンのプランケット（冷媒 TFE のボンベが空なのに重く、中で白い粉＝重合していた）。CHCl3+2HF→CHClF2+2HCl、2CHClF2→C2F4+2HCl（約700℃）、n C2F4→(C2F4)n"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "重",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "HF に侵されない容器・配管 → [2-10]鉛容器の上位",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAeUlEQVR42mNgGPKAEZlj5eDzH5uiYwe2MBI0wMrB5/+bZ/ewKhKRUsJpCBMhzQwMDAxvnt3D6TombIJxaXkMcWl5RIUBC7GB5eXjw8DAwPAfPWywGrBo1iSiY4FoF2zbsgVrQDJRmg6YYH4RkVLCqQhfNFKckIYBAAAwyCm/QGxc5gAAAABJRU5ErkJggg=="
+}

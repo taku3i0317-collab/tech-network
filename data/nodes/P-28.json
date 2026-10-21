@@ -1,0 +1,66 @@
+{
+ "id": "P-28",
+ "history": {
+  "name": "マイク",
+  "name_en": "Microphone",
+  "kind": "product",
+  "trunk": "P",
+  "trunk_name": "モノ（作品）",
+  "year": 1962,
+  "year_range": "1876〜2003",
+  "year_uncertain": false,
+  "hee1": "カラオケのマイクは、スピーカーを逆向きに使っているのと同じしくみ",
+  "hee1_en": "A karaoke microphone works the same way as a speaker used in reverse.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://www.aps.org/apsnews/2023/04/electret-microphone",
+   "https://www.mixonline.com/?p=83703"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "15-25"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [
+   "9-24",
+   "15-23",
+   "15-24",
+   "15-25",
+   "15-26"
+  ],
+  "materials": [
+   "銅",
+   "ネオジム",
+   "シリコン"
+  ],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "マイクは音（空気のふるえ）で薄い膜をゆらし、その動きを電気に変える。ダイナミックマイクは磁石のそばのコイルが動いて電気を起こし（スピーカーの逆）、コンデンサーマイクは膜と板のすき間の変化を電気にする。1962年にベル研究所でできたエレクトレットマイクは、電気をためたままの膜を使うので小さく安く、スマホではさらにシリコンを削った MEMS マイク（2003年に市販）が使われる"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "作品：声を電気に変えて、遠くや録音へ送る",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAg0lEQVR42mNgoCWwcvD5b+Xg8x+fGiZ8mt88u8fw5tk9BnyGMFHqStoYoKam9d/LxwfO9/LxYVBT0/pPExcw4nIBAwMDQ1xaHgMDAwPDolmTGBgYGBhu3brGSJQByIbAADbNtE0HAxuNpAAWbP5Gjn8ogIsdO7CFEa8ByGDbli0MNAcAINcnxqKWTWgAAAAASUVORK5CYII="
+}

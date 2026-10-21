@@ -1,0 +1,60 @@
+{
+ "id": "10-35",
+ "history": {
+  "name": "回路シミュレーター",
+  "name_en": "Circuit simulator",
+  "kind": "tech",
+  "trunk": "10",
+  "trunk_name": "制御・計算",
+  "year": 1971,
+  "year_range": "1969〜1973",
+  "year_uncertain": false,
+  "hee1": "チップは作る前に、コンピュータの中で何度も動かして確かめている（O-011 で追加。出典：IEEE Milestones「SPICE, 1969-1970」、IEEE Milestone「SPICE, 1969-1970」（ETHW）（https://ethw.org/Milestones:SPICE_Circuit_Simulation_Program））",
+  "hee1_en": "Before chips are made, they are run many times inside a computer to check them. (Added in O-011. Sources: IEEE Milestones \"SPICE, 1969-1970\", IEEE Milestone \"SPICE, 1969-1970\" (ETHW) (https://ethw.org/Milestones:SPICE_Circuit_Simulation_Program))",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "10-31"
+    ]
+   ],
+   [
+    [
+     "9-22"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-54"
+  ],
+  "frontier": false,
+  "real": "IC は作ってから直せないので、作る前に計算機の中で回路を動かして確かめる。トランジスタのふるまいを式（デバイスモデル）にして入れ、電圧と電流を計算する。1969〜70年、カリフォルニア大学バークレー校の授業の課題から生まれ、1971年に SPICE（IC を重視した回路のシミュレーションのプログラム）として公開された（IEEE マイルストーン）。誰でも使える形で配られたので、世界中の IC の設計の標準の道具になった"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAmUlEQVR42qWTvQ2DMBCFPyNmuYIVsgGKqDwMI1BlElcIeYOsQHHLQOWIkBgO8zr/vO+e7Du4KQcg0iwlZtXZ1WnRtt0lc4wjANV208twOUVtubQHB+1tgGTcGswJvAyHxqTqjjkLKH7Ex9PDZK/+A3hP4QM5UvYXgvaEF0BBgtRZuc7cn3/Nwj+JNEuCxDiiOjsT4GywcqBirWPtMkmi6uW7AAAAAElFTkSuQmCC"
+}

@@ -1,0 +1,78 @@
+{
+ "id": "0-09",
+ "history": {
+  "name": "車輪",
+  "name_en": "Wheel",
+  "kind": "product",
+  "trunk": "0",
+  "trunk_name": "生存・道具",
+  "year": -3500,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "車輪より先に、焼き物を作る回転台（ろくろ）があった",
+  "hee1_en": "Before the wheel, there was the potter's wheel, a turning table for making pottery.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "S9. 車輪より先にろくろ（回る物の流れ）［0-19］［0-09］",
+    "answer": "重い円盤は一度回すと回り続ける（はずみ車）。紡錘車 [0-07] と同じしくみを、焼き物の回転台（ろくろ）が使い、回る粘土を薄く均一に引き上げた。乗り物の車輪はそれより後で、板をつないで円く削った円盤だった。転がると、こすれるのは車軸の所だけになる。",
+    "hee": {
+     "1": "車輪より先に、焼き物を作る回転台（ろくろ）があった。",
+     "2": "けって速く回すろくろは「はずみ車の原理」（重い石の円盤に回転のエネルギーをためる）。",
+     "3": "最古とされるろくろはククテニ・トリピリア文化（紀元前4500年ごろ）⚠️、ウルクの石のろくろは紀元前3129年ごろ。",
+     "4": "ウルクの絵文字の車は紀元前3500〜3350年、現物の最古級はリュブリャナ湿原の木の車輪（紀元前3130年ごろ）⚠️。日本のろくろは5世紀ごろ須恵器とともに。"
+    },
+    "certainty": "はずみ車のしくみ ◎／ククテニ・トリピリアのろくろ △（Wikipedia の記述のみ、起源は「はっきりしない」とも）→ ⚠️／ウルクの絵文字 ○／リュブリャナの車輪（統計的に紀元前3340〜3030年）○ だが「最古」は見つかり方しだい → ⚠️／須恵器とろくろ ○",
+    "basis": "- Wikipedia「Potter's wheel」：https://en.wikipedia.org/wiki/Potter%27s_wheel"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "0-08"
+    ]
+   ],
+   [
+    [
+     "0-19"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "約紀元前3500年メソポタミア。現存最古級はリュブリャナ湿原の車輪（紀元前3150年頃⚠️）。ろくろ（陶工の回転台）が先行したとされる"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "軽",
+  "missing": "",
+  "item": "wooden_wheel",
+  "recipes": [
+   "作業台：木材×3 ＋ 磨製石斧 → 木の車輪"
+  ],
+  "machine_recipes": [],
+  "placeholder": "近似：板をつなぐ桟（さん）や、車軸の穴をあける手間はない。",
+  "game_text": "新規アイテム「木の車輪」",
+  "hee_game": {
+   "note1": "板を円く削った車輪。まん中の穴に車軸を通して、荷車にする。",
+   "note2": "板材3＋磨製石斧で作る（斧は戻るが少し傷む）。荷車 [0-13] に使う予定。",
+   "note3": "最初の車輪は、板をつないで円く削った重い円盤だった。転がすと、地面とこすれ合うのは車輪の外側ではなく、車軸と穴のところだけになる。だから引きずるより、ずっと小さい力で重い物を運べる。",
+   "note4": "メソポタミアのウルクの絵文字に紀元前3500〜3350年ごろの車が描かれている。現物で最古級は、スロベニアのリュブリャナ湿原で見つかった木の車輪（紀元前3130年ごろ）⚠️ で、車輪と車軸がいっしょに回る作りだった。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAhElEQVR42mNgoBAwogsk2Sn9h7GNBPgYGBgYGM59+ASXn3foHooeJnTNXjZqKJqR2V42aigWoBiArBkfQDeEiRTN2AxhojQQ8Rpw7sMnlAAkyQBkjfgMoZ0XsEUjNsCCz3R8GqnrhXmH7jFuO3KLaE3bjtyCJ2km5DROjCHImqmSmSgGANT1O0cYgTAoAAAAAElFTkSuQmCC"
+}

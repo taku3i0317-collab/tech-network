@@ -1,0 +1,68 @@
+{
+ "id": "14-09",
+ "history": {
+  "name": "内燃機関",
+  "name_en": "Internal combustion engine",
+  "kind": "tech",
+  "trunk": "14",
+  "trunk_name": "輸送",
+  "year": 1876,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "エンジンの4拍子は「吸って、縮めて、燃やして、吐く」",
+  "hee1_en": "An engine's four beats are \"suck, squeeze, bang, blow.\"",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "8-01"
+    ]
+   ],
+   [
+    [
+     "1-26"
+    ]
+   ],
+   [
+    [
+     "3-19"
+    ],
+    [
+     "2-39"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-41"
+  ],
+  "frontier": false,
+  "real": "1876 ニコラウス・オットーの4サイクル（吸気・圧縮・燃焼・排気）。初期の燃料は石炭ガス。原油はこのMODでは扱わないので燃料はエタノール（フォード T型もエタノールで走れた⚠️）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "小型の動力源（[4-02]より軽い）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAeElEQVR42mNgoBU4Mo3hPzY2yYZQpNnKwee/lYMPXkMYkTlWDj4oCo8d2MKITxwDICvEFQbohrHgcppNFgMjTKNNFgMjLnUs+Fxx4JsPVGwLzjBgQhfA6T8cciwEFP4nZCgTpQmOiYGWAJaQyHIBskZChtDGAGIBAO5LQBYPA4KbAAAAAElFTkSuQmCC"
+}

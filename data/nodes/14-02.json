@@ -1,0 +1,61 @@
+{
+ "id": "14-02",
+ "history": {
+  "name": "羅針盤",
+  "name_en": "Compass",
+  "kind": "product",
+  "trunk": "14",
+  "trunk_name": "輸送",
+  "year": 1088,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "方位磁針は地球そのものが大きな磁石だから動く",
+  "hee1_en": "A compass needle moves because the Earth itself is a giant magnet.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [
+   {
+    "name": "沈括",
+    "tool": "🧭 磁針",
+    "year": "1088",
+    "intro": "1088年、『夢渓筆談』に磁針と、磁針が真北からずれること（偏角）を書いた",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACJUlEQVR42mNkIANIiAj9xyb+4s07RlLNYmEgEwjw8aDwP3z6QpY5BF3Mz4/pWy4uHqxqv33DdMTHj/hDhagQwGUhIXXYHIQOmBgGGAy4AxixxTE5wY8LEIqGAQ8BFkKplJOV4T96liMWfPj0hWAuGFqJcMeEHIYdE3IIsqeVhlOvIJIQEfovwMcDt4AYcO/pa4as7pUMHz59IVg8k1QUexRMQQkNXHJUC4GiKLf/Prb6DAwMDAxK0qIkhQAMbDl8kaFv2S5GqqQBUedsBuecKQyiztkkyVEUAlpKUgxK0qLwEHj57hODuBAfim/R5WAhcO/pa4Zr955RFgLoQY9sOTpAlyMm2gg6YMvhixhiHOyscPard5+wiuPSS1IuQAq6/3kRLnDxHz9/MzAwMDBcvvOEgZuTHUOcmMRHUjaEGgR3BHKWQy+oSLGcrCaZR8EUhh0TchjOrz2NIm4YbAqXo2qTDD1X4AoFmMWTVuwh2vckhwAsKkQEMGvHZTtOMLz58IUky0kOAWx1BKzaJadJTrQDVGwSMFpNLM/2ofD/SDlh6LtzZAFluQBmsYSGA4r4u0cXGP6hqWXjEmAQkjNAN+I/IYewkGIxMhBxasJwFEY0IfTjdAgjqRa/e3QBm08JyjEwMDC8uHEAI2pYiLWYGgBbiDBhkSTL9wwMDAxCcgZYowKPQwZBsxw9fnCBr+8eM3ALyRJUx8DAwHD32GIGbiFZohwAADpU6+lO1BoUAAAAAElFTkSuQmCC"
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-47"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1088 沈括『夢渓筆談』が磁針と磁気偏角を記録。12世紀ごろ航海に使用"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "バニラのコンパス＝本物の近似（本物は北極を指す、マイクラは初期スポーンを指す）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAdklEQVR42mNgoCXoclH73+Wi9h+fGkZsmvBpKNtzixGnAcia0RXik8PpXCsHn/9WDj7/8aljojScmPD5j5gwYMIVcFYOPv9nubAxzHJhY0D3BrIenF4IYLmFlY03zolNBzgDkVAawKaG4ligOCFRnJQpzkwUAwA1eEaTopMIMAAAAABJRU5ErkJggg=="
+}

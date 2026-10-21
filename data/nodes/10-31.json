@@ -1,0 +1,58 @@
+{
+ "id": "10-31",
+ "history": {
+  "name": "プログラム内蔵方式",
+  "name_en": "Stored-program computer",
+  "kind": "tech",
+  "trunk": "10",
+  "trunk_name": "制御・計算",
+  "year": 1948,
+  "year_range": "1945〜1949",
+  "year_uncertain": false,
+  "hee1": "最初のプログラム内蔵式の計算機は、テレビのようなブラウン管の画面の点で数を覚えていた（O-008 で追加。出典：IEEE Milestones「Manchester University Baby Computer 1948-1951」、Wikipedia「Turing Award」）",
+  "hee1_en": "The first stored-program computer remembered numbers as dots on a CRT screen, like a TV. (Added in O-008. Sources: IEEE Milestones \"Manchester University Baby Computer 1948-1951\", Wikipedia \"Turing Award\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "10-07"
+    ]
+   ],
+   [
+    [
+     "15-11"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "それまでの電子計算機（ENIAC など）は、計算の手順を変えるたびに配線をつなぎかえていた。手順（プログラム）を数として記憶の中に入れておけば、読み出して次々に実行でき、すぐに取り替えられる。この考えは1945年のフォン・ノイマンの EDVAC の報告書の草稿、エッカートとモークリーの構想、チューリングの ACE の設計に書かれた。1948年6月21日、イギリスのマンチェスター大学の「ベビー」（フレデリック・ウィリアムズ、トム・キルバーンら）が、ブラウン管の画面の電荷を記憶にして最初のプログラムを動かした（IEEE マイルストーン）。1949年にはケンブリッジ大学の EDSAC（モーリス・ウィルクス）が毎日の計算に使われ始めた。「世界初」は定義しだいで説が分かれる。今のパソコン・スマホの CPU（[10-13]）もこの方式"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAxElEQVR42q1Suw2DMBB9jpjlCq8AEyCUylNQpfQIVBEVZSZwhSJP4KxA4WUuRWQEBmLnc5Wld353790DfiwBAESS90DvJ5EiKMKjrs8rwNoxa4NTqsEN4KwNFHURpHG7TFw2Cg5mRVK1EBsC4/VGQt9DOBiuWggiyUEm0cjBo6SE5bQ9vw4lWCs3ZIo6lI3C425m/FACkHeF4pPQGK9hri+Dw4CkBDeAYx+WGZmTGAcp1pw8Y1zxGb9O4rvPqw1ys//3egKjTUmhRlwMdgAAAABJRU5ErkJggg=="
+}

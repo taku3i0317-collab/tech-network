@@ -1,0 +1,61 @@
+{
+ "id": "I-26",
+ "history": {
+  "name": "熱電子放出",
+  "name_en": "Thermionic emission",
+  "kind": "idea",
+  "trunk": "I",
+  "trunk_name": "発見・考え方",
+  "year": 1901,
+  "year_range": "1880〜1903",
+  "year_uncertain": false,
+  "hee1": "真空管の中では、熱く光る金属から電子が湯気のように飛び出している",
+  "hee1_en": "Inside a vacuum tube, electrons fly out of hot glowing metal like steam",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://www.nobelprize.org/prizes/physics/1928/summary/",
+   "https://technav.ieee.org/topic/thermionic-emission/"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "B-01"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [
+   "8-11"
+  ],
+  "explains": [
+   "1-28",
+   "5-02"
+  ],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1880〜1883年、エジソンが電球の中に金属板を入れると、熱いフィラメントから板へ一方向だけ電流が流れることに気づいた（エジソン効果、1883年特許）。1901〜1903年、イギリスのオーエン・リチャードソンが、熱い金属から電子が飛び出す量と温度の関係を式にした（1928年ノーベル物理学賞）。真空管は熱した陰極から出る電子で動き、陰極に高温に耐えるタングステンを使うのもこのため。GE のラングミュアは高い真空で放出が安定することを示し、1913年のクーリッジの熱陰極 X 線管につながった"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "実験：真空の管の中のフィラメントを熱くしたときだけ、電流が一方向に流れるのを見る",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAR0lEQVR42mNgoBAwwhhWDj7/SdF47MAWRgYGBgYmhkEHjkxj+E8Kn2yDaO8Csv1OLE19Q0hJSMhqKU5ITMgmEuMKUtQOEQAA9AY9mpkJfb8AAAAASUVORK5CYII="
+}

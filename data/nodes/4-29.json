@@ -1,0 +1,71 @@
+{
+ "id": "4-29",
+ "history": {
+  "name": "ガスタービンとジェットエンジン",
+  "name_en": "Gas turbines and jet engines",
+  "kind": "tech",
+  "trunk": "4",
+  "trunk_name": "動力・電気",
+  "year": 1939,
+  "year_range": "1937〜1939",
+  "year_uncertain": false,
+  "hee1": "旅客機のエンジンの前の大きなファンも、後ろのタービンが回している（O-010 で追加。出典：ASME Landmark #135「Neuchâtel Gas Turbine」、日本機械学会「機械遺産 No.007」）",
+  "hee1_en": "The big fan at the front of an airliner engine is also turned by the turbine at the back (added in O-010. Sources: ASME Landmark #135 \"Neuchâtel Gas Turbine\", JSME \"Mechanical Engineering Heritage No.007\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [
+   {
+    "name": "フランク・ホイットル",
+    "tool": "✈️ ジェットエンジン",
+    "year": "1937",
+    "intro": "1937年、ジェットエンジンを試運転した（1907〜1996）",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACRElEQVR42u1WPUgbYRh+Eg6NBlSOCBFMHOI/GGJpt0oLUpcONoOLgn/B1SlDFh10sJRMOkrpVaVLC9bBsSA0FFw0pOAfEfR0OPGMUfxfvi7mvL9cvk9zk32n7973+e553ufeu/uA//Hcw8ECbvVXExrchnhMfV+OFviyoYYEanhD/vTixgxOaEU4aDuv9VQo19+mx0xxvaOTyvpQPqdywlkscn2t1lNB9cicLDNgRc6CebQAO4JawER0BHZgqQXU+722OMCxgNVTrn/W6hqLA5avSSwSJmvrKebhSosSxuOzAIAX7UF8/LzoKIoDZe09CLa0ILW5iev173lrEGeK50BbYx0CPq8yA5KchddTpelWX0uLEgBg90DC3519SwcKDmHApx0+Nbk+9DX93kcJ+Plr1fgoSkuU9dFJ1jSfby/TDKisI9GhbiV/fXsHAEhu7cFd5jLkc+RW1jP/jmORsEaEVcS/LFGRM78F6vg9u6y57hh5b/+BhMYFlu6ZBeREVPOVGOh+q8l/XVrBceaMifxJEYuEiZwQiJwQSCwSJrDzX1D/etBA8KGzGaSp634t4cd2pQGTTgiOJwnIEXubtXZnxCQA4FXHMFzlPIRoECXlVeD9IcPZsJAQjoVY85V71w9XPKWsIXwyfhkf9ucVwrESZ8SkWafg/aG8NSshHC2xOhanukxzb/qSlvvMhDhNiszd610oFGou5kOpWfc0tYJDKG2tWAIvMwdw8z7MzS0ouaycBgBN7u4qi90/83DzPioB/wBiB+eDnhR/iwAAAABJRU5ErkJggg=="
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "4-06"
+    ]
+   ],
+   [
+    [
+     "6-03"
+    ]
+   ],
+   [
+    [
+     "1-37"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "空気を圧縮機で押しこみ、燃料を燃やした熱いガスでタービンを回す。タービンの力の一部で圧縮機を回し、残りで発電機を回すのがガスタービン、後ろへ噴き出すガスの反動で進むのがジェットエンジン。1937年にイギリスのフランク・ホイットルが試運転し、ドイツのハンス・フォン・オハインも互いを知らずに独立に作った（1939年に初飛行）。1939年、スイスのブラウン・ボベリ社がノイシャテルで発電用のガスタービンを動かした（ASME ランドマーク）。今の火力発電所の多くと旅客機のエンジンはこのしくみ。効率は熱力学（[I-02]）で決まる"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAwUlEQVR42u2SsQ2DMBBFn5HFKAxB5SIFQi6YhSJDpGAWCgtRpKDyEB4FITlNjhiQUAqkNPnNl3X3/787GX4NlT5KY+M3Ij85dTAojY2NDgD0S7FpSs395FRpbJR6lornqj1Nrq1FxGKo0+S0sdEh9ktBowPC87sGrCaZiOaqJR+7DctUwvnYrQGPWxHXFYCDOB87+qXYsKw4OMf9GRSA9pNT7NYYnMNPQUHAAxDA2Fivtc8hM7mspJxhL77kH/xxAV4sr34MIdmkqQAAAABJRU5ErkJggg=="
+}

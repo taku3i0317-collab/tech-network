@@ -1,0 +1,58 @@
+{
+ "id": "B-18",
+ "history": {
+  "name": "液晶ディスプレイ",
+  "name_en": "Liquid crystal display",
+  "kind": "tech",
+  "trunk": "B",
+  "trunk_name": "枝",
+  "year": 1971,
+  "year_range": "1888〜1973",
+  "year_uncertain": false,
+  "hee1": "液晶はそれ自体は光らず、電気で向きを変えて光の通り道を開け閉めしている（S-002 で追加。出典：Wikipedia「Liquid crystal」「Twisted nematic field effect」、KIT「100 Objekte」）",
+  "hee1_en": "Liquid crystal doesn't glow by itself; electricity turns it to open and close the path for light (added in S-002. Sources: Wikipedia \"Liquid crystal\", \"Twisted nematic field effect\", KIT \"100 Objekte\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "B-06"
+    ]
+   ],
+   [
+    [
+     "2-14"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1888年、オーストリアのライニッツァーが安息香酸コレステリルに「融点が2つある」（約145℃でにごった液体、約179℃で透明）ことを見つけ、レーマンが液体と結晶の間の状態＝液晶と考えた。1970〜71年、ロシュ社（スイス）の研究者たちが、ねじれた並び（ツイストネマチック＝TN）の液晶を2枚の偏光板ではさみ、電圧をかけると並びがほどけて光が止まる方式を発表した（同じころ米国のファーガソンも独立に発明）。それより前の1964〜68年、アメリカの RCA のハイルマイヤーらが、電圧で液晶をにごらせる方式（動的散乱）で最初の液晶ディスプレイを見せた（IEEE マイルストーン「Liquid Crystal Display, 1968」）。1973年に室温で使える液晶材料（シアノビフェニル、英国のグレイ）ができ、同じ年のシャープの電卓 EL-805 は液晶と CMOS で電池が長くもつ薄い電卓になり（未来技術遺産）、電卓・腕時計に広まった"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAX0lEQVR42mNgoBAwMjAwMFiUdf0nR/OJrjJGFhinJCmCJM0981YwMDAwMLBgk6zy88CqqW3TDgwxFmyasSnEJcdEaSBSbAALNn+OhgGFYYBLIa5wINkL6IazoKdtugMAOiMovhz9XiEAAAAASUVORK5CYII="
+}

@@ -1,0 +1,70 @@
+{
+ "id": "P-11",
+ "history": {
+  "name": "電源ユニット",
+  "name_en": "Power supply unit",
+  "kind": "product",
+  "trunk": "P",
+  "trunk_name": "モノ（作品）",
+  "year": 1970,
+  "year_range": "1960年代後半〜1977",
+  "year_uncertain": false,
+  "hee1": "電源の箱が小さいのは、電気を1秒に何万回も入れたり切ったりしているから",
+  "hee1_en": "A power supply box is small because it switches the electricity on and off tens of thousands of times a second",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://en.wikipedia.org/wiki/Power_supply_unit_(computer)",
+   "https://spectrum.ieee.org/a-half-century-ago-better-transistors-and-switching-regulators-revolutionized-the-design-of-computer-power-supplies"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "4-19"
+    ]
+   ],
+   [
+    [
+     "4-10"
+    ]
+   ],
+   [
+    [
+     "4-11"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [
+   "銅",
+   "鋼",
+   "シリコン"
+  ],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "コンセントの交流（100V）を、パソコンの部品が使う低い電圧の直流（12V・5V など）に変える箱。中はスイッチング電源で、1秒に何万回も電気を入れたり切ったりして、小さな変圧器で電圧を下げる"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "作品：電気を受けて、パソコンの部品に配る",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAd0lEQVR42mNgGPKAkYGBgcHKwec/OZqPHdjCyALjePn4kKR525YtDAwMDAwsyIKLZk3CUBiXlochBxNjYGBgYELXDJMkpBHDAGya0TVgcyFBL+CzHcMFMIUwjA7wuiAuLY9h0axJGIpw2YzVC4QUY5NnQY/XEQgA+rUsnLqm4DEAAAAASUVORK5CYII="
+}

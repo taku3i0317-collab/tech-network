@@ -1,0 +1,76 @@
+{
+ "id": "8-17",
+ "history": {
+  "name": "アライメント",
+  "name_en": "Alignment",
+  "kind": "tech",
+  "trunk": "8",
+  "trunk_name": "精密・計測",
+  "year": 1960,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "何十枚の透明な絵を、髪の毛の数万分の1のずれで重ねる",
+  "hee1_en": "Dozens of transparent pictures are stacked off by only a few ten-thousandths of a hair's width.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "O45. 何枚もの絵をぴったり重ねる（アライメント）［8-17］",
+    "answer": "IC は何枚ものマスクを順に焼いて作るので、2枚目からは前の層の合わせマークを顕微鏡で見て、台のねじでマスクを動かしてぴったり重ねる（アライメント）。1960年代のマスクアライナーは、分割視野の顕微鏡と手のノブで µm 単位に合わせた。ずれの細かさは、台のねじの送り・顕微鏡の分解能・床の揺れで決まる。",
+    "hee": {
+     "1": "何十枚の透明な絵を、髪の毛の数万分の1のずれで重ねる。",
+     "2": "今の露光装置の重ね合わせのずれは 1〜2nm。",
+     "3": "合わせが悪いと、トランジスタの窓と配線がずれて回路がつながらない。",
+     "4": "ねじの送り（ボールねじ）・顕微鏡・除振台・メートルを光で測る技術——精密機械の全部がここに集まる。"
+    },
+    "certainty": "1960年代のマスクアライナー（分割視野の顕微鏡・手動）○／現代の重ね合わせ 1〜2nm ○",
+    "basis": "- Wikipedia「Aligner」（マスクアライナー）：https://en.wikipedia.org/wiki/Aligner"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "8-10"
+    ]
+   ],
+   [
+    [
+     "8-08"
+    ]
+   ],
+   [
+    [
+     "8-06"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "IC は数十枚のマスクを重ねて作る。前の層のマークを顕微鏡で見て次のマスクを合わせる（1960年代のマスクアライナーは手動ノブ、現代は1〜2nm の誤差）"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "実験（台のねじと揺れでずれが変わる）",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "露光装置の overlay_error パラメータ（ROADMAP v0.5 #6）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAhElEQVR42mNgoCWwcvD5b+Xg8x+fGiZKLWHBJtjlovafgYGB4ZeHDwMDAwNDAMut/wwMDAxle24xEjQRphmbF5DlCGrGFQboaqgTBjBbfnn4MFj92QK34diBLYzI8uhqjh3YwshE1XgfkDCgOBoZ8SekIgYGBgYGth19DEQnJLrnBYoBALeVRJGtSbChAAAAAElFTkSuQmCC"
+}

@@ -1,0 +1,58 @@
+{
+ "id": "I-42",
+ "history": {
+  "name": "特性X線とモーズリーの法則",
+  "name_en": "Characteristic X-rays and Moseley's law",
+  "kind": "idea",
+  "trunk": "I",
+  "trunk_name": "発見・考え方",
+  "year": 1913,
+  "year_range": "1906〜1924",
+  "year_uncertain": false,
+  "hee1": "周期表の順番は、原子の重さではなく原子核の電気の量で決まっている",
+  "hee1_en": "The order of the periodic table is set not by atomic weight but by the electric charge of the nucleus",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://www.nobelprize.org/prizes/physics/1917/summary/",
+   "https://www.nobelprize.org/prizes/physics/1924/summary/"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "B-03"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [
+   "I-03"
+  ],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "X線管で元素に電子を当てると、元素ごとに決まった波長の X線（特性X線）が出る。1906〜11年にイギリスのチャールズ・バークラが見つけ（1917年ノーベル物理学賞）、1913年にヘンリー・モーズリーが、その振動数が原子番号（原子核の電気の量）で決まることを示した。これで周期表の順番は原子の重さではなく原子番号で決まり、まだ見つかっていない元素の席も分かった。モーズリーは1915年にガリポリの戦いで戦死した ⚠️。スウェーデンのマンネ・シーグバーンが X線の分光を精密にした（1924年ノーベル物理学賞）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "実験：いろいろな金属に電子を当て、出てくる X線の色（波長）を順に並べる",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAV0lEQVR42mNgoAawcvD5T65eJlI1TMsT+T8tT+Q/2QZQ7AJ0wEKK0xkYGBiyJr1hHBgXLLlkwXDswBZGsqKRYDRjU4AeXfSLBVyhTTMXMFKSF3DGCl0BAMGJH3N45xB6AAAAAElFTkSuQmCC"
+}

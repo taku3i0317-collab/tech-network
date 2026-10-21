@@ -1,0 +1,68 @@
+{
+ "id": "4-26",
+ "history": {
+  "name": "EV の急速充電",
+  "name_en": "EV fast charging",
+  "kind": "tech",
+  "trunk": "4",
+  "trunk_name": "動力・電気",
+  "year": 2010,
+  "year_range": "2006〜2014",
+  "year_uncertain": false,
+  "hee1": "急速充電では、充電器と車が話し合いながら「今はこれくらいの電流」と決めている。（S-004 で追加。出典：en.wikipedia.org、www4.tepco.co.jp）",
+  "hee1_en": "In fast charging, the charger and the car talk to each other and decide \"this much current right now\". (Added in S-004. Sources: en.wikipedia.org, www4.tepco.co.jp)",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "9-41"
+    ]
+   ],
+   [
+    [
+     "4-15"
+    ]
+   ],
+   [
+    [
+     "4-11"
+    ]
+   ],
+   [
+    [
+     "14-11"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "家のコンセントの交流は車の中の充電器で直流にするが、急速充電は外の大きな機械が直流を直接電池に入れる。東京電力が自動車会社と2006〜2009年に実験した方式をもとに、2010年3月に CHAdeMO 協議会ができた（会社名は歴史の例）。第1世代は最大 500V・125A。車と充電器が通信して、電池の状態に合わせて電流を決める。世界には CCS など別の規格もある"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAw0lEQVR42tVSuxGDMAx99nkWFV4BJuA4Kk+QkorSI1BSpcwErjiOCcIKFF7GqczZxnxyqaJGsiydnvQe8KMxHxBJd1Rk7cqO/kT4eHUrAKCoFZbJAAAegzxFwNOEsRrLZGCsvrWCSBOKehS1AqZ+V/x+wgFA2WK/EpF0RNJ1nY68v41vTmOeHktRH/nbdIQshBNyCEJkPLdn2YKFDWe0ihSFsQ2Ixs1foY2EVFXNrniex21ijgXxjWxz9LErGd+R85/bB+vUXD9umN+AAAAAAElFTkSuQmCC"
+}

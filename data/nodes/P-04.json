@@ -1,0 +1,66 @@
+{
+ "id": "P-04",
+ "history": {
+  "name": "3Dプリンター",
+  "name_en": "3D printer",
+  "kind": "product",
+  "trunk": "P",
+  "trunk_name": "モノ（作品）",
+  "year": 1984,
+  "year_range": "1981〜1986",
+  "year_uncertain": false,
+  "hee1": "3Dプリンターの最初の論文は、日本の研究者が書いた",
+  "hee1_en": "The first paper on 3D printing was written by a Japanese researcher.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://www.asme.org/wwwasmeorg/media/ResourceFiles/AboutASME/Who%20We%20Are/Engineering%20History/Landmarks/261-Stereolithography.pdf",
+   "https://en.wikipedia.org/wiki/3D_printing"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "8-34"
+    ]
+   ],
+   [
+    [
+     "7-13"
+    ]
+   ],
+   [
+    [
+     "10-14"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1981年、小玉秀男（名古屋市工業研究所）が、紫外線で固まる樹脂を1層ずつ固めて立体の模型を作る方法を発表。1984年8月、チャック・ハルが光造形（ステレオリソグラフィ）の装置を出願し、1986年3月に特許（US 4,575,330）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "作品：設計図を入れると、光で樹脂を1層ずつ固めて小さな模型ができる",
+  "missing": "光で固まる樹脂（光重合・光硬化樹脂）, CAD（コンピュータで形を描く）",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAe0lEQVR42mNgoBAwMjAwMFg5+PwnR/OxA1sYGcg1AKaHhZACDNvQAAsuDV4+Puhq/+M1AIsN/2GGbNuyBUOeoBegGv7jcz5eAwhphAEmStMBXgPU1LT+q6lp/SfLAGSN+AxhIqSZkCE40wE2ICKl9J+oVEdWUiY3Q1EMAMWbMmHZSD4NAAAAAElFTkSuQmCC"
+}

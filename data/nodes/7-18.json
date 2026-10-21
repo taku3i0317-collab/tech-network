@@ -1,0 +1,80 @@
+{
+ "id": "7-18",
+ "history": {
+  "name": "EUV 光源",
+  "name_en": "EUV light source",
+  "kind": "tech",
+  "trunk": "7",
+  "trunk_name": "光学",
+  "year": 2010,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "落ちてくる錫の粒をレーザーで撃ち抜いて光らせる",
+  "hee1_en": "Falling droplets of tin are hit by a laser to make them glow",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-30"
+    ]
+   ],
+   [
+    [
+     "7-14"
+    ]
+   ],
+   [
+    [
+     "7-17"
+    ]
+   ],
+   [
+    [
+     "5-07"
+    ]
+   ],
+   [
+    [
+     "6-01"
+    ]
+   ],
+   [
+    [
+     "8-13"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-04"
+  ],
+  "frontier": false,
+  "real": "直径約30μm の Sn 液滴を毎秒5万個落とし、弱いパルスで平たくしてから CO2 レーザーの主パルスで数十万℃のプラズマに → 13.5nm を出す（LPP 方式）。2010年代 サイマー（ASML）が実用化、2019 量産"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAl0lEQVR42s2RvQ2EMAyFXxBzMEiq1Mgls90UlBY1BbpBsoivsmUiCH9COjdJ7LzPzgvwRiwfiF/L/S3IJYAXSR6kBgk1kOTBBKEbN+82Z95fyz+e4JKBVSNjIomJTjnt76486IlwBImJpCeyc6ub78wBgBbF5UyoTSZmq7WeXkAMpEIAK/HuL/huGhMzyqkOv9H7UQr/J368V2WVUQvKYQAAAABJRU5ErkJggg=="
+}

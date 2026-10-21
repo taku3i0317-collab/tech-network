@@ -1,0 +1,71 @@
+{
+ "id": "3-14",
+ "history": {
+  "name": "誘導加熱炉",
+  "name_en": "Induction furnace",
+  "kind": "tech",
+  "trunk": "3",
+  "trunk_name": "熱",
+  "year": 1916,
+  "year_range": "1831〜1918",
+  "year_uncertain": false,
+  "hee1": "IH 調理器と同じ原理。CHEMISTRY #142",
+  "hee1_en": "Same principle as an induction (IH) cooktop. CHEMISTRY #142",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "4-09"
+    ]
+   ],
+   [
+    [
+     "4-03"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-01"
+  ],
+  "frontier": false,
+  "real": "1831 ファラデーの電磁誘導 → 渦電流で導体そのものが発熱。1899〜1900 キェリン（スウェーデン・イェーシンゲ）が低周波誘導炉を建設・操業、1916 ノースラップが高周波誘導炉の特許を出願（US1286395、成立1918）、1918 プリンストン大で高周波（無鉄心）誘導炉を実演（論文1919）"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": "zone_refining_furnace",
+  "recipes": [
+   "作業台：鉄インゴット×3 ＋ 石英管 ＋ 誘導コイル×2 ＋ 電動モーター ＋ 送りねじ ＋ 高周波発振器 → 帯域精製炉"
+  ],
+  "machine_recipes": [
+   "帯域精製炉「帯域精製（1パスで純度が1段上がる：6N→9N→10N）」：還元ゲルマニウム（未精製）（最大8） ＋ 粘土黒鉛ボート（減らない、粘土黒鉛＝9Nまで、人造黒鉛＝10Nまで） → 精製ゲルマニウム（3 kW × 30 秒＝90 kJ）。入れた数だけ出る。GeCl4 経由でない Ge は 9N まで",
+   "帯域精製炉「ゾーンレベリング（n型）」：精製ゲルマニウム（最大8、9N 以上） ＋ 白リン → n型ゲルマニウム（3 kW × 30 秒＝90 kJ）。入れた数だけ出る",
+   "帯域精製炉「ゾーンレベリング（p型）」：精製ゲルマニウム（最大8、9N 以上） ＋ インジウム → p型ゲルマニウム（3 kW × 30 秒＝90 kJ）。入れた数だけ出る"
+  ],
+  "placeholder": null,
+  "game_text": "既存の帯域精製炉（ZoneRefiningFurnace）＝誘導加熱の実例。CHEMISTRY #22 の「仮の高周波電源」を本物の発振器に置き換えるノード",
+  "hee_game": {
+   "note1": "棒の一部だけを溶かして動かすと、汚れが溶けた所について端まで運ばれる。",
+   "note2": "左：ゲルマニウム（最大8）。中央：黒鉛ボート（減らない。粘土黒鉛＝9Nまで、人造黒鉛＝10Nまで）。右：ドーパント。電気で動く：組み込みの高周波発振器が 3kW を使う（電気がないと止まる）。1回30秒。",
+   "note3": "高周波発振器が銅のコイルに電流を流し、変化する磁場がゲルマニウムそのものに電流を起こす（誘導加熱）。だからコイルの中の部分だけが溶け、ボートや石英管はあまり熱くならず、汚れが入りにくい。（IH 調理器と同じ原理。この炉が技術ツリーの [3-14] 誘導加熱炉にあたる）",
+   "note4": "のちにシリコンでは、黒鉛のボートが使えない（シリコンは黒鉛と反応して SiC になる）ため、棒を立てて溶けた帯を表面張力だけで支える「浮遊帯域法（FZ法、1953年ごろ）」が生まれた。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAATklEQVR42mNUU9P6z0ABYGFgYGDw8vIjS/O2bZsYmBgoBANvAAuyf0gBsHCjngsYGBgYqsqyiNLU1jWNBmGAbjL9Y4Hc1DgMUiIjpdkZAPf/DptRxB6yAAAAAElFTkSuQmCC"
+}

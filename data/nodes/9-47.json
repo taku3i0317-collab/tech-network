@@ -1,0 +1,89 @@
+{
+ "id": "9-47",
+ "history": {
+  "name": "加速器",
+  "name_en": "Particle accelerator",
+  "kind": "tech",
+  "trunk": "9",
+  "trunk_name": "半導体プロセス",
+  "year": 1932,
+  "year_range": "1920〜1932",
+  "year_uncertain": false,
+  "hee1": "半導体の工場には、小さな加速器（イオン注入装置）が並んでいる（O-008 で追加。出典：Nobel Prize「Physics 1939」「Physics 1951」、ベルン大学「Greinacher」、DESY「Wideröe」）",
+  "hee1_en": "Semiconductor factories have rows of small accelerators (ion implanters). (Added in O-008. Sources: Nobel Prize \"Physics 1939\", \"Physics 1951\", University of Bern \"Greinacher\", DESY \"Wideröe\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "F26. 電圧を積み上げてイオンを速くする（コッククロフト・ウォルトン加速器）［9-47］（［9-28］の前提）",
+    "answer": "整流器とコンデンサーをはしごのように並べると、交流のたびに電圧が積み上がって何倍にもなる（1920 グライナッハー）。1932年、コッククロフトとウォルトンはこの回路で数十万ボルトを作り、陽子でリチウムの原子核を変えた（1951年ノーベル物理学賞）。同じころローレンスがサイクロトロンを作った（1939年ノーベル物理学賞）。イオン注入装置は、この小さな加速器でドーパントのイオンを速くしてウェハーに打ちこむ。",
+    "hee": {
+     "1": "半導体の工場には、小さな加速器（イオン注入装置）が並んでいる。",
+     "2": "はしごの段の数だけ、電圧が積み上がる。",
+     "3": "加速器は、がんの治療や病院の検査薬づくりにも使われる。",
+     "4": "高い電圧は近づくだけで感電し、速いイオンはエックス線を出すので、装置は囲って接地・遮へいする。"
+    },
+    "certainty": "グライナッハー 1920・コッククロフトとウォルトン 1932・ノーベル賞 1951 / 1939 ◎（Nobel Prize）",
+    "basis": "Nobel Prize「Physics 1951」https://www.nobelprize.org/prizes/physics/1951/summary/ 、Nobel Prize「Physics 1939」https://www.nobelprize.org/prizes/physics/1939/summary/ （英語）"
+   }
+  ],
+  "people": [
+   {
+    "name": "アーネスト・ローレンス",
+    "tool": "🌀 サイクロトロン",
+    "year": "1931",
+    "intro": "1930〜31年、粒をぐるぐる回して加速するサイクロトロンを作った（1901〜1958）",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACT0lEQVR42mNgGAUjHTCSorgiwew/Meo6Fpwi2lwWYhVOq3D+nxKgiyF+7sYrbMr/E+sIRmJ9HuCgAuerqLhhVXfnzi44e8OBO0SFBBO1LEeXC3BQISrKmEhJA/gsJ0UN2Q6gBSDeAWx6DLRQS7QDVOQkaBICLKQoRk7l6HGNLEdKCODNJhXJgf8DbDkZGBgYGPKnP8eQ39obz8DAwMDgXbwQQ25ipiQkOx7+ztAxdz0jVRLhvn1bGN48v8uwb98WuMUwy9HlqJYG7r4Ugwepk5MPg4ikMoOTkw88BCbmu2OVY2DTg+ilNA0oy0qgBDc2gC5359ELuN7Ltx5SFgIb9p7EEONkZ4OzX779gFUcl16SQgAp8fwvSfSHi3//+YuBgYGB4cKNBwzcnBwY4jDL8SU+kqvjiuRAFEfgAz3zNxJlOcnlADI4PHsrCt821ZsODRIiQoEU35PsAJgjRIX4GeL9HVDEF248wPD63UeSLKcIVCQH/n9zZMH/N0cW/K9IDvzPQMu6QEIOs2ER4GzO8F/dDcp+wbBg91MMNS8eEW4RsRBjsYCICor4l49PGBgYGBhaTa0YZDg4GGzqEhhYWDkYePhlMNqGhBzChMtiCTmz/wIiKhiWw0tI1zgGGQ4OOBsbgOmHmUcwBHD5GN33WHzKwMMvg1MOyTyMEGEh1mKUMmBnD1YxQ4sIvPqwOYQJiyTJvkcPBUIA2S6SG6XYfE+MHMFc8OHNHbwKf3x/z8DBKciwaNESuNiJD5CakBFJ7M/vHwwvHp9m4OAUJMoBAA/i5NVFX+WRAAAAAElFTkSuQmCC"
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "4-10"
+    ]
+   ],
+   [
+    [
+     "4-11"
+    ]
+   ],
+   [
+    [
+     "5-05"
+    ]
+   ],
+   [
+    [
+     "10-01"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "電気を帯びた粒（イオン・電子）を、高い電圧や電磁石で何度も押して速くする装置。1920年、ベルン大学のハインリヒ・グライナッハーが、整流器とコンデンサーを梯子のように並べて電圧を何倍にもする回路を考えた。1932年、ケンブリッジのジョン・コッククロフトとアーネスト・ウォルトンがこの回路で数十万ボルトを作り、陽子を当ててリチウムの原子核を変えた（1951年ノーベル物理学賞）。同じころアメリカのアーネスト・ローレンスは、ヴィデレーの線形加速器（1928年）の論文をもとに、電磁石の中で粒をぐるぐる回しながら加速するサイクロトロンを作った（1930〜31年、1939年ノーベル物理学賞）。今はがんの放射線治療、病院の検査に使う薬の材料づくり、物質の研究、そして半導体にイオンを打ちこむイオン注入装置（[9-28]）に使われる"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "軽",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "決定（O-011）：イオン注入装置の部品（CW 回路・加速管）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAu0lEQVR42rWSMQ6CQBBF326oPBKx2JpMaTgD4QCewMpYE85gPaGmIB7EQ9CuhUKWjSJR+O3/82cy/8NW6Cq8vx98V+HndEk4AHC8CgBtL6AFAKmT0eScKwD7EgNgY8dMngaNKvsSMwhD7i1SJ/50qX24bYkmCQWNKrdWzSeDFzdZYFf5eOpk9vQ5vV0t96VXxLq/L7BxB77FGHfBxE1s+5pGNYxtNM1EcLti0sQk3jIMxxUeOJdvGO9PeAALp1adVhDTbwAAAABJRU5ErkJggg=="
+}

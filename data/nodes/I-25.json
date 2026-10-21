@@ -1,0 +1,62 @@
+{
+ "id": "I-25",
+ "history": {
+  "name": "電子の発見と電気素量",
+  "name_en": "Discovery of the electron and the elementary charge",
+  "kind": "idea",
+  "trunk": "I",
+  "trunk_name": "発見・考え方",
+  "year": 1897,
+  "year_range": "1897〜1913",
+  "year_uncertain": false,
+  "hee1": "電気の正体は、原子よりずっと小さくて軽い「電子」という粒",
+  "hee1_en": "Electricity is really made of tiny particles called \"electrons\", much smaller and lighter than atoms.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://www.nobelprize.org/prizes/physics/1906/summary/",
+   "https://www.nobelprize.org/prizes/physics/1923/summary/",
+   "https://www.nobelprize.org/prizes/physics/1905/summary/"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "5-10"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [
+   "8-11"
+  ],
+  "explains": [
+   "5-02",
+   "B-03"
+  ],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "空気を抜いたガラス管に高い電圧をかけると出る「陰極線」の正体を、1897年、イギリスのJ・J・トムソンが電気と磁石で曲げて調べ、原子よりずっと軽いマイナスの電気の粒（電子）だと示した（1906年ノーベル物理学賞）。陰極線はそれまでヒットルフやクルックスらが調べ、レーナルトも研究した（1905年ノーベル物理学賞）。1909〜1913年、アメリカのロバート・ミリカンが油の小さな粒の実験で、電子1個の電気の量（電気素量）を測った（1923年ノーベル物理学賞）。真空管の中を流れているのも、X 線管で W に当たって X 線を出すのも電子"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "実験：真空のガラス管の光る筋に磁石を近づけると、筋が曲がる",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAbElEQVR42mNgGGjACGNYlHX9J6T4RFcZI1YJYjTD1MEwQQOOTGP4f2Qaw398hjEwMDCwIGtAVmCTBfEeTBzGRwcs6BrQDSRkEAsuJ6IrRDYIWY6FlCizKOv6X/KAgcGijOE/LEaoE42jYIABAFZgMgWAbsk/AAAAAElFTkSuQmCC"
+}

@@ -1,0 +1,58 @@
+{
+ "id": "15-08",
+ "history": {
+  "name": "鉱石ラジオ",
+  "name_en": "Crystal radio",
+  "kind": "tech",
+  "trunk": "15",
+  "trunk_name": "通信・情報",
+  "year": 1874,
+  "year_range": "1874〜1906",
+  "year_uncertain": false,
+  "hee1": "点接触トランジスタの「針を結晶に立てる」は鉱石ラジオの子孫",
+  "hee1_en": "The point-contact transistor's \"needle standing on a crystal\" is a descendant of the crystal radio.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "15-07"
+    ]
+   ],
+   [
+    [
+     "4-03"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1874 ブラウンが金属硫化物の整流作用を発見。1906 ピカードの鉱石検波器（猫のひげ＝細い針を結晶に当てる）。電池なしで聞ける"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "電源不要のラジオ（既存の方鉛鉱を使う）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAkElEQVR42mNgGPKAEZdEl4vaf2ziZXtuoehhIUUxNnUsDAwMDOeEdBg83JxQJHbs2sfAwHCLOC8Q6wKYWmRxklyArhlugNG7KwyvVlxBUWzEwMCwgoBmklxQtucWI0UugFmE7i2iXRARFvQfqub/ilXrGElyAZJmBnRDGAnFM7JmdBeuWLWOkYWY9A7xDo0AAG8HWuCZ38buAAAAAElFTkSuQmCC"
+}

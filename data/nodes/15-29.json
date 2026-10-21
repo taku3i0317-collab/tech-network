@@ -1,0 +1,66 @@
+{
+ "id": "15-29",
+ "history": {
+  "name": "誤り訂正符号",
+  "name_en": "Error-correcting code",
+  "kind": "tech",
+  "trunk": "15",
+  "trunk_name": "通信・情報",
+  "year": 1950,
+  "year_range": "1947〜1950",
+  "year_uncertain": false,
+  "hee1": "QR コードは、少し汚れたり欠けたりしても読めるように、余分な情報がしこんである（O-011 で追加。出典：IEEE Computer Society「Richard Hamming」、Wikipedia「Hamming code」）",
+  "hee1_en": "QR codes hide extra information so they can still be read when a little dirty or chipped. (Added in O-011. Sources: IEEE Computer Society \"Richard Hamming\", Wikipedia \"Hamming code\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [
+   {
+    "name": "リチャード・ハミング",
+    "tool": "🔢 誤り訂正符号",
+    "year": "1950",
+    "intro": "1950年、まちがいを見つけて直す符号を発表した（1915〜1998）",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACTElEQVR42mNgGAUjHTCSojgqKuo/MeqWLVtGtLksxCosKCj47+3tjSF++/ZtbMr/E+sIRmJ9bmNjA+eH6XFhVbfq0jc4+8iRI0SFBBO1LEeXs7GxISrKmEhJA/gsJ0UN2Q6gBSDaAUYCnxhooZZoB6jISdAkBFhIUYycytHjGlnOSIBKBVFFcuB/OWNXBgYGBoaFC1djyG/tjWdgYGBg8C5eiCEXHx/KwMDAwPDo7G6GjrnrGamSCPft28Lw5vldhn37tsAthlmOLke1NMD/+RY8UTk5+TCISCozODn5wENgYr47VjkjgU8M/J9vUZ4GlGUlUIIbG0CXu/PoBVzv5VsPKQuBDXtPYohxsrPB2S/ffsAqjksvSSGAlHj+lyT6w8W///zFwMDAwHDhxgMGbk4ODHGY5fgSH8nVcUVyIIoj8IGe+RuJspzkcgAZHJ69FYVvm+pN+wYJMaFAiu9JdgDMEaJC/Azx/g4o4gs3HmB4/e4jSZZTBCqSA/+/ObLg/5sjC/5XJAf+Z6BlXWCjJY1hQYCzOcN/dTco+wXDkeOnMNQcufaUkSIHwCzWkBFCEX/0GlIytppaMchwcDDY1CUwcLGzMMiJ8mG0DQk5hIUUi1FKSNc4BpmmBXA2Q/d0DDVI+nE6hIVUix+9/oTNpwxyonw45fA5hIVYi5FB+9KdWMWi3Szx6sPmECYskiT7Hj0UCAFku0hulGLzPTFyBBPhjSfv8Cp89/k7gxAvJ8OiRUvgYic+QGpCRiSxbz//MBy7/pRBiJeTKAcAAEhb6erceUbkAAAAAElFTkSuQmCC"
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "10-06"
+    ]
+   ],
+   [
+    [
+     "15-14"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "送る数字に、決まった計算で作った余分な数字（検査のビット）を足しておくと、途中で1つまちがっても、どこがまちがったかを見つけて直せる。ベル研究所のリチャード・ハミングは、週末にリレー計算機が誤りを見つけると仕事を止めてしまうことにいらだち、「見つけられるなら直せるはず」と考えて、1950年に論文を出した（1968年チューリング賞）。シャノンの情報理論（[15-14]）が示した「雑音があっても誤りなく送れる」ための、最初の具体的な方法の1つ。フラッシュメモリ・無線・CD・QR コードは誤り訂正なしでは使えない"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAo0lEQVR42mNgoBAwMjAwMFhZ5fyHCRw7NoURH78rZgqDtU8Iw9EtaxhsshgYmWASDg5eKCZj4zs4eDFY+4QwMDAwwGkWmIIDB7ahaMDFPyqzBu4CqgCsYXBkGgOcb5PFQF4YbHuyjbIw8JLxGsAwoGs6YKKKP45MY/j//1HIf1j04eKjY3gYwDgMDAwMjHJrGPHxUQJQbg0kDGBRQohGBlSLRgCxmYwWYcnDfQAAAABJRU5ErkJggg=="
+}

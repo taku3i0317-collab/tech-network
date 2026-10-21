@@ -1,0 +1,55 @@
+{
+ "id": "11-09",
+ "history": {
+  "name": "パン",
+  "name_en": "Bread",
+  "kind": "tech",
+  "trunk": "11",
+  "trunk_name": "農業・食",
+  "year": -4000,
+  "year_range": null,
+  "year_uncertain": true,
+  "hee1": "パンの穴は酵母のおなら（CO2）",
+  "hee1_en": "The holes in bread are yeast farts (CO2).",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "11-08"
+    ]
+   ]
+  ],
+  "understanding": [
+   "2-39"
+  ],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "紀元前4000年頃 エジプトの発酵パン⚠️。酵母が糖を食べて CO2 を出し、生地がふくらむ"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "小麦粉+酵母+水 → パン（バニラのパンより回復量が多い）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAb0lEQVR42mNgGAWM2ASn+Bn8xyaes+kChnoWbBptHAyw2jaFgeE/ukFMyJptHAwYzn34hKJp0oZDcDZMHtmFLMiaJ204xJAXYIeiGRd/CgPD/5xNFxiZkG1DVkwMH8UL5IKBN4CRUNzjAtjSxBAFAHLLLWVeJripAAAAAElFTkSuQmCC"
+}

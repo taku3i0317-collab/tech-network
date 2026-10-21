@@ -1,0 +1,58 @@
+{
+ "id": "11-03",
+ "history": {
+  "name": "輪作",
+  "name_en": "Crop rotation",
+  "kind": "tech",
+  "trunk": "11",
+  "trunk_name": "農業・食",
+  "year": 800,
+  "year_range": "800〜1730",
+  "year_uncertain": true,
+  "hee1": "豆を育てると畑が肥える",
+  "hee1_en": "Growing beans makes the field richer.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "0-05"
+    ]
+   ],
+   [
+    [
+     "0-04"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "中世の三圃式（冬作・夏作・休閑）、1730年代 チャールズ・タウンゼンドが広めたノーフォーク四輪作（小麦・カブ・大麦・クローバー）で休閑地をなくした"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "同じ畑に同じ作物を続けると収量が落ち、豆を挟むと戻る",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAw0lEQVR42rVTuw2DMBB9tlxbzMAEFjVCTBBlBmqUaaiZIWICZFEjT8AMURZwqrPMYSASyWtOer7vuzPwTzRV7psq90c+ghPdzYSA+fUGABSZDu/t4FYxMpWVOxGX4hWvXNYGHeDL2mB+WsRcqojiZAd4ssRPo1t1FY+p+PzfdrAS8UzpPfR2EfLqqiVlKjKNItN43KtgCTFHfr1dxGaN7eAECTaNDlxELuZGxD3EwnIx1dHx8A5oxaeXGO/5iPvJZ7qMD0qCZ9293AKhAAAAAElFTkSuQmCC"
+}

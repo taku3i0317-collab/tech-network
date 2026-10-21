@@ -1,0 +1,58 @@
+{
+ "id": "1-12",
+ "history": {
+  "name": "平炉",
+  "name_en": "Open-hearth furnace",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": 1864,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "くず鉄もいっしょに溶かして、時間をかけて鋼の中身を整えられる炉",
+  "hee1_en": "A furnace that can melt scrap iron too, and slowly adjust what is in the steel.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-09"
+    ]
+   ],
+   [
+    [
+     "3-18"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1864 ピエール・マルタン（仏）が、シーメンスの蓄熱式炉[3-18]（設備＝1856 ジーメンス）を使って銑鉄とくず鉄を一緒に溶かし鋼にする「工程」を確立。くず鉄も溶かせ、成分を時間をかけて調整できる"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "大量・成分調整可能な鋼。[1-26]の上位",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAm0lEQVR42tVSuQ2AMAy8oBQpGMYDUFBSMQMDME4GyAypKCkYwMOkoAsFAuVRUKDjOj93PlsGfg+RJvRI/okwW444MiV2PT1O1IAPhcRF7nqCU6bKdrtP2FbGbFnItPAWslTYVo7i0mq3gFMG7T7BKQNeKDuWBjwNfPcAp2AT2r9EaOBsUkgOV21KDlLwQlFPJvDVgah5ntqn+ikOyP1OYzwOpXgAAAAASUVORK5CYII="
+}

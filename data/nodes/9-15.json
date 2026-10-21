@@ -1,0 +1,94 @@
+{
+ "id": "9-15",
+ "history": {
+  "name": "熱酸化",
+  "name_en": "Thermal oxidation",
+  "kind": "tech",
+  "trunk": "9",
+  "trunk_name": "半導体プロセス",
+  "year": 1955,
+  "year_range": "1955〜57",
+  "year_uncertain": false,
+  "hee1": "シリコンは自分の「さび」がガラスになって身を守る",
+  "hee1_en": "Silicon's own \"rust\" turns into glass and protects it.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "8. シリコンが勝った理由（熱酸化・酸化膜マスク）［9-15］［9-16］",
+    "answer": "シリコンを酸素の中で約1000℃に熱すると、表面にきれいなガラス（SiO₂）の膜ができる。この膜はドーパントを通さないので、膜に窓を開けたところだけに元素をしみ込ませられる。1955年にベル研究所のフロッシュとデリックが発見し、1957年に発表した。",
+    "hee": {
+     "1": "シリコンは、自分の体からガラスのよろいを作れる。",
+     "2": "このよろいを「型紙」にして、決めた場所だけに不純物を入れられる。これがのちの IC（集積回路）の基本。",
+     "3": "ゲルマニウムの酸化物は水に溶けてしまい、よろいにならない。トランジスタはゲルマニウムで始まったのに、シリコンに主役が移った大きな理由。",
+     "4": "発見は偶然と伝えられている。拡散炉で不純物を運んでいた水素に火がつき、できた水蒸気で板がガラスの膜におおわれた（Howard Huff の聞き取り）。きっかけを「管のもれ」とする回想（Mason Clark）もあり、細部は ⚠️。"
+    },
+    "certainty": "1955年発見・1957年発表 ◎（コンピュータ歴史博物館、ECS Interface 2007）／水素の火の話 ○（ただし回想に食い違いあり ⚠️）／Deal–Grove の定数 ◎（原論文と教科書の表）／色見本 ○",
+    "basis": "コンピュータ歴史博物館「1955: Development of Oxide Masking」https://www.computerhistory.org/siliconengine/development-of-oxide-masking/ 、ECS Interface 2007 秋号 https://www.electrochem.org/dl/interface/fal/fal07/fall07_p36-41.pdf 、Howard Huff「Transistors to integrated circuits」https://www.chiphistory.org/exhibits/ex_howard_huff_transitors_integrated_circuits/howard_huff_section2.pdf 、Mason Clark「Silicon Burns」https://smecc.org/silicon_burns_-_by_mason_clark.htm 、Deal & Grove, J. Appl. Phys. 36, 3770 (1965)、Pliskin & Conrad, IBM J. Res. Dev. 8, 43 (1964)（すべて英語）"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "9-12"
+    ]
+   ],
+   [
+    [
+     "4-12"
+    ],
+    [
+     "3-14"
+    ]
+   ],
+   [
+    [
+     "6-01"
+    ]
+   ],
+   [
+    [
+     "7-02"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1955 カール・フロッシュとリンカーン・デリック（ベル研）が、偶然できた酸化膜がドーパントを通さない「マスク」になると発見（1957 発表）。Si+O2→SiO2（約1000℃）。Ge の酸化物（GeO2）は水に溶けて使えない＝「シリコンが勝った理由」"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "重",
+  "missing": "",
+  "item": "oxidation_furnace",
+  "recipes": [
+   "作業台：石英管×3 ＋ 耐火れんが（珪石れんが）×4 ＋ 電気炉 ＋ 銅ケーブル → 酸化炉"
+  ],
+  "machine_recipes": [
+   "酸化炉「ドライ酸化」：シリコンの板×8（酸化膜つきの板も可、酸化膜つきなら続きから） ＋ 酸素ガス（袋詰め） 1 mol → 酸化膜つきの板×8（膜 約125nm（1100℃・1時間））（5 kW × 120 秒＝600 kJ）。Si + O2 → SiO2。Deal–Grove の式",
+   "酸化炉「ウェット酸化」：シリコンの板×8（酸化膜つきの板も可、酸化膜つきなら続きから） ＋ 水入りバケツ → 酸化膜つきの板×8（膜 約660nm（1100℃・1時間）） ＋ バケツ（5 kW × 120 秒＝600 kJ）。Si + 2H2O → SiO2 + 2H2。水蒸気は膜を速く通る"
+  ],
+  "placeholder": "省略：⚠️ 電力（5kW）・時間（120秒＝本物の1時間）はゲームの値。温度は 1100℃ に固定（本物は 900〜1200℃ を選ぶ）。膜の厚さは <111> シリコンの値で、板の向き・ドーパントの濃さ・塩素を混ぜる方法の違いは表さない。",
+  "game_text": "酸化炉（ROADMAP v0.2b #8）。膜厚は時間と温度で",
+  "hee_game": {
+   "note1": "シリコンの板を酸素か水蒸気の中で焼いて、表面にうすいガラス（SiO2）の膜を作る炉。",
+   "note2": "電気 5kW。シリコンの板8（酸化膜つきの板も可）＋酸素1袋（ドライ）か水バケツ1（ウェット、空のバケツが戻る）→ 酸化膜つきの板8（120秒＝本物の1100℃・1時間ぶん）。膜の厚さは Deal–Grove の式：ドライ約125nm、ウェット約660nm。加工中のウェハー（窓が開いている）1〜8枚を入れると、窓を閉じ直す（開けまちがいのやり直し）。隣のガスホルダーから酸素をもらう。",
+   "note3": "酸素は、できた膜の中をしみ通ってシリコンにたどり着く。だから膜が厚くなるほど伸びが遅くなる（厚さの2乗が時間に比例）。水蒸気は酸素よりずっと速く膜を通るので、ウェットは厚い膜が早くできる。ドライはゆっくりだが、きめの細かい良い膜になる。",
+   "note4": "1955年、ベル研のフロッシュとデリックは、水素の中でシリコンに拡散をしていたとき、水素に火がついて水蒸気ができ、板が酸化膜でおおわれた（⚠️ きっかけは管のもれだったという回想もある）。調べると、この膜はドーパントを通さない「マスク」になった（1957年発表）。ゲルマニウムの酸化物 GeO2 は水に溶けるのでマスクに使えない。これがシリコンが勝った理由の1つ。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAPklEQVR42mOMCAv6z0ABYGFgYGDQMXMjS/OVU7sYmBgoBANvAAs2f+ED6OE1DMJgEMYCqalyuIQBodSHDwAArm4LJ4l1SDAAAAAASUVORK5CYII="
+}

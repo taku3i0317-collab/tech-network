@@ -1,0 +1,72 @@
+{
+ "id": "2-02",
+ "history": {
+  "name": "カリ",
+  "name_en": "Potash",
+  "kind": "tech",
+  "trunk": "2",
+  "trunk_name": "化学",
+  "year": -2800,
+  "year_range": "-2800〜-2500",
+  "year_uncertain": true,
+  "hee1": "カリウム（potassium）の名前は「鍋の灰（pot ash）」から",
+  "hee1_en": "The name potassium comes from \"pot ash\", the ash left in a pot.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "O3. 灰から取ったアルカリ（カリ・炭酸カリウム）［2-02］（フリントガラスの融剤）",
+    "answer": "木を燃やしきった灰を水に浸すと、炭酸カリウム K2CO3 が溶け出す（灰汁）。これを鍋で煮詰めると白い炭酸カリウム（カリ）が残る。ガラス・石けん・火薬の原料。",
+    "hee": {
+     "1": "カリウム（potassium）の名前は「鍋の灰（pot ash）」から。1807年にデービーが電気分解で取り出した。",
+     "2": "灰には炭酸カルシウムも入っているが、水にほとんど溶けない。だから水に浸すだけでカリウムの塩を分けられる。",
+     "3": "アメリカで最初の特許（1790年、サミュエル・ホプキンス）はカリの作り方だった。",
+     "4": "フラウンホーファーが作ったフリントガラスは、砂・鉛丹・炭酸カリウムから。鉛ガラスの融剤は昔からカリ。"
+    },
+    "certainty": "灰汁と K2CO3 の化学 ◎／デービー1807・potassium の語源 ◎／1790年の最初の特許 ◎（どのホプキンスかは議論あり）／フラウンホーファーのフリントの材料 ○（ユニヴェルサリス）",
+    "basis": "- USPTO「The history of presidentially signed patents」（最初の特許 X1、1790年、カリの製法）：https://www.uspto.gov/about-us/history/freedom-250/history-presidentially-signed-patents"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "0-10",
+     "0-11"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "木灰を水に浸して上澄み（灰汁＝あく）を取り、鍋で煮詰めると K2CO3（\"pot ash\"＝鍋の灰、potassium の語源）。古代から石けん・ガラスの原料。灰を使った最古級の記録は、紀元前2800年頃のバビロンの粘土の円筒に「灰を脂と煮た」とあるもの（石けんの最古の証拠と同じ記録 ⚠️、[2-09]）。シュメール・ギルスの粘土板には約4500年前に羊毛を洗った記録⚠️。これに消石灰を加えると K2CO3 + Ca(OH)2 → 2KOH + CaCO3↓（苛性化）で KOH ができ、古代〜中世の石けん作りでも使われた"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "軽",
+  "missing": "",
+  "item": "wood_ash",
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "2段のレシピ（煮詰めは炉系、苛性化はクラフトか反応ブロック。クラス構成は着手時に決定）",
+  "hee_game": {
+   "note1": "木をたき火で燃やしきった後の灰。水に溶ける塩（炭酸カリウム）が入っている。",
+   "note2": "原木をたき火にのせて30秒。木の中のカリウムやカルシウムが、燃えたあと炭酸塩・酸化物として残る。4個＋水バケツで灰汁。",
+   "note3": "灰は昔から畑にまく肥料で、洗剤でもあった。灰を溶かした水で布を洗ったり、山菜の「あく抜き」をしたりする。",
+   "note4": "木灰の主な成分は炭酸カルシウムと炭酸カリウム。炭酸カリウムは水によく溶けるが、炭酸カルシウムはほとんど溶けない。だから水に浸して上澄みを取ると、カリウムの塩だけを分けられる。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAuUlEQVR42u1QMQqDQBCcC3lECKkXkRTiEyxELCwsxBdZ+ADfIBbWYuET5AoRudp/bKqVEy4pU4RMuTszuzPAHz8A9W5B5DMAhIEHAGi73sm9uoZlkXMSR9DLjuD5kDG7TC4ug1lv0MvuNP4YQQhJHJ1IVd3AmFUR+RwG3imOssW3O9kvYxgniGFVNxAxkc/GrOrowBZL7mGc7EucppmYS7ncdr1SZZHzrLejbRtyzd7NeoNcd3XyfbwAwolNvHgr8EsAAAAASUVORK5CYII="
+}

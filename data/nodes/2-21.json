@@ -1,0 +1,78 @@
+{
+ "id": "2-21",
+ "history": {
+  "name": "アンモニア水",
+  "name_en": "Ammonia water",
+  "kind": "tech",
+  "trunk": "2",
+  "trunk_name": "化学",
+  "year": 1850,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "アンモニアは、昔はガス工場のついでに取れた",
+  "hee1_en": "Ammonia used to be a side product of gasworks.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "F11. ガス工場のついでのアンモニア（アンモニア水）［2-21］（［9-14］洗浄の前提）",
+    "answer": "19世紀のアンモニアは、石炭ガス工場で出る安水から取った。安水を熱して溶けているアンモニアを追い出し、残った塩化アンモニウムなどは消石灰を加えて追い出し（2NH₄Cl + Ca(OH)₂ → CaCl₂ + 2NH₃ + 2H₂O）、水に吸わせてアンモニア水にした。1913年からはハーバー・ボッシュ法で空気の窒素から作る。",
+    "hee": {
+     "1": "アンモニアは、昔はガス工場のついでに取れた。",
+     "2": "アンモニアは水にとてもよく溶ける（20℃で水1Lに約500Lの気体）。",
+     "3": "ハーバー・ボッシュ法の肥料が世界の人口を支える一方、同じアンモニアが火薬の原料になった。",
+     "4": "ウェハーの RCA 洗浄の SC-1 は、アンモニア水・過酸化水素・水を 1:1:5 で混ぜて約75℃。"
+    },
+    "certainty": "ガス工場の安水とアンモニア蒸留器（遊離・固定アンモニア、石灰）◎（ブリタニカ・ガス工場の技術書）／溶解度 ◎／SC-1 の配合 ◎（Kern 1990 の回顧）",
+    "basis": "ブリタニカ「ammonia」https://www.britannica.com/science/ammonia 、Kern, W. \"The Evolution of Silicon Wafer Cleaning Technology\", J. Electrochem. Soc. 137, 1887 (1990)（英語）"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "2-20"
+    ],
+    [
+     "6-09"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "NH3+H2O⇌NH4++OH-。19世紀はコークス炉・ガス工場の副産物（安水を石灰で処理 2NH4Cl+Ca(OH)2→2NH3↑+CaCl2+2H2O）、1913 以降はハーバー・ボッシュ法"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "軽",
+  "missing": "",
+  "item": "ammonia_still",
+  "recipes": [
+   "作業台：鉄インゴット×6 ＋ 銅インゴット ＋ ソーダ石灰ガラス ＋ furnace → アンモニア蒸留器"
+  ],
+  "machine_recipes": [
+   "アンモニア蒸留器「アンモニア水」：安水×4 ＋ 消石灰 ＋ 空のガラス瓶 ＋ 水入りバケツ 4回で1個 → アンモニア水（1 kW × 20 秒＝20 kJ）。安水を熱し、消石灰で塩のアンモニアも追い出して水に吸わせる"
+  ],
+  "placeholder": "省略：加熱は電気（本物は蒸気を吹き込む塔）。塩化カルシウムの廃液は出さない。",
+  "game_text": "[3-19]副産物回収式コークス炉の出力が先、ハーバー法で量産",
+  "hee_game": {
+   "note1": "ガス工場の安水を熱して、アンモニアを追い出し、水に吸わせてアンモニア水を作る装置。",
+   "note2": "電気 1kW。安水4＋消石灰1＋空のガラス瓶1 → アンモニア水1（20秒）。吸わせる水は水バケツ1杯で4回（空のバケツは出口へ）。2NH4Cl + Ca(OH)2 → CaCl2 + 2NH3 + 2H2O。",
+   "note3": "安水には、そのまま溶けているアンモニアと、塩になって溶けているアンモニアがある。熱すると前のほうが出てくる。後のほうは消石灰を入れて強いアルカリにすると、アンモニアの気体になって出てくる。",
+   "note4": "19世紀のアンモニアは、ほとんどがガス工場のついでだった。1913年にハーバー・ボッシュ法で空気の窒素から作れるようになり、肥料が大量に作られて世界の人口を支えるようになった（同じアンモニアが火薬の原料にもなり、第一次世界大戦を長引かせたことも知られている）。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAsElEQVR42qVTMQ7CMAy8WnkEQsxMDLylQ9WnIgbewMCUGUX5RRlQwnFJQ0Q9Rfb57uy6wzyNCzaEA4Dd/lgUYvBf+Rh8fqd8DP5NwA3cWGtScqupcWieSQFgmKdxSco9BEriFHg+HZpLuz+eGR+D/4zQG4p1ReGHA12wrc3Z68L+OR4WtNa2W+oJX+zgcr2BP+vaNVYdqAsmYsJiBwpSRT1vJrHabAnErmr1fMpbfucXlqxw7fLumtIAAAAASUVORK5CYII="
+}

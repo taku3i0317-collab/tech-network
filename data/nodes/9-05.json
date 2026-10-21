@@ -1,0 +1,62 @@
+{
+ "id": "9-05",
+ "history": {
+  "name": "Geダイオード",
+  "name_en": "Ge diode",
+  "kind": "tech",
+  "trunk": "9",
+  "trunk_name": "半導体プロセス",
+  "year": 1940,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "ゲルマニウムに細い針を立てた部品が、レーダーの電波をとらえた",
+  "hee1_en": "A part with a thin needle standing on germanium caught radar waves.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-01",
+     "9-07"
+    ]
+   ],
+   [
+    [
+     "1-28"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-29",
+   "I-43"
+  ],
+  "frontier": false,
+  "real": "Ge結晶に細い金属針を立てた点接触ダイオード。1940年代のレーダー検波器として量産、点接触トランジスタ(1947)の直接の祖先"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAYUlEQVR42mNgGAWM2AQtyrr+YxM/0VXGSNBEXJpxyTHhU4zPMBhgQVd0oquMESZ2oquMcVqeyP+sSW8YLcq6/pckRTD0MDD8J8oLMBdMyxP5T5YXYCBr0htG+sbCKCAdAACfny6zxMKutwAAAABJRU5ErkJggg=="
+}

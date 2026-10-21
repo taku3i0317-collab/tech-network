@@ -1,0 +1,81 @@
+{
+ "id": "4-28",
+ "history": {
+  "name": "乾電池",
+  "name_en": "Dry cell battery",
+  "kind": "tech",
+  "trunk": "4",
+  "trunk_name": "動力・電気",
+  "year": 1896,
+  "year_range": "1866〜1896",
+  "year_uncertain": false,
+  "hee1": "「乾」電池でも中は完全に乾いているわけではなく、しめったペーストが入っている（O-009 で追加。出典：ACS「Columbia Dry Cell Battery」、ACS「Columbia Dry Cell Battery」（化学遺産）（https://www.acs.org/education/whatischemistry/landmarks/drycellbattery.html））",
+  "hee1_en": "Even a \"dry\" cell is not completely dry inside; it holds a damp paste. (Added in O-009. Sources: ACS \"Columbia Dry Cell Battery\", ACS \"Columbia Dry Cell Battery\" (chemical landmark) (https://www.acs.org/education/whatischemistry/landmarks/drycellbattery.html))",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "C51. こぼれない電池（乾電池と軟マンガン鉱）［4-28］",
+    "answer": "1866年、フランスのルクランシェが、亜鉛と、二酸化マンガン（軟マンガン鉱）を炭素棒のまわりにつめた物を、塩化アンモニウムの液に入れた電池を作った。二酸化マンガンは正極で出る水素を水に変えるので、ボルタの電堆のように泡がたまって弱くなりにくい。1886年、ドイツのガスナーが液を石こうなどで糊にして、こぼれない「乾電池」にした。1896年、アメリカのナショナル・カーボン社のコロンビア乾電池が家庭に広まった。亜鉛の缶がマイナス、まん中の炭素棒がプラスで、約1.5V。",
+    "hee": {
+     "1": "「乾」電池でも、中はしめった糊で、完全に乾いてはいない。",
+     "2": "二酸化マンガンは「減極剤」：水素の泡がたまって電気が弱くなるのを防ぐ。",
+     "3": "日本でも屋井先蔵が1887年ごろ独自に乾電池を作ったとされる ⚠️（年は資料で揺れる）。",
+     "4": "乾電池が持ち運べるようになって、懐中電灯（1899年ごろ）が生まれた。"
+    },
+    "certainty": "ルクランシェ 1866・ガスナー 1886・コロンビア 1896 ◎／屋井先蔵の年 △",
+    "basis": "- ACS「Columbia Dry Cell Battery」（化学遺産）：https://www.acs.org/education/whatischemistry/landmarks/drycellbattery.html"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "4-13"
+    ]
+   ],
+   [
+    [
+     "1-13"
+    ]
+   ],
+   [
+    [
+     "1-07"
+    ]
+   ],
+   [
+    [
+     "2-21"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1866年、フランスのジョルジュ・ルクランシェが、亜鉛と二酸化マンガンと塩化アンモニウムの水溶液の電池を作った（液がこぼれる湿電池）。1886年、ドイツのカール・ガスナーが液を石こうなどでペーストにして、こぼれない乾電池にした。日本でも屋井先蔵が1887年ごろ独自に乾電池を作ったとされる（年は資料で揺れる ⚠️）。1896年、アメリカのナショナル・カーボン社が、家庭で使える大きさの「コロンビア乾電池」を売り出した（ACS 化学遺産）。亜鉛の缶がマイナス、まん中の炭素棒がプラスで、液をこぼさずに持ち歩ける電池になった"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAbElEQVR42mNgoCWwcvD5b+Xg8x+fGhZ8mr18fGDc/8cObGHEpo6JCM0MXj4+DLhcgtMFbDv60ETUSPPCL48iVIEtWxiI9gIpAK8BmN4gwQCYZkKGMBEKA4ywIMULhDRTJRBplw42/FFjGBoAAB+3H65/I9hDAAAAAElFTkSuQmCC"
+}

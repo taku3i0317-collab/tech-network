@@ -1,0 +1,124 @@
+{
+ "id": "9-28",
+ "history": {
+  "name": "イオン注入",
+  "name_en": "Ion implantation",
+  "kind": "tech",
+  "trunk": "9",
+  "trunk_name": "半導体プロセス",
+  "year": 1954,
+  "year_range": "1954〜1970",
+  "year_uncertain": false,
+  "hee1": "原子を弾丸にして、狙った深さに撃ち込む",
+  "hee1_en": "Atoms are used as bullets and shot to an exact depth.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "F25. 電気を流すと磁石になる鉄（電磁石）［10-01］（［9-28］イオン注入の前提）",
+    "answer": "電流のまわりには磁場ができる。鉄の芯に絶縁した銅線を何重にも巻くと、電流を流している間だけ強い磁石になる。1820年にエルステッドが電流で方位磁針が振れることを見つけ、1825年にスタージャンが電磁石を、1830年代にヘンリーが強い電磁石を作った。",
+    "hee": {
+     "1": "スイッチを切ると、ただの鉄に戻る磁石。",
+     "2": "線を多く巻くほど、磁場が重なって強くなる。",
+     "3": "電磁石は、リレー（計算機のスイッチ）・モーター・発電機の中にもある。",
+     "4": "イオン注入装置は、電磁石でイオンを曲げて、重さごとにふるい分ける。"
+    },
+    "certainty": "エルステッド 1820・スタージャン 1825・ヘンリー 1830年代 ◎（ブリタニカ）",
+    "basis": "ブリタニカ「electromagnet」https://www.britannica.com/technology/electromagnet （英語）"
+   },
+   {
+    "title": "F26. 電圧を積み上げてイオンを速くする（コッククロフト・ウォルトン加速器）［9-47］（［9-28］の前提）",
+    "answer": "整流器とコンデンサーをはしごのように並べると、交流のたびに電圧が積み上がって何倍にもなる（1920 グライナッハー）。1932年、コッククロフトとウォルトンはこの回路で数十万ボルトを作り、陽子でリチウムの原子核を変えた（1951年ノーベル物理学賞）。同じころローレンスがサイクロトロンを作った（1939年ノーベル物理学賞）。イオン注入装置は、この小さな加速器でドーパントのイオンを速くしてウェハーに打ちこむ。",
+    "hee": {
+     "1": "半導体の工場には、小さな加速器（イオン注入装置）が並んでいる。",
+     "2": "はしごの段の数だけ、電圧が積み上がる。",
+     "3": "加速器は、がんの治療や病院の検査薬づくりにも使われる。",
+     "4": "高い電圧は近づくだけで感電し、速いイオンはエックス線を出すので、装置は囲って接地・遮へいする。"
+    },
+    "certainty": "グライナッハー 1920・コッククロフトとウォルトン 1932・ノーベル賞 1951 / 1939 ◎（Nobel Prize）",
+    "basis": "Nobel Prize「Physics 1951」https://www.nobelprize.org/prizes/physics/1951/summary/ 、Nobel Prize「Physics 1939」https://www.nobelprize.org/prizes/physics/1939/summary/ （英語）"
+   },
+   {
+    "title": "F27. 原子を重さでふるい分ける（質量分析）［8-33］（［9-28］イオン注入の前提）",
+    "answer": "試料の原子をイオンにして飛ばし、電磁石の中で曲げると、軽いイオンほど大きく曲がる。着く場所で重さ（質量数）がわかり、同じ元素にも重さのちがう仲間（同位体）があることがわかる。1913年に J・J・トムソンがネオンの同位体を見つけ、1918年にデンプスター、1919年にアストンが質量分析器を作った（アストンは1922年ノーベル化学賞）。",
+    "hee": {
+     "1": "同じ元素なのに、重さがちがう原子がまざっている。",
+     "2": "ホウ素は ¹⁰B が約20%、¹¹B が約80%。リンや金は1種類だけ。",
+     "3": "イオン注入装置は質量分析と同じしくみで、入れたいイオンだけを選んでウェハーに打ちこむ。",
+     "4": "塩素の原子量が 35.45 と半端なのは、³⁵Cl（約76%）と ³⁷Cl（約24%）がまざっているから。"
+    },
+    "certainty": "トムソン 1913・アストン 1919・ノーベル賞 1922 ◎／同位体の割合 ◎（IUPAC）",
+    "basis": "Nobel Prize「Chemistry 1922」https://www.nobelprize.org/prizes/chemistry/1922/summary/ 、IUPAC「Isotopic compositions of the elements」https://ciaaw.org/isotopic-abundances.htm （英語）"
+   },
+   {
+    "title": "F28. 原子を打ちこむ（イオン注入）［9-28］",
+    "answer": "ドーパントの原子をイオンにし、電磁石で入れたいイオンだけを選んで、加速器の高電圧でウェハーに打ちこむ。拡散とちがって、窓が閉じず、横に広がらず、量と深さを細かく決められる。打ちこんだだけでは結晶がこわれていて効かないので、熱で直す（アニール）。1954年にショックレーが特許を出し、1960〜70年代に量産の工程になった。",
+    "hee": {
+     "1": "半導体の工場には、小さな加速器が並んでいる。",
+     "2": "量産で最初に注入を使ったのは1962年、すべての製品に注入を使う最初の工場は1970年。",
+     "3": "イオンの量（ドーズ）は電流と時間で決まるので、拡散より正確。",
+     "4": "イオン源の三フッ化ホウ素・ホスフィンはとても毒が強く、ボンベは漏れを見張る棚に置く。"
+    },
+    "certainty": "ショックレーの特許 US 2,787,564（1954出願・1957発行）◎／量産の年（1962・1970）○（TECH_TREE の出典）",
+    "basis": "Google Patents「US2787564A」https://patents.google.com/patent/US2787564A/en 、Wikipedia「Ion implantation」https://en.wikipedia.org/wiki/Ion_implantation （英語）"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "9-47"
+    ]
+   ],
+   [
+    [
+     "5-05"
+    ]
+   ],
+   [
+    [
+     "4-10",
+     "4-11"
+    ]
+   ],
+   [
+    [
+     "10-01",
+     "8-33"
+    ]
+   ],
+   [
+    [
+     "9-11"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1954 ショックレーの特許（US 2,787,564、1954年10月出願・1957年発行）、1970年代に量産技術へ（量産で最初の注入は1962年、全製品に注入を使う最初の工場は1970年）。ドーパントをイオンにして加速し、決まった量・深さに打ち込む（拡散[9-16]より正確）。結晶が壊れるのでアニール[9-29]が必須"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "重",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "イオン注入機（ROADMAP v0.4 #3）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAZ0lEQVR42mNgoAY4Mo3h/zAzhGKDRg0hLYZYYAwrqxycthw7NoURm5pjx6YwsiALODh4oWg8cGAbTOw/A8MUFPkDB7ahugAdHDiwDWbzf4jGKQx4vYAOYDbDbN32ZBtWeUZiwoCmAACyZkCMs2LI2QAAAABJRU5ErkJggg=="
+}

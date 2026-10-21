@@ -1,0 +1,92 @@
+{
+ "id": "2-28",
+ "history": {
+  "name": "フェノール樹脂",
+  "name_en": "Phenolic resin",
+  "kind": "tech",
+  "trunk": "2",
+  "trunk_name": "化学",
+  "year": 1907,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "フェノールとホルムアルデヒドから、初めての合成プラスチックができた",
+  "hee1_en": "The first synthetic plastic was made from phenol and formaldehyde.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "C7. 触媒と配合で、溶ける樹脂と溶けない樹脂（ノボラックとベークライト）［2-28］",
+    "answer": "フェノールとホルムアルデヒドは CH2 の橋でつながる。酸触媒でフェノールを多めにすると、網にならない線状のノボラック（熱で溶ける）。塩基触媒でホルムアルデヒドを多めにするとレゾールになり、熱すると全体が網になって二度と溶けないベークライト（熱硬化性）。1907 ベークランド、世界初の完全な合成プラスチック。ノボラックは DNQ と混ぜてポジ型フォトレジストの主成分になった。",
+    "hee": {
+     "1": "フェノールとホルムアルデヒドから、初めての合成プラスチックができた。",
+     "2": "同じ材料でも、触媒（酸か塩基）と配合で、溶ける樹脂と固まる樹脂に作り分けられる。",
+     "3": "ベークランドは加圧しながら熱する「ベークライザー」で泡を防いだ（1909年特許）。ラジオや黒電話の外装に。",
+     "4": "1970年代後半からノボラック/DNQ のポジ型レジストが IC 作りの主役（g線・i線）。"
+    },
+    "certainty": "反応のしくみ・ノボラックとレゾールの違い ◎／ベークランド 1907（特許 1909）○（TECH_TREE の本物欄と一致）／ノボラック/DNQ の時代 ○（[2-32] の本物欄）",
+    "basis": "- Wikipedia「Phenol formaldehyde resin」（ノボラック・レゾール）：https://en.wikipedia.org/wiki/Phenol_formaldehyde_resin"
+   },
+   {
+    "title": "C19. 熱と圧力：泡を出さずに固める（ベークライザー）［2-28］",
+    "answer": "フェノールとホルムアルデヒドの樹脂（レゾール）は、固まるときに水などの蒸気を出すので、ふつうに熱すると泡だらけでもろくなる。ベークランドは、閉じた釜の中で圧力をかけながら熱して泡を押さえこむ方法を考え（「熱と圧力」、1907年出願・1909年特許）、1909年に発表した。この釜は「ベークライザー」とよばれた ⚠️。閉じた釜で水を熱すると、蒸気の圧力（飽和水蒸気圧）は 100℃で1気圧、約150℃で約5気圧、約190℃で約12気圧と急に上がる。",
+    "hee": {
+     "1": "圧力鍋と同じしくみで、泡のないプラスチックを作った。",
+     "2": "ベークランドより前にも同じ樹脂を作った人はいたが、泡だらけで使えなかった。",
+     "3": "ベークランドは、写真の印画紙ベロックスをイーストマン・コダックに売ったお金で研究所を作った。",
+     "4": "⚠ 事故：圧力容器は安全弁がこわれると破裂する。19世紀のボイラー爆発の事故から、安全弁と検査の決まりができた。"
+    },
+    "certainty": "「熱と圧力」の特許（US 942,699、1909）◎／1909年の発表 ◎／「ベークライザー」という名と年 ○⚠️／飽和水蒸気圧の値（アントワンの式）◎",
+    "basis": "- Wikipedia「Bakelite」（歴史・ベークライザー）：https://en.wikipedia.org/wiki/Bakelite"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "2-25"
+    ]
+   ],
+   [
+    [
+     "2-27"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-23"
+  ],
+  "frontier": false,
+  "real": "1907 ベークランド（特許1909）。フェノール＋ホルムアルデヒドの縮合。酸触媒・フェノール過剰→ノボラック（熱で溶ける線状）"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "軽＋実験",
+  "missing": "",
+  "item": "novolac",
+  "recipes": [
+   "かまど：ノボラックの反応液 を焼く → ノボラック（フェノール樹脂）×2"
+  ],
+  "machine_recipes": [],
+  "placeholder": "近似：分子量の分布は扱わない。",
+  "game_text": "加圧釜ブロック",
+  "hee_game": {
+   "note1": "熱で溶ける、黄色っぽいフェノール樹脂。光で模様を写すレジストの主な材料になる。",
+   "note2": "ノボラックの反応液をかまどで熱して作る。DNQ（感光剤）と混ぜるとポジ型フォトレジスト（[2-32]）。熱しても固まらない（くり返し溶かせる）。",
+   "note3": "ノボラックはフェノールが CH2 でつながった短い鎖。OH がたくさん残っているので、アルカリの水に少し溶ける。DNQ がこれを溶けにくくし、光が当たると逆に溶けやすくする＝ポジ型レジストのしくみ。",
+   "note4": "1970年代後半から、ノボラック/DNQ のポジ型レジストが IC 作りの主役になり、g線・i線の時代（線幅 約0.35μm まで）を支えた。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAvklEQVR42mNgGAWM+CQjwoL+MzAwMNj8uMeQs+kCVrUs2ASn+Bn8P8KhxFBhwcdwgc+EweATH8MUBob/RziUGFasWseI14CIsKD/NhZ8DDZo4jx+KQwVn84wMDAE/Uc2hAndAJsf9xgu8JnA+QafzmDIIwMmYgIK4g2IQUc4lPAbcIRDicHg0xm4K5A1I7uMoBdgmpC9YPDpDIYXGHFFn82Peww2DgZww44cuMCALRbwpoMpfgb/Yd5C1ziMAABDV0mqyF5gEAAAAABJRU5ErkJggg=="
+}

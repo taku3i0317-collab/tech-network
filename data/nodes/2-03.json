@@ -1,0 +1,52 @@
+{
+ "id": "2-03",
+ "history": {
+  "name": "天然ソーダ",
+  "name_en": "Natural soda",
+  "kind": "tech",
+  "trunk": "2",
+  "trunk_name": "化学",
+  "year": -2600,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "古代エジプトのミイラ作りにも使った塩",
+  "hee1_en": "A salt that was even used to make mummies in ancient Egypt",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "干上がった塩湖の蒸発岩。トロナ Na2CO3·NaHCO3·2H2O を加熱 2(Na2CO3·NaHCO3·2H2O)→3Na2CO3+CO2+5H2O。古代エジプトはナトロンをミイラ作り（最初の証拠は古王国第4王朝、紀元前2600年頃のヘテプヘレス1世の内臓箱）とガラスに使い、大プリニウス『博物誌』（77年）が記録"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": "trona",
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": "近似：本物は2個から炭酸ナトリウム3個。ここでは1→1。出てくる CO2 と水蒸気は回収しない。",
+  "game_text": "決定：新鉱石「トロナ」を砂漠の湖底（干上がった湖の跡＝砂漠の水場の底）に生成。[1-33]ホウ砂と同じ蒸発岩帯にまとめる",
+  "hee_game": {
+   "note1": "古代エジプトのミイラ作りにも使った塩。",
+   "note2": "Na2CO3·NaHCO3·2H2O（天然ソーダ）。かまどで焼くと炭酸ナトリウム：2トロナ → 3Na2CO3 + CO2 + 5H2O（約150〜200℃で十分）。",
+   "note3": "古代エジプトでは紀元前2600年頃（第4王朝）から、トロナを含む天然ソーダ「ナトロン」で遺体を乾かしてミイラにした。ガラスやファイアンス（焼き物）にも使った。大プリニウス『博物誌』（77年）にナトロンでガラスができた話がある。",
+   "note4": "ナトロンはアラビア語のナトルーンから来た言葉で、元素記号 Na（ナトリウム）もナトロンに由来する。「トロナ」もナトルーンから来たと考えられている。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAxklEQVR42t1TLQ6DMBT+IFMLh3hqZ3gCNbGgEAtZ0FM7wMIBJlE7BiELArUgphA9xjsEvhMbpLQd83ymfW3e99OXAutHfjrqpfuNr0GIQaIgxEh2WwDQQgxVFsFfAiHG9ZwDyKezLE4BAA9RuqqbGUloFlyU+vJRxNC3zprd7k6k0HYQxSmGvkX0VbVrGzMCEjUpjrCbhRiLDkzVcW+SkajfBELsWDUd+WIEvjEmh70377N7wZ6CM8aqbgIh1vbbCDFonX/lDXv3TawjmQiMAAAAAElFTkSuQmCC"
+}

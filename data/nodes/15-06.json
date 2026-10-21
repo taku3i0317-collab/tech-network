@@ -1,0 +1,63 @@
+{
+ "id": "15-06",
+ "history": {
+  "name": "電波の発見",
+  "name_en": "Discovery of radio waves",
+  "kind": "tech",
+  "trunk": "15",
+  "trunk_name": "通信・情報",
+  "year": 1864,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "ヘルツは「この発見は何の役にも立たない」と言った⚠️",
+  "hee1_en": "Hertz said, \"This discovery is of no use at all\" ⚠️.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "10-01"
+    ]
+   ],
+   [
+    [
+     "4-27"
+    ]
+   ],
+   [
+    [
+     "4-03"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1864 マクスウェルが電磁波を予言、1888 ハインリッヒ・ヘルツが火花放電で電波を出し、離れた輪の隙間に火花が飛ぶのを確認"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "解説＋実演ブロック",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAVUlEQVR42mNgGLTgyDSG/2TLwyRxKSJKM7F8kmwkyWZS5RmGbnRiBV0uahiBBhNDByzYJL0cdBgYGBj+22TdYjwyjeH/sXVqcDFkdWV7bjFS7IJhAAAsaDyYlo9cfQAAAABJRU5ErkJggg=="
+}

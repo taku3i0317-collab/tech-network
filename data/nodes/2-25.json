@@ -1,0 +1,78 @@
+{
+ "id": "2-25",
+ "history": {
+  "name": "フェノール",
+  "name_en": "Phenol",
+  "kind": "tech",
+  "trunk": "2",
+  "trunk_name": "化学",
+  "year": 1834,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "石炭のタールから見つかったフェノールは、手術の消毒に使われた",
+  "hee1_en": "Phenol, found in coal tar, was used to disinfect during surgery.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "C6. 石炭のタールから消毒薬（フェノール）［2-25］",
+    "answer": "コールタールを蒸留した中油（約170〜230℃）にはフェノールが多い。フェノールは弱い酸なので、水酸化ナトリウムで洗うと塩になって水に移り、ナフタレンなどは油に残る。水の層に酸を入れるとフェノールが戻って分かれる。1834 ルンゲが発見、1867 リスターが手術の消毒に使った。",
+    "hee": {
+     "1": "石炭のタールから見つかったフェノールは、手術の消毒に使われた。",
+     "2": "酸・塩基の性質の違いで物を分ける。ポジ型レジストがアルカリに溶けるのも同じ考え。",
+     "3": "リスターの石炭酸消毒で、手術のあとの死亡がぐっと減った。",
+     "4": "今のフェノールは主にクメン法（1942 ウドリスら、1944 ホック）。"
+    },
+    "certainty": "抽出のしくみ ◎／ルンゲ 1834・リスター 1867 ○（TECH_TREE の本物欄と一致）／GHS 区分 ○",
+    "basis": "- Wikipedia「Phenol」：https://en.wikipedia.org/wiki/Phenol"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "2-20"
+    ],
+    [
+     "2-24",
+     "2-01",
+     "2-08"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1834 ルンゲがコールタールから「石炭酸」として発見、1867 リスターが手術の消毒に使用。合成：C6H6+H2SO4→C6H5SO3H+H2O → C6H5SO3Na+2NaOH→C6H5ONa+Na2SO3+H2O（1890年代〜）、現在はクメン法（1942 ソ連のウドリスら、1944 ホックが独立に発明）"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "軽",
+  "missing": "",
+  "item": "phenol",
+  "recipes": [
+   "作業台：フェノールのナトリウム塩の液 ＋ 硫酸 → フェノール（石炭酸）"
+  ],
+  "machine_recipes": [],
+  "placeholder": "近似：硫酸ナトリウム（副産物）は省略。純度は扱わない。",
+  "game_text": "タールの中油留分（先）、ベンゼンのスルホン化（後）",
+  "hee_game": {
+   "note1": "石炭のタールから見つかったフェノールは、手術の消毒に使われた。皮膚につくとやけどする危ない物。",
+   "note2": "フェノールのナトリウム塩の液＋硫酸で作る。ホルマリンと反応させるとフェノール樹脂（[2-28]）。⚠ GHS：急性毒性・皮膚腐食性・変異原性・特定標的臓器毒性。工業の材料としてだけ扱う。",
+   "note3": "フェノール C6H5OH は、ベンゼンの環に OH が1つ付いた分子。酸を入れると塩から戻って、水に溶けにくいフェノールが分かれて出てくる（白い針状の結晶、約41℃でとける）。",
+   "note4": "1834年ルンゲがコールタールから見つけた。1867年リスターが手術の消毒に使い、手術のあとの死亡がぐっと減った。今は主にクメン法（1940年代）で作る。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAQElEQVR42mNgGPKAEZ+kRVnXf3SxE11ljHgNgGlCVojPIEZibUe3mWRgUdb1H5tLqKeBGIOo5gr6eIcmYTBMAQBl3DfiXckGxQAAAABJRU5ErkJggg=="
+}

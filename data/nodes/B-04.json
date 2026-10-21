@@ -1,0 +1,63 @@
+{
+ "id": "B-04",
+ "history": {
+  "name": "マグネトロン・電子レンジ",
+  "name_en": "Magnetron and microwave oven",
+  "kind": "product",
+  "trunk": "B",
+  "trunk_name": "枝",
+  "year": 1921,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "電子レンジはレーダーの部品から生まれた",
+  "hee1_en": "The microwave oven was born from a radar part.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "5-02"
+    ]
+   ],
+   [
+    [
+     "5-05"
+    ]
+   ],
+   [
+    [
+     "4-04"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1921 ハルのマグネトロン、1940 ランドールとブートの空洞マグネトロン（レーダー）、1945 パーシー・スペンサーがポケットのチョコが溶けたことから電子レンジを発明（1947 レーダーレンジ）。2.45GHz で水分子を揺さぶる"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "食べ物を加熱するブロック",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAgUlEQVR42mNgGPKAkYGBgcHKwec/OZqPHdjCyALj/DOzw6vYR4wPhb9tyxYGBgYGBiZSbNzy6hMKjdOAE11ljPhcgewaJmyaLcq6/pPtAlyaiXYBVcKAFBewkOMCZJtZ0E2HxS862AbV5OXjA+fDDTh2YAsjAwPDfyQ2PkCsOjoBALWTMj1+NMOGAAAAAElFTkSuQmCC"
+}

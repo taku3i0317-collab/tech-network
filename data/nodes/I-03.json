@@ -1,0 +1,58 @@
+{
+ "id": "I-03",
+ "history": {
+  "name": "周期表",
+  "name_en": "Periodic table",
+  "kind": "idea",
+  "trunk": "I",
+  "trunk_name": "発見・考え方",
+  "year": 1869,
+  "year_range": "1869〜1871",
+  "year_uncertain": false,
+  "hee1": "メンデレーエフは、まだ見つかっていないゲルマニウムの重さや性質を言い当てた",
+  "hee1_en": "Mendeleev predicted the weight and properties of germanium before it was discovered.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://en.wikipedia.org/wiki/History_of_the_periodic_table",
+   "https://en.wikipedia.org/wiki/Mendeleev%27s_predicted_elements"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [],
+  "understanding": [],
+  "enables": [],
+  "explains": [
+   "1-01",
+   "1-44",
+   "9-02"
+  ],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-42",
+   "I-45",
+   "I-46"
+  ],
+  "frontier": false,
+  "real": "1869年、ドミトリ・メンデレーエフが元素を原子量の順に並べ、似た性質がくり返し現れる表を発表。1871年、空いたマスに入る元素（エカアルミニウム・エカホウ素・エカケイ素）の性質を予言した。のちにガリウム（1875）、スカンジウム（1879）、ゲルマニウム（1886 ヴィンクラー）が見つかり、予言が当たった"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "実験：集めた元素を重さの順に並べると、似た性質がくり返し現れる → 空いたマスの元素を予言できる",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAATklEQVR42mNgGB4gIizoP7l6WJAFVqxax0iqJSyk2Orh5gRn79i1D9UAqOR/YjTjdAEuRfgAC7qT6A5QQr3LRY2o6Czbcwuuj4lhFFAMAIbiFrR01D+fAAAAAElFTkSuQmCC"
+}

@@ -1,0 +1,76 @@
+{
+ "id": "2-15",
+ "history": {
+  "name": "ホウケイ酸ガラス",
+  "name_en": "Borosilicate glass",
+  "kind": "tech",
+  "trunk": "2",
+  "trunk_name": "化学",
+  "year": 1893,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "理科室のビーカーが火にかけても割れないのはホウ素のおかげ",
+  "hee1_en": "Science-room beakers don't crack over a flame thanks to boron",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "C28. 火にかけても割れないガラス（ホウケイ酸ガラス）［2-15］",
+    "answer": "ガラスにホウ素の酸化物 B2O3 を入れると、温めたときの伸び（熱膨張）がソーダ石灰ガラスの約3分の1になる（約 3.3 対 9 ×10⁻⁶/K）。急に熱しても熱い所と冷たい所の伸びの差が小さいので割れにくい。1893年ドイツ・イェーナのオットー・ショットが作り、1915年にアメリカのコーニングが「パイレックス」として売り出した。理科室のビーカー・フラスコ、熱くなるガラスの真空装置や真空管に使われた。",
+    "hee": {
+     "1": "理科室のビーカーが火にかけても割れないのは、ホウ素が入っているから。",
+     "2": "ふつうのガラスのコップに熱湯を注ぐと割れることがあるのは、熱衝撃のため。",
+     "3": "ショットはアッベ・ツァイスと組んで、レンズ用のガラスもたくさん作った。",
+     "4": "割れたガラス（カレット）は、原料に混ぜて溶かし直す。"
+    },
+    "certainty": "ショット 1893・パイレックス 1915 ◎／組成と熱膨張の値 ◎／真空装置に使われたこと ○（ゲーデのポンプとの直接のつながりは ⚠️）",
+    "basis": "- Wikipedia「Borosilicate glass」：https://en.wikipedia.org/wiki/Borosilicate_glass"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "2-14"
+    ]
+   ],
+   [
+    [
+     "1-33"
+    ]
+   ],
+   [
+    [
+     "3-04"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1893 オットー・ショット（イェーナ）が B2O3 を入れて熱膨張を小さくしたガラスを開発、1915 コーニングの「パイレックス」。組成およそ SiO2 80%・B2O3 13%・Na2O 4%・Al2O3 2%。熱膨張係数 約3.3×10⁻⁶/K（ソーダ石灰は約9×10⁻⁶/K）なので急に熱しても割れにくい"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "実験＋軽",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "砂+ソーダ+ホウ砂 → ホウケイ酸ガラス。加熱を伴う実験器具（フラスコ・蒸留器・真空管の外囲[5-02]）の上位素材",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAWUlEQVR42mNgoBAwwhgWZV3/idV0oquMEasEIUOwyTORaghBA3A6j1gDRqALWCh1AW3AkWkM/wmx8Wr+/yjkP0zx/0chKHx0Q1hwGWTtE8JwhGHNf1z8wQMAICM3Wm3S3BAAAAAASUVORK5CYII="
+}

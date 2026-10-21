@@ -1,0 +1,58 @@
+{
+ "id": "15-22",
+ "history": {
+  "name": "アンテナ",
+  "name_en": "Antenna",
+  "kind": "tech",
+  "trunk": "15",
+  "trunk_name": "通信・情報",
+  "year": 1888,
+  "year_range": "1888〜1998",
+  "year_uncertain": false,
+  "hee1": "アンテナの長さは受ける電波の波長で決まる。スマホの Wi-Fi なら3cm ほど（S-003 で追加。出典：Wikipedia「Antenna (radio)」「Inverted-F antenna」、Britannica「Antenna」）",
+  "hee1_en": "An antenna's length is set by the wavelength of the radio waves it receives. For smartphone Wi-Fi, it is about 3 cm. (Added in S-003. Sources: Wikipedia \"Antenna (radio)\", \"Inverted-F antenna\", Britannica \"Antenna\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "15-06"
+    ]
+   ],
+   [
+    [
+     "4-03"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "電線の中の電気のゆれを電波に（また逆に）変える金属の形。長さが波長の半分〜4分の1のとき、よく共振する。1888年にヘルツが2本の金属棒で電波を出し、1895年にマルコーニが長い空中線で遠くへ送った。携帯電話は伸ばす棒のアンテナから本体の中の板（逆F アンテナ）に変わった（内蔵の最初の機種の年は資料で揺れる ⚠️）。今のスマホは金属の枠や基板の銅の模様をアンテナに使う"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAhUlEQVR42s1RMQqAMBBLxVcVh85yL+k7HJ3FhxzODuK3zkGFKtcqtIhZSi9NyKVASSwDJLxbR5Lio+JlgFhH0vWjWEdy55IG4YMwgcYDQJW79muDxsOEZ9Sg8TDJsnJ+4XGFe7yiHfzXoNaGZ3ktEYC92HVmtR+jiQ/hBROzaqImmJjxGTaoqzlfZ5VV8wAAAABJRU5ErkJggg=="
+}

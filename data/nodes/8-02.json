@@ -1,0 +1,81 @@
+{
+ "id": "8-02",
+ "history": {
+  "name": "ねじ切りと互換性部品",
+  "name_en": "Screw cutting and interchangeable parts",
+  "kind": "tech",
+  "trunk": "8",
+  "trunk_name": "精密・計測",
+  "year": 1797,
+  "year_range": "1797〜1800",
+  "year_uncertain": false,
+  "hee1": "どの店のネジでも合うのは、ねじ山の角度が決まっているから",
+  "hee1_en": "Screws from any shop fit because the angle of the thread is standardized.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "O26. 同じねじを何本でも（親ねじ付き旋盤とねじの規格）［8-02］",
+    "answer": "モーズリーの旋盤（1797〜1800頃）は刃物台を親ねじで動かすので、親ねじと同じピッチのねじを何本でも正確に切れた。1841年ホイットワースは、ねじ山の角度 55° と太さごとの山の数をそろえることを提案し、どの工場のねじとナットも合うようになった。形と寸法が決まっていれば、どの部品を取っても組める（互換性部品）。",
+    "hee": {
+     "1": "どの店のネジでも合うのは、ねじ山の角度が決まっているから。",
+     "2": "それまでは、ねじとナットは1組ずつ合わせて作り、別の組とは合わなかった。",
+     "3": "互換性部品の考え方は、のちのミシン・自転車・自動車の大量生産の土台になった（歴史では兵器工場から広まった）。",
+     "4": "アメリカのねじ（セラーズ 1864、60°）はイギリスと角度が違い、第二次世界大戦のころまで部品が合わずに困った。"
+    },
+    "certainty": "モーズリーの親ねじ旋盤 ◎／ホイットワース 1841・55° ◎／セラーズ 1864・60° ◎／1850年ごろの精度 0.01〜0.03mm △ → ゲーム内は ⚠️",
+    "basis": "- Wikipedia「British Standard Whitworth」：https://en.wikipedia.org/wiki/British_Standard_Whitworth"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "8-01"
+    ]
+   ],
+   [
+    [
+     "1-26"
+    ],
+    [
+     "1-11"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1797〜1800頃 モーズリーが親ねじ（送りねじ）付き旋盤で同じねじを何本でも切れるように。1841 ジョセフ・ホイットワースがねじ山の角度55°・インチあたりの山数を標準化。互換性部品はフランスのブラン（1785年頃、部品を混ぜて銃を組み立てた）・米国の兵器工場（1824 ハーパーズ・フェリーでホールの M1819 ライフル1000丁、1826年の検査で部品を混ぜても組めた）"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "重（旋盤）",
+  "missing": "",
+  "item": "standard_screw",
+  "recipes": [],
+  "machine_recipes": [
+   "旋盤「規格ねじを切る」：鋼インゴット ＋ 送りねじ（減らない） → 規格ねじ×4（0.75 kW × 30 秒＝23 kJ）。親ねじと同じねじ山を何本でも（ホイットワースの規格 55°）"
+  ],
+  "placeholder": "近似：誤差の幅（±25µm）はゲームの値。ねじ山の形（55° など）の違いは区別しない。",
+  "game_text": "新アイテム「規格ねじ」。以後の機械レシピの共通部品（既存 lead_screw✅ の上位）",
+  "hee_game": {
+   "note1": "どれも同じ形に切られたねじ。どの機械のナットにも合う。",
+   "note2": "旋盤の「親ねじ」の入口に送りねじを入れて、鋼を削ると4本（送りねじは減らない）。旋盤のくせの寸法の誤差を持つ（ノギス・マイクロメータ [8-04] で測れる）。",
+   "note3": "昔は工房ごとにねじの形がばらばらで、ねじとナットは1組ずつ合わせて作った。1841年、ホイットワースはねじ山の角度を 55° に、太さごとの山の数を決めることを提案し、イギリス中のねじがそろった。",
+   "note4": "モーズリーの旋盤は、刃物台を「親ねじ」で動かすので、親ねじと同じピッチ（山の間かく）のねじを何本でも正確に切れた。部品の形が決まっていれば、どの部品を取っても組める（互換性部品）。のちの大量生産・自動車の組立ラインの土台になった。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAs0lEQVR42sVSoQ5DIQy8vvA50xMoMvGyLCgE4RMJAkWmUXzMPmGmUySEAe+ZZZVt73ptD/h3UJ+QSvMKUHKiaVEqzSuCUZ36ySUnctYMSXyI1PYNpTtreETQ5lsVYjapJxnlAGBbHcyHSD5EWvWIs+9y1vB9vwEAX647AHDJicQRqFUDgH2IJF9vrkfcZsBW/mz/rxWk0lybK6DK7t942ijt5KWRZnZ+aI1nSuesfET2k/gAza9r7uELZdwAAAAASUVORK5CYII="
+}

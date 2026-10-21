@@ -1,0 +1,88 @@
+{
+ "id": "8-25",
+ "history": {
+  "name": "ワット天秤",
+  "name_en": "Watt balance",
+  "kind": "tech",
+  "trunk": "8",
+  "trunk_name": "精密・計測",
+  "year": 1975,
+  "year_range": "1975〜2019",
+  "year_uncertain": false,
+  "hee1": "いまの1キログラムは、金属のかたまりではなく、電気の力で決めている（NET-06 で追加。出典：NPL「Bryan Kibble」、NIST「Kilogram: Kibble balance」、Comptes Rendus Physique 2019）",
+  "hee1_en": "Today one kilogram is defined not by a lump of metal but by electric force. (Added in NET-06. Sources: NPL \"Bryan Kibble\", NIST \"Kilogram: Kibble balance\", Comptes Rendus Physique 2019)",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "O68. 電気の力で量る1キログラム（ワット天秤）［8-25］",
+    "answer": "1975年、イギリス国立物理学研究所のブライアン・キッブルは、磁石の中のコイルに電流を流して、その力でおもりの重さを支える天秤を考えた。重さの段で電流 I、コイルを速さ v で動かす段で電圧 U を測ると、磁石の強さが消えて mgv = UI になる。電圧をジョセフソン効果、抵抗を量子ホール効果で測れば、質量はプランク定数で決まる。2019年5月20日、キログラムは金属の原器ではなく h = 6.62607015×10⁻³⁴ J·s で定義された。古い電気の基準（1893年のウェストン標準電池など）では 100万分の1 ほどが限界で、原器の 50µg のずれを確かめるには量子の基準が必要だった。",
+    "hee": {
+     "1": "いまの1キログラムは、金属のかたまりではなく、電気の力で決めている。",
+     "2": "1911〜1990年の「1ボルト」は、水銀とカドミウムでできた小さな電池で保たれていた。",
+     "3": "天秤の名前は、2016年に亡くなった発明者キッブルにちなんで「キッブル天秤」に変わった。",
+     "4": "カドミウムは富山のイタイイタイ病（1968年、日本で最初の公害病の認定）の原因にもなった金属。"
+    },
+    "certainty": "1975 キッブル・mgv=UI ◎／2019 h の値 ◎／ウェストン 1893・1.0186V ◎／古典版のあいまいさの数字 △（ゲームの代表値）",
+    "basis": "- Wikipedia「Kibble balance」：https://en.wikipedia.org/wiki/Kibble_balance"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "8-23"
+    ]
+   ],
+   [
+    [
+     "8-06"
+    ]
+   ],
+   [
+    [
+     "7-13"
+    ]
+   ],
+   [
+    [
+     "5-07"
+    ],
+    [
+     "5-05"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [
+   "I-20",
+   "I-34",
+   "I-35"
+  ],
+  "explained_by": [],
+  "frontier": false,
+  "real": "重さ（重力）とコイルに流す電流の力を釣り合わせ、電気の量（電圧・抵抗を量子の効果で正確に測る）から質量を決める天秤。1975年にイギリス国立物理学研究所（NPL）のブライアン・キッブルが考え、1978年に最初の装置ができた。2016年に亡くなったキッブルにちなんで「キッブル天秤」と呼ばれるようになった。2019年のキログラムの定義し直し（[I-09]）で、プランク定数から質量を決める道具になった"
+ },
+ "game": {
+  "status": "➖",
+  "buildable_now": false,
+  "play": "重＋実験",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAmklEQVR42mNgoCWwcvD5b+Xg8x+fGhZkxeiSXj4+MCaG3LEDWxhRDEAWRAL/sYkjW8ZEqTeZYCZ6+fgwEPIvNrVwF7Dt6CPaVmS1cAM2/FEj2gCi1ZIUjdhCGD0ascQSpgEMDAwMASy3IAyoXwNYcDubBZfTyvbcgtvW5aL2n2gvEKMJb1L28vFh+IVFoReOsMBwwbYtWxjoCgCYQD0dUAvwSgAAAABJRU5ErkJggg=="
+}

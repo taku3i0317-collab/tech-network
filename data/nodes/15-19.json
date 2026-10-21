@@ -1,0 +1,63 @@
+{
+ "id": "15-19",
+ "history": {
+  "name": "スピーカー",
+  "name_en": "Loudspeaker",
+  "kind": "tech",
+  "trunk": "15",
+  "trunk_name": "通信・情報",
+  "year": 1925,
+  "year_range": "1874〜1925",
+  "year_uncertain": false,
+  "hee1": "スピーカーは、磁石と電線のコイルで紙をふるわせて音を作る（モーターの親せき）（S-003 で追加。出典：Wikipedia「Loudspeaker」、Britannica「Loudspeaker」、Trans. AIEE（1925））",
+  "hee1_en": "A loudspeaker makes sound by shaking paper with a magnet and a coil of wire (a cousin of the motor) (added in S-003. Sources: Wikipedia \"Loudspeaker\", Britannica \"Loudspeaker\", Trans. AIEE (1925))",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "10-01"
+    ]
+   ],
+   [
+    [
+     "4-04"
+    ]
+   ],
+   [
+    [
+     "15-09"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "磁石のすき間に置いた銅線のコイルに音の電流を流すと、コイルが前後に動いて振動板をゆらし、空気をふるわせる。1874年のジーメンス、1898年のオリバー・ロッジが動くコイルの特許を出していたが、1925年に GE のチェスター・ライスとエドワード・ケロッグが真空管のアンプで動かす実用的なスピーカーを作り、今の形のもとになった。スマホの小さなスピーカーは、小さくても強いネオジム磁石（[1-35]）を使う"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAeklEQVR42mNgGBlATU3rPy45Jko0EzRATU3rv5eXH5xv5eDzH0bD2EwwhTCMSzMDAwPDsQNbGK0cfP4fO7CFESbGAmMgKf6Pxmcg2wvYAMx2GA13wbZtmxgYGBgYbt26BnPef2JcwYKmCQ6gYgQNYcEnCTOEpglpGAAA66QxU+dat/IAAAAASUVORK5CYII="
+}

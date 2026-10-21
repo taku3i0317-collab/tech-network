@@ -1,0 +1,76 @@
+{
+ "id": "5-06",
+ "history": {
+  "name": "油拡散ポンプ",
+  "name_en": "Oil diffusion pump",
+  "kind": "tech",
+  "trunk": "5",
+  "trunk_name": "真空",
+  "year": 1928,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "水銀の代わりに、ほとんど蒸発しない特別な油を使う",
+  "hee1_en": "Instead of mercury, it uses a special oil that hardly evaporates.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "F30. 水銀の代わりの油（シリコーン油と油拡散ポンプ）［5-06］",
+    "answer": "拡散ポンプは、沸かした液体の蒸気の噴流で気体分子をたたき落とす。1928年にバーチが、水銀の代わりに、ほとんど蒸発しない油を使った。油は毒の蒸気を出さず、鋼で大きなポンプが作れる。のちに、熱に強いシリコーン油（ロチョウの直接法 1941〜45 で大量に作れるようになった）が使われるようになった。",
+    "hee": {
+     "1": "シリコーン油は、ケイ素と酸素の鎖に、メチル基が付いたもの。シャンプーや化粧品にも入っている。",
+     "2": "直接法：金属シリコンの粉に塩化メチルを、銅を触媒にして約300℃ で反応させる。今もシリコーンの大部分はこの方法。",
+     "3": "油の蒸気も少し容器に戻る（バックストリーミング）。だから、きれいな真空が要る半導体の工場はターボ分子ポンプに替わった。",
+     "4": "⚠️ 本物の拡散ポンプ油は、ベンゼンの輪が付いたシリコーン（DC-704・705）で、もっと蒸発しにくい。"
+    },
+    "certainty": "バーチ 1928・ヒックマン 1930年代 ○（Wikipedia・真空技術の解説）／ロチョウの直接法（1941年の発見、1945年の特許）◎",
+    "basis": "Wikipedia「Diffusion pump」https://en.wikipedia.org/wiki/Diffusion_pump 、Wikipedia「Direct process」https://en.wikipedia.org/wiki/Direct_process （英語）"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "5-05"
+    ]
+   ],
+   [
+    [
+     "5-11"
+    ]
+   ],
+   [
+    [
+     "5-04"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1928 C・R・バーチ（メトロポリタン・ヴィッカース）が石油を蒸留した低蒸気圧油（アピエゾン）で置換、1930年代 ヒックマン（コダック）の分留型。水銀より毒が少なく大型化できた"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "重",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAq0lEQVR42r2SMQoDIRBFv8NWFh5oC9k6eJ4cLEiqFItFDmRhu2kyMjHjKgTyYcEdx/cHv8CPMlpx3cKh1Z97NFNUDdCDGq3ROo+SE6zzAFDXJafxFOwkHbUaizT3nqzzXxBqmx63a3dEbY9m3XtT0Kx7r2c5i4r/LyEAgBojtQ+l/XjvDakxMpxGkfJBhqxbOCTYnL00eVjqHmOdZGlvWGpPeZjKB6DkhL/rBSmwVSttKjenAAAAAElFTkSuQmCC"
+}

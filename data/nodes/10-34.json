@@ -1,0 +1,58 @@
+{
+ "id": "10-34",
+ "history": {
+  "name": "オペレーティングシステム",
+  "name_en": "Operating system",
+  "kind": "tech",
+  "trunk": "10",
+  "trunk_name": "制御・計算",
+  "year": 1969,
+  "year_range": "1961〜1973",
+  "year_uncertain": false,
+  "hee1": "スマホの中でも、50年以上前の UNIX の考え方が生きている（O-011 で追加。出典：Wikipedia「Turing Award」「Compatible Time-Sharing System」「Unix」、IEEE Computer Society 'Fernando Jose Corbató' / MIT CSAIL（https://history.computer.org/pioneers/corbato.html））",
+  "hee1_en": "The ideas of UNIX from more than 50 years ago still live inside smartphones. (Added in O-011. Sources: Wikipedia \"Turing Award\", \"Compatible Time-Sharing System\", \"Unix\", IEEE Computer Society 'Fernando Jose Corbató' / MIT CSAIL (https://history.computer.org/pioneers/corbato.html))",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "10-31"
+    ]
+   ],
+   [
+    [
+     "10-18"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "計算機の上で、ほかのプログラムを動かし、記憶・ファイル・入出力を管理する土台のプログラム（OS）。1961年、MIT のフェルナンド・コルバトらの CTSS が、1台の高い計算機を多くの人で順番に細かく使う「時分割」を始めた。1969年、ベル研究所で UNIX が作られ、1973年にデニス・リッチーらが高級言語 C で書き直して、ほかの計算機に移せるようになった。スマホの OS もこの流れを受けついでいる"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAbUlEQVR42mNgoBAwMjAwMByZxvDf2icEr8KjW9Yw2GRB1CMDJgZqADU1rf/kqqHYBSzYBHGHCcIVsDChTRiQEiYspBh869Y1RpxhgM1WbBqwGoCuEGYYLq8gq8frBaJdQEwY4DKMdi4gJiqpAgBiBS8lwSpD5gAAAABJRU5ErkJggg=="
+}

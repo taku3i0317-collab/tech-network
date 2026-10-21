@@ -1,0 +1,58 @@
+{
+ "id": "I-06",
+ "history": {
+  "name": "偏析",
+  "name_en": "Segregation",
+  "kind": "idea",
+  "trunk": "I",
+  "trunk_name": "発見・考え方",
+  "year": 1913,
+  "year_range": "1913〜1952",
+  "year_uncertain": false,
+  "hee1": "海の氷は、まわりの海水よりずっと塩が少ない。凍るとき、塩は残りの水のほうへ追い出される",
+  "hee1_en": "Sea ice has much less salt than the seawater around it. When it freezes, the salt is pushed out into the remaining water",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://en.wikipedia.org/wiki/Zone_melting",
+   "https://en.wikipedia.org/wiki/Scheil_equation",
+   "https://researchportal.hw.ac.uk/en/publications/non-equilibrium-segregation-during-alloy-solidification/",
+   "https://en.wikipedia.org/wiki/William_Gardner_Pfann"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [],
+  "understanding": [],
+  "enables": [
+   "9-01"
+  ],
+  "explains": [
+   "9-02",
+   "9-07",
+   "9-08"
+  ],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "液体が固まるとき、不純物の多くは固体に入りにくく液体側に残る（偏析係数 k = 固体中の濃度 ÷ 液体中の濃度 が1より小さい）。凝固のときの濃度の変化はガリバー（1913）とシャイル（1942）の式で表される。1952年、ベル研のウィリアム・プファンがこれを使い、溶けた帯を何度も通して不純物を端へ運ぶ帯域精製を考えた（\"Principles of Zone-Melting\"、1952年）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "実験：塩水を少しずつ凍らせ、氷だけを取り出して溶かすと塩が少ない → 不純物は液体に残る",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAa0lEQVR42mNgGAWMDAwMDFZWOf/J0Xzs2BRGFhjHwcELp8IDx6YxOFhlwdnIgAmfJrjhVlkMB45NQzGIoAHoCrEZzMDAwAD3woED2/D618Ehi6AavMDKwec/zljApwBr6B/Ywkg1F4wCBgYAmb0h8SpO2WUAAAAASUVORK5CYII="
+}

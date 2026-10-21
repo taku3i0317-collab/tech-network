@@ -1,0 +1,71 @@
+{
+ "id": "0-19",
+ "history": {
+  "name": "ろくろ",
+  "name_en": "Potter's wheel",
+  "kind": "product",
+  "trunk": "0",
+  "trunk_name": "生存・道具",
+  "year": -4500,
+  "year_range": null,
+  "year_uncertain": true,
+  "hee1": "車輪より先に、焼き物を作る回転台（ろくろ）があった",
+  "hee1_en": "Before the wheel for carts, there was a spinning table for making pottery (the potter's wheel).",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "S9. 車輪より先にろくろ（回る物の流れ）［0-19］［0-09］",
+    "answer": "重い円盤は一度回すと回り続ける（はずみ車）。紡錘車 [0-07] と同じしくみを、焼き物の回転台（ろくろ）が使い、回る粘土を薄く均一に引き上げた。乗り物の車輪はそれより後で、板をつないで円く削った円盤だった。転がると、こすれるのは車軸の所だけになる。",
+    "hee": {
+     "1": "車輪より先に、焼き物を作る回転台（ろくろ）があった。",
+     "2": "けって速く回すろくろは「はずみ車の原理」（重い石の円盤に回転のエネルギーをためる）。",
+     "3": "最古とされるろくろはククテニ・トリピリア文化（紀元前4500年ごろ）⚠️、ウルクの石のろくろは紀元前3129年ごろ。",
+     "4": "ウルクの絵文字の車は紀元前3500〜3350年、現物の最古級はリュブリャナ湿原の木の車輪（紀元前3130年ごろ）⚠️。日本のろくろは5世紀ごろ須恵器とともに。"
+    },
+    "certainty": "はずみ車のしくみ ◎／ククテニ・トリピリアのろくろ △（Wikipedia の記述のみ、起源は「はっきりしない」とも）→ ⚠️／ウルクの絵文字 ○／リュブリャナの車輪（統計的に紀元前3340〜3030年）○ だが「最古」は見つかり方しだい → ⚠️／須恵器とろくろ ○",
+    "basis": "- Wikipedia「Potter's wheel」：https://en.wikipedia.org/wiki/Potter%27s_wheel"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "0-03"
+    ]
+   ],
+   [
+    [
+     "0-07"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "最古とされるろくろはククテニ・トリピリア文化（ウクライナ、紀元前5千年紀の中ごろ）⚠️。西アジアのゆっくり回す回転台は紀元前3500年ごろ、ウルクの石のろくろは紀元前3129年ごろ、けって速く回すろくろ（はずみ車の原理）は紀元前3千年紀の中〜後半（Wikipedia「Potter's wheel」「Wheel」）。日本には5世紀ごろ須恵器とともに"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "実験＋軽",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAiUlEQVR42mNgGGjAiE1wip/Bf2ziOZsuYKhnwqfQxsGAwcbBAKdmnAZM8TP4D9MIMwiXq5gIaSZkCBOlgciEzf9HDlzAUHjkwAWs4QAXSLJT+k+KzfMO3WNkYGBgYEEWzAuwI0rzpA2H4GwWXBJUAUl2Sv8JeY2JJkkZl62wgMPrAnxOJjWmiAIAojEw0i+0TdwAAAAASUVORK5CYII="
+}

@@ -1,0 +1,59 @@
+{
+ "id": "2-13",
+ "history": {
+  "name": "石灰サイクルと塩化カルシウム",
+  "name_en": "Lime cycle and calcium chloride",
+  "kind": "tech",
+  "trunk": "2",
+  "trunk_name": "化学",
+  "year": 1808,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "石灰は焼いて、水をかけて、空気でまた石にもどる。ぐるぐる使い回せる",
+  "hee1_en": "Lime is burned, splashed with water, and turns back into stone in the air. It can be used round and round.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "0-10",
+     "0-11"
+    ]
+   ],
+   [
+    [
+     "2-06"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "CaCO3→CaO+CO2→(+H2O)Ca(OH)2→(+CO2)CaCO3 の循環を[0-10][0-11][2-02][2-08]で使い回す。CaCl2 は吸湿性が強く CaCl2+6H2O→CaCl2·6H2O。ソルベー法の大量の副産物が乾燥剤・融雪剤に。1808 デービーが Ca を単離"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "乾燥剤アイテム（H2・HCl などガスの水分除去）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAY0lEQVR42mNgoBAwogtEhAX9x6Zwxap1jARNw6UZWQ6nGnyakdWgq2OCSRByIl4LiLEdF2Ai1clEG4CsEZshMDEmBloCfF6gJNxQDGDBZSpRKY+cUCcqNRKTpHFmJqpkKlIAAJ3DPfhX6pneAAAAAElFTkSuQmCC"
+}

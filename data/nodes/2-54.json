@@ -1,0 +1,60 @@
+{
+ "id": "2-54",
+ "history": {
+  "name": "クロマトグラフィー",
+  "name_en": "Chromatography",
+  "kind": "tech",
+  "trunk": "2",
+  "trunk_name": "化学",
+  "year": 1952,
+  "year_range": "1906〜1952",
+  "year_uncertain": false,
+  "hee1": "クロマトグラフィーの名前は「色を書く」という意味。最初は植物の色素を色の帯に分けた（O-011 で追加。出典：Nobel Prize「Chemistry 1952」、Wikipedia「National Historic Chemical Landmarks」）",
+  "hee1_en": "The name chromatography means \"color writing.\" At first it separated plant pigments into bands of color. (Added in O-011. Sources: Nobel Prize \"Chemistry 1952\", Wikipedia \"National Historic Chemical Landmarks\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "C29. 色を書く（クロマトグラフィー）［2-54］",
+    "answer": "1906年ロシアのミハイル・ツヴェットは、炭酸カルシウムの粉をつめたガラスの管に葉の色素の液を入れて液を流し、色素が色の帯に分かれることを示して「クロマトグラフィー（色を書く）」と名付けた。粉にくっつきにくい物（カロテン）ほど速く進む。1941年マーティンとシングの分配クロマトグラフィー（1952年ノーベル化学賞）、1952年ジェームズとマーティンのガスクロマトグラフィーへ進み、今は半導体の原料ガスに残ったわずかな不純物を量るのに使う。",
+    "hee": {
+     "1": "葉の緑の中に、黄色やだいだいの色もかくれている。",
+     "2": "くっつきやすさのちがいだけで、混ざった物が分かれる。",
+     "3": "ツヴェットの名前（Tsvet）はロシア語で「色」という意味。",
+     "4": "秋に葉が黄色くなるのは、クロロフィルがこわれてカロテンなどが見えてくるから。"
+    },
+    "certainty": "ツヴェット 1906 ◎／マーティンとシング 1941・1952 ノーベル賞 ◎／ガスクロマトグラフィー 1952 ◎／ツヴェットの名前の意味 ◎",
+    "basis": "- Wikipedia「Chromatography」（歴史）：https://en.wikipedia.org/wiki/Chromatography"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "混ざった物を、動く気体や液体に乗せて、粉をつめた細い管を通すと、粉にくっつきやすい物ほどゆっくり進むので、一つずつ分かれて出てくる。1906年、ロシアのミハイル・ツヴェットが植物の色素を色の帯に分けて名付けた。1941年にイギリスのマーティンとシングが分配クロマトグラフィーを作り（1952年ノーベル化学賞）、1952年にジェームズとマーティンが気体で運ぶガスクロマトグラフィーを作った。トリクロロシランや希ガスを精製するときに、残ったわずかな不純物を量るのに使う"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "実験",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAiElEQVR42mNgoBAw4pJw8ev6j8zfs6mMkWTTXfy6/qMbhA5Y8GkOCfGCcf/jcgETPtP/nXFg+HfGgYEsFzAwMDAwmRyAMB5sw62G0lig2AsUu4C2YUCSF7AlGCaTAwhX4Eil1A2DaXkiSK7oYvh3pouBgYGBIUiBgSEISW7dAxwGrHtQxkB3AAATLzCN4fuKfgAAAABJRU5ErkJggg=="
+}

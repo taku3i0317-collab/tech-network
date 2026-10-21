@@ -1,0 +1,65 @@
+{
+ "id": "P-02",
+ "history": {
+  "name": "液体燃料ロケット",
+  "name_en": "Liquid-fuel rocket",
+  "kind": "product",
+  "trunk": "P",
+  "trunk_name": "モノ（作品）",
+  "year": 1926,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "最初の液体燃料ロケットは、2.5秒ほどしか飛ばなかった",
+  "hee1_en": "The first liquid-fuel rocket flew for only about 2.5 seconds.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://en.wikipedia.org/wiki/Robert_H._Goddard"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "14-15"
+    ]
+   ],
+   [
+    [
+     "6-07"
+    ]
+   ],
+   [
+    [
+     "2-35"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1926年3月16日、ロバート・ゴダードがアメリカ・マサチューセッツ州オーバーンで、ガソリンと液体酸素の液体燃料ロケットを初めて飛ばした。飛んだのは約2.5秒、高さ約12m ⚠️"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "作品：発射台に置いて点火すると、液体酸素と燃料の噴射の反動で真上に飛ぶ",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAgElEQVR42sWRsQmAMBREz2DlSKlSh19mCCcKDhKsLcRBMoTt2SiIaDQG8ar/k/+OgwO+lDZCbYSpmzoFW5Ft5TSE6uxOlaYsNqhTn6ZpAQA95KcEw9ytU8hLcGgAVgRXdao7+M7kmxr7EB69JTV6kNGR0XH0YDYMAHs42+Q1lKsFZu80xsakaOMAAAAASUVORK5CYII="
+}

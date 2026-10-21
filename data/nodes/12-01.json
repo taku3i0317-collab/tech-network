@@ -1,0 +1,53 @@
+{
+ "id": "12-01",
+ "history": {
+  "name": "ローマンコンクリート",
+  "name_en": "Roman concrete",
+  "kind": "tech",
+  "trunk": "12",
+  "trunk_name": "建築・土木",
+  "year": -150,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "2000年前のローマのコンクリートは海水でむしろ強くなる⚠️",
+  "hee1_en": "Roman concrete from 2000 years ago actually gets stronger in seawater ⚠️",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "0-11"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "紀元前2世紀〜。石灰＋火山灰（ポッツォラーナ）＋水で、水中でも固まる。128年頃 パンテオンのドームは無筋コンクリートで今も最大級"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "水中で固まるブロック",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAnElEQVR42mNgGGjAiE0wIizoPzbxFavWMRI0ICIs6L/Nj3sMPH4pKOJfNs1hOMKhhGEII7pmDzcnFE3oBu3YtQ/FECZ0zV82zYErRtYME/dwc0LxIhO6F9BtJCTOhM3phACyK5gojUa8BuzYtY9hx659eA1gwacZKbRxepGJCM0MK1atY8TlEtqGAdF5YYqfwX9yNOdsusBIcW4EACRHQNUfFqDJAAAAAElFTkSuQmCC"
+}

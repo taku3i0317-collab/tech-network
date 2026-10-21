@@ -1,0 +1,63 @@
+{
+ "id": "4-25",
+ "history": {
+  "name": "回生ブレーキ",
+  "name_en": "Regenerative braking",
+  "kind": "tech",
+  "trunk": "4",
+  "trunk_name": "動力・電気",
+  "year": 1897,
+  "year_range": "1890年代〜1908",
+  "year_uncertain": true,
+  "hee1": "電気自動車はブレーキをかけると、そのとき作った電気で電池を少し充電できる。（S-004 で追加。出典：en.wikipedia.org、en.wikipedia.org、Science Museum Group「Electric brougham motor car (Kriéger, 1904)」・Grace's Guide「J. S. Raworth」（https://collection.sciencemuseumgroup.org.uk/objects/co8038670/electric-brougham-motor-car-electric））",
+  "hee1_en": "When an electric car brakes, it can recharge its battery a little with the electricity made at that moment. (added in S-004. Sources: en.wikipedia.org, en.wikipedia.org, Science Museum Group \"Electric brougham motor car (Kriéger, 1904)\", Grace's Guide \"J. S. Raworth\" (https://collection.sciencemuseumgroup.org.uk/objects/co8038670/electric-brougham-motor-car-electric))",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "4-08"
+    ]
+   ],
+   [
+    [
+     "4-05"
+    ]
+   ],
+   [
+    [
+     "4-07"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "モーターは回されると発電機になる。減速するときにモーターで発電して、動く力を電気として電池や架線に戻すのが回生ブレーキ。1890年代のパリでルイ・アントワーヌ・クリエジェが、前輪ごとのモーターに回生用の巻線を付けた電気自動車を作った（始めた年は1894年と1897年の説がある）。路面電車では1903〜08年にレイワースの特許で広まった"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAjklEQVR42mNgGGjAiE3wyDSG/+hiNlnY1RKlGZ840YqOTGP4D8MEvWDl4IPVoGMHtmCoZ8GmycvHB5dD/qMbxAjT7OXjw+DAlcFw4NsMDF3o4tu2bIEbwoSsEJtmbOJePj5wF7Ng07BtyxYMDbjkUAKupWfGf2wBiE+OCd2vuAAuORQDylbhDH28ckMcAAAZvUUI8HKGWQAAAABJRU5ErkJggg=="
+}

@@ -1,0 +1,58 @@
+{
+ "id": "13-08",
+ "history": {
+  "name": "アスピリン",
+  "name_en": "Aspirin",
+  "kind": "tech",
+  "trunk": "13",
+  "trunk_name": "医薬・衛生",
+  "year": 1897,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "薬の働きが分かったのは、売り始めてから70年以上後",
+  "hee1_en": "How the medicine works was found out more than 70 years after it went on sale.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "2-25"
+    ]
+   ],
+   [
+    [
+     "2-23"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "ヤナギの樹皮は古代から痛み止め（サリチル酸類）。1897 バイエル社のフェリックス・ホフマンがアセチルサリチル酸に（胃を荒らしにくく）。しくみ（プロスタグランジンの阻害）は1971 ヴェインが解明"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "解説のみ",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAiUlEQVR42mNgGGjAiC4QERb0H11sxap1jLgMYEHX7OHmhE3df1yGMBGhmcHDzQmry1AMoDgM1NS0/hNSfOvWNUacYWBkoMGAywsMDAwMO3btY7h16xr1vcCEHFU7du3DaTuuWKA4HTAS61R0g2GGshCrGUsA/1+xah0jUS7AFcW3bl1jpNgLFAMA5Pw3zUfHDvsAAAAASUVORK5CYII="
+}

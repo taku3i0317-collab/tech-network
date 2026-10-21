@@ -1,0 +1,53 @@
+{
+ "id": "1-64",
+ "history": {
+  "name": "金の製錬",
+  "name_en": "Gold extraction",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": 1887,
+  "year_range": "1554〜1887",
+  "year_uncertain": false,
+  "hee1": "金の鉱石1トンの中に、金は数グラムしか入っていないことが多い ⚠️（O-012 で追加。出典：Wikipedia「MacArthur–Forrest process」「Patio process」、Mining Foundation of the Southwest「Bartolomé de Medina」（https://miningfoundationsw.org/Bartolome_de_Medina））",
+  "hee1_en": "One ton of gold ore often holds only a few grams of gold ⚠️ (Added in O-012. Sources: Wikipedia \"MacArthur–Forrest process\", \"Patio process\", Mining Foundation of the Southwest \"Bartolomé de Medina\" (https://miningfoundationsw.org/Bartolome_de_Medina))",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-45"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "岩の中のわずかな金を取り出す方法。1554年ごろ（1554〜57年と資料で揺れる ⚠️）、メキシコのパチューカでバルトロメ・デ・メディナが、くだいた銀の鉱石に塩や硫酸銅と水銀を混ぜて、銀を水銀に溶かしこむ（アマルガム）パティオ法を広めた（金も水銀で同じように取れる）。1887年、スコットランドのマッカーサーとフォレスト兄弟が、うすいシアン化物の液で金を溶かし出す青化法を作り、少ない金しか含まない鉱石からも取れるようになった。水銀もシアン化物も毒なので、川や土の汚染が問題になり、扱いが厳しく決められている。チップのワイヤーボンディングの金線や、電子部品の接点のめっきに使われる"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAaklEQVR42mNgGAXUAVYOPv/J1cOELjAtT+T/tDwRFANhfBiNbCEjugExeicYGBgYGJZcsoAbEKN3gmHJJQsGLx8fhm1btjAwMDAwHDuwhRHFAJghXj4+eJ2+bcsWuGYMA4gJD2TNo2CwAAC/xSd2ydDZ0gAAAABJRU5ErkJggg=="
+}

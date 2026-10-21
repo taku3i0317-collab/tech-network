@@ -1,0 +1,58 @@
+{
+ "id": "1-69",
+ "history": {
+  "name": "浸炭・窒化",
+  "name_en": "Carburizing and nitriding",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": 1923,
+  "year_range": "古代〜1923",
+  "year_uncertain": false,
+  "hee1": "歯車の表面だけを硬くして、中は割れにくく粘り強くしている（O-012 で追加。出典：Wikipedia「Nitriding」「Carburizing」、D. Pye『Practical Nitriding and Ferritic Nitrocarburizing』(ASM International, 2003)）",
+  "hee1_en": "Only the surface of a gear is made hard, while the inside stays tough and hard to crack. (Added in O-012. Sources: Wikipedia \"Nitriding\" \"Carburizing\", D. Pye, \"Practical Nitriding and Ferritic Nitrocarburizing\" (ASM International, 2003))",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "6-09"
+    ]
+   ],
+   [
+    [
+     "1-26"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "鋼の表面に炭素や窒素を外からしみこませ、表面だけを硬く、中は粘り強くする。炭素をしみこませる浸炭は古代からある。1913年にアメリカのアドルフ・マクレットがアンモニアで窒素を入れる方法の特許を取り（出願は1908年）、1923年、ドイツのクルップ社のアドルフ・フライが窒化鋼を作った。歯車・玉軸受・エンジンのクランク軸などに使われる。表面から原子をしみこませるのは、半導体の熱拡散（[9-16]）と同じしくみ"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAmklEQVR42mNgoBAw4pKwcvD5j8w/dmALVrUs6BqOHdjCaOXg89/Lxwdd7X+YHLKBLMgqoJqwaUaR27ZlC3Yv4LAZBWzbsgXFO4zIzodpXjRrElbNcWl5cENg3mBEt3nRrEkMt25dwxpgampa/5ENOXZgCyMTpdE48AZQJxApiUYmdM3IiQSbZi8fH5RkzoLDdAyXIMtRNTNRDADL0mK9dEVC1wAAAABJRU5ErkJggg=="
+}

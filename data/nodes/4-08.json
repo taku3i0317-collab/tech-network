@@ -1,0 +1,54 @@
+{
+ "id": "4-08",
+ "history": {
+  "name": "電動モーター",
+  "name_en": "Electric motor",
+  "kind": "tech",
+  "trunk": "4",
+  "trunk_name": "動力・電気",
+  "year": 1821,
+  "year_range": "1821〜1873",
+  "year_uncertain": false,
+  "hee1": "モーターは発電機の逆。電気を流すと回る",
+  "hee1_en": "A motor is the opposite of a generator. Send electricity through it and it spins.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "ダイナモの逆。1821年9月 ファラデーの電磁回転（大事な一歩だが、すぐ実用にはならなかった）、1873年 ウィーン万博でグラムの発電機がモーターとして回った。アイテムとして実装済み"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": "electric_motor",
+  "recipes": [
+   "作業台：鉄インゴット×5 ＋ 銅インゴット×4 → 電動モーター"
+  ],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {
+   "note1": "電気でくるくる回る。扇風機や洗濯機にも入っている。",
+   "note2": "送りねじを回す。本物の帯域精製は1時間に数cmの速さ。",
+   "note3": "磁場の中の電線に電流を流すと力がはたらく（F = BIL、ローレンツ力）。コイルにこの力を受けさせて回し、整流子（向きを切りかえる部品）で電流の向きを入れかえ続ける。仕組みはダイナモと同じで、逆向きに使っているだけ。",
+   "note4": "ファラデーは1821年、電流で針金を磁石のまわりに回した（電磁回転）。大事な一歩だったが、すぐに役立つモーターにはならなかった。1873年のウィーン万博では、作業員がグラムのダイナモ2台を電線でつないだら片方がモーターとして回り出し、「発電機はモーターにもなる」と知られるようになった。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAYElEQVR42mNgGAWMyBw1Na3/xGi6desaXB8LuqSRgQZezecu3EDhM2FT5OHmxODh5kSUF5jI8XdEWND/iLCg/1i9wMDAwLBj1z6iDWMhxwUrVq1jpMgLeF2AHsqjgDAAAC/dE12HhHh8AAAAAElFTkSuQmCC"
+}

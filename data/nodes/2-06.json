@@ -1,0 +1,76 @@
+{
+ "id": "2-06",
+ "history": {
+  "name": "ソルベー法",
+  "name_en": "Solvay process",
+  "kind": "tech",
+  "trunk": "2",
+  "trunk_name": "化学",
+  "year": 1861,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "塩とアンモニアと二酸化炭素からソーダを作る。アンモニアは回収してまた使う",
+  "hee1_en": "Soda is made from salt, ammonia and carbon dioxide. The ammonia is recovered and used again.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "C26. アンモニアがぐるぐる回る工場（ソルベー法）［2-06］［2-08］",
+    "answer": "塩水にアンモニアと二酸化炭素を吹きこむと、水に溶けにくい重曹（NaHCO3）が沈む。焼くと炭酸ナトリウム（ソーダ）。残った塩化アンモニウムは石灰でアンモニアに戻して、また使う。全体では 2NaCl + CaCO3 → Na2CO3 + CaCl2 で、アンモニアは減らない（もれる分だけ補給）。1861年ベルギーのエルネスト・ソルベーが特許をとり、1865年に工場を動かした。ソーダに消石灰を混ぜると苛性ソーダ（石灰ソーダ法）で、1890年代の電解法（カストナー・ケルナー法）が広まるまでの主な作り方だった。",
+    "hee": {
+     "1": "塩と石灰石からソーダができる。アンモニアは回収してまた使う。",
+     "2": "ルブラン法は塩酸ガスで空気をよごしたが、ソルベー法はずっときれいだった。",
+     "3": "ソルベーは得た財産で、物理学者が集まる「ソルベー会議」（1911〜）を始めた。",
+     "4": "副産物の塩化カルシウムは、道の融雪剤や乾燥剤になる。"
+    },
+    "certainty": "反応 ◎／ソルベー 1861 特許・1865 操業 ◎／ソルベー会議 1911 ◎",
+    "basis": "- Wikipedia「Solvay process」：https://en.wikipedia.org/wiki/Solvay_process"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "6-04"
+    ]
+   ],
+   [
+    [
+     "2-21"
+    ]
+   ],
+   [
+    [
+     "0-10"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1861 エルネスト・ソルベー特許、1865 本格操業。NaCl+NH3+CO2+H2O→NaHCO3↓+NH4Cl、2NaHCO3→Na2CO3+CO2+H2O、2NH4Cl+Ca(OH)2→2NH3+CaCl2+2H2O（NH3 は循環）"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "実験＋重",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "塔型ブロック（[1-16]の蒸留塔と見た目を共通化）。ルブラン法の上位。副産物 CaCl2→[2-13]",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAnElEQVR42s2SQQrDIBBFn6HrLHOUUrIormXOk0PkPEPXrqRnyTIHqF0ESwlRkgols/no6Pf/P0JlmVyjtxK/18Hr5tkmd9mJAJBwTVgkANBpJng1CQ9ZyL22RZRVELya1/X+wWoFTgSdZgCe42CKo+mtxNswRoCEOVsnyyDJla7lobpLQXUGl9IvbKxE17ULLntxrcLsCe9nK3+pN9YMVebAow6wAAAAAElFTkSuQmCC"
+}

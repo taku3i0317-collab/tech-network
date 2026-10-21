@@ -1,0 +1,58 @@
+{
+ "id": "14-11",
+ "history": {
+  "name": "自動車",
+  "name_en": "Automobile",
+  "kind": "product",
+  "trunk": "14",
+  "trunk_name": "輸送",
+  "year": 1886,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "最初の長距離ドライブは、夫に内緒で妻が子どもと出かけた",
+  "hee1_en": "The first long-distance drive was a wife's trip with her children, kept secret from her husband",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "14-09"
+    ]
+   ],
+   [
+    [
+     "14-07"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1886 カール・ベンツのパテント・モトールヴァーゲン、1888 妻ベルタが約100km の長距離試走。1908 フォード T型と1913 流れ作業"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "乗り物（任意、⚠️範囲：エンティティ実装は保留）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAfklEQVR42mNgGAWM2AStHHz+o4sdO7AFq1ombJrfPLvH8ObZPQYvHx8GGBuboRgGwDRjA7gMYUR2spePD0E/b9uyBcU7LDAGMZqR1P2HhQsTOSGPbBkLstPQ/S8ipQT3PzZxjGhUU9NCCaRbt64x4hPHCtTUtP6ja8AnPgwAAF/zPvp5ikQJAAAAAElFTkSuQmCC"
+}

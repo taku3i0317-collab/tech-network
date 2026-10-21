@@ -1,0 +1,77 @@
+{
+ "id": "4-01",
+ "history": {
+  "name": "水車発電機",
+  "name_en": "Water-wheel generator",
+  "kind": "tech",
+  "trunk": "4",
+  "trunk_name": "動力・電気",
+  "year": 1878,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "流れる水の量と落ちる高さが大きいほど、たくさん発電できる",
+  "hee1_en": "The more water flows and the higher it falls, the more electricity you can make",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "E1. 水の力で電気をつくる（水車発電・ダイナモ）［4-01］［4-04］",
+    "answer": "磁石のそばでコイルを回すと、電気が生まれる（電磁誘導）。回す力に水車を使えば、川の流れが電気になる。1831年にファラデーが電磁誘導を発見し、翌1832年にはピクシーが手回しの発電機を作った。",
+    "hee": {
+     "1": "電気は「磁石とコイルをぐるぐる回す」とできる。今の発電所もほとんど同じ仕組み。",
+     "2": "そのままだと電気の向きが行ったり来たりする（交流）。ピクシーは「整流子」という切り替えスイッチを付けて、一方向の電気（直流）にした。電気分解には直流が要る。",
+     "3": "電気を使う家が初めて水力で明かりをともしたのは、1878年のイギリス（クラッグサイド邸。アームストロングが水車の電気でアーク灯をともした）。1882年にはアメリカで水力発電所が動き出した。",
+     "4": "発電できる量は「流れる水の量 × 落ちる高さ」で決まる。だから水力発電所はダムで水をため、落差を大きくする。"
+    },
+    "certainty": "ファラデー1831・ピクシー1832 ◎／クラッグサイド1878 ◎（初めて水力の電気で照明された家。「世界初の水力発電所」ではない）／アップルトン1882 ○",
+    "basis": "米国国立強磁場研究所（MagLab）の電気の歴史、ケニオン大学の初期の実験装置コレクション、ナショナル・トラスト https://www.nationaltrust.org.uk/visit/north-east/cragside/history-of-cragside 、英国科学博物館群 https://collection.sciencemuseumgroup.org.uk/people/ap29986 （英語）"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "4-04"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-01"
+  ],
+  "frontier": false,
+  "real": "ファラデー電磁誘導。流量×落差。初期の発電所は水力（1878年 英国クラッグサイド邸でアームストロングが水力の電気でアーク灯をともした。「世界初の水力発電所」ではなく「初めて水力の電気で照明された家」）"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": "water_wheel",
+  "recipes": [
+   "作業台：木材×8 ＋ ダイナモ → 水車発電機"
+  ],
+  "machine_recipes": [
+   "水車発電機「水車で発電」：横に流れる水（減らない、1面ごと） → 電気（発電 0.5 kW）。1面あたり。止まった水では回らない"
+  ],
+  "placeholder": null,
+  "game_text": "流水1面500W",
+  "hee_game": {
+   "note1": "流れる水で車を回して、電気を作る。",
+   "note2": "横に「流れている水」が必要（1面500W）。止まった水では回らない。電力＝流量×落差。初期の発電所は水力が多かった。",
+   "note3": "水力の電力 P = ρgQHη（ρ：水の密度、g：重力加速度、Q：流量、H：落差、η：効率）。毎秒1トンの水が10m落ちれば、約98kW。燃料を燃やさないのでCO2も出ない。",
+   "note4": "世界初の水力発電所は1882年のアメリカ・アップルトン。日本では1888年に仙台の三居沢で紡績工場が始め、1891年の京都の蹴上発電所（琵琶湖疏水）は日本初の電車（1895年）を走らせた。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAApUlEQVR42o1TQRKEMAiLjKc8xJf4un0w1/WEphFm5NKWAgmh3X7n8UdjJJGZyxkAMvPeA0CQvB16UWf1VXIVzkyEI2iwMlC/5oQGFoIz8uJaKLw3R9XinYWK4ky8SMdo94QJsdjpurTQiTndKdju6FPSqIGOzOlN6C8NvMdp5hozajD1272D5SW6Fj4NZaP76MTxfieRST4Mvv7G1xg9sHvK/gPVLkNqnu2LIRWCAAAAAElFTkSuQmCC"
+}

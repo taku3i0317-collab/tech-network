@@ -1,0 +1,54 @@
+{
+ "id": "I-41",
+ "history": {
+  "name": "連鎖反応",
+  "name_en": "Chain reaction",
+  "kind": "idea",
+  "trunk": "I",
+  "trunk_name": "発見・考え方",
+  "year": 1913,
+  "year_range": "1913〜1920年代",
+  "year_uncertain": false,
+  "hee1": "爆発は、1つの反応が次の反応を2つ、4つ…と増やしていくから一気に起きる",
+  "hee1_en": "An explosion happens all at once because one reaction sets off two, then four, and so on.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://www.nobelprize.org/prizes/chemistry/1956/summary/",
+   "https://www.chemistryworld.com/opinion/bodensteins-gauge/3008010.article"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [],
+  "understanding": [],
+  "enables": [],
+  "explains": [
+   "6-06",
+   "7-02",
+   "14-09"
+  ],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "反応でできた活発な原子（ラジカル）が次の分子とぶつかって反応し、また活発な原子を作る…と鎖のように続くのが連鎖反応。1913年、ドイツのマックス・ボーデンシュタインが水素と塩素の反応でこの考えを出した。1920年代末、ソ連のニコライ・セミョーノフとイギリスのシリル・ヒンシェルウッドが、1回で2つ以上の活発な原子ができると反応が一気にふくらむ（分岐連鎖）しくみを明らかにした（1956年ノーベル化学賞）。水素と塩素を混ぜて光を当てると爆発するので、塩酸合成炉は混ぜずに炎で静かに燃やす。エンジンのノッキングもこのしくみ"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "実験：ドミノを1列に並べたときと、枝分かれするように並べたときの倒れ方をくらべる",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAUElEQVR42mNgoCWICAv6HxEW9B+fGiaa2X5kGsN/bGySNRMyhAmbv6ccCMJQOOVAEAO28GCiib/xeQFneBAKNFzyTNj8je5ffPJMDKNg4AEAFXk2E7Gy7NUAAAAASUVORK5CYII="
+}

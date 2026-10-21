@@ -1,0 +1,68 @@
+{
+ "id": "10-15",
+ "history": {
+  "name": "露光装置の制御",
+  "name_en": "Lithography machine control",
+  "kind": "tech",
+  "trunk": "10",
+  "trunk_name": "制御・計算",
+  "year": 1978,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "チップを作る機械を、そのチップで動かしている",
+  "hee1_en": "The machines that make chips are run by those same chips.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "10-14"
+    ]
+   ],
+   [
+    [
+     "10-04"
+    ]
+   ],
+   [
+    [
+     "8-06"
+    ]
+   ],
+   [
+    [
+     "8-08"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1978 GCA のステッパー以降、ステージの位置決め・アライメント・露光量を計算機が制御。最先端のスキャナーは数千のセンサーと多数のプロセッサで nm を保つ"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "ステッパー以降の露光装置の必須部品＝自分の工場で作った CPU（第3章の電卓チップ → 第4章の CPU が露光装置を進化させる「ブートストラップ」）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAzUlEQVR42tWSIQ6DQBREHw3H4CSAQP8gkSgk4STVpOkhKsnXiJaTcI+tKCwssG1NRUdOdubPn/3wS9wvmDhuzLs34ZZwBS1ZJgCWG4Y28BrEcWMmgTUAcDnM2uTkFx8jy8RJGfoeSiQkeQHdy1RH/a6DWayjoleAyuEODXzxJVqmr9NICZSYtCYIAc5lawsDSPJimr7g0d2cBH2vQPtKkNYETopOgMq7d9+r/c7DDnRUGz/Ji930jyU6rXfiFTsGU6Td2Uo577tge41/jid7b1rEfKZEUAAAAABJRU5ErkJggg=="
+}

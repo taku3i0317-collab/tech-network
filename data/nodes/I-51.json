@@ -1,0 +1,66 @@
+{
+ "id": "I-51",
+ "history": {
+  "name": "鉄と炭素の状態図と金属組織学",
+  "name_en": "Iron–carbon phase diagram and metallography",
+  "kind": "idea",
+  "trunk": "I",
+  "trunk_name": "発見・考え方",
+  "year": 1863,
+  "year_range": "1863〜1900",
+  "year_uncertain": true,
+  "hee1": "鋼を磨いて顕微鏡で見ると、炭素の量によってちがう模様が見える",
+  "hee1_en": "Polish steel and look at it under a microscope, and you see different patterns depending on how much carbon it has.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://en.wikipedia.org/wiki/Henry_Clifton_Sorby",
+   "https://en.wikipedia.org/wiki/William_Chandler_Roberts-Austen"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "8-10"
+    ]
+   ],
+   [
+    [
+     "3-09"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [
+   "1-08",
+   "1-09",
+   "1-11",
+   "1-26"
+  ],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1863年、イギリスのヘンリー・クリフトン・ソービーが、鋼の表面を磨いて薬で軽く溶かし、顕微鏡で見ると、模様（組織）が見えることを示した。1880年代にフロリス・オスモンドが熱電対で冷えていく温度を測って鉄の変わり目の温度を見つけ、1897年にロバーツ＝オーステンが鉄と炭素の状態図を作り、1900年にバッキウス・ローズボームが整理した。炭素が約0.1〜2% だと鋼になって焼入れで硬くなること、約4% の銑鉄が約1150℃と低い温度で溶けるので高炉から液体で出てくること、炭素の少ない錬鉄が柔らかいことが、この図で説明できる。硬い組織マルテンサイトの名はドイツのアドルフ・マルテンスから"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "実験：炭素の量のちがう鉄を磨いて顕微鏡で見て、模様をくらべる",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAbElEQVR42mNgoAawcvD5T65eJmoYAtdMiiEoapE5hAyxcvD5j6EGXQCbIVg1EtJAUCMhZxMTJiz4FHv5+DAwMDDgNOTYgS2MLOgCaGr+YxEjLhpJShfoGknRzEhuKkTxGiXJmJESA4gKYEIAAEHeQWUbw4IFAAAAAElFTkSuQmCC"
+}

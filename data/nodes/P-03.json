@@ -1,0 +1,106 @@
+{
+ "id": "P-03",
+ "history": {
+  "name": "電気自動車",
+  "name_en": "Electric car",
+  "kind": "product",
+  "trunk": "P",
+  "trunk_name": "モノ（作品）",
+  "year": 2008,
+  "year_range": "1881〜2010",
+  "year_uncertain": true,
+  "hee1": "電気で走る車は、ガソリン車より先の1881年にもう走っていた",
+  "hee1_en": "Cars powered by electricity were already running in 1881, before gasoline cars",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://en.wikipedia.org/wiki/History_of_the_electric_vehicle",
+   "https://www.guinnessworldrecords.com/world-records/739122-first-electric-road-vehicle"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "14-11"
+    ]
+   ],
+   [
+    [
+     "4-08"
+    ]
+   ],
+   [
+    [
+     "1-35"
+    ]
+   ],
+   [
+    [
+     "1-42"
+    ]
+   ],
+   [
+    [
+     "8-20"
+    ]
+   ],
+   [
+    [
+     "9-23"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [
+   "1-26",
+   "1-29",
+   "1-35",
+   "1-37",
+   "1-42",
+   "2-14",
+   "3-22",
+   "3-23",
+   "4-11",
+   "4-15",
+   "4-19",
+   "4-21",
+   "4-22",
+   "4-25",
+   "4-26",
+   "7-23",
+   "9-41",
+   "9-42",
+   "9-44",
+   "10-14",
+   "14-07",
+   "14-16",
+   "14-18",
+   "B-17"
+  ],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1881年4月、ギュスターヴ・トルーヴェがパリで、鉛蓄電池とシーメンスのモーターをつけた三輪車を走らせた（ベンツのガソリン車1886より前）。2008年、テスラ・ロードスターがリチウムイオン電池で売り出された。今の EV は、電池・モーター・インバータ（パワー半導体で電池の直流を交流に変え、回る速さを変える）の組み合わせ"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "作品：電池を充電して置くと、モーターで走る（電池が減ると止まる）",
+  "missing": "リチウムイオン電池, パワー半導体（IGBT・パワーMOSFET）, インバータ",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAcUlEQVR42mNgoAc4Mo3h/8Bp/v8o5P/AuoCQGkZ0ASsHH5yajh3YwojXNCsHn//oBiDzscmzICvy8vGBicMVQcWwyh87sIWREWYAkiRRYNuWLQzHDmxhZEIWQKeRMTY1DLgCEFtA4pJjIiUW8MkNYQAA9Z5KX5RYjJAAAAAASUVORK5CYII="
+}

@@ -1,0 +1,65 @@
+{
+ "id": "P-17",
+ "history": {
+  "name": "スマホのカメラ",
+  "name_en": "Smartphone camera",
+  "kind": "product",
+  "trunk": "P",
+  "trunk_name": "モノ（作品）",
+  "year": 1993,
+  "year_range": "1969〜1993",
+  "year_uncertain": false,
+  "hee1": "スマホのカメラと光学式マウスの目は、同じ仲間のチップ",
+  "hee1_en": "A smartphone camera and the eye of an optical mouse are the same kind of chip.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://en.wikipedia.org/wiki/Active-pixel_sensor",
+   "https://spinoff.nasa.gov/Spinoff2010/cg_4.html"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "9-42"
+    ]
+   ],
+   [
+    [
+     "7-03"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [
+   "シリコン",
+   "ガラス",
+   "銅"
+  ],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "小さなレンズで光を集め、CMOS 画像センサーの何千万もの画素で光を電子に変えて数える。画素の上には赤・緑・青のフィルターが並び、色を作る（[I-12]）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "作品：向けた先の景色を絵にする",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAkElEQVR42mNgGGjAiE1QTU3rPzbxW7euYahnwabZy8sPl4X/0Q1hwab5BJsQVt1Qg1EMYcSm+URXGSO6S2CGWvx6x7Bt2ya4d5hwhcGtW9cYt23bBNds8esdVlex4HMqzAW4NON0AZIhBAFOA5ADEleg4jQA3c8Wv97hNISRlGhEjwGsKRFfQkLXTJWkPPAAAI2ATEEnjQZxAAAAAElFTkSuQmCC"
+}

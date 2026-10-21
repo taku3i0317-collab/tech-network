@@ -1,0 +1,71 @@
+{
+ "id": "2-12",
+ "history": {
+  "name": "硫酸塩",
+  "name_en": "Sulfates",
+  "kind": "tech",
+  "trunk": "2",
+  "trunk_name": "化学",
+  "year": 1838,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "硫酸銅の液に電気を流すと、銅が型の形にくっつく",
+  "hee1_en": "Pass electricity through copper sulfate solution, and copper sticks to a mold in its shape.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "C25. 電気で銅を写しとる（硫酸銅と電鋳、ファラデーの法則）［2-12］",
+    "answer": "硫酸銅の液に銅の陽極と型（陰極）を入れて直流を流すと、陰極に銅がくっついて型の形を写しとる。1838年にヤコビ（ドイツ生まれ、ロシアで研究）が電鋳を発表し、1840年ごろマレーがろうの型に黒鉛を塗る方法を考えた ⚠️。くっつく量は流した電気の量に比例する（ファラデーの法則、1834）：銅 1 mol（63.5 g）に 2F（約19.3万クーロン）。1840年にエルキントン兄弟が銀めっきの特許をとり、1997年 IBM はチップの配線を硫酸銅のめっきの銅に替えた（ダマシン法）。",
+    "hee": {
+     "1": "硫酸銅の液に電気を流すと、銅が型の形にくっつく。",
+     "2": "くっつく銅の重さは、流した電気の量にきっちり比例する。",
+     "3": "陽極の銅が同じだけ溶けるので、液はなかなか減らない。",
+     "4": "最先端のチップの銅配線も、同じ硫酸銅のめっきで作っている。"
+    },
+    "certainty": "反応・ファラデーの法則 ◎／ヤコビ 1838 ◎／マレーの黒鉛塗り（1840ごろ）○⚠️／エルキントン 1840 ◎／IBM 1997 ◎",
+    "basis": "- Wikipedia「Electrotyping」（ヤコビ・マレー）：https://en.wikipedia.org/wiki/Electrotyping"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "2-01"
+    ]
+   ],
+   [
+    [
+     "4-03"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "石こう CaSO4 は[2-10]の副産物。CuO+H2SO4→CuSO4+H2O（濃硫酸なら Cu+2H2SO4→CuSO4+SO2+2H2O）。硫酸銅水溶液の電解で陰極に Cu が析出：1838 ヤコビの電鋳。電気めっきの始まりは、1838年のヤコビの電鋳（めっきで型を写す）と、1840年のエルキントン兄弟の銀めっきの特許（シアン化物の浴）。のちのクロムめっき・チップの銅配線のめっきへ続く"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "実験＋重",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "硫酸銅→めっき槽（[6-01]電解槽と同系統の BE）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAZklEQVR42mNgoBWwKOv6T5HmNTce/cdmCLoYEyk2WpR1/S9JikBRy4RLYk1dAVbNa+oKGJDVMuHSgA3A1CCrZaI0sAeRASFNE1Ak0PkwMRiGAUYGBgaGiLAgshLNilXrGBlGAeUAAJycM4rz+U3fAAAAAElFTkSuQmCC"
+}

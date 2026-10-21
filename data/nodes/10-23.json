@@ -1,0 +1,68 @@
+{
+ "id": "10-23",
+ "history": {
+  "name": "フラッシュメモリ",
+  "name_en": "Flash memory",
+  "kind": "tech",
+  "trunk": "10",
+  "trunk_name": "制御・計算",
+  "year": 1984,
+  "year_range": "1980〜1987",
+  "year_uncertain": false,
+  "hee1": "電子を薄いガラスの壁の中に閉じこめるので、電気を切っても何年も忘れない（S-002 で追加。出典：Wikipedia「Fujio Masuoka」「Flash memory」、半導体産業人協会「NAND フラッシュメモリ」）",
+  "hee1_en": "Electrons are locked inside a thin glass wall, so it remembers for years even with the power off. (Added in S-002. Sources: Wikipedia \"Fujio Masuoka\" \"Flash memory\", Semiconductor History Museum of Japan (SSIS) \"NAND flash memory\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "9-23"
+    ]
+   ],
+   [
+    [
+     "9-15"
+    ]
+   ],
+   [
+    [
+     "9-30"
+    ]
+   ],
+   [
+    [
+     "10-12"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "トランジスタのゲートの下に、薄い酸化膜で囲まれて電気の逃げ場のない「浮いたゲート」を作り、そこに電子を閉じこめて記憶する。電気を切っても消えない。浮いたゲートの考えは1967年にベル研究所で出され、1971年にインテルが紫外線で消す EPROM を、1970年代後半に電気で消せる EEPROM が作られた。東芝の研究者らが1980年ごろに考え、1984年12月の国際学会（IEDM）で NOR 型、1987年に NAND 型を発表した。まとめて一気に消せるので、カメラのフラッシュにたとえて名づけられた"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAaklEQVR42mNgGAWMDAwMDGpqWv+JUXzr1jVGdDEWGMPLy4+gASJSSigWHTuwhZGJVCcfO7CF8diBLYwYLmBgYGA4deEKVk1mBjpwtpWDD4ormCgNRBZcNuHzArJLWEi1Ed0LFEfjKGBgAABaAhwVnysYhAAAAABJRU5ErkJggg=="
+}

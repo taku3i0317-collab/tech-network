@@ -1,0 +1,77 @@
+{
+ "id": "2-47",
+ "history": {
+  "name": "化学強化ガラス",
+  "name_en": "Chemically strengthened glass",
+  "kind": "tech",
+  "trunk": "2",
+  "trunk_name": "化学",
+  "year": 1962,
+  "year_range": "1960〜2007",
+  "year_uncertain": false,
+  "hee1": "大きな原子を小さなすき間に押しこむと、ガラスの表面が締まって割れにくくなる（S-003 で追加。出典：Corning「Innovations」、WIRED「The Glass That Saved Corning」、Wikipedia「Chemically strengthened glass」）",
+  "hee1_en": "Pushing big atoms into small gaps squeezes the glass surface tight and makes it harder to break. (Added in S-003. Sources: Corning \"Innovations\", WIRED \"The Glass That Saved Corning\", Wikipedia \"Chemically strengthened glass\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "C31. 大きな原子を押しこんで割れにくくする（化学強化ガラス）［2-47］",
+    "answer": "ナトリウムを含むガラスを約400℃の溶けた硝酸カリウムにひたすと、表面の小さな Na+ が大きな K+ と入れかわり、表面がぎゅっと押し縮められる（圧縮応力）。ひびは引っぱる力で広がるので、表面の押す力に勝たないと割れ始めない。1962年 S・S・キスラーがイオン交換による強化を発表し、同じころコーニングが「Chemcor」を作ったが売れずに止めた。2007年、スマートフォンの画面用に改良されたアルミノケイ酸の強化ガラスが使われ、今はほとんどのスマートフォンの表面がこの種類のガラス ⚠️。",
+    "hee": {
+     "1": "大きな原子を小さなすき間に押しこむと、ガラスの表面が締まって割れにくくなる。",
+     "2": "ガラスが割れるのは、引っぱる力でひびが広がるから。",
+     "3": "一度は売れずに止めたガラスが、40年以上たってスマートフォンで使われた。",
+     "4": "アルミニウムが入ると、イオンが動きやすくなって深くまで強くできる。"
+    },
+    "certainty": "イオン交換のしくみ ◎／キスラー 1962 ○／Chemcor（1960年代・1971年ごろ中止）○／2007 スマートフォン ○⚠️（TECH_TREE の本物欄の出典：Corning「Innovations」、WIRED「The Glass That Saved Corning」）",
+    "basis": "- Wikipedia「Chemically strengthened glass」：https://en.wikipedia.org/wiki/Chemically_strengthened_glass"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "2-14"
+    ]
+   ],
+   [
+    [
+     "1-29"
+    ]
+   ],
+   [
+    [
+     "2-02",
+     "6-11"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "ナトリウムを含むガラスを約400℃の溶けた硝酸カリウムにひたすと、表面の小さなナトリウムイオンが大きなカリウムイオンと入れかわり、表面がぎゅっと押し縮められて割れにくくなる。1962年に S・S・キスラーがイオン交換による強化を発表し、同じころコーニング社は1960年からの研究で「Chemcor」を作ったが売れず、1971年ごろに止めた。2007年、アップルの依頼で改良したアルミノケイ酸ガラスを「Gorilla Glass」として iPhone に出した"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "実験＋軽",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAUElEQVR42mNgoCawKOv6j4+PTYyJqravufHoP8wGdD4uMYq9QDFgpMTUE11ljHBnTcsT+c/AwMBALI1iKYxDiiEwPdTxwoCmxIFPSEwMAw0AZPFzfXJI+ZcAAAAASUVORK5CYII="
+}

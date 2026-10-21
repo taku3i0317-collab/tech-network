@@ -1,0 +1,72 @@
+{
+ "id": "10-07",
+ "history": {
+  "name": "真空管フリップフロップと計算機",
+  "name_en": "Vacuum tube flip-flops and computers",
+  "kind": "tech",
+  "trunk": "10",
+  "trunk_name": "制御・計算",
+  "year": 1918,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "ENIAC は真空管がしょっちゅう切れ、毎日交換していた",
+  "hee1_en": "ENIAC's vacuum tubes burned out all the time, and they were replaced every day.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Two_women_operating_ENIAC.gif",
+    "page": "https://commons.wikimedia.org/wiki/File:Two_women_operating_ENIAC.gif",
+    "kind": "画像",
+    "author": "United States Army",
+    "license": "Public domain",
+    "description": "真空管で動いたコンピューター ENIAC の操作盤を動かす2人の女性（1940年代）。",
+    "verified": "2026-10-20 Commons API で PD を確認"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Glen_Beck_and_Betty_Snyder_program_the_ENIAC_in_building_328_at_the_Ballistic_Research_Laboratory.jpg/960px-Glen_Beck_and_Betty_Snyder_program_the_ENIAC_in_building_328_at_the_Ballistic_Research_Laboratory.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Glen_Beck_and_Betty_Snyder_program_the_ENIAC_in_building_328_at_the_Ballistic_Research_Laboratory.jpg",
+    "kind": "画像",
+    "author": "Unknown author",
+    "license": "Public domain",
+    "description": "ENIAC にプログラムを設定するグレン・ベックとベティ・スナイダー（1947年ごろ）。",
+    "verified": "2026-10-20 Commons API で PD を確認"
+   }
+  ],
+  "requires": [
+   [
+    [
+     "5-02"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1918 エクルズとジョーダンのフリップフロップ（1ビットを覚える回路）。1943〜44 コロッサス（暗号解読）、1946 ENIAC（約1万8000本の真空管、約150kW）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "リレーより速い計算機。真空管が切れる（寿命）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAbklEQVR42mNgoCawKOv6b1HW9Z8seWQJbIpwybMgKzoyjeE/AwMDQ8kD7C7AJs+ErMAmi4HRJouBEZcXsMkPMhfgiwFc8iguKEmKIBjVeNXA/IgPEFRzZBrDf2yKcIkTZRNJGimylSouoFoYEAsADuFSEfH4ZDcAAAAASUVORK5CYII="
+}

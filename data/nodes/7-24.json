@@ -1,0 +1,63 @@
+{
+ "id": "7-24",
+ "history": {
+  "name": "カメラのオートフォーカス",
+  "name_en": "Camera autofocus",
+  "kind": "tech",
+  "trunk": "7",
+  "trunk_name": "光学",
+  "year": 1977,
+  "year_range": "1977〜1985",
+  "year_uncertain": false,
+  "hee1": "「ピントが自動で合うカメラ」を世界で初めて量産したのは日本のコニカで、1977年のこと（S-004 で追加。出典：en.wikipedia.org、en.wikipedia.org、en.wikipedia.org、Camera-wiki「Konica C35 AF」・Fstoppers「Autofocus Turns 50」（https://camera-wiki.org/wiki/Konica_C35_AF））",
+  "hee1_en": "The first mass-produced camera that focuses by itself was made by Konica of Japan, in 1977. (Added in S-004. Sources: en.wikipedia.org, en.wikipedia.org, en.wikipedia.org, Camera-wiki \"Konica C35 AF\", Fstoppers \"Autofocus Turns 50\" (https://camera-wiki.org/wiki/Konica_C35_AF))",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "7-03"
+    ]
+   ],
+   [
+    [
+     "4-08"
+    ]
+   ],
+   [
+    [
+     "9-22"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1977年11月のコニカ C35 AF（愛称ジャスピンコニカ）が、量産されたカメラで初めてピントを自動で合わせた。中にはアメリカのハネウェル社の「ビジトロニック」モジュールがあり、2つの窓から見た像のずれを光センサーで比べる、自動の距離計のしくみだった。35ミリの一眼レフでは1981年のペンタックス ME F（モーター付きの専用レンズ）が先で、1985年のミノルタ α-7000 はモーターを本体に入れて広まった（よく「α-7000 が最初の AF 一眼レフ」と言われるが、正しくは「本体に AF を組みこんだ最初の量産機」）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAuElEQVR42tVSsQ2EMAy0IyZgCBdMwAwpECMwBUNkioyAKDIDE6TwEBmAxt+QV0j4gPTF611Fd77TxTbArwtzgKiT+Gb2eGfQ5EKth5SXT8JojlGcCp1bc6MCc24FZo8qd46Ec2sVK76QNhJ10o4TbAfejhPQYuWIfUqragPazIybmauDVN+usamR/WzkzuCUQOsBiDph9hgWC/0eoN8DhMW+Z5Nvp0hwNJwar7DiEtMLfFJPrvRP6gVVSlWlkBZBSQAAAABJRU5ErkJggg=="
+}

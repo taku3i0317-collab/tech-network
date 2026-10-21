@@ -1,0 +1,58 @@
+{
+ "id": "8-37",
+ "history": {
+  "name": "放電加工",
+  "name_en": "Electrical discharge machining",
+  "kind": "tech",
+  "trunk": "8",
+  "trunk_name": "精密・計測",
+  "year": 1943,
+  "year_range": "1943〜1970年代",
+  "year_uncertain": false,
+  "hee1": "火花を1秒に何万回も飛ばして、硬い金属を少しずつ溶かして削る（O-011 で追加。出典：Wikipedia「Electrical discharge machining」、国立科学博物館「重要科学技術史資料」）",
+  "hee1_en": "Tens of thousands of sparks per second melt and carve hard metal bit by bit. (Added in O-011. Sources: Wikipedia \"Electrical discharge machining\", National Museum of Nature and Science \"Essential Historical Materials for Science and Technology\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "4-11"
+    ]
+   ],
+   [
+    [
+     "1-03"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "電極と金属のわずかなすき間に、油や水の中で小さな火花（放電）を1秒に何万回も飛ばし、その熱で金属の表面を少しずつ溶かして飛ばして形を作る。刃物で削れない焼入れ鋼や超硬合金でも、電極の形どおりに加工できる。1943年、ソ連のボリス・ラザレンコとナタリア・ラザレンコが発明した。日本でも1954年に放電加工機の会社が作られ（国立科学博物館の重要科学技術史資料）、1970年代には細い線を電極にするワイヤ放電加工や NC 化が進んだ。今は金型づくりに欠かせない"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAiklEQVR42mNgoBAw4pLoclH7j8wv23MLq1omfKZ7OegweDno4HUBE6VeGHgD8IIuF7X/6IFJPxccmcbwHxubJM1HpjH8R2ZjU8uCLdEIvNNh6HK58l/gnQ40LCDsLpcrGImLEWYAoQSDDrYduMJQtucWIwtM4IPQOhJDSQ3hBQYGBoZj69QYhiYAAKOnMVK6WCMmAAAAAElFTkSuQmCC"
+}

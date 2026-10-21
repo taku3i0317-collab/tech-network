@@ -1,0 +1,88 @@
+{
+ "id": "9-11",
+ "history": {
+  "name": "ドーパント源",
+  "name_en": "Dopant sources",
+  "kind": "tech",
+  "trunk": "9",
+  "trunk_name": "半導体プロセス",
+  "year": 1955,
+  "year_range": "1954〜55",
+  "year_uncertain": false,
+  "hee1": "ヒ素は毒だが、スマホの中のトランジスタにも入っている",
+  "hee1_en": "Arsenic is poison, but it is also in the transistors inside your smartphone.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "6. 性質を決める元素を混ぜる（ドーパント）［9-11］［1-33］",
+    "answer": "ごく少量のホウ素を混ぜると p型（電子が足りない）、リン・ヒ素・アンチモンを混ぜると n型（電子が余る）のシリコンになる。",
+    "hee": {
+     "1": "ほんのひとつまみの別の元素で、電気の流れ方が変わる。",
+     "2": "シリコンは手が4本の原子。手が3本のホウ素が入ると1本足りない「穴」ができ、手が5本のリンが入ると1本余る。",
+     "3": "混ぜる量は 1億個に1個くらい。精製で必死に取り除いた元素を、今度はわざと狙った量だけ入れる。",
+     "4": "ホウ素の原料はホウ砂（砂漠の干上がった湖の底にできる。ゲームでは［1-33］で実装済み）。"
+    },
+    "certainty": "◎（物理・化学の標準的な内容）／偏析係数 B 0.80・P 0.35 ◎（特許・教科書の標準値）",
+    "basis": "米国特許 US 5,073,229（Semiconductor crystal pulling method、英語）、キール大学 材料科学の講義資料「Segregation」（英語）"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-33"
+    ],
+    [
+     "1-36"
+    ]
+   ],
+   [
+    [
+     "1-04"
+    ]
+   ],
+   [
+    [
+     "1-43"
+    ]
+   ],
+   [
+    [
+     "6-05"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-29",
+   "I-43",
+   "I-45"
+  ],
+  "frontier": false,
+  "real": "V族（P・As・Sb）は電子が1つ余り n型、III族（B）は1つ足りず p型。気相拡散は1954〜55年（フラー：1954年に n型 Si へホウ素、1955年に2種の不純物で npn）。拡散源は液体の POCl3（リン）・BBr3（ホウ素。初出の年は未確認⚠️）、固体の B2O3。後に気体 PH3・B2H6・AsH3（猛毒）"
+ },
+ "game": {
+  "status": "🔧",
+  "buildable_now": false,
+  "play": "重（CZ 引き上げ機 [9-08] のるつぼに入れる）",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "ドーパント瓶アイテム（As は警告付き）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAYUlEQVR42mNgGBTAoqzrP7lqmSi1nHYGRIQF/SfbAJhmYgxhImQzIUNY0AVWrFrHSEoYsJAalSVJEQxrHpz4j2KRRVnXf3R/46KR1TIwMDAwkpqQGBgYGBQenCDZq8MZAADpoy+f+xodJQAAAABJRU5ErkJggg=="
+}

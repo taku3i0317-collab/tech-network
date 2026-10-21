@@ -1,0 +1,62 @@
+{
+ "id": "15-10",
+ "history": {
+  "name": "トランジスタラジオ",
+  "name_en": "Transistor radio",
+  "kind": "product",
+  "trunk": "15",
+  "trunk_name": "通信・情報",
+  "year": 1954,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "1954年、トランジスタを使ったラジオが売り出された",
+  "hee1_en": "In 1954, a radio using transistors went on sale.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "9-04"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-15"
+  ],
+  "frontier": false,
+  "real": "1954 リージェンシー TR-1（TI のトランジスタ）、1955 ソニー TR-55"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": "transistor_radio",
+  "recipes": [],
+  "machine_recipes": [
+   "組立台「組み立て（transistor_radio）」：合金接合型トランジスタ×3（amplify） ＋ 黒鉛（resistor） ＋ 銅ケーブル（tuning_coil） ＋ ライデン瓶（コンデンサ）（tuning_capacitor） ＋ 天然磁石（speaker） ＋ 亜鉛インゴット（battery_case） ＋ 黒鉛棒（battery_rod） → トランジスタラジオ（5 秒）。部品表で組み立てる。電気なし"
+  ],
+  "placeholder": "⚠️ 近似：コンデンサはライデン瓶（本物のラジオは小さな紙・セラミック・電解コンデンサ）。電池は亜鉛の缶と炭素の棒だけ（本物の乾電池には二酸化マンガンと塩化アンモニウムの練り物も要るが、まだゲームにない）。スピーカーの紙のコーン・フェライトのアンテナ棒・プラスチックのケースは省略。TR-1 のトランジスタは4個、ゲームは3個。",
+  "game_text": "transistor_radio（第1章のゴール製品）",
+  "hee_game": {
+   "note1": "電池で動く、ポケットに入るラジオ。",
+   "note2": "合金接合型トランジスタ×3（増幅）＋黒鉛（炭素の抵抗）＋銅ケーブル（同調・アンテナのコイル）＋ライデン瓶（コンデンサ）＋磁石（スピーカー）＋亜鉛インゴットと黒鉛棒（乾電池＝亜鉛の缶と炭素の棒）。第1章のゴール。レッドストーンは使わない：全部、本物のラジオの部品。",
+   "note3": "アンテナで受けた弱い電波から聞きたい局を選び（同調）、音の信号を取り出し（検波）、トランジスタで増幅してスピーカーを鳴らす。真空管と違って温めなくてよいのですぐ鳴り、電池も長持ちする。",
+   "note4": "1954年、アメリカのリージェンシー TR-1 が最初の市販トランジスタラジオ（トランジスタ4個）。1955年に東京通信工業（のちのソニー）が TR-55 を出し、1957年の TR-63 は「ポケッタブル」として世界中で売れた。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAX0lEQVR42mNgoDdQU9P6j8xnotTAgTeAEZffCIFbt64xMjAwMLAgCxZ4vCJK84QdYqR7ISjIhCEoyARDnAWXYmSwbt0ZnAazEOsCXIZQ7AWKo5GFWOfi8gILrugZOgAAJPsWzZ0n6VYAAAAASUVORK5CYII="
+}

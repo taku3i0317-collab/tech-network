@@ -1,0 +1,60 @@
+{
+ "id": "13-15",
+ "history": {
+  "name": "医療用酸素",
+  "name_en": "Medical oxygen",
+  "kind": "tech",
+  "trunk": "13",
+  "trunk_name": "医薬・衛生",
+  "year": 1900,
+  "year_range": "1774〜1900",
+  "year_uncertain": true,
+  "hee1": "病院の酸素は空気を液体にして取り出している",
+  "hee1_en": "Hospital oxygen is taken from air turned into liquid.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "6-07"
+    ]
+   ],
+   [
+    [
+     "6-03"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [
+   "I-24"
+  ],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1774 プリーストリーの酸素発見後、酸素吸入は19世紀末〜20世紀に普及。液体酸素からボンベへ"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "解説のみ（[6-07]の用途）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAlElEQVR42mNgoBAwInPU1LT+w9i3bl1jJNkAdEPQAUFDrRx8/rf0zPhv5eDzn1iDmZA1e/n4MDAwMDB4+fgwYDMEG2CBMd48u8ewaNYkkgMRboCIlBIDzAUMDAwM27ZsYbh16xpBA5gojUaiDIAFILaAZCJWMy4+7b2AnnjQ+SzE2IIvBTJRNTMhp75jB7YwMtADAABkCDDfSXXzWgAAAABJRU5ErkJggg=="
+}

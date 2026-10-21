@@ -1,0 +1,101 @@
+{
+ "id": "9-03",
+ "history": {
+  "name": "点接触トランジスタ",
+  "name_en": "Point-contact transistor",
+  "kind": "product",
+  "trunk": "9",
+  "trunk_name": "半導体プロセス",
+  "year": 1947,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "金の接点2つを、プラスチックのくさびでゲルマニウムに押し当てた",
+  "hee1_en": "Two gold contacts were pressed onto germanium with a plastic wedge.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "G6. 最初のトランジスタ（点接触型）［9-03］",
+    "answer": "1947年12月16日、ベル研究所のバーディーンとブラッテンが、ゲルマニウムの小さな板に、ごく近づけた2つの金の接点をプラスチックのくさびで押し当て、電気信号を増幅することに成功した。12月23日に社内で披露し、1948年6月30日に発表した。",
+    "hee": {
+     "1": "真空管の代わりになる、小さな固体の部品の第1号。",
+     "2": "片方の接点の電圧で、もう片方に流れる電流を操れた。信号は最大で約100倍に増えた。",
+     "3": "「トランジスタ」という名前は、同じベル研究所のピアスが付けた。グループのリーダーだったショックレーと3人で、1956年にノーベル物理学賞を受けた。",
+     "4": "2つの金の接点の間はわずか数十マイクロメートル。くさびに金箔を巻き、角のところだけカミソリで切って隙間を作ったと伝えられる（細部は ⚠️）。ゲームのレシピ（金2＋n型 Ge＋銅）はこの構造を元にしている。"
+    },
+    "certainty": "日付・人物・約100倍 ◎（コンピュータ歴史博物館）／金箔をカミソリで切った細部 △",
+    "basis": ""
+   }
+  ],
+  "people": [
+   {
+    "name": "バーディーン",
+    "tool": "🔌 金の接点とゲルマニウム",
+    "year": "1947",
+    "intro": "1947年12月、ブラッテンとゲルマニウムに金の接点を押し当て、信号を増幅した",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACSUlEQVR42mNgGAUjHTCSolhLTvQ/MequPXpNtLksxCo0UZX8rywphCH+/ssPbMr/E+sIRmJ9LiPCB+cvm1SLVV1UXjOc/eTNJ6JCgolalqPLyYjwERVlTKSkAXyWk6KGbAfQAhDtgKaSVAZaqCXaASpyEjQJARZSFCOncvS4RpYjJQTwZpOK5MD/585fIjlx3Xn0gqGuZzYDAwMDg5GhHkPH3PWMVAkBTsNQBj1NTYZL168zfD+/Gqccw6PJ1AsBXTV5BmVZCXgaePHmA4OEiACKb9Hl7jx6wcDAwMBw9/ELhsu3HuINAYKJUFkWNfEhW44O0OXQ9ZLlgA17T2JGBTsbnP3y7Qes4rj0kpQGkILuf0miP1z8+89fDAwMDAwXbjxg4ObkwBCHWY4v6EmujiuSA1EcgQ/0zN9IlOUk5wJkcHj2VhS+bao37RskxIQCKb4n2QEwR4gK8TPE+zugiC/ceIDh9buPJFlOEahIDvz/5siC/2+OLPhfkRz4n4GWdYGTkweGBQHO5gz/1d2g7BcMp+5/x1Czb98ORoocALNYR8cARfz+/TsMDAwMDK6psxh4RBQYepwYGLi5eRgUFVUw2oaEHMJCisUopZxrHAPPvl1wNsPyMxhqkPTjdAgLqRbfv38Hm08ZFBVVcMrhcwgLsRYjg9raPKxiSUl5ePVhcwgTFkmSfY8eCoQAsl0kN0qx+Z4YOYKJ8MqVC3gVvnnzikFERIxh0aIlcLEXN64xMDAwMCxa9Aou9vXrF4YDB3YxiIiIEeUAAPNn6Pc/G3KnAAAAAElFTkSuQmCC"
+   },
+   {
+    "name": "ブラッテン",
+    "tool": "🔌 プラスチックのくさび",
+    "year": "1947",
+    "intro": "1947年12月、バーディーンとプラスチックのくさびで2つの金の接点を押し当てた",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACR0lEQVR42mNgGAUjHTCSolhLTvQ/MequPXpNtLksxCo0UZX8rywphCH+/ssPbMr/E+sIRmJ9LiPCR1LQPnnziaiQYKKF5QwMDAwyInxERRnTQCfCoeWAZZNqGZZNqiXIbipJpV42hKUBmAXEgDuPXjDU9cwmKiGykBICUXnNKKGBS45qIVCRHPg/wNmcgYGBgSF/4k4M+a298QwMDAwM3sULMeQm5rszMDAwMGzYe5KhY+56RqqkgX37tjC8eX6XYd++LXCLYZajy1EtEd59/ALOdnLyYRCRVGZwcvKBhwDMp+hy6HrJTgPKshIowY0NoMvdefQCrvfyrYeUhcCGvScxxDjZ2eDsl28/YBXHpZekEEBKPP9LEv3h4t9//mJgYGBguHDjAQM3JweGODGJj+TquCI5EMUR+EDP/I1EWU5yOYAMDs/eisK3TfWmfYOEmFAgxfckOwDmCFEhfoZ4fwcU8YUbDzC8fveRJMspAhXJgf/fHFnw/82RBf8rkgP/k2sOUWnARksaw4IAZ3OG/+puUPYLhiPHT2GoOXLtKSNFDoBZrCGD2hZ89PoTAwMDA0OrqRWDDAcHg01dAgMXOwuDnChGy+k/IYewkGIxSgnpGscg07QAzmbono6hBkk/ToewkGrxo9efsPmUQU6UD6ccPoewEGsxMmhfuhOrWLSbJV592BzChEWSZN+jhwIhgGwXyY1SbL4nRo5gIrzx5B1ehe8+f2cQ4uVkWLRoCVzsxAdITciIJPbt5x+GY9efMgjxchLlAABoNvibbykIEgAAAABJRU5ErkJggg=="
+   }
+  ],
+  "media": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Replica-of-first-transistor.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Replica-of-first-transistor.jpg",
+    "kind": "画像",
+    "author": "Federal employee",
+    "license": "Public domain",
+    "description": "Ge と金属の針の接点から生まれた、1947年の最初の点接触トランジスタの複製（1997年作）。",
+    "verified": "2026-10-20 Commons API で PD を確認（PD の根拠は投稿者の申告）"
+   }
+  ],
+  "requires": [
+   [
+    [
+     "9-02"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-29",
+   "I-43"
+  ],
+  "frontier": false,
+  "real": "1947.12 バーディーンとブラッテン（ベル研）。n型Ge の板に、プラスチックのくさびで押し当てた2つの金の接点（REFERENCES G6。2026-10-20 に「針」の記述を訂正）"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": "transistor",
+  "recipes": [
+   "作業台：金塊（粒）×2 ＋ n型ゲルマニウム ＋ 銅インゴット → 点接触型トランジスタ"
+  ],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {
+   "note1": "世界で最初のトランジスタ。小さな電気で大きな電気を動かす。",
+   "note2": "金塊2＋n型ゲルマニウム＋銅で作る。",
+   "note3": "n型 Ge の板に、2つの金の接点をとても近く（数十µm）並べ、プラスチックのくさびで押し当てる。片方（エミッタ）から入った正孔が、もう片方（コレクタ）の電流を大きく変える。信号は最大で約100倍になった。",
+   "note4": "1947年12月16日、ベル研のバーディーンとブラッテンが成功し、23日に社内で披露した（発表は1948年6月30日）。くさびに金箔を巻き、角のところだけカミソリで切って隙間を作ったと伝えられる（⚠️ 細部は未確認）。1956年、ショックレーと3人でノーベル物理学賞。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAMElEQVR42mNgGPKAEV1ATU3rPz4Nt25dQ9HDRKkLRg2gggFYgUVZ139s9EgKA7oCABVpCrmZeO1JAAAAAElFTkSuQmCC"
+}

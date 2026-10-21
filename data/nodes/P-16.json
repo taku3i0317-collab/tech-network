@@ -1,0 +1,75 @@
+{
+ "id": "P-16",
+ "history": {
+  "name": "スマホの画面",
+  "name_en": "Smartphone screen",
+  "kind": "product",
+  "trunk": "P",
+  "trunk_name": "モノ（作品）",
+  "year": 2007,
+  "year_range": "1965〜2007",
+  "year_uncertain": false,
+  "hee1": "スマホの画面は、ガラス・見えない電極・画面の何層ものサンドイッチ",
+  "hee1_en": "A smartphone screen is a sandwich of many layers: glass, invisible electrodes, and the display.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://en.wikipedia.org/wiki/Touchscreen",
+   "https://doi.org/10.1049/el:19650200"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "15-18"
+    ]
+   ],
+   [
+    [
+     "2-46"
+    ]
+   ],
+   [
+    [
+     "2-47"
+    ]
+   ],
+   [
+    [
+     "B-19"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [
+   "インジウム",
+   "ガラス",
+   "シリコン"
+  ],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "いちばん上に割れにくい化学強化ガラス、その下に透明な電極（ITO）の格子のタッチパネル、さらに下に画面（液晶か有機 EL）が重なっている。指で押した場所と、映す絵が同じ所にあるので、画面を直接さわって動かせる"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "作品：指でさわった所が反応する画面",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAhklEQVR42mNgoBAwoguoqWn9x6fh1q1rKHpYsCmaV3CNgYGBgWHNrQoGBgYGhhC1DgYGBgaGpAlaxLng5h4trLaru1zDcAETNoVHt6xhKOxTgfML+1QYjm5ZQ3wYUOwCUsBw9cLAG4AtwHAFItakvOZWBcOaPnTRCgYGhk3EGbBt2yYGugEAUoE3CdaYpGcAAAAASUVORK5CYII="
+}

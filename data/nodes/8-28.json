@@ -1,0 +1,58 @@
+{
+ "id": "8-28",
+ "history": {
+  "name": "ひずみゲージ",
+  "name_en": "Strain gauge",
+  "kind": "tech",
+  "trunk": "8",
+  "trunk_name": "精密・計測",
+  "year": 1938,
+  "year_range": "1936〜1938",
+  "year_uncertain": false,
+  "hee1": "ひずみゲージは、地震で水のタンクがどうゆれるかを調べていた研究者が思いついた（S-005 で追加。出典：Caltech「Engineering and Science: Simmons」、Micro-Measurements「Strain gage history」）",
+  "hee1_en": "The strain gauge was thought up by a researcher studying how water tanks shake in earthquakes (added in S-005. Sources: Caltech \"Engineering and Science: Simmons\", Micro-Measurements \"Strain gage history\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "4-13"
+    ]
+   ],
+   [
+    [
+     "1-26"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "細い金属線を物にはりつけると、物がわずかにのびたり縮んだりしたとき線の電気抵抗が変わる。これを測れば力や重さが分かる。カリフォルニア工科大学のエドワード・シモンズ（1936年に着想）と MIT のアーサー・ルーゲ（1938年、地震でゆれる水のタンクの模型を調べていた）が、ほぼ同時に別々に作った。ロボットの手首の力覚センサーや、はかり（ロードセル）はこのしくみ。今は線ではなく金属のはくの形が多い"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAbElEQVR42mNgGGjACGOoqWn9J0XjrVvXGFEESDEAWS0LumSXixpeg8r23EKxmYUYRfgMZyFWIS7AQqztRLuAFNtJDgOiDcDnCpyGY0sHyAYhs3GmA3RDnun4Mag92vQfnU00wOUCZMA04LkRADYBMV7hvUhuAAAAAElFTkSuQmCC"
+}

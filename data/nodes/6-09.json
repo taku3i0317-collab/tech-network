@@ -1,0 +1,94 @@
+{
+ "id": "6-09",
+ "history": {
+  "name": "ハーバー・ボッシュ法",
+  "name_en": "Haber-Bosch process",
+  "kind": "tech",
+  "trunk": "6",
+  "trunk_name": "ガス",
+  "year": 1913,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "触媒の原料が磁鉄鉱",
+  "hee1_en": "The catalyst is made from magnetite",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "C47. 空気からパンを作る（ハーバー・ボッシュ法）［6-09］",
+    "answer": "空気の8割は窒素だが、植物は N≡N の強い結びつきを切れないので使えない。1909年ハーバーが、窒素と水素を高い圧力で鉄の触媒の上に通すとアンモニアになることを実験室で示し、1913年 BASF のボッシュが約200気圧・約450℃の工場にした（ミタッシュが約2万回の実験で触媒を選んだ）。アンモニアから肥料を作れるようになり、今は世界の人のおよそ半分の食べ物がこの肥料で育っているといわれる。一方、ハーバーは第一次世界大戦で塩素ガスの攻撃を指導した（1915 イーペル）。",
+    "hee": {
+     "1": "空気の窒素から、肥料ができる（「空気からパンを作る」）。",
+     "2": "マメの根粒菌がしていることを、工場でできるようにした。",
+     "3": "高圧の水素は鋼をもろくするので、ボッシュは二重の壁の塔を考えた。",
+     "4": "同じ科学者が、多くの人を養う肥料と、多くの人を殺した毒ガスの両方にかかわった。"
+    },
+    "certainty": "ハーバー 1909・ボッシュ 1913・ミタッシュ ◎／世界の人口の約半分を支える（推定）○／イーペル 1915 ◎",
+    "basis": "- Wikipedia「Haber process」：https://en.wikipedia.org/wiki/Haber_process"
+   }
+  ],
+  "people": [
+   {
+    "name": "ハーバー",
+    "tool": "🧪 高圧の反応管",
+    "year": "1913",
+    "intro": "1913年、高い圧力で窒素と水素からアンモニアを作る方法を工業化した（ボッシュと）",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACLUlEQVR42u1WPUhbURT+Xvr0RSKJSB5YkCztIA6CXQyFQnkOHQxoVpGIhKwRf4a3CLZZMtRCs5ZSleLaCjr2UWgGu5jSKYOCuDTlxZAERaPDdTD38mJ+3n03CR3qNx3Oufd85557zj0XeMAD/ndIohv1aJiogz4AgFkoIfnxi5AvWZR4KRICABRK5wAAddBHRAKRnZKvLkzXEFPMT7+kInESxCMR8lZ4Pj4ClyStpzPZ1zx+XXYLRgMqGQ2oZGZygjtTM5MTbF/bAQDAsN+Lp4EhR7Uy7Pd2vgZm4wkm76TWmtrerMY604Z6NEwOM78BAKWeQJ19f2MeADC1slVn892cAgCejY+17AyXkwwYxh7yf45hGHuMmJLft/HCUQCaFoL/8RNoWohl4P3iq4a2jr0D9D5bFSG9Coqj0xyTv3772V4GGjnoU3qZ/Pes2FDPQ26bAUvx1DxCl5VrAMCv7Ak8fe46PSXneRG52rDqiAVhbTkraGvykgsNo9l4AjupNfz4sF+jfxGbYraujWOeefD2066jiSiJjmPL9AMAbO1+b+tfIPQhyac3ST69SfRomKCbPyJVHWIEur4MAIhE5mrWbG9/vivY5DumM82c1FYAlNjrHWC6gwOjpcNgUGNyuVy0DUTmJRaBZT9pFojklPji4hweT39dJoJBjdmaoVFG5E6eWCQjEg2Ah9zuhLxraDZMMye58I8h37+fZqhUrqAobtt11dRCUdxcAdwCffzt61GaxLQAAAAASUVORK5CYII="
+   },
+   {
+    "name": "ボッシュ",
+    "tool": "🏭 アンモニア工場",
+    "year": "1913",
+    "intro": "1913年、ハーバーと、窒素と水素からアンモニアを作る方法を工業化した",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACEklEQVR42mNgGAUjHTCSolhLTvQ/MequPXpNtLksxCo0UZX8rywphCH+/ssPbMr/E+sIRmJ9LiPCR1LQPnnziaiQYKKF5QwMDAwyInxERRnTQCfCoeWAZZNqGZZNqiXIbipJpV42hKUBmAXEgDuPXjDU9cwmKiGykBICUXnNKKGBS45qIVCRHPg/wNmcgYGBgUFFToKkEICBDXtPMnTMXc9IlRDgNAxl0NPUZLh0/TrD9/OrccoxPJpMvUR49zHCN9/Pr2bYOKkIxXKYb7HJIesl2wHKsqhBLyEigFMtuhy6XrIcsGHvScyoYGeDs1++/YBVHJdektIAUuL5X5Loj4iKn78YGBgYGC7ceMDAzcmBIU5M4iMpEUINgjsCOcuhF1SkWE5yLoBZvmxSLcPh2VtRxG1TveFyNGuQVCQHokQFNtAzfyPRvifZATBHiArxM8T7O6CIL9x4gOH1u48kWU4RqEgO/P/myIL/b44s+F+RHPifgZZtQicnD7gF3t5ODAwMDAxxcTEoahYtWsLAwMDAsHXrPrjYvn07KMsFMIt1dAzgYugWo4s/fPgOpW1IyCEsxFpMDkDSj9MhjKRafP/+HQZFRRWG2to8FPHm5klwOVzgypULGFHDQk0fkxMijDAHEGM5IR8SqwYWGvv27WAc8EYpC3r84AJv3rxiEBERI6iOgYGB4cCBXQwiImJEOQAAR17xtGYXwCIAAAAASUVORK5CYII="
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "6-01"
+    ]
+   ],
+   [
+    [
+     "6-07"
+    ]
+   ],
+   [
+    [
+     "6-03"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-22",
+   "I-39"
+  ],
+  "frontier": false,
+  "real": "N2+3H2→2NH3、200気圧400℃、触媒は磁鉄鉱を還元した鉄（1913）"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "重",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAApUlEQVR42mNgoBAwYhO0cvD5j0382IEtjAQNsHLw+R/AcgurbRv+qGEYwoTLab88ihg2/FFj2PBHjeGXRxFOL7Dgkti2ZQuybf8DcKhkIsapxw5sYdzwR414AwJYbqEEJL5wGQYuYMHlAga0xBTAcosBmyE4oxGXkwl6AeZc9ISELRVigC4Xtf/Y8gOuvIHiBZhmGL3hD27DGRgYGMr23GJkoAYAAOfFYQ8CpK0hAAAAAElFTkSuQmCC"
+}

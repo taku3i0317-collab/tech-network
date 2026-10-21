@@ -1,0 +1,74 @@
+{
+ "id": "9-34",
+ "history": {
+  "name": "封止",
+  "name_en": "Encapsulation",
+  "kind": "tech",
+  "trunk": "9",
+  "trunk_name": "半導体プロセス",
+  "year": 1960,
+  "year_range": null,
+  "year_uncertain": true,
+  "hee1": "黒いチップの外側は、湿気から守る殻のようなプラスチック",
+  "hee1_en": "The outside of a black chip is plastic, like a shell protecting it from moisture",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "F24. 殻に閉じこめて守る（封止：金属缶とエポキシ）［9-34］",
+    "answer": "チップの表面に湿気やナトリウムが付くと特性が変わるので、殻に閉じこめる。初期のトランジスタと IC は、乾いた窒素を満たした金属の缶（TO-5 など）を溶接して封じた（気密封止）。1960年代後半から、温めた型にエポキシを押しこんで包む安いプラスチックパッケージ（DIP など）が主流になった。",
+    "hee": {
+     "1": "黒いチップの外側は、湿気から守る殻のようなプラスチック。",
+     "2": "DIP（2列に足が並んだ形）は 1964年にフェアチャイルドが作った（はじめはセラミック）。",
+     "3": "アポロ誘導コンピュータの IC も、金属の缶やフラットパックに入っていた。",
+     "4": "気密の缶は高いが信頼性が高く、今も宇宙・軍の部品に使われる。"
+    },
+    "certainty": "金属缶の気密封止 ◎／DIP 1964 フェアチャイルド ○（Wikipedia）／プラスチックが主流になった年 △／アポロの IC のパッケージ ○",
+    "basis": "Wikipedia「Dual in-line package」https://en.wikipedia.org/wiki/Dual_in-line_package 、Wikipedia「Integrated circuit packaging」https://en.wikipedia.org/wiki/Integrated_circuit_packaging （英語）"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "9-33"
+    ]
+   ],
+   [
+    [
+     "2-41"
+    ],
+    [
+     "1-26"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "初期のトランジスタは金属缶・ガラスに封入。1960年代後半〜エポキシ樹脂で成形した安価なプラスチックパッケージ（DIP など）⚠️"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "重",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "完成チップ（封止前は「未完成」）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAZElEQVR42mNgGGjAiC6gpqb1H5+GW7euoehhQdfs5eVHyNL/yIYwYVMhdWUdVp3btm3CcAFWA57pBGE1wMvLD8OLTJQG4iAz4Nata4zbtm2CBxg6jS0QsYIuF7X/+OhhFogDDwD3witx0qn+3gAAAABJRU5ErkJggg=="
+}

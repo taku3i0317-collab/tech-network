@@ -1,0 +1,74 @@
+{
+ "id": "1-30",
+ "history": {
+  "name": "錫",
+  "name_en": "Tin",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": -3000,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "5000年前の青銅の材料が、最先端の EUV の光源になる",
+  "hee1_en": "A material for bronze 5,000 years ago becomes the light source of cutting-edge EUV.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "O8. 花こう岩の黒い石からスズ（錫石とスズの製錬）［1-22］［1-30］（青銅・スペキュラムの前提）",
+    "answer": "スズの鉱石は錫石 SnO2。花こう岩が冷えるときの熱水からタングステンの鉱石といっしょに鉱脈にでき、重くてさびないので川の砂にも集まる。木炭で焼くと SnO2 + 2C → Sn + 2CO でスズが出る。融点 232℃ のやわらかい金属。",
+    "hee": {
+     "1": "5000年前の青銅の材料が、最先端の EUV の光源になる。",
+     "2": "スズの棒を曲げると「スズ鳴き」の音がする。寒いと灰色の粉になる（スズペスト、13.2℃より下）。",
+     "3": "コーンウォール（イギリス）は青銅器時代からのスズの産地。今の大産地は東南アジアの漂砂鉱床。",
+     "4": "EUV 露光装置は、溶けたスズの小さな粒にレーザーを当ててプラズマにし、13.5nm の光を出す。"
+    },
+    "certainty": "錫石の産状・還元・融点・スズペスト ◎／コーンウォールの青銅器時代の採掘 ○／EUV のスズ液滴（粒の大きさ・回数）○",
+    "basis": "- Wikipedia「Cassiterite」：https://en.wikipedia.org/wiki/Cassiterite"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-22"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "SnO2+2C→Sn+2CO。青銅器時代（紀元前3000年頃）から。融点232℃と低い"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "軽",
+  "missing": "",
+  "item": "tin_ingot",
+  "recipes": [
+   "かまど：錫石 を焼く → スズのインゴット",
+   "溶鉱炉：錫石 を焼く → スズのインゴット"
+  ],
+  "machine_recipes": [],
+  "placeholder": "近似：かまど（≈1000℃）で還元と溶解をまとめて行う（燃料の C/CO で還元。CHEMISTRY #38 と同じ扱い）。CO・CO2 は回収しない。",
+  "game_text": "",
+  "hee_game": {
+   "note1": "銀色のやわらかい金属。銅にまぜると青銅になる。",
+   "note2": "錫石 →かまど（溶鉱炉なら速い）。SnO2 + 2C → Sn + 2CO（燃料の炭素で還元）。融点 232℃ととても低い。青銅 [1-05]・スペキュラム合金 [7-05] の材料。",
+   "note3": "スズの棒を曲げると「ギシッ」と音がする（スズ鳴き）。中の結晶どうしがこすれる音。寒い所に長く置くと、ぼろぼろの灰色の粉に変わる（スズペスト、13℃より下で起こる変化）。",
+   "note4": "5000年前に青銅の材料だったスズは、今は電子部品のはんだの主成分で、さらに最先端の EUV 露光装置の光源 [7-18] にもなる。直径 約30μm の溶けたスズの粒に毎秒数万回レーザーを当て、プラズマにして 13.5nm の光を出す。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAU0lEQVR42mNgGAUUA0Z0AYuyrv/4NJzoKkPRw4KuuSQpAq+NPQwM/5ENYSJFMwMDA0NJUgSKK5koDYOBNwAeiAoPTjCsqTtBlCYFBgaGE6MpGA4AJDIWN609FmYAAAAASUVORK5CYII="
+}

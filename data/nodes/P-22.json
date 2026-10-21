@@ -1,0 +1,60 @@
+{
+ "id": "P-22",
+ "history": {
+  "name": "電池",
+  "name_en": "Battery",
+  "kind": "product",
+  "trunk": "P",
+  "trunk_name": "モノ（作品）",
+  "year": 1991,
+  "year_range": "1985〜1991",
+  "year_uncertain": false,
+  "hee1": "スマホの電池は、リチウムが黒鉛のすき間に出たり入ったりしている",
+  "hee1_en": "In a smartphone battery, lithium moves in and out of the gaps in graphite.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://en.wikipedia.org/wiki/Lithium-ion_battery",
+   "https://www.nobelprize.org/prizes/chemistry/2019/press-release/"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "4-15"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [
+   "リチウム",
+   "銅",
+   "アルミニウム"
+  ],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "リチウムイオンが正極と負極（黒鉛）の間を行き来して、何百回も充電・放電できる電池"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "作品：電気をためて、スマホを動かす",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAbklEQVR42mNgoBAw4pKwcvD5j8w/dmALVrVM+Ez38vFh8PLxIc0FMJvRNW7bsgWrS5hw2UyMGEEvEANYcEk4cGUwWPuEMDAwMDAc3bKG4cC3GXR2wYFvMxgOrILxXEa9QEsvMBLKROgAV6YiGwAAcCUspCC1WDMAAAAASUVORK5CYII="
+}

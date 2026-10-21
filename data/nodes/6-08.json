@@ -1,0 +1,66 @@
+{
+ "id": "6-08",
+ "history": {
+  "name": "希ガス精製",
+  "name_en": "Noble gas purification",
+  "kind": "tech",
+  "trunk": "6",
+  "trunk_name": "ガス",
+  "year": 1898,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "エキシマレーザーのガスの大半はネオン",
+  "hee1_en": "Most of the gas in an excimer laser is neon.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "O59. 空気の中の「隠れたもの」（希ガス）［6-08］",
+    "answer": "空気の中にはネオン 18ppm・クリプトン 1.1ppm・キセノン 0.09ppm がほんの少しだけ入っている。1898年、ラムゼーとトラヴァースは液体空気をゆっくり蒸発させて、ネオン（新しい）・クリプトン（隠れた）・キセノン（よそ者）を見つけた。今は空気分離装置の副産物として、液体酸素の底（Kr・Xe）と窒素の上（Ne）から取り出す。",
+    "hee": {
+     "1": "エキシマレーザーのガスの大部分はネオン。",
+     "2": "1960〜1983年、1メートルはクリプトン86の光の波長で決められていた。",
+     "3": "希ガスはふつう何とも結びつかないが、放電で励起するとフッ素と一瞬だけ分子（KrF*）を作る。",
+     "4": "2022年、ネオンの供給不足が半導体工場の心配ごとになった。"
+    },
+    "certainty": "1898 の発見 ◎／空気中の濃度 ◎／空気分離の副産物 ◎",
+    "basis": "- Wikipedia「Krypton」：https://en.wikipedia.org/wiki/Krypton"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "6-07"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "Kr は空気の1.1ppm（KrFレーザーの発光ガス）、Ne は18ppm（ArF/KrFレーザーの緩衝ガス＝発光ガスを薄めて放電を安定させる役）。どちらも空気分離装置の副産物として取る"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "重",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAe0lEQVR42mNgoCWwKOv6b1HW9R+fGiZKLWHEZTM28RNdZYxEOZscOQwFR6YxYGWjG4I1DI5MY/hv7RMC14jMRgcs2ARtshgYjzCs+W+TBQmjo1vWMMDYVI8FFlxesMliYIQ5G5ftOF0A02yTxcCIbBDRqY8UOeonpKEHAJ7GOm6A8vLNAAAAAElFTkSuQmCC"
+}

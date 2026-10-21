@@ -1,0 +1,66 @@
+{
+ "id": "4-10",
+ "history": {
+  "name": "変圧器",
+  "name_en": "Transformer",
+  "kind": "tech",
+  "trunk": "4",
+  "trunk_name": "動力・電気",
+  "year": 1885,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "交流なら、電圧を上げたり下げたりできる。高い電圧で送ると失う電気が減る",
+  "hee1_en": "With alternating current, you can raise or lower the voltage. Sending power at high voltage loses less electricity.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "L8. なぜ高い電圧で、交流で送るのか（変圧器・高圧送電・整流器）［4-10］［4-11］［4-34］［4-35］（S-007）",
+    "answer": "電線で失う電力は I²R（電流の2乗×電線の抵抗）。同じ電力 P＝VI を送るなら、電圧を10倍にすると電流は 1/10、失う電力は 1/100。電圧を上げ下げできるのは交流だけ（変圧器は、変化する磁束でとなりのコイルに電圧を作る。直流では磁束が変わらない）。だから発電所は交流で発電し、変圧器で高い電圧にして送り、使う所で下げる。電気分解など直流が要る所では整流器で交流を直流に直す。",
+    "hee": {
+     "1": "1880年代の「電流戦争」：エジソンは直流、ウェスティングハウスとテスラは交流。遠くへ送れる交流が勝った。",
+     "2": "1885年、ブダペストのガンツ社の3人が閉じた鉄心の変圧器（ZBD）を出願。1886年、スタンレーがグレート・バリントンの町を変圧器つきの交流で照らした。",
+     "3": "1902年のクーパー・ヒューイットの水銀整流器は、真空管の二極管（1904）より早い、電力用の最初の静かな整流器。1970年代までアルミ工場や電車で使われた。",
+     "4": "日本は東が 50Hz（ドイツ製の発電機）、西が 60Hz（アメリカ製）。ゲームは周波数を扱わない（決定 S-007）。"
+    },
+    "certainty": "I²R と変圧器の原理 ◎／ZBD 1885 ◎／スタンレー 1886 ○／水銀整流器 1902 ◎／交流発電機の実用の最初の年 △⚠️（1880年代、出典で確かめる）",
+    "basis": "Wikipedia「Transformer」（History, ZBD）、「War of the currents」、「Mercury-arc valve」、「Electric power transmission」"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "4-05"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "交流で電圧を変える。1885年 ガンツ社のジペルノフスキー・ブラーティ・デーリが閉じた鉄心の変圧器（ZBD）を出願。送電損失を減らす"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "voltage 欄を使い始める",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAdklEQVR42mNgGGjACGNYOfj8J0XjsQNbGBkYGBiYkAW9fHwIakRXw4LM2bZlC9xkPOA/hhe6XNRQBMv23MJqCDZ1cC/88ihi+OVRRNAL6OrgXmDb0UdU4KGrGwYuYEBOSMQkJnR1LFgSyX9CCWnbli3US8oDDwA60DzNW3w8eQAAAABJRU5ErkJggg=="
+}

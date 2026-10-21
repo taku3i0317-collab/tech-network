@@ -1,0 +1,85 @@
+{
+ "id": "2-16",
+ "history": {
+  "name": "蒸留水",
+  "name_en": "Distilled water",
+  "kind": "tech",
+  "trunk": "2",
+  "trunk_name": "化学",
+  "year": 200,
+  "year_range": "100〜300",
+  "year_uncertain": false,
+  "hee1": "水を沸かして湯気を冷やすと、塩の残らない水になる",
+  "hee1_en": "Boil water and cool the steam, and you get water with no salt left in it.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "F15. 湯気を冷やした水（蒸留水）［2-16］（［9-14］洗浄のすすぎ）",
+    "answer": "水を沸かして湯気を冷やすと、溶けていた塩や鉱物を含まない水が取れる。純すいな水は電気をほとんど通さない。ウェハーを洗ったあとは、きれいな水ですすいで薬品を残さない。",
+    "hee": {
+     "1": "水を沸かして湯気を冷やすと、塩の残らない水になる。",
+     "2": "1〜3世紀のアレクサンドリアには3本腕の蒸留器があった（マリアの発明と伝えられるが確かでない ⚠️）。",
+     "3": "1950年代の半導体工場では、イオン交換の脱イオン水が大量に使われるようになった（イオン交換樹脂 1935・工業化 1938）。",
+     "4": "理論上いちばん純すいな水の電気抵抗は 18.2 MΩ·cm（25℃）。水自身の電離で決まる。"
+    },
+    "certainty": "蒸留の原理 ◎／アレクサンドリアの蒸留器とマリア △／1950年代のイオン交換水 ○（日本の半導体歴史館）／18.2 MΩ·cm ◎",
+    "basis": "日本半導体歴史館「超純水」https://www.shmj.or.jp/english/pdf/em/exhibi2414E.pdf 、Kern 1990（J. Electrochem. Soc. 137, 1887）、ECS Interface 2010 春号 https://www.electrochem.org/dl/interface/spr/spr10/spr10_p044-046.pdf （英語）"
+   }
+  ],
+  "people": [
+   {
+    "name": "ジャービル・イブン・ハイヤーン",
+    "tool": "📜 錬金術の文書",
+    "year": "9〜10世紀の文書 ⚠️",
+    "intro": "錬金術師とされる人物。その名で伝わる文書（ジャービル文書）は850〜950年頃に書かれたと考えられ、一人の実在の人物かどうかも議論がある ⚠️",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACdklEQVR42rVWTWjUQBh9KaFu3eL+NFktrBFtKXbBXgqtevYiVZCeSi9eVulBUMRLUTwUpSAiHovk4qV4EmEVQXpeUakHhbYs3ZamC+puujXCYq2FeJpsdjLZzGTjd0rel8x73/tmPkZCiJh/cNemsZq5gydPFyTRtWTeD2/fmrFVpQ8AMD016eAbm1s4dfIEAEBV+hxhs/cecomReCt2k9LELHzxxUsuEV2i5BubWwDgIafx6alJZquEBLjJeYndOI+IQAfCELPw0AI6Ja6ZO+EEhO09jd+8ca1tG6SgPXB2fLTtbg/Cg05D4DHJaaqdVY6EmVeomL+wYtSkjvaAO+byE5jLTwQ+5y+f516T2wFCwBPGj13ohSKXA7KIA/f1Ny1u+OUic+D6pXH7wugQAEA7mhJygMTScgnPXn+QInHgzNV5jAwP48vqKr4+n/XNGY9monNg6HgGWibpOGBaDSiJeEu1dI44YFR/orRdbetA4CnQMknohaLTYzc5HSSnF4rQC0VomWTno3hpueTBYt3NzplWg4n7/Su0B4h1OU21U70xB9/bPwAArBlVHI51e3AyhN59LkuR3IhWjJqU01SbdeToQcU7AYVuRKyRfEUbaMm/MspCI1hYAC2isbePuMv+MOTCAoiIP38PMNCf9hCTdomsJyyA5YZo1cICtLFBz4Xi8cVzLe933r73juSP61JHAgixMnisOWzWvrVd0Dzd33xe/x4oROYlDhOu/20/IbIocbn3EBLZNDNnVepICAqRo6w4jCNdjKRvWJW6b/UAkMimYVXqIkLE7oT/I2R6x/rF790GelLxwO8AYPtTGT2pOJeAf/27Q0SR/NjbAAAAAElFTkSuQmCC"
+   }
+  ],
+  "media": [
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Zosimos_distillation_equipment.jpg/960px-Zosimos_distillation_equipment.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Zosimos_distillation_equipment.jpg",
+    "kind": "画像",
+    "author": "Unknown Byzantine Greek illustrator, reproduced by Marcelin Berthelot in his 1887 text, Collection des anciens alchimistes grecs",
+    "license": "Public domain",
+    "description": "古代の錬金術師ゾシモスが伝えた蒸留の道具を、ビザンツ時代の写本から描き写した絵。",
+    "verified": "2026-10-20 Commons API で PD を確認"
+   }
+  ],
+  "requires": [],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "H2O(液)→H2O(気)→凝縮。塩類は蒸発しないので残る。アレクサンドリアのマリア（1〜3世紀）の三本腕の蒸留器（トリビコス。伝えたのはゾシモス（300年頃）で、マリアが発明したかは不明）、9〜10世紀のジャービル文書（一人の実在の人物かも議論がある）⚠️"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "軽",
+  "missing": "",
+  "item": "distilled_water",
+  "recipes": [
+   "作業台：水入りバケツ ＋ 石英の蒸留器 ＋ 空のガラス瓶×3 → 蒸留水×3"
+  ],
+  "machine_recipes": [],
+  "placeholder": "近似：熱は石英の蒸留器を使うことで表す（かまどの火は描かない）。",
+  "game_text": "水入りガラス瓶＋熱 → 蒸留水。[2-39]の蒸留と同じ装置",
+  "hee_game": {
+   "note1": "水をわかして、湯気を冷やして集めた、塩の入っていない水。",
+   "note2": "ガラス瓶入り（使うと瓶が戻る）。作業台で 水バケツ1＋石英の蒸留器（戻る）＋空のガラス瓶3 → 蒸留水3（バケツも戻る）。ウェハーを洗ったあとのすすぎに使う [9-14]。",
+   "note3": "水は100℃で湯気になるが、溶けている塩や鉱物は湯気にならずに残る。湯気を冷やすと、それらを含まない水が取れる。純すいな水は電気をほとんど通さない。",
+   "note4": "1〜3世紀のアレクサンドリアには3本の腕を持つ蒸留器の記録がある（マリアの発明と伝えられるが確かではない）。⚠️ 1950年代の半導体工場では、蒸留より安く大量に作れるイオン交換の脱イオン水が使われるようになった。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAUElEQVR42mNgoBAw4pKwKOv6j8w/0VWGVS0LNkErq5z/Diw6KGJMVjn/jx2bwkiUAQwMDAxGcagGHDiwDas6JkrDYNSAUQPwpsS+pC6GoQEACw0Oo4yaopQAAAAASUVORK5CYII="
+}

@@ -1,0 +1,73 @@
+{
+ "id": "2-27",
+ "history": {
+  "name": "ホルムアルデヒド",
+  "name_en": "Formaldehyde",
+  "kind": "tech",
+  "trunk": "2",
+  "trunk_name": "化学",
+  "year": 1859,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "熱した銅や銀の網の上で、メタノールを酸素と反応させる",
+  "hee1_en": "Methanol is reacted with oxygen over a hot copper or silver mesh",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "C5. 熱い銅の網は減らない（触媒とホルムアルデヒド）［2-27］",
+    "answer": "メタノールの蒸気と空気を、熱した銅や銀の網に通すと、表面でメタノールが酸化されてホルムアルデヒドと水になる（2CH3OH + O2 → 2HCHO + 2H2O）。網は反応を速めるだけで自分は変わらない（触媒）。ホルムアルデヒドを水に溶かした物がホルマリン。",
+    "hee": {
+     "1": "熱した銅や銀の網の上で、メタノールを酸素と反応させる。網はなくならない。",
+     "2": "ホルムアルデヒドはたんぱく質をつないで固めるので、標本の保存に使われた。同じ性質でフェノールとつながって樹脂になる。",
+     "3": "1859年ブートレロフが発見、1867年ホフマンがメタノールの酸化で確かめた。工場では銀の網（約600℃）が主。",
+     "4": "建材から出るホルムアルデヒドはシックハウス症候群の原因。日本は2003年から建材に決まりを作った。"
+    },
+    "certainty": "反応式・触媒 ◎／ブートレロフ 1859・ホフマン 1867 ○（TECH_TREE の本物欄と一致）／シックハウスの規制 2003（建築基準法改正）○／GHS 区分（発がん性 1B など）○",
+    "basis": "- Wikipedia「Formaldehyde」：https://en.wikipedia.org/wiki/Formaldehyde"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "2-26"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "2CH3OH+O2→2HCHO+2H2O（加熱した Cu/Ag 網）。1859 ブートレロフが発見、1867 ホフマンがメタノール酸化で確立"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "実験",
+  "missing": "",
+  "item": "copper_gauze",
+  "recipes": [
+   "作業台：銅インゴット×4 → 銅の網（触媒）"
+  ],
+  "machine_recipes": [],
+  "placeholder": "近似：網の温度・空気の量は扱わない（たき火の上なら反応する）。",
+  "game_text": "触媒ブロック（銅網）",
+  "hee_game": {
+   "note1": "熱した銅の網の上で、メタノールを空気と反応させる。網そのものは減らない。",
+   "note2": "銅インゴット4つで作る。火のついたたき火の上に置き、メタノールを持って右クリックするとホルマリンができる。冷たい網（火の上でない）では反応しない。網は何度でも使える（触媒）。",
+   "note3": "熱い銅の表面に、メタノールと酸素がくっついて反応し、ホルムアルデヒドと水になって離れていく：2CH3OH + O2 → 2HCHO + 2H2O。銅は反応を速めるだけで、自分は変わらない。これが触媒。",
+   "note4": "1867年ホフマンが、熱した白金のらせんでメタノールを酸化してホルムアルデヒドを確かめた。工場ではのちに銀の網（約600℃）が主になった。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAMElEQVR42mNMslP6z0AJQDaAHDYTA4WABdlULxs1BgYGBqLZo14Y9cIw8gIjpdkZAB+AWfEAdQbnAAAAAElFTkSuQmCC"
+}

@@ -1,0 +1,97 @@
+{
+ "id": "4-06",
+ "history": {
+  "name": "蒸気タービン",
+  "name_en": "Steam turbine",
+  "kind": "tech",
+  "trunk": "4",
+  "trunk_name": "動力・電気",
+  "year": 1884,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "羽根車を蒸気で速く回す。回転が速いので発電にいちばん向いている",
+  "hee1_en": "Steam spins a bladed wheel fast. Because it spins so fast, it is the best fit for making electricity.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "E4. 高速で回して大電力（蒸気タービン）［4-06］",
+    "answer": "ピストンを往復させる代わりに、蒸気を羽根車に吹きつけて直接ぐるぐる回す。1884年にパーソンズが発明した。回転が速いので発電機と相性が良く、今の火力・原子力発電所も蒸気タービンで回っている。",
+    "hee": {
+     "1": "風車のように、蒸気の風で羽根を回す。",
+     "2": "往復するピストンより振動が少なく、ずっと大きくできる。1台で何十万 kW にもなる。",
+     "3": "パーソンズは1897年、タービンで走る船「タービニア号」で、英国海軍の観艦式に勝手に乗り込み、当時どの船より速い約34ノットで走ってみせた。海軍はすぐにタービンを採用した。",
+     "4": "今の火力発電の効率は30〜40%台。ゲームのタービンが30%なのはここから（蒸気機関の5%の6倍）。"
+    },
+    "certainty": "1884・タービニア号 ◎（米国機械学会のランドマーク認定ほか）",
+    "basis": "ASME（米国機械学会）ランドマーク「Turbinia」、ETHW（英語）"
+   }
+  ],
+  "people": [],
+  "media": [
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/US553932-drawings-page-1.png/960px-US553932-drawings-page-1.png",
+    "page": "https://commons.wikimedia.org/wiki/File:US553932-drawings-page-1.png",
+    "kind": "画像",
+    "author": "Charles Parsons",
+    "license": "Public domain",
+    "description": "チャールズ・パーソンズの蒸気タービンの米国特許（1896年）の図面。",
+    "verified": "2026-10-20 Commons API で PD を確認"
+   }
+  ],
+  "requires": [
+   [
+    [
+     "4-02"
+    ]
+   ],
+   [
+    [
+     "1-26"
+    ]
+   ],
+   [
+    [
+     "8-01"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-02"
+  ],
+  "frontier": false,
+  "real": "パーソンズ1884。回転が速く発電に最適、MW級。現代の復水式蒸気タービン火力で熱効率30%級（最新鋭は40%超）"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": "steam_turbine",
+  "recipes": [
+   "作業台：鋼インゴット×5 ＋ 自励式ダイナモ ＋ 耐火れんが（珪石れんが）×2 ＋ バケツ → 蒸気タービン発電機"
+  ],
+  "machine_recipes": [
+   "蒸気タービン発電機「蒸気タービンで発電」：石炭 ＋ 水入りバケツ（バケツ1杯で石炭2個分） → 電気（発電 500 kW・石炭1個 18 秒）。熱効率30%"
+  ],
+  "placeholder": "省略：羽根の削り出し（旋盤[8-01]が未実装）、多段・復水器、川の水は減らない。",
+  "game_text": "",
+  "hee_game": {
+   "note1": "蒸気で羽根車をものすごく速く回す。今の発電所もほとんどこれ。",
+   "note2": "パーソンズ1884年。石炭＋水 → 500kW。石炭1個で18秒（9MJ＝石炭の熱の30%。蒸気機関は5%）。水は上の枠の水バケツ（1杯＝石炭2個分）か、横に水源ブロックを置くとそこから取り続ける。1台でアチソン炉（500kW）を動かせる。",
+   "note3": "ピストンが往復せず、羽根車が一方向に回るだけなので、速く回せて（パーソンズの最初の機械で毎分18000回転）大きくも作れた。発電所が川や海のそばにあるのは、冷やすための水がたくさん要るから。",
+   "note4": "本物は多段（蒸気が何列もの羽根を通りながら膨らむ）で、復水器で蒸気を真空中で水に戻して効率を上げる。石炭火力は今33〜40%、ガスのコンバインドサイクルは60%以上。今あなたが使う電気も、ほとんどは回るタービンで作られている。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAARklEQVR42mO0cvD5z0ABYGFgYGAwM9AhS/OpC1cYmGAcERkFojUiq4Ub8ObJA6INQFbLxEAhGDVg1AAUAwYsKbPAchW5AACHvhNX3fb1oQAAAABJRU5ErkJggg=="
+}

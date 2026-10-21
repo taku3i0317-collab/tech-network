@@ -1,0 +1,73 @@
+{
+ "id": "B-17",
+ "history": {
+  "name": "GPS",
+  "name_en": "GPS",
+  "kind": "product",
+  "trunk": "B",
+  "trunk_name": "枝",
+  "year": 1995,
+  "year_range": "1978〜1995",
+  "year_uncertain": false,
+  "hee1": "空の衛星から届く時刻のずれで、自分のいる場所が分かる",
+  "hee1_en": "From the time differences of signals sent by satellites in the sky, you can tell where you are.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "14-15"
+    ]
+   ],
+   [
+    [
+     "8-15"
+    ]
+   ],
+   [
+    [
+     "8-30"
+    ]
+   ],
+   [
+    [
+     "10-14"
+    ]
+   ],
+   [
+    [
+     "15-07"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1978 最初の実験衛星（Navstar 1）を打ち上げ、1995 24機がそろって本格運用。受信機は4機以上の衛星から届く時刻の差で位置を計算する。衛星の時計は相対性理論の補正がないと1日に数km分ずれる⚠️"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAf0lEQVR42mNgGGjAiEtiWp7If2R+1qQ3jCSbPi1P5D+6QeiAiVIvsOCzPSjIBMo78x+XF1gYGBgYrKxyUJx57NgUrIqxqWMhbDsDA4R95v+SM0SGQdakN4zr1iFUr1t3Bmcs0DYaKQJWVjn/YYGGHnhEaSZGjKBmdDbJLqELAACMdjrf4BsnAgAAAABJRU5ErkJggg=="
+}

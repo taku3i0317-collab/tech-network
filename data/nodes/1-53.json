@@ -1,0 +1,73 @@
+{
+ "id": "1-53",
+ "history": {
+  "name": "フェライト",
+  "name_en": "Ferrite",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": 1930,
+  "year_range": "1930〜1937",
+  "year_uncertain": false,
+  "hee1": "冷蔵庫に貼る黒いマグネットも、焼き物でできたフェライトの磁石（O-005 で追加。出典：IEEE Milestones、東京工業大学「フェライトの発明」、Wikipedia「Ferrite (magnet)」）",
+  "hee1_en": "The black magnets on your fridge are ferrite magnets, made like pottery. (Added in O-005. Sources: IEEE Milestones, Tokyo Institute of Technology \"The invention of ferrite\", Wikipedia \"Ferrite (magnet)\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [
+   {
+    "name": "加藤与五郎",
+    "tool": "🧲 フェライト",
+    "year": "1930",
+    "intro": "1930年、武井武とフェライト（焼き物の磁性体）を発明した",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAB/klEQVR42u1WPUvDUBQ9kUoqLUXEoNhOncRFHIQMcbFSpHVzkSD+gYqUTP0JxaGD+AuKFBcXERERFzsUHEQEl0rt0IoaKVIiWByei3mmaWPesykieqfLvTfvnHveRy7wb3/dBJ5iVVUJS12hUGBe18damE6nSTKZ7IiXy+Vu5YSVhMDauaIoXNIWi0UmJQb6AQ4AiqIwbdnATx/C30UgETGQiBiu/qRw6z0BE4DV9/waAsBhLegIZs1NCro3D5GmxsnS3DQAIBqWmBet1D8JHJxdIlc4Fjw5A1Ishdj6NqRYiivXkwJT0QlEwxJV4KHRxNhIqK1be85UoFLXcV25600Bu/RWcLvZcyzb5krg4OyyI+YXB6n/2Gh2jTt9y3ULLNKRjZUFGn9tvQEArm5qCAyJHXGWw8f9O9bUOCVhvXLd3oqt3RMmcO53wARPRAxc7J23xWeWZ2mubwOJVQUn4+mem4BJYnQ4CHVRbp+Cjkp4eja4wHsyTY2T6v4mqe5vEk2NE/RzJpSkcQqQyWgAgLW11baafH4HAJDN5mhM1+97uwUmcCg0TGOl0umXC8ryPPWbzWdXIj5W4O+Y5XviRETgBX55MRAIBDuUkOV5mnOybor4vOz4O4oIJgEWcLcOWWtMNXT9XvjxodRn3x8na7VeIYp+17oPaSGKfiYC74Ij42xkY3GVAAAAAElFTkSuQmCC"
+   },
+   {
+    "name": "武井武",
+    "tool": "🧲 フェライト",
+    "year": "1930",
+    "intro": "1930年、加藤与五郎とフェライトを発明した",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACJ0lEQVR42mNgGAUjHTCSolhCROg/MepevHlHtLksxCqUkxT7LyLIjyH+7cdPbMr/E+sIRmJ9LsDHA+fvmJCDVZ1HwRQ4+8OnL0SFBBO1LEeXE+DjISrKmEhJA/gsJ0UN2Q6gBSDaAdNKwxlooZZoByhJi9IkBFhIUYycytHjGlmOlBDAm02Kotz+bztxg4GBgYGBX1QZQ35ltScDAwMDQ3jrdgy5j6/vMjAwMDB4WWgw9C3bxUiVRLhv3xaGN8/vMuzbtwVuMcxydDmqhYCWkhSDkrQoQ+WCM1hD4N7T11jl2hNMGO49fc1w7d4zvCHAQmzigwU3NoAud+/pa7jea/eeUZYLthy+iCHGwc4KZ7969wmrOC69JIUAUtD9z4twgYv/+PmbgYGBgeHynScM3JzsGOIwy/EFPcnVcVGUG4oj8IFJK/YQZTnJ5QAyOL/2NArfMNiU9g0SYkKBFN+T7ACYI0QEeBiiPCxQxJftOMHw5sMXkiynCBRFuf1/sKnr/4NNXf+Lotz+M9CyTejk5AG3wNvbiYGBgYEhLi4GRc2iRUsYGBgYGLZu3YdUcu5gpCgRwizW0TGAi6FbjC7+8OE7lLYhIYewEGsxOQBJP06HMJJq8f37dxgUFVUYamvzUMSbmyfB5XCBK1cuYEQNCzV9TE6IMMIcQIzlhHxIrBpYaOzbt4NxwBulLOjxgwu8efOKQUREjKA6BgYGhgMHdjGIiIgR5QAAGSnoUkWBr2UAAAAASUVORK5CYII="
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-13"
+    ]
+   ],
+   [
+    [
+     "3-12"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "鉄の酸化物に亜鉛・マンガン・ニッケルなどの酸化物を混ぜて焼き固めた、電気を通しにくい磁性体。1930年、東京工業大学の加藤与五郎と武井武が発明した（特許出願1930・登録1932）。1935年に作られた TDK が1937年ごろ磁心として製品にし、最初は無線機の高周波のコイル・トランスに使われた（IEEE マイルストーン「フェライトの開発と応用 1930-1945」）。電気を通しにくいので、高い周波数でも渦電流（鉄心の中をぐるぐる流れて熱になる電流）が少ない。コアメモリの小さな輪（[10-08]）、ラジオのアンテナ棒、磁気テープの仲間。磁石になるしくみ（フェリ磁性）はルイ・ネールが説明した（1970年ノーベル物理学賞）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA0ElEQVR42rWTsQ2DMBBFn5GnSEHpAjFGKooUzMAMDJEZmCEFhauMEVG4pGAKJKcAE8dxkCOUq07W/bv//53hn6FUYZUq7F6NjIFcXlUXl9omnwFo70b49SIEe6BoaN1jzCA+GoRgrfs3oGPgwjGRKVMAOl4D/OYyBQxgzCCafLYLG2jN8p6lagfoRslU1kxlvZktf1lrk8/wuOGzyBy90LQ9Bt0ov5u4SrGhD9ezsrAw8D2ISnBN/LepjK84+ZBOq/bwGkXKKfsTYys+9JkOxxMC5WXbu6BUSQAAAABJRU5ErkJggg=="
+}

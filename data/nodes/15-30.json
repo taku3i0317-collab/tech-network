@@ -1,0 +1,58 @@
+{
+ "id": "15-30",
+ "history": {
+  "name": "公開鍵暗号",
+  "name_en": "Public-key cryptography",
+  "kind": "tech",
+  "trunk": "15",
+  "trunk_name": "通信・情報",
+  "year": 1976,
+  "year_range": "1969〜1977",
+  "year_uncertain": false,
+  "hee1": "ネットで買い物ができるのは、誰でも閉められて自分だけが開けられる「鍵」の数学があるから（O-011 で追加。出典：Wikipedia「Turing Award」「Public-key cryptography」、ACM A.M. Turing Award 2015（公開鍵暗号、1976年）（https://amturing.acm.org/award_winners/diffie_8371646.cfm））",
+  "hee1_en": "You can shop online because of the math of a \"lock\" that anyone can close but only you can open. (Added in O-011. Sources: Wikipedia \"Turing Award\", \"Public-key cryptography\", ACM A.M. Turing Award 2015 (public-key cryptography, 1976) (https://amturing.acm.org/award_winners/diffie_8371646.cfm))",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "15-14"
+    ]
+   ],
+   [
+    [
+     "15-15"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "鍵を2つに分け、閉じるための鍵はみんなに公開し、開けるための鍵は自分だけが持つ暗号。会ったことのない相手とも、ネットワークの上で秘密の話ができる。1976年にアメリカで鍵を安全に決める方法（鍵交換）が、1977年に今も広く使われる方式（RSA）が発表された（考えた人の多くは存命なので名前を出さない）。実はイギリスの政府の通信の研究所（GCHQ）のジェームズ・エリスらが1969〜75年に同じ考えにたどり着いていたが、1997年まで秘密だった。スマホの通信やネットの買い物の暗号（HTTPS など）は、公開鍵で鍵を決めている"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAbUlEQVR42mNgGFLAysHnv5WDz3+yNWNjsyArmpYngmJ61qQ3jETbgK4Zmxg2LzBRGi4sMJuCgkwYGBjOoJgOE8PnFSZMDZhsgi6AgXXrziAF3Jn/xBhCcRgwUZomWLAFGllhsG7dGQb08BgaAAComS4j52b2RAAAAABJRU5ErkJggg=="
+}

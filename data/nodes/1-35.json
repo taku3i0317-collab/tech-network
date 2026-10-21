@@ -1,0 +1,63 @@
+{
+ "id": "1-35",
+ "history": {
+  "name": "ネオジム磁石",
+  "name_en": "Neodymium magnet",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": 1982,
+  "year_range": "1982〜84",
+  "year_uncertain": false,
+  "hee1": "ネオジム・鉄・ホウ素でできた磁石。日本とアメリカでほぼ同時に生まれた",
+  "hee1_en": "A magnet made of neodymium, iron and boron. It was born in Japan and the USA at almost the same time",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-72"
+    ]
+   ],
+   [
+    [
+     "1-19"
+    ]
+   ],
+   [
+    [
+     "1-33"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1982〜84 佐川眞人（住友特殊金属）と GM が独立に発明。Nd2Fe14B。Nd 金属はフッ化物/酸化物の溶融塩電解で得る"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "露光装置ステージのリニアモーター用。磁鉄鉱の天然磁石[4-04]で足りるなら省略可",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAcUlEQVR42mNgoBAwInOOTGP4D2PbZBEvh6GAEEBWywgTQDbVysEHq2HHDmxhRDbEJouBkQVdkZWDz38vHx9clv9HNoSBgYGBBZsqB64MrLq3MWAajNWAA99m4HDAFuIMGFgXQAOJYCxQNx1QJSWOYAAACQM0QnFR7UEAAAAASUVORK5CYII="
+}

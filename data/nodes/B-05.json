@@ -1,0 +1,53 @@
+{
+ "id": "B-05",
+ "history": {
+  "name": "偏光",
+  "name_en": "Polarization",
+  "kind": "tech",
+  "trunk": "B",
+  "trunk_name": "枝",
+  "year": 1669,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "透明な方解石を置くと、文字が2重に見える（[7-08] から移動）",
+  "hee1_en": "Put a clear calcite crystal on some writing and the letters look doubled. (Moved from [7-08])",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "7-03"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1669 バルトリンの複屈折、1808 マリュスの反射光の偏光、1828 ニコルのプリズム"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "偏光子アイテム → ガラスのひずみ検査",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAaElEQVR42mNgoCVQU9P6r6am9Z9iQ/DJM5Gq+cg0hv9ku+DINIb//x+F/McwBCaATmMLA5wuwGU6IQOYYILWPiEMDAwMDNY+ISguINqv5LqAemFAbFRiDQNSNCOHEVVcQHFeYGIYaAAAt1Fa+keQtEgAAAAASUVORK5CYII="
+}

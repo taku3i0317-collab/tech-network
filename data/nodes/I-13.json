@@ -1,0 +1,61 @@
+{
+ "id": "I-13",
+ "history": {
+  "name": "設計と製造の分業",
+  "name_en": "Separation of design and manufacturing",
+  "kind": "idea",
+  "trunk": "I",
+  "trunk_name": "発見・考え方",
+  "year": 1987,
+  "year_range": "1979〜1990",
+  "year_uncertain": false,
+  "hee1": "スマホの頭脳のチップは、設計した会社と作った工場が別々のことが多い",
+  "hee1_en": "The brain chip of a smartphone is often designed by one company and made in another company's factory.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://newsroom.arm.com/blog/arm-official-history",
+   "https://www.digitimes.com/news/a20040913ST402.html"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "10-19"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [
+   "B-10",
+   "P-12"
+  ],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-15"
+  ],
+  "frontier": false,
+  "real": "1979年ごろ、アメリカの2人の研究者（リン・コンウェイともう1人）が、工場の細かいことを知らなくても決まったルールで大きな IC を設計できる方法をまとめた（[10-19]）。これで「設計する人」と「作る工場」を分けられるようになった。歴史の例：1987年、台湾で TSMC が、自分の製品を持たずに他の会社が設計したチップを作るだけの工場（ファウンドリ）として始まった。1990年、イギリスで Arm が（エイコーン・アップル・VLSI テクノロジーの共同の会社として）、自分ではチップを作らず、CPU の設計を他の会社に使わせる会社として始まった。ゲームでは、製図台で回路を描くのが「設計」、露光装置で焼き付けるのが「製造」"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "実験：自分で描いた回路の図を、別のプレイヤーの工場で焼いてもらう",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAnElEQVR42mNgGGjAyMDAwGDl4PMfXeLYgS2MxBjAAmMEsNyCC274o0a0C5iQOWV7buG1FdmlMDaKAV0uav9J0YziBZizvXx8GBi2bMHQ7OXjA+P+9/LxYdgGVcOCHmABLLf+HzuA6RW2HX0MvzyKGAJYbjH8Qg9EdKfD+Mhh8sujCIVGMQBZYZeL2n9CgYmRDggBbOmElLQyCggAAPJiPEoszQjvAAAAAElFTkSuQmCC"
+}

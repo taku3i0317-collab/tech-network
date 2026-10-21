@@ -1,0 +1,73 @@
+{
+ "id": "2-39",
+ "history": {
+  "name": "エタノール",
+  "name_en": "Ethanol",
+  "kind": "tech",
+  "trunk": "2",
+  "trunk_name": "化学",
+  "year": 1857,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "お酒ができるのは酵母のはたらき。でも蒸留しても 95.6% より濃くならない",
+  "hee1_en": "Yeast is what makes alcoholic drinks. But even by distilling, you cannot get it stronger than 95.6%.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "C14. お酒は酵母が作る、でも 95.6％ で止まる（エタノール）［2-39］",
+    "answer": "酵母は酸素の少ない所で糖をエタノールと二酸化炭素に分ける（C6H12O6 → 2C2H5OH + 2CO2）。果物の皮には野生の酵母が付いている。1857年パスツールが発酵は生きた酵母のはたらきだと示し、1897年ブフナーが細胞なしの抽出液でも発酵することを見つけた（酵素）。蒸留するとエタノール（沸点 78℃）が濃くなるが、95.6％ で液と蒸気の割合が同じになる（共沸）ので、それ以上は濃くならない。",
+    "hee": {
+     "1": "お酒ができるのは酵母という小さな生き物のはたらき。泡は二酸化炭素。",
+     "2": "いくら蒸留しても 95.6％ より濃くならない（共沸）。",
+     "3": "ブフナーは酵母をすりつぶした汁でも発酵することを見つけ、「酵素」の研究が始まった（1907 ノーベル化学賞）。",
+     "4": "ジョージアの紀元前6000年ごろの土のかめにワインの跡。ブラジルは今もサトウキビから燃料のエタノールを作る。"
+    },
+    "certainty": "反応式・共沸 95.6％ ◎／パスツール 1857・ブフナー 1897 ◎／ジョージアの紀元前6000年 ○",
+    "basis": "- Wikipedia「Ethanol fermentation」：https://en.wikipedia.org/wiki/Ethanol_fermentation"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "2-16"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "C6H12O6→2C2H5OH+2CO2。1857 パスツールが酵母の働きと証明、1897 ブフナーが細胞なしの抽出液で発酵（酵素の発見）。蒸留しても 95.6% で止まる（共沸）"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "実験＋軽",
+  "missing": "",
+  "item": "ethanol",
+  "recipes": [
+   "作業台：発酵した液×3 ＋ 石英の蒸留器 ＋ 空のガラス瓶 → エタノール（95.6％）"
+  ],
+  "machine_recipes": [],
+  "placeholder": "近似：100％（無水）にする方法は未実装。",
+  "game_text": "発酵樽ブロック → 蒸留",
+  "hee_game": {
+   "note1": "お酒のアルコール。消毒や、ほかの薬品を作る材料になる。よく燃える。",
+   "note2": "発酵した液3＋石英の蒸留器（戻る）＋空のガラス瓶で作る。エチレン [2-36]・クロロホルム [2-38] の原料、溶剤。⚠ GHS：引火性・眼刺激性。",
+   "note3": "エタノール C2H5OH は水（100℃）より低い78℃で沸くので、蒸留で集められる。でも 95.6％ になると、液と同じ割合の蒸気が出る（共沸）ので、それ以上は蒸留では濃くならない。",
+   "note4": "100％ のエタノールを作るには、水だけを取る物（生石灰・モレキュラーシーブ）を使うか、ベンゼンなどを足して蒸留する。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAVklEQVR42mNgGNTAxa/rv4tf1398apgotYRiA1hwOf2LBgNDRlIEAwMDA8MXDYb/PDcYGPZsKmMk2gUlUM3o7MEXBqMG0CohMTAwMPTMW4HC56FVhgMArQwRykfVa/IAAAAASUVORK5CYII="
+}

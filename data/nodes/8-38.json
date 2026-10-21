@@ -1,0 +1,58 @@
+{
+ "id": "8-38",
+ "history": {
+  "name": "クライオ電子顕微鏡",
+  "name_en": "Cryo-electron microscope",
+  "kind": "tech",
+  "trunk": "8",
+  "trunk_name": "精密・計測",
+  "year": 1984,
+  "year_range": "1975〜2017",
+  "year_uncertain": false,
+  "hee1": "水を一瞬で凍らせると、氷の結晶ができずにガラスのように固まる（O-011 で追加。出典：Nobel Prize「Chemistry 2017」、Nobel Prize「Chemistry 2017 press release」（https://www.nobelprize.org/prizes/chemistry/2017/press-release/））",
+  "hee1_en": "If water is frozen in an instant, no ice crystals form and it sets solid like glass. (Added in O-011. Sources: Nobel Prize \"Chemistry 2017\", Nobel Prize \"Chemistry 2017 press release\" (https://www.nobelprize.org/prizes/chemistry/2017/press-release/))",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "8-11"
+    ]
+   ],
+   [
+    [
+     "6-07"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "たんぱく質のような生き物の分子を、水ごと一瞬で凍らせて（氷の結晶ができない「ガラスのような氷」にして）、冷やしたまま電子顕微鏡で見る。何十万枚もの像を計算機で重ねて平均し、立体の形を組み立てる。1975年から1986年にかけての像の計算の方法と、1982〜84年の急速に凍らせる方法がそろって実用になった（2017年ノーベル化学賞。受賞者は存命なので名前を出さない）。ウイルスや薬の標的のたんぱく質の形を調べるのに使われる"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAk0lEQVR42tWRMQ6EMAwEJxE1JU+huAJRn/zciBpRXMFTKHkAXEOERGwIomKryIp37TE8lNOKn1ZWrf7rg8ty1QwsU5drkp2uGVjpAP4pxMJK/4oArADxra3htOalbvRxxyFh4XObAZa6SXicMpCqRKryPoOoMM2XEP3x1n4c7M8Kg+J46424sdN+mWiUrNCFwLv0B695N/kGHZrEAAAAAElFTkSuQmCC"
+}

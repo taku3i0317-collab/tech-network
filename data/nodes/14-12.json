@@ -1,0 +1,66 @@
+{
+ "id": "14-12",
+ "history": {
+  "name": "飛行機",
+  "name_en": "Airplane",
+  "kind": "product",
+  "trunk": "14",
+  "trunk_name": "輸送",
+  "year": 1903,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "ライト兄弟は自転車屋さん",
+  "hee1_en": "The Wright brothers ran a bicycle shop.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [
+   {
+    "name": "ライト兄弟",
+    "tool": "✈️ 自作の飛行機",
+    "year": "1903",
+    "intro": "1903年、自作のエンジンをのせた飛行機で空を飛んだ",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACJUlEQVR42mNgGAUDDBgJKfBwsvxPiQU79h3HawcLMYYY6KiRZfmFK7cIqmEa6CgYdQDWBGJmoIWR8FQUZEgy+M6DJwynLlwjmMixJkJsGp2M1f+XJPoTZXnP/I0MyzYQtpyoKNCSE/2vJSf6P8DZnGjfBzibw/VRJQ3IiPAxqMhJkBQFMiJ8RKljIcXQqLxmOHvZpFqcck0lqdQpCSuSA/+fO38Jq4V4E+CjFwx1PbMZGBgYGIwM9Rg65q5npEoIcBqGMuhpajJcun6d4fv51TjlGB5Npk058P38aoaNk4pQLL/z6AVOOaqkAfT4lBARwKkWWQ6mb8Pek5SFADYDONnZ4OyXbz9gFSfGcoIhgJR4UAqh7z9/QWq7Gw8YuDk5MMRhluNLfCQlQqhBcEcgZzlkAMspxFpOci6AWb5sUi3D4dlbUcRtU73hclRtEaGXC4Tqg575G4n2PckOgDlCVIifId7fAUV84cYDDK/ffSTJcopARXLg/zdHFvx/c2TB/4rkwP80a5QyMDAw2GhJwy0ITM5nYGBgYIiLi0FRs2jREgYGBgaG9XMnwsWOXHvKSJEDYBZryAjBxdqX7sRrYGW0O5x948k7gg5hIdZicgCS/v+4HMJIqsWPXn9ikBPlwwiJymh3uBwugC1EWKjpY3JChBHmAGIsJ+RDYtXAQuPItaeMA94sZ0GPH1zg3efvDEK8nATVMTAwMBy7/pRBiJeTKAcAANNR4V+oqCkwAAAAAElFTkSuQmCC"
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "14-09"
+    ]
+   ],
+   [
+    [
+     "1-29"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1903 ライト兄弟。自作エンジンのクランクケースはアルミ鋳物（チャーリー・テイラー製作）。翼の「ねじり」で傾きを操った"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "解説中心（バニラのエリトラとの比較）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAfUlEQVR42sWSuw6AIAxFD4ZvYmAwzobPJc7GwcGPEicS09ji4ONsDb2XvuBN4pBKHFKxcjrrcQ89e+jNT7zpvi3NKr1V/phSDcs6Z3eV566EACcxAFPOAEgj1xJKpJE7iyXVrIokWlvPrfEO/xt4rXexkaINTb0DjebkP+cA2VwwYThEJeYAAAAASUVORK5CYII="
+}

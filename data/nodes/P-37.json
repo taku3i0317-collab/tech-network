@@ -1,0 +1,84 @@
+{
+ "id": "P-37",
+ "history": {
+  "name": "路線バス",
+  "name_en": "City bus",
+  "kind": "product",
+  "trunk": "P",
+  "trunk_name": "モノ（作品）",
+  "year": 1895,
+  "year_range": "1895〜1930年代",
+  "year_uncertain": false,
+  "hee1": "ターボは、捨てるはずだった排気ガスの勢いを使ってエンジンに空気を押し込む。",
+  "hee1_en": "A turbo uses the force of exhaust gas that would have been thrown away to push air into the engine.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bus",
+   "https://dieselnet.com/standards/jp/tokyofit.php"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "14-11"
+    ]
+   ],
+   [
+    [
+     "14-07"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [
+   "1-26",
+   "1-29",
+   "1-51",
+   "2-29",
+   "6-03",
+   "10-14",
+   "12-05",
+   "14-07",
+   "14-09",
+   "14-10",
+   "14-17",
+   "14-18",
+   "14-19",
+   "14-20",
+   "B-17"
+  ],
+  "materials": [
+   "鋼",
+   "アルミニウム",
+   "ガラス",
+   "銅"
+  ],
+  "enabled_by": [],
+  "explained_by": [
+   "I-19"
+  ],
+  "frontier": false,
+  "real": "エンジンで走るバスは19世紀末のドイツで始まり、燃費のよいディーゼル機関が大型のバスやトラックに広がった。今の路線バスは、ターボ付きディーゼル・自動変速機・空気ブレーキ・排気の浄化装置を組み合わせている"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "作品：決まった道を走り、たくさんの人を乗せて運ぶ",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAl0lEQVR42tWRKw7DMBBEn60coSiwwCBHKCqufIbAwJxuZRyUIxQEFAblDi7ayFItxYlRB81qNLM/+HsYgMfTxyvmeRLTaLGtHwCW5W2c6+IR16a2doXqgH2FfhgBCCLx5f0h/zmiiqUIIsyTGJse8AzUYwFu7f10gHqadCRNzQWq1g8jQSSf6lwX9deluk3FHC/VL09QjS/omFD/mWCERQAAAABJRU5ErkJggg=="
+}

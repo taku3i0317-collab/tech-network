@@ -1,0 +1,58 @@
+{
+ "id": "2-49",
+ "history": {
+  "name": "ウレタン断熱材",
+  "name_en": "Polyurethane foam insulation",
+  "kind": "tech",
+  "trunk": "2",
+  "trunk_name": "化学",
+  "year": 1937,
+  "year_range": "1937〜1950年代",
+  "year_uncertain": false,
+  "hee1": "冷蔵庫の壁の中には、小さな泡がぎっしり詰まったプラスチックが入っている（S-004 で追加。出典：en.wikipedia.org、plasticstoday.com）",
+  "hee1_en": "Inside a refrigerator's walls is plastic packed with tiny bubbles. (Added in S-004. Sources: en.wikipedia.org, plasticstoday.com)",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "3-13"
+    ]
+   ],
+   [
+    [
+     "2-24"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1937年、ドイツの IG ファルベンのオットー・バイエルの研究チームが、イソシアネートとアルコールの仲間（ポリオール）をつなげてポリウレタンを作った（11月13日に特許公開）。のちに、水とイソシアネートの反応で出る泡で膨らませる方法ができ、細かい泡に熱を伝えにくいガスを閉じこめた硬い断熱材になった。今の冷蔵庫の壁の中はほぼこれ。なお、オットー・バイエルは製薬会社バイエルの創業者の家族ではない"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAp0lEQVR42mNgGGjAyMDAwGDl4POfHM3HDmxhZGJgYGDg4rNj4OKzYzh2YAsjF58dQ1xSBwofnQ2TZ2BgYGCBmbZnUxmji1/X/5AQL4Y1a7bB+ei27tlUxsjAwAAXZ4IxcGmGaoDLu/h1/YeJYbgA2WRkg5Hl0V3GhE0huu14DEQYgOxUbP6GeQHdEhQXwAxBNwwmhy1w4QbAAghHqOMMRIoTEsMoYAAAWmB3MUI/ig8AAAAASUVORK5CYII="
+}

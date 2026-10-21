@@ -1,0 +1,47 @@
+{
+ "id": "1-23",
+ "history": {
+  "name": "輝水鉛鉱 MoS2",
+  "name_en": "Molybdenite MoS2",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": 1778,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "モリブデンの鉱石は、銅の鉱山のついでに取れる",
+  "hee1_en": "Molybdenum ore comes out as a side product of copper mines",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "斑岩銅鉱床の副産物。1778年 シェーレが黒鉛でも鉛を含むものでもないと示し、新しい金属の酸化物（モリブデン酸）を得た"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "銅鉱石の近く",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAb0lEQVR42mNgGGjAiE0wIizoPzbxFavWYahnwabZw80Jl4X/0Q1hRNf86NUvvE6WE2NDcQkLkTbjdAkjsTbjcgncBWkxHiQZsGPXPlQvzFqyg2QXoAQiKWGwY9c+BpQwoCQWGElJB8g2Uy0lDgMAADT5PCCwGv4jAAAAAElFTkSuQmCC"
+}

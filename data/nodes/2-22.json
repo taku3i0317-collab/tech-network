@@ -1,0 +1,74 @@
+{
+ "id": "2-22",
+ "history": {
+  "name": "王水",
+  "name_en": "Aqua regia",
+  "kind": "tech",
+  "trunk": "2",
+  "trunk_name": "化学",
+  "year": 1300,
+  "year_range": null,
+  "year_uncertain": true,
+  "hee1": "1940 ヘヴェシーがナチスから守るため、ラウエとフランクのノーベル賞メダルを王水に溶かして棚に置き、戦後に金を取り出して作り直した",
+  "hee1_en": "In 1940, to protect them from the Nazis, Hevesy dissolved the Nobel Prize medals of Laue and Franck in aqua regia and left them on a shelf. After the war, the gold was recovered and the medals were made again.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "C27. 金を溶かす「王の水」（王水）［2-22］",
+    "answer": "濃塩酸3と濃硝酸1を混ぜた王水は、金も溶かす。硝酸が金を少しずつ酸化し、塩化物イオンが金を錯イオン [AuCl4]- にして液に引き込む（片方だけでは溶けない）。混ぜると塩化ニトロシルと塩素が出て弱まっていくので、使う直前に作る。13世紀ごろの錬金術の文書（偽ゲベル）に記述がある ⚠️。1940年ヘヴェシーは、ラウエとフランクのノーベル賞メダルを王水に溶かしてナチスから守り、戦後に金を取り出してメダルが作り直された。",
+    "hee": {
+     "1": "金は、2つの酸を混ぜた王水になら溶ける。",
+     "2": "王水は作り置きできない。気体が逃げて弱くなる。",
+     "3": "ヘヴェシーはノーベル賞のメダルを王水に溶かして隠した。",
+     "4": "溶けた金は、二酸化硫黄などで還元すると茶色の粉になってもどる。"
+    },
+    "certainty": "反応・片方では溶けないこと ◎／偽ゲベル（13世紀ごろ）△ → ⚠️（TECH_TREE の年 1300 ⚠️ のまま）／ヘヴェシー 1940 ◎",
+    "basis": "- Wikipedia「Aqua regia」（歴史・化学・ヘヴェシー）：https://en.wikipedia.org/wiki/Aqua_regia"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "6-11"
+    ]
+   ],
+   [
+    [
+     "6-06"
+    ],
+    [
+     "6-04"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "HCl:HNO3＝3:1。Au+HNO3+4HCl→HAuCl4+NO+2H2O（硝酸が酸化し、塩化物イオンが錯イオンにして溶かし込む。片方だけでは金は溶けない）。13世紀ごろの偽ゲベル文書に記述⚠️"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "実験",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "混ぜるだけ（時間で分解する＝作り置き不可のアイテム）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAc0lEQVR42mNgoBAw4pKwKOv6j8w/0VXGSJLJyAagG4YMmCj1AsUG4HX+tDwRoryB0+8wA2A0NkMY0TXH/ejCa8EijjKUGGEiRTMDAwND3I8uFJcQDESxrHMMYlnn8McCsbZjcwULst+wgnkrIDQu+VHAAADv7jR83dkf7wAAAABJRU5ErkJggg=="
+}

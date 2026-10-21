@@ -1,0 +1,68 @@
+{
+ "id": "15-20",
+ "history": {
+  "name": "携帯電話の電波",
+  "name_en": "Mobile phone radio",
+  "kind": "tech",
+  "trunk": "15",
+  "trunk_name": "通信・情報",
+  "year": 1979,
+  "year_range": "1947〜1983",
+  "year_uncertain": false,
+  "hee1": "世界で最初の携帯電話のネットワークは、1979年の東京の自動車電話（S-003 で追加。出典：Wikipedia「History of mobile phones」、Britannica「Mobile telephone」、NTT ドコモ「沿革」）",
+  "hee1_en": "The world's first mobile phone network was the car phone in Tokyo in 1979. (Added in S-003. Sources: Wikipedia \"History of mobile phones\", Britannica \"Mobile telephone\", NTT Docomo \"History\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "15-04"
+    ]
+   ],
+   [
+    [
+     "15-07"
+    ]
+   ],
+   [
+    [
+     "8-15"
+    ]
+   ],
+   [
+    [
+     "10-14"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "町を小さな区画（セル）に分けてそれぞれに基地局を置き、離れたセルでは同じ周波数を使い回す。動いて隣のセルに入ると通話を引き継ぐ。1947年、ベル研究所の研究者がセルの考えを社内メモに書いた。1973年にモトローラが手で持つ携帯電話で初めて通話した。世界で最初の商用のセルラー網は、1979年の日本電信電話公社（NTT）の東京の自動車電話で、アメリカは1983年"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAfUlEQVR42mNgoCY4Mo3hPzLfysHnv5WDz398apiQJWyyGBixKUIWs8liYESWZ8KmEGYQMkDXiNMAXApxGUxxGOA0EV3jsQNbGEmKEWQD0A1DBizEGkKW7chhgMswJkq9wITPJccObGEkK/Cw2YhLnKSAwybHSE6ok+wtfAAA9i9OPAd6BZoAAAAASUVORK5CYII="
+}

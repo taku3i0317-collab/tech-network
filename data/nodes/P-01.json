@@ -1,0 +1,62 @@
+{
+ "id": "P-01",
+ "history": {
+  "name": "クレーン",
+  "name_en": "Crane",
+  "kind": "product",
+  "trunk": "P",
+  "trunk_name": "モノ（作品）",
+  "year": -515,
+  "year_range": "-600〜-500",
+  "year_uncertain": true,
+  "hee1": "ギリシャの神殿の石には、クレーンでつかむための穴や溝が残っている",
+  "hee1_en": "The stones of Greek temples still have holes and grooves for cranes to grab.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://en.wikipedia.org/wiki/Crane_(machine)",
+   "https://resolve.cambridge.org/core/journals/journal-of-hellenic-studies/article/abs/lifting-in-early-greek-architecture/83AECC23A4CFF572B9B01B204832F222",
+   "https://www.cambridge.org/core/blog/?p=31049"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "0-08"
+    ]
+   ],
+   [
+    [
+     "0-09"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "紀元前6世紀末のギリシャで、神殿の石材に吊り具（つかみ具・ルイス金具）の切り込みが現れる（遅くとも紀元前515年頃）。クーツン（J. J. Coulton 1974）は、このころからクレーンか巻き上げ機が広く使われたとみる。複滑車のクレーンはのちにウィトルウィウスやヘロンが書き残し、ローマがさらに大きくした。2019年のピエラッティーニの研究は、紀元前7世紀前半にもっと早い吊り上げの工夫があったとする ⚠️"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "作品：クレーンを置いてハンドルを回すと、滑車とロープでブロックを吊り上げる（滑車を増やすと軽い力で持ち上がる）",
+  "missing": "滑車（複滑車）, ロープ（綱）",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAgUlEQVR42q2SMQ7AIAhFkXAqJ+eG4xLnTr2WXUqDBhNp/ZNG/+eJAOxWLtxy4bZ6n0bzwaxbN+Q6Jdl9UiMAgDFPVUW6sJdAzVWkW88otCiN6Q9i83AtrZ6hhxYRzSqtCv9+O0Zn5GAGOycUCdAG2yeHCcZ+4QeCvU1M3pCsVN6mGwdnPpbayqhRAAAAAElFTkSuQmCC"
+}

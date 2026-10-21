@@ -1,0 +1,74 @@
+{
+ "id": "9-24",
+ "history": {
+  "name": "CMOS",
+  "name_en": "CMOS",
+  "kind": "tech",
+  "trunk": "9",
+  "trunk_name": "半導体プロセス",
+  "year": 1963,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "電卓や時計の電池が何年ももつのは CMOS のおかげ",
+  "hee1_en": "Calculator and watch batteries last for years thanks to CMOS.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "L14. 電気をほとんど使わない門（CMOS）［9-24］",
+    "answer": "CMOS は、p チャネルと n チャネルの MOS を対にした回路。入力が 0 でも 1 でも、どちらか片方は必ず切れているので、止まっている間は電源から 0 V へ電流がほとんど流れない。1963年にフェアチャイルドのフランク・ワンラスとサー・チータンが発表した。",
+    "hee": {
+     "1": "電卓や腕時計の電池が何年ももつのは CMOS のおかげ。1970年代の時計・電卓から広まった。",
+     "2": "p チャネルを作るには、p 型の板の中に n 型の「井戸（ウェル）」を作り、その中に作る。拡散がもう1回ふえる。",
+     "3": "p チャネルの電気を運ぶ正孔は、電子より2〜3倍動きにくい。同じ強さにするため、p チャネルは幅を広く作る。",
+     "4": "電気を使うのは、0 と 1 が切りかわる一瞬だけ。だから今の CPU は速く切りかえるほど熱くなる。"
+    },
+    "certainty": "ワンラスとサー 1963 発表 ◎／止まっている間ほとんど電流が流れない ◎／正孔の動きにくさ（移動度 約 1/2〜1/3）◎／時計・電卓から広まった ○",
+    "basis": "Computer History Museum「1963 – Complementary MOS Circuit Configuration is Invented」、Wikipedia「CMOS」（History）"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "9-23"
+    ]
+   ],
+   [
+    [
+     "9-16"
+    ],
+    [
+     "9-28"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1963 フランク・ワンラスとサー・チータン（フェアチャイルド）。n型と p型の MOSFET を対にすると、止まっている間ほとんど電流が流れない。1970年代の電卓・腕時計から普及"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "[10-xx] 論理の省電力版（電卓[B-08]の条件）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAhUlEQVR42mNgGFRgWp7I/2l5Iv9JkWei1FJGmMnYJLMmvSEoz8LAwMCw5EwEg4ODF4rkgQPbGBgYpjAQkqfcBVZWOf+f8Hhh9Z+V1bb/DAwMDPjkWRgYGBhkvsTBBZ/wLIKzY0xWQMQYEAYgq2VgiKA8FljQbUUG2MRRxbZRyQWQKBmxAAA+Tzqk2OHEZgAAAABJRU5ErkJggg=="
+}

@@ -1,0 +1,63 @@
+{
+ "id": "4-21",
+ "history": {
+  "name": "ブラシレス DC モーター",
+  "name_en": "Brushless DC motor",
+  "kind": "tech",
+  "trunk": "4",
+  "trunk_name": "動力・電気",
+  "year": 1962,
+  "year_range": "1962〜1980年代",
+  "year_uncertain": false,
+  "hee1": "パソコンのファンやエアコンのモーターには、こすれてすり減る部品が入っていない（S-004 で追加。出典：en.wikipedia.org、technav.ieee.org）",
+  "hee1_en": "The motors in computer fans and air conditioners have no parts that rub and wear out (added in S-004. Sources: en.wikipedia.org, technav.ieee.org)",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "4-08"
+    ]
+   ],
+   [
+    [
+     "9-04"
+    ]
+   ],
+   [
+    [
+     "4-04"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "ふつうの直流モーターは、ブラシという接点がこすれて電流の向きを切り替えるので、すり減って火花も出る。1962年、T・G・ウィルソンと P・H・トリッキーが、ブラシの代わりにトランジスタの回路で電流を切り替える「固体整流の直流機」を考えた。磁石が回る側にあり、コイルは止まっているので長持ちで静か。1970〜80年代に強い磁石とパワー MOSFET・IGBT が安くなって広まり、エアコン・冷蔵庫・パソコンのファン・電気自動車に使われる"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA0klEQVR42qVTsQ2EMAy8oCijMAQVJYpcMAuDMMsXFkpJxRCMEiHlCwgfQ17PK+7iXOy7swMUhsolm5ZCLr/MfMPr3ENL9K1huBaq0seWCL1eT7RxI4wbz3OvV1giwVAwiGDjRry2Gsu8KgBoNg6x8I6pIRjE7k8jZSEY+G74HJgF1XiXShIepJcTszBqmVlNzFk2VekeZCUcfoTrhH4WkPrqU0bTUrhqFwUOYOj1M9qpRzcJxo3w3QC7L07Y8wR/MPTdACSGqn9WOU4inVDxZyqON4QsZch2zx9eAAAAAElFTkSuQmCC"
+}

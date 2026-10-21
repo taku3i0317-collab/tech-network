@@ -1,0 +1,58 @@
+{
+ "id": "7-23",
+ "history": {
+  "name": "LiDAR",
+  "name_en": "LiDAR",
+  "kind": "tech",
+  "trunk": "7",
+  "trunk_name": "光学",
+  "year": 1963,
+  "year_range": "1963〜2007",
+  "year_uncertain": true,
+  "hee1": "アポロ15号は、レーザーの光が月面からはね返る時間を測って、月のでこぼこを調べた（S-005 で追加。出典：Wikipedia「Lidar」、Frontiers in Remote Sensing（2022）「LiDAR history」）",
+  "hee1_en": "Apollo 15 measured the bumps of the Moon by timing how long laser light took to bounce back from its surface. (Added in S-005. Sources: Wikipedia \"Lidar\", Frontiers in Remote Sensing (2022) \"LiDAR history\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "7-13"
+    ]
+   ],
+   [
+    [
+     "10-09"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "レーザーの光を当て、はね返って戻るまでの時間から距離を測る（光は1ナノ秒に約30cm 進む）。1960年のレーザーの発明のすぐ後に距離計が作られ（最初の実用機は1963年とされる ⚠️）、1971年のアポロ15号はレーザー高度計で月の表面の高さを測った。2005年ごろ、たくさんのレーザーを並べて回し、周り360度の形を一度に測る装置ができ、2007年の無人自動車レースで多くのチームが使った"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAlElEQVR42mNgoBAw4pJQU9P6j8y/desaI1EGwDTOK7iGIp40QQuvQXDNR6Yx/C8oqPiP7AI1Na3/BQUV/49MY/iP7jIWbAZt27YJxSYo+3+IGqZaDAPW3KpgYGDYhBEGyHJ4AbLGI9MY/uMLWAYGBgYmqkUjsm02WQyMR6Yx/IfRyGLIaii1HGEpul8pN5FK6kYKAAChvURrMNTYswAAAABJRU5ErkJggg=="
+}

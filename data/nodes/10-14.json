@@ -1,0 +1,53 @@
+{
+ "id": "10-14",
+ "history": {
+  "name": "マイクロコンピュータ",
+  "name_en": "Microcomputer",
+  "kind": "tech",
+  "trunk": "10",
+  "trunk_name": "制御・計算",
+  "year": 1974,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "炊飯器にも洗濯機にも、小さなコンピュータが入っている",
+  "hee1_en": "Rice cookers and washing machines have small computers inside too.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "10-13"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1974 TI の TMS1000（CPU+ROM+RAM+入出力を1チップ）、1976 インテル 8048。家電・機械の制御に組み込まれる"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "機械に入れると「自動運転モード」（テスト[9-35]・搬送の自動化）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAo0lEQVR42mNgoBAwwhhqalr/SdF469Y1RgYGBgYWZMF5BdfgbGufEKwaj25Zw5A0QQvOZ0JXsOZWBcOaWxU4bUY3mAVDcksHlBdClFdY0J0Hs31NH0Ssv+gO8QYwMDAwhKh1oItghAEDgxbhWPDy8kPRuG3bJqyxwIjLaWpqWv9hhmzbtgmuAWc6IDY94DKIspRIaipEdg0TutOIpanmAoYBBwB+qkV+afo6AAAAAABJRU5ErkJggg=="
+}

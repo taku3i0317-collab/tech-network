@@ -1,0 +1,54 @@
+{
+ "id": "I-45",
+ "history": {
+  "name": "化学結合の量子論",
+  "name_en": "Quantum theory of chemical bonds",
+  "kind": "idea",
+  "trunk": "I",
+  "trunk_name": "発見・考え方",
+  "year": 1931,
+  "year_range": "1927〜1932",
+  "year_uncertain": false,
+  "hee1": "シリコンの結晶は、どの原子も4本の手で4つのとなりと手をつないでいる",
+  "hee1_en": "In a silicon crystal, every atom holds hands with its four neighbors using its four hands.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://www.nobelprize.org/prizes/chemistry/1954/summary/",
+   "https://www.nobelprize.org/prizes/chemistry/1966/summary/"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [],
+  "understanding": [],
+  "enables": [],
+  "explains": [
+   "6-14",
+   "9-11",
+   "I-03"
+  ],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1927年、ハイトラーとロンドンが、水素分子の2つの原子が電子を分け合ってつながる（共有結合）しくみを量子力学で初めて説明した。1931〜32年、アメリカのライナス・ポーリングが混成軌道（シリコンが4本の手を正四面体の向きに出すわけ）と電気陰性度（電子を引っぱる強さ）を考え（1954年ノーベル化学賞）、ロバート・マリケンが分子全体に広がる電子の軌道の考え方を作った（1966年ノーベル化学賞）。手が5本のリンを入れると電子が1個余って n 型、3本のホウ素なら1個足りなくて p 型になる。フッ素がとても激しく反応するのは、電気陰性度がいちばん大きいから"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "実験：4本の手の玉の模型でシリコンの結晶を組み、手が5本・3本の玉を混ぜると手が余る・足りないのを見る",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAASElEQVR42mNgGPKAEZljUdb1H5l/oquMEZ84Az7NMDFc4kRpJkaeBV1CTU3rP8yZ2Ni3bl1DcT4TVUKSEi9QHIjUi8ZRQD4AAKpDPfVqYmj0AAAAAElFTkSuQmCC"
+}

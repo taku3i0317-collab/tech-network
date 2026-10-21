@@ -1,0 +1,55 @@
+{
+ "id": "3-01",
+ "history": {
+  "name": "たき火",
+  "name_en": "Campfire",
+  "kind": "tech",
+  "trunk": "3",
+  "trunk_name": "熱",
+  "year": -1000000,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "たき火の熱は、まわりに逃げてしまう",
+  "hee1_en": "The heat of a campfire escapes into the surroundings.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "0-02"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-24"
+  ],
+  "frontier": false,
+  "real": "開放燃焼で約600〜900℃。C+O2→CO2（放射で熱が逃げる）。火の利用は約100万年前"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "バニラのたき火で可（調理・低温加熱の表現）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAl0lEQVR42mNgoCU4Mo3hP0Wa/z8KIWgAEy4Ja58QolzBRMjphAxixKYZpglDsdwaRoIuwKUZlyuYSAl1bIYzURq1KAbYZDEwHt2yBqfmo1vWMNhkoYYbIwMDA0OSndJ/BgYGhnmH7qHw0QG6/LxD9xjhpqFrgikmVh5F4Zoqj//IGrCJYaQDilyQZKf0H5e/cbmSFPV4AQAvklHzii5uwgAAAABJRU5ErkJggg=="
+}

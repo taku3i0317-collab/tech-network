@@ -1,0 +1,58 @@
+{
+ "id": "4-31",
+ "history": {
+  "name": "原子力発電",
+  "name_en": "Nuclear power",
+  "kind": "tech",
+  "trunk": "4",
+  "trunk_name": "動力・電気",
+  "year": 1951,
+  "year_range": "1951〜1957",
+  "year_uncertain": false,
+  "hee1": "最初の原子力発電がともしたのは、4つの電球だった ⚠️（O-011 で追加。出典：ASME Landmark #39「EBR-I」、ASME Landmark #47「Shippingport」、Wikipedia「Nuclear power」）",
+  "hee1_en": "The first nuclear power lit up four light bulbs ⚠️ (Added in O-011. Sources: ASME Landmark #39 \"EBR-I\", ASME Landmark #47 \"Shippingport\", Wikipedia \"Nuclear power\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "4-14"
+    ]
+   ],
+   [
+    [
+     "4-06"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "ウランの原子核が分かれる（核分裂）ときに出る熱で水を沸かし、そこから先はふつうの蒸気発電と同じように蒸気タービンで発電機を回す。1951年12月20日、アメリカのアイダホ州の実験炉 EBR-I が初めて原子力で電気を作り、電球をともした（ASME ランドマーク #39）。1957年にはペンシルベニア州のシッピングポートで本格的な規模の原子力発電所が動いた（ASME ランドマーク #47）。二酸化炭素を出さずに大きな電気を作れる一方、1979年のスリーマイル島、1986年のチェルノブイリ、2011年の福島第一の事故があり、事故への備えと、使い終わった燃料の処分が大きな課題になっている"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAaUlEQVR42mNgoCaICAv6HxEW9J8UeSZKLaXYABZk53m4OcG4/1esWseI7nxs8gPvBSYszmPwcHNiQA5tfPKDxAuUAEaYH9ElPNycGHbs2ofBJhocmcbwHxubJM1HpjH8R2aT7D9kA2gGAOFiObNdARgtAAAAAElFTkSuQmCC"
+}

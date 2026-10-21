@@ -1,0 +1,53 @@
+{
+ "id": "8-19",
+ "history": {
+  "name": "滑車",
+  "name_en": "Pulley",
+  "kind": "tech",
+  "trunk": "8",
+  "trunk_name": "精密・計測",
+  "year": -25,
+  "year_range": null,
+  "year_uncertain": true,
+  "hee1": "力を4分の1にする代わりに、綱を4倍引く （IMP-24 で追加、network_proposals N-1）",
+  "hee1_en": "You need only a quarter of the force, but you pull the rope four times as far. (Added in IMP-24, network_proposals N-1)",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "0-18"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "綱を何本もの車にかけると、小さな力で重い物を持ち上げられる（そのぶん綱を長く引く）。複滑車のクレーンはウィトルウィウスとヘロンが書き残した（network_proposals N-1）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "軽（滑車）＋作品（クレーン [P-01]）",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "滑車ブロック → クレーン（[P-01]）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAlklEQVR42mNgoBAwMjAwMCTZKf0nVsO8Q/cYiVJIrKFMuDR72agRZQgjNs2PBDLgfLkPM/A6mwmb5gydfQwMDAwMGTr7GB4JZOB1CVYvzLjixJChs49hxhUn8sIAphnmEpqGAQpw8ev6DzMEhpHFsQEWihILrjAgBVDPgCQ7pf8ZOvtIyhcYLth25BbWZC33YQbJBhMNAFPMQemLaGDIAAAAAElFTkSuQmCC"
+}

@@ -1,0 +1,63 @@
+{
+ "id": "14-03",
+ "history": {
+  "name": "経度とクロノメーター",
+  "name_en": "Longitude and the chronometer",
+  "kind": "tech",
+  "trunk": "14",
+  "trunk_name": "輸送",
+  "year": 1761,
+  "year_range": "1714〜1761",
+  "year_uncertain": false,
+  "hee1": "時計の正確さが船の位置を決めた",
+  "hee1_en": "How accurate a clock was decided where a ship was",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "8-02"
+    ]
+   ],
+   [
+    [
+     "1-11"
+    ]
+   ],
+   [
+    [
+     "8-21"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1714 英国経度法の懸賞。1761 ジョン・ハリソンの H4（揺れる船の上でも正確な時計）で、出港地との時刻差から経度が分かった"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "地図に正確な座標を出す道具",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAdklEQVR42mNgoBAw4pKYlifyH5mfNekNI0kmIxuAbhhJhhDSzIjP9qAgE4Z1686Q5g1kW60cfP4Tcg0TNpux2QQTQzeEiRjN+AxhIjWq0NWgGIDsZ2QxGMalhuS4xukFYgzBq4ZQwiEmYZGcDhhJcSbJGYoYAAAfUFkPTVjpxgAAAABJRU5ErkJggg=="
+}

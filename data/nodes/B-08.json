@@ -1,0 +1,74 @@
+{
+ "id": "B-08",
+ "history": {
+  "name": "電卓",
+  "name_en": "Electronic calculator",
+  "kind": "product",
+  "trunk": "B",
+  "trunk_name": "枝",
+  "year": 1964,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "最初の電卓は机1台分の重さ",
+  "hee1_en": "The first calculator weighed as much as a whole desk.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "L12. 電卓（トランジスタから IC、そして 4004 へ）［B-08］［B-24］（S-010）",
+    "answer": "1964年のシャープ CS-10A は、トランジスタとダイオードだけで作った最初の卓上電卓の一つで、数をニキシー管で見せた（約25kg）。1960年代の終わりから IC・LSI で小さくなり、1971年に日本のビジコンが電卓のチップをインテルに頼んだことから、最初のマイクロプロセッサ 4004 が生まれた。",
+    "hee": {
+     "1": "CS-10A はトランジスタ約530個・ダイオード約2300個、重さ約25kg、値段は当時の車くらい。",
+     "2": "ニキシー管は、数字の形の金属が10枚重なったネオン管。選んだ数字の形だけがオレンジに光る。",
+     "3": "1967年、テキサス・インスツルメンツは手のひらの IC 電卓（キャル・テック）を試作した ⚠️。",
+     "4": "電卓の値下げ競争が、1つのチップに計算の全部を入れる CPU（4004、1971）を生んだ。"
+    },
+    "certainty": "CS-10A 1964・トランジスタ式・ニキシー管 ○（部品の数・重さは資料でちがう⚠️）／ニキシー管の開発（1950年代なかば、ハイドゥ兄弟・バローズ）○⚠️／TI のキャル・テック 1967 ○⚠️／ビジコンと 4004 1971 ◎",
+    "basis": "Wikipedia「Sharp Compet CS-10A」（または「Calculator」History）、「Nixie tube」、「Cal Tech (calculator)」、「Intel 4004」"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "10-11"
+    ]
+   ],
+   [
+    [
+     "9-22",
+     "9-24"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-53"
+  ],
+  "frontier": false,
+  "real": "1964 シャープ CS-10A（トランジスタ式、約25kg）、1969〜 IC・LSI 化、1972 カシオミニ。電卓の値下げ競争が[10-13]4004 を生んだ"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "足し算できる電卓アイテム（ROADMAP v0.3 #8）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAWElEQVR42mNgoBAwInOsHHz+E6Pp2IEtcH0s6JJvnt3Dq1lESgmFz0SpFzBcEJeWh1fDti1bqOsCDAMWzZqElyYYC14+PgS9gBwLoy4g0QXYXEFxXhh4AAAM/EIYT2IVEAAAAABJRU5ErkJggg=="
+}

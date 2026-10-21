@@ -1,0 +1,53 @@
+{
+ "id": "10-20",
+ "history": {
+  "name": "解析機関",
+  "name_en": "Analytical Engine",
+  "kind": "tech",
+  "trunk": "10",
+  "trunk_name": "制御・計算",
+  "year": 1843,
+  "year_range": null,
+  "year_uncertain": true,
+  "hee1": "電気のない時代に、歯車だけでプログラムを動かす計算機が設計されていた （IMP-24 で追加、network_proposals N-8）",
+  "hee1_en": "In an age without electricity, a computer that ran programs with gears alone was designed. (Added in IMP-24, network_proposals N-8)",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "8-02"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "チャールズ・バベッジが設計した、歯車で動くプログラム式の計算機。設計だけで、完成しなかった ⚠️。1843 エイダ・ラブレスが論文を英訳して注を付け、注G にベルヌーイ数を計算する手順表を書いた（どこまで本人が書いたかは諸説 ⚠️、network_proposals N-8・W-2）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "実験（歯車で計算する仕組みを動かす）",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "計算機の考え方の祖先（[10-06] の前の時代の理解）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAbUlEQVR42mNgoBAwMjAwMFg5+PwnR/OxA1sYmSh1AQsDAwNDAMstBi8HHQYGBgaGbQeuMJTtucXY5aL2n5DYMQYGBopdAAdWDj7/0cOCGDEWBgYGBojT2CBOY1H7j3AuYbFRL1DBC0xDPy9QDADv5mGDJ1N08AAAAABJRU5ErkJggg=="
+}

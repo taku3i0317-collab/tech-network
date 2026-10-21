@@ -1,0 +1,58 @@
+{
+ "id": "10-27",
+ "history": {
+  "name": "サーボ機構",
+  "name_en": "Servomechanism",
+  "kind": "tech",
+  "trunk": "10",
+  "trunk_name": "制御・計算",
+  "year": 1934,
+  "year_range": "1860年代〜1934",
+  "year_uncertain": false,
+  "hee1": "「サーボ」のもとのフランス語は「従う」という意味で、最初は船のかじを回す装置の名前だった（S-005 で追加。出典：Wikipedia「Joseph Farcot」、Merriam-Webster「servomotor」、Caltech「Harold Hazen」）",
+  "hee1_en": "\"Servo\" comes from a French word meaning \"to serve/obey,\" and at first it was the name of a device that turned a ship's rudder. (Added in S-005. Sources: Wikipedia \"Joseph Farcot\", Merriam-Webster \"servomotor\", Caltech \"Harold Hazen\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "10-04"
+    ]
+   ],
+   [
+    [
+     "4-08"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "「いまの位置」をセンサーで測り、「ねらいの位置」との差を小さくするようにモーターを回すしくみ。サーボモーターという特別なモーターがあるのではなく、ふつうのモーター＋位置のセンサー＋フィードバック制御の組み合わせ。名前は、フランスのジョゼフ・ファルコが1860年代に船のかじを動かす装置を servo-moteur（従うモーター）と呼んだのが始まりとされ、1934年に MIT のハロルド・ヘイゼンがサーボ機構の理論をまとめた"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAmklEQVR42mNgGGjAiMyxcvD5j0/xsQNbGNHFmGjiLCsHn/+EXAMDLMgcNTWt/wwMDAxmBjoMDAwMDG+e3cNqyK1b1xixGsDAwMDg5eWHlQ0D27ZtwgxEmM3YNGADMENu3brGyIjuBUKGbNu2Cb8XTl24QlKAYxgAC0CcLnh2j7rpgIVUDV5efgwiUkr/YSmTEVs6IASQA3HgAQDFti+wmqBFWQAAAABJRU5ErkJggg=="
+}

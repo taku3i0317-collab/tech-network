@@ -1,0 +1,54 @@
+{
+ "id": "I-43",
+ "history": {
+  "name": "フェルミ＝ディラック統計",
+  "name_en": "Fermi–Dirac statistics",
+  "kind": "idea",
+  "trunk": "I",
+  "trunk_name": "発見・考え方",
+  "year": 1926,
+  "year_range": "1925〜1927",
+  "year_uncertain": false,
+  "hee1": "電子は満員電車のように、1つの席に1人ずつしか座れない",
+  "hee1_en": "Like a packed train, electrons can sit only one per seat.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://en.wikipedia.org/wiki/Fermi%E2%80%93Dirac_statistics",
+   "https://doi.org/10.1098/rspa.1926.0133"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [],
+  "understanding": [],
+  "enables": [],
+  "explains": [
+   "9-03",
+   "9-05",
+   "9-11"
+  ],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "電子は1つの状態に1個ずつ（向きを入れて2個）しか入れない（パウリの排他原理）。この決まりで、温度ごとに電子がどのエネルギーにいくつあるかを数える方法を、1926年にイタリアのエンリコ・フェルミとイギリスのポール・ディラックが別々に出した。1927年にゾンマーフェルトが金属の電子に使った。ドーパントをほんの少し入れるだけで半導体の電気の通りやすさが何桁も変わること、p-n 接合で電流が一方向にしか流れないことが、この数え方で説明できる"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "実験：席の数が決まった箱に、玉を下の段から1つずつ入れていき、温度で上の段に飛び出す玉を数える",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAT0lEQVR42mNgoBAwInOsrHL+E6Pp2LEpjAzUAgPvAgYGBgaGI9MY/pNDEzSQkBgDAwMDC7Yw2PbEi8HKahuKBmQxgmEw6gLSXDBIUiIlAAB3ulOVNn7n6wAAAABJRU5ErkJggg=="
+}

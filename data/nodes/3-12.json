@@ -1,0 +1,62 @@
+{
+ "id": "3-12",
+ "history": {
+  "name": "耐火れんが",
+  "name_en": "Firebrick",
+  "kind": "tech",
+  "trunk": "3",
+  "trunk_name": "熱",
+  "year": 1822,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "ふつうのレンガは炉で溶ける。石英の多いレンガだけ耐える",
+  "hee1_en": "Ordinary bricks melt in a furnace. Only bricks rich in quartz can stand it",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "0-15"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "耐火粘土れんがは約1600℃まで。珪石れんが（ディナス、1822 W・W・ヤング）は平炉の天井に、マグネシアれんが（MgO、[1-39]）は塩基性の炉に"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": "refractory_brick",
+  "recipes": [
+   "溶鉱炉：耐火れんが（未焼成） を焼く → 耐火れんが（珪石れんが）"
+  ],
+  "machine_recipes": [
+   "電気炉「電気で焼く」：耐火れんが（未焼成） → 耐火れんが（珪石れんが）（5 kW × 10 秒＝50 kJ）"
+  ],
+  "placeholder": null,
+  "game_text": "⚠️ バニラの「レンガ」は普通れんがとし、新規「耐火れんが」を別に作る。高温炉（[3-05]以上）の外壁の条件にする",
+  "hee_game": {
+   "note1": "ふつうのレンガは炉で溶ける。石英の多いレンガだけ耐える。",
+   "note2": "SiO2 が約95%の珪石れんが。耐火粘土れんがは約1600℃でやわらかくなるが、珪石れんがは融点（約1700℃）の近くまで硬いままなので、製鋼炉の天井に使われた。シリカは酸性なので、酸性のベッセマー転炉の内張りに合う。",
+   "note3": "1822年 ウィリアム・ウェストン・ヤングが、ウェールズのニース谷の石英の多い「ディナス」岩かられんがを作った。だから珪石れんがは今もディナスれんがと呼ばれる。1860年代の高温の平炉は、このれんががあって可能になった。",
+   "note4": "珪石れんがは酸性なので、塩基性のスラグ（CaO・MgO）に食われる。だからリンを抜くトーマス転炉（1878）には塩基性のドロマイトの内張りが要った。石英は約573℃で結晶の形が変わって急に体積が変わるので、低い温度で急に熱したり冷やしたりすると割れる。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAOUlEQVR42mNgGAWMMEZEWNB/UjSuWLWOkYGBgYEFWTCkaQJRmtfUFcDZTJR6YdQAtFhADt1RQDwAALv5CK6MvgC6AAAAAElFTkSuQmCC"
+}

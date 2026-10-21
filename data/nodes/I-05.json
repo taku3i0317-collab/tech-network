@@ -1,0 +1,68 @@
+{
+ "id": "I-05",
+ "history": {
+  "name": "パーセプトロン",
+  "name_en": "Perceptron",
+  "kind": "idea",
+  "trunk": "I",
+  "trunk_name": "発見・考え方",
+  "year": 1958,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "最初の「学ぶ機械」は、まちがえるたびに少しずつ直すだけで賢くなった",
+  "hee1_en": "The first \"learning machine\" got smarter just by correcting itself a little each time it made a mistake.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://en.wikipedia.org/wiki/Perceptron",
+   "https://en.wikipedia.org/wiki/Frank_Rosenblatt"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Mark_I_Perceptron%2C_Figure_2_of_operator%27s_manual.png/960px-Mark_I_Perceptron%2C_Figure_2_of_operator%27s_manual.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Mark_I_Perceptron,_Figure_2_of_operator%27s_manual.png",
+    "kind": "画像",
+    "author": "John C. Hay, Albert E. Murray",
+    "license": "Public domain",
+    "description": "1960年の操作説明書に載った、学習する機械 Mark I パーセプトロンの写真。",
+    "verified": "2026-10-20 Commons API で PD を確認"
+   }
+  ],
+  "requires": [
+   [
+    [
+     "10-07"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [
+   "10-16"
+  ],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1958年、フランク・ローゼンブラット（コーネル航空研究所）が、まちがえるたびに重みを少しずつ直して学ぶ人工ニューロン「パーセプトロン」を発表し、IBM 704 で動かした。のちに専用の機械 Mark I パーセプトロンも作られた。1969年、ミンスキーとパパートが1層では解けない問題（XOR）を示した"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "実験：2色の点を分ける線を、まちがえるたびに少し動かすと、最後にはきれいに分けられる → 学習",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAaklEQVR42mNgoAZQU9P6r6am9Z8cvUzInCPTGP5T7BpSDWHEZYhNFkIO3Xu3bl1jJBgGMJdgCxtkMRYYw8vLj2FewTW4hLVPCIPaBAQfZiDMZSiupMQF1AkDiqMS5gVyNKMkJGRnjwLiAQBlHjtvrF59zwAAAABJRU5ErkJggg=="
+}

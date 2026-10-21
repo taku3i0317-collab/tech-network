@@ -1,0 +1,53 @@
+{
+ "id": "9-45",
+ "history": {
+  "name": "ベイヤー配列のカラーフィルター",
+  "name_en": "Bayer filter",
+  "kind": "tech",
+  "trunk": "9",
+  "trunk_name": "半導体プロセス",
+  "year": 1976,
+  "year_range": "1975〜1976",
+  "year_uncertain": false,
+  "hee1": "カメラの画素の半分は緑。人の目が緑にいちばん敏感だから（S-004 で追加。出典：patents.google.com、en.wikipedia.org）",
+  "hee1_en": "Half of a camera's pixels are green, because the human eye is most sensitive to green. (Added in S-004. Sources: patents.google.com, en.wikipedia.org)",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "9-42"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "画像センサーの画素は光の明るさしかわからない。コダックのブライス・ベイヤーは、画素の上に赤・緑・青の小さなフィルターを市松模様に並べ、半分を緑、残りを赤と青にする方法を考えた（1975年出願、1976年7月に米国特許3,971,065）。人の目は緑に敏感なので緑を多くしている。足りない色は、まわりの画素から計算でおぎなう。今のデジカメやスマホのカメラのほとんどがこの並べ方"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAcElEQVR42mNgGGjACGOoqWn9h7GFAhLgCt5tWMCATfxEVxkjAwMDAws2U0uSIuDsKiQDYOI981bAxZgo9QILsvNgNlT5ecAVtG3agXANkjjVXMBEk1jA5WyYeM+8FfBYGHgvDHwsoKRE5BSGT2xwAQBNkSa7+jmmTwAAAABJRU5ErkJggg=="
+}

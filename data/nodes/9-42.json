@@ -1,0 +1,63 @@
+{
+ "id": "9-42",
+ "history": {
+  "name": "画像センサー",
+  "name_en": "Image sensor",
+  "kind": "tech",
+  "trunk": "9",
+  "trunk_name": "半導体プロセス",
+  "year": 1969,
+  "year_range": "1969〜1993",
+  "year_uncertain": false,
+  "hee1": "スマホのカメラも光学式マウスも、中身は同じ仲間の「光を電子に変えて数える」チップ（S-003 で追加。出典：Nobel Prize「Physics 2009」、Wikipedia「Active-pixel sensor」「Optical mouse」）",
+  "hee1_en": "Phone cameras and optical mice both use the same family of chips that \"turn light into electrons and count them\" (added in S-003. Sources: Nobel Prize \"Physics 2009\", Wikipedia \"Active-pixel sensor\", \"Optical mouse\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "9-23"
+    ]
+   ],
+   [
+    [
+     "9-20"
+    ]
+   ],
+   [
+    [
+     "9-25"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "光で生まれた電子を画素ごとにためて数えるチップ。1969年、ベル研究所のウィラード・ボイルとジョージ・スミスが CCD（電荷結合素子）を考え、電子をバケツリレーのように順に送り出して読んだ（2009年ノーベル物理学賞）。CCD は最初は記憶装置として考えられ、1971年にベル研究所で撮像に使う方法が示された。1993年ごろ、NASA ジェット推進研究所のグループが、画素ごとに増幅のトランジスタを持つ CMOS イメージセンサーを作り、ふつうの CMOS の工場で安く作れて電気も食わないので、スマホのカメラはほぼこれになった。1985年にはソニーが CCD を使った8ミリビデオカメラを出した（未来技術遺産）。光学式マウスの底にも小さな CMOS 画像センサーがある"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAbElEQVR42mNgoBZQU9P6j40mJMcCE/Dy8mNgYGDAoBkYGBhwyd26dY2REc0AosG2bZsYbt26xsiELnHq1Be8NDrAMMDMjIfh1KkvOGmCBuDTbGbGM+oCurgAZgg+GqcB27ZtwqCxiVE1M1EMAD6wlJDSR+JTAAAAAElFTkSuQmCC"
+}

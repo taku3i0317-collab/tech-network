@@ -1,0 +1,71 @@
+{
+ "id": "2-24",
+ "history": {
+  "name": "ベンゼン",
+  "name_en": "Benzene",
+  "kind": "tech",
+  "trunk": "2",
+  "trunk_name": "化学",
+  "year": 1825,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "1856 パーキンがタールからモーブ（初の合成染料）を作り、化学工業が始まった（枝 [B-xx] 候補）",
+  "hee1_en": "In 1856 Perkin made mauve (the first synthetic dye) from tar, and the chemical industry began (candidate branch [B-xx]).",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "C8. 温度で分ける（分留）：タールからベンゼンとキシレン［2-24］",
+    "answer": "混ざった液体を温めると、沸点の低い物から先に気体になる。コールタールの約170℃までの軽油を、さらに温度を区切って蒸留すると、ベンゼン（80℃）・トルエン（111℃）・キシレン（約140℃）に分かれる（1849 マンスフィールドが工業化）。キシレンはゴムをよく溶かし、ネガ型レジストの溶剤・現像液になった。",
+    "hee": {
+     "1": "弱い火でゆっくり温めると、軽い油だけが先に出てくる。",
+     "2": "ベンゼンは白血病の原因になると分かり、溶剤はトルエンやキシレンに置き換えられた。",
+     "3": "1825 ファラデーがガス灯の油からベンゼンを発見、1865 ケクレが輪の形を考えた。マンスフィールドはベンゼンの火事で亡くなった。",
+     "4": "ネガ型レジストはキシレンの現像液でふくらみ、約2μm より細い線が引けなかった。"
+    },
+    "certainty": "分留と沸点 ◎／ファラデー 1825・マンスフィールド 1849・ケクレ 1865 ○（TECH_TREE の本物欄と一致）／GHS 区分（ベンゼン発がん性 1A）○",
+    "basis": "- Wikipedia「Benzene」：https://en.wikipedia.org/wiki/Benzene"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "2-20"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1825 ファラデーがガス灯の油から発見、1845 ホフマンがコールタール中に確認（1849 マンスフィールドが分留法）。1865 ケクレの環状構造。C6H6"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "実験＋軽",
+  "missing": "",
+  "item": "benzene",
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": "近似：純度は扱わない。",
+  "game_text": "タール分留の軽油留分",
+  "hee_game": {
+   "note1": "6つの炭素が輪になった分子。たくさんの薬や染料の元。とても体に悪い。",
+   "note2": "軽油をたき火で、低い温度で蒸留して作る（沸点 80℃で、いちばん先に出る）。⚠ GHS：引火性・発がん性（区分1A）・変異原性・特定標的臓器毒性（血液）・吸引性呼吸器有害性。工業の材料としてだけ扱う。",
+   "note3": "ベンゼン C6H6 は、6つの炭素が正六角形の輪になり、電子が輪全体に広がっている（芳香族）。この形はケクレが1865年に考えた（ヘビが自分の尾をかむ夢を見たという話がある）。",
+   "note4": "1825年ファラデーがガス灯の油から見つけた。長く溶剤に使われたが、白血病の原因になると分かり、今はトルエンやキシレンなどに置き換えられた。1856年パーキンはタールの成分から初めての合成染料モーブを作り、化学工業が始まった。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAVklEQVR42mNgGNTAxa/rv4tf1398apgotYRiA1hwOf2LBgNDRlIEAwMDA8MXDYb/PDcYGPZsKmMk2gUlUM3o7MEXBqMG0CohMTAwMPTMW4HC56FVhgMArQwRykfVa/IAAAAASUVORK5CYII="
+}

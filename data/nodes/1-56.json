@@ -1,0 +1,66 @@
+{
+ "id": "1-56",
+ "history": {
+  "name": "蒸気ハンマー",
+  "name_en": "Steam hammer",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": 1842,
+  "year_range": "1839〜1842",
+  "year_uncertain": false,
+  "hee1": "人の腕では打てない大きな鋼の塊も、蒸気で動くハンマーなら100トンの力でたたける（O-010 で追加。出典：ASME Landmark #69「Creusot Steam Hammer」、日本機械学会「機械遺産 No.058」、Wikipedia「Steam hammer」）",
+  "hee1_en": "Huge blocks of steel that human arms cannot strike can be hit with 100 tons of force by a steam-powered hammer. (Added in O-010. Sources: ASME Landmark #69 \"Creusot Steam Hammer\", JSME \"Mechanical Engineering Heritage No.058\", Wikipedia \"Steam hammer\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [
+   {
+    "name": "ジェームズ・ナスミス",
+    "tool": "🔨 蒸気ハンマー",
+    "year": "1839",
+    "intro": "1839年、蒸気ハンマーを設計した（1808〜1890）",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACO0lEQVR42u2WMWgTURjHfxeDyZmSlmJIpoJgwC6B1sEiN4jFDkFoOujwkIh0cxAsDhl16+RQwc2lyA1msK4VnTLUQSNd2qGDZEoIlvRojXF5Dum75kwvubucONj/9Hjfe+//f//ve98dnOEM/zu0oBtLy0syNTkOQHP/gNVXbwOdFQ1K/Lh4G4D9g0MAUpPjMoiQqF/yJw8WHcQK9xdvqKH0I+JcEPJBuD5zhYimPa1Ud5+F4oAQQgIU5nOenSrMX6PW1iWAaZoD3Yh4OdAwDC5PZXzVimEY4dfAm+0f9vhu7oJrbHYipGdYWl6SU1dvnUo4CHu1Ol9aSQBqn98PfBm+HNBn7pCbnmZ7Z4d2tewao/bC85kRPwLa1TLv1lYc5Hu1umssFAGzE5Yjx5mL7glWMWW/2juSgI0Pn/pTETtvjxvfW6fOu+31VQOqeERbl9lsFrjUtbvzC4Cvu99I6PGTFB3PA1QqFUxzeEf03DKFEHLt4ULfk+uFeimPXm4ObUAj9wE2N5zBhYKrsNA+x0IIqTpco9EgnU73relab2p/7X9ACCEtyyKfz/cRe+n9of2Q9Lrh99a+BaRSGWm359IKAMXiPcea9fXX3Zez+tyeazbr2khFqIiTyZPmo+tjAJTLziJU871rATlMSNQrcRD07HcVovklPjo6JJEYY2vro2N+bu6mHXODZbX6UhMN88ZBHNGUAC/kw27odY1yo9msaxH+MaJ/5scNnc5PYrH40HXH1hKLxT0J+A0BBuv37d6mcAAAAABJRU5ErkJggg=="
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "4-02"
+    ]
+   ],
+   [
+    [
+     "1-08"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "蒸気の力で重いハンマーを持ち上げて打ち下ろし、人の腕では打てない大きな鉄や鋼の塊を鍛える機械。1839年にイギリスのジェームズ・ナスミスが設計し、その図を見たフランスのシュナイダー社（ル・クルーゾ）のフランソワ・ブルドンが1840年ごろ最初の実機を作った（どちらが先かには争いがある）。1842年にナスミスが特許を取った。船の軸や大砲・機関車の大きな部品を作れるようになり、1876年のル・クルーゾの蒸気ハンマーは打撃100トン（ASME ランドマーク）。日本には1865年に横須賀製鉄所へ輸入された（機械遺産 No.058）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAbklEQVR42t1QOQ4AIQgE46usrA3PJVtb+S222sQogsZuKYfJXACXhxqYMomGt8oTP9wmMAUKERSifbUxesokGqYmWPX2jII3kjdktBy6/rIyiJbbw7zf6XSDjx9X3UbB/t8q4yRg9Dd3wJPoP70XMr8155lGRXkAAAAASUVORK5CYII="
+}

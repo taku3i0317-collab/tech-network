@@ -1,0 +1,66 @@
+{
+ "id": "B-14",
+ "history": {
+  "name": "アセチレンランプ",
+  "name_en": "Acetylene lamp",
+  "kind": "tech",
+  "trunk": "B",
+  "trunk_name": "枝",
+  "year": 1892,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "水をたらすと燃えるガスが出る石",
+  "hee1_en": "A stone that gives off a burnable gas when you drip water on it",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "C43. 水をたらすと燃えるガスが出る石（カーバイドとアセチレンランプ）［B-14］",
+    "answer": "1892年、カナダ生まれのトマス・ウィルソンはアルミを作ろうとアーク炉で石灰と炭を熱し、偶然カーバイド（CaC2）を作った。カーバイドに水をたらすとアセチレンが出て（CaC2 + 2H2O → C2H2 + Ca(OH)2）、その炎はとても明るい。20世紀の前半、炭鉱夫のヘルメットのランプ、自転車・自動車のライト、灯台に使われた。アセチレンはのちにプラスチックや合成ゴムの原料（アセチレン化学）にもなった。",
+    "hee": {
+     "1": "水をたらすと燃えるガスが出る石。",
+     "2": "アセチレンの炎が明るいのは、すすの小さな粒が強く光るから。",
+     "3": "カーバイドは、アルミを作ろうとした失敗から生まれた。",
+     "4": "燃えかすは消石灰。石灰がまたもどってくる。"
+    },
+    "certainty": "ウィルソン 1892 ◎／反応 ◎／炭鉱・自転車のランプ ◎",
+    "basis": "- Wikipedia「Carbide lamp」：https://en.wikipedia.org/wiki/Carbide_lamp"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "3-15"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1892 ウィルソンのカーバイド。CaC2+2H2O→C2H2+Ca(OH)2 の炎は明るく、炭鉱・自転車のランプに"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "軽",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "携帯ランプ",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAn0lEQVR42mNgoBAwogtMyxP5D2NnTXrDSJJpyJqx8YnWfGQaw39iDWFCFzgyjeG/tU8IiiH4AAu6gE0WA+MRhjX/bbIYGEkOUXLCgOJYYMTlkqAgE4Z1684wEDKMBZfJd67tYNDTgLAv3RDBcCHMQJwGqGh5wNmXbpyBa0Z3CSMu56ODdevOYPUGzjDQ03iD5AIR0sMAmxdIMgA5BmgKAK2fSgdAb3nbAAAAAElFTkSuQmCC"
+}

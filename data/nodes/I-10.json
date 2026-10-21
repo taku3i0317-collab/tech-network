@@ -1,0 +1,52 @@
+{
+ "id": "I-10",
+ "history": {
+  "name": "対数",
+  "name_en": "Logarithms",
+  "kind": "idea",
+  "trunk": "I",
+  "trunk_name": "発見・考え方",
+  "year": 1614,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "掛け算を、足し算に変えてしまう数の表",
+  "hee1_en": "A table of numbers that turns multiplication into addition",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://www.britannica.com/technology/slide-rule",
+   "https://www.oughtred.org/history.shtml"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [],
+  "understanding": [],
+  "enables": [
+   "10-21"
+  ],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1614年、スコットランドのジョン・ネイピアが『驚くべき対数表の記述』で最初の対数表を出版した。掛け算を足し算に、割り算を引き算に変えられるので、天文学や航海の長い計算がずっと楽になった。1620年にエドマンド・ガンターが対数を長さで表した目盛りを作り、計算尺につながった"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "実験：2本の物差しに対数の目盛りを刻んでずらすと、長さを足すだけで掛け算の答えが読める → 対数",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAsUlEQVR42mNgGP7AysHnPz55RgYGBoYkO6X/5Bg+79A9RgaYATCbkG3ExrZy8Plv5eDzH2YpC0yBxr9rDBp2Sv+9rP4waPyDSGJje1n9YWBgYGDYdgSijwnmFLhzsAAvGzWGbUduYZVjQRfoO8bCcAxq2A0mrf/HDt1jhNEwsSKoK7AaUITD2chiGC4gFAvbjtzC6Q24C24waTEcO7AFw7nYvMPAwMCgQdV0QElKHHgAAFv3aguYDEnCAAAAAElFTkSuQmCC"
+}

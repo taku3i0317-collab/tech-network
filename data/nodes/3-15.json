@@ -1,0 +1,95 @@
+{
+ "id": "3-15",
+ "history": {
+  "name": "アーク炉",
+  "name_en": "Arc furnace",
+  "kind": "tech",
+  "trunk": "3",
+  "trunk_name": "熱",
+  "year": 1892,
+  "year_range": "1802〜1900",
+  "year_uncertain": true,
+  "hee1": "電気の火花（アーク）で、2000℃をこえる熱を作る",
+  "hee1_en": "An electric spark (arc) makes heat of over 2000°C.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "1. 石からシリコンを取り出す（金属シリコン・アーク炉）［1-15］［3-15］",
+    "answer": "珪石（SiO₂）と炭素（木炭・コークス）をアーク炉で約2000℃にすると、炭素が酸素を奪ってシリコンが残る。SiO₂ + 2C → Si + 2CO。できるのは純度98〜99%の「金属シリコン」。",
+    "hee": {
+     "1": "シリコンは「石」と「炭」と「たくさんの電気」から作る。",
+     "2": "酸素とシリコンはとても強く結びついているので、ふつうのかまどの温度では離れない。アーク（電気の火花）の熱が必要。",
+     "3": "金属シリコンの大半は、半導体ではなくアルミ合金やシリコーン樹脂に使われる。半導体になるのはさらに精製したほんの一部。",
+     "4": "電気を大量に使い、1kg 作るのに 10kWh 以上かかる。だから金属シリコンの工場は、電気の安い水力発電の近くに建てられてきた。"
+    },
+    "certainty": "反応と純度 ◎／工業生産の始まった年 ○（20世紀初め＝1900年ごろから。年の決め手はない）",
+    "basis": "米国地質調査所（USGS）シリコン統計、PV-Manufacturing.org、電気炉シリコンの総説 https://faculty.kfupm.edu.sa/RI/srehman/Projects/CER2280/RI%20projectLiteratureRev/760400.pdf （どれも英語）"
+   },
+   {
+    "title": "M2. 電気の火花で2000℃（アーク炉）［3-15］",
+    "answer": "2本の黒鉛電極のあいだに大電流を流すと、気体がプラズマになって光り、2000〜3000℃になる（アーク放電）。この熱で、ふつうの炉では溶けない・離れない物を溶かしたり還元したりできる。",
+    "hee": {
+     "1": "雷と同じ「電気の火花」で炉を熱くする。",
+     "2": "この温度なら、酸素とがっちり結びついたケイ素からも炭素が酸素を奪える。金属シリコン［1-15］はこの炉で作る。",
+     "3": "1892年にモアッサン（フランス）がアークの電気炉でいろいろな物質を溶かし、同じ年にウィルソン（アメリカ）は偶然カーバイドを作った。1900年ごろエルーが鋼を溶かすアーク炉を実用にした。",
+     "4": "今の大きなアーク炉は交流で、変圧器で電圧を下げて何万アンペアもの電流を流す。ゲームでは交流が v0.4 で出るまで直流で近似。"
+    },
+    "certainty": "アークの温度・原理 ◎／モアッサン1892・ウィルソン1892（5月2日）◎／エルー1900（10月9日、ラ・プラで操業）○／ペトロフ1802（発表1803）○／デービーのアーク（1808〜1810年、出典で割れる）△ → ゲーム内は ⚠️／モアッサンの炉が直流だったか △（仏化学会誌の追悼記事では電源は4馬力ガスエンジンで回す小型グラム発電機＝直流機だが、「直流」の語はない）",
+    "basis": "TECH_TREE［3-15］、REFERENCES §1 のリンク（USGS・PV-Manufacturing.org）。カナダ人物辞典（ウィルソン）https://www.biographi.ca/en/bio/willson_thomas_leopold_14E.html 、ノースカロライナ州（カーバイド）https://dncr.nc.gov/blog/2016/05/02/discovery-calcium-carbide-process 、Techniques de l'Ingénieur（エルー）https://techniques-ingenieur.fr/en/resources/article/ti554/electric-steelworks-m7700/v1/history-of-the-arc-furnace-1 、Wikipedia「Electric arc」（ペトロフ）https://en.wikipedia.org/wiki/Arcing 、ギネス（デービー1808）https://www.guinnessworldrecords.com/world-records/109048-first-electric-arc-lamp 、仏化学会誌（モアッサンの電源）https://new.societechimiquedefrance.fr/wp-content/uploads/2019/12/2006-301-302-octnov-Fournier-p.16.pdf"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-07"
+    ]
+   ],
+   [
+    [
+     "4-06",
+     "4-10"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-07"
+  ],
+  "frontier": false,
+  "real": "1802 ペトロフ（発表1803）、1808〜1810 デービーのアーク放電⚠️、1892 モアッサンの電気炉と同年（5月2日）ウィルソンのカーバイド CaO+3C→CaC2+CO、1900（10月9日、フランス・ラ・プラで操業） エルーの製鋼アーク炉。約2000〜3000℃（決定：≈2000℃＋）"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": "arc_furnace",
+  "recipes": [
+   "作業台：黒鉛棒×3 ＋ 耐火れんが（珪石れんが）×4 ＋ 銅ケーブル ＋ 鋼インゴット → アーク炉"
+  ],
+  "machine_recipes": [
+   "アーク炉「金属シリコン」：珪石×2 ＋ 木炭（石炭も可） ＋ 黒鉛棒 8回で1本 → 金属シリコン（500 kW × 86.4 秒＝43,200 kJ）。SiO2 + 2C → Si + 2CO、純度98%"
+  ],
+  "placeholder": "近似：本物はいくつものブロックを組んだ大きな炉で、現代は交流（変圧器 [4-10] で大電流）。ゲームでは1ブロック・直流（⚠️ 初期のモアッサンの炉が直流だったかは要確認）。温度の上下は省略。",
+  "game_text": "マルチブロック。用途: [1-15]金属Si、フェロシリコン（[1-39]ピジョン法）、カーバイド→アセチレン CaC2+2H2O→C2H2+Ca(OH)2（[2-36]エチレンの別ルート、アセチレンランプの枝候補）",
+  "hee_game": {
+   "note1": "電気の火花（アーク）で、何でも溶かすほど熱くする炉。",
+   "note2": "電気 500kW（蒸気タービン1台分）。左上に珪石、真ん中に木炭か石炭、左下に黒鉛棒（電極、8回で1本へる）。珪石2＋木炭か石炭1 → 金属シリコン1（約86秒）。電気が足りないと進まない。現代の金属シリコンは交流のサブマージドアーク炉で作る。ゲームでは交流が v0.4 で登場するまで直流で近似している。",
+   "note3": "2本の電極のあいだの空気（や原料）に大電流を流すと、気体がプラズマになって光り、2000〜3000℃になる（アーク放電）。この温度なら、酸素ととても強く結びついたケイ素からも、炭素が酸素を奪える：SiO2 + 2C → Si + 2CO。",
+   "note4": "アーク放電は1802年にペトロフが見つけ（発表1803年）、1808〜1810年ごろデービーも見せた⚠️。1892年、フランスのモアッサンがアークの電気炉で多くの物質を溶かし、同じ年アメリカのウィルソンは偶然カーバイド（CaC2）を作った。1900年ごろエルーが鋼を溶かすアーク炉を実用にした。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAQklEQVR42mO0cvD5z0ABYGFgYGCQE2MjS/OjV78YmBgoBANvAAu6gIebE14NO3btG2ReGI6xgB7KIyUMHr36RbYBAGl9DOMwFsCQAAAAAElFTkSuQmCC"
+}

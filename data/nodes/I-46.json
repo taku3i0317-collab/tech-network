@@ -1,0 +1,58 @@
+{
+ "id": "I-46",
+ "history": {
+  "name": "計算化学",
+  "name_en": "Computational chemistry",
+  "kind": "idea",
+  "trunk": "I",
+  "trunk_name": "発見・考え方",
+  "year": 1965,
+  "year_range": "1964〜1970",
+  "year_uncertain": false,
+  "hee1": "新しい材料を、実験の前にコンピュータの計算で探せるようになった",
+  "hee1_en": "We can now search for new materials by computer calculation before doing experiments",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://www.nobelprize.org/prizes/chemistry/1998/summary/",
+   "https://www.nobelprize.org/prizes/chemistry/1998/press-release/"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "10-31"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [
+   "I-03"
+  ],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "原子や分子の性質を、すべての電子の動きを追う代わりに「電子の密度」だけから計算できると、1964〜65年にウォルター・コーンらが示した（密度汎関数理論）。1970年にジョン・ポープルの計算プログラム Gaussian が作られ、計算機で分子の形や反応を予測できるようになった（2人は1998年ノーベル化学賞）。今は新しい半導体の材料や電池の材料を、作る前に計算で探すのに使われる"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "実験：電子の密度の地図から、分子の形とエネルギーを計算するのを見る",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAwElEQVR42uVSsQ2DMBA8kGdx4RW8AbJS/QSZICUjUEVMkAm+iiw2YAUKi11IYRm9AQeJlLnGsu/P9/d64EdUAKC1Wa6IQ5gqlS6vx7QS1tGuePS8cqNn3HsDAFCyiEMbizDvPpCcdQT00bCWrqS7zG3rnniJrAPrCPAdOLTgZxRE5xaku8NoavtgHcFixugZHKSQDgdZlyacMqezBCVzyhbzvHQwE3O+B01zAwAMw7u4B1/b09osZ0tWlYSXHP8UHwEiSCVFFKI7AAAAAElFTkSuQmCC"
+}

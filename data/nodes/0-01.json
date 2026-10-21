@@ -1,0 +1,84 @@
+{
+ "id": "0-01",
+ "history": {
+  "name": "打製石器",
+  "name_en": "Knapped stone tools",
+  "kind": "product",
+  "trunk": "0",
+  "trunk_name": "生存・道具",
+  "year": -2600000,
+  "year_range": "-3300000〜-2600000",
+  "year_uncertain": true,
+  "hee1": "石を石でたたいて割ると、ナイフのように鋭いふちができる。確かな証拠は260万年前（330万年前という説も⚠️）",
+  "hee1_en": "If you hit a stone with another stone, it breaks and leaves an edge as sharp as a knife. Solid evidence goes back 2.6 million years (some say 3.3 million years ⚠️).",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "S1. 石を石で打ち欠くと刃になる（打製石器）［0-01］",
+    "answer": "フリントや黒曜石のようにガラス質・微晶質の石は、硬い丸石（たたき石）で縁を打つと、衝撃が円すい状に広がって貝殻状に割れ（貝殻状断口）、薄く鋭い剥片がはがれる。粒の粗い石（花こう岩・砂岩など）は粒の境目で崩れて刃にならない。確実な最古の例は約260万年前のオルドワン石器（エチオピア・ゴナ）、両面を打ち欠いたハンドアックス（アシュール石器）は約170万年前から。",
+    "hee": {
+     "1": "石を石でたたいて割ると、ナイフのように鋭いふちができる。確かな証拠は260万年前（330万年前という説も⚠️）。",
+     "2": "フリントは細かい石英（SiO2）の粒、黒曜石は天然のガラス。どちらも粒の境目がないので割れ目がまっすぐ走る。シリコンのウェハーも同じ SiO2 から作る。",
+     "3": "ハンドアックスは100万年以上ほとんど同じ形で作られ続けた。石の刃を木の柄にくくりつける（着柄）のは約50万年前からといわれる⚠️。バニラの石の道具はこの段階。",
+     "4": "黒曜石の割れ口は厚さ数 nm で、鋼のメスより鋭い。19世紀のオーストラリアでは瓶のガラスを打ち欠いて「キンバリー・ポイント」が作られた。"
+    },
+    "certainty": "貝殻状断口のしくみ ◎／オルドワン 約260万年前（ゴナ）◎／アシュール 約176万年前（コキセレイ）○／ロメクウィ 約330万年前 △（年代・人工かどうかに議論）→ ゲーム内は ⚠️／ニャヤンガ 約290万年前 △／着柄 約50万年前（カトゥ・パン）△／黒曜石の刃先 数 nm ○／神津島の黒曜石 約3万8000年前 △",
+    "basis": "- Harmand ほか 2015「3.3-million-year-old stone tools from Lomekwi 3」Nature 521：https://www.nature.com/articles/nature14464"
+   }
+  ],
+  "people": [],
+  "media": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Handaxe_by_John_Frere.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Handaxe_by_John_Frere.png",
+    "kind": "画像",
+    "author": "John Frere",
+    "license": "Public domain",
+    "description": "1800年にジョン・フレアが本に描いた、イギリス・ホクスンで見つかった両面打ちのハンドアックス（石の手おの）の絵。",
+    "verified": "2026-10-20 Commons API で PD を確認"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Chopper_Plouhinec_Pal%C3%A9olithique_inf%C3%A9rieur_Mus%C3%A9e_de_Bretagne_D2003.2.5.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Chopper_Plouhinec_Pal%C3%A9olithique_inf%C3%A9rieur_Mus%C3%A9e_de_Bretagne_D2003.2.5.jpg",
+    "kind": "画像",
+    "author": "Alain Amet",
+    "license": "Public domain",
+    "description": "石を打ち欠いて刃をつけた、旧石器時代前期のチョッパー（石の刃物）。",
+    "verified": "2026-10-20 Commons API で PD を確認（PD の根拠は投稿者の申告）"
+   }
+  ],
+  "requires": [],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "確実な最古の例は約260万年前のオルドワン石器（エチオピア・ゴナ）：剥片と石核。約330万年前のロメクウィ（ケニア）は年代・人工かどうかに議論あり⚠️。両面を打ち欠いたハンドアックス（アシュール石器）は約170万年前から（コキセレイ 約176万年前）。石を石で打ち欠き、貝殻状に割れる鋭い縁を作る（フリント・黒曜石はガラス質で割れ口が鋭い）"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "実験＋軽",
+  "missing": "",
+  "item": "hammerstone",
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": "省略：剥片の大きさ・打つ角度・失敗の割れはない。たたき石は砂利から出る（本物は河原の丸石を拾う）。",
+  "game_text": "MOD の打製石器（柄なし）＋バニラの石の道具＝柄付き",
+  "hee_game": {
+   "note1": "川原の丸くてかたい石。これで火打ち石をたたくと、するどいかけらが取れる。",
+   "note2": "砂利をこわすと、ときどき出てくる。もう片方の手に火打ち石を持って右クリックすると、剥片が2つ取れる。黒曜石ブロックを右クリックすると黒曜石の剥片が取れる（ブロックは残る）。ふつうの石をたたいても刃にはならない。作業台で使っても手元に戻る。",
+   "note3": "石を石で打ち欠く「直接打撃」は、人類のいちばん古い技術。確実な最古の例は約260万年前、エチオピアのゴナで見つかったオルドワン石器。ケニアのロメクウィでは約330万年前とされる石器も見つかっているが、年代や人の手によるものかはまだ議論がある ⚠️。",
+   "note4": "たたき石には、割れにくく粘り強い石（珪岩・玄武岩の川原石など）が選ばれた。打つ角度（打撃面と縁の角度が90度より小さいこと）と打つ場所が大事で、うまく打つと衝撃が円すい状に広がって剥片がはがれる（ヘルツ円すい）。剥片の内側には、打った点の印（打瘤＝バルブ）が残る。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAvElEQVR42mNgGGjAiE8yIizoP4y9YtU6rGpZcGlgYGBg8HBzYnjyAaIkgoHhPzZDWJA1wzTICPxhYGBgQGEzmLlhNYQF3UQZgT9wW2GGwIAOFkOY0A2AaYDbjAZ0zNxQvMqE7HxcrkAHj179YsDqApgmfJrRARM2v+JyPgzIibFhdwFy6OMDyF5gRI5GHTM3gk7etmULw7EDWxixpkR8hlw5tYvh0atfKJqxJmX01Pjo1S8GOTE2rJoHBwAAesFXgY46DMwAAAAASUVORK5CYII="
+}

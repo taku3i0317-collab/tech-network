@@ -1,0 +1,60 @@
+{
+ "id": "14-10",
+ "history": {
+  "name": "ディーゼル機関",
+  "name_en": "Diesel engine",
+  "kind": "tech",
+  "trunk": "14",
+  "trunk_name": "輸送",
+  "year": 1893,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "ディーゼルエンジンはピーナッツ油で動いた",
+  "hee1_en": "A diesel engine ran on peanut oil.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "14-09"
+    ]
+   ],
+   [
+    [
+     "5-04"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-19"
+  ],
+  "frontier": false,
+  "real": "1893 ルドルフ・ディーゼルの特許。点火プラグなしで、圧縮した空気の高温で燃料に火がつく。1900 パリ万博でピーナッツ油で運転"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "植物油で動く高効率エンジン",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAl0lEQVR42mNgoCWwcvD5b+Xg8x+fGiZKLWHBZ7uXjw+M+//YgS2M2NQxomtC5r95do+BgYGBIS4tj2Hbli1wcVyGwQ1QU9PCSmOzBCMM1NS0/t+6dQ3Fhlu3rjEiG4LXAGyKsRmKMxBhgbdtyxYMmigDoAEEVwzVDJdDDwOs0YgUyv/xhjo1EhLFSZnilMiCz3Tk1EczAAAGilRwondN5AAAAABJRU5ErkJggg=="
+}

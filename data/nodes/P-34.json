@@ -1,0 +1,85 @@
+{
+ "id": "P-34",
+ "history": {
+  "name": "エレベーター",
+  "name_en": "Elevator",
+  "kind": "product",
+  "trunk": "P",
+  "trunk_name": "モノ（作品）",
+  "year": 1903,
+  "year_range": "1852〜1903",
+  "year_uncertain": false,
+  "hee1": "エレベーターを発明したのはオーチスではなく、オーチスが作ったのは『ロープが切れても落ちない』つめの仕組みだった。",
+  "hee1_en": "Otis did not invent the elevator; what Otis made was a catch mechanism that keeps it from falling even if the rope breaks.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://en.wikipedia.org/wiki/Elevator",
+   "https://theelevatormuseum.org/otis.php"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "12-16"
+    ]
+   ],
+   [
+    [
+     "12-17"
+    ]
+   ],
+   [
+    [
+     "8-19"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [
+   "0-18",
+   "1-26",
+   "1-51",
+   "4-08",
+   "4-21",
+   "4-22",
+   "8-19",
+   "9-41",
+   "10-02",
+   "10-04",
+   "10-14",
+   "12-16",
+   "12-17",
+   "B-07"
+  ],
+  "materials": [
+   "鋼",
+   "銅",
+   "シリコン"
+  ],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "人の乗るかごを鋼のロープでつり、ロープの反対側には『つり合いおもり』を下げて、モーターは差の分だけ持ち上げればよいようにしている。ロープは滑車（綱車）の溝との摩擦で動く。ロープが切れたり速すぎたりすると、安全装置がレールをはさんでかごを止める"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "作品：ロープでかごを上げ下げし、ロープが切れてもつめで止まる",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAc0lEQVR42mNgoBAwInOsHHz+E6Pp2IEtjFglYAYcmcYAN+jINIb//x+F/IeJ4bXEysHnP7oGdAPRDWBBN+TAtxkMB1YxMDAwuDBYOWz5DxHzgbPRARM+v3r5+DB0hW2Bs718fEgzgBgwasBgMIC6eWFAAAD60DI7sI0+JwAAAABJRU5ErkJggg=="
+}

@@ -1,0 +1,76 @@
+{
+ "id": "9-35",
+ "history": {
+  "name": "テスト",
+  "name_en": "Testing",
+  "kind": "tech",
+  "trunk": "9",
+  "trunk_name": "半導体プロセス",
+  "year": 1960,
+  "year_range": null,
+  "year_uncertain": true,
+  "hee1": "作ったチップが全部動くわけではない",
+  "hee1_en": "Not every chip that is made actually works.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "L10. 割る前に調べる（ウェハープローバー）［9-35］（O-017）",
+    "answer": "仕上がったウェハーのチップ1個ずつのパッドに細い針（プローブカード）を当てて電気を通し、良いか悪いかを決める。悪いチップにはインクの点を付け、ダイシングのあとで捨てる。精密な台がウェハーをチップからチップへ送る。悪いチップをパッケージに入れる無駄が無くなる。",
+    "hee": {
+     "1": "作ったチップが全部動くわけではない。良品の割合を歩留まりという。",
+     "2": "歩留まりのめやすは Y ≈ e^(−D×A)（D＝面積あたりの欠陥の数、A＝チップの面積）。チップが大きいほど、ほこりが1つでも乗りやすい。",
+     "3": "針はタングステンなど硬い金属で、パッドに少し傷を付けるくらいの力で当てる。",
+     "4": "今の自動テスターは1台で何億円もし、チップの値段のかなりの部分がテストの費用。"
+    },
+    "certainty": "針を当てて良否、インクの印 ◎／歩留まりの式（ポアソンの近似）◎／最初の自動プローバーの年・会社（1960年代）△⚠️（確かめていない）",
+    "basis": "Wikipedia「Wafer testing」「Semiconductor device fabrication」（Wafer testing・Yield）"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "9-22"
+    ]
+   ],
+   [
+    [
+     "8-08"
+    ]
+   ],
+   [
+    [
+     "10-14"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "ウェハーの各チップに細い針（プローブカード）を当てて電気を通し良否を判定。歩留まり Y≈e^(−D·A)（D＝欠陥密度、A＝面積）"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "grade 判定（ROADMAP v0.5 #4）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAYUlEQVR42mNgoCWYlifyn5AaJkotYSJkOyFXUOwCRhjDysHnPykajx3YwogiQIoByGpZSA35rElvUGxmwabonVwLVs1Cj2qoH4gsxNpEtAHofiTJAFKjEh4G5GgkRw9tAAD7kR2XUJoNawAAAABJRU5ErkJggg=="
+}

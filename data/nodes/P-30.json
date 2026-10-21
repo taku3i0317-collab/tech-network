@@ -1,0 +1,81 @@
+{
+ "id": "P-30",
+ "history": {
+  "name": "冷蔵庫",
+  "name_en": "Refrigerator",
+  "kind": "product",
+  "trunk": "P",
+  "trunk_name": "モノ（作品）",
+  "year": 1927,
+  "year_range": "1834〜1927",
+  "year_uncertain": false,
+  "hee1": "冷蔵庫は、中の熱を後ろや横から部屋に捨てている（だから冷蔵庫の後ろは温かい）",
+  "hee1_en": "A refrigerator dumps the heat from inside out into the room from its back and sides (that is why the back of a fridge is warm).",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://www.achrnews.com/articles/165806-1927-the-first-affordable-fridge-comes-to-market",
+   "https://collections.museumsvictoria.com.au/items/400951"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "3-22"
+    ]
+   ],
+   [
+    [
+     "11-13"
+    ]
+   ],
+   [
+    [
+     "4-08"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [
+   "2-48",
+   "2-49",
+   "3-22",
+   "4-21",
+   "6-03",
+   "9-44",
+   "B-07"
+  ],
+  "materials": [
+   "銅",
+   "アルミニウム",
+   "鋼",
+   "プラスチック"
+  ],
+  "enabled_by": [],
+  "explained_by": [
+   "I-17"
+  ],
+  "frontier": false,
+  "real": "冷蔵庫もエアコンと同じ蒸気圧縮のしくみで、庫内の熱を後ろや横の放熱器から部屋へ捨てている。1927年の GE「モニタートップ」は、圧縮機をケースに密閉した家庭用冷蔵庫で、一般の家に広まるきっかけになった。今の日本の冷蔵庫は、冷媒にイソブタン、壁にウレタンの断熱材を使い、インバーターで圧縮機の速さを変える物が多い"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "作品：中の熱を外へくみ出して、食べ物を冷やす",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAdElEQVR42mNgoBAwInOsHHz+E6Pp2IEtcH0s6JJePj5YNS2aNYkhLi2PYduWLSjiTJR6gYmqYaCmpkVUGNy6dQ17GIhIKeEMAxjYtmULw61b10j3wqJZk2gTBkPIgLi0vEHqBRZs0SUipYRV8Ztn93DKkQ0AuJYcGf0Hdh8AAAAASUVORK5CYII="
+}

@@ -1,0 +1,41 @@
+name: 出典の追加 / Add a source
+description: ノードの事実を支える（または否定する）出典を足す。⚠️ や △ の項目を確かめる助けになります / Add a source that supports (or contradicts) a fact; helps settle items marked ⚠️ or △
+title: "[出典] "
+labels: ["指摘: 出典"]
+body:
+  - type: input
+    id: node
+    attributes:
+      label: ノード番号 / Node number
+      placeholder: "例 / e.g. 9-07"
+    validations:
+      required: true
+  - type: textarea
+    id: claim
+    attributes:
+      label: どの事実の出典か / Which fact the source is about
+      description: 年・人物・数値など。いまの文を写すと分かりやすいです / A year, person, number, etc. Quoting the current text helps
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: 出典 URL / Source URLs
+      description: 1行に1つ。本なら書名・著者・ページ / One per line. For books: title, author, page
+      placeholder: https://
+    validations:
+      required: true
+  - type: dropdown
+    id: supports
+    attributes:
+      label: 出典はその事実を / The source
+      options:
+        - 支える / supports it
+        - 否定する（違うと書いてある） / contradicts it
+        - 一部だけ合う / partly agrees
+    validations:
+      required: true
+  - type: textarea
+    id: note
+    attributes:
+      label: ひとこと（任意） / Notes (optional)

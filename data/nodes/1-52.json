@@ -1,0 +1,58 @@
+{
+ "id": "1-52",
+ "history": {
+  "name": "押出し",
+  "name_en": "Extrusion",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": 1894,
+  "year_range": "1894〜1904",
+  "year_uncertain": true,
+  "hee1": "ところてんのように押し出すと、同じ形の長いアルミの棒ができる（S-001 で追加。出典：Wikipedia「Extrusion」、Grace's Guide「Extruded Metal Co」）",
+  "hee1_en": "Push it out like squeezing toothpaste, and you get long aluminum bars all the same shape. (Added in S-001. Sources: Wikipedia \"Extrusion\", Grace's Guide \"Extruded Metal Co\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-29"
+    ]
+   ],
+   [
+    [
+     "1-26"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "熱した金属を、強い力で型の穴から押し出して、同じ形の断面の長い材料（形材）を作る（ところてんと同じ）。1894年、アレクサンダー・ディック（ロンドン）が水圧の横型の押出し機で銅・真ちゅうを押し出した（実験は1892〜93年）。アルミの押出し機は1904年ごろ（アメリカ）とされる ⚠️。窓のサッシや、3Dプリンターの骨組みのアルミのレールはこの方法"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAYUlEQVR42mNgGGjACGNYOfj8J0bDsQNbGJH5LMicAJZbeDVv+KMGtwxmEAspzvXy8WFgYGBAcSkjzOmEbMcFmKgaiIRc8cujiGHbli0ogUmSC7Zt2YI/FmChTGpUjoKBBgAkoSFOezxDiQAAAABJRU5ErkJggg=="
+}

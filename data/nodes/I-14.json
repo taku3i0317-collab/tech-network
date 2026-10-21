@@ -1,0 +1,61 @@
+{
+ "id": "I-14",
+ "history": {
+  "name": "標準規格",
+  "name_en": "Standards",
+  "kind": "idea",
+  "trunk": "I",
+  "trunk_name": "発見・考え方",
+  "year": 1841,
+  "year_range": "1841〜1999",
+  "year_uncertain": false,
+  "hee1": "どこで買った USB のケーブルでもささるのは、何社もが同じ決まりを守っているから",
+  "hee1_en": "A USB cable fits no matter where you bought it, because many companies follow the same rules",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://en.wikipedia.org/wiki/British_Standard_Whitworth",
+   "https://en.wikipedia.org/wiki/Standardization",
+   "https://commons.princeton.edu/1954-tiger-cub/wp-content/uploads/sites/345/2023/02/Whitworth.pdf"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "8-02"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [
+   "15-16",
+   "15-17",
+   "15-21"
+  ],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "たくさんの会社が同じ決まり（形・寸法・信号）を守るから、どこの会社の物どうしでもつながる。1841年、ジョセフ・ホイットワースがねじの山の角度（55度）と細かさをそろえようと論文で提案し、鉄道会社が取り入れたことで、各工場ばらばらだったねじがやがて国中でそろった（ホイットワースねじ）。電気の世界では、1996年の USB や1999年の Wi-Fi のように、何社もが集まって決まりを作り、守っているかを確かめる団体を作る"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "実験：ねじの寸法がちがうと組み立てられず、そろえるとどの部品でも合う",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAVElEQVR42mNgoBAwogtYOfj8x6fh2IEtKHqYKHUBCy4JLx8fFP62LVuI8wKyV2CGbNuyBcPptPcCPmcT7QIvHx+MsBh1AQ1cgBdYOfj8J5Q3Bh4AANmcH298boMAAAAAAElFTkSuQmCC"
+}

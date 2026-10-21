@@ -1,0 +1,76 @@
+{
+ "id": "8-24",
+ "history": {
+  "name": "国際単位系",
+  "name_en": "International System of Units (SI)",
+  "kind": "tech",
+  "trunk": "8",
+  "trunk_name": "精密・計測",
+  "year": 1960,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "世界中で同じ「1メートル」「1秒」を使えるのは、1960年に決めた国際単位系のおかげ（NET-06 で追加。出典：BIPM「Resolution 12 of the 11th CGPM (1960)」）",
+  "hee1_en": "The whole world can use the same \"1 meter\" and \"1 second\" thanks to the SI, decided in 1960 (added in NET-06. Source: BIPM \"Resolution 12 of the 11th CGPM (1960)\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "O67. 光の波で決めたメートル（国際単位系 SI）［8-24］",
+    "answer": "1960年、第11回国際度量衡総会は、メートル・キログラム・秒・アンペア・ケルビン・カンデラの6つを基本単位とする「国際単位系（SI）」を決めた（1971年にモルが加わって7つ）。同じ総会で、メートルは白金イリジウムの棒ではなく「クリプトン86 が出す橙の光の波長の 1,650,763.73 倍」になった。原子の光の波長は、どこで作っても同じだからである。1983年には光の速さで決め直され、2019年には7つの単位すべてが自然の定数で決まった。",
+    "hee": {
+     "1": "世界中で同じ「1メートル」「1秒」を使えるのは、1960年に決めた国際単位系のおかげ。",
+     "2": "1960〜1983年の1メートルは、ランプの光の波を約165万回数えた長さ。",
+     "3": "キロ・ミリ・マイクロ・ナノなどの接頭語も SI の一部。",
+     "4": "クリプトンのランプは窒素の三重点（約63K）に冷やして、線の幅を細くした。"
+    },
+    "certainty": "1960・6単位・1,650,763.73 ◎／1971 モル・1983 光速 ◎／2019 定義し直し ◎",
+    "basis": "- BIPM「Resolution 6 / 12 of the 11th CGPM (1960)」：https://www.bipm.org/en/committees/cg/cgpm/11-1960"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "8-22"
+    ]
+   ],
+   [
+    [
+     "8-23"
+    ]
+   ],
+   [
+    [
+     "8-06"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1960年の第11回国際度量衡総会（決議12）で「国際単位系（SI）」と名付け、6つの基本単位と接頭語（キロ・ミリなど）を決めた。1971年にモルが加わって7つに"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "実験（光の波で 1m を測る）",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAkElEQVR42mNgoCWYlifyf1qeyH98ahhxaWRgYGD4ck2IgYGBgYFH6x0DAwMDQ9akN4xE2Qpjd7mo/e9yUfuPTY6gZmwGYFPDiCwBczKys2EAXQ7mHSZ8Lsqa9IaRkL+ZYLYHBZlgtQFmELKLgoJM4F5hojSq8YYBzBX45FhIiRWS0gCx0UhxQqJ+UiY1M1EMAM+hYJwqCXbqAAAAAElFTkSuQmCC"
+}

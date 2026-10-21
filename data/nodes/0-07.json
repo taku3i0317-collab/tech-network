@@ -1,0 +1,73 @@
+{
+ "id": "0-07",
+ "history": {
+  "name": "羊毛と紡錘車",
+  "name_en": "Wool and the spindle whorl",
+  "kind": "tech",
+  "trunk": "0",
+  "trunk_name": "生存・道具",
+  "year": -4000,
+  "year_range": "-10000〜-4000",
+  "year_uncertain": true,
+  "hee1": "こまのように回る「はずみ車」で、毛をよって糸にした",
+  "hee1_en": "A flywheel that spins like a top was used to twist wool into thread.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "S6. 人類最古のはずみ車（紡錘車と羊毛）［0-07］",
+    "answer": "紡錘（つむ）の棒に重い円盤（紡錘車）を付けると、重さが軸から離れた所にあるので慣性モーメントが大きくなり、長く回り続ける。そのあいだ繊維に撚りがかかり続け、たくさんの糸ができる。羊毛は細かいうろことちぢれでからみ合い、撚ると丈夫な毛糸になる。",
+    "hee": {
+     "1": "こまのように回る「はずみ車」で、毛をよって糸にした。",
+     "2": "最初に家畜になった羊は毛がもこもこではなかった（粗い毛の下に春に抜ける短い毛）。羊毛用の品種は紀元前4000年ごろ西南アジアで現れたとされる⚠️。",
+     "3": "イスラエルのナハル・エイン・ゲヴⅡの両側から穴をあけた小石（約1万2000年前）が、最古の紡錘車ではないかと2024年に発表された⚠️。回る道具として車輪の考えの始まりかもしれない。",
+     "4": "はずみ車の考えは、ろくろ、蒸気機関やエンジンのはずみ車へと続く。糸車は約1000年前ごろ（インド・中国）⚠️。"
+    },
+    "certainty": "慣性モーメントのしくみ ◎／羊毛用の羊 紀元前4000年ごろ △（紀元前6000年説〜紀元前4000〜3500年、AUDIT V-16）→ ⚠️／ナハル・エイン・ゲヴⅡ 約1万2000年前 △（2024年の1研究、まだ議論）→ ⚠️／弥生時代の紡錘車 ○／糸車の年代 △ → ⚠️",
+    "basis": "- 2024年 PLOS ONE のナハル・エイン・ゲヴⅡの穴あき小石の研究（報道：https://news.artnet.com/art-world/holey-pebbles-earliest-evidence-of-wheel-2570155 ）"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "0-06"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "羊の家畜化は約1万年前、羊毛用の羊は紀元前4000年頃に西南アジアで現れ、南東ヨーロッパには約1000年遅れて広がった（間接証拠による）。紡錘車＝はずみ車の慣性で撚り（より）をかけ続ける"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "実験＋軽",
+  "missing": "",
+  "item": "raw_clay_whorl",
+  "recipes": [
+   "作業台：粘土玉 → 生の紡錘車"
+  ],
+  "machine_recipes": [],
+  "placeholder": "省略：乾燥の工程。",
+  "game_text": "バニラの羊・羊毛で可。紡錘車は新規アイテム（任意）",
+  "hee_game": {
+   "note1": "粘土を丸く平らにして、まん中に穴をあけた物。焼くと紡錘車になる。",
+   "note2": "粘土玉1つで作る。たき火（30秒）かかまど（10秒）で焼くと土の紡錘車。",
+   "note3": "焼く前の粘土は、水でもどってしまう（[0-03] 土器と同じ）。紡錘車は重さが大事なので、焼いて固くしてから使う。",
+   "note4": "土器のかけらを丸く削って穴をあけ、紡錘車にすることもあった。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAjElEQVR42mNgGAWM2AQjwoL+YxNfsWodhnoWdI1vflgwOPh4YbXtzQ+L/yIcJ1AMYkTW7ODThKJhzZptDAwMDAwhIagGHthSBzeEBcl0DM17NpXBLPiPbAhE7TpUL4hwnGDg+MXFgMwnRo4FV+h6uDkxMDAw/EdiE44FWOjj0rBj1z6M2KA4GkcBAwMAf0A3F7Vo3NgAAAAASUVORK5CYII="
+}

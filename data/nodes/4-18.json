@@ -1,0 +1,53 @@
+{
+ "id": "4-18",
+ "history": {
+  "name": "電気のファン",
+  "name_en": "Electric fan",
+  "kind": "tech",
+  "trunk": "4",
+  "trunk_name": "動力・電気",
+  "year": 1882,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "最初の電気扇風機は、モーターにプロペラを付けただけだった（S-002 で追加。出典：Wikipedia「Schuyler Wheeler」、ETHW「Schuyler Wheeler」）",
+  "hee1_en": "The first electric fan was just a motor with a propeller on it. (Added in S-002. Sources: Wikipedia \"Schuyler Wheeler\", ETHW \"Schuyler Wheeler\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "4-08"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1882年、アメリカのスカイラー・ウィーラーが電動モーターの軸に2枚羽根のプロペラを付けて電気の扇風機を作り、1880年代後半に売り出された。パソコンの冷却ファンも同じしくみで、今は直流のブラシレスモーター（磁石が回り、電子回路で電流を切り替える）を使う"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAmUlEQVR42mNgoBAwYhO0cvD5D2MfO7CFEZ8BTNg0v3l2j+HNs3tEuYCFWKfichWGC44d2MIoIqVEtKsY8dn45tk9BhEpJbhGESkljDBhwaXZy8eHgYGBgWHRrEkMDAwMDHFpeTDp/8iGMOKyGRmge4noQIRpxBeVjLhsx+ZfotIBKZqxGkCKZqISD3ICItoLVM1M6KmUgdoAAHoERsLWk0TrAAAAAElFTkSuQmCC"
+}

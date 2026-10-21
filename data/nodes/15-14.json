@@ -1,0 +1,61 @@
+{
+ "id": "15-14",
+ "history": {
+  "name": "情報理論",
+  "name_en": "Information theory",
+  "kind": "idea",
+  "trunk": "15",
+  "trunk_name": "通信・情報",
+  "year": 1948,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "「ビット」という言葉はシャノンの論文で広まった",
+  "hee1_en": "The word \"bit\" spread through Shannon's paper.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [
+   {
+    "name": "シャノン",
+    "tool": "0️⃣1️⃣ ビット",
+    "year": "1948",
+    "intro": "1948年「通信の数学的理論」で、情報の単位ビットを示した",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACK0lEQVR42mNgGAUjHTCSolhLTvQ/MequPXpNtLksxCo0UZX8rywphCH+/ssPbMr/E+sIRmJ9LiPCR1LQPnnziaiQYKKF5QwMDAwyInxERRnTQCfCoeWAZZNqGZZNqiXIbipJpV42hKUBmAXEgDuPXjDU9cwmKiGykBICUXnNKKGBS45qIVCRHPg/wNmcgYGBgUFFToKkEICBDXtPMnTMXc9IlRDgNAxl0NPUZLh0/TrD9/OrccoxPJpMvUR49zHCN9/Pr2bYOKkIxXKYb7HJIesl2wHKsqhBLyEigFMtuhy6XrIcsGHvScyoYGeDs1++/YBVHJdektIAUuL5X5Loj4iKn78YGBgYGC7ceMDAzcmBIU5M4iO5Oq5IDkRxBD7QM38jUZaTnAuQweHZW1H4tqnetG+QEBMKpPieZAfAHCEqxM8Q7++AIr5w4wGG1+8+kmQ5RaAiOfD/myML/r85suB/RXLgf3LNISoNODl5YFgQ4GzO8F/dDcp+wXDq/ncMNfv27WCkyAEwi3V0DFDE79+/w8DAwMBgapvEwMElxLCgRI+Bm5uHQVFRBaNtSMghLKRYjFLKucYxcPRcgrMZlp/BUIOkH6dDWEi1+P79O9h8yqCoqIJTDp9DWIi1GBnU1uZhFUtKysOrD5tDmLBIkux79FAgBJDtIrlRis33xMgRTIRXrlzAq/DNm1cMIiJiDIsWLYGLfXgD8S2y2NevXxgOHNjFICIiRpQDABF88isYfhbNAAAAAElFTkSuQmCC"
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "10-05"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1948 クロード・シャノン「通信の数学的理論」：情報の単位ビット、雑音があっても誤りなく送れる限界（通信路容量）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "実験（雑音のある通信でビットを送る）",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "解説のみ",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAXElEQVR42mNgGGjAyMDAwHBkGsN/ZEGbLFRxdD6yOiZkDkwhPoCujolSL7BgE0R2qk0WAyO60/FqIBaQo4fGoMtF7T/Z8jBJZEXY2LjkMQxD1oCuEJsY2d4aJgAAzz0y7i7BCFIAAAAASUVORK5CYII="
+}

@@ -1,0 +1,58 @@
+{
+ "id": "1-31",
+ "history": {
+  "name": "モリブデン製錬",
+  "name_en": "Molybdenum smelting",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": 1781,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "焙焼で出る SO2 は硫酸[2-01]の原料に回せる",
+  "hee1_en": "The SO2 from roasting can be sent on as raw material for sulfuric acid [2-01]",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-23"
+    ]
+   ],
+   [
+    [
+     "6-01"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "焙焼 2MoS2+7O2→2MoO3+4SO2 → 水素還元 MoO3+3H2→Mo+3H2O。1781 イェルムが初めて金属を得た。粉末を固める（W[1-28]と同じ粉末冶金）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAXklEQVR42mNgGPKAkYGBgcHKwec/OZqPHdjCyECuATA9TJR6gQVdICIsCK9rVqxax4jTACsHn/+PXv0i6HS439ENQJYg2QvkxgSG8/AZhE2e4lhgwuYFbK4gJD+EAQDJpyZVHwD0HwAAAABJRU5ErkJggg=="
+}

@@ -1,0 +1,52 @@
+{
+ "id": "1-46",
+ "history": {
+  "name": "珪石",
+  "name_en": "Quartzite",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": -2500,
+  "year_range": "-3000〜-2000",
+  "year_uncertain": true,
+  "hee1": "岩の割れ目を白い石英がうめた脈",
+  "hee1_en": "A vein where white quartz filled a crack in the rock.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "熱水が岩の割れ目に SiO2 を沈めた石英脈。人が水晶（石英の結晶）を使った歴史は古く、中石器時代末の刃物、紀元前4千年紀・3千年紀のビーズ（イラン）までさかのぼる。年 -2500 は紀元前3千年紀のビーズ・印章の代表値⚠️。地殻の約12%が石英。高純度の石英（水晶・ペグマタイトの石英、スプルースパインは不純物100ppm未満）が溶融石英・石英るつぼの原料"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": "vein_quartz",
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": "省略：本物は砕いて酸で洗い、鉄などの不純物を除いてから溶かす（精製の工程）。",
+  "game_text": "",
+  "hee_game": {
+   "note1": "ほぼ純粋な二酸化ケイ素（SiO2）の白い石。ガラスとシリコンのもと。",
+   "note2": "石英鉱脈を掘ると出る。酸水素バーナーで溶かすと溶融石英。これから作る金属シリコン [1-15] の原料にもなる。",
+   "note3": "SiO2 は、ケイ素1個を酸素4個がかこむ四面体が、頂点の酸素を共有してつながった結晶。融点は約1713℃と高く、かまど（約1000℃）では溶けない。溶融石英には、鉄やアルミなどの不純物が少ない石英（天然の水晶・選んだ珪石）を使う。",
+   "note4": "今いちばん純粋な天然の石英は、アメリカ・ノースカロライナ州スプルースパインのペグマタイト（結晶の大きな花こう岩）から取れ、不純物は100ppm未満。シリコンの単結晶を引き上げる石英るつぼの原料になり、世界の半導体を支えている。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAk0lEQVR42mNgGPKAEZeERVnXf2T+ia4yrGpZcGkuSYpAEethYPiPzRBGdI0KD04whDRNwOqqnnkrMFzChK4IWfOXI5uwsvEagKyQx8YPLsZj48eQocaFETYYBsA0YRPDJsdEbHSR7AV0DTw2flgNQTFA4cEJhhm3vmFogNE7du3DiAVGfIlI4cEJhgcKFgQT0xAHAG74Q2lybxKCAAAAAElFTkSuQmCC"
+}

@@ -1,0 +1,61 @@
+{
+ "id": "4-16",
+ "history": {
+  "name": "アーク灯",
+  "name_en": "Arc lamp",
+  "kind": "tech",
+  "trunk": "4",
+  "trunk_name": "動力・電気",
+  "year": 1808,
+  "year_range": null,
+  "year_uncertain": true,
+  "hee1": "電気の明かりは、電球より先に「火花」で始まった （IMP-24 で追加、network_proposals N-9）",
+  "hee1_en": "Electric light began with \"sparks\", before the light bulb. (Added in IMP-24, network_proposals N-9)",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "4-13"
+    ],
+    [
+     "4-04"
+    ]
+   ],
+   [
+    [
+     "1-07"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "2本の炭素棒のあいだにアーク（電気の火花）を飛ばして光らせる。アーク炉 [3-15] と同じ原理の電気の明かり。ハータ・エアトンが、アーク灯のシューという音は炭素と酸素の反応が原因と示した（1899、network_proposals W-1）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "作品（置くと光る明かり）",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "明るい照明ブロック（炭素棒が減る）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAApElEQVR42t2SMQ7DIBAEB+RX2S6oI0q/wm/IOyI/gvKUmsLOk9ySIroII6LYitxkG05od2+5A87AfCN9q3eblGcJo0Xr/JvwiGJU1PmBRQL9+OKWPJu7qTAXA3R+2CTIebYWq3U+xXVikQDAIoG4TpvuiubTDO4iXCNmJqR+xLROqjOoGuQR9e16V6awv678DwwaHczFe2DfV835Nl/bERzln4cnvylOiLGSUtkAAAAASUVORK5CYII="
+}

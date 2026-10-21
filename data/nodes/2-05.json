@@ -1,0 +1,81 @@
+{
+ "id": "2-05",
+ "history": {
+  "name": "ルブラン法",
+  "name_en": "Leblanc process",
+  "kind": "tech",
+  "trunk": "2",
+  "trunk_name": "化学",
+  "year": 1791,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "塩と硫酸からソーダを作る方法。出てきた塩酸のガスは、はじめ空に捨てられた",
+  "hee1_en": "A way to make soda from salt and sulfuric acid. The hydrochloric acid gas it gave off was at first just released into the sky.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "C30. 空に捨てられた塩酸のガス（ルブラン法）［2-05］",
+    "answer": "1791年フランスのニコラ・ルブランが、塩と硫酸からソーダを作る方法を考えた：2NaCl + H2SO4 → Na2SO4 + 2HCl、Na2SO4 + 2C + CaCO3 → Na2CO3 + CaS + 2CO2。19世紀のソーダ工業の中心になったが、塩化水素のガスを空に捨て、硫化カルシウムのかす（ガリグー）を山積みにした。1836年ゴセージの吸収塔、1863年イギリスのアルカリ法（初期の大気汚染の法律）でガスの回収が義務になった。のちにソルベー法（1861〜）に置きかわった。",
+    "hee": {
+     "1": "塩と硫酸からソーダを作る方法。出てきた塩酸のガスは、はじめ空に捨てられた。",
+     "2": "捨てていたガスを水に吸わせると、売れる塩酸になった。",
+     "3": "ルブランは革命で工場を取り上げられ、貧しさの中で亡くなった。",
+     "4": "アルカリ法は、世界で最初の頃の公害を取りしまる法律の一つ。"
+    },
+    "certainty": "反応 ◎／ルブラン 1791・ゴセージ 1836・アルカリ法 1863 ◎／ルブランの最期（1806）◎",
+    "basis": "- Wikipedia「Leblanc process」（歴史・公害）：https://en.wikipedia.org/wiki/Leblanc_process"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "6-04"
+    ]
+   ],
+   [
+    [
+     "2-01"
+    ]
+   ],
+   [
+    [
+     "0-10"
+    ]
+   ],
+   [
+    [
+     "0-12"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1791 ニコラ・ルブラン。2NaCl+H2SO4→Na2SO4+2HCl↑、Na2SO4+2C+CaCO3→Na2CO3+CaS+2CO2。HCl は当初垂れ流し→1863 英国アルカリ法（初期の大気汚染規制）で回収義務"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "実験＋軽",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "2段の加熱反応。副産物 HCl→[6-06]、CaS（硫化カルシウムのかす）→[2-11]",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAcUlEQVR42mNggIKIsKD/yDRJAF0zVQwhC0zxM/g/xc+AJAOYGCgEw8AAFkKBik08Z9MFRhibEVmxjYMBw5EDF+AKbRwM4GyYOEwNzBAUFyBLINuOIs7A8B+nF2wcDOAKkG1HF0d2JSMh/+ICyOEwxAEAgwQ7hpM6fiUAAAAASUVORK5CYII="
+}

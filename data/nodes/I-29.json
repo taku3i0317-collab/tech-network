@@ -1,0 +1,56 @@
+{
+ "id": "I-29",
+ "history": {
+  "name": "固体のバンド理論",
+  "name_en": "Band theory of solids",
+  "kind": "idea",
+  "trunk": "I",
+  "trunk_name": "発見・考え方",
+  "year": 1931,
+  "year_range": "1925〜1931",
+  "year_uncertain": false,
+  "hee1": "半導体は、電子が「あと少しのエネルギーで動ける」ぎりぎりの所にいる物質",
+  "hee1_en": "A semiconductor is a material whose electrons sit right at the edge, needing just a little more energy to move.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://www.nobelprize.org/prizes/physics/1932/summary/",
+   "https://www.nobelprize.org/prizes/physics/1945/summary/",
+   "https://www.computerhistory.org/siliconengine/the-theory-of-electronic-semi-conductors-is-published/"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [],
+  "understanding": [],
+  "enables": [],
+  "explains": [
+   "9-03",
+   "9-05",
+   "9-11",
+   "B-12"
+  ],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1925〜26年の量子力学（ハイゼンベルク 1932年・シュレーディンガーとディラック 1933年のノーベル物理学賞）とパウリの排他原理（1945年ノーベル物理学賞）をもとに、1928年にフェリックス・ブロッホが結晶の中の電子の動きを計算し、1931年にイギリスのアラン・ヘリーズ・ウィルソンが、電子の入れる場所（バンド）とすき間（バンドギャップ）の形で、電気をよく通す金属・通さない絶縁体・その間の半導体のちがいを説明した（ウィルソンはノーベル賞を受けていない）。ドーパントが電子や正孔を作るわけ、太陽電池が光で発電するわけもこの考えで分かる"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "実験：ゲルマニウムを温めたり光を当てたりすると、電気が通りやすくなるのを測る",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAb0lEQVR42mNgoBAwMjAwMFhZ5fwnR/OxY1MYWWAcBwcvkjQfOLCNgYGBgYEFXWBwgSPTGP5TpPn/o5D/FBtCSA3TgIcTI8yp1j4hJGk8umUNg00WAyMjAwMDw/9HIWQFFKPcGkYmmGmkAnL0DFIAALSKJChpftEfAAAAAElFTkSuQmCC"
+}

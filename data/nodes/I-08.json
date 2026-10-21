@@ -1,0 +1,60 @@
+{
+ "id": "I-08",
+ "history": {
+  "name": "プログラム",
+  "name_en": "Program",
+  "kind": "idea",
+  "trunk": "I",
+  "trunk_name": "発見・考え方",
+  "year": 1843,
+  "year_range": null,
+  "year_uncertain": true,
+  "hee1": "機械を作り変えなくても、手順書（プログラム）を変えるだけで別の仕事をさせられる",
+  "hee1_en": "Without rebuilding the machine, you can make it do a different job just by changing its instructions (the program).",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://en.wikipedia.org/wiki/Note_G",
+   "https://en.wikipedia.org/wiki/Ada_Lovelace"
+  ],
+  "refs": [],
+  "people": [
+   {
+    "name": "エイダ・ラブレス",
+    "tool": "📜 注G（計算の手順表）",
+    "year": "1843",
+    "intro": "1843年、バベッジの解析機関の論文を英訳し、計算の手順を書いた長い注を付けた",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACTElEQVR42mNgGAUjHTCSolhLTvQ/MequPXpNtLksxCo0UZX8rywphCH+/ssPbMr/E+sIRmJ9LiPCR1LQPnnziaiQYKKF5QwMDAwyInxERRnTQCdCJlr4npRQICkElk2qZVg2qZYgu6kklTrZEDkEYBYQA+48esFQ1zObqMTIQkoIROU1o4QGLjmqhUBFcuD/AGdzBgYGBgYVOQmSQgAGNuw9ydAxdz11QoDTMJRBT1OT4dL16wzfz6/GKcfwaDJ1cgEDAwPD3ccI33w/v5ph46QiFMthvsUmh6yXbAcoy6IGvYSIAE616HLoeqlWEHGys8HZL99+wCpOlSjYtPsIPDshg+8/fzEwMDAwXLjxgIGbkwNDHAbqemYzbNp9hPIQqOuZjZKyYcBAQ4HBQEMBpx6qVscb9p5kKEn0h/MPz96KIm+b6o2ilqrtgSdvPjHsguTl/zBHIFuIDHrmb2TomLuekdh6hKRyAFqg/BcV4meI93dAkVu48QDD63cf8RY6FDsAyREMr999hIcGzNfk5CiiHGAgF8nAw3YFpVoNcDaHJ8wAZ3OGfQc/osirSOgwvPm2lTIH8LDpMohw6cANhKeJd/cx1HKwcTPICCmiiIlweTN8YLvCwMCwjzQHmKk4/Ue3FB1MmvaMqCCGmvGfgYGB4dSdfYx4a0NiLH7y7j6GT4mRY2BgYLjz4goDukNYiLWYGgDJfHiIMGGRJMv3DAwMDDJCiljTBx6HDHyrmAU9fnCB91/fMAhyixBUx8DAwHD67gEGQW4RohwAAD3k6m6wk1W3AAAAAElFTkSuQmCC"
+   }
+  ],
+  "media": [],
+  "requires": [],
+  "understanding": [],
+  "enables": [
+   "10-06"
+  ],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1843年、エイダ・ラブレスがバベッジの解析機関（設計だけで作られなかった）についての論文を英訳し、元の論文より長い注を付けて出版した。注G にはベルヌーイ数を計算する手順の表があり、計算機のために出版された最初のアルゴリズムとよく言われる。注G をどこまでラブレスが書いたかには諸説がある ⚠️。のちのプログラム式計算機の作り手に直接伝わったかは別の問題 ⚠️"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "実験：命令カードの並びを変えて同じ機械に入れると、違う計算をする → プログラム",
+  "missing": "解析機関（バベッジ）",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAa0lEQVR42mNgoBAwwhgufl3/idGwZ1MZI1YJYgxw8ev6j66OCV2RmprWf3SMbjuyIRgG3Lp1jfHWrWuMuAxF9wILMf5GN5AoA2Ca0L2BbhhOA5A14XMJCy6N+JxNWxcQazNWA4hNjaMAFQAATvw8R8KxDigAAAAASUVORK5CYII="
+}

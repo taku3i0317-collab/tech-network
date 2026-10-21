@@ -1,0 +1,66 @@
+{
+ "id": "2-55",
+ "history": {
+  "name": "導電性高分子",
+  "name_en": "Conductive polymers",
+  "kind": "tech",
+  "trunk": "2",
+  "trunk_name": "化学",
+  "year": 1977,
+  "year_range": "1967〜1977",
+  "year_uncertain": false,
+  "hee1": "電気を通すプラスチックは、実験の材料の量のまちがいから生まれた（O-011 で追加。出典：Nobel Prize「Chemistry 2000」、WIPO Magazine 2020）",
+  "hee1_en": "Plastic that conducts electricity was born from a mistake in the amount of material used in an experiment. (Added in O-011. Sources: Nobel Prize \"Chemistry 2000\", WIPO Magazine 2020)",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "C44. 電気を通すプラスチック（導電性高分子）［2-55］",
+    "answer": "プラスチックはふつう電気を通さないが、ポリアセチレンの膜にヨウ素を加える（ドーピング）と、金属のように電気を通すようになる。1967年ごろ、東京工業大学の研究室で触媒の量をまちがえて1000倍入れたことから、銀色に光るポリアセチレンの膜ができた。1977年、日本とアメリカの研究者（ひとりはアラン・マクダイアミッド）がヨウ素で電気伝導率が大きく上がることを示した（2000年ノーベル化学賞）。半導体のドーピングと同じく、電気の運び手を足す考え方。",
+    "hee": {
+     "1": "電気を通すプラスチックは、実験の材料の量のまちがいから生まれた。",
+     "2": "ヨウ素を加えると、電気の通りやすさが1億倍以上になった。",
+     "3": "電気の通りやすさは、PTFE から銅まで23けたもちがう。",
+     "4": "リチウムイオン電池の研究も、ポリアセチレンを電極に使う試みから始まった。"
+    },
+    "certainty": "1967ごろの触媒の量のまちがい・1977・2000年ノーベル賞 ◎（TECH_TREE の本物欄、Nobel Prize「Chemistry 2000」）／伝導率の値（代表値）○",
+    "basis": "- Nobel Prize「Chemistry 2000」：https://www.nobelprize.org/prizes/chemistry/2000/summary/"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "B-14"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "プラスチックはふつう電気を通さないが、ポリアセチレンの膜にヨウ素などを加える（ドーピング）と、金属のように電気を通すようになる。1967年ごろ、東京工業大学の研究室で触媒の量をまちがえて1000倍入れたことから、銀色に光るポリアセチレンの膜ができた。1977年、日本とアメリカの研究者（ひとりはアラン・マクダイアミッド。ほかの2人は存命なので名前を出さない）が、ヨウ素を加えると電気が通ることを示した（2000年ノーベル化学賞）。半導体のドーピング（[9-11]）と同じく、電気の運び手を足す考え方。リチウムイオン電池の研究も、ポリアセチレンを電極に使う試みから始まった"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "実験",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAQUlEQVR42mNgoAU4Mo3h/8Bp/v8o5P/AuoCiwFNT0/pPCp+BgYGBCV2SVJoJmXPr1jVGUvhkOx2bV+gHRlMpJgAAweBEdJMPNHkAAAAASUVORK5CYII="
+}

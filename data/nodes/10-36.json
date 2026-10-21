@@ -1,0 +1,58 @@
+{
+ "id": "10-36",
+ "history": {
+  "name": "RISC",
+  "name_en": "RISC",
+  "kind": "tech",
+  "trunk": "10",
+  "trunk_name": "制御・計算",
+  "year": 1981,
+  "year_range": "1975〜1982",
+  "year_uncertain": false,
+  "hee1": "スマホの CPU は、命令をわざと単純にして速くした設計の子孫（O-011 で追加。出典：IEEE Milestones「RISC-I」、Wikipedia「Reduced instruction set computer」）",
+  "hee1_en": "Smartphone CPUs are descendants of a design that made instructions simple on purpose to make them faster. (Added in O-011. Sources: IEEE Milestones \"RISC-I\", Wikipedia \"Reduced instruction set computer\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "10-13"
+    ]
+   ],
+   [
+    [
+     "10-18"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "CPU の命令の種類を減らして単純にし、1つの命令を速く実行する。空いたトランジスタを、数を置いておく場所（レジスタ）や、命令を流れ作業で進める仕組み（パイプライン）に回す。複雑な仕事は、人ではなくコンパイラが単純な命令を組み合わせて作る。1975〜80年に IBM のジョン・コックのチームが IBM 801 で始め、1980〜82年にカリフォルニア大学バークレー校で大学院生たちが RISC-I を作り（1981年完成、IEEE マイルストーン）、同じころスタンフォード大学で MIPS が作られた。スマホの CPU（Arm、[I-13]）もこの流れ"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAARUlEQVR42mNgGGjAyMDAwGBllfOfgYGBoStmCgMDAwND2ZIcBmS+TRZEHTbANDi8AAPkeGWQeYEcrwxSL5DilYH3wsADADq6HA3ENGzIAAAAAElFTkSuQmCC"
+}

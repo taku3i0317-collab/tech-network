@@ -1,0 +1,56 @@
+{
+ "id": "I-22",
+ "history": {
+  "name": "触媒と表面化学",
+  "name_en": "Catalysts and surface chemistry",
+  "kind": "idea",
+  "trunk": "I",
+  "trunk_name": "発見・考え方",
+  "year": 1916,
+  "year_range": "1835〜1918",
+  "year_uncertain": false,
+  "hee1": "触媒は、反応のあとも自分は減らずに残っている",
+  "hee1_en": "A catalyst is still there after the reaction, without being used up",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://www.nobelprize.org/prizes/chemistry/1909/summary/",
+   "https://www.nobelprize.org/prizes/chemistry/1932/summary/",
+   "https://www.nobelprize.org/prizes/chemistry/2007/summary/"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [],
+  "understanding": [],
+  "enables": [],
+  "explains": [
+   "5-16",
+   "6-09",
+   "6-13",
+   "9-30"
+  ],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "自分は変わらずに、反応を速くする物が触媒。1835年にベルセリウスが「触媒」という言葉を作り、1894年にオストワルトが「反応の速さを変えるが、行き着く先（平衡）は変えない」と定めた（1909年ノーベル化学賞）。GE の研究所のアーヴィング・ラングミュアは電球の研究から、気体の分子が固体の表面に1層だけくっつくようすを式にした（1916〜18年、1932年ノーベル化学賞）。のちに鉄の触媒の表面でアンモニアができる各段階が、超高真空の実験で解き明かされた（2007年ノーベル化学賞）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "実験：同じ気体を、触媒の金属があるときとないときで反応させ、速さをくらべる",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAb0lEQVR42mNgGFTAysHnv5WDz39S5JlIMZyBgYHh2IEtjPTzDjY2VcNkkIFpeSL/p+WJ/CeWDQMsMImgIBOo0Bmi2AwMDAxZk94wwtNBUAMLAwMDA8OSSxZwflCQCU5xGGCEuYAcb2dNesPIMPQBANh3PdozeT+mAAAAAElFTkSuQmCC"
+}

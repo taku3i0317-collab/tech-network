@@ -1,0 +1,76 @@
+{
+ "id": "11-14",
+ "history": {
+  "name": "砂糖",
+  "name_en": "Sugar",
+  "kind": "tech",
+  "trunk": "11",
+  "trunk_name": "農業・食",
+  "year": 0,
+  "year_range": "0〜1801",
+  "year_uncertain": true,
+  "hee1": "白い砂糖は茶色の汁を炭で白くしたもの",
+  "hee1_en": "White sugar is brown juice that was whitened with charcoal.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "C50. 白い砂糖は茶色の汁を炭で白くしたもの（砂糖）［11-14］",
+    "answer": "サトウキビの砂糖はインドで紀元前後から作られた。しぼった汁に石灰を入れてにごりを沈め、煮つめると茶色の砂糖（黒糖）の結晶ができる。19世紀から、骨を焼いた骨炭に通して色のもとを吸いとり、白い砂糖にするようになった。1747年ドイツのマルクグラーフがテンサイ（砂糖大根）にも同じ砂糖があることを見つけ、1801年アシャールが最初のテンサイ製糖工場を作った。",
+    "hee": {
+     "1": "白い砂糖は、茶色の汁を炭で白くしたもの。",
+     "2": "サトウキビの砂糖とテンサイの砂糖は、まったく同じ物（ショ糖）。",
+     "3": "シュガーの語源は、サンスクリット語の「シャルカラ（砂粒）」。",
+     "4": "ナポレオンの大陸封鎖でサトウキビの砂糖が入らなくなり、テンサイ糖が広まった。"
+    },
+    "certainty": "マルクグラーフ 1747・アシャール 1801 ◎／インドの砂糖（紀元前後）○⚠️／骨炭の脱色 ◎",
+    "basis": "- Wikipedia「Sugar」（歴史）：https://en.wikipedia.org/wiki/Sugar"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "0-04"
+    ]
+   ],
+   [
+    [
+     "0-11"
+    ]
+   ],
+   [
+    [
+     "0-12"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "サトウキビの砂糖はインド（紀元前後）。1747 マルクグラーフがテンサイに砂糖を発見、1801 アシャールが初のテンサイ製糖工場"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "軽",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "バニラのサトウキビ→砂糖の精製版（[2-39]発酵の原料）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAVUlEQVR42mNgGDTAoqzrPzn6GEkx7ERXGYZ6FlwmlyRFoPB75q1AsQBmGBM5zkZ2CROlYcVEie1kewFrLJAajTCXsBAKeXQx9Bih2AsDbwDFgUgxAAC0uCEaqkTFPAAAAABJRU5ErkJggg=="
+}

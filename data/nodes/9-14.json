@@ -1,0 +1,122 @@
+{
+ "id": "9-14",
+ "history": {
+  "name": "RCA 洗浄",
+  "name_en": "RCA clean",
+  "kind": "tech",
+  "trunk": "9",
+  "trunk_name": "半導体プロセス",
+  "year": 1965,
+  "year_range": "1965〜1970",
+  "year_uncertain": false,
+  "hee1": "50年以上前のレシピが、今の最先端工場でも基本になっている",
+  "hee1_en": "A recipe from more than 50 years ago is still the basis in today's most advanced factories",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "F11. ガス工場のついでのアンモニア（アンモニア水）［2-21］（［9-14］洗浄の前提）",
+    "answer": "19世紀のアンモニアは、石炭ガス工場で出る安水から取った。安水を熱して溶けているアンモニアを追い出し、残った塩化アンモニウムなどは消石灰を加えて追い出し（2NH₄Cl + Ca(OH)₂ → CaCl₂ + 2NH₃ + 2H₂O）、水に吸わせてアンモニア水にした。1913年からはハーバー・ボッシュ法で空気の窒素から作る。",
+    "hee": {
+     "1": "アンモニアは、昔はガス工場のついでに取れた。",
+     "2": "アンモニアは水にとてもよく溶ける（20℃で水1Lに約500Lの気体）。",
+     "3": "ハーバー・ボッシュ法の肥料が世界の人口を支える一方、同じアンモニアが火薬の原料になった。",
+     "4": "ウェハーの RCA 洗浄の SC-1 は、アンモニア水・過酸化水素・水を 1:1:5 で混ぜて約75℃。"
+    },
+    "certainty": "ガス工場の安水とアンモニア蒸留器（遊離・固定アンモニア、石灰）◎（ブリタニカ・ガス工場の技術書）／溶解度 ◎／SC-1 の配合 ◎（Kern 1990 の回顧）",
+    "basis": "ブリタニカ「ammonia」https://www.britannica.com/science/ammonia 、Kern, W. \"The Evolution of Silicon Wafer Cleaning Technology\", J. Electrochem. Soc. 137, 1887 (1990)（英語）"
+   },
+   {
+    "title": "F14. 酸素を1つ多く持つ水（過酸化水素・電解法）［2-19］（［9-14］洗浄の前提）",
+    "answer": "過酸化水素（H₂O₂）は1818年にテナールが過酸化バリウムと酸から見つけた。工業では1908年ごろオーストリアのヴァイセンシュタインで電解法が始まった：冷やした濃い硫酸を白金の陽極で強く電気分解して過硫酸を作り、水と温めて分解すると過酸化水素ができ、硫酸はもとに戻る。1930年代からはアントラキノン法。",
+    "hee": {
+     "1": "傷の消毒のオキシドールは約3%の過酸化水素。",
+     "2": "過酸化水素は分解しても水と酸素しか残らないので、汚れを落とす洗浄にぴったり。",
+     "3": "電解法は白金の陽極でないとできない（炭素や鉛では過硫酸にならず酸素が出る）。",
+     "4": "濃い過酸化水素は金属やごみがまざると急に分解し、容器が破れる事故が起きてきた。"
+    },
+    "certainty": "テナール 1818 ◎／ヴァイセンシュタインの電解法の工場 ○（1908 建設・1910 生産と資料でずれる ⚠️）／過硫酸の反応と白金の陽極 ◎（教科書・Ullmann）／アントラキノン法 1930年代 ◎",
+    "basis": "ブリタニカ「hydrogen peroxide」https://www.britannica.com/science/hydrogen-peroxide 、Ullmann's Encyclopedia of Industrial Chemistry「Hydrogen Peroxide」（英語）"
+   },
+   {
+    "title": "F15. 湯気を冷やした水（蒸留水）［2-16］（［9-14］洗浄のすすぎ）",
+    "answer": "水を沸かして湯気を冷やすと、溶けていた塩や鉱物を含まない水が取れる。純すいな水は電気をほとんど通さない。ウェハーを洗ったあとは、きれいな水ですすいで薬品を残さない。",
+    "hee": {
+     "1": "水を沸かして湯気を冷やすと、塩の残らない水になる。",
+     "2": "1〜3世紀のアレクサンドリアには3本腕の蒸留器があった（マリアの発明と伝えられるが確かでない ⚠️）。",
+     "3": "1950年代の半導体工場では、イオン交換の脱イオン水が大量に使われるようになった（イオン交換樹脂 1935・工業化 1938）。",
+     "4": "理論上いちばん純すいな水の電気抵抗は 18.2 MΩ·cm（25℃）。水自身の電離で決まる。"
+    },
+    "certainty": "蒸留の原理 ◎／アレクサンドリアの蒸留器とマリア △／1950年代のイオン交換水 ○（日本の半導体歴史館）／18.2 MΩ·cm ◎",
+    "basis": "日本半導体歴史館「超純水」https://www.shmj.or.jp/english/pdf/em/exhibi2414E.pdf 、Kern 1990（J. Electrochem. Soc. 137, 1887）、ECS Interface 2010 春号 https://www.electrochem.org/dl/interface/spr/spr10/spr10_p044-046.pdf （英語）"
+   },
+   {
+    "title": "F16. 工程のあいだに洗う（ウェハー洗浄・段階1）［9-14］",
+    "answer": "トランジスタや IC は、目に見えないナトリウム・鉄・油が少し残るだけで性能がばらつき、こわれやすくなる。1950年代の工場は、熱い硝酸で煮て汚れを酸化して落とし、フッ酸で表面の薄い酸化膜ごと取り、塩の入っていない水ですすいだ。1965年に RCA のカーンが、アンモニア水・塩酸・過酸化水素を使う RCA 洗浄をまとめた。",
+    "hee": {
+     "1": "工場では、工程と工程のあいだに何度もウェハーを洗う。",
+     "2": "昔は硫酸と重クロム酸の混液も使われたが、クロムがウェハーを汚し、廃液も問題だった（Kern）。",
+     "3": "1950年代の半導体工業は、イオン交換で作る純すいな水が支えた。",
+     "4": "RCA 洗浄は 50年以上たった今も工場の基本。"
+    },
+    "certainty": "1950年代の酸洗浄（硝酸・HF・すすぎ）○（Kern 1990 の総説の要約、細部の配合は未確認 ⚠️）／クロム酸混液の問題 ◎（Kern）／イオン交換水 ○（日本半導体歴史館）／RCA 1965・1970 発表 ◎",
+    "basis": "Kern, W. \"The Evolution of Silicon Wafer Cleaning Technology\", J. Electrochem. Soc. 137, 1887 (1990)、ECS Interface 2010 春号 https://www.electrochem.org/dl/interface/spr/spr10/spr10_p044-046.pdf 、Wikipedia「RCA clean」https://en.wikipedia.org/wiki/RCA_clean 、日本半導体歴史館 https://www.shmj.or.jp/english/pdf/em/exhibi2414E.pdf （英語）"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "2-18"
+    ]
+   ],
+   [
+    [
+     "2-19"
+    ]
+   ],
+   [
+    [
+     "2-21"
+    ]
+   ],
+   [
+    [
+     "6-06"
+    ]
+   ],
+   [
+    [
+     "2-10"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1965 ヴェルナー・カーン（RCA 社）、1970 発表。SC-1（NH4OH:H2O2:H2O＝1:1:5、約75℃）で有機物・微粒子、SC-2（HCl:H2O2:H2O＝1:1:6）で金属"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "洗浄槽（ROADMAP v0.3 #4）。洗浄しないと歩留まりが下がる",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAbElEQVR42mNgoBAw4pKwKOv6j8w/0VXGSJLJyAagG4YMmBioDSzKuv5jsxGXOF5/k6SGGM3Y1LIgS3S5qKEYUrbnFiOyWNmeW4wEA7Fszy1GdIUwProFGC5AVwRjo4uto2Y0MpITkCSnymEOAJbzNstd2npXAAAAAElFTkSuQmCC"
+}

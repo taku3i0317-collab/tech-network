@@ -1,0 +1,53 @@
+{
+ "id": "2-52",
+ "history": {
+  "name": "ボラン",
+  "name_en": "Boranes",
+  "kind": "tech",
+  "trunk": "2",
+  "trunk_name": "化学",
+  "year": 1912,
+  "year_range": "1912〜1950年代",
+  "year_uncertain": false,
+  "hee1": "ジボランは空気にふれるだけで燃えるので、昔の化学者は空気を入れない装置を自分で作った（O-011 で追加。出典：Nobel Prize「Chemistry 1976」、Lipscomb Nobel Lecture 1976 (nobelprize.org)（https://www.nobelprize.org/uploads/2018/06/lipscomb-lecture.pdf））",
+  "hee1_en": "Diborane catches fire just by touching air, so chemists long ago built their own air-free apparatus (added in O-011. Sources: Nobel Prize \"Chemistry 1976\", Lipscomb Nobel Lecture 1976 (nobelprize.org) (https://www.nobelprize.org/uploads/2018/06/lipscomb-lecture.pdf))",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-33"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "ホウ素と水素だけでできた化合物。空気にふれると燃えるので、1912年からドイツのアルフレート・シュトックが空気を入れずに気体を扱うガラスの真空の装置を作って、初めて取り出した。1950年代、アメリカのウィリアム・リプスコムが、水素が2つのホウ素を同時につなぐ変わった結合（三中心結合、1943年にロンゲ＝ヒギンズらが提案）の考えを広げて、たくさんのボランの形を明らかにした（1976年ノーベル化学賞）。半導体工場では、ジボラン（B2H6）を p 型のドーパント（ホウ素）のガスとして、拡散や CVD の膜にホウ素を入れるのに使う"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAhElEQVR42mNgGN7Aoqzrv0VZ1398aphgCskxHK8AMh+fHAuMcaKrjNGirOt/zI1lDAwMDAxL0Gyc4mfwn4GBgWGJRhTDia4yRgwDGBgYGGJuLGOwcTCAcA4sYzhBQBweBpQAFBcs0YhiYDiwDMHedAGvOFUCkQFfNOJLB0RFPTEJaRgAAF+2Rz2bvU0wAAAAAElFTkSuQmCC"
+}

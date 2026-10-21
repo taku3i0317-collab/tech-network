@@ -1,0 +1,53 @@
+{
+ "id": "I-38",
+ "history": {
+  "name": "ファン・デル・ワールスの状態方程式",
+  "name_en": "Van der Waals equation of state",
+  "kind": "idea",
+  "trunk": "I",
+  "trunk_name": "発見・考え方",
+  "year": 1873,
+  "year_range": "1869〜1873",
+  "year_uncertain": false,
+  "hee1": "押し縮めた気体が思ったより縮まないのは、分子にも大きさがあるから",
+  "hee1_en": "A squeezed gas shrinks less than expected because molecules have size too",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://www.nobelprize.org/prizes/physics/1910/summary/",
+   "https://www.nobelprize.org/prizes/physics/1910/waals/biographical/"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [],
+  "understanding": [],
+  "enables": [],
+  "explains": [
+   "6-03",
+   "6-07"
+  ],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "理想の気体の式（PV＝nRT）は、分子に大きさが無く、分子どうしが引き合わないと考えている。1873年、オランダのヨハネス・ディーデリク・ファン・デル・ワールスは博士論文で、分子の大きさと引き合う力を足した式を作り、気体がどこまで冷やし・押すと液体になるか（臨界点）を説明した（1910年ノーベル物理学賞）。空気を液体にして酸素や窒素を分ける空気分離や、ヘリウムの液化の計画も、この考えの上に立つ"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "実験：気体を冷やしながら押し、ある温度より下でだけ液体になるのを確かめる",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAaElEQVR42mNgoCWwcvD5b+Xg8x+fGiZKLWFBtg1d0svHB8bEkDt2YAsjigHYwLYtW0jzLzlqMcJATU3rv5qa1n9ixakXiDBw69Y1RmRbYWLI4rR1AT5b6R8GuOREpJT+YzWAlLQweAAA7u4uSkbymioAAAAASUVORK5CYII="
+}

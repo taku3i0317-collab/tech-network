@@ -1,0 +1,87 @@
+{
+ "id": "9-06",
+ "history": {
+  "name": "酸化膜エッチング",
+  "name_en": "Oxide etching",
+  "kind": "tech",
+  "trunk": "9",
+  "trunk_name": "半導体プロセス",
+  "year": 1957,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "酸化膜が溶けきると表面が水をはじく（撥水）ので、終わりが目で分かる",
+  "hee1_en": "When the oxide is fully dissolved, the surface repels water (hydrophobic), so you can see with your eyes when it's done",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "F3. ガラスを溶かす酸（フッ酸）［2-10］（［9-06］酸化膜エッチングの前提）",
+    "answer": "蛍石（CaF₂）に硫酸をかけて熱すると、フッ化水素（HF）の気体が出る。これを水に吸わせたものがフッ酸。ガラスの主成分 SiO₂ を溶かすので、ガラスの瓶には入れられず、昔は鉛・ろう・ガタパーチャ、今はポリエチレンの容器を使う。",
+    "hee": {
+     "1": "フッ酸はガラスを溶かすので、ガラス瓶には入れられない。",
+     "2": "1771年、シェーレが蛍石と硫酸をガラスのレトルトで熱して見つけた。レトルトが内側から曇った（溶けた）ことで性質に気づいた。",
+     "3": "シリコンの酸化膜だけを溶かしてシリコンはほとんど溶かさないので、IC の窓開け（エッチング）に欠かせない。",
+     "4": "皮膚をすり抜けて体のカルシウムと結びつくので、すぐ痛まなくても危ない。工場ではグルコン酸カルシウムのゲルを必ず用意する。"
+    },
+    "certainty": "反応と工業条件（200〜250℃、ロータリーキルン）◎／シェーレ 1771 ◎／ガラスの侵食で気づいた話 ○／石こうが HF 1トンあたり約3.6トン ○（理論値は約3.4トン）／健康影響と応急処置 ◎（CDC）",
+    "basis": "ブリタニカ「hydrogen fluoride」https://www.britannica.com/science/hydrogen-fluoride 、CDC NIOSH「Hydrogen Fluoride」https://www.cdc.gov/niosh/ershdb/emergencyresponsecard_29750030.html 、Royal Society of Chemistry「Fluorine」https://www.rsc.org/periodic-table/element/9/fluorine （英語）"
+   },
+   {
+    "title": "F4. ガラスの膜だけを溶かす（酸化膜エッチング）［9-06］",
+    "answer": "フッ酸はシリコンの酸化膜（SiO₂）を SiO₂ + 6HF → H₂SiF₆ + 2H₂O で溶かすが、シリコンそのものはほとんど溶かさない。レジストで守った所以外の膜を溶かすと、膜に「窓」が開き、そこだけにドーパントを入れられる。",
+    "hee": {
+     "1": "膜が溶けきると、表面が水をはじくようになる。だから終わりが目で分かる。",
+     "2": "1957年、ラスロップとナル（米陸軍の研究所）が、写真の技術（レジスト）で守った所を残して酸化膜に穴を開けた。",
+     "3": "工場ではフッ化アンモニウムで薄めた「緩衝フッ酸（BHF）」を使い、溶ける速さを一定にする。",
+     "4": "1955年からのベル研の窓開けに使った液がフッ酸だったかは、まだ確かめていない ⚠️。"
+    },
+    "certainty": "反応式・選択性・撥水で終点 ◎（教科書）／ラスロップとナル 1957 ◎（コンピュータ歴史博物館）／ベル研の液 △",
+    "basis": "コンピュータ歴史博物館「1955: Photolithography Techniques Are Used to Make Silicon Devices」https://www.computerhistory.org/siliconengine/photolithography-techniques-are-used-to-make-silicon-devices/ 、Jaeger『Introduction to Microelectronic Fabrication』の湿式エッチングの章（英語）"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "2-10"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "SiO2+6HF→H2SiF6+2H2O。Si 本体はほぼ溶かさず酸化膜だけ溶かす（選択性）。実務は NH4F で緩衝した BHF。1957 ラスロップとナル（米陸軍）が SiO2 に穴を開けた（ベル研の窓開けは1955年から。液が HF だったかは未確認⚠️）"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "軽",
+  "missing": "",
+  "item": "etch_tank",
+  "recipes": [
+   "作業台：鉛インゴット×7 → エッチング槽"
+  ],
+  "machine_recipes": [
+   "エッチング槽「酸化膜をはがす」：酸化膜つきの板×8（時間は膜の厚さ（1秒に20nm）） ＋ フッ酸 → シリコンの板×8（純度とドーパントを受け継ぐ） ＋ 空の鉛の瓶（6.25 秒）。SiO2 + 6HF → H2SiF6 + 2H2O。シリコンは溶けない。室温・電気なし（125nm の膜の時間）"
+  ],
+  "placeholder": "省略：⚠️ 溶ける速さ（1秒に20nm）はゲームの値（本物の薄めたフッ酸は1分に数十〜100nm 程度）。横にも溶ける（アンダーカット）ことは表さない。槽はポリエチレンではなく鉛。",
+  "game_text": "第3章のウェハー状態機械の1工程（酸化→レジスト→露光→現像→エッチング）",
+  "hee_game": {
+   "note1": "フッ酸の入った鉛の槽。シリコンの板のガラスの膜（酸化膜）だけを溶かす。",
+   "note2": "酸1で1回（空の瓶は上に戻る）。フッ酸：現像ずみの加工中のウェハー1〜8枚 → レジストのない所だけ酸化膜が溶けて「窓」が開く。酸化膜つきの板8 → 膜を全部はがす。時間は膜の厚さで決まる（125nm で約6秒）。リン酸：Al を付けて現像したウェハー1〜8枚 → レジストの残っている所だけ Al が残り、配線になる（10秒）。室温で、電気も燃料もいらない。",
+   "note3": "SiO2 + 6HF → H2SiF6 + 2H2O。フッ酸は酸化膜をよく溶かすが、シリコンそのものはほとんど溶かさない（選択性）。膜が溶けきると表面が水をはじくようになるので、終わりが目で分かる。",
+   "note4": "1957年、ラスロップとナル（米陸軍の研究所）は、レジストで守った所を残して酸化膜に穴を開けた。のちの工場では、フッ化アンモニウムで薄めた緩衝フッ酸（BHF）を使い、溶ける速さを一定にした。⚠️ 1955年からのベル研の窓開けにフッ酸を使ったかは未確認。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAQklEQVR42mO0cvD5z0ABYGFgYGAwM9AhS/OpC1cYmBgoBANvAAu6gIiMAl4Nb548GGReGI6xgB7KIyUMTl24QrYBAPIVDQth4dRzAAAAAElFTkSuQmCC"
+}

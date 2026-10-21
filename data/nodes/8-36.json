@@ -1,0 +1,58 @@
+{
+ "id": "8-36",
+ "history": {
+  "name": "傾斜パッド式スラスト軸受",
+  "name_en": "Tilting-pad thrust bearing",
+  "kind": "tech",
+  "trunk": "8",
+  "trunk_name": "精密・計測",
+  "year": 1912,
+  "year_range": "1907〜1912",
+  "year_uncertain": false,
+  "hee1": "大きな水車の何百トンもの重さを、薄い油の膜だけで浮かせて支えている（O-011 で追加。出典：ASME Landmark #123「Kingsbury Thrust Bearing」、Wikipedia「Fluid bearing」）",
+  "hee1_en": "The hundreds of tons of a big water turbine are held up floating on just a thin film of oil (added in O-011. Sources: ASME Landmark #123 \"Kingsbury Thrust Bearing\", Wikipedia \"Fluid bearing\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "8-01"
+    ]
+   ],
+   [
+    [
+     "1-26"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "回る軸を押す大きな力（スラスト）を、少し傾けた何枚もの板（パッド）と軸の間にできるくさび形の油の膜で支える。金属どうしは触れず、油の膜の上に浮いて回る。1907年、アメリカのアルバート・キングスベリーが特許を出し（1910年登録）、1912年にホルトウッド水力発電所の大きな立て軸の水車に初めて付けられた（ASME ランドマーク #123）。オーストラリアの A・G・M・ミッチェルも独立に同じものを発明した。理論の土台は1886年のレイノルズの潤滑の理論。玉で転がす玉軸受（[8-20]）とならぶ、軸受のもう1つの道"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAmUlEQVR42mNgoCWwcvD5b+Xg8x+fGiZKLRl4A1hgfsUm6eXjA2NilT92YAsjI8yAAJZbDAwMDAy/PIoYGBgYGNh29BHkl+25xQj3woY/anDJbVu2MPzyKGL45VHEsG3LFrjGDX/UGJDVw70Acw7MqSSwEYFo5eDzHyZILBslwaAnHGLYKF6wcvD5jxzqxLBRYoGcNADzzhAHANxgaF+BNKCtAAAAAElFTkSuQmCC"
+}

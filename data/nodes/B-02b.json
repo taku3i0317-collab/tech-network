@@ -1,0 +1,79 @@
+{
+ "id": "B-02b",
+ "history": {
+  "name": "湿板写真 → ゼラチン乾板",
+  "name_en": "Wet plate photography → gelatin dry plate",
+  "kind": "tech",
+  "trunk": "B",
+  "trunk_name": "枝",
+  "year": 1851,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "ガラスのネガから何枚も焼ける＝マスクから何枚も転写するフォトリソの考え方",
+  "hee1_en": "Many prints from one glass negative = the photolithography idea of copying many times from one mask",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "O33. ネガから何枚も焼ける（ゼラチン乾板）［B-02b］",
+    "answer": "ガラス板に銀塩を混ぜたゼラチンを塗った乾板（1871 マドックス、1878ごろ市販）は、乾いたまま保存でき、露光は 1/25秒ほどに短くなった。現像・定着すると明るさが逆のネガになり、印画紙に重ねて焼くと元の明るさの写真が何枚でもできる。",
+    "hee": {
+     "1": "露光時間は、銀板（1839）の数分から、乾板（1878ごろ）の 1/25秒ほどまで、40年で何千分の1になった。",
+     "2": "1851年の湿板もガラスのネガだったが、塗る膜（コロジオン）が燃えやすく危険で、濡れているうちに撮らなければならなかった。乾板に置き換わった。",
+     "3": "ネガで写真は「1枚きりの物」から「何枚も配れる物」になった。",
+     "4": "1枚のネガから何枚も焼く考えは、1枚のフォトマスクから何枚ものウェハーに回路を写すフォトリソグラフィに受け継がれた。"
+    },
+    "certainty": "マドックス 1871・乾板の市販 1878ごろ ◎／乾板の露光 1/25秒ほど ○（乳剤・明るさで大きく違う）／タルボットの塩化銀紙 1840ごろ ◎",
+    "basis": "- Wikipedia「Dry plate」：https://en.wikipedia.org/wiki/Dry_plate"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "B-02a"
+    ]
+   ],
+   [
+    [
+     "1-32",
+     "6-11"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1851 スコット・アーチャー（コロジオン湿板）。ガラス板にヨウ化物入りコロジオン→AgNO3 浴で AgI→濡れたまま露光・現像"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "実験（ネガから何枚も焼く）",
+  "missing": "",
+  "item": "photo_plate",
+  "recipes": [
+   "作業台：ソーダ石灰ガラス ＋ 写真乳剤（塩化銀） → 感光乾板"
+  ],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {
+   "note1": "ガラス板に写真乳剤を塗ったもの。光を当てて現像すると、当たった所が黒くなる。",
+   "note2": "ソーダ石灰ガラス＋写真乳剤。[7-11] の縮小カメラで原図を写してフォトマスクにする。",
+   "note3": "1960年代の IC のマスクは、高解像度の写真乾板で作った（エマルジョンマスク）。やわらかい乳剤は密着露光ですぐ傷つき、何回か使うと取りかえた。",
+   "note4": "マスクのガラスは平らさが大切。ウェハーにぴったり重ねるので、反りがあるとすき間ができて像がぼける。のちに石英の板（クロムマスク [7-12]）に変わった。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAwklEQVR42t2RIQ7CQBBFXxtkD7HHWFGFIKgKsiHVnABViahsED0GIaSiilRUVfQYe4j6RZRtgN02WPhqsjP///k78PMIlprpfmcAtJD0ReadXfkeZVYYAHVIGbqaKE44g/GJBD5XlZcAE9nidjpyuVZvnPDTWeUlQ1cDEMXJVAOovJxieQWE7ifCnIgWklkB27RrD13txBC6X/5E6/hKWkL4zdBSBO8Vtpu1sxHAvWmdKzgRngNGCznmbVpsPbpX/Bkekn9Wh+d45CoAAAAASUVORK5CYII="
+}

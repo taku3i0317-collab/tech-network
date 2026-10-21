@@ -1,0 +1,99 @@
+{
+ "id": "5-01",
+ "history": {
+  "name": "手押しピストンポンプ",
+  "name_en": "Hand piston pump",
+  "kind": "tech",
+  "trunk": "5",
+  "trunk_name": "真空",
+  "year": 1650,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "空気の重さで、馬でも引き離せない",
+  "hee1_en": "Because of the weight of air, even horses cannot pull them apart.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "E9. 空気を抜く（真空ポンプ・真空計）［5-01］［5-10］［5-15］",
+    "answer": "真空を作る道具は3段階で進んだ。1643年トリチェリが水銀柱で真空を作り、1650年ごろゲーリケが手押しの空気ポンプを作り、1865年シュプレンゲルが水銀を落として気体を押し出すポンプで、ずっと低い圧力まで引いた。",
+    "hee": {
+     "1": "空気を抜いた2つの半球は、馬が何頭で引いても離れなかった（ゲーリケの「マクデブルクの半球」）。",
+     "2": "水銀の柱は約76cm で止まる。それより上は何もない空間＝真空。これが「気圧」の発見になった。",
+     "3": "シュプレンゲルのポンプは、エジソンやスワンの電球の空気を抜くのに使われた。真空が良くないと、フィラメントがすぐ燃えてしまう。",
+     "4": "手押しポンプは約1kPa、シュプレンゲルは約0.1Pa。ゲームで真空管の封止にシュプレンゲルが要るのは、この差のため（詳しくは SOURCES.md［5-15］）。"
+    },
+    "certainty": "1643・1865・1654年レーゲンスブルク帝国議会での公開実験・馬16頭（8頭ずつ2組）◎／ゲーリケのポンプ1650年 ○（Wikipedia のみ。1655年頃とする資料もある）／半球を馬で引いた年 △（1654年レーゲンスブルクとも1656年マクデブルクとも。1657年はショットの本の刊行年）",
+    "basis": "SOURCES.md［5-15］（シュプレンゲルの原論文 1865、Chemistry World）、Wikipedia「Otto von Guericke」https://en.wikipedia.org/wiki/Otto_von_Guericke 、Wikipedia「Magdeburg hemispheres」https://en.wikipedia.org/wiki/Magdeburg_hemispheres 、Physics Today https://physicstoday.aip.org/backscatter/magdeburg-hemispheres 、ガリレオ博物館 https://catalogue.museogalileo.it/indepth/MagdeburgHemispheres.html 、Spektrum https://www.spektrum.de/lexikon/physik/magdeburger-halbkugeln/9274 、OVGU https://www.kustodie.ovgu.de/Dezember2022.pdf"
+   }
+  ],
+  "people": [
+   {
+    "name": "ゲーリケ",
+    "tool": "⚪ マクデブルクの半球",
+    "year": "1650ごろ",
+    "intro": "マクデブルク市長。1650年ごろ空気ポンプを作り、1654年に公開実験をした",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACN0lEQVR42u1WMU/bQBT+HEU4dqqAKozcAZaypIMlmFLJSCgDSwYmMkQoVQf2iHbgJ3ioOpQZoS4ZYKD5AQWGDMkSEAuIBAm5S1AESiyCGxZ3SGzZjp2ck4sYypMs3d17d+9737v3zsCr/O/CBDHOZDIGiV0+nyc+N0xqmMvljFQq1bderVa9zA1SEAxp5LIsB6K2WCwSMRGahHMAkGWZKGWhl76EoUlEH4SFQAykJR5piR86Xp7R6DDgdh5kTL0MAeDg4snXmV23PEMJwAKn2+jkB0Zo19VUzdqncjo9BrilDUjxOC4uL6GfHfrqoO7SuwM3f+rWWD87ROHHtsN5Ta376ux7Rwbwfl50zMVZ/wS7de691BoRx05Z47v7puc6lRSoOodKM9a3rneeAQDnV7eIcpG+dVMqzRhUnRv/EnZB1LG4ILpKbg4AcN2b2yvBC/hYKfj1u2w5T0s83pVPHF9a4i1gpi21RtR9Wo8YAMbXz+sAgJWtlGcv+LZfgLJ3xGR0jugdCdQHlL0uCOHtND6trzp0PwunaDy0TJvJtGIbCDQeWhYbZtSjVBQRgHK5AkEQDQDY2dkGAGSzmzDf2S/KGoQPHw0AUJTv1h6SFAxELQiiEYs5m0updDzwwEQi6ZhrWhONRp0JxIAZrdv5KNI7wwDgCYQJ6rjdfkQ0+qaPiUQiaen8RNO6XdMOJEw7YgI2HIwwfrkeFP24Nva78eJ/xWF3fvyk0/kLlo0MtetRC5aNEAH4BxLq9EloGKi7AAAAAElFTkSuQmCC"
+   }
+  ],
+  "media": [
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Magdeburg.jpg/960px-Magdeburg.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Magdeburg.jpg",
+    "kind": "画像",
+    "author": "Gaspar Schott",
+    "license": "Public domain",
+    "description": "ゲーリケの「マクデブルクの半球」の実験の版画。中の空気を抜いた球を、馬が両側から引いても離れない。",
+    "verified": "2026-10-20 Commons API で PD を確認"
+   }
+  ],
+  "requires": [
+   [
+    [
+     "1-08"
+    ],
+    [
+     "1-05"
+    ]
+   ],
+   [
+    [
+     "0-08"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1650 オットー・フォン・ゲーリケ（マクデブルク市長）が空気ポンプを作る（1655年頃とする資料もある）。1654 レーゲンスブルクの帝国議会（皇帝フェルディナント3世の前）で真空実験を公開。半球を馬で引いた年は1654年（レーゲンスブルク）とも1656年（マクデブルク）とも伝わる⚠️（1657年はショットの本の刊行年）：直径約40〜50cm⚠️ の銅の半球2つを真空にすると馬16頭（8頭ずつ2組）でも引き離せない。到達は約数百Pa⚠️"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": "hand_vacuum_pump",
+  "recipes": [
+   "作業台：棒 ＋ 鋼インゴット×5 ＋ 革 → 手押しピストンポンプ"
+  ],
+  "machine_recipes": [],
+  "placeholder": "近似：本物のシリンダーは真鍮・青銅の鋳物（[1-05] 未実装）なので鋼で作る。パッキンはバニラの革（ゴム[2-29]未実装）。",
+  "game_text": "真空容器[5-11]に付ける手動ポンプ",
+  "hee_game": {
+   "note1": "マクデブルクの半球：空気をぬくと、馬16頭で引いても離れなかった。",
+   "note2": "オットー・フォン・ゲーリケの空気ポンプ（1650頃）。真空容器のとなりに置き、素手で右クリック：1回で空気の2割をぬく（容器：シリンダー＝4：1）。約 1kPa（大気の 1/100）より下にはならない。少しお腹が減る。",
+   "note3": "1回ごとにボイルの法則どおり：容器の空気が空のシリンダーに広がり、弁を閉じてその分を外へ押し出す。圧力は 0.8倍、0.64倍、0.51倍…と下がるので、最初の数回がいちばん効く。",
+   "note4": "限界の原因は「死容積」：押し切ってもピストンと弁のすき間に空気が残り、次に引いたとき容器へもどる。さらに革のパッキンから漏れる。ゲーリケが届いたのは数百 Pa〜1kPa 程度。もっと良い真空にはシュプレンゲルの水銀ポンプ（1865）や拡散ポンプ（1915）が必要だった。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAARklEQVR42mOMCAv6z0ABYGFgYGCQkFIjS/OLZ7cYmGAcAx0ZojUiq4UbcOHKE6INQFbLxEAhGDVg1AAUAwYsKbPAchW5AACcdxPLHIaENgAAAABJRU5ErkJggg=="
+}

@@ -1,0 +1,63 @@
+{
+ "id": "10-25",
+ "history": {
+  "name": "GPU",
+  "name_en": "GPU",
+  "kind": "tech",
+  "trunk": "10",
+  "trunk_name": "制御・計算",
+  "year": 1999,
+  "year_range": "1982〜1999",
+  "year_uncertain": false,
+  "hee1": "GPU は、簡単な計算しかできない小さな計算器を何千個も並べて、いっしょに動かしている（S-002 で追加。出典：Wikipedia「GeForce 256」、Jon Peddie Research「NEC µPD7220」）",
+  "hee1_en": "A GPU lines up thousands of small calculators that can only do simple math, and runs them all together (added in S-002. Sources: Wikipedia \"GeForce 256\", Jon Peddie Research \"NEC µPD7220\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "10-13"
+    ]
+   ],
+   [
+    [
+     "10-12"
+    ]
+   ],
+   [
+    [
+     "15-11"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "画面の点（画素）の色を決める計算を、たくさんの小さな計算器で同時に行う専用のチップ。1982年の NEC μPD7220 は線や図形を描く最初期のグラフィックス用チップ。1999年、エヌビディアが立体の向きと光の当たり方の計算までまとめた GeForce 256 を「世界初の GPU」と名づけて売り出した。2000年代に計算の中身をプログラムで書けるようになり、2012年ごろから AI の学習にも使われる（[B-11]）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAlUlEQVR42mNgGBTAysHnP7l6WWAMNTUtkg25desaI9wALy8/ghpOXbjCYGagw8DAwMCwbdsmVBcgK0IGZgY6KGLo8ky4bMCmGSaG0wBSgIiUEnYvYLMFm9ibZ/cwDcDl5FMXrmCIY0QjMbajxALUBfAw2LZtEzxqcNFvnt1DUYfiglu3rjFCA+f/rVvXGHHRVE/KAw8ACBpSwGQNXiAAAAAASUVORK5CYII="
+}

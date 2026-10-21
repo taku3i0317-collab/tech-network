@@ -1,0 +1,90 @@
+{
+ "id": "9-18",
+ "history": {
+  "name": "プレーナ技術",
+  "name_en": "Planar process",
+  "kind": "tech",
+  "trunk": "9",
+  "trunk_name": "半導体プロセス",
+  "year": 1959,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "「平らなまま作る」というアイデアが IC の始まり",
+  "hee1_en": "The idea of \"making it while keeping it flat\" was the start of the IC",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "L1. 平らなまま作って、金属でつなぐ（プレーナ IC の層）［9-18］［9-22］（露光とマスクの中心、O-002）",
+    "answer": "1959年、ヘルニ（フェアチャイルド）が「酸化膜を残したまま窓だけ開けてしみ込ませる」プレーナ法を、ノイスがその平らな表面にアルミを付けて部品をつなぐ「1つの板の上の回路（モノリシック IC）」を考えた。1960年5月にフェアチャイルドで最初のプレーナ IC が動いた（このときは板の裏から溝を掘り、エポキシで埋めて部品を分けた）。そのあと部品どうしは、間に逆向きの p-n 接合を作って電気的に分ける方法（接合分離、レホヴェックの特許 1959）に変わった。1961年3月に論理回路の IC（マイクロロジック、まずフリップフロップ。ゲートは1962年）が発表された。工程は、ドーパントを3回しみ込ませる（分離・ベース・エミッタ）＋アルミの配線1層。",
+    "hee": {
+     "1": "部品と部品のあいだには、電気を通さない「逆向きの接合の壁」がある。本物の壁ではなく、型のちがう半導体の境目。最初は本当に溝を掘ってエポキシで埋めていた。",
+     "2": "最初の論理 IC の中身は、トランジスタと抵抗だけだった（RTL）。",
+     "3": "配線の金属は1層だけ。線と線を交差させられないので、つなぎ方をパズルのように工夫した ⚠️。",
+     "4": "分離の壁を作る前に、n型の薄い層を板の上に結晶として育てる（エピタキシー［9-30］）。ゲームの v0.3 はエピタキシーがまだないので、p型の板に n型の島をしみ込ませて代わりにしている（三重拡散）。"
+    },
+    "certainty": "ヘルニ・ノイスの特許 1959 ◎、最初のプレーナ IC 1960年5月（溝とエポキシで分離）・マイクロロジックのフリップフロップ 1961年3月・ゲート 1962 ◎（コンピュータ歴史博物館）／接合分離に変えた・レホヴェックの特許（1959年出願）◎／「拡散3回＋アルミ1層」○／最初の製品がエピタキシーを使っていたか・配線の交差の工夫 △",
+    "basis": "コンピュータ歴史博物館「1959: Practical Monolithic Integrated Circuit Concept Patented」https://www.computerhistory.org/siliconengine/practical-monolithic-integrated-circuit-concept-patented/ 、「1960: First Planar Integrated Circuit is Fabricated」https://www.computerhistory.org/siliconengine/first-planar-integrated-circuit-is-fabricated/ 、「1959: Invention of the 'Planar' Manufacturing Process」https://www.computerhistory.org/siliconengine/invention-of-the-planar-manufacturing-process/"
+   },
+   {
+    "title": "L4. 最初の IC は2つある（キルビーのゲルマニウムとノイスのプレーナ）［9-18］［9-22］（O-010、検査台の発見 monolithic_ic）",
+    "answer": "IC（集積回路）＝1つの板の中に、トランジスタ・抵抗・コンデンサをまとめて作り、つないだもの。最初のものは2つの形がある。",
+    "hee": {
+     "1": "キルビーの IC は金の線が空中にはみ出していて、写真では「髪の毛が生えた小さなかけら」に見える。",
+     "2": "特許はキルビー（TI）とノイス（フェアチャイルド）で争いになり、最後は両社がたがいに使えるように取り決めた（1966年）。",
+     "3": "たくさん作れる形になったのはノイスの方（平らなので、写真の方法で配線まで一度に作れる）。今の IC はすべてこの子孫。",
+     "4": "2000年のノーベル物理学賞はキルビーが受けた。ノイスは1990年に亡くなっていて、ノーベル賞は亡くなった人には贈られない。"
+    },
+    "certainty": "キルビー 1958.9.12・Ge・金線 ◎／ノイスの 1959 年のノートと特許（US 2,981,877、1961年に認められた）◎／ルホヴェックの接合分離 1959 ◎／フェアチャイルドの最初の動くプレーナ IC が 1960 年 ○／両社の取り決めが 1966 年 ○",
+    "basis": "Computer History Museum「1958 – All semiconductor \"Solid Circuit\" is demonstrated」「1959 – Practical monolithic integrated circuit concept patented」、J. S. Kilby, \"Invention of the integrated circuit\", IEEE Trans. Electron Devices 23 (1976) 648、Nobel Prize in Physics 2000（nobelprize.org）"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "9-15"
+    ]
+   ],
+   [
+    [
+     "9-16"
+    ]
+   ],
+   [
+    [
+     "9-19",
+     "9-20",
+     "9-21"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1959 ジャン・ヘルニ（フェアチャイルド）。酸化膜を残したまま窓を開けて拡散 → 接合が酸化膜で守られ、平らな表面に何個でも並べられる。これが IC[9-22]を可能にした"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "ウェハーの状態機械（ROADMAP v0.3 #1）の基本形",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAnElEQVR42mNgGGjACGNYWeX8J0XjsWNTGBkYGBhYkAVjTFYQpXnJmQg4mwVd8gnPIqyaDhzYxuDg4MUg8yUORZwFm2J0RRAnv2FkYGD4H2PCQNgABgYGhqxJb+DhMy1PBGf4MFEaCzhdgM9WvAYcOLAN5l/yXODg4MXAwMCA1XYHBy8Ghi8r8Bsg8yWOAT2k4eDLCvwuQE4gIwgAAIlLJvWEwZt6AAAAAElFTkSuQmCC"
+}

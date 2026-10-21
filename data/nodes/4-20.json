@@ -1,0 +1,58 @@
+{
+ "id": "4-20",
+ "history": {
+  "name": "振動モーター",
+  "name_en": "Vibration motor",
+  "kind": "tech",
+  "trunk": "4",
+  "trunk_name": "動力・電気",
+  "year": 1980,
+  "year_range": "1970年代〜1990年代",
+  "year_uncertain": true,
+  "hee1": "おもりが片側にだけ付いているから、回ると本体ごとブルブルゆれる（S-003 で追加。出典：Google Patents US4794392、Wikipedia「Vibrating alert」）",
+  "hee1_en": "The weight is attached on only one side, so when it spins the whole device shakes. (Added in S-003. Sources: Google Patents US4794392, Wikipedia \"Vibrating alert\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "4-08"
+    ]
+   ],
+   [
+    [
+     "1-28"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "小さな直流モーターの軸に、片寄ったおもり（重いタングステン合金が多い）を付けて回すと、重心がぐるぐる回って本体ごとゆれる。ポケットベルで音の代わりに知らせる「バイブ」として広まり（1970年代の特許があるが、広まった年は資料で揺れる ⚠️）、携帯電話にも入った。今のスマホは、ばねに付けたおもりを電磁石で前後にゆらす方式（リニア振動アクチュエータ）が多い"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAZUlEQVR42mNgoAawcvD5T7YecjQj62M5dmALo5WDz/9jB7Yw4jMQJo8OWNA1e/n44LL0P7IhMDYLLpPRAdTg/+gGMFEa8GQbAPcCchjgA9u2bMEakPDAIzUW4HooTQeUp8RRwAAAilJDRSMxAVMAAAAASUVORK5CYII="
+}

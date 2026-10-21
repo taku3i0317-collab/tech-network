@@ -1,0 +1,63 @@
+{
+ "id": "I-09",
+ "history": {
+  "name": "単位を自然の定数で決める",
+  "name_en": "Defining units by constants of nature",
+  "kind": "idea",
+  "trunk": "I",
+  "trunk_name": "発見・考え方",
+  "year": 2019,
+  "year_range": "2018〜2019",
+  "year_uncertain": false,
+  "hee1": "1キログラムは、もう金庫の中のかたまりではなく、宇宙のどこでも同じ「定数」で決まっている",
+  "hee1_en": "One kilogram is no longer a lump in a vault; it is set by a \"constant\" that is the same anywhere in the universe.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://www.nist.gov/si-redefinition/kilogram/kilogram-kibble-balance",
+   "https://en.wikipedia.org/wiki/Kibble_balance",
+   "https://comptes-rendus.academie-sciences.fr/physique/item/10.1016/j.crhy.2018.11.006.pdf",
+   "https://www.canada.ca/en/national-research-council/news/2019/05/weigh-to-go-canada.html"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "8-25"
+    ]
+   ],
+   [
+    [
+     "8-24"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "2018年11月16日の国際度量衡総会で、キログラム・アンペア・ケルビン・モルを、プランク定数などの自然の定数の値を決めて定義し直すことを決め、2019年5月20日から使い始めた。キログラム原器（金属のかたまり）は基準ではなくなり、ワット天秤でプランク定数から質量を決められるようになった"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "実験：ワット天秤でおもりと電磁石の力を釣り合わせ、電気の量から重さを決める → かたまりが無くても1キログラムが決まる",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAUElEQVR42mNgGD7gyDSG/0emMfwnSx5ZApsiQvIUGUiRl6gSdowMDAwM0/JEyDIta9IbRiYYR0/jDUNQkAnRNAwwoZuqouVBEp9iLzCMAgYAhF43Q4AH5RoAAAAASUVORK5CYII="
+}

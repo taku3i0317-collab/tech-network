@@ -1,0 +1,66 @@
+{
+ "id": "9-38",
+ "history": {
+  "name": "GAA",
+  "name_en": "GAA (gate-all-around)",
+  "kind": "tech",
+  "trunk": "9",
+  "trunk_name": "半導体プロセス",
+  "year": 2022,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "最後はゲートがチャネルを全部くるむ",
+  "hee1_en": "In the end, the gate wraps all the way around the channel",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "9-37"
+    ]
+   ],
+   [
+    [
+     "9-30",
+     "1-01"
+    ]
+   ],
+   [
+    [
+     "7-18"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-33"
+  ],
+  "frontier": false,
+  "real": "2022年6月 サムスンが 3nm（MBCFET）で初期生産を開始、2025頃〜 TSMC・インテルも（TSMC N2 は2025年第4四半期に量産開始と報道）。チャネルを薄いシート状にして4方向をゲートで囲む"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "ROADMAP v1.0 #5（AIチップ）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAW0lEQVR42mNgGGjAiE1wWp7If2ziWZPeMBI0YFqeyP8nPIuw2ibzJQ7DECaqewGX83F5hQWbglEv0Dkhwb1gZZXzH+EFL6y2WVltg6s5dmwKI84wOHBgG8PQAQBuMiqHTZo0yAAAAABJRU5ErkJggg=="
+}

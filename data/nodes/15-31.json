@@ -1,0 +1,58 @@
+{
+ "id": "15-31",
+ "history": {
+  "name": "回転ヘッド式ビデオテープ",
+  "name_en": "Rotary-head videotape",
+  "kind": "tech",
+  "trunk": "15",
+  "trunk_name": "通信・情報",
+  "year": 1956,
+  "year_range": "1956〜1976",
+  "year_uncertain": false,
+  "hee1": "ビデオテープは、テープより速く回る小さなヘッドで斜めに映像を書いていた（O-011 で追加。出典：Wikipedia「Videotape」「VHS」、国立科学博物館「重要科学技術史資料」）",
+  "hee1_en": "Videotape had a small head spinning faster than the tape, writing the picture at a slant (added in O-011. Sources: Wikipedia \"Videotape\", \"VHS\", National Museum of Nature and Science \"Essential Historical Materials for Science and Technology\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "15-12"
+    ]
+   ],
+   [
+    [
+     "15-11"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "映像の信号は音よりずっと速く変わるので、テープを速く動かす代わりに、磁気ヘッドの方を回してテープの上を速くなぞって記録する。1956年、アメリカのアンペックス社が放送局用のビデオテープレコーダー VRX-1000 を売り出した。1959年に日本の東芝がテープを斜めになぞるヘリカルスキャン方式を試作し、1976年に日本ビクターが家庭用の VHS を出した（国立科学博物館の重要科学技術史資料）。テレビ番組を録って後で見られるようになった"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAn0lEQVR42mNgGGjAiE3QysHnPzbxYwe2YKhnwqbZy8eH4c2zewxePj4MyGxsBjNh07xo1iSGuLQ8BgYGBhT2m2f3MAzBcAEuzchsvAbEpeUxLJo1CS+bdi5ADmVsmrdt2cLw5tk9yqNRTU3r/61b1xB61dS0/mNjowNs6phISXW3bl1jxGoBuiAuV2BzAQspNqH4GwpY8NmKrgFf+JANACceaVhgsda/AAAAAElFTkSuQmCC"
+}

@@ -1,0 +1,87 @@
+{
+ "id": "7-22",
+ "history": {
+  "name": "反射防止膜",
+  "name_en": "Anti-reflection coating",
+  "kind": "tech",
+  "trunk": "7",
+  "trunk_name": "光学",
+  "year": 1938,
+  "year_range": null,
+  "year_uncertain": true,
+  "hee1": "薄い膜を重ねると、ガラスが「見えなく」なる （IMP-24 で追加、network_proposals W-3）",
+  "hee1_en": "Stack thin films on glass and the glass becomes \"invisible\" (added in IMP-24, network_proposals W-3)",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "O18. 薄い膜で反射を消す（反射防止膜）［7-22］",
+    "answer": "レンズの表面に光の波長の 1/4 の厚さの膜を付けると、膜の表と裏ではね返った光の山と谷が打ち消し合い、反射が減る。1936年ジョン・ストロングが真空蒸着した CaF2 の膜で発表し、1938年にはブロジェットの単分子膜（見えないガラス）も現れた。",
+    "hee": {
+     "1": "薄い膜を重ねると、ガラスが「見えなく」なる。",
+     "2": "レンズの面1つで約4% はね返る。20面あれば光の半分以上が失われ、まぶしいゴーストになる。",
+     "3": "理想の膜の屈折率は √(ガラスの屈折率)≈1.23。CaF2（1.43）より MgF2（1.38）が近く、のちの定番になった。",
+     "4": "何十枚も重ねる露光装置の投影レンズは、反射防止膜がなければ成り立たない。EUV の鏡は多層膜を逆に「よく反射する」ように使う。"
+    },
+    "certainty": "1/4 波長膜の原理と反射率の式 ◎／ストロング 1936 の論文 ○（JOSA 26:73、特許文献の引用）／CaF2 膜の実用 1938・内側の面 ○（キングレイク 1951 の記述として）／ブロジェット 1938 ◎",
+    "basis": "- Optica「John D. Strong」：https://www.optica.org/History/Biographies/bios/John-D--Strong"
+   }
+  ],
+  "people": [
+   {
+    "name": "キャサリン・ブロジェット",
+    "tool": "🔍 反射しないガラス",
+    "year": "1938",
+    "intro": "1938年、とても薄い膜を重ねて光を反射しないガラスを作った",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACLElEQVR42mNkIBFoyYn+52JnwSr37ecfhmuPXjOSYh4LAxlAiJcLhwM+kWwWE8MAg6HlAC050f8yInw45WVE+Bi05ET/k2Im0QnGRFXyv7KkEIb4+y8/MMSevPlEdGJkpIbPsQFiHcFEC8tJiY7BnQjJ9T0poUBSCCybVMuwbFItQXZTSSp1cgFyCMAsIAbcefSCoa5nNlGJkaSiOCqvGSU0cMlRLQQqkgP/BzibMzAwMDCoyEmQFAIwsGHvSYaOueupEwKchqEMepqaDJeuX2f4fn41TjmGR5OpVxTffYzwzffzqxk2TipCsRzmW2xyyHrJdoCyLGrQS4gI4FSLLoeulywHbNh7EjMq2Nng7JdvP2AVx6WXpDSAlHj+lyT6I6Li5y8GBgYGhgs3HjBwc3JgiBOT+EiuDSuSA1EcgQ/0zN9IlOVkN8kYGBgYDs/eisK3TfUmyxySGpDEhAIpvifZATBHiArxM8T7O6CIL9x4gOH1u48kWU4RqEgO/P/myIL/b44s+F+RHPifXHOIcq2TkwfcAm9vJwYGBgaGuLgYFDWLFi1hYGBgYNi6dR9cbN++HYwUJUKYxTo6BnAxdIvRxR8+fIcs/J+QQ1iItZgcgKQfp0MYSbX4/v07DIqKKgy1tXko4s3Nk+ByuMCVKxcwooaFmj4mJ0QYYQ4gxnJCPiRWDSw09u3bwTjgrWIW9PjBBd68ecUgIiJGUB0DAwPDgQO7GERExIhyAADH5vXqOGtiGAAAAABJRU5ErkJggg=="
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "2-14"
+    ]
+   ],
+   [
+    [
+     "2-09"
+    ],
+    [
+     "5-14"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1938 キャサリン・ブロジェットが、ステアリン酸バリウムの単分子膜を44層重ねてガラスの反射を打ち消した「見えないガラス」（特許 2,220,660、ラングミュア＝ブロジェット膜、network_proposals W-3）。膜の厚さを光の波長の1/4にすると、表と裏で反射した光が打ち消し合う"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "軽（レンズに付ける）",
+  "missing": "",
+  "item": "coated_crown_lens",
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": "近似：膜は1層だけ。CaF2 の膜は柔らかく傷つきやすい（本物はレンズの内側の面だけに使った）。",
+  "game_text": "レンズ [7-19] と太陽電池 [B-12] の表面に。光を多く取り込める。アップグレード案（Q25-2）：置いた太陽電池に塗ると出力が上がる（上がり方は、反射率の値を出典で確かめてから決める）。[B-12] の前提にはしない",
+  "hee_game": {
+   "note1": "表面に見えないほど薄い膜を付けて、光のはね返りを減らしたレンズ。少し紫っぽく光る。",
+   "note2": "真空蒸着装置で、クラウンレンズ＋蛍石（CaF2）。膜の厚さを光の波長の 1/4 にすると、表と裏ではね返った光が打ち消し合う。1面の反射 約4.3% → 約2.2%。",
+   "note3": "1936年、ジョン・ストロングは真空蒸着した CaF2 の膜で反射を減らす方法を発表した。1938年にはキャサリン・ブロジェットが石けんの仲間の単分子膜を重ねて「見えないガラス」を作った。",
+   "note4": "1面で4%でも、20面あれば光の半分以上がはね返って失われ、まぶしいゴースト（迷光）になる。何十枚もレンズを重ねる投影レンズ [7-19] は、反射防止膜がなければ作れない。膜の屈折率は √(ガラスの屈折率)≈1.23 が理想で、CaF2（1.43）より MgF2（1.38）のほうが近い。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAvklEQVR42mNgGL7Axa/rP4yGsbEBFlyaQ0K8GL5oMPwP0fGCCf9nYGBg2LOpjBFZLSO6Zouyrv8lSREYhr459YlhwZVtDCe6UA1gwbAZYSPDm1Of4GwRMz6GErMIhhk3GP4ju4IJ3SYRMz6smmFiXzRQ1TPhC0hkjW9OfYLzcRrwRQNhs4gZH1wTskaeG3higecGA4NIEh+KC9ANxOuCPZvKGGeUrcAIRJjmNWu2EReNPDcYUAIL5mx0zcMEAABm81WLWYt6EQAAAABJRU5ErkJggg=="
+}

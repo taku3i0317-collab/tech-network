@@ -1,0 +1,65 @@
+{
+ "id": "1-21",
+ "history": {
+  "name": "蛍石 CaF2",
+  "name_en": "Fluorite CaF2",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": 1530,
+  "year_range": "1529〜1530",
+  "year_uncertain": false,
+  "hee1": "蛍石は、方鉛鉱や閃亜鉛鉱といっしょに鉱脈で見つかる",
+  "hee1_en": "Fluorite is found in ore veins together with galena and sphalerite.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "F1. フッ素のはじまりの石（蛍石）［1-21］（［2-10］フッ酸の前提）",
+    "answer": "蛍石はフッ化カルシウム（CaF₂）の鉱物で、方鉛鉱・閃亜鉛鉱と同じ熱水鉱脈に出ることが多い。硫酸と熱するとフッ化水素が出る（フッ酸の原料）。フッ素の化学はほとんどここから始まる。",
+    "hee": {
+     "1": "紫や緑のガラスのような石に、フッ素が入っている。",
+     "2": "1530年、アグリコラが「fluores」と書いたのが最初の記録。炉で鉱石を溶けやすくする「融剤」で、ラテン語の「流れる」から。元素フッ素の名前もここから。",
+     "3": "紫外線で青く光る蛍石があり、1852年ストークスがこの光を「蛍光（fluorescence）」と名づけた。",
+     "4": "日本語の「蛍石」は熱するとホタルのように光ることから。大きな結晶はエキシマレーザー露光のレンズにも使われる。"
+    },
+    "certainty": "CaF₂・熱水鉱脈で方鉛鉱と共生 ◎（USGS）／アグリコラ 1530 ◎／ストークスの命名 1852 ◎／和名の由来（熱で光る）○",
+    "basis": "USGS「Fluorspar Statistics and Information」https://www.usgs.gov/centers/national-minerals-information-center/fluorspar-statistics-and-information 、Stokes, \"On the Change of Refrangibility of Light\", Phil. Trans. 142 (1852)、ブリタニカ「fluorite」https://www.britannica.com/science/fluorite （英語）"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "熱水鉱脈（方鉛鉱・閃亜鉛鉱と共生）。1530年 アグリコラ『ベルマヌス（Bermannus）』で融剤「fluores」として初めて活字に"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "軽",
+  "missing": "",
+  "item": "fluorite_ore",
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": "近似：本物は方鉛鉱・閃亜鉛鉱と同じ鉱脈の形で出るが、ゲームでは同じ深さにばらばらに出る。",
+  "game_text": "方鉛鉱と同じ帯",
+  "hee_game": {
+   "note1": "石の中に紫や緑のつぶが入った鉱石。掘ると蛍石が出る。",
+   "note2": "方鉛鉱と同じ深さ（Y −16〜64）の石・深層岩に出る。方鉛鉱より少ない。石のツルハシ以上。シルクタッチなら鉱石のブロックのまま。",
+   "note3": "蛍石は、熱い水が岩の割れ目を通ってできた鉱脈（熱水鉱脈）に、方鉛鉱・閃亜鉛鉱といっしょに出ることが多い。鉛や亜鉛の鉱山で蛍石も取れる。",
+   "note4": "今の蛍石の多くはフッ酸の原料になり、フッ素の化学（フッ素樹脂・冷媒・半導体のエッチングガス）のほとんどがここから始まる。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAZUlEQVR42mNUU9P6z0ABYGFgYGDw8vIjSRMXlx0DAwMDw5o1JQxMDBQCFnI0fft2CM6m2AVMpPod5n+quYAFW+gi+xGX32njAlw2o7sMEQ6b6JQO0F1G23SALa6plpCwAUZKszMA/q4bxfbHu4QAAAAASUVORK5CYII="
+}

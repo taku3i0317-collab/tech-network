@@ -1,0 +1,58 @@
+{
+ "id": "I-47",
+ "history": {
+  "name": "量子ドット",
+  "name_en": "Quantum dots",
+  "kind": "idea",
+  "trunk": "I",
+  "trunk_name": "発見・考え方",
+  "year": 1981,
+  "year_range": "1981〜1993",
+  "year_uncertain": false,
+  "hee1": "同じ物質でも、粒を小さくするだけで光の色が変わる",
+  "hee1_en": "Even with the same material, just making the grains smaller changes the color of light.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://www.nobelprize.org/prizes/chemistry/2023/summary/",
+   "https://en.wikipedia.org/wiki/Quantum_dot"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "2-14"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [
+   "B-07"
+  ],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "半導体を数ナノメートルの小さな粒にすると、中の電子が閉じこめられて、粒の大きさだけで出す光の色が変わる（小さいほど青く、大きいほど赤く）。1981年にソ連でガラスの中の小さな粒で見つかり、1983年にアメリカで液体の中の粒でも確かめられ、1993年にきれいにそろった粒を作る方法ができた（2023年ノーベル化学賞。3人とも存命なので名前を出さない）。昔の色ガラスの色も、中の小さな粒のこの性質によるものがある。青い LED の光を量子ドットで赤と緑に変えるテレビの画面に使われている"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "実験：大きさのちがう粒を入れた液に紫外線を当てて、色が順にちがうのを見る",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAjElEQVR42mNgGD7gyDSG/9QQpz9gJFahlVUOipOPHZvCyMDAwMBCrGYHBy904f/Hjk1hZCLFuV4yXgxeMqgGseBzLsyZMM3WPiEQzhYvhgMMOdgNsLLK+d8VM4WBgYGBoYwh5z+yIdgACy4b0cG2J9sYGLZ4IdgM27C74NixKYxlDNgNhGikcjQOPAAA/B84JB/rec8AAAAASUVORK5CYII="
+}

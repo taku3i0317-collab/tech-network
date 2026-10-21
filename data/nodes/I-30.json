@@ -1,0 +1,68 @@
+{
+ "id": "I-30",
+ "history": {
+  "name": "希ガス化合物",
+  "name_en": "Noble gas compounds",
+  "kind": "idea",
+  "trunk": "I",
+  "trunk_name": "発見・考え方",
+  "year": 1962,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "「何とも反応しない」と言われていたキセノンも、フッ素の仲間とは結びつく",
+  "hee1_en": "Even xenon, said to \"react with nothing\", bonds with fluorine and its relatives",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://en.wikipedia.org/wiki/National_Historic_Chemical_Landmarks",
+   "https://en.wikipedia.org/wiki/Xenon_hexafluoroplatinate",
+   "https://en.wikipedia.org/wiki/Vapor_etching",
+   "https://www.acs.org/education/whatischemistry/landmarks/bartlettnoblegases.html"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "6-08"
+    ]
+   ],
+   [
+    [
+     "6-14"
+    ]
+   ],
+   [
+    [
+     "1-20"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "ヘリウム・ネオン・アルゴン・クリプトン・キセノンなどの希ガスは、ほかの物とまったく反応しないと長く考えられていた。1962年、カナダのブリティッシュ・コロンビア大学のニール・バートレットが、キセノンと六フッ化白金を混ぜると黄色い固体ができることを示し（ACS 化学遺産 2006）、同じ年にキセノンのフッ化物（XeF2・XeF4）も作られた。キセノンのフッ化物の気体（XeF2）は、のちにプラズマなしでシリコンを削るエッチングにも使われる（MEMS の部品づくり）。エキシマレーザー（[7-20]）の KrF・ArF は、光っている一瞬だけ結びつく別のしくみ"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "実験：いろいろな気体にフッ素の仲間を近づけ、キセノンだけ固体ができるのを見る",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAApklEQVR42mNgoCWwKOv6b1HW9Z9szWtuPPq/5sYjygwhpJkFn2SPQhkDAwMDgw0eNUz4bH/h9IjhhdMjBnyuYMLmVIuyrv8lSRFwRSVJEQzo8jA+C7IiCYWy/wwMDAwvnCCaJfbJMUD4jzDke+atwO8FYgHcBT3zVjCc6GJghDhxxf+SpAiGF06PGHDJ0ycdHJnG8P/INAby00HJgy4oq2wQJ2WKAQDa/2tTfu/mRAAAAABJRU5ErkJggg=="
+}

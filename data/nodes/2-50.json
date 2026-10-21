@@ -1,0 +1,81 @@
+{
+ "id": "2-50",
+ "history": {
+  "name": "配位重合触媒",
+  "name_en": "Coordination polymerization catalyst",
+  "kind": "tech",
+  "trunk": "2",
+  "trunk_name": "化学",
+  "year": 1953,
+  "year_range": "1951〜1954",
+  "year_uncertain": false,
+  "hee1": "ペットボトルのふたのプラスチックは、金属の触媒の上で分子を1つずつつないで作っている（O-008 で追加。出典：Nobel Prize「Chemistry 1963」、ACS「Polypropylene and High-Density Polyethylene」）",
+  "hee1_en": "The plastic in bottle caps is made by joining molecules one by one on a metal catalyst. (Added in O-008. Sources: Nobel Prize \"Chemistry 1963\", ACS \"Polypropylene and High-Density Polyethylene\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "C42. 金属の上で1つずつつなぐ（チーグラー・ナッタ触媒）［2-50］",
+    "answer": "それまでのポリエチレンは約1400気圧が要った（1933）。1951年、フィリップス石油のホーガンとバンクスが酸化クロムの触媒で硬い高密度ポリエチレンを作り、1953年にドイツのチーグラーがチタンとアルミの触媒（TiCl4＋トリエチルアルミニウム）でほぼふつうの圧力でポリエチレンを、1954年にイタリアのナッタが向きのそろったポリプロピレンを作った（1963年ノーベル化学賞）。触媒の上でエチレンが1つずつ差しこまれるので、枝分かれのないまっすぐな鎖になり、密度が高く硬い。",
+    "hee": {
+     "1": "ペットボトルのふたのプラスチックは、金属の触媒の上で分子を1つずつつないで作っている。",
+     "2": "高圧で作るとやわらかいポリ袋、触媒で作ると硬いバケツになる。",
+     "3": "チーグラーは、まざっていたニッケルで反応が変わったことから、触媒の金属を探し始めた。",
+     "4": "トリエチルアルミニウムは空気にふれただけで燃える。"
+    },
+    "certainty": "チーグラー 1953・ナッタ 1954・ノーベル賞 1963 ◎／フィリップス 1951（ACS 化学遺産）◎／ニッケル効果 ○",
+    "basis": "- Nobel Prize「Chemistry 1963」：https://www.nobelprize.org/prizes/chemistry/1963/summary/"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "2-37"
+    ]
+   ],
+   [
+    [
+     "2-36"
+    ]
+   ],
+   [
+    [
+     "1-41"
+    ]
+   ],
+   [
+    [
+     "1-40"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "金属の触媒の上で、エチレンやプロピレンの分子を1つずつ決まった向きにつないで、長い鎖（高分子）を作る方法。それまでのポリエチレンはとても高い圧力が要った（1933年）が、1951年にアメリカのフィリップス石油のホーガンとバンクスが酸化クロムの触媒で硬い高密度ポリエチレンと結晶のポリプロピレンを作り（ACS 化学遺産）、1953年にドイツのカール・チーグラーがチタンとアルミニウムの触媒でふつうの圧力に近い条件でポリエチレンを、1954年にイタリアのジュリオ・ナッタが向きのそろったポリプロピレンを作った（1963年ノーベル化学賞）。バケツ・ペットボトルのふた・食品の容器の多くはこの方法の樹脂"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "軽",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAW0lEQVR42mNgGAVEATU1rf+4+EyUGs5ErO24aCZiNN+6dY0RG5+BgYEBzpiWJwL3V9akN4zYFKupaf1H5sMNQNYMAxN2iDGgKyYpDIjRTL1YyJr0BsU2dP4wBwBvVCkqb+atngAAAABJRU5ErkJggg=="
+}

@@ -1,0 +1,65 @@
+{
+ "id": "P-08",
+ "history": {
+  "name": "マウス",
+  "name_en": "Mouse",
+  "kind": "product",
+  "trunk": "P",
+  "trunk_name": "モノ（作品）",
+  "year": 1999,
+  "year_range": "1963〜1999",
+  "year_uncertain": false,
+  "hee1": "最初のマウスは木の箱で、車輪が2つ付いていた",
+  "hee1_en": "The first mouse was a wooden box with two wheels.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://en.wikipedia.org/wiki/Computer_mouse",
+   "https://invention.si.edu/invention-stories/mother-all-demos"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "B-22"
+    ]
+   ],
+   [
+    [
+     "B-21"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [
+   "プラスチック",
+   "シリコン",
+   "銅"
+  ],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "机の上の動きを、X と Y の2つの数にして送る道具。むかしはボールの回転を数え、今は底の LED で机を照らして小さなカメラで写し、模様のずれから動きを計算する"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "作品：動かすと画面の矢印が動く",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAmElEQVR42mNgoDWwcvD5b+Xg858iA/DJs+CSUFPT+i8ipcRgZqDD8ObZvf+3bl1jxKaOCZdmLy8/BgYGBoZTF64weHn5Maipaf0nygBkzcgAlyFMlAYyEyHbzQx08LqCkZQQh4FjB7YwYo2FN8/uMWDzPzLYtm0TDcPg1q1rjOg2oNuOnh6o6wJ8rsBmO0YsoEcpusE0ya0A7O4/WZ7W294AAAAASUVORK5CYII="
+}

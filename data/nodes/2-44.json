@@ -1,0 +1,66 @@
+{
+ "id": "2-44",
+ "history": {
+  "name": "赤リン",
+  "name_en": "Red phosphorus",
+  "kind": "tech",
+  "trunk": "2",
+  "trunk_name": "化学",
+  "year": 1847,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "マッチ箱のこする面には赤リンが塗ってある",
+  "hee1_en": "The striking surface of a matchbox is coated with red phosphorus",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "C33. 同じリンなのに燃えない（赤リンと安全マッチ）［2-44］",
+    "answer": "白リン（P4 の分子）は空気中で自然に燃え、猛毒。1847年ウィーンのシュレッターは、空気を断って約250℃に熱すると、つながった高分子の赤リンに変わることを見つけた。赤リンは空気中で燃えず、毒も弱い。白リンのマッチ工場では職人が「リン顎」になったが、1855年スウェーデンのルンドストレムが赤リンを箱のこする面に分けた安全マッチを作り、1906年のベルン条約で白リンのマッチは禁止に向かった。",
+    "hee": {
+     "1": "マッチ箱のこする面には赤リンが塗ってある。",
+     "2": "同じ元素でも、原子のつながり方で性質がまったく変わる（同素体）。",
+     "3": "白リンは暗い所で青白く光る。「リン」の名前は「光を運ぶもの」から。",
+     "4": "マッチ工場の職人を病気から守るために、国どうしの条約が作られた。"
+    },
+    "certainty": "シュレッター 1847 ◎／ルンドストレム 1855 ◎／ベルン条約 1906 ◎／リン顎 ◎",
+    "basis": "- Wikipedia「Allotropes of phosphorus」（赤リン・シュレッター）：https://en.wikipedia.org/wiki/Allotropes_of_phosphorus"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "0-15"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1847 アントン・シュレッター（ウィーン）が、白リン（v0.1 のリン、CHEMISTRY #8）を空気を断って約250℃に熱すると赤リンになることを見つけた。白リンと違って空気中で自然発火せず、毒も弱い。真空管のゲッター（1894年（伊特許、米特許は1895年）にマリニャーニが薬剤の蒸気で残留ガスを固める化学的真空法を発明。原特許の薬剤はヒ素・硫黄・ヨウ素で、赤リンは後の改良として伝わる⚠️）、安全マッチ（1855）"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "実験",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAcUlEQVR42mNgoCeY4mfwf4qfwX9kMSZSNGNjM9HF6Ul2Sv9xeYFozRTZTFPNLLgUe9moMTAwMGA1ZN6he4woBjAwMDAYCfChKHpx5QWGGAMDA8O5D58YyEoHeL3AwMDAIKEjQZyOI7RywbYjtxiGJgAAJ+sjiD8di54AAAAASUVORK5CYII="
+}

@@ -1,0 +1,68 @@
+{
+ "id": "9-43",
+ "history": {
+  "name": "MEMS",
+  "name_en": "MEMS",
+  "kind": "tech",
+  "trunk": "9",
+  "trunk_name": "半導体プロセス",
+  "year": 1993,
+  "year_range": "1954〜2010",
+  "year_uncertain": false,
+  "hee1": "スマホの中には、シリコンでできた小さなばねとおもりがあって、傾けると本当に動いている（S-003 で追加。出典：Proc. IEEE「Silicon as a Mechanical Material」（1982）、Wikipedia「Microelectromechanical systems」）",
+  "hee1_en": "Inside a smartphone are tiny springs and weights made of silicon, and they really move when you tilt it. (Added in S-003. Sources: Proc. IEEE \"Silicon as a Mechanical Material\" (1982), Wikipedia \"Microelectromechanical systems\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "9-08"
+    ]
+   ],
+   [
+    [
+     "9-27"
+    ]
+   ],
+   [
+    [
+     "9-20"
+    ]
+   ],
+   [
+    [
+     "9-15"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "シリコンを削って髪の毛より細いばねとおもりを作り、動いたときの電極のすき間（静電容量）の変化で、加速度や回転を測る。1954年にベル研究所でシリコン・ゲルマニウムの「押すと抵抗が変わる」性質（ピエゾ抵抗）を見つけ、1967年の共振ゲートトランジスタが最初の MEMS とされる。1993年、アナログ・デバイセズの ADXL50 が自動車のエアバッグ用に量産された。スマホでは2007年の iPhone の加速度センサー（画面の向き）、2010年の iPhone 4 の MEMS ジャイロ"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAUElEQVR42mNgGGjAyMDAwGBllfOfHM3Hjk1hZMIm4eDgRRIfwwWk8FFcMC1P5D8pfAwDyAHDwAAGSgOREZcEMSBr0htGJqo6nxiXEKuOfgAAmOIm0Q3XRSYAAAAASUVORK5CYII="
+}

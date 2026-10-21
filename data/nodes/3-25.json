@@ -1,0 +1,79 @@
+{
+ "id": "3-25",
+ "history": {
+  "name": "炭化カルシウム",
+  "name_en": null,
+  "kind": "tech",
+  "trunk": "3",
+  "trunk_name": "熱",
+  "year": 1892,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "カーバイドは、アルミを作ろうとした失敗から見つかった",
+  "hee1_en": null,
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "L6. カーバイドは失敗から（炭化カルシウム）［3-25］（D の KPR の道）",
+    "answer": "炭化カルシウム（カーバイド、CaC2）は、生石灰（CaO）と炭素を電気のアーク炉で約2000℃にして作る：CaO + 3C → CaC2 + CO。水をかけるとアセチレン（C2H2）が出る：CaC2 + 2H2O → C2H2 + Ca(OH)2。",
+    "hee": {
+     "1": "1892年、アメリカのウィルソンはアーク炉でアルミを作ろうとして、たまたまカーバイドを作った。",
+     "2": "同じ年に、フランスのモアッサンも電気炉でカーバイドを作った（モアッサンは1906年にフッ素の単離でノーベル化学賞）。",
+     "3": "カーバイドのアセチレンは、炭鉱や自転車のランプの明かりになり、酸素と燃やすと鉄を切るほど熱い炎になる。",
+     "4": "カーバイド1トンに約3000kWh の電気が要るので、工場は水力発電所のそばに建てられた。アセチレンは酢酸ビニル → ポリビニルアルコールなど化学品の出発点（KPR の材料）。"
+    },
+    "certainty": "反応式 ◎／1892 ウィルソン・モアッサン ◎／1t あたり約3000kWh ○（現代の炉で 2900〜3200kWh）",
+    "basis": "Wikipedia「Calcium carbide」（Production・History）、Ullmann's Encyclopedia「Calcium Carbide」"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "3-15"
+    ]
+   ],
+   [
+    [
+     "0-10"
+    ]
+   ],
+   [
+    [
+     "1-10"
+    ],
+    [
+     "0-12"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1892 トーマス・ウィルソン（アメリカ、アーク炉でアルミを作ろうとして偶然）とアンリ・モアッサン（フランス）。CaO + 3C → CaC2 + CO（約2000℃）、水で CaC2 + 2H2O → C2H2 + Ca(OH)2。1t に約3000kWh"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAo0lEQVR42mNgGGjAiEsiIizoP4y9YtU6nOpYcGn0cHNCFv6PyyAmdM0ebk4Mj179QlHk4ebE4OHmhOIqDANgmhkYGBjSYjwYZi3ZQVQYMOGSwGdIRFjQf5hrWNAC6j+y39NiPHDaDFX3HyUQYYbg0oQvNggCmLNhTsfwAjFpAMl7//GmA/Q0sGLVOkZ078EMZsHl5FlLdmAEIrYwYKQkGQ8OAACmzU03uY/S/QAAAABJRU5ErkJggg=="
+}

@@ -1,0 +1,53 @@
+{
+ "id": "3-13",
+ "history": {
+  "name": "断熱材",
+  "name_en": "Thermal insulation",
+  "kind": "tech",
+  "trunk": "3",
+  "trunk_name": "熱",
+  "year": 1867,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "珪藻土は、小さな生き物の殻が積もった、すきまだらけの土",
+  "hee1_en": "Diatomaceous earth is soil full of gaps, made from piled-up shells of tiny living things.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "3-12"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "珪藻土＝珪藻の殻（微小な穴だらけの SiO2）、1867 ノーベルがニトログリセリンを吸わせてダイナマイトに。石綿（アスベスト、Mg3Si2O5(OH)4 など）は優れた断熱材だったが中皮腫・肺がんの原因で、日本は2006年に原則禁止⚠️。代替のロックウールは玄武岩を約1500℃で溶かして繊維にしたもの（ハワイの火山の「ペレの毛」が天然の例）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "石綿は作れない（歴史の解説と警告のみ）、ロックウール（玄武岩→溶融→繊維）を採用。珪藻土は⛔新鉱石が要るので保留",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAaUlEQVR42mNgGPKAEZnj4tf1H5uiPZvKGAka4OLX9T+AYRlWRRsYonAawoismSVkCVYD/qyJwWkICzbFKApwGAoDTNgEWUKWENSI0wXYXEGSAcTaTFIswAxds2YbRvQSlQ5wAXzpYyQBAKs2JwzKQ0gpAAAAAElFTkSuQmCC"
+}

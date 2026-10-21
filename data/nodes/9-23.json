@@ -1,0 +1,76 @@
+{
+ "id": "9-23",
+ "history": {
+  "name": "MOSFET",
+  "name_en": "MOSFET",
+  "kind": "tech",
+  "trunk": "9",
+  "trunk_name": "半導体プロセス",
+  "year": 1959,
+  "year_range": "1959〜60",
+  "year_uncertain": false,
+  "hee1": "人類が作った物の中で、いちばん数が多いのが MOSFET",
+  "hee1_en": "Of all the things humans have ever made, the MOSFET is the most numerous.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "L13. 電圧で開く門（MOSFET）［9-23］（O-021、案の段階）",
+    "answer": "MOSFET は、ゲートの電圧で、ごく薄い酸化膜の下に電子の通り道（チャネル）を作り、ソースとドレインをつなぐトランジスタ。ゲートには電流が流れない。1959年にベル研のアタラとカーンが試作し、1960年に発表した。",
+    "hee": {
+     "1": "名前の M・O・S は金属（ゲート）・酸化膜・半導体の重なりの順。",
+     "2": "ゲートの酸化膜は約 0.1 µm（髪の毛の 1/500 くらい）。厚いと電圧が届かず、薄すぎると電気がもれる。",
+     "3": "1960年代はじめの MOS は、酸化膜に入りこんだナトリウムのイオンで動きが勝手に変わった。洗浄（RCA 洗浄 1965）と清浄な工程で直り、1960年代後半に実用になった。",
+     "4": "今のチップのトランジスタはほとんど全部 MOS（CMOS）。1つのチップに数百億個。"
+    },
+    "certainty": "アタラとカーン 1959 試作・1960 発表 ◎／ゲート酸化膜の厚さのめやす ○／Na イオンの問題と洗浄 ○",
+    "basis": "Computer History Museum「1960 – Metal Oxide Semiconductor (MOS) Transistor Demonstrated」、Wikipedia「MOSFET」（History）"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "9-15"
+    ]
+   ],
+   [
+    [
+     "9-18"
+    ]
+   ],
+   [
+    [
+     "9-14"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1959 モハメド・アタラとダウォン・カーン（ベル研）が試作、1960 発表。ゲートの電圧で酸化膜の下に電子の通り道（チャネル）を作る。当初は Na イオン汚染で不安定 → 洗浄[9-14]などで1960年代後半に解決"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "第3章以降の基本トランジスタ",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAn0lEQVR42mNgGNRgWp7I/2l5Iv/xqWGi1BJGXDZjE8+a9AZDPQs2hUvORDA4OHihiB04sI2BgWEKjVxgZZWDouEJjxdW/1pZbft/7NgURpj6Y8emMMK9EGOyAmEAgxfUyQgQY7KCIcaEgSHGROT/kjMQzTjD4MCBbXAFCAOwe4sF4exFcEEHBwYGBgYGPN7ahj8WIIZ4EZUOWFCjaUQCACWbNqExNWAeAAAAAElFTkSuQmCC"
+}

@@ -1,0 +1,61 @@
+{
+ "id": "3-05",
+ "history": {
+  "name": "高炉",
+  "name_en": "Blast furnace",
+  "kind": "tech",
+  "trunk": "3",
+  "trunk_name": "熱",
+  "year": 1709,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "コークスを燃やし強い風を送る高い炉で、鉄が液体で流れ出る",
+  "hee1_en": "In a tall furnace that burns coke with a strong blast of air, iron flows out as a liquid.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "3-04"
+    ]
+   ],
+   [
+    [
+     "3-12"
+    ],
+    [
+     "3-20"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "[1-09][1-10] を参照（炉が高い・強い送風・銑鉄が液体で出る）。1709 ダービーのコークス高炉。到達 ≈1500℃"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "決定：今はバニラの溶鉱炉（blast furnace）＝高炉の近似（≈1500℃扱い。CHEMISTRY #37）。→ 2026-10 IMP-33 で本物の高炉（マルチブロック [1-09]）ができた。バニラの溶鉱炉は「高温の窯（≈1450℃）」として残る（耐火れんがの焼成など）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAoUlEQVR42q2TsQ3DIBBFHyiFiwzDABQuXWWG1CjjRNSeIRNQ3AAM48IdKaxItgI2lvkdHHf/nfSBi1Klwvth0vr8+sTs21up2fZmewcpN0RfXUHXuAPY3vyt1Z6g5L5H0Y7gyL1EoQDEk+7z85Tz1I1Yh9IA1qEkxOpmCRHrFnO9TlrNEAlxk0p9hDl1Y/1fyAUlJzMspL81Tks8STyJFvoCxZc7LXEapZoAAAAASUVORK5CYII="
+}

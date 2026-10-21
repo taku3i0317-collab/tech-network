@@ -1,0 +1,63 @@
+{
+ "id": "B-22",
+ "history": {
+  "name": "光学式マウス",
+  "name_en": "Optical mouse",
+  "kind": "tech",
+  "trunk": "B",
+  "trunk_name": "枝",
+  "year": 1999,
+  "year_range": "1980〜1999",
+  "year_uncertain": false,
+  "hee1": "光学式マウスは、机の表面を1秒に1000枚以上写真に撮って、模様のずれから動きを計算している（S-002 で追加。出典：Wikipedia「Optical mouse」「IntelliMouse」）",
+  "hee1_en": "An optical mouse takes more than 1000 pictures of the desk surface per second and works out motion from how the pattern shifts (added in S-002. Sources: Wikipedia \"Optical mouse\", \"IntelliMouse\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "B-07"
+    ]
+   ],
+   [
+    [
+     "9-42"
+    ]
+   ],
+   [
+    [
+     "10-13"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1980年12月、MIT とゼロックスの研究者が別々に光学式マウスを発表したが、どちらも模様を印刷した専用の板が必要だった。1999年、アジレントの画像センサー（1秒に1500枚撮る）を使ったマイクロソフトのインテリマウス・エクスプローラーが、机の表面の模様を写真で比べて動きを出し、ふつうの机で使える光学式マウスが広まった"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAjUlEQVR42mNgGAUUA0Z8kmpqWv+R+bduXcNQz4JPo5eXH7rUf3SDGLFpRtYYotbBwMDAwLDmVgVcbNu2TXBDmPBpxgW8vPzgroR74cg0hv9rbmFqRrYZG0AJg23bNmHYhE0cAxyZxvAflzguOYIGIIsRZQgpBmINA2QF1j4hDEcY1qBoQBezycKfCIkGAOxzQEl936MZAAAAAElFTkSuQmCC"
+}

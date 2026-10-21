@@ -1,0 +1,92 @@
+{
+ "id": "P-29",
+ "history": {
+  "name": "エアコン",
+  "name_en": "Air conditioner",
+  "kind": "product",
+  "trunk": "P",
+  "trunk_name": "モノ（作品）",
+  "year": 1981,
+  "year_range": "1902〜1981",
+  "year_uncertain": false,
+  "hee1": "エアコンは冷たさを作るのではなく、部屋の熱を外へ運んでいる",
+  "hee1_en": "An air conditioner does not make cold; it carries the room's heat outside.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://ethw.org/Milestones:Inverter-Driven_Air_Conditioner,_1980-1981",
+   "https://www.asme.org/About-ASME/Engineering-History/Landmarks/274-Perkins-Vapor-Compression-Cycle-for-Refrigeration"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "3-23"
+    ]
+   ],
+   [
+    [
+     "4-21"
+    ]
+   ],
+   [
+    [
+     "9-41"
+    ]
+   ],
+   [
+    [
+     "9-44"
+    ]
+   ],
+   [
+    [
+     "10-14"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [
+   "2-48",
+   "3-22",
+   "3-23",
+   "4-18",
+   "4-21",
+   "6-03",
+   "9-44",
+   "10-14"
+  ],
+  "materials": [
+   "銅",
+   "アルミニウム",
+   "シリコン",
+   "ネオジム"
+  ],
+  "enabled_by": [],
+  "explained_by": [
+   "I-17"
+  ],
+  "frontier": false,
+  "real": "エアコンは冷たさを作るのではなく、冷媒というガスを圧縮・液化・膨張・蒸発させて、部屋の熱を外へ運ぶ（暖房のときは逆に外の熱を部屋へ運ぶ＝ヒートポンプ）。1981年、東芝が圧縮機のモーターの速さをインバーターで変えられる家庭用エアコンを世界で初めて量産し、IEEE マイルストーンに選ばれた"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "作品：部屋の熱を外へ（冬は外の熱を部屋へ）運ぶ",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAYUlEQVR42mNgGPKAkYGBgcHKwec/OZqPHdjCyALjePn4EKVpy6tPDD5ifAzbtmxhYGBgYGAi1VYfMT4UPhOlYcCC7jxSXQE3YNuWLUQ7ZxvN4tSirOs/KXzqGzJMXEAqAADJNTGRtElxTgAAAABJRU5ErkJggg=="
+}

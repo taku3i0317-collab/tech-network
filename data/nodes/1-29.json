@@ -1,0 +1,105 @@
+{
+ "id": "1-29",
+ "history": {
+  "name": "アルミニウム",
+  "name_en": "Aluminium",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": 1886,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "それまでアルミは金より高く、ナポレオン3世が来賓用の食器にした",
+  "hee1_en": "Until then aluminium cost more than gold, and Napoleon III used it for tableware for his guests of honor.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "F8. 金より高かった金属を電気で（ホール・エルー法・アルミニウム）［1-29］（［9-25］Al 配線の前提）",
+    "answer": "約960℃で溶かした氷晶石にアルミナを溶かし、炭素の電極で直流の大電流を流すと、アルミニウムが槽の底にたまる（2Al₂O₃ + 3C → 4Al + 3CO₂）。陽極の炭素は燃えて減る。アルミ1kg に約13〜15kWh。1886年にホールとエルーが別々に発明した。",
+    "hee": {
+     "1": "それまでアルミは金より高く、ナポレオン3世が来賓用の食器にした（と伝えられる）。",
+     "2": "ホール（米）とエルー（仏）は同じ1886年に同じ方法を見つけ、二人とも1863年生まれ・1914年没。",
+     "3": "アルミは「電気の缶詰」。工場は水力発電の近くに建てられ、リサイクルは新しく作る電気の約5%ですむ。",
+     "4": "1959年のノイスの IC はアルミを蒸着して配線した。1990年代に銅に変わるまで IC の配線はアルミ。"
+    },
+    "certainty": "反応・浴・陽極・電力量 ◎（ブリタニカ、International Aluminium Institute）／ホールとエルーの生没年 ◎／ナポレオン3世の食器 ○（よく引かれる逸話）／リサイクル約5% ◎",
+    "basis": "ブリタニカ「Hall–Héroult process」https://www.britannica.com/technology/Hall-Heroult-process 、ACS National Historic Chemical Landmark「Production of Aluminum: The Hall-Héroult Process」https://www.acs.org/education/whatischemistry/landmarks/aluminumprocess.html 、International Aluminium Institute https://international-aluminium.org/ （英語）"
+   }
+  ],
+  "people": [
+   {
+    "name": "ホール",
+    "tool": "⚡ 溶けた氷晶石の電解",
+    "year": "1886",
+    "intro": "1886年、アメリカで、溶かした氷晶石にアルミナを溶かして電気分解する方法を発明した",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACEElEQVR42mNgGAUjHTCSolhLTvQ/MequPXpNtLksxCo0UZX8rywphCH+/ssPbMr/E+sIRmJ9LiPCR1LQPnnziaiQYKKF5QwMDAwyInxERRnTQCfCoeWAZZNqGZZNqiXIbipJpV42hKUBmAXEgDuPXjDU9cwmKiGykBICUXnNKKGBS45qIVCRHPg/wNmcgYGBgUFFToKkEICBDXtPMnTMXc9IlRDgNAxl0NPUZLh0/TrD9/OrccoxPJpMvUR49zHCN9/Pr2bYOKkIxXKYb7HJIesl2wHKsqhBLyEigFMtuhy6XrIcsGHvScyoYGeDs1++/YBVHJdektIAUuL5X5Loj4iKn78YGBgYGC7ceMDAzcmBIU5M4iMpEUINgjsCOcuhF1SkWE5yLoBZvmxSLcPh2VtRxG1TveFyNGuQVCQHokQFNtAzfyPRvifZATBHiArxM8T7O6CIL9x4gOH1u48kWU4RqEgO/P/myIL/b44s+F+RHPifgZZtQgk5M7gFpfkhDAwMDAxxcTEoahYtWsLAwMDA0D1xDVzsxaNTjBQ5AGaxgIgKXOzwzh68Btq6l8DZH97cIegQFmItJgcg6f+PyyGMpFr85eMTBh5+GYyQsHUvgcvhAthChIWaPiYnRBhhDiDGckI+JFYNLDRePDrFOOCNUhb0+MEFfnx/z8DBKUhQHQMDA8OLx6cZODgFiXIAAPTK8QoIMxmJAAAAAElFTkSuQmCC"
+   },
+   {
+    "name": "エルー",
+    "tool": "⚡ 溶けた氷晶石の電解",
+    "year": "1886",
+    "intro": "1886年、フランスでホールと同じ方法を独立に発明した。1900年ごろ製鋼のアーク炉も実用にした",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACDElEQVR42mNgGAUjHTCSolhLTvQ/MequPXpNtLksxCo0UZX8rywphCH+/ssPbMr/E+sIRmJ9LiPCR1LQPnnziaiQYKKF5QwMDAwyInxERRnTQCfCoeWAZZNqGZZNqiXIbipJpV42hKUBmAXEgDuPXjDU9cwmKiGykBICUXnNKKGBS45qIVCRHPg/wNmcgYGBgUFFToKkEICBDXtPMnTMXc9IlRDgNAxl0NPUZLh0/TrD9/OrccoxPJpMvUR49zHCN9/Pr2bYOKkIxXKYb7HJIesl2wHKshIMdT2z4XEsISKAUy1Mrq5nNkNdz2wGZVkJyh2wYe9JzKhgZ4OzX779gFUcl16S0gAs8WjJif4X5OFARMXPXwwMDAwMF248YODmxBSH1QW78CQ+khLhtUevGZHLdeQsh15QkVIRkdQeQK+UAuSUUYP70V2Sa0KyGiQwR3z98YuBm4ON7GqYLAfAHPHz9x8G9MbJkzefSG4NkeUAbKFBqq9JdoCoqAQ8AVZUFDEwMDAwxMXFoKhZtGgJJOd09MHFXr9+wUiRA2AW8/EhCh9l/t/4S86PrHD2p08fCDqEhViLyQFI+v/jcggjqRZ//fqFgZubh+HEiX0o4hYWTnA5XABbiLBQ08fkhAgjzAHEWE7Ih8SqgYXG69cvGAe8UcqCHj+4wM+fPxjY2TkIqoMGLQM7OwdRDgAAg5T4sX7nUVkAAAAASUVORK5CYII="
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-24"
+    ]
+   ],
+   [
+    [
+     "6-05"
+    ]
+   ],
+   [
+    [
+     "2-10"
+    ]
+   ],
+   [
+    [
+     "1-07"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1886 ホール（米）とエルー（仏）が独立に発明。約960℃で溶かした氷晶石にアルミナを溶かして電解 2Al2O3+3C→4Al+3CO2（陽極の炭素が燃えて減る）。1kg に約15kWh"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "重",
+  "missing": "",
+  "item": "hall_heroult_cell",
+  "recipes": [
+   "作業台：鋼インゴット×5 ＋ 黒鉛棒 ＋ 耐火れんが（珪石れんが）×2 ＋ 銅ケーブル → ホール・エルー電解槽"
+  ],
+  "machine_recipes": [
+   "ホール・エルー電解槽「ホール・エルー法」：アルミナ×2 ＋ 氷晶石 16回で1個 ＋ 黒鉛棒 2回で1本 → アルミニウムのインゴット（100 kW × 540 秒＝54,000 kJ）。約960℃の氷晶石にアルミナを溶かして電解。2Al2O3 + 3C → 4Al + 3CO2。15kWh/個"
+  ],
+  "placeholder": "省略：CO2 とフッ化物の排ガスは表さない。電流・電圧（本物は約4〜5V・数万〜数十万A の直流）も表さない。1つのブロックで、槽を何十台も並べた工場（ポットライン）を表す。",
+  "game_text": "",
+  "hee_game": {
+   "note1": "溶けた氷晶石にアルミナを溶かし、電気でアルミニウムを取り出す槽。とても電気を食う。",
+   "note2": "電気 100kW。アルミナ2 → アルミニウム1（約1kg、540秒＝15kWh）。氷晶石1で16回ぶんの浴、黒鉛棒1（陽極）で2回。2Al2O3 + 3C → 4Al + 3CO2。浴は電流の熱で約960℃に保たれる。",
+   "note3": "1886年、アメリカのチャールズ・マーティン・ホール（22歳）とフランスのポール・エルー（23歳）が、別々に同じ方法を見つけた。二人は同じ1863年に生まれ、同じ1914年に亡くなった。それまでアルミは金や銀より高く、ナポレオン3世は特別な客にだけアルミの食器を出したという。",
+   "note4": "アルミ1kg に約13〜15kWh（家庭の1日分ほど）の電気を使うので、アルミの工場は水力発電の近く（ナイアガラ・ノルウェー・カナダ）に建てられた。アルミは「電気の缶詰」と呼ばれ、リサイクルすると新しく作る電気の約5%ですむ。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAPklEQVR42mO0cvD5z0ABYGFgYGCQE2MjS/OjV78YmBgoBANvAAs2f+ED6OE1DMJgEMYCqalyuIQBodSHDwAATjsK7cMZ9Q0AAAAASUVORK5CYII="
+}

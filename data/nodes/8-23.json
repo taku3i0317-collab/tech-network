@@ -1,0 +1,71 @@
+{
+ "id": "8-23",
+ "history": {
+  "name": "キログラム原器",
+  "name_en": "International Prototype of the Kilogram",
+  "kind": "tech",
+  "trunk": "8",
+  "trunk_name": "精密・計測",
+  "year": 1889,
+  "year_range": "1879〜1889",
+  "year_uncertain": false,
+  "hee1": "2019年まで、1キログラムはパリの金庫にある金属のかたまり1個の重さだった（NET-06 で追加。出典：Wikipedia「International Prototype of the Kilogram」、EPFL Graph Search）",
+  "hee1_en": "Until 2019, one kilogram was the weight of a single lump of metal in a vault in Paris. (Added in NET-06. Sources: Wikipedia \"International Prototype of the Kilogram\", EPFL Graph Search)",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "O66. 金庫の中の1キログラム（キログラム原器）［8-23］",
+    "answer": "1799年、フランスはメートル原器といっしょに白金の円柱を「1キログラム」としてパリの公文書館に納めた。1889年の第1回国際度量衡総会で、白金90%・イリジウム10%の円柱（高さ・直径 約39mm）が国際キログラム原器と決まり、パリ郊外の国際度量衡局の金庫にしまわれ、各国には複製が配られた（日本は No.6）。ところが100年ほど比べ続けると、原器と複製の差が約50µg まで広がっていた。原器は定義で「ちょうど1kg」なので、どちらが変わったのか確かめられない。2019年、キログラムはプランク定数で決め直された。",
+    "hee": {
+     "1": "2019年まで、1キログラムはパリの金庫にある金属のかたまり1個の重さだった。",
+     "2": "原器は3重のガラスのふたの中にあり、比べるときだけ取り出して決まった方法で洗った。",
+     "3": "50µg は指紋1つぶんくらい。10億分の50 のずれ。",
+     "4": "今はワット天秤（キッブル天秤）やシリコン球の原子の数でプランク定数から質量を決める。"
+    },
+    "certainty": "1799・1889・Pt90/Ir10 ◎／約50µg の差 ◎／日本 No.6 ○",
+    "basis": "- Wikipedia「International Prototype of the Kilogram」：https://en.wikipedia.org/wiki/International_Prototype_of_the_Kilogram"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-20"
+    ]
+   ],
+   [
+    [
+     "8-22"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "白金90%・イリジウム10%の合金（白金だけより硬い）の円柱。1882年から国際度量衡局（BIPM）の金庫に置かれた「KIII」が国際キログラム原器に選ばれ、1889年の第1回国際度量衡総会で認められた。2019年まで、世界の「1キログラム」はこの1個の重さだった"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "軽＋実験",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAZklEQVR42mNgoBAwYhO0KOv6j038RFcZI0ETcWkmJEecAixqWIhViMv5LLg0x/3oQhUs6/qPzRAmSmNh4A1gwRnflAQi0YmGal6AxXlJUgRDDwMD3sSErOZEVxkjI7EpkBJv0hYAAIJNLabHtRWcAAAAAElFTkSuQmCC"
+}

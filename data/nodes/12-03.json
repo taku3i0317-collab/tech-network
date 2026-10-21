@@ -1,0 +1,58 @@
+{
+ "id": "12-03",
+ "history": {
+  "name": "鉄筋コンクリート",
+  "name_en": "Reinforced concrete",
+  "kind": "tech",
+  "trunk": "12",
+  "trunk_name": "建築・土木",
+  "year": 1867,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "鉄筋コンクリートは植木鉢から生まれた",
+  "hee1_en": "Reinforced concrete was born from flower pots",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "12-02"
+    ]
+   ],
+   [
+    [
+     "1-26"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1867 ジョセフ・モニエ（庭師）が植木鉢を鉄網入りで特許。コンクリートは押す力に強く、鉄は引く力に強い。熱膨張率がほぼ同じなので割れない"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "強度の高い建材",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAbklEQVR42mNgGPKAkYGBgSEiLOg/PkUrVq1jxCXHAmN4uDlhVbBj1z7CLrBy8PlPjvOPHdjCyMTAwMAgJ8bGkBbjwcDAwMCQFuOBlX3swBbGYwe2MKKzmSgNxIE3gOJAZIEFIr5oJCodEIrvYQwAVcsk28hJwSoAAAAASUVORK5CYII="
+}

@@ -1,0 +1,61 @@
+{
+ "id": "15-07",
+ "history": {
+  "name": "無線電信",
+  "name_en": "Wireless telegraphy",
+  "kind": "tech",
+  "trunk": "15",
+  "trunk_name": "通信・情報",
+  "year": 1895,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "タイタニックの救助は無線のおかげで間に合った人がいた",
+  "hee1_en": "In the Titanic disaster, some people were rescued in time thanks to radio",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [
+   {
+    "name": "マルコーニ",
+    "tool": "📡 アンテナ",
+    "year": "1895",
+    "intro": "1895年に無線通信を始め、1901年に大西洋を越えて電波を送った",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACAUlEQVR42mNgGAUjHTCSolhLTvQ/MequPXpNtLksxCo0UZX8rywphCH+/ssPbMr/E+sIRmJ9LiPCR1LQPnnziaiQYKKF5QwMDAwyInxERRnTQCfCoeWAZZNqGZZNqiXIbipJpV42hKUBmAXEgDuPXjDU9cwmKiGykBICUXnNKKGBS45qIVCRHPg/wNmcgYGBgUFFToKkEICBDXtPMnTMXc9IlRDgNAxl0NPUZLh0/TrD9/OrccoxPJpMvUR49zHCN9/Pr2bYOKkIxXKYb7HJIesl2wHKsqhBLyEigFMtuhy6XrIcsGHvScyoYGeDs1++/YBVHJdektIAUuL5X5Loj4iKn78YGBgYGC7ceMDAzcmBIU5M4iO5Oq5IDkRxBD7QM38jUZaTnAuQweHZW1H4tqnetG+QEBMKpPieZAfAHCEqxM8Q7++AIr5w4wGG1+8+kmQ5RaAiOfD/myML/r85suB/RXLgfwZatgkl5MzgFpTmhzAwMDAwxMXFoKhZtGgJAwMDA0P3xDVwsRePTlGWC2AWC4ioIBLfzh68Btq6l8DZH97cIegQFmItJgcg6f+PyyGMpFr85eMTBh5+GYyQsHUvgcvhAthChIWaPiYnRBhhDiDGckI+JFYNLDRePDrFOOCNUhb0+MEFfnx/z8DBKUhQHQMDA8OLx6cZODgFiXIAANl+5wQxzPblAAAAAElFTkSuQmCC"
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "15-06"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1895 グリエルモ・マルコーニ、1901 大西洋横断の無線。1912 タイタニック号の遭難信号"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "線なしで遠くに文字を送る",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAiElEQVR42r1QMQ6AMAg8TV/VydnwLEdn40OIs4PxWzi1IUgUo5GJu/a4A+Cvyh2Jx7d3wm2CXOGQeJsgwziLxuEEr6u4lRs8WuGTI2qxNyR8g33lJhxVO1lXi5N96ImwMFccdvYcvJ3dBJrsiQBAdF9S5I7EcskIT712LrweUgcszLfrRf48rgPonFAq/7SVqgAAAABJRU5ErkJggg=="
+}

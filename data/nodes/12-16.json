@@ -1,0 +1,71 @@
+{
+ "id": "12-16",
+ "history": {
+  "name": "エレベーターの非常止め",
+  "name_en": "Elevator safety brake",
+  "kind": "tech",
+  "trunk": "12",
+  "trunk_name": "建築・土木",
+  "year": 1854,
+  "year_range": "1852〜1854",
+  "year_uncertain": false,
+  "hee1": "エレベーターを発明したのはオーチスではなく、オーチスが作ったのは『ロープが切れても落ちない』つめの仕組みだった。（S-004 で追加。出典：asme.org、theelevatormuseum.org、invent.org）",
+  "hee1_en": "Otis did not invent the elevator; what he made was a catch that stops it from falling even if the rope breaks. (Added in S-004. Sources: asme.org, theelevatormuseum.org, invent.org)",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [
+   {
+    "name": "エリシャ・オーチス",
+    "tool": "🛗 非常止め",
+    "year": "1854",
+    "intro": "1854年、ロープが切れてもエレベーターが落ちない仕組みを公開実験で見せた（1811〜1861）",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACDElEQVR42mNgGAUjHTCSolhLTvQ/MequPXpNtLksxCo0UZX8rywphCH+/ssPbMr/E+sIRmJ9LiPCR1LQPnnziaiQYKKF5QwMDAwyInxERRnTQCfCoeWAZZNqGZZNqiXIbipJpV42hKUBmAXEgDuPXjDU9cwmKiGykBICUXnNKKGBS45qIVCRHPg/wNmcgYGBgUFFToKkEICBDXtPMnTMXc9IlRDgNAxl0NPUZLh0/TrD9/OrccoxPJpMvUR49zHCN9/Pr2bYOKkIxXKYb7HJIesl2wHKshIMdT2z4XEsISKAUy1Mrq5nNkNdz2wGZVkJyh2wYe9JzKhgZ4OzX779gFUcl16S0gAs8WjJif4X5OFARMXPXwwMDAwMF248YODmxBSH1QW78CQ+khLhtUevGZHLdeQsh15QkVIRkdQeQK+UAuSUUYP70V2Sa0KyGiQwR3z98YuBm4ON7GqYLAfAHPHz9x8G9MbJkzefSG4NkeUAbKFBqq9JdoCoqAQ8AVZUFDEwMDAwxMXFoKhZtGgJJOd09MHFXr9+wUiRA2AW8/EhCh9l/t/4S86PrHD2p08fCDqEhViLyQFI+v/jcggjqRZ//fqFgZubh+HEiX0o4hYWTnA5XABbiLBQ08fkhAgjzAHEWE7Ih8SqgYXG69cvGAe8UcqCHj+4wM+fPxjY2TkIqoMGLQM7OwdRDgAAg5T4sX7nUVkAAAAASUVORK5CYII="
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "8-19"
+    ]
+   ],
+   [
+    [
+     "0-18"
+    ]
+   ],
+   [
+    [
+     "1-11"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1852年ごろ、エリシャ・オーチスは工場の荷物用リフトのために、ロープが切れると強いばね（荷馬車用の鋼のばね）が開いて、ガイドレールのぎざぎざ（ラチェット）にかみ合う装置を作った。1854年、ニューヨークの博覧会（クリスタルパレス）で自分が乗った台のロープを切らせ、台が少し落ちただけで止まるのを見せた。よく『エレベーターの発明者』と言われるが、昇降機そのものは古代からあり、オーチスが作ったのは『落ちない仕組み』。今の非常止めは、速さを見張る調速機とくさびのブレーキに発展している"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAApklEQVR42sWTQQqDMBBFX4oncSE9g4h0HXoKD+YpgmuRkCN04cKTFO2mkQltTEsD/bv8GV4+MwnkUH25bjH/qAZwSkFSF+4ANxrVtWUS0rXl5kaj/LkIqOsNCdH1HYDzGoKjCfppUQC6qQAY7MxgZ6TXT4uKJvCFwc54mNCWTPDpEGVv3i38JUHxjvqceADUTbVvxI1GHb5E3yglvZe038TP/hd+1gP5UmISJpkOBgAAAABJRU5ErkJggg=="
+}

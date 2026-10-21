@@ -1,0 +1,63 @@
+{
+ "id": "9-41",
+ "history": {
+  "name": "パワー半導体とインバータ",
+  "name_en": "Power semiconductors and inverters",
+  "kind": "tech",
+  "trunk": "9",
+  "trunk_name": "半導体プロセス",
+  "year": 1980,
+  "year_range": null,
+  "year_uncertain": true,
+  "hee1": "電気自動車は、電気を1秒に何千回もオン・オフしてモーターを回す （IMP-24 で追加、network_proposals N-4・N-5）",
+  "hee1_en": "An electric car turns electricity on and off thousands of times a second to drive its motor. (Added in IMP-24, network_proposals N-4, N-5)",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "9-49"
+    ]
+   ],
+   [
+    [
+     "9-23"
+    ]
+   ],
+   [
+    [
+     "4-08"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "大電流・高電圧をオン・オフできるトランジスタ（パワー MOSFET・IGBT）で、直流を細かく切り替えて交流を作り（インバータ）、モーターの回る速さを変える（年・出典は未調査 ⚠️）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "重（モーターの速さを変える装置）",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "EV（[P-03]）・電車 [14-14] のモーター制御",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAoElEQVR42u2RsQ3DIBBFP4gpKFK6iJjkCheeIWNlBgoXTIIorkzBFJGc6iJyxo6TtPkV6N9/pw/AjzLtZRjOi5yZyyHPauLldN/c1vNcSycaUQFQAAAs7WDPYy7GCIBo/Kh7SjOYi1lV8DnC5/gWIHWsDtcwoYZpF+JzxPXmXgESFm1B9JxtA1oaosPPX9hTC+ktcUdevBdcAVKa8dd3egDRYUKx4r97CwAAAABJRU5ErkJggg=="
+}

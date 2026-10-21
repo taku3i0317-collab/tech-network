@@ -1,0 +1,63 @@
+{
+ "id": "B-16",
+ "history": {
+  "name": "パソコン",
+  "name_en": "Personal computer",
+  "kind": "product",
+  "trunk": "B",
+  "trunk_name": "枝",
+  "year": 1977,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "机の上に乗るコンピュータが、1977年にいっせいに売り出された",
+  "hee1_en": "Computers that sit on a desk all went on sale at once in 1977.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "10-13"
+    ]
+   ],
+   [
+    [
+     "10-12"
+    ]
+   ],
+   [
+    [
+     "15-11"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1977 アップル II・コモドール PET・タンディ TRS-80 が同じ年に売り出された。1つのチップの CPU（マイクロプロセッサ）と DRAM、テレビのような画面とキーボード"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAjklEQVR42mNgoBAwInOm+Bn8J0ZTzqYLcH0s6JKTbvzCqzlPgw2Fz4RN0aoMM6K9gNWAsBmnKDOAFDDwBrCQGoBHDlzATAew+LdxMCDKVpghOZsuMMJdYONgwBA24xRWF6DHyqoMM7ghjKSkQHwpkvK8MMXP4P+kG78Y8jTYGAjRyLYzkpqRqOp8BgYGBgBmyzi4llzS4QAAAABJRU5ErkJggg=="
+}

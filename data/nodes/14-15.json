@@ -1,0 +1,63 @@
+{
+ "id": "14-15",
+ "history": {
+  "name": "ロケット方程式",
+  "name_en": "Rocket equation",
+  "kind": "idea",
+  "trunk": "14",
+  "trunk_name": "輸送",
+  "year": 1903,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "ロケットは押す空気がない宇宙でも、自分の噴射の反動で進む（IMP-24：T-3 で「ロケット」から「ロケット方程式」に変更）",
+  "hee1_en": "Even in space, with no air to push on, a rocket moves by the recoil of its own exhaust (IMP-24: changed from \"Rocket\" to \"Rocket equation\" in T-3)",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "6-07"
+    ]
+   ],
+   [
+    [
+     "2-39"
+    ]
+   ],
+   [
+    [
+     "14-09"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1903 ツィオルコフスキーのロケット方程式（届く速さは、噴射の速さと「燃料を積んだ重さ÷空の重さ」の対数で決まる）。モノとしての液体燃料ロケット（1926 ゴダード）はネットワーク担当の [P-02]（products.md）。その後 1942 V2（エタノール＋液体酸素）、1957 スプートニク"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "実験（噴射の速さと燃料の量で届く速さを試す）",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "解説＋ミニ実験",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAZ0lEQVR42mNgoAawcvD5T65eJkoNYYExjh3YwkhI8ZFpDHBLbLIYGFEMIEYjTBNWF+DTjE0jRhiQoxmvAcRoxmkAsZoJeoEsA0ixnfouINZ25FTLSE4y9vLxYdi2ZQtRqZfqmQ8DAABIciht8UFPBwAAAABJRU5ErkJggg=="
+}

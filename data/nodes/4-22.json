@@ -1,0 +1,78 @@
+{
+ "id": "4-22",
+ "history": {
+  "name": "誘導モーター",
+  "name_en": "Induction motor",
+  "kind": "tech",
+  "trunk": "4",
+  "trunk_name": "動力・電気",
+  "year": 1888,
+  "year_range": "1885〜1888",
+  "year_uncertain": false,
+  "hee1": "誘導モーターの回る部分には電線がつながっていないのに、見えない『回る磁石』に引っぱられて回っている。（S-004 で追加。出典：ethw.org、en.wikipedia.org、patents.google.com）",
+  "hee1_en": "No wires are connected to the spinning part of an induction motor, yet it turns, pulled by an invisible \"rotating magnet\". (Added in S-004. Sources: ethw.org, en.wikipedia.org, patents.google.com)",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [
+   {
+    "name": "ガリレオ・フェラリス",
+    "tool": "🌀 回転磁界",
+    "year": "1885",
+    "intro": "1885年ごろ回転する磁界を考え、特許を取らずに公開した（1847〜1897）",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACDElEQVR42mNgGAUjHTCSolhLTvQ/MequPXpNtLksxCo0UZX8rywphCH+/ssPbMr/E+sIRmJ9LiPCR1LQPnnziaiQYKKF5QwMDAwyInxERRnTQCfCoeWAZZNqGZZNqiXIbipJpV42hKUBmAXEgDuPXjDU9cwmKiGykBICUXnNKKGBS45qIVCRHPg/wNmcgYGBgUFFToKkEICBDXtPMnTMXc9IlRDgNAxl0NPUZLh0/TrD9/OrccoxPJpMvUR49zHCN9/Pr2bYOKkIxXKYb7HJIesl2wHKshIMdT2z4XEsISKAUy1Mrq5nNkNdz2wGZVkJyh2wYe9JzKhgZ4OzX779gFUcl16S0gAs8WjJif4X5OFARMXPXwwMDAwMF248YODmxBSH1QW78CQ+khLhtUevGZHLdeQsh15QkVIRkdQeQK+UAuSUUYP70V2Sa0KyGiQwR3z98YuBm4ON7GqYLAfAHPHz9x8G9MbJkzefSG4NkeUAbKFBqq9JdoCoqAQ8AVZUFDEwMDAwxMXFoKhZtGgJJOd09MHFXr9+wUiRA2AW8/EhCh9l/t/4S86PrHD2p08fCDqEhViLyQFI+v/jcggjqRZ//fqFgZubh+HEiX0o4hYWTnA5XABbiLBQ08fkhAgjzAHEWE7Ih8SqgYXG69cvGAe8UcqCHj+4wM+fPxjY2TkIqoMGLQM7OwdRDgAAg5T4sX7nUVkAAAAASUVORK5CYII="
+   },
+   {
+    "name": "ニコラ・テスラ",
+    "tool": "🌀 誘導モーター",
+    "year": "1888",
+    "intro": "1888年、交流の誘導モーターのアメリカの特許を取った（1856〜1943）",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACH0lEQVR42mNgGAUjHTCSolhCROg/MepevHlHtLksxCqUkxT7LyLIjyH+7cdPbMr/E+sIRmJ9LsDHA+cfWdSEVZ1NXB2c/eHTF6JCgolalqPLCfDxEBVlTKSkAXyWk6KGbAfQAhDtgAUtWQy0UEu0A1TkJGgSAiykKEZO5ehxjSxHSgjgzSYVyYH/N+w/S3LiuvPoBUNCzTQGBgYGhgBHY4aOuesZqRICnIahDHqamgyXrl9n+H5+NU45hkeTqRcCumryDMqyEvA08OLNBwYJEQEU36LL3Xn0goGBgYHh7uMXDJdvPcQbAgQTobKsBFrBJICn0BLAq5csB2zYexIzKtjZ4OyXbz9gFcell6Q0gBR0/0sS/eHi33/+YmBgYGC4cOMBAzcnB4Y4zHJ8QU9SIoQaBHcEcpbDVgwTaznJuQBm+ZFFTQyHZ29FEbdN9YbL0axBUpEciBIV2EDP/I1E+55kB8AcISrEzxDv74AivnDjAYbX7z6SZDlFoCI58P+bIwv+vzmy4H9FcuB/Blq2CUVFJeAWVFQUMTAwMDDExcWgqFm0aAkkwXb0wcVev37BSJEDYBbz8SEKmBMn9uE10MLCCc7+9OkDQYewEGsxOQBJ/39cDmEk1eKvX78wcHPzYISEhYUTXA4XwBYiLNT0MTkhwghzADGWE/IhsWpgofH69QvGAW+UsqDHDy7w8+cPBnZ2DoLqoEHLwM7OQZQDAL+e6Bi5aORvAAAAAElFTkSuQmCC"
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "4-08"
+    ]
+   ],
+   [
+    [
+     "10-01"
+    ]
+   ],
+   [
+    [
+     "4-10"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "向きの違う2組のコイルに、タイミング（位相）をずらした交流を流すと、磁石の向きがくるくる回る『回転磁界』ができる。中の金属の筒（かご形の回転子）には電磁誘導で電流が流れ、磁界に引っぱられて回る。ブラシ（こすれる接点）がいらず丈夫なので、扇風機・洗濯機・工場・エレベーターの主役になった。イタリアのガリレオ・フェラリスが1885年に考え1888年3月にトリノ科学アカデミーで発表、ニコラ・テスラも同じ1888年5月1日に特許を取った。どちらが先かは今も議論がある"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAmElEQVR42mNgoBAwInOsHHz+E6Pp2IEtjBgGWDn4/A9guUWUrRv+qMENYYFp9vLxYWDY0cfwy6MIr2a2HX0MXj4+DAwMDP+PHdjCyIRLES76l0cR3BArB5//TJQG4iA1ABaQ2GhYOGzbsoXh2IEtjBRHI0ZC8vLxYdi2ZQtWjTA55ITEgq4IXQEa+I8zDJCTMbYkTUh+CAMA04FMjhVeeI4AAAAASUVORK5CYII="
+}

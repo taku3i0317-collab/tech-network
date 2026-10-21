@@ -1,0 +1,87 @@
+{
+ "id": "1-09",
+ "history": {
+  "name": "高炉",
+  "name_en": "Blast furnace",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": -450,
+  "year_range": "-450〜1350",
+  "year_uncertain": false,
+  "hee1": "炉を高くして風を強く送ると、鉄が溶けて流れ出てくる",
+  "hee1_en": "Make the furnace taller and blow air in harder, and the iron melts and flows out.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "M5. 高くして風を送ると、鉄が溶けて流れ出る（高炉・銑鉄）［1-09］",
+    "answer": "炉を高くし、羽口から強い風を送りつづけると、炉の中は約1500℃になる。鉄に炭素が溶け込むと融点が約1150℃に下がるので、鉄は液体で流れ出る（銑鉄、炭素約4%）。石灰石は鉱石の中の土（SiO2）と結びついてスラグになり、鉄より軽いので上に浮いて分かれる。中国では紀元前5世紀ごろから高炉で銑鉄を作って鋳物にし、ヨーロッパで広まったのは14世紀ごろ。",
+    "hee": {
+     "1": "炉を高くして風を強く送ると、鉄が溶けて流れ出てくる。",
+     "2": "英語の pig iron（ぶたの鉄）は、砂の型に流した細い鉄が、子ぶたが母ぶたに並ぶように見えたことから。",
+     "3": "1709年、ダービーは木炭のかわりにコークスを使い、森の木を切らずに鉄を作れるようにした（コークス高炉［1-10］）。",
+     "4": "のちの高炉は羽口を水で冷やす銅にし、吹きこむ風を先に温めた（熱風炉、1828年）。"
+    },
+    "certainty": "融点が下がる理由・スラグの反応 ◎（教科書）／中国 紀元前5世紀・欧州 14世紀 ○（TECH_TREE［1-09］）／ダービー 1709・熱風 1828 ◎／pig の名前の由来 ○",
+    "basis": "TECH_TREE［1-09］［3-05］［1-10］、ブリタニカ「blast furnace」https://www.britannica.com/technology/blast-furnace 、ブリタニカ「iron processing」https://www.britannica.com/technology/iron-processing"
+   }
+  ],
+  "people": [],
+  "media": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Chinese_Fining_and_Blast_Furnace.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Chinese_Fining_and_Blast_Furnace.jpg",
+    "kind": "画像",
+    "author": "不明（Commons に作者の記載なし）",
+    "license": "Public domain",
+    "description": "1637年の中国の本『天工開物』の絵。左は鉄をとかす高炉、右はとけた鉄をかき混ぜて錬鉄にする炉。",
+    "verified": "2026-10-20 Commons API で PD を確認"
+   }
+  ],
+  "requires": [
+   [
+    [
+     "1-06"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-51"
+  ],
+  "frontier": false,
+  "real": "中国は紀元前5世紀頃、欧州は14世紀。炉を高くし強く送風すると、炭素が溶け込んで融点が約1150℃に下がり鉄が液体で出る（銑鉄、C約4%）。硬いが脆い→鋳物"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "重（最初のマルチブロック）",
+  "missing": "",
+  "item": "blast_furnace_hearth",
+  "recipes": [
+   "作業台：bricks×7 ＋ 鉄インゴット → 高炉の炉床（湯口）"
+  ],
+  "machine_recipes": [
+   "高炉の炉床（湯口）「高炉で銑鉄」：raw_iron ＋ 木炭×1.33333 ＋ 方解石 4回で1個 → 銑鉄 ＋ 高炉スラグ 4回に1個できる（20 秒）。マルチブロック 3×3×4。1400℃以上（羽口の外の水車ふいご）。電気なし"
+  ],
+  "placeholder": "近似：温度・時間・石灰石の量はゲームの値。炉のれんがは焼いたれんが（耐火れんがは [3-12] でのちの炉に）",
+  "game_text": "マルチブロック炉（幹3）。石灰石[0-10]をフラックス（スラグ化剤）に",
+  "hee_game": {
+   "note1": "れんがを高く積んだ炉の、いちばん下の口。ここから溶けた鉄が流れ出る。",
+   "note2": "これを正面の下の真ん中に置き、まわりをれんがで 3×3×4 に積む。2段目の4面は羽口、中は空ける。羽口の外に水車ふいごを置いて、ずっと風を送る。画面を開くと足りない場所が光る。",
+   "note3": "炉を高くして風を強く送りつづけると約1500℃になる。炭素が鉄に溶けこんで融点が約1150℃に下がり、鉄が液体で流れ出る（銑鉄、炭素約4%）。石灰石は鉱石の土をスラグにして、鉄から分ける。",
+   "note4": "中国では紀元前5世紀ごろから高炉で銑鉄を作り、型に流して鋳物にした。ヨーロッパに広まったのは14世紀ごろ。1709年のダービーは木炭のかわりにコークスを使い、森の木を切らずにすむようにした（この炉もコークスで動く）。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAjklEQVR42qVSQQ6AMAjDhRMP8SW+zgdz1YNhgQrLdE2WDDIodN3OY79oAUxEJCI9oao99neLDSJCqvo0yIqzXNas+cAzW6ExIewtV50ROH7QoCoeMRvaaP8RggZfgHq1FfbXBJWAmQZhhT/sYYVMYW8eO1kjnvkFZPX5ht5GtsylpQ+8jauJ0No8a9/KpTcGC3ZrWcvGcAAAAABJRU5ErkJggg=="
+}

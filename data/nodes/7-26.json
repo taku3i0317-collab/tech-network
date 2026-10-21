@@ -1,0 +1,61 @@
+{
+ "id": "7-26",
+ "history": {
+  "name": "ホログラフィー",
+  "name_en": "Holography",
+  "kind": "tech",
+  "trunk": "7",
+  "trunk_name": "光学",
+  "year": 1947,
+  "year_range": "1947〜1964",
+  "year_uncertain": false,
+  "hee1": "お札やカードのキラキラ光る模様は、光の波をまるごと記録したホログラム（O-011 で追加。出典：IEEE Milestones「Invention of Holography, 1947」、Wikipedia「Holography」）",
+  "hee1_en": "The shiny patterns on banknotes and cards are holograms that record a whole light wave (added in O-011. Sources: IEEE Milestones \"Invention of Holography, 1947\", Wikipedia \"Holography\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [
+   {
+    "name": "デニス・ガボール",
+    "tool": "🌈 ホログラフィー",
+    "year": "1947",
+    "intro": "1947年、光の波をまるごと記録するホログラフィーを考えた（1900〜1979）",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACV0lEQVR42u2WP2hTURTGfy8GNSRQKa/FLtXQgA5F/DMI8gqaEhUaaDPokKHBhqwVsUOWgm4OdXC1iE2QODhooQGpGArNoih2KJIhEsnSWGOx0hJ0uQ7te+TPS/LuS5zsN513zjv3O/fj3nMuHOAA/zsUu4nxaEj09fYA8H1rmwdPXtpay2mX+M5kEICt7R0A+np7hJ1CnLLkM7fGa4h1RMYv66aQKeKQHfJWuHTuNA5FuZf9lLvfFQXC4bAAmBg9Y1mpidGLFCsuAZBKpVqq4bCyoKZp+AaPS50VTdO6fwbmVzcMOzYy0DR25YTSnWsYj4bE4IUAAInEi4Z4+mEEgLG7iYZYJHIDgOLHNy1vhkNGgUxmifLGFzKZJYNYJ6+PWYVUAX5/EHVgCL8/aCjw6PY101jX+sD5Y78AuLkvtxnSdbF8sQTs5RU7VeDV23cNPteRw4b97cdPU3+zXCkFqg5PTROq/P4DwFruK27X0Qa/Tm6lIyrd7oQAc08XLc8E6WGkY3U+XfM9Ehv79+PYigoyu7f1HtDHcdX022tUiysdvQtsPUjK2QVRzi6IeDQk7K7jtNaArguziSdOXd23S7wvVERj53ytdFSATjw8fLbGXyjkAQjEHuNRTzLnB7fbg9frq19CtCvEKUNcjaHAJJ7MsmHz/EPDP1X5TQtxyhIXCnmzneL1+prGWhXitEpcjdnZaVPf1NR0yzyzQhwmQend16vQDtVcDtlrY7Z7K7G2h3B9fa3lj+XyJqraTzL5zPCVcp8BSCY3Dd/u7g4rK8uoar+lAv4C8dHyN2QTlVYAAAAASUVORK5CYII="
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "7-09"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "物から来る光と、もとの光を重ねてできる干渉の縞を記録すると、光の強さだけでなく波の位置（位相）まで残り、あとで光を当てると立体の像がよみがえる。1947年、イギリスの BTH 社の研究所のデニス・ガボールが、電子顕微鏡の解像度を上げる方法として考えた（1948年 Nature、1971年ノーベル物理学賞、IEEE マイルストーン）。そろった光が無かったので、実用はレーザー（[7-13]、1960年）を待ち、1962〜64年にアメリカとソ連で立体のホログラムが作られた。お札やカードの偽造防止の光る模様もホログラム"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAm0lEQVR42r2Tyw3EIAxEB0RRSEsJe0wVnFcUQQFUkTI4pIztxDlEVlhhPkpWmRMHzzMeDPAv5QTKCTRbb0MkADBsfr2XA4SVnIeaMQM4C7m781A5QYSUxi0G9QOQRmKIZKxu0IJ8vlE0snQPMMqi29mGSOXVy/OUeZQ+y0jB2VDvRGsc3StyHmqUg767wWaUx2UAv/8Z4Pw/eVY7aZVGdq64qhYAAAAASUVORK5CYII="
+}

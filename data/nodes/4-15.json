@@ -1,0 +1,63 @@
+{
+ "id": "4-15",
+ "history": {
+  "name": "リチウムイオン電池",
+  "name_en": "Lithium-ion battery",
+  "kind": "tech",
+  "trunk": "4",
+  "trunk_name": "動力・電気",
+  "year": 1991,
+  "year_range": "1985〜1991",
+  "year_uncertain": false,
+  "hee1": "充電とは、リチウムのイオンを黒鉛のすき間にしまい込むこと （IMP-24 で追加、network_proposals N-3）",
+  "hee1_en": "Charging means tucking lithium ions into the gaps in graphite. (Added in IMP-24, network_proposals N-3)",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-42"
+    ]
+   ],
+   [
+    [
+     "1-07"
+    ]
+   ],
+   [
+    [
+     "4-07"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1985 吉野彰の原型、1991 ソニーが量産（TECH_TREE [B-10] の記述より。2019 ノーベル化学賞）。リチウムイオンが正極と黒鉛の負極のあいだを行き来する。存命の人は人物に載せない"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "重（充放電する電池ブロック）",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "軽くて大容量の電池 → EV（[P-03]）・スマホ [B-10]",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAd0lEQVR42mNgoBAwoguoqWn9x6fh1q1rjDgNUFPT+j+v4BpeG5MmaKEYwoJN0ZpbFVg1h6h1YIgx4bMNmwaiDQhR62Cw9gkhaAgLLok1tyoYGLZ04PQOUV4gpJmgAcQAig1gISYG8HmFhRL/4zSAmPinWl4YeAAA3U8jORShAxsAAAAASUVORK5CYII="
+}

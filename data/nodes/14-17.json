@@ -1,0 +1,58 @@
+{
+ "id": "14-17",
+ "history": {
+  "name": "空気ブレーキ",
+  "name_en": "Air brake",
+  "kind": "tech",
+  "trunk": "14",
+  "trunk_name": "輸送",
+  "year": 1869,
+  "year_range": "1869〜1873",
+  "year_uncertain": false,
+  "hee1": "空気ブレーキは「空気が抜けたら止まる」ように作られていて、壊れたときも安全なほうに働く。（S-004 で追加。出典：en.wikipedia.org、britannica.com）",
+  "hee1_en": "The air brake is built to \"stop when the air leaks out,\" so even when it breaks it fails on the safe side. (Added in S-004. Sources: en.wikipedia.org, britannica.com)",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "14-05"
+    ]
+   ],
+   [
+    [
+     "5-01"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1869年4月13日、ジョージ・ウェスティングハウスが鉄道の空気ブレーキの特許を取った。機関車の圧縮機の空気を1本の管で全部の車両に送り、運転士がまとめてブレーキをかけられる。その後の自動空気ブレーキ（1872〜73年）は、管が切れて空気が抜けるとブレーキがかかる「安全側に倒れる」しくみ。よくある間違い：1869年の型はまだこの自動式ではなかった。今の大型バスやトラックも空気ブレーキを使う"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAfUlEQVR42tVSMQ7AIAgE01c5OTc8lzg7+S06kSiBapomTZngICfcCfB1oCa5kHgDvTFuMUUEqzieELtbeYO5kFjcYknBk2gi0dy+prX2kzYq862AI/mITxqcRAAAEp2XC4ndKI1FZYbeGKO1PfHSrgPROUsLVy7ga//gv3EBfktK/wJqoaAAAAAASUVORK5CYII="
+}

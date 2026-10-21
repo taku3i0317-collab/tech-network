@@ -1,0 +1,87 @@
+{
+ "id": "2-32",
+ "history": {
+  "name": "ポジ型フォトレジスト",
+  "name_en": "Positive photoresist",
+  "kind": "tech",
+  "trunk": "2",
+  "trunk_name": "化学",
+  "year": 1940,
+  "year_range": "1940〜1944",
+  "year_uncertain": false,
+  "hee1": "光が当たったところだけ溶ける材料。もとは図面をコピーする紙のための発明",
+  "hee1_en": "A material that dissolves only where light hits it. It was first invented for paper used to copy drawings.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "F19. 光で溶けるようになる液とスピンコート（ポジ型レジスト・塗布）［2-32］［9-19］",
+    "answer": "ポジ型レジストは、ノボラック樹脂に感光剤 DNQ を溶かした液。DNQ は樹脂がアルカリに溶けるのを抑えているが、紫外線で分解して酸になると、光の当たった所だけがアルカリに溶けるようになる。ウェハーを毎分数千回転させてレジストを薄く均一に広げ（スピンコート、約1µm）、温めて溶剤を飛ばす。",
+    "hee": {
+     "1": "ピザ生地を回して広げるのと同じ方法で、ウェハーに液を塗る。",
+     "2": "工場の照明が黄色いのは、レジストが紫外線や青い光で感光しないようにするため（イエロールーム）。",
+     "3": "DNQ のポジ型は 1940年代にカレ社のズースが複写用の感光紙として考えた。IC の主力になったのは 1970年代後半の投影露光から（それまではネガ型の KPR・KTFR）。",
+     "4": "光の当たった所が消えるのでポジ（写真のポジと同じ向き）、残るのがネガ型。"
+    },
+    "certainty": "DNQ／ノボラックのしくみ ◎（教科書）／ズース 1940年代 ○（年は出典で 1940〜44 とばらつく）／IC の主力は 1970年代後半 ○／スピンコートの始まりの年 △（未確認）",
+    "basis": "Wikipedia「Photoresist」https://en.wikipedia.org/wiki/Photoresist 、Wikipedia「Diazonaphthoquinone」https://en.wikipedia.org/wiki/Diazonaphthoquinone 、Wikipedia「Spin coating」https://en.wikipedia.org/wiki/Spin_coating （英語）"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "2-28"
+    ]
+   ],
+   [
+    [
+     "2-20",
+     "6-11"
+    ]
+   ],
+   [
+    [
+     "2-02"
+    ],
+    [
+     "2-08"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1940年代、カレ社のオスカー・ズースがナフトキノンジアジド系のポジ型を発明（複写用ジアゾ感光紙。年は出典で1940〜44年とばらつく）、1970年代後半、AZ 系ポジ型（ヘキスト系の Azoplate 開発・シップレー販売）が投影露光への移行とともに IC の主力に。光で DNQ→（ヴォルフ転位）→インデンカルボン酸、アルカリに溶けるようになる。露光部が溶けるので膨潤せず解像度が高い"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "軽（日なたで感光するので運び方に気をつける）",
+  "missing": "",
+  "item": "positive_resist",
+  "recipes": [
+   "作業台：ノボラック（フェノール樹脂） ＋ DNQ（ジアゾナフトキノン） ＋ キシレン ＋ 空のガラス瓶 → ポジ型フォトレジスト"
+  ],
+  "machine_recipes": [],
+  "placeholder": "近似：溶剤はキシレン（本物のポジ型は酢酸セロソルブなど）。感光した DNQ から作っても、作業台では見分けない。",
+  "game_text": "感光液アイテム（第3章の露光→現像で使う）",
+  "hee_game": {
+   "note1": "光が当たった所だけが、あとでアルカリの液に溶けるようになる液。日なたで持ち歩くとだめになる。",
+   "note2": "ガラス瓶入り（使うと瓶が戻る）。作業台で ノボラック1＋DNQ1＋キシレン1＋空のガラス瓶1 → 1。レジスト塗布機 [9-19] でウェハーに塗る。日なた（昼・真上が空）で持つと感光して使えなくなる（チェストや屋内なら大丈夫）。GHS：引火性（溶剤）。",
+   "note3": "ノボラック樹脂はそのままでもアルカリに少し溶けるが、DNQ がまざると溶けにくくなる。光（紫外線）が当たると DNQ が分解して酸になり、そこだけがアルカリに溶けやすくなる。だから光の当たった所が消える＝ポジ型。",
+   "note4": "1940年代、カレ社のズースが複写用のジアゾ感光紙として考えた。IC の主力になったのは、1970年代後半に投影露光へ移ってから（それまではネガ型の KPR・KTFR）。⚠️ ゲームでは v0.3 の露光の流れ（LITHO_DESIGN）に合わせて先にポジ型を使う。工場の照明が黄色いのは、レジストが感光しないため。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAARUlEQVR42mNgoBAw4pKYlifyH5mfNekNI9EGdLmo/ccmXrbnFoZ6FlwuiKtRQuEvarmHVR0TpWEwasCoAXhTIq6UN/gAAG/mDSGL0AuMAAAAAElFTkSuQmCC"
+}

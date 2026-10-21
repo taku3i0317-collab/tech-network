@@ -1,0 +1,54 @@
+{
+ "id": "1-27",
+ "history": {
+  "name": "鉛",
+  "name_en": "Lead",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": -4000,
+  "year_range": "-4400〜-3800",
+  "year_uncertain": true,
+  "hee1": "昔の水道管と活字の金属。体に悪い",
+  "hee1_en": "The metal of old water pipes and printing type. It is bad for your body",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "焙焼 2PbS+3O2→2PbO+2SO2 → 炭素還元 PbO+C→Pb+CO。融点327℃で古代から製錬。ヨーロッパ最古の方鉛鉱の処理は紀元前4400〜4300年（ルーマニア・ピエトレレ）。近東ではそれ以前（後期新石器）から鉛利用の例があり、最古の鉛の像はアビドスの紀元前3800年頃"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": "lead_ingot",
+  "recipes": [
+   "かまど：一酸化鉛（リサージ） を焼く → 鉛インゴット"
+  ],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {
+   "note1": "昔の水道管と活字の金属。体に悪い。",
+   "note2": "Pb。やわらかく重く（11.3 g/cm³）、327℃で溶けるので古代から製錬されてきた。酸にあまり溶けないので、硫酸の鉛室[6-12]、フッ酸の容器[2-10]、鉛蓄電池[4-07]に使う。鉛は毒：体にたまり、脳や神経を傷つける。",
+   "note3": "ローマ人は鉛で水道管を作った。ラテン語の plumbum から英語の plumbing（配管）と元素記号 Pb が生まれた。グーテンベルクの活字（1450年ごろ）は鉛・錫・アンチモンの合金。有鉛ガソリンや鉛の塗料は、鉛中毒のため20世紀に禁止された。",
+   "note4": "方鉛鉱はよく銀を含む。先に鉛を製錬し、灰吹法で銀を分けた：鉛を空気中で溶かして PbO にし、骨灰の皿に吸わせると銀だけが残る[1-32]。古代の銀（日本の石見銀山も）の多くはこうして作られた。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAWElEQVR42mNgGAUUA0Z0ASsHn//4NBw7sAVFDwu6Zi8fH0KW/kc2BM5QU9P67+XlR5Szt23bxHDr1jVGBgYGBiZKw2DgDWDEFvpvnt1jEJFSYiAlNkYyAAC57Bfv4kW5RgAAAABJRU5ErkJggg=="
+}

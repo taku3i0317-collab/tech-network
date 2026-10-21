@@ -1,0 +1,71 @@
+{
+ "id": "3-16",
+ "history": {
+  "name": "真空炉",
+  "name_en": "Vacuum furnace",
+  "kind": "tech",
+  "trunk": "3",
+  "trunk_name": "熱",
+  "year": 1929,
+  "year_range": "1929〜1960",
+  "year_uncertain": true,
+  "hee1": "空気を抜いて熱すると、物がさびずに焼ける",
+  "hee1_en": "Heat things after pumping out the air, and they bake without rusting",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "5-04"
+    ]
+   ],
+   [
+    [
+     "5-11"
+    ]
+   ],
+   [
+    [
+     "5-12"
+    ]
+   ],
+   [
+    [
+     "3-14"
+    ],
+    [
+     "4-12"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "空気を抜いて加熱すると酸化せず、気体が出る反応が進む（Mg 蒸留[1-39]、W/Mo の焼結[1-28][1-31]、ウェハーのアニール）。1929年にレイセオンが最初の真空炉を発注（イプセン社史）、工業的な普及は1950年代末〜60年代⚠️"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "電気炉＋真空ポートのブロック。幹5 の圧力表で「中真空」の用途",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAsUlEQVR42sVSsRGEMAxTKDMSNKk5l1xmyAQMkQmYgaP0fZ0GRqLlK7jEOFDiUhfJkiPg6zEa2Do6ACB6xjjThW+JzatA6+joidRtP+abSCPJ0XPVbvR8ubs5kJudDehoAACsvCDtk+qk0TblZADoaICzQXWlCuTkJ6wQeMou3akC+XetvNyIJ5bfohoh7VMhIo9Y7cH5jbXHzgaMMxVdKBxsiU0eRWaW5Ncqy9Gq/P38AWqyT8aBaCZQAAAAAElFTkSuQmCC"
+}

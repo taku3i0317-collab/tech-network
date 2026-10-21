@@ -1,0 +1,63 @@
+{
+ "id": "9-46",
+ "history": {
+  "name": "人を感じるセンサー",
+  "name_en": "Sensors that detect people",
+  "kind": "tech",
+  "trunk": "9",
+  "trunk_name": "半導体プロセス",
+  "year": 1970,
+  "year_range": "1960年代〜1970年代",
+  "year_uncertain": true,
+  "hee1": "人感センサーは「人の形」ではなく、体から出る赤外線の「変化」を感じているので、じっとしていると明かりが消えることがある。（S-004 で追加。出典：logosfoundation.org、en.wikipedia.org）",
+  "hee1_en": "Motion sensors don't sense \"a human shape\" but \"changes\" in the infrared from your body, so the light may go off if you stay still. (added in S-004. Sources: logosfoundation.org, en.wikipedia.org)",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "3-09"
+    ]
+   ],
+   [
+    [
+     "7-05"
+    ]
+   ],
+   [
+    [
+     "9-23"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "焦電体という結晶は、温度が変わると表面に電気が出る。体温の人が動くと届く赤外線が変わるので、それを電気の変化として感じる（止まっている人は感じにくい）。1970年に、金属をつけたプラスチックの分割した鏡で視野を細かく分け、人が横切ると信号が出るしくみを作ったとされる（出典1つ）。自動ドアではマイクロ波を当てて、はね返りの変化で近づく人を感じる型も使う"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAk0lEQVR42mNgoBZQU9P6r6am9Z9UfUyUWswCs93Lyw8m9v/WrWuMMM6RaQz/bbIYGMlyAbLmI9MY/uN0AQMDA8O2bZuIMggWTjBXwg2ACeALSGxepU4g4gI2WQyMMOcfmcbwf80tP+yBiBzqyGyYIQwMDAxJE7RIdwE6CFHrYEAEuhbpBqy5VYHE20S6AfiieggDAG+tOltNGrTYAAAAAElFTkSuQmCC"
+}

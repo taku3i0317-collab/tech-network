@@ -1,0 +1,79 @@
+{
+ "id": "2-29",
+ "history": {
+  "name": "ゴム",
+  "name_en": "Rubber",
+  "kind": "tech",
+  "trunk": "2",
+  "trunk_name": "化学",
+  "year": 1839,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "ゴムに硫黄を入れて熱すると、暑くてもべたつかない丈夫なゴムになる",
+  "hee1_en": "Add sulfur to rubber and heat it, and it becomes strong rubber that does not get sticky even when hot.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "C2. 硫黄で橋をかけると暑くてもべたつかない（加硫ゴム）［2-29］",
+    "answer": "天然ゴムはパラゴムノキの樹液（ラテックス）に浮いたポリイソプレンの粒。酸を入れると粒がくっついて生ゴムになる。生ゴムは長い分子がからまっているだけなので、暑いと流れてべたつき、寒いと硬くなる。硫黄を混ぜて熱すると、硫黄が分子どうしを橋でつなぎ（加硫）、網の目になって温度で変わりにくい弾性のあるゴムになる（1839 グッドイヤー）。",
+    "hee": {
+     "1": "ゴムに硫黄を入れて熱すると、暑くてもべたつかない丈夫なゴムになる。",
+     "2": "1830年代のアメリカのゴム製品は、夏に溶けてにおい、ブームがすぐ終わった。",
+     "3": "中南米の人々は3500年以上前、ラテックスに朝顔の汁を混ぜて弾むボールを作った（一種の加硫）⚠️。",
+     "4": "1876 ウィッカムが種を持ち出し、東南アジアの農園が今の天然ゴムの大部分を作る。"
+    },
+    "certainty": "加硫のしくみ・グッドイヤー 1839（特許 1844）◎／ハンコックの特許 1843 ○／中南米のゴムボール（朝顔の汁）○、年代 △ → ⚠️／ウィッカム 1876 ○",
+    "basis": "- Wikipedia「Vulcanization」：https://en.wikipedia.org/wiki/Vulcanization"
+   },
+   {
+    "title": "C3. ゴムを酸で輪にすると、レジストの土台になる（環化ゴム）［2-29］→［2-30］",
+    "answer": "生ゴム（ポリイソプレン）を溶剤に溶かして硫酸などの酸と熱すると、鎖の中の二重結合が隣どうしつながって6員環ができる（環化）。弾性はなくなるが、硬く、溶剤によく溶けて薄い膜にしやすい樹脂になる。これにビスアジド（光で窒素が抜けて鎖を橋かけする）を混ぜたのが KTFR（1957ごろ コダック）で、1960年代の IC 作りの主力のネガ型レジストだった。",
+    "hee": {
+     "1": "タイヤと同じゴムが、少し形を変えると IC の模様を写す材料になった。",
+     "2": "加硫ゴムは硫黄の橋で網になっていて溶けないので、環化には加硫していない生ゴムを使う。",
+     "3": "環化は1910年代から研究され、ハリエスが1919年に硫酸での作り方を発表した。のち p-トルエンスルホン酸（1927）、塩化スズ・塩化チタン・塩化鉄（1964）なども使われた。",
+     "4": "KTFR は現像液でふくらむので約2μm より細い線が引けず、のちにポジ型（ノボラック/DNQ）に交代した（[2-30] の省略欄）。"
+    },
+    "certainty": "環化のしくみ・ハリエス 1919・ほかの触媒 ○（スリランカ国立科学財団の資料）／KTFR の年・成分 ○（TECH_TREE [2-30] の本物欄）",
+    "basis": "- スリランカ国立科学財団の資料（環化ゴムの歴史と触媒：Harries 1919、Brusion 1927、Stolka 1964、Stevens and Miller 1938）：https://dl.nsf.gov.lk/bitstreams/f0025022-abd5-4868-9d43-824a22aa5b18/download"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-23"
+  ],
+  "frontier": false,
+  "real": "天然ゴム＝ポリイソプレン (C5H8)n。パラゴムノキの樹皮に傷をつけてラテックス（白い樹液）を採る。1839 グッドイヤーが加硫（硫黄で鎖を橋かけ）を発見。合成ポリイソプレンは1950年代（チーグラー・ナッタ触媒）"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "実験＋軽",
+  "missing": "",
+  "item": "rubber_log",
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": "近似：ラテックスはすぐ採れる（本物は斜めの切り込みから何時間もかけて器にためる）。",
+  "game_text": "決定：新規の木「ゴムの木」をジャングルに生成。幹から樹液（ラテックス）を採取→ 酸で凝固 → 生ゴム → 硫黄と加熱で加硫ゴム",
+  "hee_game": {
+   "note1": "ジャングルに生えるゴムの木。幹に傷をつけると白い樹液が出る。",
+   "note2": "ジャングルに生える。フリントか黒曜石の剥片で右クリックすると ラテックスが採れる（剥片が少し傷む）。燃料や木炭にもなる。",
+   "note3": "パラゴムノキ（Hevea brasiliensis）は南米アマゾンの木。樹皮の内側の管に、ゴムの粒が水に浮いた白い乳液（ラテックス）が流れていて、傷をつけるとにじみ出る。",
+   "note4": "1876年、イギリスのウィッカムがブラジルから種を持ち出し、キュー植物園で育てた苗が東南アジアに植えられた。今の天然ゴムの大部分は東南アジアの農園で作られている。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA3UlEQVR42o1SOw7CMAx9RD1EFTFHHRiqHoEBIUYGxDkZIsTAEaIMDFVmFOUWMLlygg14sfXs+PNeVufT8QUAIc6YxmHx/2IdAPTWYWJewwBgGgf01uFgHUpOMGAPSk7orQOAJS45obWS04IbKEaNyLcYxVWD/W4rTuFNKEdmWoDH/BzNDC+83u7iFtIZZJ02oSWV13FyTfuIb0GF2oCqQSuZtL7KAde93ULjoDqB6yqp8E0Vo+kbH0+Mm7X4C0UOpIkaJsookRh/fKJqA+8vVSLEGd5fEOKMEOePGorfd1Ga2xk6Q68AAAAASUVORK5CYII="
+}

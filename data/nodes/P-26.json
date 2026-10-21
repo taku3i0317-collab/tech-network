@@ -1,0 +1,91 @@
+{
+ "id": "P-26",
+ "history": {
+  "name": "自動運転車",
+  "name_en": "Self-driving car",
+  "kind": "product",
+  "trunk": "P",
+  "trunk_name": "モノ（作品）",
+  "year": 2020,
+  "year_range": "1980年代〜2026",
+  "year_uncertain": false,
+  "hee1": "2005年の無人自動車レースで優勝した車は、砂漠のコースを人を乗せずに約7時間で走り切った",
+  "hee1_en": "The car that won the 2005 driverless car race finished the desert course in about 7 hours with no one aboard.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://techcrunch.com/2020/10/08/waymo-starts-to-open-driverless-ride-hailing-service-to-the-public/",
+   "https://www.cmu.edu/traffic21/pdfs/aimag2009_urmson-compressed.pdf"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "14-16"
+    ]
+   ],
+   [
+    [
+     "7-23"
+    ]
+   ],
+   [
+    [
+     "B-17"
+    ]
+   ],
+   [
+    [
+     "9-42"
+    ]
+   ],
+   [
+    [
+     "B-11"
+    ]
+   ],
+   [
+    [
+     "9-41"
+    ]
+   ],
+   [
+    [
+     "4-15"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [
+   "シリコン",
+   "リチウム",
+   "銅",
+   "ネオジム"
+  ],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": true,
+  "real": "2020年10月、アメリカのアリゾナ州で、運転席に人のいない無人タクシーが、決められた地域の中で一般の人を乗せ始め、2020年代にはアメリカや中国のいくつかの都市で同じような無人タクシーが走っている。いっぽう多くの市販車の機能は、人が見張っていることが前提の「運転支援」（自動運転のレベル0〜5 はアメリカの自動車技術会 SAE の基準）。画面の中で考えていた AI（[10-16]）が、体を持って現実の世界で動き出す流れの一つ"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "作品：周りを見て、人を乗せずに決められた道を走る",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAfUlEQVR42tVRQQrAIAxLZa/y5Fn6vr2kePYw/JY7CV1xurHtsICUJiGtCryFbUX9wnsv0da7nm7wzOiebk+W8IEPEyMzkggAoGShYZoPXG2A7nv6ok2RufFVb9B6q5csRC1AiZeQRFCykNOErfr0PDh7QHvPkeZmv3BV+zF2IxBTkbPiOEsAAAAASUVORK5CYII="
+}

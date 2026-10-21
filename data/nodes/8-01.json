@@ -1,0 +1,97 @@
+{
+ "id": "8-01",
+ "history": {
+  "name": "旋盤",
+  "name_en": "Lathe",
+  "kind": "tech",
+  "trunk": "8",
+  "trunk_name": "精密・計測",
+  "year": 1797,
+  "year_range": "1797〜1800",
+  "year_uncertain": false,
+  "hee1": "刃物を送りねじで動かす旋盤が、人の手のふるえを取り除いた",
+  "hee1_en": "A lathe that moves the cutter with a lead screw removed the shaking of human hands.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "O14. 手のふるえを機械が消した（旋盤）［8-01］（回転ポンプの前提）",
+    "answer": "旋盤は材料を回して刃物でけずる機械。1797〜1800年ごろモーズリーが、全部金属で、刃物台を送りねじで動かす旋盤を作り、人の手のふるえなしに同じ寸法の部品を何個でも作れるようにした。",
+    "hee": {
+     "1": "刃物を送りねじで動かす旋盤が、人の手のふるえを取り除いた。",
+     "2": "旋盤は自分の送りねじを、もっと正確に作り直せる。これが精密機械の進歩のくり返し。",
+     "3": "モーズリーの工房からは、ホイットワース（ねじの規格）やナスミス（蒸気ハンマー）など次の世代の機械技術者が育った。",
+     "4": "回転ポンプのローターとケースのすき間は数十μm。旋盤の精度が真空の質を決める。"
+    },
+    "certainty": "モーズリーのねじ切り旋盤 1797〜1800 ◎／弟子（ホイットワース・ナスミス）◎／ローターのすき間 ○（一般的な値）",
+    "basis": "- Wikipedia「Henry Maudslay」：https://en.wikipedia.org/wiki/Henry_Maudslay"
+   }
+  ],
+  "people": [
+   {
+    "name": "モーズリー",
+    "tool": "🔩 送りねじ",
+    "year": "1797ごろ",
+    "intro": "1797〜1800年ごろ、刃物台を送りねじで動かす全金属の旋盤を作った",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACCklEQVR42mNgGAUjHTCSothJS+I/Mer2XXtBtLksxCoMMpH7b64sgiH+9P03bMr/E+sIRmJ9riMjQFLQXnnygaiQYKKF5QwMDAw6MgJERRnTQCfCoeWAuroKhrq6CoLsqIQE6mVDWBqAWUAMuPPoBcOyBQuISogspIRAU1MHSmjgkqNaCFQkB/7/9vg6VguJCQEGBgYGLllNho656xmpEgKchqEMepqaDJeuX2f4fn41TjmGR5Npkwi/n1/NsHFSEYrldx69wClHk2woISJAlhxVywFOdjY4++XbD1jFqeKAjrnrGa88+YAZFT9/MTAwMDBcuPGAgZuTA0McuT7AlwBJSoR3Hr1gUJGTQBEz0FCguCRkIbZm27D3JENJoj9c7PDsrShqbFO94ewNe08yYAs5ihskFcmB/5EdgQ30zN9IMNjJdgDMEaJC/Azx/g4o4gs3HmB4/e4jSZZTBCqSA/+/ObLg/5sjC/5XJAf+Z6Blm1BCzgxuQWl+CAMDAwNDXFwMippFi5YwMDAwMHRPXAMXe/HoFCNFDoBZLCCigkh8O3vwGmjrXgJnf3hzh6BDWIi1mByApP8/Locwkmrxl49PGHj4ZTBCwta9BC6HC2ALERZq+picEGGEOYAYywn5kFg1sNB48egU44A3SlnQ4wcX+PH9PQMHpyBBdQwMDAwvHp9m4OAUJMoBAOm85nw/TSS7AAAAAElFTkSuQmCC"
+   }
+  ],
+  "media": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Maudslay_screw-cutting_lathes_of_circa_1797_and_1800.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Maudslay_screw-cutting_lathes_of_circa_1797_and_1800.png",
+    "kind": "画像",
+    "author": "Unknown photographer",
+    "license": "Public domain",
+    "description": "ヘンリー・モーズリーが1797年ごろと1800年ごろに作った、ねじ切り旋盤の写真。",
+    "verified": "2026-10-20 Commons API で PD を確認"
+   }
+  ],
+  "requires": [
+   [
+    [
+     "1-26"
+    ],
+    [
+     "1-11"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "ヘンリー・モーズリーの全金属製ねじ切り旋盤（1797〜1800頃。刃物台を送りねじで動かし、人の手の震えを除いた＝精密機械の母）"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "重",
+  "missing": "",
+  "item": "lathe",
+  "recipes": [
+   "作業台：鋼インゴット×2 ＋ 送りねじ ＋ 鉄インゴット×2 ＋ 電動モーター → 旋盤"
+  ],
+  "machine_recipes": [
+   "旋盤「ローターを削る」：鋼インゴット → ポンプのローター（0.75 kW × 30 秒＝23 kJ）。送りねじの刃物台で削る（モーズリー型）",
+   "旋盤「規格ねじを切る」：鋼インゴット ＋ 送りねじ（減らない） → 規格ねじ×4（0.75 kW × 30 秒＝23 kJ）。親ねじと同じねじ山を何本でも（ホイットワースの規格 55°）"
+  ],
+  "placeholder": "近似：モーズリーの旋盤は人力や水車・蒸気の動力。ここでは電気のモーター。今けずれるのは回転ポンプのローターだけ。",
+  "game_text": "",
+  "hee_game": {
+   "note1": "材料をぐるぐる回して、刃物でけずって丸い部品を作る機械。",
+   "note2": "電気 750W。鋼のインゴット → ポンプのローター（30秒）。左下の「親ねじ」の入口に送りねじを入れておくと、鋼 → 規格ねじ×4 [8-02]（送りねじは減らない）。作った部品には、この旋盤のくせの寸法の誤差が付く。作り方：鋼×2＋送りねじ＋鉄×2＋モーター。",
+   "note3": "1797〜1800年ごろ、イギリスのヘンリー・モーズリーは、全部を金属で作り、刃物台を送りねじで動かす旋盤を作った。人の手のふるえがなくなり、同じ寸法のねじや部品をいくつでも作れるようになった。「工作機械の母」と呼ばれる。",
+   "note4": "旋盤は自分の送りねじを、自分でより正確に作り直せる（よいねじ → よい部品 → もっとよいねじ）。この「自分より正確な機械を作る」くり返しが、精密機械から露光装置のステージ（nm の位置決め）までつながっている。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAPklEQVR42mO0cvD5z0ABYGFgYGAwM9AhS/OpC1cYmBgoBANvAAs2f+ED6OE1DMJgEMYCqalyuIQBodSHDwAAq7sK7XVvQHoAAAAASUVORK5CYII="
+}

@@ -1,0 +1,57 @@
+{
+ "id": "6-13",
+ "history": {
+  "name": "接触法硫酸",
+  "name_en": "Contact process sulfuric acid",
+  "kind": "tech",
+  "trunk": "6",
+  "trunk_name": "ガス",
+  "year": 1831,
+  "year_range": "1831〜1915",
+  "year_uncertain": false,
+  "hee1": "白金などの触媒を使うと、とても濃い硫酸が作れる",
+  "hee1_en": "With a catalyst such as platinum, you can make very strong sulfuric acid",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-20",
+     "6-12"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-22",
+   "I-39"
+  ],
+  "frontier": false,
+  "real": "SO2→SO3 を白金触媒（1831）、後にV2O5（1915）。濃硫酸・発煙硫酸"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAYklEQVR42mNgoCWwcvD5b+Xg8x+fGiZ8mrGxibaZGDGiNeOTY8GmcFqeCFZDllwiIQyyJr1hxEYTbQDMFeg0UQYQaztOA4i1HWcg4rLRyoHhP9XTASOxhhw7sIWRvnmBbgAAfDA4QQmd/c4AAAAASUVORK5CYII="
+}

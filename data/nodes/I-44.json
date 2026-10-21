@@ -1,0 +1,67 @@
+{
+ "id": "I-44",
+ "history": {
+  "name": "電子の波動性と電子回折",
+  "name_en": "Wave nature of electrons and electron diffraction",
+  "kind": "idea",
+  "trunk": "I",
+  "trunk_name": "発見・考え方",
+  "year": 1927,
+  "year_range": "1924〜1928",
+  "year_uncertain": false,
+  "hee1": "電子は粒なのに、波のように回折の模様を作る",
+  "hee1_en": "Electrons are particles, yet they make diffraction patterns like waves.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://www.nobelprize.org/prizes/physics/1929/summary/",
+   "https://www.nobelprize.org/prizes/physics/1937/summary/"
+  ],
+  "refs": [],
+  "people": [
+   {
+    "name": "菊池正士",
+    "tool": "🌊 電子線回折",
+    "year": "1928",
+    "intro": "1928年、電子線の回折の像を撮った（菊池線）",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACJ0lEQVR42mNgGAUjHTCSolhCROg/MepevHlHtLksxCqUkxT7LyLIjyH+7cdPbMr/E+sIRmJ9LsDHA+fvmJCDVZ1HwRQ4+8OnL0SFBBO1LEeXE+DjISrKmEhJA/gsJ0UN2Q6gBSDaAdNKwxlooZZoByhJi9IkBFhIUYycytHjGlmOlBDAm02Kotz+bztxg4GBgYGBX1QZQ35ltScDAwMDQ3jrdgy5j6/vMjAwMDB4WWgw9C3bxUiVRLhv3xaGN8/vMuzbtwVuMcxydDmqhYCWkhSDkrQoQ+WCM1hD4N7T11jl2hNMGO49fc1w7d4zvCHAQmzigwU3NoAud+/pa7jea/eeUZYLthy+iCHGwc4KZ7969wmrOC69JIUAUtD9z4twgYv/+PmbgYGBgeHynScM3JzsGOIwy/EFPcnVcVGUG4oj8IFJK/YQZTnJ5QAyOL/2NArfMNiU9g0SYkKBFN+T7ACYI0QEeBiiPCxQxJftOMHw5sMXkiynCBRFuf1/sKnr/4NNXf+Lotz+M9CyTejk5AG3wNvbiYGBgYEhLi4GRc2iRUsYGBgYGLZu3YdUcu5gpCgRwizW0TGAi6FbjC7+8OE7lLYhIYewEGsxOQBJP06HMJJq8f37dxgUFVUYamvzUMSbmyfB5XCBK1cuYEQNCzV9TE6IMMIcQIzlhHxIrBpYaOzbt4NxwBulLOjxgwu8efOKQUREjKA6BgYGhgMHdjGIiIgR5QAAGSnoUkWBr2UAAAAASUVORK5CYII="
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "5-02"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [
+   "8-11",
+   "I-04"
+  ],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1924年、フランスのルイ・ド・ブロイが「電子のような粒も波の性質を持つ」と考えた（1929年ノーベル物理学賞）。1927年、アメリカのクリントン・デヴィッソンとレスター・ガーマー、イギリスのジョージ・パジェット・トムソンが、電子を結晶に当てると X線と同じような回折の模様ができることを別々に確かめた（1937年ノーベル物理学賞）。1928年には日本の菊池正士が電子線の回折の像を撮った。電子の波長は光の数万分の1なので、電子顕微鏡（[8-11]）は光の顕微鏡よりずっと細かく見える"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "実験：電子線を薄い結晶に当てて、輪や点の模様ができるのを見る",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAcElEQVR42mNgGGjAiE3QysHnPzbxYwe2MOI1zcrB5z8uzQTl0SVgirFpwjCEoAJCapA5yOwj0xj+H5nG8B+fOiZc/j0yjeG/TRYDo00WAyOyIeiAidJoZMElgWyzTRYD4eijKBApjkZKEhJ1k/KAAAAsNk8Eot3OQwAAAABJRU5ErkJggg=="
+}

@@ -1,0 +1,88 @@
+{
+ "id": "8-07",
+ "history": {
+  "name": "除振と恒温",
+  "name_en": "Vibration isolation and constant temperature",
+  "kind": "tech",
+  "trunk": "8",
+  "trunk_name": "精密・計測",
+  "year": 1931,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "精密な工場は、トラックが通るだけで仕事が止まる",
+  "hee1_en": "In a precision factory, work stops just because a truck drives by.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "O35. 揺れと温度が精密さを奪う（除振と恒温）［8-07］",
+    "answer": "精密な測定は、足音や車の振動（µm ほど）と温度の変化で狂う。重い定盤をばね・ゴム・空気ばねで浮かせると細かい揺れが伝わりにくくなり、部屋の温度をそろえると物の伸び縮みが止まる。長さの標準の温度は 20℃（1931年に国際度量衡委員会が採用）。",
+    "hee": {
+     "1": "精密な工場は、トラックが通るだけで仕事が止まる。",
+     "2": "鋼は 1℃ で 1m あたり約 11µm 伸びる。だから長さには「何℃で測ったか」が要る。",
+     "3": "光の干渉縞は、波長の半分（約 0.27µm）の揺れで1本動いてしまう。",
+     "4": "今の露光装置は空気ばねと揺れを打ち消すアクティブ除振の上にあり、温度は 0.01℃ 単位でそろえる。"
+    },
+    "certainty": "標準温度 20℃ を 1931 CIPM が採用 ◎（ISO/R 1 は 1951）／鋼の線膨張 約 11〜12µm/(m·℃) ◎／露光装置の温度管理 0.01℃ 級 ○",
+    "basis": "- Wikipedia「Standard conditions for temperature and pressure」（長さの標準温度）：https://en.wikipedia.org/wiki/Standard_temperature_and_pressure"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "8-03"
+    ]
+   ],
+   [
+    [
+     "8-22"
+    ]
+   ],
+   [
+    [
+     "2-29"
+    ]
+   ],
+   [
+    [
+     "6-03"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "精密測定は足音・車の振動（µm 級）と温度（鋼は1℃で1mあたり約11µm 伸びる）で狂う。重い定盤をばねで浮かせ、部屋を20℃に保つ（長さの標準温度20℃は1931年に CIPM（国際度量衡委員会）が採用。ISO の勧告 ISO/R 1 は1951年、ISO 1 としての版は1975年）"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "実験（揺れで干渉縞がゆれる）",
+  "missing": "",
+  "item": "isolation_table",
+  "recipes": [
+   "作業台：定盤 ＋ 加硫ゴム → 除振台"
+  ],
+  "machine_recipes": [],
+  "placeholder": "近似：揺れの大きさはゲームの値。空気ばね（圧縮空気）と恒温（20℃の部屋、空調）はまだ無い。",
+  "game_text": "露光装置・干渉計の設置条件（下に除振台。近くで爆発・ピストンがあると精度低下）",
+  "hee_game": {
+   "note1": "ゴムの上に重い定盤をのせた台。まわりで動物が歩いても、上の物はほとんど揺れない。",
+   "note2": "定盤＋加硫ゴム。上に置いた物の揺れが 1/20 になる。干渉計で水銀灯を測るとき、近くで動物やトロッコが動いたりピストンが動いたりすると縞がゆれる。水銀灯を除振台にのせると落ち着く。",
+   "note3": "精密な測定は、足音や車の振動（µm ほど）と温度で狂う。重い台をばねで浮かせると、細かい揺れが伝わりにくい。長さを測る標準の温度は 20℃（1931年に国際度量衡委員会が決めた）。鋼は 1℃で 1m あたり約 11µm 伸びる。",
+   "note4": "今の露光装置は、空気ばねで浮かせ、揺れを打ち消すように動く「アクティブ除振」の上に置かれ、部屋の温度は 0.01℃ 単位でそろえる。精密な工場は、トラックが通るだけで仕事が止まる。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAKElEQVR42mOMCAv6z0ABYGKgEIwawMDA8ujVr9FAHDWARU6MbWBdAACEMwUjxxJIngAAAABJRU5ErkJggg=="
+}

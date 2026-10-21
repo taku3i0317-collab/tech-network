@@ -1,0 +1,58 @@
+{
+ "id": "8-30",
+ "history": {
+  "name": "原子時計",
+  "name_en": "Atomic clock",
+  "kind": "tech",
+  "trunk": "8",
+  "trunk_name": "精密・計測",
+  "year": 1948,
+  "year_range": "1948〜1967",
+  "year_uncertain": false,
+  "hee1": "今の1秒は、セシウム原子が91億9263万1770回ゆれる時間と決められている（O-006 で追加。出典：IEEE Milestones「First Atomic Clock, 1948」、NIST、Wikipedia「Atomic clock」）",
+  "hee1_en": "Today one second is defined as the time it takes a cesium atom to vibrate 9,192,631,770 times. (Added in O-006. Sources: IEEE Milestones \"First Atomic Clock, 1948\", NIST, Wikipedia \"Atomic clock\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "8-15"
+    ]
+   ],
+   [
+    [
+     "15-06"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "水晶時計の振動数を、原子や分子が決まった振動数の電波だけを吸う性質に合わせ続けて、ずれない時計にする。1948年8月、アメリカ国立標準局（NBS）のハロルド・ライオンズらがアンモニア分子を使った最初の原子時計を動かした（公開は1949年、IEEE マイルストーン）。1955年、イギリス国立物理学研究所のルイス・エッセンとジャック・パリーが最初の実用的なセシウム時計を作り、1967年から1秒はセシウム原子の振動の回数で決められている。GPS の衛星（[B-17]）は原子時計の時刻を送っている"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAjElEQVR42mNgoBAwYhO0cvD5j0382IEtjHhNs3Lw+Y9LM0F5bBK4FGOIE60QixwTpYFIlC345JmIsQCfQSz4NHeFbWGwyWLAG3U4XXBkGsN/a58QhiPTGP6THA5HpjH8//8oBI6xGYI3FmyyGBiPblnDwMDAwHB0yxqC3sAZ4ricjzc1kpqUqZuZyAEA7cpOyT1FFU4AAAAASUVORK5CYII="
+}

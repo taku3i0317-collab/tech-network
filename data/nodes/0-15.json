@@ -1,0 +1,53 @@
+{
+ "id": "0-15",
+ "history": {
+  "name": "窯",
+  "name_en": "Kiln",
+  "kind": "tech",
+  "trunk": "0",
+  "trunk_name": "生存・道具",
+  "year": -6000,
+  "year_range": "-6000〜-3500",
+  "year_uncertain": true,
+  "hee1": "火を壁で囲うと、野焼きより熱くなる。その熱で銅が溶かせるようになった",
+  "hee1_en": "Surround a fire with walls and it gets hotter than an open-air fire. That heat made it possible to melt copper.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "0-03"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "野焼き（〜800℃）→ 囲った窯で 1000℃超。最古級の焼成レンガは中国・城頭山（大渓文化）の紀元前4400年頃。メソポタミアでも紀元前5千年紀とする記述があるが未確認、西アジアでの普及は紀元前3500年頃⚠️。窯の高温が銅製錬（約1085℃で溶融）を可能にした"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "バニラのかまど・溶鉱炉ブロックを「窯」として可。幹3[熱]の起点",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAArUlEQVR42sWSvQ2DMBCFP1spGcZ9XDBARJUBUiPGsTwFFRNQeABnm3SXypIDxoAiJVc+6f3cu4NfjuuMuM5IjulvRS9bTiXctoYwxw9Mlci2NVXXMEeGKarVCkfIKUlKqc+SD3WQR81dTwnkewI4KCbUNXLwCEDwyDBFtbzA7h/YHhU8Yvv1tQ4JBI9cb3dSks0OlhewrcGBNC/Dc4SGB66LxQ5U7fP2Ji/5f/MGlMJH7ScoPhsAAAAASUVORK5CYII="
+}

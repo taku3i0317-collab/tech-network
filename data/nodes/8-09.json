@@ -1,0 +1,73 @@
+{
+ "id": "8-09",
+ "history": {
+  "name": "リニアモーター・エアベアリングステージ",
+  "name_en": "Linear motor and air bearing stage",
+  "kind": "tech",
+  "trunk": "8",
+  "trunk_name": "精密・計測",
+  "year": 1994,
+  "year_range": "1990〜94",
+  "year_uncertain": true,
+  "hee1": "露光装置のステージは、ジェットコースター並みの加速でナノメートル単位で止まる",
+  "hee1_en": "The stage of a lithography machine accelerates like a roller coaster and stops to the nanometer.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "8-08"
+    ]
+   ],
+   [
+    [
+     "1-35"
+    ]
+   ],
+   [
+    [
+     "6-03"
+    ]
+   ],
+   [
+    [
+     "8-06"
+    ]
+   ],
+   [
+    [
+     "10-15"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "回転モーターを「開いて伸ばした」形で、ねじを使わず直接動かす。空気の膜（数µm）で浮かせて摩擦0。現代の露光装置はウェハーを秒速1m 超・数G の加速度で動かしつつ nm 精度で止める。露光装置へは1990年代前半（1994 キヤノンの i線ステッパー FPA-3000i4 がエアベアリングステージを搭載）。リニアモーターの採用年は未確認⚠️"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "ArF/EUV スキャナーのステージ部品（v1.0）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAcElEQVR42mNgGGjAiE3QysHnPzbxYwe2YKhnwWVyV9gWFH7ZKh/CLoDZ7OXjw7BtyxYMGp9LGBgYGBiOTGP4TwxN/UDEFWiEwLEDWxhZkAPtwLcZDA5cGUTRsDCBu8DLx4ck27dt2YLqAuRQHgV0BgB7FEHsjod20wAAAABJRU5ErkJggg=="
+}

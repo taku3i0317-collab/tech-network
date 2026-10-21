@@ -1,0 +1,71 @@
+{
+ "id": "11-15",
+ "history": {
+  "name": "低温殺菌",
+  "name_en": "Pasteurization",
+  "kind": "tech",
+  "trunk": "11",
+  "trunk_name": "農業・食",
+  "year": 1864,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "牛乳パックの「殺菌」はパスツールの名前",
+  "hee1_en": "The word \"pasteurized\" on milk cartons comes from Pasteur's name.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "C49. お酒が酢になるわけと、それを防ぐ方法（酢・低温殺菌）［11-10］［11-15］",
+    "answer": "お酒を空気にさらしておくと、空気の中の酢酸菌がアルコールを酢酸にして酢になる（C2H5OH + O2 → CH3COOH + H2O）。1864年パスツールがこれを示し、フランスのワインが酸っぱくなる「病気」は、約60℃で数分温めて菌を減らせば防げることを見つけた（低温殺菌、パスチャライゼーション）。今は牛乳などにも使われる。ビール・ワインは紀元前数千年から作られてきた（ジョージアのワインは紀元前6000年ごろ）。",
+    "hee": {
+     "1": "お酒を空気にさらしておくと酢になる。",
+     "2": "牛乳パックの「殺菌」の英語はパスツールの名前から。",
+     "3": "酢は、人類が最初に使った酸。",
+     "4": "煮立てずに少し温めるだけで、味を変えずに菌を減らせる。"
+    },
+    "certainty": "パスツール 1864（酢酸菌・低温殺菌）◎／ジョージアのワイン 紀元前6000年ごろ ○",
+    "basis": "- Wikipedia「Vinegar」/「Acetobacter」：https://en.wikipedia.org/wiki/Vinegar"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "11-10"
+    ]
+   ],
+   [
+    [
+     "3-09"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1864 パスツールがワインを約60℃で数分加熱すると腐敗を防げると示した（味を保ったまま菌を減らす）。牛乳は後に"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "実験",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "加熱槽で食品の保存期間が延びる",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAgElEQVR42mNgoDboclH7D8O45PEaYFHW9X/NjUf/Lcq6/uPSjGwIE6UuZkK3vSQpgoGBgYGhJCmCAZsrcBqArBkGiDGEiZxARuazIHPu5bhg6jBKYaCqC9ABiguUpuzBVDFvBXVcgO53GJ+66QAfKNtzixEbHyUMegj4F92QwQEAkIMz5CXUjJIAAAAASUVORK5CYII="
+}

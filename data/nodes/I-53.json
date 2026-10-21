@@ -1,0 +1,61 @@
+{
+ "id": "I-53",
+ "history": {
+  "name": "抽象化",
+  "name_en": null,
+  "kind": "idea",
+  "trunk": "I",
+  "trunk_name": "発見・考え方",
+  "year": 1979,
+  "year_range": "1978〜1983",
+  "year_uncertain": false,
+  "hee1": "スマホのチップも、小さな回路をまとめた「記号」を何段も重ねて設計している",
+  "hee1_en": null,
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://computerhistory.org/blog/in-memoriam-lynn-conway-1938-2024/",
+   "https://www.computerhistory.org/revolution/digital-logic/12/287/1613",
+   "https://ai.eecs.umich.edu/people/conway/Impact/Impact.html"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "10-13"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [
+   "10-11",
+   "10-19",
+   "B-08"
+  ],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "何百万個ものトランジスタを1つずつ考えて設計することはできない。いくつかのトランジスタで NOT や AND を作ったら、それを1つの記号として扱い、その記号を組み合わせて足し算の回路を、さらにそれを組み合わせて計算機を…と、段ごとにまとめて考える（階層設計）。1978〜79年、ゼロックス PARC のリン・コンウェイとカリフォルニア工科大学の研究者が教科書『Introduction to VLSI Systems』で、細かいことを段ごとに隠して必要なことだけを残す設計のやり方を広め、1983年までに約120の大学で教えられた（コンピュータ歴史博物館）。ゲームでは、見つけた回路がハンコになり、ハンコが記号になって、記号を押すと一段下の中身が見える"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "実験：見つけたトランジスタの形をハンコにして、それを並べて NOT・AND、さらに足し算の回路を作る",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAdUlEQVR42mNgoBAw4pKwssr5j8w/dmwKVrVM+EyPMVnBEGOyAq8LWPBJPuFZxHDgwDby/YfuDYJhgM3fhMKCiRh/4wsLJmz+XnImAkVsyZkIhic8iyjzNy5xFlwKkPkwf8PEkMOBCd2vpPAxDMDmd3z8UQABAAKoNl05h09VAAAAAElFTkSuQmCC"
+}

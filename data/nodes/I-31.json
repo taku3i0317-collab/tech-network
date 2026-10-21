@@ -1,0 +1,53 @@
+{
+ "id": "I-31",
+ "history": {
+  "name": "熱放射の法則とエネルギー量子",
+  "name_en": "Laws of thermal radiation and the energy quantum",
+  "kind": "idea",
+  "trunk": "I",
+  "trunk_name": "発見・考え方",
+  "year": 1900,
+  "year_range": "1859〜1900",
+  "year_uncertain": false,
+  "hee1": "炉の中の色が赤からまぶしい白になるのは、温度が上がって短い波長の光が増えるから",
+  "hee1_en": "The color inside a furnace goes from red to dazzling white because as the temperature rises, more light of short wavelengths appears.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://www.nobelprize.org/prizes/physics/1911/summary/",
+   "https://www.nobelprize.org/prizes/physics/1918/summary/"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [],
+  "understanding": [],
+  "enables": [],
+  "explains": [
+   "3-11",
+   "B-01"
+  ],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "熱い物は、温度が上がるほど短い波長の光を強く出し、色が赤→黄→白と変わる。1859年にキルヒホッフが「黒体」（すべての光を吸う物）の考えを出し、ヴィルヘルム・ウィーンが1893年に「温度が高いほど一番強く光る波長が短くなる」法則を見つけた（1911年ノーベル物理学賞）。1900年、マックス・プランクは、光のエネルギーがとびとびの決まった量（エネルギー量子）でやりとりされると考えて、熱い物の出す光の強さを正しく表す式を作った（1918年ノーベル物理学賞）。光の色から炉の温度を読む光高温計や、白熱電球の光の大部分が目に見えない赤外線になるわけが分かる。プランク定数は2019年からキログラムの定義に使われている"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "実験：炉の温度を上げながら、光の色が赤→オレンジ→黄→白と変わるのを見る",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAYElEQVR42mNgoAawcvD5T65eFnySR6YxwA22yWJgJMkFyJqx8fEagEsxNnEmUvxrk8XAiNVwZBfgdSoWNUzkhDyGS2AuIMZ2nGFwZBrDf7xRhQMwUpKQjh3YwsgwCigHAFshKVTj5cnAAAAAAElFTkSuQmCC"
+}

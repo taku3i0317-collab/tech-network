@@ -1,0 +1,65 @@
+{
+ "id": "P-09",
+ "history": {
+  "name": "キーボード",
+  "name_en": "Keyboard",
+  "kind": "product",
+  "trunk": "P",
+  "trunk_name": "モノ（作品）",
+  "year": 1986,
+  "year_range": "1868〜1986",
+  "year_uncertain": false,
+  "hee1": "キーの並びは、150年前のタイプライターのまま",
+  "hee1_en": "The key layout is still that of typewriters from 150 years ago.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://en.wikipedia.org/wiki/QWERTY",
+   "https://americanhistory.si.edu/collections/object/nmah_850075"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "10-22"
+    ]
+   ],
+   [
+    [
+     "8-26"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [
+   "プラスチック",
+   "鋼",
+   "銅"
+  ],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "タイプライターの文字の並び（QWERTY）をそのまま受けつぎ、キーの下のスイッチが押されたことを、中の小さなマイクロコンピュータが調べて送る"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "作品：押した文字が画面に出る",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAVUlEQVR42mNgGAWMDAwMDFYOPv/J0XzswBZGJhjnzbN7DF4+PkTTGC5AFiQGbNuyBdUFDAwMDItmTSKJpq4LyLGdKi5gQZdAtwEdxKXlUTcdDIO8AACNkkskT79XogAAAABJRU5ErkJggg=="
+}

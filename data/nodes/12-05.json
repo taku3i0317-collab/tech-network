@@ -1,0 +1,58 @@
+{
+ "id": "12-05",
+ "history": {
+  "name": "板ガラス",
+  "name_en": "Flat glass",
+  "kind": "tech",
+  "trunk": "12",
+  "trunk_name": "建築・土木",
+  "year": 1959,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "窓ガラスは「溶けた金属の上に浮かべて」作る",
+  "hee1_en": "Window glass is made by \"floating it on melted metal.\"",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "2-14"
+    ]
+   ],
+   [
+    [
+     "1-30"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "吹きガラスを回して広げるクラウン法→円筒法→1959 アラステア・ピルキントンのフロート法：溶けたガラスを溶けた錫の上に流すと、両面が鏡のように平らに"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "大きな窓ガラス（[7-11]マスク用ガラス板の素材）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAArElEQVR42mNgoBAwwhhJdkr/SdE479A9RgYGBgYWZEGvWQewKu6Zt4KhJCkCzt+W5gBnMxGyqWfeCoYTXWWMPfNWYJVnIkazRVnXf1yGMBGr2aKs6z+yN/AaQKxmrAbg0owrDBiQo3HNjUf/19x49N+irOs/AwMDg0VZF1Y+cpSzYDOsJCmCoYeBAW4zyWEAN4SAZqJjAZdmnF5A9wY+gDchEdKM4QLkNE43AAAG0nZGyV9V8QAAAABJRU5ErkJggg=="
+}

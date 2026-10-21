@@ -1,0 +1,81 @@
+{
+ "id": "9-17",
+ "history": {
+  "name": "メサトランジスタ",
+  "name_en": "Mesa transistor",
+  "kind": "tech",
+  "trunk": "9",
+  "trunk_name": "半導体プロセス",
+  "year": 1957,
+  "year_range": "1957〜58",
+  "year_uncertain": false,
+  "hee1": "「メサ」はスペイン語で机。アメリカ西部の台地の形",
+  "hee1_en": "\"Mesa\" means table in Spanish. It is the shape of the flat-topped hills in the American West.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "F17. 台地の形のトランジスタ（メサトランジスタ）［9-17］",
+    "answer": "拡散で作った層の上に金属の点を付け、点のまわりを酸で削って台地（メサ）の形に残したトランジスタ。拡散で作るので速く動き、1957〜58年にベル研・TI・フェアチャイルド（2N697）が作った。ただ接合の境目が台地の側面にむき出しで、湿気や汚れで特性が変わりやすかった。それを解いたのが1959年のプレーナ技術。",
+    "hee": {
+     "1": "「メサ」はスペイン語で机。アメリカ西部の台地の形から。",
+     "2": "写真の技術の前は、ろうを点の上にたらしてマスクにした。",
+     "3": "むき出しの接合は湿気に弱く、金属のかんに乾いた気体と封じて守った。",
+     "4": "ヘルニは接合を酸化膜の下にかくすプレーナ技術を考え、IC への道を開いた。"
+    },
+    "certainty": "メサの構造と 1957〜58 ◎（コンピュータ歴史博物館）／2N697 1958 ◎／湿気・汚れに弱い ◎／ろうのマスク ○／合金エミッタ（Ge のメサ）○",
+    "basis": "コンピュータ歴史博物館「1959: Invention of the \"Planar\" Manufacturing Process」https://www.computerhistory.org/siliconengine/invention-of-the-planar-manufacturing-process/ 、同「1958: Silicon Mesa Transistors Enter Commercial Production」https://www.computerhistory.org/siliconengine/silicon-mesa-transistors-enter-commercial-production/ （英語）"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "9-16"
+    ]
+   ],
+   [
+    [
+     "9-06"
+    ]
+   ],
+   [
+    [
+     "5-14"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1957〜58 ベル研・TI・フェアチャイルド（2N697、1958）。拡散で作った層の周りを削って台地（メサ）状に残す。接合が表面にむき出しで汚れに弱かった"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "実験（持ち歩くと劣化するのを見る）",
+  "missing": "",
+  "item": "al_dotted_wafer",
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "中間製品（第2章のトランジスタ）",
+  "hee_game": {
+   "note1": "p-n 接合の板の表面に、小さなアルミの点をならべて付けたもの。",
+   "note2": "真空蒸着装置 [5-14] で p-n 接合の板（p の板に n の表面）＋アルミ1 → 1〜8枚。n の板に p の表面の板は断られる（アルミも p 型なので接合ができない）。かまどで焼くと合金になる。",
+   "note3": "穴をあけた金属の板（メタルマスク）を重ねて蒸着すると、穴の形の点だけが付く。写真の技術（レジスト）を使わない、いちばん古い付け方。",
+   "note4": "アルミはシリコンの中では p 型のドーパントになる。n の表面に溶けこむと、その下に薄い p の層（エミッタ）ができる。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAZklEQVR42mNgGAWMMIaVg89/UjQeO7CFkYGBgYEFWdDMQIeBgYGBQURGgYGBgYHhzZMHcDlksVMXrsDFmSj1Ags2QWSb8YlRxQW0MUBERgEeaPjEMMIAHrpIoQwH2MRGAQMDAwMDAIfXGWz/hefaAAAAAElFTkSuQmCC"
+}

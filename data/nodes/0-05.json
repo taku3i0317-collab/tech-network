@@ -1,0 +1,71 @@
+{
+ "id": "0-05",
+ "history": {
+  "name": "豆",
+  "name_en": "Beans",
+  "kind": "tech",
+  "trunk": "0",
+  "trunk_name": "生存・道具",
+  "year": -9500,
+  "year_range": null,
+  "year_uncertain": true,
+  "hee1": "豆の根には空気の中の窒素を肥料に変える菌がいて、畑がやせにくい",
+  "hee1_en": "Bean roots host bacteria that turn nitrogen from the air into fertilizer, so the field does not wear out easily.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "S8. 豆の根が空気の窒素を肥料にする（窒素固定と輪作）［0-05］",
+    "answer": "マメ科の根の根粒にすむ根粒菌は、空気の窒素 N2 をアンモニア NH3 に変えて植物にわたす（窒素固定）。豆を育てた後の畑には窒素が残り、次に植えた麦がよく育つ。豆と麦を交代で植える輪作は古代から行われた。",
+    "hee": {
+     "1": "豆の根には空気の中の窒素を肥料に変える菌がいて、畑がやせにくい。",
+     "2": "空気の約8割は窒素なのに、ふつうの植物はそれを直接使えない。N≡N の三重結合がとても強いから。",
+     "3": "1886年 ヘルリーゲルとヴィルファルトが、根粒があるときだけマメ科が空気の窒素を使えることを示した。メンデルの遺伝の法則もエンドウの交配から（1865年）。",
+     "4": "ノーフォーク農法（小麦・カブ・大麦・クローバー）、そして1913年からハーバー・ボッシュ法 [6-09] で工場の窒素固定。"
+    },
+    "certainty": "窒素固定のしくみ ◎／ヘルリーゲルとヴィルファルト 1886 ○／メンデル 1865 ◎／エンドウ・レンズ豆の栽培化の年（約1万1000年前ごろ、⚠️ はノードのまま）△",
+    "basis": "- Wikipedia「Nitrogen fixation」：https://en.wikipedia.org/wiki/Nitrogen_fixation"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "0-04"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "レンズ豆・エンドウも麦と同時期・同地域で栽培化。根粒菌が N2→NH3 に変え、畑が痩せにくい（輪作の根拠）"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "実験",
+  "missing": "",
+  "item": "nitrogen_farmland",
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": "近似：窒素の量は「作物が熟す3回分」の数え方にした。豆自身は速くならない。",
+  "game_text": "バニラに豆類なし → 新規作物（エンドウ等）が必要",
+  "hee_game": {
+   "note1": "豆を育てたあとの畑。次に植えた作物がよく育つ。",
+   "note2": "エンドウが熟すと、その下の耕地がこれになる。上の作物（豆以外）が速く育ち、作物が熟すたびに窒素を1回分使って、3回でふつうの耕地にもどる。水で湿るのも、踏むと土にもどるのも、ふつうの耕地と同じ。",
+   "note3": "作物は、体のたんぱく質や葉緑素を作るのに窒素がたくさん要る。麦を同じ畑で作り続けると土の窒素が減ってやせる。豆と麦を交代で植える（輪作）と、豆が残した窒素で麦がよく育つ。ローマ時代の農書にも、豆の後に麦をまけと書かれている。",
+   "note4": "18世紀イギリスのノーフォーク農法は、小麦・カブ・大麦・クローバー（マメ科）を4年で回して収穫を大きく増やした。1913年からはハーバー・ボッシュ法 [6-09] で、空気の窒素から工場でアンモニアを作れるようになった。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAgUlEQVR42mNMslP6zwAFR15wMNhI/IDTxAAmZA5ME7pmLxs14gzABbYduUWcAbhsIuiCIy848NqETRymhwmbnwnZiqyHiRx/kxyIeA2A+QWb//CJw8MAm//bQuSwhgWyWrxhgOz/bUdu0TEh4fI7LnDkBQf2vEAssJH4QYVopNQAAIoyNnlp6hiGAAAAAElFTkSuQmCC"
+}

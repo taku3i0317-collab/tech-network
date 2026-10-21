@@ -1,0 +1,69 @@
+{
+ "id": "4-14",
+ "history": {
+  "name": "蒸気発電",
+  "name_en": "Steam power generation",
+  "kind": "tech",
+  "trunk": "4",
+  "trunk_name": "動力・電気",
+  "year": 1882,
+  "year_range": "1880〜1882",
+  "year_uncertain": false,
+  "hee1": "1882年、蒸気で作った電気が初めて街の明かりになった",
+  "hee1_en": "In 1882, electricity made with steam lit up a city for the first time.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "4-02"
+    ]
+   ],
+   [
+    [
+     "4-04"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-02"
+  ],
+  "frontier": false,
+  "real": "1882 エジソンのパール・ストリート発電所（ニューヨーク）とホルボーン高架橋発電所（ロンドン）で、蒸気機関で回したダイナモの電気を街に配った"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": "steam_engine",
+  "recipes": [
+   "作業台：鉄インゴット×5 ＋ ダイナモ ＋ バケツ ＋ 送りねじ ＋ 銅インゴット → 蒸気機関発電機"
+  ],
+  "machine_recipes": [
+   "蒸気機関発電機「蒸気で発電」：石炭 ＋ 水入りバケツ（バケツ1杯で石炭2個分） → 電気（発電 50 kW・石炭1個 30 秒）。石炭1個の熱は 30 MJ（ゲームの約束）。自励式ダイナモで2倍"
+  ],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {
+   "note1": "石炭でお湯をわかし、湯気の力で電気を作る。",
+   "note2": "石炭で水を沸かし、蒸気がピストンを押し、ダイナモが回る：50kW。ワットの機関の熱効率はわずか2〜5%（石炭の熱の大半は捨てられた）。30%級になるのは蒸気タービンから。水バケツ1杯＝石炭2個分の蒸気。",
+   "note3": "熱機関の効率には上限がある（カルノー効率 η = 1 − 低温/高温、絶対温度）。蒸気が約150℃（423K）、冷やす側が約40℃（313K）なら上限は約26%。実際の機関は漏れや摩擦でもっと低い。このゲームでは石炭1個30MJから1.5MJの電気（5%）。",
+   "note4": "ニューコメンの機関（1712年）は効率約1%。ワットは1769年に分離凝縮器（蒸気を別の容器で冷やす）で数倍に改善した。電力の単位「ワット」は彼の名前、「馬力」もワットが機関を売るために考えた単位。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA1ElEQVR42oVTMQ7DIAy8oDwC8QCEOiE/I0OHDlVfjRhRHhDlF+kQOTKuabwQbDjfXcz0eb8OGFFqA+Vk5mTNAYAP8QdgWZ7d3ocIyqlbAcCV2rpDHPu2dgC8l2upDY5ywr6t8CFeRQnE3xZLyumUwIjWIQ2uPXEjmj7EC9BixjFrqlqrrMucDxEkTdy31byk9zo3y19i6dXMtFwnu/Nl3eUfs9nSaPlgMSm19R6MtI+YUE7nIP1z25oTWXdWJz2J2uThIN0NjW5AOWGK8XGwDOsJ38UXItKTGbs4IFwAAAAASUVORK5CYII="
+}

@@ -1,0 +1,58 @@
+{
+ "id": "4-17",
+ "history": {
+  "name": "ステッピングモーター",
+  "name_en": "Stepper motor",
+  "kind": "tech",
+  "trunk": "4",
+  "trunk_name": "動力・電気",
+  "year": 1919,
+  "year_range": "1919〜1950",
+  "year_uncertain": true,
+  "hee1": "電気を1回送るたびに、カチッと決まった角度だけ回る（S-001 で追加。出典：Nidec「History of the Motor」、Wikipedia「Marius Lavet」）",
+  "hee1_en": "Each time you send a pulse of electricity, it turns by exactly a set angle, click (added in S-001. Sources: Nidec \"History of the Motor\", Wikipedia \"Marius Lavet\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "4-08"
+    ]
+   ],
+   [
+    [
+     "10-01"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "電気のパルスを1回送るごとに決まった角度だけ回るモーター。数を数えるだけで回った角度が分かるので、位置を決めるのに使う（3Dプリンター・プリンター・工作機械）。1919年にイギリスのC・L・ウォーカーが可変リラクタンス型の特許を取り、1936年にマリウス・ラヴェ（フランス）が時計用の原理を考えたとされ、工業的な生産は1950年ごろから ⚠️"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA2ElEQVR42qVTMQ6EIBAcCLmn8AgrCwtitvAtFj7CwrdcQcwVFlY+gqcQE65RAsjpJWy57MzO7C5AYbA0UdXk7gDbqiOMSMEt0VNTF5LwHPj1mS6oM9cSRSp5rnBYDJu19rlZawyLYTniyMKsNbbVsLQrIAEAw2JYtWv3k+Cw4ACgE8bnO2GAQ3ZLhFAdL11jxsIx4ZrcqeK9y3B9kQWeWhgb6Qus6mFV79/HRl7WLFJJVvUYMTmrKCLuhHEhWfYS/zmkyObTKZ9k4dTTU76Nqib39DeK11gcX6DbYVwZhgrbAAAAAElFTkSuQmCC"
+}

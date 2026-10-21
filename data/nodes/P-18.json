@@ -1,0 +1,58 @@
+{
+ "id": "P-18",
+ "history": {
+  "name": "動きのセンサー",
+  "name_en": "Motion sensor",
+  "kind": "product",
+  "trunk": "P",
+  "trunk_name": "モノ（作品）",
+  "year": 2007,
+  "year_range": "1993〜2010",
+  "year_uncertain": false,
+  "hee1": "スマホを横にすると画面が回るのは、中の小さなおもりが動くから",
+  "hee1_en": "The screen turns when you tip your smartphone sideways because a tiny weight inside moves.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://en.wikipedia.org/wiki/Microelectromechanical_systems",
+   "https://www.analog.com/en/resources/technical-articles/mems-accelerometers.html"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "9-43"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [
+   "シリコン"
+  ],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "シリコンで作った小さなばねとおもりが、傾けたりふったりすると動き、その動きで画面の向きや歩数が分かる"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "作品：傾けると向きが分かる",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAZ0lEQVR42mNgoCU4Mo3hP0Wa/z8K+U+xIYTUMFHqzUFqgJVVzn8rq5z/MDZZLnBw8GLY9mQbwcBlIeTErpgpDAwxqLFh7RPCcIRhzX+bLAZGnDbAvIHNC3ijl+YJB6dGcjUzMQw0AABjlzIy2q8+DgAAAABJRU5ErkJggg=="
+}

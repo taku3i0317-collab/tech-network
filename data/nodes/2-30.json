@@ -1,0 +1,90 @@
+{
+ "id": "2-30",
+ "history": {
+  "name": "ネガ型フォトレジスト",
+  "name_en": "Negative photoresist",
+  "kind": "tech",
+  "trunk": "2",
+  "trunk_name": "化学",
+  "year": 1954,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "光が当たったところだけ固まる材料。IC の模様をうつすのに使われた",
+  "hee1_en": "A material that hardens only where light hits it. It was used to copy IC patterns.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "F21. 光で手をつなぐ樹脂（ネガ型レジスト KPR）［2-30］",
+    "answer": "KPR（コダック、1954 ごろミンスクら）はポリケイ皮酸ビニルのレジスト。ケイ皮酸の部分が紫外線で2つずつ手をつなぎ（[2+2] 光二量化）、鎖どうしが橋かけされて溶剤に溶けなくなる。光の当たらなかった所を有機溶剤で洗い流すので、光の当たった所が残る（ネガ型）。1955〜57年の半導体の写真製版はこの KPR から始まった。",
+    "hee": {
+     "1": "光が当たったところだけ固まる材料。IC の模様をうつすのに使われた。",
+     "2": "1957年からは環化ゴムを土台にした KTFR が IC の主力になった。",
+     "3": "ネガ型は現像液で膨らむので、約2µm より細い線が引けず、1970年代後半にポジ型に代わった。",
+     "4": "本物の KPR は増感剤を入れて、水銀灯の長い波長の光にも感光させた（ゲームでは入れていない ⚠️）。"
+    },
+    "certainty": "KPR とポリケイ皮酸ビニル・光二量化 ◎（教科書・Wikipedia）／ミンスク 1954 ○／KTFR 1957〜 ○／2µm の限界 ○",
+    "basis": "Wikipedia「Photoresist」https://en.wikipedia.org/wiki/Photoresist 、Wikipedia「Polyvinyl cinnamate」https://en.wikipedia.org/wiki/Polyvinyl_cinnamate （英語）"
+   },
+   {
+    "title": "C3. ゴムを酸で輪にすると、レジストの土台になる（環化ゴム）［2-29］→［2-30］",
+    "answer": "生ゴム（ポリイソプレン）を溶剤に溶かして硫酸などの酸と熱すると、鎖の中の二重結合が隣どうしつながって6員環ができる（環化）。弾性はなくなるが、硬く、溶剤によく溶けて薄い膜にしやすい樹脂になる。これにビスアジド（光で窒素が抜けて鎖を橋かけする）を混ぜたのが KTFR（1957ごろ コダック）で、1960年代の IC 作りの主力のネガ型レジストだった。",
+    "hee": {
+     "1": "タイヤと同じゴムが、少し形を変えると IC の模様を写す材料になった。",
+     "2": "加硫ゴムは硫黄の橋で網になっていて溶けないので、環化には加硫していない生ゴムを使う。",
+     "3": "環化は1910年代から研究され、ハリエスが1919年に硫酸での作り方を発表した。のち p-トルエンスルホン酸（1927）、塩化スズ・塩化チタン・塩化鉄（1964）なども使われた。",
+     "4": "KTFR は現像液でふくらむので約2μm より細い線が引けず、のちにポジ型（ノボラック/DNQ）に交代した（[2-30] の省略欄）。"
+    },
+    "certainty": "環化のしくみ・ハリエス 1919・ほかの触媒 ○（スリランカ国立科学財団の資料）／KTFR の年・成分 ○（TECH_TREE [2-30] の本物欄）",
+    "basis": "- スリランカ国立科学財団の資料（環化ゴムの歴史と触媒：Harries 1919、Brusion 1927、Stolka 1964、Stevens and Miller 1938）：https://dl.nsf.gov.lk/bitstreams/f0025022-abd5-4868-9d43-824a22aa5b18/download"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "2-29"
+    ]
+   ],
+   [
+    [
+     "2-61"
+    ]
+   ],
+   [
+    [
+     "2-20"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-23"
+  ],
+  "frontier": false,
+  "real": "1954頃 コダックのミンスク：KPR＝ポリケイ皮酸ビニル（光で [2+2] 二量化して橋かけ）。1957〜 KTFR＝環化ゴム＋ビスアジド（光で N2 が抜けたナイトレンがゴム鎖を橋かけ）が1960年代の IC の主力"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "重",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "感光液アイテム",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAcklEQVR42mNgoBY4Mo3h/5FpDP8JieNSx/D/Ucj//49C/hMSR+ezwBhHt6zB6jJ0cazq1NS0/iOzkTG6OLoepgEPROq5gGKAHkj4Ag+ZT7EXWGCmenn5wdMKsgJ0cWT+rVvXGBnR0wEp4Nata4wMQx8AAK8DV+zeia0UAAAAAElFTkSuQmCC"
+}

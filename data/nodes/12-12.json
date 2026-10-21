@@ -1,0 +1,71 @@
+{
+ "id": "12-12",
+ "history": {
+  "name": "換気・空調",
+  "name_en": "Ventilation and air conditioning",
+  "kind": "tech",
+  "trunk": "12",
+  "trunk_name": "建築・土木",
+  "year": 1902,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "エアコンは人のためではなく、紙のために生まれた",
+  "hee1_en": "Air conditioning was born not for people, but for paper.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "O49. エアコンは紙のために生まれた（空調）［12-12］",
+    "answer": "1902年、アメリカのウィリス・キャリアは、湿気で紙が伸び縮みして色がずれる印刷工場のために、冷やす仕組みで温度と湿度をそろえる空調を作った。精密な機械も温度で伸び縮みする（鋼は 1℃・1m で約 11µm）ので、測定室や半導体工場は温度をそろえた部屋で動かす。",
+    "hee": {
+     "1": "エアコンは人のためではなく、紙のために生まれた。",
+     "2": "長さの標準の温度は 20℃（1931年に国際度量衡委員会が採用）。",
+     "3": "1m の鋼の物差しは、夏と冬で十分の数 mm も長さが変わる。",
+     "4": "今の露光装置の部屋は、温度を 0.01℃ 単位でそろえる。"
+    },
+    "certainty": "キャリア 1902 ◎／鋼の線膨張 ◎／20℃ の標準温度 1931 ◎",
+    "basis": "- Wikipedia「Willis Carrier」：https://en.wikipedia.org/wiki/Willis_Carrier"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "4-08"
+    ]
+   ],
+   [
+    [
+     "11-13"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1902 ウィリス・キャリアが印刷工場の湿度を制御する空調を発明"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "実験（空調の有無で重ね合わせが変わる）",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "室温・湿度を保つブロック（[8-07]恒温の条件）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA50lEQVR42qVToRGEMBDcMJSAQiIiKAGFZlIDEkkxSCQ1ZF5HUQIiIjKKHvLqMscTYOZZBeR22b27AC8hAKBpVfiHvBotMnrZvUOnFACgUwq7d9i9w2q0WI0WVEdnhJwe+mHER2usRovdu+hIyjpYu3GRQLUHASIDgLWbkLIOV7YBxLPsKp+1m0h9l7IOFPUgwHMSirJCUVYHMgAs83TuAS8gMvtT4I3jyFLkJ/B4+VWBtRuoWal4Jwf9MJ7UaRd+wRcv42O86/yjg06p25UmkaZV6TEu8xRFSIg76ocxkvkYX1+mt7cZX+t0fSoSh+vKAAAAAElFTkSuQmCC"
+}

@@ -1,0 +1,88 @@
+{
+ "id": "5-15",
+ "history": {
+  "name": "シュプレンゲル水銀ポンプ",
+  "name_en": "Sprengel mercury pump",
+  "kind": "tech",
+  "trunk": "5",
+  "trunk_name": "真空",
+  "year": 1865,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "電球の真空は水銀の滴で作った",
+  "hee1_en": "The vacuum in light bulbs was made with drops of mercury.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "E9. 空気を抜く（真空ポンプ・真空計）［5-01］［5-10］［5-15］",
+    "answer": "真空を作る道具は3段階で進んだ。1643年トリチェリが水銀柱で真空を作り、1650年ごろゲーリケが手押しの空気ポンプを作り、1865年シュプレンゲルが水銀を落として気体を押し出すポンプで、ずっと低い圧力まで引いた。",
+    "hee": {
+     "1": "空気を抜いた2つの半球は、馬が何頭で引いても離れなかった（ゲーリケの「マクデブルクの半球」）。",
+     "2": "水銀の柱は約76cm で止まる。それより上は何もない空間＝真空。これが「気圧」の発見になった。",
+     "3": "シュプレンゲルのポンプは、エジソンやスワンの電球の空気を抜くのに使われた。真空が良くないと、フィラメントがすぐ燃えてしまう。",
+     "4": "手押しポンプは約1kPa、シュプレンゲルは約0.1Pa。ゲームで真空管の封止にシュプレンゲルが要るのは、この差のため（詳しくは SOURCES.md［5-15］）。"
+    },
+    "certainty": "1643・1865・1654年レーゲンスブルク帝国議会での公開実験・馬16頭（8頭ずつ2組）◎／ゲーリケのポンプ1650年 ○（Wikipedia のみ。1655年頃とする資料もある）／半球を馬で引いた年 △（1654年レーゲンスブルクとも1656年マクデブルクとも。1657年はショットの本の刊行年）",
+    "basis": "SOURCES.md［5-15］（シュプレンゲルの原論文 1865、Chemistry World）、Wikipedia「Otto von Guericke」https://en.wikipedia.org/wiki/Otto_von_Guericke 、Wikipedia「Magdeburg hemispheres」https://en.wikipedia.org/wiki/Magdeburg_hemispheres 、Physics Today https://physicstoday.aip.org/backscatter/magdeburg-hemispheres 、ガリレオ博物館 https://catalogue.museogalileo.it/indepth/MagdeburgHemispheres.html 、Spektrum https://www.spektrum.de/lexikon/physik/magdeburger-halbkugeln/9274 、OVGU https://www.kustodie.ovgu.de/Dezember2022.pdf"
+   }
+  ],
+  "people": [
+   {
+    "name": "シュプレンゲル",
+    "tool": "💧 水銀のしずく",
+    "year": "1865",
+    "intro": "1865年、ロンドンで水銀のしずくで空気を運び出す真空ポンプを作った",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACMklEQVR42mNgGAUjHTCSolhLTvQ/MequPXpNtLksxCo0UZX8rywphCH+/ssPbMr/E+sIRmJ9LiPCB+cvm1SLVV1UXjOc/eTNJ6JCgolalqPLyYjwERVlTKSkAXyWk6KGbAfQAhDtgKaSVAZaqCXaASpyEjQJARZSFCOncvS4RpYjJQTwZpOK5MD/585fIjlx3Xn0gqGuZzYDAwMDg5GhHkPH3PWMVAkBTsNQBj1NTYZL168zfD+/Gqccw6PJ1AsBXTV5BmVZCXgaePHmA4OEiACKb9Hl7jx6wcDAwMBw9/ELhsu3HuINAYKJUFlWgqGuZzY8jpEtRwcwubqe2Qx1PbMZlGUlKM8FG/aexIwKdjY4++XbD1jFceklKQ3Agk5LTvS/IA8HXPz7z18MDAwMDBduPGDg5sQUh9UFu/AEPUmJ8Nqj14zI5TpylsNWDBNbEZHUHkCvlALklFGD+9FdkmtCshokMEd8/fGLgZuDDUMNKZaT7ACYI37+/sOA3jh58uYTya0hshyALTRI9TXJDnBy8oAnQG9vJwYGBgaGuLgYFDWLFi1hYGBgYNi6dR9cbN++HYwUOQBmsY6OAVzsxpHVeA3UsAmFs69cuUDQISzEWkwOQNL/H5dDWEi1mF3akEFRUYWhtjYPRby5eRLD/ft3SHYICzV9TE6IMMIcQIzl9+/fYVBUVKFYDSx97Nu3g3HAG6Us6CkWF3jz5hWDiIgYQXUMDAwMBw7sYhARESPKAQAW9evk4zgEUQAAAABJRU5ErkJggg=="
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-45"
+    ]
+   ],
+   [
+    [
+     "2-14"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1865 ヘルマン・シュプレンゲル。細いガラス管に水銀を滴として落とすと、滴の間に気体が閉じ込められて運び出される。約0.1Pa 級に届き、1879 エジソン・スワンの炭素電球を可能にした"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": "sprengel_pump",
+  "recipes": [
+   "作業台：ソーダ石灰ガラス×5 ＋ 鉄インゴット×2 → シュプレンゲル水銀ポンプ"
+  ],
+  "machine_recipes": [
+   "シュプレンゲル水銀ポンプ「真空にする」：水銀×4（減らない） ＋ 隣の真空容器（減らない） → 真空容器の圧力（1秒ごとに残り 90%、0.05 Pa まで）（1 秒）。電気なし"
+  ],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {
+   "note1": "水銀のしずくを落として、空気をすこしずつ運び出すポンプ。",
+   "note2": "真空容器のとなりに置き、水銀を4個入れると1秒ごとに引き続ける（電気なし・水銀は減らない）。0.05Pa まで下がり、0.1Pa 以下で封止台が真空管を封じられる。手押しポンプで先に 1kPa まで引くと少し早い。",
+   "note3": "細いガラス管の中を水銀の滴が落ちると、滴と滴のあいだに気体が閉じ込められ、ピストンのように下へ押し出される。動く部品がなく、すき間（死容積）もないので、手押しポンプより1万倍ほど低い圧力まで届く。ただし水銀自身の蒸気（20℃で約0.2Pa）が残る。",
+   "note4": "1865年、ロンドンのヘルマン・シュプレンゲルが発明。最初のものは0.5Lの容器を約20分で空にした。1879年、スワンとエジソンはこのポンプで炭素電球を排気し、フィラメントが燃えつきずに長く光るようになった。クルックスは何台も直列にして放電管を陰極線を調べた（のちの電子の発見につながる）。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAALklEQVR42mO0cvD5z0ABYGFgYGAomjGNLM19GVkMTAwUglEDRg0YNQACGCnNzgDznAarsCeawwAAAABJRU5ErkJggg=="
+}

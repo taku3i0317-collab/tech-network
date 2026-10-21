@@ -1,0 +1,54 @@
+{
+ "id": "I-15",
+ "history": {
+  "name": "特許とライセンス",
+  "name_en": "Patents and licensing",
+  "kind": "idea",
+  "trunk": "I",
+  "trunk_name": "発見・考え方",
+  "year": 1474,
+  "year_range": "1474〜1952",
+  "year_uncertain": false,
+  "hee1": "特許は発明を隠すのではなく、公開する代わりに守ってもらう約束",
+  "hee1_en": "A patent doesn't hide an invention; it is a promise of protection in exchange for making it public.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://en.wikipedia.org/wiki/History_of_patent_law",
+   "https://www.computerhistory.org/siliconengine/bell-labs-licenses-transistor-technology/",
+   "https://www.pbs.org/transistor/background1/events/symposia.html"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [],
+  "understanding": [],
+  "enables": [],
+  "explains": [
+   "15-10",
+   "I-13"
+  ],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "発明を国に届けて公開する代わりに、決まった年数だけ発明した人がその使い方を決められる仕組み（特許）。1474年、ヴェネツィア共和国が新しい工夫の発明者に10年の独占を認める法律を作り、1624年にイングランドの専売条例が「本当の発明者」に14年までの特許を認めた（今の特許の直接の祖先）。お金を払えば他の人も使えるようにするのがライセンス。1951〜52年、ベル研究所はトランジスタの特許を1件2万5000ドルで他の会社に使わせ、作り方の講習会も開いた。それを使った会社の中から、トランジスタラジオ（[15-10]）が生まれた"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "実験：発明を公開して登録すると、ほかのプレイヤーが使うたびに分け前がもらえる",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAdElEQVR42mNgoBAwwhgufl3/idGwZ1MZI1YJYgzApoYFXWBanghWg7ImvcFqMwuxCnEBolyAz1Dau4CQgQRdgBzy2KKQhVC0BSl0IQT8uv6jG4I3IaFohoJ1D8pQXMJIigvQNRMEsACFuQ5XIsOrmVjxgQMA5hI9WwaEew0AAAAASUVORK5CYII="
+}

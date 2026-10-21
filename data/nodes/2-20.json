@@ -1,0 +1,83 @@
+{
+ "id": "2-20",
+ "history": {
+  "name": "コールタール",
+  "name_en": "Coal tar",
+  "kind": "tech",
+  "trunk": "2",
+  "trunk_name": "化学",
+  "year": 1792,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "石炭を空気なしで焼くと、コークス・ガス・黒いタールが出る",
+  "hee1_en": "Bake coal without air, and you get coke, gas, and black tar.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "F2. 石炭を蒸し焼きにする（ガス工場・コールタール・コークス）［2-20］（レジストの材料の入口）",
+    "answer": "石炭を空気なしで約1000℃に熱する（乾留）と、照明用の石炭ガス・コークス・コールタール・安水（アンモニア水）に分かれる。19世紀のガス工場が大量に出したタールが、染料・薬・プラスチック、のちのフォトレジストの原料になった。",
+    "hee": {
+     "1": "石炭を空気なしで焼くと、コークス・ガス・黒いタールが出る。",
+     "2": "1792年マードックが石炭ガスで家に明かり、1812年ロンドンにガス会社。タールははじめ困ったごみだった。",
+     "3": "1856年、18歳のパーキンがコールタールの物質から最初の合成染料モーブを作り、化学工業が始まった。",
+     "4": "1915年、山極勝三郎と市川厚一がウサギの耳にコールタールを塗り続け、世界で初めて実験でがんを作った（化学物質ががんを起こす証拠）。"
+    },
+    "certainty": "乾留の生成物と割合（コークス約70%・タール約5%）○（教科書の典型値、炭種で変わる）／マードック 1792・ロンドンのガス会社 1812 ◎／パーキン 1856 ◎／山極・市川 1915 ◎",
+    "basis": "ブリタニカ「coal tar」https://www.britannica.com/science/coal-tar 、ブリタニカ「William Murdock」https://www.britannica.com/biography/William-Murdock 、Science History Institute「William Henry Perkin」https://www.sciencehistory.org/education/scientific-biographies/william-henry-perkin/ 、日本病理学会／Yamagiwa & Ichikawa 1915（英訳 CA Cancer J Clin 1977）（英語・日本語）"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-10"
+    ]
+   ],
+   [
+    [
+     "3-19"
+    ],
+    [
+     "0-15"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "石炭の乾留（空気なしで約1000℃）→コークス＋石炭ガス＋コールタール＋安水。1792 マードックのガス灯、1812 ロンドンのガス会社で大量に出たタールの使い道として1850年頃から化学工業化"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "重",
+  "missing": "",
+  "item": "gas_retort",
+  "recipes": [
+   "作業台：耐火れんが（珪石れんが）×5 ＋ 銅インゴット ＋ furnace ＋ 鉄インゴット×2 → ガス工場のレトルト"
+  ],
+  "machine_recipes": [
+   "ガス工場のレトルト「石炭を乾留する」：石炭×8 ＋ 石炭 → コークス×6 ＋ 安水×2 ＋ コールタール（80 秒）。空気なしで約1000℃（燃料は石炭・木炭・コークス1個で石炭8個、電気なし）。石炭ガスは回収しない"
+  ],
+  "placeholder": "省略：石炭ガスは回収しない（本物はガス灯の燃料にするのが目的）。ガスの洗浄（タールと安水を分ける装置）・石炭の種類による収率の差もない。",
+  "game_text": "コークス炉の副産物（タール・安水→[2-21]・石炭ガス）→ 分留でベンゼン[2-24]・フェノール[2-25]・ナフタレン（[2-32]）・キシレン（[2-30]）",
+  "hee_game": {
+   "note1": "石炭を空気なしで蒸し焼きにする炉。コークスと、黒いコールタールと、アンモニアのにおいの水がとれる。",
+   "note2": "石炭を入れて、石炭・木炭・コークスを燃やす（1個で8個ぶん、1個10秒、電気なし）。石炭4個 → コークス3、4個ごとに安水1、8個ごとにコールタール1。耐火れんがの釜（レトルト）を外から約1000℃に熱し、出てくるガスを銅の管で冷やす。",
+   "note3": "1792年、マードックは石炭を蒸し焼きにして出るガスで家に明かりをともした。1812年にはロンドンにガス会社ができ、町にガス灯が並んだ。そのとき大量に出て困ったのがコールタールで、1850年ごろから染料や薬の原料として使われるようになった。",
+   "note4": "石炭1トンから、コークス 約700kg、コールタール 約50kg、安水 約100L、石炭ガス 約300m³（水素とメタンが主）。ガスを売るのが本業で、コークスやタールは「ついで」だった。のちにコークス炉 [3-19] も同じ副産物を回収するようになる。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAkUlEQVR42qVTWw6AIAybhK8dxJN4Og/cX/2CjK5E1CVGTEbXx9zOY7/sRxUzM3cfnljtO75jT1WoDMIFwNzdAGQAAB2knWcgXQJfjFMiZSWjMu04VTFgZmXW+KQ/pbAK0nobSGFXP+3BWxlykVbyV0YmEzk2Bue4l2KME6WJykD1T0Q2SQJfUKay1EHCyt6rvhvEU2OjTuSZpAAAAABJRU5ErkJggg=="
+}

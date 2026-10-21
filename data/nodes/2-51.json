@@ -1,0 +1,79 @@
+{
+ "id": "2-51",
+ "history": {
+  "name": "ナイロン",
+  "name_en": "Nylon",
+  "kind": "tech",
+  "trunk": "2",
+  "trunk_name": "化学",
+  "year": 1935,
+  "year_range": "1935〜1939",
+  "year_uncertain": false,
+  "hee1": "ナイロンのストッキングが売り出された日、店には何千人もの行列ができた（O-010 で追加。出典：Wikipedia「National Historic Chemical Landmarks」、ACS「Landmarks directory」）",
+  "hee1_en": "On the day nylon stockings went on sale, thousands of people lined up at the stores. (Added in O-010. Sources: Wikipedia \"National Historic Chemical Landmarks\", ACS \"Landmarks directory\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "C37. 石炭と空気と水から作る糸（ナイロン 66）［2-51］",
+    "answer": "1935年2月、デュポンのウォーレス・カロザースのチームが、アジピン酸（炭素6）とヘキサメチレンジアミン（炭素6）をアミド結合で何百もつないだナイロン 66 を作った。チームのジュリアン・ヒルは1930年に溶けた高分子から糸が引けることを見つけていた。1930年代の原料はコールタールのフェノールで、ニッケルの触媒で水素を付け、硝酸で酸化してアジピン酸にし、アンモニアからジアミンを作った。1938年に発表、1939年にストッキングとして売り出され、絹の代わりになった（ACS 化学遺産）。",
+    "hee": {
+     "1": "ナイロンは「石炭と空気と水から作る」と宣伝された。",
+     "2": "「66」は、2つの原料の炭素の数（6と6）。",
+     "3": "アミド結合は、絹や羊毛のたんぱく質と同じつながり方。",
+     "4": "アジピン酸を作るときに出る一酸化二窒素は強い温室効果ガスなので、今は回収している。"
+    },
+    "certainty": "カロザース 1935・ヒル 1930・ストッキング 1939 ◎（TECH_TREE の本物欄、ACS 化学遺産）／1930年代のフェノールからの道 ○／ラネー 1926 ◎",
+    "basis": "- ACS「Foundations of Polymer Science: Wallace Carothers and the Development of Nylon」：https://www.acs.org/education/whatischemistry/landmarks/carotherspolymers.html"
+   }
+  ],
+  "people": [
+   {
+    "name": "ウォーレス・カロザース",
+    "tool": "🧵 ナイロン",
+    "year": "1935",
+    "intro": "1935年、チームとナイロンを作り、高分子説を実証した（1896〜1937）",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACQ0lEQVR42mNgGAUjHTCSolhLTvQ/MequPXpNtLksxCo0UZX8rywphCH+/ssPbMr/E+sIRmJ9LiPCB+cvm1SLVV1UXjOc/eTNJ6JCgolalqPLyYjwERVlTKSkAXyWk6KGbAfQAhDtgKaSVAZaqCXaASpyEjQJARZSFCOncvS4RpYjJQTwZpOK5MD/585fIjlx3Xn0gqGuZzYDAwMDg5GhHkPH3PWMVAkBTsNQBj1NTYZL168zfD+/Gqccw6PJ1AsBXTV5BmVZCXgaePHmA4OEiACKb9Hl7jx6wcDAwMBw9/ELhsu3HuINAYKJUFkWNfEhW44O0OXQ9ZLlgA17T2JGBTsbnP3y7Qes4rj0kpQGkILuf0miP1z8+89fDAwMDAwXbjxg4ObkwBCHWY4v6EmujiuSA1EcgQ/0zN9IlOUk5wJkcHj2VhS+bao37RskxIQCKb4n2QEwR4gK8TPE+zugiC/ceIDh9buPJFlOEahIDvz/5siC/2+OLPhfkRz4n4GWdYGTkweGBQHO5gz/1d2g7BcMp+5/x1Czb98ORoocALNYR8cARfz+/TsMDAwMDK2mVgwyHBwMNnUJDNzcPAyKiioYbUNCDmEhxWKUUs41jkGmaQGczbD8DIYaJP04HcJCqsX379/B5lMGRUUVnHL4HMJCrMXIoLY2D6tYUlIeXn3YHMKERZJk36OHAiGAbBfJjVJsvidGjmAivHLlAl6Fb968YhAREWNYtGgJXOzEB0hNyIgk9vXrF4YDB3YxiIiIEeUAAK7m58Q1zS7nAAAAAElFTkSuQmCC"
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "2-24"
+    ]
+   ],
+   [
+    [
+     "2-21"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1935年2月、アメリカのデュポン社のウォーレス・カロザースのチームが、アジピン酸とヘキサメチレンジアミンをつなげて長い鎖にしたナイロン 66 を作った。チームのジュリアン・ヒルは、1930年に溶けた高分子から糸が引けることを見つけていた。1938年に発表、1939年にストッキングとして売り出され、絹の代わりになった（ACS 化学遺産）。石炭や石油から作る原料と、空気の窒素からのアンモニアだけでできる、最初の完全な合成繊維。高分子説（[I-23]）を実際に確かめる仕事でもあった"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "重",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAb0lEQVR42mNgoBAwInOS7JT+E6Np3qF7jFgNgBniZaOGVeO2I7dQNGM1gIGBgcHFrwunS/ZsKkPRw0Sqn9ENJ9mAPZvKGJENYSIn5JENYaI0GskywMWv6z8sMMn2AozNgjUd6OzDmQ6onhJHAQMDABZfKF7UuUGoAAAAAElFTkSuQmCC"
+}

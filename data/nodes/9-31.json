@@ -1,0 +1,71 @@
+{
+ "id": "9-31",
+ "history": {
+  "name": "CMP",
+  "name_en": "CMP (chemical mechanical polishing)",
+  "kind": "tech",
+  "trunk": "9",
+  "trunk_name": "半導体プロセス",
+  "year": 1980,
+  "year_range": null,
+  "year_uncertain": true,
+  "hee1": "何十階建てのビルを、1階ずつ床を平らにしながら建てる",
+  "hee1_en": "Like building a skyscraper of dozens of floors, flattening each floor one at a time.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "F34. 1階ずつ床を平らにする（CMP）［9-31］",
+    "answer": "層を重ねるとウェハーの表面が凸凹になり、細い線を焼くときに焦点が合わなくなる（焦点深度 DOF = k2·λ/NA² は、細い光ほど浅い）。回る台のパッドに、アルカリ性のシリカの粒の液（スラリー）を流し、ウェハーを押しつけて、出っぱった所から平らに削る。化学（薬で柔らかくする）と機械（粒でこする）を合わせるので「化学機械研磨」。1980年代に IBM が工場で使いはじめた。",
+    "hee": {
+     "1": "シリコンウェハーを鏡にみがく方法（コロイダルシリカ、1960年代）を、層の平らにするのに使い直した。",
+     "2": "細い線ほど焦点深度が浅い。だから層ごとに平らにしないと、上の層がピンぼけになる。",
+     "3": "銅の配線（ダマシン、1997）は、溝に銅をうめて CMP で余分を削る。CMP がないと作れない。",
+     "4": "⚠️ IBM が使いはじめた年（1980年代の半ば）は出典で確かめ中。"
+    },
+    "certainty": "CMP の原理とスラリー ◎／IBM の導入 1980年代 △",
+    "basis": "Wikipedia「Chemical-mechanical polishing」https://en.wikipedia.org/wiki/Chemical-mechanical_polishing （英語）"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "9-13"
+    ]
+   ],
+   [
+    [
+     "8-03"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1980年代 IBM⚠️。配線を何層も重ねると凸凹で焦点が合わない（焦点深度 DOF=k2·λ/NA²）→ 層ごとに平らに削る"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "重",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "CMP 装置（ROADMAP v0.5 #2、flatness 判定）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAeElEQVR42mNgoBAw4pKwcvD5j8w/dmALVrVM+Ez38vFh8PLxwesCJkq9wITL+cg2e/n4YHgJaxjAFOFy9rYtWzDCgxGXrfjAti1b4IbADVBT0/pPit9v3brGSJVAZKBKQsIVwoQAPDCtHHz+w8KAWBpmKXVcMLQBAClGMWldei6cAAAAAElFTkSuQmCC"
+}

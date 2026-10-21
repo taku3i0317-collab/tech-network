@@ -1,0 +1,62 @@
+{
+ "id": "I-32",
+ "history": {
+  "name": "フランク・ヘルツの実験",
+  "name_en": "Franck-Hertz experiment",
+  "kind": "idea",
+  "trunk": "I",
+  "trunk_name": "発見・考え方",
+  "year": 1914,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "原子は、ちょうど決まった量のエネルギーしか受け取らない",
+  "hee1_en": "Atoms accept only exact, fixed amounts of energy.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://www.nobelprize.org/prizes/physics/1925/summary/"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-45"
+    ]
+   ],
+   [
+    [
+     "5-02"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [
+   "7-10"
+  ],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1914年、ドイツのジェームス・フランクとグスタフ・ヘルツが、水銀の蒸気を入れた管の中で電子を加速すると、電子のエネルギーが 4.9 電子ボルトになるたびに水銀の原子にエネルギーを渡して止まることを見つけた（1925年ノーベル物理学賞）。原子は決まった量のエネルギーしか受け取らないことを、実験で初めてはっきり示した。水銀ランプが決まった色の光（g線・i線など）を出すのは、エネルギーを受け取った水銀の原子がそれを光として出すから"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "実験：水銀の蒸気の管の電圧を少しずつ上げ、4.9 ボルトごとに電流がガクッと下がるのを見る",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAY0lEQVR42mNgoAawcvD5T65eJnI0HZnG8J8kA5A1HJnG8N8mi4ERJsZEjmYGBgYGGM2ETxOyBqLDANlGGIA5GZthTOiacdmIS5wJn2ZCzscZBsRohAFGShLSsQNbGBlGAeUAAKGYKTAliVwFAAAAAElFTkSuQmCC"
+}

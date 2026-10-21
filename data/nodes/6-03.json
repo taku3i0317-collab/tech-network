@@ -1,0 +1,69 @@
+{
+ "id": "6-03",
+ "history": {
+  "name": "圧縮機",
+  "name_en": "Compressor",
+  "kind": "tech",
+  "trunk": "6",
+  "trunk_name": "ガス",
+  "year": 1880,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "1880年代に高圧ボンベができてガスを持ち運べるようになった",
+  "hee1_en": "In the 1880s high-pressure cylinders appeared, and gases could be carried around.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "4-08"
+    ]
+   ],
+   [
+    [
+     "1-26"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-38"
+  ],
+  "frontier": false,
+  "real": "ピストン圧縮（1880年代に高圧ボンベ実用化）"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": "compressor",
+  "recipes": [
+   "作業台：鋼インゴット×7 ＋ 電動モーター ＋ 銅ケーブル → 圧縮機"
+  ],
+  "machine_recipes": [
+   "圧縮機「ボンベに詰める」：空ボンベ ＋ 隣のガスホルダーのガス 50 mol → そのガスのボンベ（5 kW × 124 秒＝620 kJ）。約150気圧。H2・O2・Cl2・N2・Ar"
+  ],
+  "placeholder": null,
+  "game_text": "容器システムの本体。[6-07]空気分離の前提",
+  "hee_game": {
+   "note1": "1880年代に高圧ボンベができてガスを持ち運べるようになった。",
+   "note2": "電動のピストン圧縮機。50mol 以上入ったガスホルダーの隣に置く：空ボンベ ＋ 50mol ＋ 5kW×124秒 → そのガスの充填ボンベ。電力量 620kJ は、50mol を温度一定で 1→150気圧に押し縮める仕事 nRT·ln(150)。",
+   "note3": "ガスは押し縮めると熱くなるので、本物の圧縮機は段階的に（たとえば 1→6→30→150気圧）圧縮し、あいだを水で冷やす。自転車の空気入れが温かくなるのも同じ理由。",
+   "note4": "等温圧縮の仕事 W = nRT ln(P2/P1) = 50×8.314×298×ln150 ≈ 621kJ。冷やさずに1回の断熱圧縮で150気圧にすると、もっと大きな仕事（約1MJ）が要り、ガスは1000℃近くになってしまう。だから多段で冷やすことが大事。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAnUlEQVR42qVTMQ6AIAwsDY8wxtnJwbc4GJ9qHHwIDyD8QhcbSi0Ewi2Qll7bazHHvj3QAQsAMIwzBO+SM4fgHfAYJAcFkaMWyFkluwZZHWrGFhIrHesyRQO/fzivOyFHTaASuFY/gpL6uURYm7k4hZbRyT3B1vJlG4ZWWSPge6FlD97FVc6JxH28VXUKuSxyUqoGMpge8vI1QtP7nV9n41l58OA+CwAAAABJRU5ErkJggg=="
+}

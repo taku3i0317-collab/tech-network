@@ -1,0 +1,73 @@
+{
+ "id": "2-26",
+ "history": {
+  "name": "メタノール",
+  "name_en": "Methanol",
+  "kind": "tech",
+  "trunk": "2",
+  "trunk_name": "化学",
+  "year": 1834,
+  "year_range": "1661〜1923",
+  "year_uncertain": false,
+  "hee1": "木を焼いた液を蒸留すると、メタノール（木精）がとれる",
+  "hee1_en": "Distilling the liquid from burnt wood gives methanol (wood spirit).",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "C4. 木を焼いた液からメタノール（木精）［2-26］",
+    "answer": "木を乾留して出る木酢液には、酢酸（約5〜10%）とメタノール（数%）が溶けている。消石灰を入れると酢酸が酢酸カルシウム（塩）になって蒸発しなくなるので、蒸留するとメタノール（木精）がとれる。1923年からは CO＋2H2 → CH3OH の高圧合成（BASF）。",
+    "hee": {
+     "1": "木を焼いた液を蒸留すると、メタノール（木精）がとれる。",
+     "2": "メタノールは体の中でホルムアルデヒドとギ酸に変わり、目の神経を傷つける（飲むと失明）。",
+     "3": "1834年デュマとペリゴが木精を確かめた。「メチル」はギリシャ語の「酒」＋「木」。",
+     "4": "残りの酢酸カルシウムはアセトンの原料。第一次世界大戦でアセトンが足りなくなった。"
+    },
+    "certainty": "木酢液の成分と石灰を使う精製 ○／デュマとペリゴ 1834 ○／BASF 1923 ○（TECH_TREE の本物欄と一致）／GHS 区分 ○",
+    "basis": "- Wikipedia「Methanol」：https://en.wikipedia.org/wiki/Methanol"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "2-23"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "木酢液の蒸留で木精。1923 BASF（ピア、ミッタシュら。7月にロイナで生産開始）が CO+2H2→CH3OH（高圧・触媒）を工業化"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "軽",
+  "missing": "",
+  "item": "methanol",
+  "recipes": [
+   "かまど：石灰を入れた木酢液 を焼く → メタノール（木精）"
+  ],
+  "machine_recipes": [],
+  "placeholder": "近似：木精の粗い蒸留を1回にまとめた（本物は何度も蒸留して純度を上げる）。",
+  "game_text": "木酢液の蒸留 → メタノール",
+  "hee_game": {
+   "note1": "木を焼いた液を蒸留すると、メタノール（木精）がとれる。飲むと目が見えなくなる危ない物。",
+   "note2": "石灰を入れた木酢液をかまどで蒸留して作る。熱した銅の網で酸化するとホルムアルデヒド（[2-27]）。⚠ GHS：引火性・急性毒性・特定標的臓器毒性（視神経）。飲まない（ゲームでも飲めない）。工業の材料としてだけ扱う。",
+   "note3": "メタノール CH3OH はいちばん小さいアルコール。体の中でホルムアルデヒドとギ酸に変わり、目の神経を傷つける。お酒のエタノールとそっくりなので、昔から間違えて飲む事故があった。",
+   "note4": "1834年、デュマとペリゴが木精の成分を確かめ、メチル基の名もここから（ギリシャ語の「酒」＋「木」）。1923年からは BASF が一酸化炭素と水素から高圧で合成するようになった。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAVklEQVR42mNgGNTAxa/rv4tf1398apgotYRiA1hwOf2LBgNDRlIEAwMDA8MXDYb/PDcYGPZsKmMk2gUlUM3o7MEXBqMG0CohMTAwMPTMW4HC56FVhgMArQwRykfVa/IAAAAASUVORK5CYII="
+}

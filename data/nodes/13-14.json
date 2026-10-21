@@ -1,0 +1,53 @@
+{
+ "id": "13-14",
+ "history": {
+  "name": "フッ素と歯",
+  "name_en": "Fluoride and teeth",
+  "kind": "tech",
+  "trunk": "13",
+  "trunk_name": "医薬・衛生",
+  "year": 1945,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "歯みがき粉のフッ素は、エキシマレーザーのフッ素と同じ元素",
+  "hee1_en": "The fluorine in toothpaste is the same element as the fluorine in excimer lasers",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "2-10"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1945 米国グランドラピッズで水道水へのフッ化物添加を開始。歯のエナメル質のヒドロキシアパタイトがフルオロアパタイトに変わり、酸に溶けにくくなる"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "解説のみ",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAlUlEQVR42mNgGAhgUdb1H8ZmRJaICAv6j8xfsWodIzbxBwoWcDYLsmYPNyd0y/4zMDAwYBFnmHHrG8OJrjJGFnTBDDUuOB+bRgYGBoYdu/YxnIC6jonS8EAxANl2sgygyAUrVq1j3LFrH0ENO3btg8cOQRfs2LWPgZChLETa9B9XjDAR40x83qM4EFmwJN3/xAbg4AAAdEw9a62gs74AAAAASUVORK5CYII="
+}

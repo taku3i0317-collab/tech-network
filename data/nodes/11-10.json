@@ -1,0 +1,73 @@
+{
+ "id": "11-10",
+ "history": {
+  "name": "酒と酢",
+  "name_en": "Alcohol and vinegar",
+  "kind": "tech",
+  "trunk": "11",
+  "trunk_name": "農業・食",
+  "year": -6000,
+  "year_range": "-7000〜1864",
+  "year_uncertain": false,
+  "hee1": "お酒を空気にさらしておくと酢になる",
+  "hee1_en": "Leave alcohol out in the air and it turns into vinegar.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "C49. お酒が酢になるわけと、それを防ぐ方法（酢・低温殺菌）［11-10］［11-15］",
+    "answer": "お酒を空気にさらしておくと、空気の中の酢酸菌がアルコールを酢酸にして酢になる（C2H5OH + O2 → CH3COOH + H2O）。1864年パスツールがこれを示し、フランスのワインが酸っぱくなる「病気」は、約60℃で数分温めて菌を減らせば防げることを見つけた（低温殺菌、パスチャライゼーション）。今は牛乳などにも使われる。ビール・ワインは紀元前数千年から作られてきた（ジョージアのワインは紀元前6000年ごろ）。",
+    "hee": {
+     "1": "お酒を空気にさらしておくと酢になる。",
+     "2": "牛乳パックの「殺菌」の英語はパスツールの名前から。",
+     "3": "酢は、人類が最初に使った酸。",
+     "4": "煮立てずに少し温めるだけで、味を変えずに菌を減らせる。"
+    },
+    "certainty": "パスツール 1864（酢酸菌・低温殺菌）◎／ジョージアのワイン 紀元前6000年ごろ ○",
+    "basis": "- Wikipedia「Vinegar」/「Acetobacter」：https://en.wikipedia.org/wiki/Vinegar"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "0-04"
+    ]
+   ],
+   [
+    [
+     "0-03"
+    ]
+   ]
+  ],
+  "understanding": [
+   "2-39"
+  ],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "ビール・ワインは紀元前数千年から（ジョージアのワインは紀元前6000年頃、中国・賈湖の発酵酒は紀元前7000年頃）。1864 パスツールが酢は酢酸菌（Mycoderma aceti）が作ると論文で示した（C2H5OH+O2→CH3COOH+H2O）"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "実験＋軽",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "発酵樽の出力（酒→放置で酢）。酢は[2-23]木酢液の別ルート",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAjklEQVR42mNgGGjAiC6QZKf0H5+GeYfuoehhQdfsZaNGyNL/yIagGHCDSYvhxjEC2pm0GBgY7mG6IMlO6b+X1R+i/K3xTwnuCiZKA5GFJOdj8QYLAwMDg5WDz/8iIp3PwMDAsO3ILQaYXUzIghSnAysHn//EaDp2YAv2aNT4d42BUDpAdj5VUiJJTh+cAAChDzFM9c9MhwAAAABJRU5ErkJggg=="
+}

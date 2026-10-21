@@ -1,0 +1,81 @@
+{
+ "id": "P-33",
+ "history": {
+  "name": "タワーファン",
+  "name_en": "Tower fan",
+  "kind": "product",
+  "trunk": "P",
+  "trunk_name": "モノ（作品）",
+  "year": 2009,
+  "year_range": "1893〜2009",
+  "year_uncertain": false,
+  "hee1": "羽根のない扇風機は、本当は台の中に羽根があり、輪から出る風がまわりの空気を引っぱって何倍にもふやしている。",
+  "hee1_en": "A bladeless fan really has blades inside its base, and the air from the ring pulls the surrounding air along, multiplying the flow many times.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://www.designingbuildings.co.uk/wiki/Bladeless_fan",
+   "https://arxiv.org/pdf/2406.03305"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "4-23"
+    ]
+   ],
+   [
+    [
+     "4-24"
+    ]
+   ],
+   [
+    [
+     "4-21"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [
+   "2-37",
+   "4-08",
+   "4-21",
+   "4-22",
+   "4-23",
+   "4-24",
+   "8-02",
+   "9-44",
+   "10-14",
+   "B-07"
+  ],
+  "materials": [
+   "銅",
+   "プラスチック",
+   "ネオジム"
+  ],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "よくある縦長のタワーファンは、中に細長い円筒形の『横流ファン（クロスフローファン）』が入っていて、横から吸って前の細いすき間から平たい風を出す。輪っか形の『羽根のない扇風機』は、台の中の羽根車で作った速い風を輪のすき間から薄く吹き出し、コアンダ効果でまわりの空気を巻きこんで風の量をふやす"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "作品：縦長の箱のすき間から、細長い風を出す",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAfklEQVR42mNgoBAw4pJQU9P6D2PfunUNpzoWXJq9vPyQhf7jMoQFl8mnLlwhygs4DTAz0IGztz27x8DAwMBg5eDzH1nNsQNbGElywbEDWxgpcgHFYUCSF7C5gCQvDJ1YYMJlwJtn9xjMDHQY3uCJAYIAOT8QlZmI0YAvY5EFANvGQHwuQKU7AAAAAElFTkSuQmCC"
+}

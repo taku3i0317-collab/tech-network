@@ -1,0 +1,71 @@
+{
+ "id": "0-04",
+ "history": {
+  "name": "農耕",
+  "name_en": "Farming",
+  "kind": "tech",
+  "trunk": "0",
+  "trunk_name": "生存・道具",
+  "year": -9500,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "穂が落ちにくい麦を選んで育て続けたのが、畑の始まり",
+  "hee1_en": "Fields began when people kept choosing and growing wheat whose grains did not fall off easily.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "S4. 穂が落ちない麦を選ぶ（栽培化）［0-04］",
+    "answer": "野生の麦は穂の軸がもろく、熟すと小穂がこぼれて自分で種をまく。まれに軸がもろくならない変異株があり、人が刈り取って持ち帰った種をまく、を繰り返すと、この変異株が増えていく（無意識の選抜）。ヒトツブコムギは約1万1000年前ごろ、トルコ南東部のカラジャダー山付近で栽培化されたとされる。",
+    "hee": {
+     "1": "穂が落ちにくい麦を選んで育て続けたのが、畑の始まり。",
+     "2": "穂が落ちる性質は、野生では種をまく仕組み。人にとっては収穫を逃す困りもの。",
+     "3": "遺跡の穂軸から、非脱粒の麦が多数派になるまで1000〜2000年かかったらしい⚠️。実験からは、刈り方しだいで20〜200年という計算もある。",
+     "4": "ヒトツブコムギは2倍体、パン小麦は6倍体（エンマー×タルホコムギ、約8000〜9000年前）。アイスマン（約5300年前）の腸にもヒトツブコムギ。"
+    },
+    "certainty": "脱粒・非脱粒と選抜のしくみ ◎／カラジャダー山付近（Heun ほか 1997）○／1000〜2000年（Tanno & Willcox 2006）△ → ゲーム内は ⚠️／20〜200年（Hillman & Davies 1990）○／アイスマンのヒトツブコムギ ○",
+    "basis": "- Heun ほか 1997「Site of einkorn wheat domestication identified by DNA fingerprinting」Science 278：https://www.science.org/doi/10.1126/science.278.5341.1312"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "0-01"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "約1万1500年前、肥沃な三日月地帯でヒトツブコムギ・エンマーコムギ・大麦を栽培化（穂が落ちない変異株を選び続けた）"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "実験",
+  "missing": "",
+  "item": "wild_einkorn",
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": "近似：種は草から出る（本物は肥沃な三日月地帯の草原）。変異の種は 10%（本物はずっとまれ）。",
+  "game_text": "バニラの小麦で可",
+  "hee_game": {
+   "note1": "野生の麦。熟すと穂がばらばらに落ちてしまう。ときどき「穂が落ちない」種がまざるので、それを選んで植えよう。",
+   "note2": "草をこわすと、ときどき出る（種）。耕した土に植える。熟したまま放っておくと穂が落ちて芽からやり直し（収穫なし）。熟したうちに刈ると、10%で「穂が落ちない」変異の種（ヒトツブコムギ・栽培種）がまざる。",
+   "note3": "野生の麦の穂の軸はもろく、熟すと小さな穂（小穂）が1つずつ外れて地面にこぼれる。これは種をまき散らすための野生の仕組み。まれに軸がもろくならない変異株があり、人が刈り取って持ち帰り、その種をまくと、この変異株ばかりが増えていく。人は知らないうちに麦を「選んで」いた。",
+   "note4": "ヒトツブコムギの栽培化は約1万1000年前ごろ、遺伝子の比較からトルコ南東部のカラジャダー山のあたりとされる。遺跡の穂の軸を調べると、穂が落ちない麦が多数派になるまで1000〜2000年かかったらしい ⚠️（実験では、刈り方しだいで20〜200年でも起こりうると計算された）。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAfUlEQVR42mNgoBVIslP6T7GGoWEIEyFDkuyU/nvZqDF0uaj9J8qAeYfuMTIwMMA1zDt0j3HbkVsMeF2AzYk3fv1BMRSZz0CMs7EZTDBA0Q1ZU+XxH9nvSXZK/9HDggnd/zBDCPkdryvQbcWnnokYQ3FFIQMDAwMLrmgcOgAALaNJrC3nKvIAAAAASUVORK5CYII="
+}

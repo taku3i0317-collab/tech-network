@@ -1,0 +1,75 @@
+{
+ "id": "2-11",
+ "history": {
+  "name": "硫化水素と硫黄回収",
+  "name_en": "Hydrogen sulfide and sulfur recovery",
+  "kind": "tech",
+  "trunk": "2",
+  "trunk_name": "化学",
+  "year": 1777,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "ソーダ工場のかすから、硫黄を取り戻した",
+  "hee1_en": "Sulfur was won back from the waste of soda factories",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "C34. ソーダ工場のかすから硫黄を取り戻す（硫化水素とクラウス法）［2-11］",
+    "answer": "ルブラン法のかす（硫化カルシウム、ガリグー）は工場のまわりに積まれ、雨で硫化水素（腐った卵のにおいの毒ガス）を出した。1882年チャンスが二酸化炭素でかすから硫化水素を追い出し、1883年クラウスが硫化水素を空気で半分燃やして硫黄にする方法（2H2S + O2 → 2S + 2H2O）を作って、硫黄を取り戻せるようになった。今も石油や天然ガスの硫化水素はアルミナの触媒のクラウス法で硫黄にされ、世界の硫黄の大部分はこうして作られる。硫化水素は1777年シェーレが記述した。",
+    "hee": {
+     "1": "ソーダ工場のかすから、硫黄を取り戻した。",
+     "2": "硫化水素は濃いと鼻がまひして、においがわからなくなる（だから危ない）。",
+     "3": "今の硫黄のほとんどは、鉱山ではなく、石油やガスをきれいにするときに出てくる。",
+     "4": "同じアルミナの触媒が、アルコールからエチレンを作るのにも、硫化水素から硫黄を作るのにも使える。"
+    },
+    "certainty": "シェーレ 1777 ○／チャンス 1882・クラウス 1883 ◎／今の硫黄の大部分がクラウス法 ◎",
+    "basis": "- Wikipedia「Claus process」：https://en.wikipedia.org/wiki/Claus_process"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "2-05"
+    ]
+   ],
+   [
+    [
+     "6-06"
+    ],
+    [
+     "6-04",
+     "6-12"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1777 シェーレが記述。FeS+2HCl→FeCl2+H2S（1844頃 キップの装置で実験室の定番）。クラウス法（1883 カール・フリードリッヒ・クラウス）2H2S+O2→2S+2H2O でルブラン法のかすから硫黄を回収"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "実験＋軽",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "ガスアイテム（[6-02]ガスホルダー行き）。用途: 金属の分析（硫化物の沈殿色）、硫黄の再生",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAX0lEQVR42mNggIKIsKD/DEiAEB8roMgQqrhg8IFpeSL/p+WJ4HU6Cz7NQUEmUN6Z/1mT3jBiU8dEWDMDQ1CQCQMulzAR0kzIECZiNOMzhIlYzbgMYYRpJieWcAXsSAMA8OM4Tq0ckw0AAAAASUVORK5CYII="
+}

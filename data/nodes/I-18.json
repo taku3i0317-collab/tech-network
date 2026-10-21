@@ -1,0 +1,59 @@
+{
+ "id": "I-18",
+ "history": {
+  "name": "コアンダ効果",
+  "name_en": "Coandă effect",
+  "kind": "idea",
+  "trunk": "I",
+  "trunk_name": "発見・考え方",
+  "year": 1934,
+  "year_range": "1800〜1936",
+  "year_uncertain": false,
+  "hee1": "水道の水にスプーンの背を近づけると、水がスプーンに吸いよせられるのはコアンダ効果のしわざ。",
+  "hee1_en": "When you bring the back of a spoon near tap water, the water is pulled toward the spoon. That is the Coandă effect.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://en.wikipedia.org/wiki/Coand%C4%83_effect",
+   "https://en.wikipedia.org/wiki/Henri_Coand%C4%83",
+   "https://www.airspacemag.com/history-of-flight/coandas-claim-73647227/"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "14-12"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [
+   "4-24"
+  ],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "勢いよく吹き出した空気や水は、近くの曲がった面にくっついて曲がりながら流れる。ルーマニアのアンリ・コアンダが、1910年の自作の飛行機で排気が機体に引き寄せられるのに気づいたと後に語り（この飛行機が本当に飛んだかは疑われている ⚠️）、1934年にフランスで特許を取った。流れはくっつくときにまわりの空気も引きこむので、羽根のない扇風機は吹き出した風の何倍もの空気を動かせる。スプーンの背に水道の水を当てると、水がスプーンに沿って曲がるのも同じ現象"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "実験：スプーンの背中を水道の水に近づけると、水がスプーンに吸いよせられて曲がる",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAW0lEQVR42mNgoCWwKOv6T0gNE6WWMFHqCqwGqKlp/VdT0/pv8esdg8Wvd3gNYcSm2cvLD0PhCTYhhhNdZYz0DwOaG8CIKxAZGBgYYGGBy/9EJSRiEtNQ1jgoAAAb7SmWL0uroAAAAABJRU5ErkJggg=="
+}

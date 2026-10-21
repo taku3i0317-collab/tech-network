@@ -1,0 +1,62 @@
+{
+ "id": "1-45",
+ "history": {
+  "name": "水銀",
+  "name_en": "Mercury",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": -500,
+  "year_range": null,
+  "year_uncertain": true,
+  "hee1": "体温計の中身。触ってはいけない",
+  "hee1_en": "It is what is inside a thermometer. Do not touch it.",
+  "hee_tree": {
+   "2": "常温で液体の金属は水銀だけ（ガリウム[1-44]は体温で溶ける）",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "0-15"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "辰砂 HgS を空気中で約600℃に加熱（焙焼）すると HgS+O2→Hg+SO2。水銀は沸点357℃なので蒸気で出てきて、冷やすと液体の水銀に戻る（レトルト蒸留。古代ギリシャ・ローマ・中国から。水銀そのものはエジプト・クルナの墓（紀元前15〜16世紀）から見つかり、文字に残る最古の取り出し方はテオフラストス（紀元前4世紀）の、辰砂を酢と銅の乳鉢ですりつぶす方法（焼く方法ではない）。年 -500 を支える出典は見つかっていない⚠️。スペインのアルマデン鉱山は2000年以上掘られた）"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": "mercury",
+  "recipes": [
+   "かまど：辰砂のレトルト仕込み を焼く → 水銀"
+  ],
+  "machine_recipes": [
+   "反射炉（焙焼炉）「焙焼」：辰砂のレトルト仕込み ＋ 石炭 8回で1個 → 水銀 ＋ 二酸化硫黄（10 秒）。燃料式（電気なし）"
+  ],
+  "placeholder": "省略：レトルトの冷却器（フラスコで受けるだけ）。かまどで焼くと SO2 は逃げる（反射炉なら回収できる）。警告のみ：本物の水銀蒸気は有毒。",
+  "game_text": "",
+  "hee_game": {
+   "note1": "むかしの体温計の中身。さわってはいけない。",
+   "note2": "Hg。ふつうの温度で液体の金属は水銀だけ。辰砂の粉と空の鉄のフラスコ（レトルトの仕込み）をかまどで焼いて作る。水銀真空計に使う。のちにシュプレンゲルポンプ・拡散ポンプ・水銀ランプにも。",
+   "note3": "水銀は水の13.6倍重いので、わずか76cm の柱で大気全体の重さとつり合う。水で気圧計を作ると約10m も必要。",
+   "note4": "水銀の蒸気は毒で、体にたまる（水俣病はメチル水銀）。むかしは 34.5kg 入りの鉄のフラスコで取引された。ガリウム[1-44]は手の上で溶ける（30℃）が、常温では固体。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAwUlEQVR42t2SMQ6CMBiFP4yT4RBMnqEDZ2AghHTu5OhgGB0YiQOjhzAOPUMHzuDEIRrXughCBYMr/9i89/W9/oX1jigqt0S3nTqUeeoyJbmAi9oGgDYSADRVEfwEiKJymZJYoznsd4SqxhpNGCfczkcaT7/xzSclAQjjZCS0RpOVNTJP3Sygi2uNHhnDOOmBXZXZCkOzn6K7pJkDtJHoTVMga/Q7wX26wtIUwwkmV1h+Xn4IvT6eX2sM/vlEvnkl8wKIbE3Q7crOlAAAAABJRU5ErkJggg=="
+}

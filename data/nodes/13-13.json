@@ -1,0 +1,58 @@
+{
+ "id": "13-13",
+ "history": {
+  "name": "体温計",
+  "name_en": "Thermometer",
+  "kind": "tech",
+  "trunk": "13",
+  "trunk_name": "医薬・衛生",
+  "year": 1714,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "昔の体温計は30cm もあった",
+  "hee1_en": "Old thermometers were as long as 30 cm.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-45"
+    ]
+   ],
+   [
+    [
+     "2-14"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1714 ファーレンハイトの水銀温度計、1866 トーマス・オールバットの短い臨床用体温計（それまで約30cm で測るのに20分）。現在は水銀を使わない電子式（[9-xx]）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "温度計アイテム（毒性警告）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAhUlEQVR42mNgoBAw4pKwKOv6j8w/0VWGVS0LPtNLkiLg7L5Th/4fO7CFkSQDYKBn3gqGE1g0MzAwMDARY0BJUgSDlYPPf5K9QIwLGPAFopWDz38rB5//a248+k8zFwx8GOA1oGjGNLgBuABeA/oysiAMMzucapgozQsUG4DXC//wOJ1qAACHsjJx2/saFwAAAABJRU5ErkJggg=="
+}

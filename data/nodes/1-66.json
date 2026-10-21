@@ -1,0 +1,47 @@
+{
+ "id": "1-66",
+ "history": {
+  "name": "タンタル",
+  "name_en": "Tantalum",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": 1903,
+  "year_range": "1802〜1905",
+  "year_uncertain": false,
+  "hee1": "電球の線は、炭素→タンタル→タングステンと、熱に強い物へ代わっていった（O-012 で追加。出典：Wikipedia「Tantalum」「Werner von Bolton」、Deutsche Biographie 'Bolton, Werner'（https://www.deutsche-biographie.de/sfz5200.html））",
+  "hee1_en": "Light bulb filaments changed from carbon to tantalum to tungsten, each more heat-resistant than the last. (Added in O-012. Sources: Wikipedia \"Tantalum\", \"Werner von Bolton\", Deutsche Biographie 'Bolton, Werner' (https://www.deutsche-biographie.de/sfz5200.html))",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "とても融点が高く（約3000℃）さびにくい金属。1802年、スウェーデンのアンデシュ・エーケベリが見つけた。1903年、ドイツのジーメンス・ハルスケ社のヴェルナー・フォン・ボルトンが延ばせる純粋なタンタルを作り、1905年にタンタルのフィラメントの電球が売られた（炭素→タンタル→タングステンと電球の線が進んだ）。今はチップの銅配線（[9-36]）で、銅がシリコンへしみこむのを止める薄い膜（Ta・TaN）や、小さなコンデンサーに使われる"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAeUlEQVR42mNgoCWYlifyf1qeyH98alhwaWRgYGAICjKBipz5z8DAwJA16Q0julpGbJoRGlHBunVnMAxhwqYwqIGFIaiBhShvMlEaTlitWdfwh2gDMFyQNekN47p1Z4jyP9ZARI8JZINJ8puVg89/bGyqB+LAGzAMAACrZiVqA+IceQAAAABJRU5ErkJggg=="
+}

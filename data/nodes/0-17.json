@@ -1,0 +1,66 @@
+{
+ "id": "0-17",
+ "history": {
+  "name": "家畜化",
+  "name_en": "Domestication",
+  "kind": "tech",
+  "trunk": "0",
+  "trunk_name": "生存・道具",
+  "year": -8000,
+  "year_range": "-9000〜-8000",
+  "year_uncertain": false,
+  "hee1": "牛のご先祖は、肩の高さ2m近い野生のオーロックス",
+  "hee1_en": "The ancestor of cattle was the wild aurochs, nearly 2 m tall at the shoulder.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "S11. おとなしい動物を選んで育てる（家畜化）［0-17］",
+    "answer": "約1万年前の西アジアで、人は野生の羊（ムフロン）・山羊（ベゾアール山羊）・牛（オーロックス）のうち、おとなしい個体を囲って育て、子を残す個体を選び続けた。何世代も選ぶうちに、人に慣れ、乳や毛の多い家畜になった。",
+    "hee": {
+     "1": "牛のご先祖は、肩の高さ2m近い野生のオーロックス（1627年に絶滅）。",
+     "2": "最初の家畜の羊は毛がもこもこではなかった。羊毛の羊は紀元前4000年ごろ⚠️。",
+     "3": "遺跡の骨で若い雄ばかり食べられている時期は、雌を残して増やす「飼い方」が始まった印。",
+     "4": "家畜の牛の遺伝子は、ごく少ない数の雌から始まったらしい⚠️。"
+    },
+    "certainty": "家畜化の時期と場所（約1万年前・西アジア）○／オーロックスの絶滅 1627 ◎／羊毛の羊の時期 △（AUDIT V-16）→ ⚠️／牛の母系の少なさ △ → ⚠️／山羊のザグロス △ → ⚠️",
+    "basis": "- Wikipedia「Domestication of animals」：https://en.wikipedia.org/wiki/Domestication_of_animals"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "0-04"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "約1万年前、肥沃な三日月地帯で羊・山羊、続いて野生のオーロックスから牛が家畜になった。囲って育て、乳・肉・毛・力（犂や荷車を引く）を得る"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "実験",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAhklEQVR42mNgGB5gip/Bf2SaFMCEbgipgGWKn8F/GwcDhGsYGP7nbLrASLQLcjZdYDxy4AJDyQEtBgYGBoYNDFEkeZ0RmbOBIYqhx+Eaw5EDF4gyIGfTBUYWbBLIXsIFYJYwkRNwRw5cYICFE4oByM4/cuACCka2laz0gEuOidJEyDT08xEApEo9ZRj9ipEAAAAASUVORK5CYII="
+}

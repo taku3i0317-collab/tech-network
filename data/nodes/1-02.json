@@ -1,0 +1,53 @@
+{
+ "id": "1-02",
+ "history": {
+  "name": "自然銅",
+  "name_en": "Native copper",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": -8000,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "地面に金属のまま出ている銅があった。たたくと硬くなり、熱すると柔らかく戻る",
+  "hee1_en": "Some copper was found in the ground already as metal. Hammering makes it hard, and heating makes it soft again.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "0-01"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "紀元前8000年頃（アナトリア）。地表に金属のまま出る銅を叩いて成形。叩くと硬くなり（加工硬化）、加熱すると柔らかく戻る（焼きなまし）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "決定：バニラ銅鉱石を掘ると低確率で「自然銅」がドロップ（鉱床上部の酸化帯に出る自然銅の表現）。新規の鉱石生成はしない",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAjklEQVR42mNgoCXoclH7T0gNE7GacRnGRIwifC5hwqfYy0GHoDcYcRng5aDDwMDAwLDtwBWGsj23GAm6AKYRWTGy5i4Xtf/YXIM3DEj2ArrzsbmEYBjADCI5DLBpJsYbTPg0E2MIC4wRERb0/xwDA4MXDpugBv8/JwSxYMWqdYwoBsBAyyU8QS6kwzD4AAC+fkhfqRitFgAAAABJRU5ErkJggg=="
+}

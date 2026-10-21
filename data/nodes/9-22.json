@@ -1,0 +1,105 @@
+{
+ "id": "9-22",
+ "history": {
+  "name": "集積回路",
+  "name_en": "Integrated circuit",
+  "kind": "product",
+  "trunk": "9",
+  "trunk_name": "半導体プロセス",
+  "year": 1958,
+  "year_range": "1958〜59",
+  "year_uncertain": false,
+  "hee1": "最初の IC はトランジスタ1個と部品数個の、指先ほどの大きさ",
+  "hee1_en": "The first IC was one transistor and a few parts, about the size of a fingertip",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "L1. 平らなまま作って、金属でつなぐ（プレーナ IC の層）［9-18］［9-22］（露光とマスクの中心、O-002）",
+    "answer": "1959年、ヘルニ（フェアチャイルド）が「酸化膜を残したまま窓だけ開けてしみ込ませる」プレーナ法を、ノイスがその平らな表面にアルミを付けて部品をつなぐ「1つの板の上の回路（モノリシック IC）」を考えた。1960年5月にフェアチャイルドで最初のプレーナ IC が動いた（このときは板の裏から溝を掘り、エポキシで埋めて部品を分けた）。そのあと部品どうしは、間に逆向きの p-n 接合を作って電気的に分ける方法（接合分離、レホヴェックの特許 1959）に変わった。1961年3月に論理回路の IC（マイクロロジック、まずフリップフロップ。ゲートは1962年）が発表された。工程は、ドーパントを3回しみ込ませる（分離・ベース・エミッタ）＋アルミの配線1層。",
+    "hee": {
+     "1": "部品と部品のあいだには、電気を通さない「逆向きの接合の壁」がある。本物の壁ではなく、型のちがう半導体の境目。最初は本当に溝を掘ってエポキシで埋めていた。",
+     "2": "最初の論理 IC の中身は、トランジスタと抵抗だけだった（RTL）。",
+     "3": "配線の金属は1層だけ。線と線を交差させられないので、つなぎ方をパズルのように工夫した ⚠️。",
+     "4": "分離の壁を作る前に、n型の薄い層を板の上に結晶として育てる（エピタキシー［9-30］）。ゲームの v0.3 はエピタキシーがまだないので、p型の板に n型の島をしみ込ませて代わりにしている（三重拡散）。"
+    },
+    "certainty": "ヘルニ・ノイスの特許 1959 ◎、最初のプレーナ IC 1960年5月（溝とエポキシで分離）・マイクロロジックのフリップフロップ 1961年3月・ゲート 1962 ◎（コンピュータ歴史博物館）／接合分離に変えた・レホヴェックの特許（1959年出願）◎／「拡散3回＋アルミ1層」○／最初の製品がエピタキシーを使っていたか・配線の交差の工夫 △",
+    "basis": "コンピュータ歴史博物館「1959: Practical Monolithic Integrated Circuit Concept Patented」https://www.computerhistory.org/siliconengine/practical-monolithic-integrated-circuit-concept-patented/ 、「1960: First Planar Integrated Circuit is Fabricated」https://www.computerhistory.org/siliconengine/first-planar-integrated-circuit-is-fabricated/ 、「1959: Invention of the 'Planar' Manufacturing Process」https://www.computerhistory.org/siliconengine/invention-of-the-planar-manufacturing-process/"
+   },
+   {
+    "title": "L4. 最初の IC は2つある（キルビーのゲルマニウムとノイスのプレーナ）［9-18］［9-22］（O-010、検査台の発見 monolithic_ic）",
+    "answer": "IC（集積回路）＝1つの板の中に、トランジスタ・抵抗・コンデンサをまとめて作り、つないだもの。最初のものは2つの形がある。",
+    "hee": {
+     "1": "キルビーの IC は金の線が空中にはみ出していて、写真では「髪の毛が生えた小さなかけら」に見える。",
+     "2": "特許はキルビー（TI）とノイス（フェアチャイルド）で争いになり、最後は両社がたがいに使えるように取り決めた（1966年）。",
+     "3": "たくさん作れる形になったのはノイスの方（平らなので、写真の方法で配線まで一度に作れる）。今の IC はすべてこの子孫。",
+     "4": "2000年のノーベル物理学賞はキルビーが受けた。ノイスは1990年に亡くなっていて、ノーベル賞は亡くなった人には贈られない。"
+    },
+    "certainty": "キルビー 1958.9.12・Ge・金線 ◎／ノイスの 1959 年のノートと特許（US 2,981,877、1961年に認められた）◎／ルホヴェックの接合分離 1959 ◎／フェアチャイルドの最初の動くプレーナ IC が 1960 年 ○／両社の取り決めが 1966 年 ○",
+    "basis": "Computer History Museum「1958 – All semiconductor \"Solid Circuit\" is demonstrated」「1959 – Practical monolithic integrated circuit concept patented」、J. S. Kilby, \"Invention of the integrated circuit\", IEEE Trans. Electron Devices 23 (1976) 648、Nobel Prize in Physics 2000（nobelprize.org）"
+   }
+  ],
+  "people": [
+   {
+    "name": "キルビー",
+    "tool": "🔲 ゲルマニウム上の回路",
+    "year": "1958",
+    "intro": "1958年9月、テキサス・インスツルメンツでゲルマニウムの上に部品を作り、金線で結んだ",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACWUlEQVR42mNgGAUjHTCSolhLTvQ/MequPXpNtLksxCo0UZX8rywphCH+/ssPbMr/E+sIRmJ9LiPCB+cvm1SLVV1UXjOc/eTNJ6JCgolalqPLyYjwERVlTKSkAXyWk6KGbAfQAhDtgKaSVAZaqCXaASpyEjQJARZSFCOncvS4RpYjJQTwZpOK5MD/585fYmBgYGD4yCqHIb+1N56BgYGBwbt4IYYc/+9HDAwMDAxGhnoMHXPXM1IlEe7bt4XhzfO7DPv2bYFbDLMcXY5qIaCrJs+gLCvBkD9xJ9YQuPPoBVa5ifnuDHcfv2C4fOsh3hAgmAaUZSVQghsbQJe78+gFXO/lWw8pywUb9p7EEONkZ4OzX779gFUcl16SQgAp6P6XJPrDxb///MXAwMDAcOHGAwZuTg4McZjl+IKe5Oq4IjkQxRH4QM/8jURZTnI5gAwOz96KwrdN9aZ9g4SYUCDF9yQ7AOYIUSF+hnh/BxTxhRsPMLx+95EkyykCFcmB/98cWfD/zZEF/yuSA/8z0LIukJAzw7AgwNmc4b+6G5T9gmHB7qcYal48OsVIkQNgFguIqKCIf/n4hIGBgYGh1dSKQYaDg8GmLoGBhZWDgYdfBqNtSMghTLgslpAz+y8gooJhObyEdI1jkOHggLOxAZh+mHkEQwCXj9F9j8WnDDz8MjjlkMzDCBEWYi1GKQN29mAVM7SIwKsPm0OYsEiS7Hv0UCAEkO0iuVGKzffEyBHMBR/e3MGr8Mf39wwcnIIMixYtgYud+ACpCRmRxP78/sHw4vFpBg5OQaIcAACogfESa7sY+AAAAABJRU5ErkJggg=="
+   },
+   {
+    "name": "ノイス",
+    "tool": "🔲 平らなシリコンの回路",
+    "year": "1959",
+    "intro": "1959年、シリコンの平らな面の上に部品と配線を作る IC を考えた",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACK0lEQVR42mNgGAUjHTCSolhLTvQ/MequPXpNtLksxCo0UZX8rywphCH+/ssPbMr/E+sIRmJ9LiPCR1LQPnnziaiQYKKF5QwMDAwyInxERRnTQCfCoeWAZZNqGZZNqiXIbipJpV42hKUBmAXEgDuPXjDU9cwmKiGykBICUXnNKKGBS45qIVCRHPg/wNmcgYGBgUFFToKkEICBDXtPMnTMXc9IlRDgNAxl0NPUZLh0/TrD9/OrccoxPJpMvUR49zHCN9/Pr2bYOKkIxXKYb7HJIesl2wHKsqhBLyEigFMtuhy6XrIcsGHvScyoYGeDs1++/YBVHJdektIAUuL5X5Loj4iKn78YGBgYGC7ceMDAzcmBIU5M4iO5Oq5IDkRxBD7QM38jUZaTnAuQweHZW1H4tqnetG+QEBMKpPieZAfAHCEqxM8Q7++AIr5w4wGG1+8+kmQ5RaAiOfD/myML/r85suB/RXLgf3LNISoNODl5YFgQ4GzO8F/dDcp+wXDq/ncMNfv27WCkyAEwi3V0DFDE79+/w8DAwMBgapvEwMElxLCgRI+Bm5uHQVFRBaNtSMghLKRYjFLKucYxcPRcgrMZlp/BUIOkH6dDWEi1+P79O9h8yqCoqIJTDp9DWIi1GBnU1uZhFUtKysOrD5tDmLBIkux79FAgBJDtIrlRis33xMgRTIRXrlzAq/DNm1cMIiJiDIsWLYGLfXgD8S2y2NevXxgOHNjFICIiRpQDABF88isYfhbNAAAAAElFTkSuQmCC"
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "9-18"
+    ]
+   ],
+   [
+    [
+     "9-25"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1958.9 ジャック・キルビー（TI。Ge 上に部品を作り金線で結んだ）、1959 ロバート・ノイス（フェアチャイルド。プレーナ＋蒸着 Al 配線で一体化＝モノリシック IC）。キルビーは2000年ノーベル物理学賞"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": "probe_station",
+  "recipes": [
+   "作業台：クラウンレンズ（凸） ＋ タングステン線×2 ＋ 銅ケーブル ＋ 鉄インゴット×3 → 検査台（プローブ）"
+  ],
+  "machine_recipes": [],
+  "placeholder": "省略：測定の電源（電池・電源装置）と、針の位置合わせ",
+  "game_text": "チップアイテム（design / grade、ROADMAP v0.3 #7）",
+  "hee_game": {
+   "note1": "焼き上がったチップに針を当てて、電気が流れるか調べる台。",
+   "note2": "ふちのパッドをクリックして 0 V・5 V・つながない を決めると、電流の流れが黄色く光る。「調べる」で中の回路を判定する。汚れたチップは電流がもれて、動いたり動かなかったりする（洗うと直る）。",
+   "note3": "本物の工場では、ウェハーの上のチップ1つずつに細い針を当てて、良いか悪いかを調べる。悪いチップには印を付けて、あとで捨てる。",
+   "note4": "全部のチップが動くわけではない。良いチップの割合（歩留まり）は、ごみや欠陥の多さとチップの広さで決まる（Y ≈ e^(−D·A)）。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAQklEQVR42mO0cvD5z0ABYGFgYGAwM9AhS/OpC1cYmBgoBANvAAu6gIiMAl4Nb548GGReGI6xgB7KIyUMTl24QrYBAPIVDQth4dRzAAAAAElFTkSuQmCC"
+}

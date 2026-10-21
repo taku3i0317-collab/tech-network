@@ -1,0 +1,58 @@
+{
+ "id": "10-37",
+ "history": {
+  "name": "たんぱく質の形を AI で予測する",
+  "name_en": "Predicting protein shapes with AI",
+  "kind": "tech",
+  "trunk": "10",
+  "trunk_name": "制御・計算",
+  "year": 2020,
+  "year_range": "1994〜2020",
+  "year_uncertain": false,
+  "hee1": "AI は、アミノ酸の並びだけから、たんぱく質がどんな形に折りたたまれるかを当てられるようになった（O-011 で追加。出典：Nobel Prize「Chemistry 2024」「Chemistry 1972」、Nobel Prize「The Nobel Prize in Chemistry 2024 press release」（https://www.nobelprize.org/prizes/chemistry/2024/press-release/））",
+  "hee1_en": "AI can now guess how a protein folds just from its order of amino acids (added in O-011. Sources: Nobel Prize \"Chemistry 2024\", \"Chemistry 1972\", Nobel Prize \"The Nobel Prize in Chemistry 2024 press release\" (https://www.nobelprize.org/prizes/chemistry/2024/press-release/))",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "10-16"
+    ]
+   ],
+   [
+    [
+     "B-11"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "たんぱく質はアミノ酸の並びで形が決まる（1972年ノーベル化学賞のアンフィンセンの考え）が、並びから形を当てるのは50年近く難しい問題だった。1994年から並びから形を当てる世界の予測コンテスト（CASP）が開かれ、2020年、ニューラルネットの AlphaFold2 が実験に近い正確さで形を予測した。世界中の研究者が登録したたんぱく質の構造のデータで学んでいる。2024年のノーベル化学賞（受賞者は存命なので名前を出さない）。薬づくりや病気の研究に使われる"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAdUlEQVR42mNgGGjACGO4+HX9h7H3bCpjJMRHMQVZ8sg0hv+k8Jko9QLTgIRBg0cZg00WAyPZth6ZxjCIwoAJV3QSC1iQNYeEeDEwMDAQNKRhBwMDA0MZwgAkzQwwGh9Ys2YbqgugSfN/SIgXiiTJgJwwoBgAALZKP8oE7y7mAAAAAElFTkSuQmCC"
+}

@@ -1,0 +1,83 @@
+{
+ "id": "9-30",
+ "history": {
+  "name": "エピタキシーと CVD",
+  "name_en": "Epitaxy and CVD",
+  "kind": "tech",
+  "trunk": "9",
+  "trunk_name": "半導体プロセス",
+  "year": 1960,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "シーメンス法で棒を太らせる反応を、薄い膜にして使う",
+  "hee1_en": "The reaction that thickens rods in the Siemens process is used to make thin films",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "F33. 配線を2階建てにする（CVD の層間膜と2層配線）［9-30］",
+    "answer": "1層目のアルミの配線の上に、気体の反応で二酸化ケイ素の膜を積む（CVD：シランと酸素を約400℃ で反応）。熱酸化は約1000℃ でアルミが溶けてしまうので使えない。膜に縦の穴（VIA）を開けて2層目のアルミを付け、削ると、配線どうしが交差できる2階建てになる。",
+    "hee": {
+     "1": "シラン（SiH4）は空気にふれるとひとりでに燃える気体。だからボンベを囲いの中に置く。",
+     "2": "シランを初めて作ったのは 1857年のヴェーラーとブフ（ケイ化マグネシウムに酸）。",
+     "3": "配線が交差できると、遠回りがいらなくなりチップが小さくなる。今のチップは10層をこえる。",
+     "4": "⚠️ 2層の金属配線が量産で広まったのは 1970年代ごろ（年は出典で確かめ中）。"
+    },
+    "certainty": "低温 CVD の SiO2（シラン＋酸素、約400℃）◎／シランの初合成 1857 ○／2層配線の年 △",
+    "basis": "Wikipedia「Chemical vapor deposition」（Silicon dioxide）https://en.wikipedia.org/wiki/Chemical_vapor_deposition 、Wikipedia「Silane」https://en.wikipedia.org/wiki/Silane （英語）"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-16"
+    ]
+   ],
+   [
+    [
+     "6-01"
+    ]
+   ],
+   [
+    [
+     "3-14"
+    ]
+   ],
+   [
+    [
+     "6-09"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-22"
+  ],
+  "frontier": false,
+  "real": "1960 ベル研のエピタキシャルトランジスタ（ウェハーの上に同じ向きの結晶を気体から育てる）。CVD＝気体の反応で膜を積む（多結晶Si ゲート、窒化膜 3SiH4+4NH3→Si3N4+12H2）"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "CVD 炉（シーメンス法[1-17]と同じ反応の薄膜版）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAUElEQVR42mNgoAY4Mo3hP7ls6hhCFReQCxiRTbX2CSFK09EtaxhssiB6mSh1AQuMUbYkh8HhiRdRmg4ckGBgYJjCQBUXUM8LEKdtYxgFAwAAVfYwnZ3XEWMAAAAASUVORK5CYII="
+}

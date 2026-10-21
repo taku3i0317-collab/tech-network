@@ -1,0 +1,47 @@
+{
+ "id": "1-76",
+ "history": {
+  "name": "直接還元製鉄",
+  "name_en": "Direct reduced iron",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": 1969,
+  "year_range": "1957〜2020年代",
+  "year_uncertain": false,
+  "hee1": "水素で鉄を作ると、煙突から出るのは二酸化炭素ではなく水になる（O-012 で追加。出典：Wikipedia「Direct reduced iron」、Midrex Technologies「It All Started in Portland… 50 Years Ago」・VDEh「History of direct reduction」（https://www.midrex.com/tech-article/it-all-started-in-portland-50-years-ago/））",
+  "hee1_en": "Make iron with hydrogen, and what comes out of the chimney is water, not carbon dioxide. (Added in O-012. Sources: Wikipedia \"Direct reduced iron\", Midrex Technologies \"It All Started in Portland… 50 Years Ago\", VDEh \"History of direct reduction\" (https://www.midrex.com/tech-article/it-all-started-in-portland-50-years-ago/))",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "高炉を使わず、鉄鉱石を溶かさないまま、天然ガスから作った水素と一酸化炭素で酸素を取って鉄にする（塊鉄炉と同じ「固体のまま還元」の考え）。1957年にメキシコで HYL 法、1969年にミドレックス法ができた。できた還元鉄はアーク炉（[3-15]）で溶かして鋼にする。2020年代には、電気分解（[6-01]）で作った水素だけで還元して、二酸化炭素を出さない製鉄が試されている（試験の段階）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAATElEQVR42mNgGJTAysHnv5WDz39CYgwMDAxM2DR7+fjA2ci0l48PA7ohTLhcATMEF59qXiBZE7oYEz5/EyPGRMifxIqR7YXRdDAYAADQgla7/2cwvQAAAABJRU5ErkJggg=="
+}

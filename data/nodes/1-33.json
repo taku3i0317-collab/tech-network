@@ -1,0 +1,73 @@
+{
+ "id": "1-33",
+ "history": {
+  "name": "ホウ素",
+  "name_en": "Boron",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": 1808,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "ホウ砂は昔から金属のろう付けの「フラックス」として使われた",
+  "hee1_en": "Borax has long been used as a \"flux\" for brazing metals.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "6. 性質を決める元素を混ぜる（ドーパント）［9-11］［1-33］",
+    "answer": "ごく少量のホウ素を混ぜると p型（電子が足りない）、リン・ヒ素・アンチモンを混ぜると n型（電子が余る）のシリコンになる。",
+    "hee": {
+     "1": "ほんのひとつまみの別の元素で、電気の流れ方が変わる。",
+     "2": "シリコンは手が4本の原子。手が3本のホウ素が入ると1本足りない「穴」ができ、手が5本のリンが入ると1本余る。",
+     "3": "混ぜる量は 1億個に1個くらい。精製で必死に取り除いた元素を、今度はわざと狙った量だけ入れる。",
+     "4": "ホウ素の原料はホウ砂（砂漠の干上がった湖の底にできる。ゲームでは［1-33］で実装済み）。"
+    },
+    "certainty": "◎（物理・化学の標準的な内容）／偏析係数 B 0.80・P 0.35 ◎（特許・教科書の標準値）",
+    "basis": "米国特許 US 5,073,229（Semiconductor crystal pulling method、英語）、キール大学 材料科学の講義資料「Segregation」（英語）"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "2-01"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "ホウ砂 Na2B4O7·10H2O + H2SO4 → ホウ酸 H3BO3 → 加熱で B2O3。単体は1808 ゲイ=リュサック/テナールとデービー"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": "boron_trioxide",
+  "recipes": [
+   "かまど：ホウ酸 を焼く → 三酸化二ホウ素"
+  ],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {
+   "note1": "ホウ素と酸素のガラスのような固まり。シリコンを p型にする材料。",
+   "note2": "ホウ酸をかまどで焼くとできる。1個＝1mol。シリコンに入れる p型ドーパント（v0.2b のシリコンの章で使う）。耐熱ガラス（ホウケイ酸ガラス [2-15]）の材料にもなる。シリコンでは CZ 引き上げ機 [9-08] のドーパントのスロットに入れる（p型）。",
+   "note3": "B2O3 は約450℃で溶けてガラスになる。ホウ素は13族で電子が3つ。シリコン（14族、4つ）に入ると手が1本足りず正孔ができて p型になる。シリコン中のホウ素の偏析係数は約0.8と1に近いので、結晶を引き上げても濃さがほとんど変わらない＝シリコンの p型にはホウ素が選ばれる。",
+   "note4": "単体のホウ素は1808年にゲイ=リュサックとテナール、デービーがほぼ同時に取り出したが、純粋なものは1909年のワイントラウブまでできなかった。1950年代、ベル研はシリコンの表面からホウ素を熱で拡散させて p型の層を作り（拡散法）、のちの集積回路の作り方の土台になった。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAl0lEQVR42mNgGPKAEZeERVnXfwYGBgaFBycYHihYMJzoKmMk2gCLsq7/JUkRcP6XI5sYZtz6htUQFnSBiLCg/x5qXChiPDZ+DCU2DAw9DAz/0Q1hxGczOsDmEiZkBQoPTmDVhOwSdIBiwAMFC5JjgQmXU/HZStAAQppwGqDw4ATDmroCnIp75q1gwBsL6IkIHeBKTEMcAABIFTa3hBXDLAAAAABJRU5ErkJggg=="
+}

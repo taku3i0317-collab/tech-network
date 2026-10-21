@@ -1,0 +1,53 @@
+{
+ "id": "13-06",
+ "history": {
+  "name": "ワクチン",
+  "name_en": "Vaccine",
+  "kind": "tech",
+  "trunk": "13",
+  "trunk_name": "医薬・衛生",
+  "year": 1796,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "ワクチン（vaccine）はラテン語の「牛」から",
+  "hee1_en": "The word vaccine comes from the Latin word for \"cow\"",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "13-04"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1796 エドワード・ジェンナーの牛痘接種（天然痘）、1885 パスツールの狂犬病ワクチン。1980 WHO が天然痘の根絶を宣言"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "解説のみ",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAh0lEQVR42mNgGFnAoqzrP7oYCzGKcBl2oquMkQWbJNOpQxhiRTOmMfTMW4GpFt3UkqQIkrzFwsDAwGDl4POfgYGBoYiA5pKkCIa+U4cgXoS6komBgYHh2IEtjMcObGHE5kRk0DNvBVztPzM7zEA80VXG2MPA8J+JVC+gA5jp6LbTJB2MAgYGALMoMINmtDPNAAAAAElFTkSuQmCC"
+}

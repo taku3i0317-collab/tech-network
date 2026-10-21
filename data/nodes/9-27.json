@@ -1,0 +1,77 @@
+{
+ "id": "9-27",
+ "history": {
+  "name": "ドライエッチング",
+  "name_en": "Dry etching",
+  "kind": "tech",
+  "trunk": "9",
+  "trunk_name": "半導体プロセス",
+  "year": 1970,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "液体で溶かすと横にも溶けるので、放電で真下だけ削る",
+  "hee1_en": "Dissolving with liquid also eats sideways, so an electric discharge is used to carve straight down only.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "F32. 放電で真下だけ削る（ドライエッチング・RIE）［9-27］",
+    "answer": "真空容器に四フッ化炭素（CF4）を少し入れ、高周波で放電させる。CF4 がこわれてできたフッ素が、酸化膜（SiO2）を SiF4 の気体にして運び去る。ウェハーの電極にたまる電圧でイオンが真上から当たるので、真下だけ削れる（異方性）。液のフッ酸は横にも溶けるので、線が細くなると太ってくっつく。1970年代から使われ、今のチップの細い線は全部これで削る。",
+    "hee": {
+     "1": "CF4 そのものはほとんど反応しない。放電の中でだけ「フッ素を出す」。",
+     "2": "イオンは電界で真上から当たる。だから縦にまっすぐな壁が掘れる。",
+     "3": "CF4 は二酸化炭素の約6500倍の温室効果があり、5万年も残る。工場では使ったガスをこわしてから出す。⚠️（IPCC の値）",
+     "4": "炭素はフッ素の中で燃える。CF4 はその「燃えかす」。"
+    },
+    "certainty": "RIE の原理と 1970年代の導入 ○（Wikipedia）／CF4 の温室効果の数字 ○（IPCC AR5）",
+    "basis": "Wikipedia「Reactive-ion etching」https://en.wikipedia.org/wiki/Reactive-ion_etching 、Wikipedia「Tetrafluoromethane」https://en.wikipedia.org/wiki/Tetrafluoromethane （英語）"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "9-26"
+    ]
+   ],
+   [
+    [
+     "6-14",
+     "6-05"
+    ]
+   ],
+   [
+    [
+     "4-09"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1970年代〜。ウェットエッチ[9-06]は横にも溶けて線が太る（等方性）→ プラズマ中のイオンを電界で縦に打ち込み真下だけ削る（異方性、反応性イオンエッチング RIE）"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "重",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "エッチング槽の上位（ROADMAP v0.4）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAYklEQVR42mNgoCY4Mo3hPylsBgYGBiZKLR14AygGjDCGlVUOSuAcOzaFEZ84DLAgcxwcvBgYGBgYDhzYxkBIHGYwxWHAgk0QauN/ZNuxiR84sA27Aega8YmjGIDu91FAHAAAkEQkgy/vi+8AAAAASUVORK5CYII="
+}

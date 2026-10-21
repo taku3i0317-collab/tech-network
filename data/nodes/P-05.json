@@ -1,0 +1,76 @@
+{
+ "id": "P-05",
+ "history": {
+  "name": "3Dプリンター",
+  "name_en": "3D printer",
+  "kind": "product",
+  "trunk": "P",
+  "trunk_name": "モノ（作品）",
+  "year": 1989,
+  "year_range": "1988〜1992",
+  "year_uncertain": false,
+  "hee1": "グルーガンでおもちゃを作ったことから生まれた3Dプリンター",
+  "hee1_en": "The 3D printer was born from making a toy with a glue gun.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://en.wikipedia.org/wiki/S._Scott_Crump",
+   "https://en.wikipedia.org/wiki/Stratasys"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "4-17"
+    ]
+   ],
+   [
+    [
+     "2-37"
+    ]
+   ],
+   [
+    [
+     "1-52"
+    ]
+   ],
+   [
+    [
+     "8-20"
+    ]
+   ],
+   [
+    [
+     "10-14"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "熱で溶ける樹脂の糸を、熱いノズルから細く押し出しながら1層ずつ積んで形を作る（熱溶解積層）。1988年、スコット・クランプが娘のためにグルーガンにポリエチレンとろうそくのろうを入れてカエルのおもちゃを作ったのがきっかけで、1989年に特許を出願し、ストラタシス社を作った（最初の製品は1992年）。今の家庭用の3Dプリンターのほとんどがこの方式"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "作品：溶かした樹脂を細く出しながら、ノズルが動いて1層ずつ形を積み上げる",
+  "missing": "加熱ノズル（樹脂を溶かして細く出す）, 歯付きベルト（ノズルを動かす）",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAn0lEQVR42q2SPQ7DIAyFn6OcxQNHyNQ54rgWc6ceIQOXcSdXLxWEpI0XjPzzPhuAP03CUU3OgVo3Od1FNTk3+L4PCVST17pJFLE/opqPunNBj2jmhCjg5OWRHQDWnFHMHABeT/s0nliJZ2f1Nefd2SQ42noxC4Lf3ztG6f6D0TP3SOWMMs9ezHZLlCvqLQq5ot6iuIegt+FQ4TjPf4u9Aap8XJGSp76YAAAAAElFTkSuQmCC"
+}

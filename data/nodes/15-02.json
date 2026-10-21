@@ -1,0 +1,88 @@
+{
+ "id": "15-02",
+ "history": {
+  "name": "活版印刷",
+  "name_en": "Movable-type printing",
+  "kind": "product",
+  "trunk": "15",
+  "trunk_name": "通信・情報",
+  "year": 1450,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "活字の金属は固まるときにふくらむ珍しい合金",
+  "hee1_en": "Type metal is a rare alloy that expands when it hardens.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [
+   {
+    "name": "グーテンベルク",
+    "tool": "🔤 金属の活字",
+    "year": "1450ごろ",
+    "intro": "1450年ごろ、鉛・錫・アンチモンの合金で活字を作り、活版印刷を始めた",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACTklEQVR42u1Xv2vUUBz/5EyvptceZ+hBoGkGT6QNRXAqQqf6D+jg4lRwdhGHG+SGUqSznYU3ZelgdddJPHSpyJE7pIKkKZwcxlDbO3oW4tAmzWvz4yX3pIuf6fG+33y/n+/nfd83iQAG3FEUDznQ7HaFNB+RNdjNSiVT8q+uy+QnsFSdNfl5EklKFNKqzpuclXgBl4z/BBKviS7Lnjo5mTu4fXAA03GE3NfQdBxBUYregpqvEY/tIUxnhCNY1pXcyQFgQa1gWU8eYpl6oNGoo9Gop64frqzw6YGwAn4CFuxYXRiEAABatot3ZvwgErMosLq6TqkRZ+OmQP3Rfe/e3UUAwA1NyaSAj623H7H+8hUfBaTbD3Brfh5f2m0MtjdjbbA2+A2ib7tn1Qy2N/H6xRMquV9tlC38bG4CtVkFBiHBGSvT8dfStxmEwCAEtVnl34xiabwYrH/8dCP3WZHYA5+aTfR32wCAX4fDs6M4Oll/7nxHSbp6Yd+HQQhatsvni+haqRh55QDgTczV5DqIWraL8Fiem9Ao307fCtZhXy6DKBQkINTs7VCqJPlyOQIAQeDDo2Ms1qYvJA758GnCBBIojYseq8wjE7iuVjHEFeq1+vzZY8rn6dqGRz8jA/gzWhMu6TPenCpTexMpQfsYo5vTdvDe3MvWhEv6jAcA55PnwWkMD0AkETFr4k5vAK1ajrRZvX1o1bE4EpFERN4VM6hBESlEGGNxUmE51q5Vy7B6+1mIXP5/gRju1iQ4vweQp6RUPwD40N6DPCUxEfgL1UP8yGnwvVcAAAAASUVORK5CYII="
+   },
+   {
+    "name": "畢昇",
+    "tool": "🔤 焼き物の活字",
+    "year": "1040年代",
+    "intro": "1040年代の中国（宋）で、焼き物で作った活字で印刷した",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACGUlEQVR42u1Wu0oDQRQ9G1ZifERdsr4iKVKJTbAQLEwVCSnSWSj7CRpEAv6EggQJfoJoIYJYLGKniGihIj4KCSEYUSOLrOIDi7Fxl+zLndlE0niq2Xtn55577r3DcPCA3pBA7Oz3TwrHehYPj+gMthm+n9VXT+f40GA0nADnpfZm+c1lYOkF6o2Rvm4S6uqw2N8+Pm2J0JLgaDN3ytoJtCR8fxFcK5PTuP5PgWcCci4DOZdxXa/MT9ZvDLUe0ALQoFCuYHpxnaoRma7i1FzeoIaTr24KZKUkScdjAIBoWGRSQMP23hmWVne4uvSAmJhBIpOHmJhh8tWkwFC0H9GwqCvwoKjoEYKGbM0+TYFCuYLLwl1tCpilrw5uhtlHUzZXAtt7ZxZbs79JXz8qqq3d6V+mKaiSjsxOjev2j88vAMD5zS1aA36Lnab5mMbw5yCdRPXImS8qluCenmSpuTzkXAYnG8cG+/DEiO77swdJVkoaSmGH5bVd6uyZCWgkQp1tkFKjBvuqfIin51em4DUhKyVJcWuBFLcWSFZKEq/nUPXA2FDYEiAdj+kXTjoew9HphWXP/mW5tinQAg8OCAZ7qaJa9rb4eUREyyVF3IjwLIENNd+UXZWr+t+RCMcauFRR7TJ19QHA9a1iKQ1PG7gesFPEZ+P0lD0ARMSgbX/8QqTxj1LeXB8nKC/vENoDrvsA4OCqDKE9QEXgG8cF8HjuXacPAAAAAElFTkSuQmCC"
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-27"
+    ]
+   ],
+   [
+    [
+     "1-30"
+    ]
+   ],
+   [
+    [
+     "1-43"
+    ]
+   ],
+   [
+    [
+     "15-01"
+    ]
+   ],
+   [
+    [
+     "0-08"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1450年頃 ヨハネス・グーテンベルク。鉛・錫・アンチモンの合金の活字（固まるときに少しふくらみ、型の細部まで写る）。1040年代 畢昇の陶活字が先行"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "本の複製ブロック（ガイドブックの複製）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAzElEQVR42rWSvQ2EMAyFXyJGoKKkSMEIVNSnzEBJyTCUlMxgUVMxBiUVO+QqRw5y7qT7sRQpen52ok8P+LIMALSdD9d5oKxqAMC+kWk7H6Rx38g414SyqsHefSNjpenhfbxf5xEPFw/3wxi1ZMEyT4kZQGLWqrgPyCqrGivRW+1/EO8aQ5RgLQPrhzEBpoFliFKz3FjmKQHGyyRYhiq1IgdHgwoAK1G29zlE55ogX84lUQMbGdwDoyVRg21zX+OlcrEGu3gFR0vcz5P4BJajgS78i2ZvAAAAAElFTkSuQmCC"
+}

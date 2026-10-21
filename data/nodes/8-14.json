@@ -1,0 +1,88 @@
+{
+ "id": "8-14",
+ "history": {
+  "name": "鏡筒の精密組立",
+  "name_en": "Precision lens barrel assembly",
+  "kind": "tech",
+  "trunk": "8",
+  "trunk_name": "精密・計測",
+  "year": 1950,
+  "year_range": null,
+  "year_uncertain": true,
+  "hee1": "最高のレンズも、0.001mm ずれて組むとぼやける",
+  "hee1_en": "Even the best lens blurs if it is assembled 0.001 mm off.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "O36. レンズの中心をそろえる（鏡筒の心出し）［8-14］",
+    "answer": "何枚ものレンズを筒に組むと、それぞれの中心（光軸）が少しずつずれ、像がぼやけたりゆがんだりする。鏡筒を回して像の揺れを顕微鏡で見ながら、揺れが消えるまでレンズを寄せて固定する（心出し）。光学メーカーの熟練工の技だった。",
+    "hee": {
+     "1": "最高のレンズも、0.001mm ずれて組むとぼやける。",
+     "2": "見分けられるずれの細かさは、のぞく顕微鏡の分解能（λ/2NA）で決まる。",
+     "3": "足元の揺れがあると、細かいずれは揺れに隠れて見えない。",
+     "4": "今の投影レンズは 20〜30枚を数十nm でそろえ、干渉計で波面を測りながら組む。"
+    },
+    "certainty": "心出しの原理（回転させて像の振れを見る）◎／露光装置の投影レンズ 20〜30枚 ○／年 1950 △ → TECH_TREE とゲーム内で ⚠️",
+    "basis": "- Wikipedia「Optical lens design」：https://en.wikipedia.org/wiki/Optical_lens_design"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "8-04"
+    ]
+   ],
+   [
+    [
+     "8-10"
+    ]
+   ],
+   [
+    [
+     "7-09"
+    ]
+   ],
+   [
+    [
+     "8-07"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "何十枚ものレンズの中心を µm 以下でそろえる（回転させて像の揺れが消える位置に固定）。ニコン・キヤノン・ツァイスの熟練工の技"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "実験（顕微鏡で揺れを見て寄せる）",
+  "missing": "",
+  "item": "lens_barrel",
+  "recipes": [
+   "作業台：色消しレンズ×4 ＋ 鋼インゴット×2 ＋ 規格ねじ×2 → 鏡筒（組んだまま）"
+  ],
+  "machine_recipes": [],
+  "placeholder": "近似：レンズは4枚（本物の投影レンズは 20〜30枚）。1回で 4割に寄るのはゲームの値。1950年は目安の年。",
+  "game_text": "[7-19]投影レンズの組立台",
+  "hee_game": {
+   "note1": "レンズを4枚入れた金属の筒。レンズの中心が少しずつずれていて、このままでは像がぼやける。",
+   "note2": "色消しレンズ×4＋鋼×2＋規格ねじ×2。利き手に鏡筒、もう片方の手に顕微鏡を持って右クリック → 回して像の揺れを見て、いちばんずれたレンズを寄せる。全部のずれが 1µm 以下で心出し済み。単レンズ顕微鏡では細かいずれが見えない。近くでピストンが動くと揺れで見えない（除振台の上に立とう）。",
+   "note3": "レンズの中心（光軸）がずれていると、鏡筒を回したときに像がくるくる回るように揺れる。熟練工は、揺れが消える所までレンズを軽くたたいて寄せ、押さえ環で固定した。ニコン・キヤノン・ツァイスの職人の技だった。",
+   "note4": "最高のレンズも、0.001mm ずれて組むとぼやける。今の露光装置の投影レンズは 20〜30枚のレンズを数十nm の精度でそろえ、干渉計で波面のゆがみを測りながら組み立てる。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAVUlEQVR42mNgoBAwYhNUU9P6LyKlhCL25tk9hlu3rmGoZ8FlspePDwp/0axJWNUxYRNEtx2XGE4D3jy7R5QYTgNIAbQxYDQMhloY4MwL27ZsYaALAACy4R3u8YYXRQAAAABJRU5ErkJggg=="
+}

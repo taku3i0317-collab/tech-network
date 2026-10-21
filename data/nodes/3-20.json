@@ -1,0 +1,53 @@
+{
+ "id": "3-20",
+ "history": {
+  "name": "耐火粘土",
+  "name_en": "Fireclay",
+  "kind": "tech",
+  "trunk": "3",
+  "trunk_name": "熱",
+  "year": -3000,
+  "year_range": null,
+  "year_uncertain": true,
+  "hee1": "るつぼや炉の内側は、昔から熱に強い粘土で作った",
+  "hee1_en": "Since ancient times, crucibles and furnace linings have been made of heat-resistant clay.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "0-03"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "カオリナイト（Al2Si2O5(OH)4）が多く鉄やアルカリの少ない粘土は、焼いても約1500℃以上まで溶けない。古代の銅や青銅のるつぼ・炉の内張りに使われた⚠️（始まりの年は未確認）。のちの耐火れんが [3-12]（珪石れんが 1822）の前の世代"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAcklEQVR42mNgGAUUA0ZcElP8DP4j83M2XcCqlgWXRhsHA4aOE58YKiz4IOIMDP+xGcSIrtnGwQCncztOfGKw+XEPxRAmdM0dJz7hNKDCgo/BxsEAxXtM6DbDnIxsKz7AREgxzEBcBjFiC3FiAa6YGWkAACvkLcZ8ZFj6AAAAAElFTkSuQmCC"
+}

@@ -1,0 +1,89 @@
+{
+ "id": "1-05",
+ "history": {
+  "name": "青銅",
+  "name_en": "Bronze",
+  "kind": "product",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": -3000,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "銅にスズを1割まぜると、溶けやすいのに硬い青銅になる",
+  "hee1_en": "Mix 10% tin into copper and you get bronze, which melts easily yet is hard.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "O9. 銅にスズを1割（青銅）［1-05］（スペキュラム鏡の前提）",
+    "answer": "銅にスズを約1割まぜた合金が青銅。純銅より融点が低く（約950℃）鋳造しやすいのに、ずっと固い。大きなスズ原子が結晶をゆがめ、原子の面がすべるのをじゃまする（固溶強化）。",
+    "hee": {
+     "1": "銅にスズを1割まぜると、溶けやすいのに硬い青銅になる。",
+     "2": "鐘はスズを2割以上入れた「鐘青銅」。固く、よく響く。",
+     "3": "スズを3割ほどにすると白く光る合金（スペキュラム）になり、ガラスの鏡が広まる前は鏡の材料だった [7-05]。",
+     "4": "青銅の前には、ヒ素をふくむ銅（ヒ素銅）も使われた（⚠️ 時期と広がりは地域で違う）。"
+    },
+    "certainty": "組成・融点・固溶強化・鐘青銅 ◎／青銅器時代 紀元前3000年ごろ ○（地域差あり）／ヒ素銅の先行 △ → ゲーム内は ⚠️",
+    "basis": "- Wikipedia「Bronze」：https://en.wikipedia.org/wiki/Bronze"
+   }
+  ],
+  "people": [],
+  "media": [
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/%E5%95%86_%E9%9D%92%E9%8A%85%E9%BC%8E-Tripod_Cauldron_%28Ding%29_MET_DP140755.jpg/960px-%E5%95%86_%E9%9D%92%E9%8A%85%E9%BC%8E-Tripod_Cauldron_%28Ding%29_MET_DP140755.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:%E5%95%86_%E9%9D%92%E9%8A%85%E9%BC%8E-Tripod_Cauldron_(Ding)_MET_DP140755.jpg",
+    "kind": "画像",
+    "author": "メトロポリタン美術館（CC0 で公開）",
+    "license": "CC0",
+    "description": "約3200年前の中国・商（殷）の時代の、3本足の青銅のうつわ「鼎（てい）」。",
+    "verified": "2026-10-20 Commons API で PD を確認"
+   }
+  ],
+  "requires": [
+   [
+    [
+     "1-03"
+    ]
+   ],
+   [
+    [
+     "1-30"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "紀元前3000年頃。Cu+Sn約10%。融点が下がり（約950℃）鋳造しやすく、純銅よりずっと硬い（合金化で原子の並びが乱れ、すべりにくい）。近東ではそれ以前（銅器時代、紀元前4500〜3000年頃）の主な金属はヒ素銅"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "軽",
+  "missing": "",
+  "item": "bronze_ingot",
+  "recipes": [
+   "かまど：青銅の地金（調合） を焼く → 青銅インゴット",
+   "溶鉱炉：青銅の地金（調合） を焼く → 青銅インゴット"
+  ],
+  "machine_recipes": [],
+  "placeholder": "近似：かまどでの溶解をるつぼ炉の近似として扱う（CHEMISTRY #38）。",
+  "game_text": "合金化（銅インゴット+錫）",
+  "hee_game": {
+   "note1": "銅にスズを1割まぜた、溶けやすいのに固い金属。",
+   "note2": "Cu-Sn 約11%。純銅よりずっと固く、さびにくい。c:ingots/bronze。スズを多くしたスペキュラム合金は鏡になる [7-05]。",
+   "note3": "紀元前3000年ごろから、人類は青銅で道具・武器・鏡・鐘を作った（青銅器時代）。それより前には、ヒ素をふくむ銅（ヒ素銅）も使われていた（⚠️ 時期と広がりは地域で違う）。",
+   "note4": "大きなスズ原子が銅の結晶の中に入ると、原子の並びがゆがみ、結晶がずれて変形するのをじゃまする（固溶強化）。だから合金は元の金属より固くなる。「青」銅という名は、さびたときの青緑色から。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAX0lEQVR42mNgGAUUA0Z0gSl+Bv/xacjZdAFFDwu6ZhsHA7w2TmFg+I9sCJyRZKf038tGjShnbztyi2HeoXuMDAwMDEyUhsHAGwAPRCMBPoYXV14QpclIgI9h3mgKhgMANlsVMmzATTwAAAAASUVORK5CYII="
+}

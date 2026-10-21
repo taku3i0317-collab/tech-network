@@ -1,0 +1,97 @@
+{
+ "id": "2-19",
+ "history": {
+  "name": "過酸化水素",
+  "name_en": "Hydrogen peroxide",
+  "kind": "tech",
+  "trunk": "2",
+  "trunk_name": "化学",
+  "year": 1818,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "過酸化水素は、電気分解でも作れるようになった",
+  "hee1_en": "Hydrogen peroxide later became possible to make by electrolysis too",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "F12. 川の砂の中の白い金属（砂白金）［1-20］（［2-19］過酸化水素の白金電極の前提）",
+    "answer": "白金は重く、さびないので、岩がこわれても金属のまま残り、砂鉄や砂金といっしょに川底や浜にたまる（漂砂鉱床）。コロンビアやウラルの川砂から取れた。1748年のウジョアの旅行記がヨーロッパで最初の記述。",
+    "hee": {
+     "1": "白金は川の砂の中に、金属のまま少しだけまじっている。",
+     "2": "コロンビアの金掘りは、溶けにくい白い粒を「platina（小さな銀）」と呼んで捨てていた。",
+     "3": "自然白金にはパラジウム・イリジウム・オスミウムなどの仲間がまざっている（あとで分けられた）。",
+     "4": "白金は酸素が出る電気分解の電極にも負けないので、過酸化水素や過硫酸の電解に欠かせなかった。"
+    },
+    "certainty": "漂砂鉱床・コロンビアとウラル ◎（USGS・ブリタニカ）／ウジョア 1748 ◎／platina の由来 ◎",
+    "basis": "ブリタニカ「platinum」https://www.britannica.com/science/platinum 、USGS「Platinum-Group Metals Statistics and Information」https://www.usgs.gov/centers/national-minerals-information-center/platinum-group-metals-statistics-and-information （英語）"
+   },
+   {
+    "title": "F14. 酸素を1つ多く持つ水（過酸化水素・電解法）［2-19］（［9-14］洗浄の前提）",
+    "answer": "過酸化水素（H₂O₂）は1818年にテナールが過酸化バリウムと酸から見つけた。工業では1908年ごろオーストリアのヴァイセンシュタインで電解法が始まった：冷やした濃い硫酸を白金の陽極で強く電気分解して過硫酸を作り、水と温めて分解すると過酸化水素ができ、硫酸はもとに戻る。1930年代からはアントラキノン法。",
+    "hee": {
+     "1": "傷の消毒のオキシドールは約3%の過酸化水素。",
+     "2": "過酸化水素は分解しても水と酸素しか残らないので、汚れを落とす洗浄にぴったり。",
+     "3": "電解法は白金の陽極でないとできない（炭素や鉛では過硫酸にならず酸素が出る）。",
+     "4": "濃い過酸化水素は金属やごみがまざると急に分解し、容器が破れる事故が起きてきた。"
+    },
+    "certainty": "テナール 1818 ◎／ヴァイセンシュタインの電解法の工場 ○（1908 建設・1910 生産と資料でずれる ⚠️）／過硫酸の反応と白金の陽極 ◎（教科書・Ullmann）／アントラキノン法 1930年代 ◎",
+    "basis": "ブリタニカ「hydrogen peroxide」https://www.britannica.com/science/hydrogen-peroxide 、Ullmann's Encyclopedia of Industrial Chemistry「Hydrogen Peroxide」（英語）"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "2-01"
+    ]
+   ],
+   [
+    [
+     "6-01"
+    ]
+   ],
+   [
+    [
+     "1-18"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1818 テナールが BaO2 を酸で処理して発見（バリウムはバニラになし⛔のため不採用）。オーストリア・ヴァイセンシュタイン（地名）に1908年、世界初の過酸化水素工場が建設され、1910年に電解法で生産開始⚠️：2HSO4-→S2O8^2-+2H++2e-、S2O8^2-+2H2O→2HSO4-+H2O2。現在は1936頃 リードルとプフライデラーのアントラキノン法"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "重",
+  "missing": "",
+  "item": "peroxide_cell",
+  "recipes": [
+   "作業台：鉛インゴット×7 ＋ 銅ケーブル ＋ ソーダ石灰ガラス → 過酸化水素の電解槽"
+  ],
+  "machine_recipes": [
+   "過酸化水素の電解槽「過酸化水素」：空のガラス瓶 ＋ 水入りバケツ 4回で1個 ＋ 硫酸 8回で1個 ＋ 白金のインゴット 32回で1個 → 過酸化水素 ＋ 水素ガス（袋詰め） 1 mol（3 kW × 60 秒＝180 kJ）。白金の陽極で硫酸 → 過硫酸 → 水で分解して H2O2（硫酸は戻る）。全体 2H2O → H2O2 + H2"
+  ],
+  "placeholder": "省略：⚠️ 電力・時間はゲームの値。電解液の冷却と、過酸化水素を分ける真空蒸留の段は表さない。テナールの過酸化バリウム法はバリウムがないので使わない。",
+  "game_text": "硫酸の電解 → 過酸化水素",
+  "hee_game": {
+   "note1": "硫酸を白金の電極で電気分解して、過酸化水素を作る槽。ウェハーの洗浄に使う。",
+   "note2": "電気 3kW。空のガラス瓶1 → 過酸化水素（約30%）1＋水素1袋（60秒）。水バケツ1杯で4回、硫酸1で8回（ほとんど戻る、瓶は上へ）、白金のインゴット（陽極）1で32回。全体では 2H2O → H2O2 + H2。",
+   "note3": "冷やした濃い硫酸を、白金の陽極で強く電気分解すると、酸素の代わりに過硫酸（S2O8^2-）ができる。これを水と温めると過酸化水素になり、硫酸はもとにもどる。炭素や鉛の電極では過硫酸にならず、白金でないとできない。",
+   "note4": "1818年、テナールが過酸化バリウムに酸をかけて過酸化水素を見つけた。1908年にオーストリアのヴァイセンシュタインに電解法の工場ができ、1930年代からはアントラキノン法に代わった。⚠️ 工場の年（1908〜1910）は資料で少しずれる。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAQklEQVR42mO0cvD5z0ABYGFgYGAwM9AhS/OpC1cYmBgoBANvAAu6gIiMAl4Nb548GGReGI6xgB7KIyUMTl24QrYBAPIVDQth4dRzAAAAAElFTkSuQmCC"
+}

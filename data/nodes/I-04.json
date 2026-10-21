@@ -1,0 +1,63 @@
+{
+ "id": "I-04",
+ "history": {
+  "name": "光の解像度の限界",
+  "name_en": "Resolution limit of light",
+  "kind": "idea",
+  "trunk": "I",
+  "trunk_name": "発見・考え方",
+  "year": 1873,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "光では、光の波長の半分くらいより細かい物は見分けられない。だから半導体は「もっと短い光」を探し続けた",
+  "hee1_en": "With light, you cannot tell apart things finer than about half its wavelength. That is why the semiconductor world kept searching for \"shorter light.\"",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://en.wikipedia.org/wiki/Diffraction-limited_system",
+   "https://en.wikipedia.org/wiki/Ernst_Abbe"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "8-10"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [
+   "7-16",
+   "7-18",
+   "9-39",
+   "9-40"
+  ],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-44"
+  ],
+  "frontier": false,
+  "real": "1873年、エルンスト・アッベが、顕微鏡で見分けられる細かさには限界があり、光の波長 λ と開口数 NA で決まる（d = λ / 2NA）と示した。細かく見る（細かく焼く）には、波長を短くするか NA を大きくするしかない。これが露光装置で光が g線→i線→KrF→ArF→EUV（13.5nm）と短くなってきた理由"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "実験：細い縞の板を顕微鏡で見る → 赤い光では見えない縞が、青い光（短い波長）なら見える",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAZ0lEQVR42mNgGPKAEZljUdb1H5l/oquMEZ84Az7NMDFc4jgFjkxj+H9kGsN/dDlc4izIBh2ZxvDf2icEwmZY898mC+JFXOIMDAwMTJQGIooLbLIYGI8wrPkPYxMSp0ogUi8aRwH5AABmtEXch8UWRQAAAABJRU5ErkJggg=="
+}

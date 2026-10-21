@@ -1,0 +1,81 @@
+{
+ "id": "8-06",
+ "history": {
+  "name": "光波干渉測長",
+  "name_en": "Interferometric length measurement",
+  "kind": "tech",
+  "trunk": "8",
+  "trunk_name": "精密・計測",
+  "year": 1892,
+  "year_range": "1892〜93",
+  "year_uncertain": false,
+  "hee1": "1メートルの定義は、金属の棒から光へと変わった",
+  "hee1_en": "The definition of one meter changed from a metal bar to light.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "O41. 光の波を物差しにする（光波干渉測長）［8-06］",
+    "answer": "干渉計で鏡を動かすと、波長の半分ごとに縞が1本流れる。縞の本数を数えれば、長さを光の波長で測れる。1892〜93年、マイケルソンとブノワはカドミウムの赤い光で国際メートル原器を測り、1m＝1,553,163.5 波長と決めた。1960年にメートルはクリプトン86の光の波長で定義し直された。",
+    "hee": {
+     "1": "1メートルの定義は、金属の棒から光の波へと変わった。",
+     "2": "何百万本の縞は一度に数えられないので、長さを倍々にした中間の基準（エタロン）を使って数えた。",
+     "3": "縞1本は 0.3µm ほど。床の揺れや温度の変化で、縞はすぐに動いてしまう。",
+     "4": "今の露光装置のステージも、レーザー干渉計で nm 単位の位置を測っている。"
+    },
+    "certainty": "マイケルソンとブノワ 1892〜93・1,553,163.5 波長 ◎（Cd 赤 643.8nm）／1960 Kr-86 による定義 ◎／エタロンの倍々の方法 ○",
+    "basis": "- Wikipedia「History of the metre」：https://en.wikipedia.org/wiki/History_of_the_metre"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "7-09"
+    ]
+   ],
+   [
+    [
+     "8-05"
+    ]
+   ],
+   [
+    [
+     "8-22"
+    ]
+   ],
+   [
+    [
+     "7-10"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1892〜93 マイケルソンがカドミウムの赤線の波長でメートル原器を測定。1960 メートルを Kr-86 の光の波長で定義、1983 光速で定義。干渉縞1本ごとに波長の半分（546nm なら約0.27µm）ずつ距離が分かる"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "実験（縞を数えて長さを測る）",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "[7-09] の計測モード：ステージの位置を nm で表示",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAdklEQVR42mNgGGjAyMDAwGDl4PP/2IEtjLgUWTn4/EfmI6tlgTGOTGP4j67R2ieE4eiWNQwMDFsYDnybwbBtyxYGrBah24DNUFxqmIj1Ky4vMlEaiBQbwIJPsmyVD4OVAyQc8MUSA7HRRzsAiy5SaZSUyDByAQBXqTX8NKk3+AAAAABJRU5ErkJggg=="
+}

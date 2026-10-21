@@ -1,0 +1,58 @@
+{
+ "id": "1-49",
+ "history": {
+  "name": "電炉製鋼",
+  "name_en": "Electric arc steelmaking",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": 1900,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "古い鉄くずを、電気の火花で溶かして新しい鋼にする（S-001 で追加。出典：Techniques de l'Ingénieur「History of the arc furnace」、Wikipedia「Electric arc furnace」）",
+  "hee1_en": "Old scrap iron is melted with electric sparks and made into new steel. (Added in S-001. Sources: Techniques de l'Ingénieur \"History of the arc furnace\", Wikipedia \"Electric arc furnace\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "3-15"
+    ]
+   ],
+   [
+    [
+     "1-26"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "鉄くず（スクラップ）を黒鉛の電極のアークの熱で溶かして鋼を作る。1900年10月、ポール・エルーがフランスのラ・プラで製鋼用のアーク炉を動かした（特許1899年）。鉄鉱石からではなく鉄くずから作れるので、鋼のリサイクルの中心"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAo0lEQVR42sWRMRKDMAwEV0xeBRTUjEpewQPylDwiQ6mhpiB8y1QGBxzHGYpcJVl3tnwHAcpGXdmoy+0BCi7i8gU3vxpAq+rPs/plMpHwf7+8vEwmHA3MFYfckwfzA/etTppY94gnV9p9FCY3qHsE4GUDvk6mEIor7ZgZ9g0i9f25a95SCGJKYjTbUpCju60qo1lU6GenCHPjjM2KGCFGTM3+ixXRb1fjkXNCqwAAAABJRU5ErkJggg=="
+}

@@ -1,0 +1,59 @@
+{
+ "id": "I-19",
+ "history": {
+  "name": "ディーゼルの排気と大気汚染・その対策",
+  "name_en": "Diesel exhaust, air pollution, and countermeasures",
+  "kind": "idea",
+  "trunk": "I",
+  "trunk_name": "発見・考え方",
+  "year": 1999,
+  "year_range": "1990年代〜2006",
+  "year_uncertain": false,
+  "hee1": "今のディーゼルバスには、すすをこし取るフィルターが付いていて、たまったすすは焼いて取り除く。",
+  "hee1_en": "Today's diesel buses have a filter that catches soot, and the collected soot is burned off.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://dieselnet.com/standards/jp/tokyofit.php",
+   "https://www.transportpolicy.net/standard/japan-emissions-tokyo-retrofit/"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "14-10"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [
+   "14-10",
+   "P-37"
+  ],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "ディーゼル機関の排気には、すす（粒子状物質 PM）と窒素酸化物（NOx）が多く、都市の大気汚染の原因の一つになった。東京都は1999年8月に「ディーゼル車 NO 作戦」を始め、2000年12月の条例で、2003年10月から基準に合わないトラック・バスの都内走行を禁じ、すすを集めるフィルター（DPF）や酸化触媒を付けることを求めた（2006年に強化）。燃料の硫黄を減らすこと、尿素水で NOx を減らす装置（SCR）も対策として広がった"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "実験：排気の浄化装置のある車とない車で、出てくるすすの量をくらべる",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAiklEQVR42mNgoAdQU9P6r6am9R+bHCMhjdjEb926BtfHRKpmdDmcBiDbQoochn/x+R8jDNAV4rWJnBAnyRBi1WINRBEpJQYrB5//ZBtACmCBMZBt9PLxgTHhYscObGEk6II3z+4xePn4MCyaNQmFjw8worsApmHbli0oCnG5AANYOfj8JzYAqRKIAHySOKMM5gE+AAAAAElFTkSuQmCC"
+}

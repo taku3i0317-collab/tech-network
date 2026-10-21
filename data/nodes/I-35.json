@@ -1,0 +1,58 @@
+{
+ "id": "I-35",
+ "history": {
+  "name": "量子ホール効果",
+  "name_en": "Quantum Hall effect",
+  "kind": "idea",
+  "trunk": "I",
+  "trunk_name": "発見・考え方",
+  "year": 1980,
+  "year_range": "1975〜1980",
+  "year_uncertain": false,
+  "hee1": "電気抵抗の「1オーム」の基準は、冷やしたトランジスタと磁石で作られている",
+  "hee1_en": "The standard for \"1 ohm\" of electrical resistance is made with a cooled transistor and a magnet.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://www.nobelprize.org/prizes/physics/1985/press-release/",
+   "https://www.europhysicsnews.org/articles/epn/pdf/1985/11/epn19851611p1.pdf"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "9-23"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [
+   "8-25"
+  ],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "とても冷やしたシリコンの MOSFET の、表面の薄い電子の層に強い磁場をかけると、電圧と電流の比（ホール抵抗）が、プランク定数と電気素量だけで決まる値の整数分の1にぴたりとそろう。1980年2月、フランスのグルノーブル強磁場研究所で見つかった（1985年ノーベル物理学賞。発見者は存命なので名前を出さない）。1975年には日本の研究者が理論でこの値を示し、日本の実験グループも平らな部分を観測していた（ノーベル財団の発表文）。どこでも同じ抵抗の基準を作れるので、ワット天秤（[8-25]）と2019年の単位の決め方（[I-09]）に使われる"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "実験：冷やした薄い電子の層に磁場を強くしていき、抵抗が階段のように平らになるのを測る",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAX0lEQVR42mNgoDawssr5b2WV859YcSZKLWSEmU6O5mPHpjAykGsATA9OLxyZxvAfGxsdsOCSsMliYIRptMmCeBUboDgQ8XrBJouBEdklJBmA7Gx8XmBBD9WhlxKHAQAAi6QoUuXR2kQAAAAASUVORK5CYII="
+}

@@ -1,0 +1,59 @@
+{
+ "id": "5-12",
+ "history": {
+  "name": "真空シール",
+  "name_en": "Vacuum seal",
+  "kind": "tech",
+  "trunk": "5",
+  "trunk_name": "真空",
+  "year": 1850,
+  "year_range": "19世紀〜1937",
+  "year_uncertain": true,
+  "hee1": "電球の根元の線は、ガラスと同じだけ伸び縮みする特別な金属",
+  "hee1_en": "The wires at the base of a light bulb are a special metal that expands and shrinks just as much as glass",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "2-09",
+     "2-29"
+    ]
+   ],
+   [
+    [
+     "1-20"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "初期（19世紀）はエメリーですり合わせたガラスのコック＋牛脂などのグリース（真空グリースは1901年に記載、1910年頃に市販）⚠️。Oリングは1937 ニールス・クリステンセンが米国で特許出願（US 2,180,795、1939年登録）。超高真空は焼き出しに耐える銅ガスケットをナイフエッジで噛む（1960年代初め バリアンのコンフラット⚠️）。真空管・電球の導線はガラスと熱膨張が合う白金線（高価）→ 1910年代のジュメット線（鉄ニッケル芯＋銅被覆）⚠️"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAh0lEQVR42mNgoBAwwhhqalr/SdF469Y1RgYGBgYWmGYvLz+GUxeuMDAwMDCYGehg1YQm///WrWuMLMiSb57dY2BgYGDYBqVxgVNIbLgBb57dgzuLCPCf0rCDhxkLOQHIgM0LXl5+RGvatm0TaizgCGWcsQC1DDMWcGmEAZg8zCCqJKRRQAUAAM7eOutc72+7AAAAAElFTkSuQmCC"
+}

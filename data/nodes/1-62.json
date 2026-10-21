@@ -1,0 +1,63 @@
+{
+ "id": "1-62",
+ "history": {
+  "name": "ステンレス鋼",
+  "name_en": "Stainless steel",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": 1913,
+  "year_range": "1904〜1913",
+  "year_uncertain": false,
+  "hee1": "ステンレスがさびないのは、表面に目に見えないほど薄いクロムの膜ができて守っているから（O-012 で追加。出典：Wikipedia「Stainless steel」「Harry Brearley」、Sheffield City Archives「Sources for the Study of Harry Brearley and Stainless Steel」（https://www.sheffield.gov.uk/sites/default/files/docs/libraries-and-archives/archives-and-local-studies/research/Stainless-Steel-and-Harry-Brearley-v-1-1--PDF--578-KB-.pdf））",
+  "hee1_en": "Stainless steel does not rust because an invisibly thin chromium film forms on the surface and protects it. (Added in O-012. Sources: Wikipedia \"Stainless steel\", \"Harry Brearley\", Sheffield City Archives \"Sources for the Study of Harry Brearley and Stainless Steel\" (https://www.sheffield.gov.uk/sites/default/files/docs/libraries-and-archives/archives-and-local-studies/research/Stainless-Steel-and-Harry-Brearley-v-1-1--PDF--578-KB-.pdf))",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-40"
+    ]
+   ],
+   [
+    [
+     "1-37"
+    ]
+   ],
+   [
+    [
+     "1-26"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "鉄にクロムを約12%以上混ぜると、表面にとても薄いクロムの酸化物の膜ができて、さびなくなる。1904〜06年にフランスのレオン・ギエが鉄とクロムの合金を研究し、1911年にドイツのモンナルツがクロム約12%以上でさびにくくなることを示した。1912年、ドイツのクルップ社のシュトラウスとマウラーがニッケルも入れた「18-8」（磁石につかない・粘り強い）の特許を取り、1913年にイギリスのハリー・ブレアリーが13% クロムの鋼を「さびない鋼」として作った。台所の流し・食器、超高真空の容器、超純水の配管に使われる"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAPklEQVR42mNgoBAwEqvQysHnP4x97MAWuD4WYjV7+fggC/2HGcJEqReINmDLq0+0CQOiNSMbMKp5eGoeUAAA57sszKUSSY4AAAAASUVORK5CYII="
+}

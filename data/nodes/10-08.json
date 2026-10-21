@@ -1,0 +1,59 @@
+{
+ "id": "10-08",
+ "history": {
+  "name": "磁気コアメモリ",
+  "name_en": "Magnetic-core memory",
+  "kind": "tech",
+  "trunk": "10",
+  "trunk_name": "制御・計算",
+  "year": 1930,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "昔のコンピュータの記憶は、手で編んだ小さな磁石の網",
+  "hee1_en": "The memory of old computers was a hand-woven net of tiny magnets.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-53",
+     "1-26"
+    ]
+   ],
+   [
+    [
+     "10-07"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1930 加藤与五郎と武井武（東京工大）がフェライトを発明。1951 フォレスター（MIT ワールウィンド）のコアメモリ：小さなドーナツ磁石の磁化の向きで1ビット、電源を切っても消えない。1970年代まで主記憶"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "記憶ブロック（任意）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAWklEQVR42mNgoCboclH7TwqfgYGBgQnGiAgL+k8KDQMsMJPF3JwYXq24wuDh5sRg9O4KQT4DAwND2Z5bjCwwRoTQvv9GDAwMO3btY1hBBH80DEbDgDZhMGAAAGTSx6HCrKljAAAAAElFTkSuQmCC"
+}

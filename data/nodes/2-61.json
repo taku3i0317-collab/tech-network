@@ -1,0 +1,71 @@
+{
+ "id": "2-61",
+ "history": {
+  "name": "ポリケイ皮酸ビニル",
+  "name_en": null,
+  "kind": "tech",
+  "trunk": "2",
+  "trunk_name": "化学",
+  "year": 1954,
+  "year_range": "1950年代",
+  "year_uncertain": true,
+  "hee1": "光が当たった所だけ固まる",
+  "hee1_en": null,
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "C20. ガスから作る洗濯のりと、光で固まる最初のレジスト（PVA・KPR）［2-60］［2-61］",
+    "answer": "カーバイドに水をかけるとアセチレンが出る。アセチレンに酢酸を水銀塩の触媒で付けると酢酸ビニル（1912 クラッテ）、つなげるとポリ酢酸ビニル、酢酸の部分を OH に取りかえる（けん化）とポリビニルアルコール（1924 ヘルマンとヘーネル）。PVA に塩化シンナモイルでケイ皮酸を付けたポリケイ皮酸ビニルは、紫外線でケイ皮酸どうしが [2+2] 二量化して鎖が橋でつながり、溶けなくなる。これが1950年代コダックのネガ型フォトレジスト KPR（ミンスクら）で、最初期のトランジスタ・IC の模様づけに使われた。のちに環化ゴム＋ビスアジドのレジスト（KTFR）が主流になった。",
+    "hee": {
+     "1": "洗濯のりの成分（PVA）は、ガスから作れる。",
+     "2": "「ビニルアルコール」はそのままではつなげられないので、遠回りして作る。",
+     "3": "KPR の次の主流だったビスアジドは衝撃や熱で爆発しやすい物質なので、このゲームでは作らず、その前の KPR で作る。",
+     "4": "教訓：水俣病。チッソの水俣工場は、アセチレンからアセトアルデヒドを作る硫酸水銀の触媒から出たメチル水銀を海に流し、魚を食べた多くの人が重い神経の病気になった（1956年に公式確認）。"
+    },
+    "certainty": "反応 ◎／クラッテ 1912・ヘルマンとヘーネル 1924 ○／KPR の年（1950年代、特許 1954 前後）○⚠️／水俣病（1956 公式確認、原因はチッソのアセトアルデヒド工程のメチル水銀）◎",
+    "basis": "- Wikipedia「Vinyl acetate」（歴史）：https://en.wikipedia.org/wiki/Vinyl_acetate"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "2-60"
+    ]
+   ],
+   [
+    [
+     "2-59"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1950年代コダックのミンスクら。ケイ皮酸基が紫外線で [2+2] 二量化して鎖どうしを橋かけ → 溶けなくなる＝ネガ型"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "軽",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAV0lEQVR42mNgoBY4Mo3hPyn8QW4IKYARxlBT0yLJ5Fu3rjEyMDAwsCALziu4RpTmpAla1HMBAzkGIKtlwSdJjM0sRDkPj+EsxCrEBViItZ0oA0iNicEBAOP5MJvLBnwkAAAAAElFTkSuQmCC"
+}

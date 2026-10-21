@@ -1,0 +1,78 @@
+{
+ "id": "7-06",
+ "history": {
+  "name": "プリズム分光",
+  "name_en": "Prism spectroscopy",
+  "kind": "tech",
+  "trunk": "7",
+  "trunk_name": "光学",
+  "year": 1666,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "光を虹に分けると、星が何でできているか分かる",
+  "hee1_en": "Split light into a rainbow, and you can tell what stars are made of.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "O6. 光を虹に分けて元素を当てる（プリズム分光）［7-06］",
+    "answer": "プリズムは色ごとに曲がり方が違う（分散）ので、光を虹に分ける。炎に物質を入れると、元素ごとに決まった波長の明るい線が出る（ナトリウムなら黄色の 589nm）。太陽の光には、外側のガスが吸った暗い線がある。線の位置で元素が分かる（分光分析）。",
+    "hee": {
+     "1": "光を虹に分けると、星が何でできているか分かる。",
+     "2": "1814年ごろフラウンホーファーが太陽の光の中に数百本の暗い線を見つけ、A〜K の記号を付けた（D線は今でもナトリウムの線の名前）。",
+     "3": "1859年キルヒホッフとブンゼンが分光分析を始め、1860年にセシウム（「空色」）、1861年にルビジウム（「暗い赤」）を、線の色から発見した。",
+     "4": "1868年の日食で太陽の 587.6nm に未知の線が見つかり、ヘリウム（ギリシャ語の太陽）と名付けられた。地球で見つかったのは1895年。"
+    },
+    "certainty": "分散・炎色反応・線の波長 ◎（NIST）／ニュートン1666・フラウンホーファー1814・キルヒホッフとブンゼン1859・Cs 1860・Rb 1861・ヘリウム1868/1895 ◎（よく知られた史実。一次資料は未確認）",
+    "basis": "- NIST Atomic Spectra Database（線の波長）：https://physics.nist.gov/PhysRefData/ASD/lines_form.html"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "7-01"
+    ]
+   ],
+   [
+    [
+     "7-03"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1666 ニュートンがプリズムで白色光を虹色に分けた。1814 フラウンホーファーが太陽光に暗線を発見、1859 キルヒホッフとブンゼンが元素ごとに固有の線を出す＝分光分析（Cs・Rb を発見）。1868 日食の分光でヘリウム発見（[6-15]）"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "実験（炎色反応・太陽の暗線）",
+  "missing": "",
+  "item": "prism",
+  "recipes": [
+   "作業台：フリントガラス ＋ 砂 ＋ 研削皿（鋳鉄） ＋ ベンガラ（研磨用） ＋ ピッチの研磨皿 → プリズム（フリントガラス）"
+  ],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {
+   "note1": "光を虹の色に分ける三角のガラス。",
+   "note2": "フリントガラス＋砂＋研削皿＋ベンガラ＋ピッチの研磨皿（道具は戻る）。平らな面を3つ削って磨く。分散の大きいフリントは、色を広く分ける。分光器の心臓部。",
+   "note3": "1666年、ニュートンは暗い部屋の窓の穴から入れた日光をプリズムに通し、白い光が虹の色の集まりだと示した。2つめのプリズムで1色だけを通しても、それ以上は分かれなかった。",
+   "note4": "色によって屈折率が違う（分散）から光が分かれる。紫ほど強く曲がる。ふつうのガラスは紫外線（約350nm より短い）を吸ってしまうので、紫外の分光には石英や蛍石のプリズムを使う [7-15]。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAnElEQVR42mNgGPKAEZ+kRVnXfxj7RFcZVrUs+DSWJEUwMDAwMLw59YmBx4/h/55NmIZgGODi1/U/A6oRplnEjI8hwyyCgYEB0xBGDM1dEQxvTn1iYGBgYBAx48NwXc+8FSjeQXHBFw0GnBphrkEHTKSEODaDmSiNRiZinUqUASe6yhh75q3AqRg9AHGmgwVXtjHwrEEEKqHENMQBAJpHNZbdxzGoAAAAAElFTkSuQmCC"
+}

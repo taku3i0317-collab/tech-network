@@ -1,0 +1,58 @@
+{
+ "id": "I-54",
+ "history": {
+  "name": "回路記号：部品を決まった記号で描き、回路図で考え",
+  "name_en": null,
+  "kind": "idea",
+  "trunk": "I",
+  "trunk_name": "発見・考え方",
+  "year": 1967,
+  "year_range": "1800年代〜1975",
+  "year_uncertain": true,
+  "hee1": "回路図の記号を覚えると、本物を見なくても機械の中の電気の流れが読める",
+  "hee1_en": null,
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://standards.ieee.org/ieee/315/6396/"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "10-02"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [
+   "10-19",
+   "10-35"
+  ],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "電池・抵抗・スイッチ・トランジスタなどを、決まった小さな記号で描き、線でつないで回路図にすると、本物の形や大きさを気にせずに、電気がどう流れるかだけを考えられる。電信の時代から回路図は描かれていたが、国の規格として記号がそろえられ、アメリカでは1967年の規格（Y32.2）が1971年に IEEE 315 として広げられて半導体の部品の記号が足され、1975年に IEEE と ANSI の共通の規格になった（IEEE の規格の記録。いちばん古い規格の年は確かめきれていない ⚠️）。ゲームでは、製図台で描いたトランジスタの形が、ハンコにすると回路記号になる"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "実験：描いた部品の形と、その回路記号をならべて、同じ回路になっているかを確かめる",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAYElEQVR42mNgGAVwYOXg8x8bG58YHHS5qP2HKUCnsYl1uajB5RiROWV7bjFis/XYgS2M6BYykOREYtQRawCpagkCRnz+2vBHjYGBgYEhgOUWhkb08CI5WmGAhW5+HbwAAL0iL2uwmkfTAAAAAElFTkSuQmCC"
+}

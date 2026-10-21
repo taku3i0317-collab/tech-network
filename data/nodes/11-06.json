@@ -1,0 +1,53 @@
+{
+ "id": "11-06",
+ "history": {
+  "name": "過リン酸石灰",
+  "name_en": "Superphosphate",
+  "kind": "tech",
+  "trunk": "11",
+  "trunk_name": "農業・食",
+  "year": 1842,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "骨を硫酸で溶かすと肥料になる",
+  "hee1_en": "Dissolve bones in sulfuric acid and they become fertilizer.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "2-01"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1842 ジョン・ベネット・ローズ（ロザムステッド）。Ca3(PO4)2+2H2SO4→Ca(H2PO4)2+2CaSO4：水に溶けないリン酸カルシウムを植物が吸える形に。世界初の化学肥料工場"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "骨粉の上位肥料",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAi0lEQVR42mNgoBWICAv6j41NsiGENLPgknDx6/rv4OPFwMDAwPDmh8X/PZvKGLGpY8KlOSTEC84PCfFicPHr+k+UAeiaCRnCRIxmfIZghMGBLXUEgtYCfyA6+DTh1b5mzTbCgYjsClxsvAYguwIXG68BpABGbNGIKwbWrNnGgCtBEZ030GmKDKEKAADNH0GW6hSIlwAAAABJRU5ErkJggg=="
+}

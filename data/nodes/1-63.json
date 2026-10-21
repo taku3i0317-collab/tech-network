@@ -1,0 +1,53 @@
+{
+ "id": "1-63",
+ "history": {
+  "name": "マンガン添加",
+  "name_en": "Manganese addition",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": 1856,
+  "year_range": "1856〜1882",
+  "year_uncertain": false,
+  "hee1": "ほんの少しのマンガンを加えるだけで、割れやすかった鋼が丈夫になった（O-012 で追加。出典：Wikipedia「Robert Forester Mushet」「Mangalloy」、Grace's Guide 'Robert Mushet'（https://www.gracesguide.co.uk/Robert_Mushet））",
+  "hee1_en": "Adding just a little manganese made steel that used to crack easily strong (added in O-012. Sources: Wikipedia \"Robert Forester Mushet\", \"Mangalloy\", Grace's Guide 'Robert Mushet' (https://www.gracesguide.co.uk/Robert_Mushet))",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-26"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "ベッセマー転炉の鋼は、溶けた酸素や硫黄のせいで熱いときに割れやすかった。1856年、イギリスのロバート・マシェットが、マンガンを含む銑鉄（スピーゲル）を最後に加えると、マンガンが酸素と硫黄を取りのぞいて割れなくなることを見つけた（マシェットは特許の更新料を払えず報酬を得られず、のちにベッセマーが年金を出した）。1857年にはマシェットの鋼でレールが作られた。1882年、ロバート・ハドフィールドがマンガンを約12% 入れた、たたかれるほど硬くなる鋼（ハドフィールド鋼）を作った"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAbElEQVR42mNgoAWwcvD5b+Xg858YtUyUGsiCTfDYgS2MdPMGE8NAA0ZkJ5OiERZOKIHYFbaFKM1lq3ywx8KBbzOItH8LZiAeO7CFcdsWwi7YtmULSjRTHAtM6AGDzxXotqPEAnoiolkKpToAAKgxLFjCv0v2AAAAAElFTkSuQmCC"
+}

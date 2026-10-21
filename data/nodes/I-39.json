@@ -1,0 +1,53 @@
+{
+ "id": "I-39",
+ "history": {
+  "name": "化学平衡と化学熱力学",
+  "name_en": "Chemical equilibrium and chemical thermodynamics",
+  "kind": "idea",
+  "trunk": "I",
+  "trunk_name": "発見・考え方",
+  "year": 1884,
+  "year_range": "1876〜1906",
+  "year_uncertain": false,
+  "hee1": "アンモニア工場が高い圧力を使うのは、押すほどアンモニアの方へ反応が進むから",
+  "hee1_en": "Ammonia plants use high pressure because the harder you push, the more the reaction moves toward ammonia.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://www.nobelprize.org/prizes/chemistry/1901/summary/",
+   "https://www.nobelprize.org/prizes/chemistry/1920/summary/"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [],
+  "understanding": [],
+  "enables": [],
+  "explains": [
+   "6-09",
+   "6-13"
+  ],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "反応は行ったり戻ったりしながら、ある割合で止まる（平衡）。アメリカのギブズが1876〜78年に自由エネルギーの考えを出し、1884年にフランスのルシャトリエが「条件を変えると、それを打ち消す向きに平衡が動く」原理を、オランダのファント・ホッフが平衡と温度の関係をまとめた（1901年ノーベル化学賞）。ネルンストの熱定理（1906年、1920年ノーベル化学賞）も加わった。アンモニアの合成が約200気圧・約450℃なのは、平衡（低温・高圧ほど有利）と反応の速さ（高温ほど速い）の妥協"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "実験：密閉した容器の圧力と温度を変えて、できる物の割合がどう変わるかを見る",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAANElEQVR42mNgGB6gy0Xtf5eL2n9y9DLR1ZU0MYSRXBvK9txipIrXqO8CmgUWzRIe09DPRwDj1xefk39CygAAAABJRU5ErkJggg=="
+}

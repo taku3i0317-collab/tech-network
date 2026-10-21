@@ -1,0 +1,78 @@
+{
+ "id": "1-03",
+ "history": {
+  "name": "銅の製錬",
+  "name_en": "Copper smelting",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": -5000,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "緑色の石（孔雀石）を炭と焼くと、銅が出てくる",
+  "hee1_en": "Heat a green stone (malachite) with charcoal, and copper comes out",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "O7. 緑の石から最初の銅（孔雀石の製錬）［1-03］（［7-07］の前提）",
+    "answer": "銅の鉱床の地表に近い部分は、雨水と空気で緑の孔雀石 Cu2CO3(OH)2 などの酸化鉱に変わっている。これを炭火で焼くと、分解して酸化銅になり、炭（一酸化炭素）が酸素を奪って銅が出てくる。硫黄を含まないので、人類が最初に製錬した銅鉱石になった。",
+    "hee": {
+     "1": "緑色の石を炭と焼くと、銅が出てくる。",
+     "2": "セルビアのベロヴォデ遺跡で、約7000年前（紀元前5000年ごろ）の銅のスラグが見つかった。今わかっている最古の製錬の直接の証拠。",
+     "3": "ベロヴォデでは、製錬にはマンガンを含む銅鉱石を使い、きれいな孔雀石はビーズにしていた。",
+     "4": "地表の酸化鉱を掘りつくすと、下の硫化鉱（黄銅鉱）にぶつかる。硫化鉱は焼いて硫黄を飛ばす手間がいる [1-04]。"
+    },
+    "certainty": "孔雀石の化学・分解・還元 ◎／ベロヴォデ 約7000年前・最古の製錬の証拠 ○（Radivojević ら 2010、UCL）／マンガンを含む鉱石とビーズの話 ○",
+    "basis": "- UCL Discovery「On the origins of extractive metallurgy: new evidence from Europe」（Radivojević ら 2010）：https://discovery.ucl.ac.uk/id/eprint/1380193/"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "0-15"
+    ]
+   ],
+   [
+    [
+     "0-12"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-24"
+  ],
+  "frontier": false,
+  "real": "紀元前5000年頃（セルビア・ベロヴォデ）。孔雀石 Cu2CO3(OH)2 →加熱→ 2CuO+CO2+H2O、CuO+C→Cu+CO（炭素還元、約1100℃）"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "軽",
+  "missing": "",
+  "item": "malachite_ore",
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "新規鉱石「孔雀石」（浅い層・銅鉱石の上部＝酸化帯）",
+  "hee_game": {
+   "note1": "緑のしま模様の石が混じった岩。銅がさびたのと同じ緑色。",
+   "note2": "地表に近い石の中（y40〜110）。石のツルハシ以上で孔雀石が落ちる。銅の鉱床の上の方で、雨水と空気にさらされた「酸化帯」にできる。",
+   "note3": "地下深くの銅の鉱石（黄銅鉱、バニラの銅鉱石）は、地表近くで水と二酸化炭素にふれると、緑の孔雀石や青い藍銅鉱に変わる。昔の人はこの目立つ緑を目印に銅を探した。",
+   "note4": "酸化帯の下には、溶けた銅が沈んでたまった「富化帯」があり、さらに下に元の硫化鉱がある。古代の鉱山は地表の孔雀石を掘りつくすと、溶かしにくい硫化鉱 [1-04] にぶつかった。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABG0lEQVR42o1TsWrDMBB9UUuGbAERgqOC8KAhZOjUjzCm39RvKsFzKZ0yZchsNAhPgoRAs3RIB0XXi6KqPRDI9+6k995ZI2OWZ1xCVnXcwg89ffuhJ5zvAeAeAJrmOSSVBg/vbMi3LbyzhMd8171CyKq+AbyztCd2SsM7i269xma7o567B21eppMxFb69f2Axn1HT6XigJZXGdDLGYj7D6XjA/vMLglOXSqNpW2y2u6ubOYNUqiBTLgXeWTw9rm5kpRFxkUumJv6KD32YAm/gRZx2joms6jCFHMj1xpVK9UP/40GOdulgMvE/jTn3SULJJO5BmpdKBwklE1NWOUNFenNpdNxM7+z1FFL6f/kR/4ORMcszf7alJ82xGN+ugLFkCi7vmQAAAABJRU5ErkJggg=="
+}

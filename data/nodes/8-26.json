@@ -1,0 +1,66 @@
+{
+ "id": "8-26",
+ "history": {
+  "name": "タイプライター",
+  "name_en": "Typewriter",
+  "kind": "tech",
+  "trunk": "8",
+  "trunk_name": "精密・計測",
+  "year": 1868,
+  "year_range": "1868〜1878",
+  "year_uncertain": false,
+  "hee1": "パソコンのキーの並びは、150年前のタイプライターの並びがそのまま残っている（S-002 で追加。出典：Wikipedia「QWERTY」、Computer Hope「Why is the keyboard not in alphabetical order」）",
+  "hee1_en": "The key layout on computers is the same layout typewriters used 150 years ago. (Added in S-002. Sources: Wikipedia \"QWERTY\", Computer Hope \"Why is the keyboard not in alphabetical order\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [
+   {
+    "name": "クリストファー・ショールズ",
+    "tool": "⌨️ タイプライター",
+    "year": "1868",
+    "intro": "1868年、タイプライターの特許を取り、文字の並びを工夫した（1819〜1890）",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACHUlEQVR42u1Wr0/DQBT+Shq6MlImIKuBhMAEhoRhEFUkIDYDAkRDMDgEWVD7E1AISHAYQiaYACwE1AQIBsFAGIJMbVlImvJjDFME3LGuLbvruiDgqet7X/u+e+/rvQP+7a+bwAPWdd1iwWUyGebviqzAVCplJZNJh79QKLjBLVYSAuvONU2jz/OjXa64vetXus7lckyV6AgqeWNM0zSmlnXwaOCn5DwY3wTaYcwE4hET7cAyExgeUNtSAZEHXK/yxl7Xx+KRgA6i9NKsNTA+xS2u+2IJeUMBABQvjrG2vS8EUgF5bA6jIyO4vrlB9TLrGUNxMzgN9DzdUVFVL7M43Fi1Jb8vllxj8YiJnqe71gkM9avIGwrtsdrr3WASyxsK8oaCoX61dQIHJ+fOVkiddF1+NFz9Xu9yaYCIR6/KViwWAzD4We7aOwDg6vYBYTlE8cT/PQv2hcDGsa7r1sbytOOXczuGV7aOmEey73MARwf24PSMJ7FALyRkMpbLZUSjUQeGdQz7IkBImKaJRCLhSMx7G/JFwK0avLvmJtDXp9KLRTq9CgBYXFywYXZ2dj//nLV16qtUSkJLIiSJFeX78JHlbgBANmsXIfHXYwFYzYiIrIn9WN37nkQE3sQvL88Ih7txdnZq809MTNKYl5mm4WiNGOSO/VREIARYkjfbISuGVKNSKQm/fikVG/vjZbXaGyQp1BT3VVpIUoiJwAcmZOad07ME1wAAAABJRU5ErkJggg=="
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "8-02"
+    ]
+   ],
+   [
+    [
+     "1-26"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1868年、アメリカの新聞人クリストファー・ショールズらがタイプライターの特許を取り、何年も文字の並びを入れかえて QWERTY に近い形にした。1873年にレミントン社が製造権を買って1874年に発売し、1878年のレミントン2号でシフトキーが付いて、この配列が広まった"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAhklEQVR42mNgoBAw4pKwcvD5j0382IEtjESZjM0AbGJMlHqBBZfpXj4+DAwMDDjFYF5hhGl+8+weSTaLSCkxHDuwhRHugri0PJIM2LZlC2oYLJo1iSQaI3Rbemb8V1PTIppGCTMrBx+SNLf0zIAbAA9EaAiTFAYogYjVbwRiASUdwARGIAAAFyJmWh9S6KEAAAAASUVORK5CYII="
+}

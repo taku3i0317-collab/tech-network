@@ -1,0 +1,63 @@
+{
+ "id": "8-35",
+ "history": {
+  "name": "クオーツ腕時計",
+  "name_en": "Quartz wristwatch",
+  "kind": "tech",
+  "trunk": "8",
+  "trunk_name": "精密・計測",
+  "year": 1969,
+  "year_range": "1927〜1969",
+  "year_uncertain": false,
+  "hee1": "クオーツ時計の中の水晶は、1秒に 32768 回も震えている（O-010 で追加。出典：日本機械学会「機械遺産 No.066」、Wikipedia「Seiko Astron」）",
+  "hee1_en": "The quartz crystal in a quartz watch vibrates as many as 32,768 times a second. (Added in O-010. Sources: JSME \"Mechanical Engineering Heritage No.066\", Wikipedia \"Seiko Astron\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "8-15"
+    ]
+   ],
+   [
+    [
+     "9-22"
+    ]
+   ],
+   [
+    [
+     "4-17"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "水晶の板は電圧をかけると決まった速さで震える。その回数を時計用の IC で数えて1秒を作り、小さなステップモーターで針を動かす。1927年にベル研究所のマリソンとホートンが水晶時計を作り（部屋ほどの大きさ）、1969年12月、諏訪精工舎（セイコー）が世界で初めてのクオーツ腕時計「クオーツアストロン 35SQ」を売り出した（機械遺産 No.066、未来技術遺産）。ぜんまいの機械式時計よりずっと正確で、今の安い時計のほとんどがクオーツ。中の水晶は1秒に 32768 回震える"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAiklEQVR42mNkwALU1LT+YxO/desaI7oYCwMO4OXlh8Lftm0TVnVMDBQCJmzOR7cd5iJsXmNE11zg8QqvjRN2iKGEBdYwyJr0hpGBgYFhWp7Ifxgbxqd9GKCDaXki/7HZTDAakb1CkQsIARZczibWAEZi0wEsNaInZyZs6R1bssWmmXZhgC/zUB0AAA6LNXK5L+d+AAAAAElFTkSuQmCC"
+}

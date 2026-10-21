@@ -1,0 +1,71 @@
+{
+ "id": "12-13",
+ "history": {
+  "name": "HEPA フィルター",
+  "name_en": "HEPA filter",
+  "kind": "tech",
+  "trunk": "12",
+  "trunk_name": "建築・土木",
+  "year": 1940,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "いちばん捕まえにくい大きさの粒が 0.3µm",
+  "hee1_en": "The hardest particle size to catch is 0.3 µm.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "O50. 0.3µm の粒を 99.97% 捕まえる（HEPA フィルター）［12-13］",
+    "answer": "HEPA フィルターは、ガラスの極細繊維をひだ状に折ったマット。1940年代、マンハッタン計画で放射性の粉を捕まえるために作られ、0.3µm の粒を 99.97% 以上取る。ガラス繊維は1930年代、白金の板の小さな穴から溶けたガラスを引き出す方法で量産された。",
+    "hee": {
+     "1": "いちばん捕まえにくい大きさの粒が 0.3µm。だからこの大きさで性能を決める。",
+     "2": "大きい粒はぶつかり、小さい粒はふらふら動いて（ブラウン運動）繊維につかまる。",
+     "3": "今はクリーンルームのほか、病院の手術室や掃除機にも使われる。",
+     "4": "ガラス繊維を引く板（ブッシング）は、溶けたガラスに溶けない白金でできている。"
+    },
+    "certainty": "HEPA の起源（マンハッタン計画、1940年代）◎／0.3µm・99.97% の定義 ◎／白金ブッシング ○",
+    "basis": "- Wikipedia「HEPA」：https://en.wikipedia.org/wiki/HEPA"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "2-14"
+    ]
+   ],
+   [
+    [
+     "12-12"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1940年代 マンハッタン計画で放射性の粉を捕まえるために開発。0.3µm の粒を99.97%以上取る"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "軽（[12-14] でクリーンルームに）",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "空気清浄ブロック",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAaklEQVR42mNgGGjAyMDAwGDl4POfHM3HDmxhZKLUBUzoJnLx2TFw8dnhZeM0wMWv6z8DAwPDnk1ljITYWA0gRnNIiBcDXgNc/Lr+79lUxoiLvWbNNtwG4NOIzh6kYRAS4kVyGAx8Shx4AADx0nQUtwtTnQAAAABJRU5ErkJggg=="
+}

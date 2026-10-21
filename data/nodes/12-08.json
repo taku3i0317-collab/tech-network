@@ -1,0 +1,58 @@
+{
+ "id": "12-08",
+ "history": {
+  "name": "下水道",
+  "name_en": "Sewer system",
+  "kind": "tech",
+  "trunk": "12",
+  "trunk_name": "建築・土木",
+  "year": 1858,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "臭すぎて国会が開けなくなったのがきっかけ",
+  "hee1_en": "It started because the smell got so bad that Parliament could not meet.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "12-06"
+    ]
+   ],
+   [
+    [
+     "12-02"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1858 ロンドンの「大悪臭」→ ジョゼフ・バザルジェットの下水道網（1860年代、コンクリートを大量使用）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "汚水を村から運び出す管",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAj0lEQVR42rWTuw6AIAxFS8NXMTGbfi5xZuK3cCoptTyM2ulGei59IMCfESLVEKnOcrwFsT6IWLZvJScn89GCBQjaTFeEFnym1ACprSpR3zKCWWuzzmAFs74NMUSq0nnHCABqycmhHtYm3MKNNrBqgdeJ1qqeVOF1+SsjPUQcvbAZLHO7FvhA32L1/tnP9DouHBuB1hMSf1wAAAAASUVORK5CYII="
+}

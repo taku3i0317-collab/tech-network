@@ -1,0 +1,76 @@
+{
+ "id": "8-12",
+ "history": {
+  "name": "刻線機",
+  "name_en": "Ruling engine",
+  "kind": "tech",
+  "trunk": "8",
+  "trunk_name": "精密・計測",
+  "year": 1882,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "何日もかけて刻む間に温度が変わると失敗した",
+  "hee1_en": "If the temperature changed during the many days of ruling, the work failed",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "O55. 1mm に何百本の溝を刻む（刻線機）［8-12］",
+    "answer": "1882年、ジョンズ・ホプキンス大学のヘンリー・ローランドは、自分で磨き上げた精密なねじで台を少しずつ送りながら、ダイヤモンドで 1mm に数百本の溝を鏡に刻む刻線機を作った。溝の数が多いほど近い色を分けられ（分解能＝溝の数×次数）、ローランドの格子で太陽の何千本もの暗線の波長が正確に測られた。ねじの小さな周期的なずれは「ゴースト」というにせの線になるので、刻線機は温度の変わらない地下室に置かれた。",
+    "hee": {
+     "1": "何日もかけて刻む間に温度が変わると失敗した。",
+     "2": "ナトリウムの黄色い線は、細かい格子で見ると 589.0 と 589.6nm の2本に分かれる。",
+     "3": "1775年ラムズデンの目盛り刻み機が、精密なねじで等間隔に刻む技術の先祖。",
+     "4": "今の露光装置のステージの位置も、細かい格子（エンコーダー）で測っている。"
+    },
+    "certainty": "ローランド 1882・凹面格子 ◎／ゴーストとねじの周期誤差 ◎／約 570本/mm ○",
+    "basis": "- Wikipedia「Henry Augustus Rowland」：https://en.wikipedia.org/wiki/Henry_Augustus_Rowland"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "8-02"
+    ]
+   ],
+   [
+    [
+     "8-05"
+    ]
+   ],
+   [
+    [
+     "8-07"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1882 ヘンリー・ローランド（ジョンズ・ホプキンス大）が精密なねじで1mm に数百本の溝を刻む刻線機を作り、凹面回折格子を量産"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "実験（溝の数で分解能、揺れ・温度でゴースト）",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "[7-07]回折格子・干渉計スケールの製造ブロック",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAaUlEQVR42mNgGGjACGNYOfj8J0XjsQNbGFEEsBlg5eDzH5c4jM1EqRdoa8A/MztMv1LbBXDTLcq6/pOq+URXGSPcBUynDsEFiaFh6pmompC8fHwYtm3ZQlJCYkEW3LZlC8FQJzXFDgEAADm+K/yjL3J9AAAAAElFTkSuQmCC"
+}

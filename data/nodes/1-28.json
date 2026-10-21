@@ -1,0 +1,62 @@
+{
+ "id": "1-28",
+ "history": {
+  "name": "タングステン線",
+  "name_en": "Tungsten wire",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": 1910,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "融点3400℃で溶かせないので粉を焼き固める",
+  "hee1_en": "Its melting point is 3400°C, too high to melt, so the powder is pressed and baked solid.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "6-01"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-26"
+  ],
+  "frontier": false,
+  "real": "(Fe,Mn)WO4→WO3→H2還元でW粉→焼結→線引き（1910 クーリッジの延性W）"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": "tungsten_wire",
+  "recipes": [
+   "作業台：タングステン焼結棒 → タングステン線×4"
+  ],
+  "machine_recipes": [],
+  "placeholder": "近似：スエージングと、ダイヤモンド・超硬の型（ダイス）を通す線引きを省略している（作業台で棒が線になる）。",
+  "game_text": "",
+  "hee_game": {
+   "note1": "電球や真空管の中で光る、細い線。",
+   "note2": "延性タングステン線（クーリッジ、GE社、1909〜1910）。白く光るほど熱しても溶けないので、白熱電球のフィラメント[B-01]、真空管の陰極[5-02]、X線管[B-03]、点接触ダイオードの針[9-05]に使う。",
+   "note3": "1910〜1911年、GE社が線引きタングステンフィラメントの電球を売り出した。炭素フィラメントの約3倍の明るさ（1Wあたり）で、タングステン電球が20世紀の明かりになった。",
+   "note4": "タングステンでも光っているあいだに少しずつ蒸発し、ガラスが黒くなり線が細くなる。電球にアルゴンを詰める（ラングミュア1913、空気分離[6-07]）とこれが遅くなり、ハロゲンランプは蒸発したタングステンをフィラメントに戻す。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAuElEQVR42sVSIQ7DMAw8V0F7xdDeUDwwFQdEwXvD5EdYfUhUEDwNDOdXHlmlKE3SkmmGtu98tg/4d1CZ8M5qDxCWSM2id1Z7BLU6lZPDEmlkqZIkYcr7qtJHFq0R5PlchWlNKklqOQAYegdLwpSEqddjjr5rZNHH3WMGdLqcAEDDEsnsgXI1M6BJmM7O6nrEoQXM5bf236zgndXwbV4Bq+zyjYeNkk/uGqll5+l2xfP1PmblPbKfxAcAx2+WyeDBkAAAAABJRU5ErkJggg=="
+}

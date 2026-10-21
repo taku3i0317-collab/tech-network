@@ -1,0 +1,64 @@
+{
+ "id": "I-21",
+ "history": {
+  "name": "電離説と電極電位",
+  "name_en": "Ionic theory and electrode potential",
+  "kind": "idea",
+  "trunk": "I",
+  "trunk_name": "発見・考え方",
+  "year": 1887,
+  "year_range": "1884〜1889",
+  "year_uncertain": false,
+  "hee1": "塩水に電気が流れるのは、塩が水の中でプラスとマイナスの粒に分かれているから",
+  "hee1_en": "Electricity flows through salt water because salt splits into plus and minus particles in water.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://www.nobelprize.org/prizes/chemistry/1903/summary/",
+   "https://www.nobelprize.org/prizes/chemistry/1909/summary/",
+   "https://www.nobelprize.org/prizes/chemistry/1920/summary/"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "4-13"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [
+   "2-17",
+   "2-18",
+   "4-07",
+   "4-13",
+   "6-01",
+   "6-05"
+  ],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "塩などが水に溶けると、プラスとマイナスの電気を持つ粒（イオン）に分かれ、それが動いて電気を運ぶ。スウェーデンのスヴァンテ・アレニウスが1884年の学位論文で考え、1887年に電離説として発表した（1903年ノーベル化学賞）。オストワルトが支え（1909年ノーベル化学賞の一部）、1889年にネルンストが電池の電圧を電極とイオンの濃さから計算する式を出した。電気分解で食塩水から塩素と水素が出る理由、電池の電圧、超純水の純度を電気の通りにくさで測る理由を説明する"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "実験：真水と塩水に電池と豆電球をつなぎ、塩水だけ光るのをくらべる",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAY0lEQVR42mNgoBAwogt0uaj9x6ehbM8tRrwmIhvQ5aL2H52Prp6JgRrAoqzrPzFeQJaD6WHCpgCbIbjkKPYCE7FeI8uAE11ljIQMIeiCE11ljBS5gJAXWIhNZbjkWEgJsGEKACMBLlXuiT7IAAAAAElFTkSuQmCC"
+}

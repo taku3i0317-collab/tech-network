@@ -1,0 +1,76 @@
+{
+ "id": "2-09",
+ "history": {
+  "name": "石けん",
+  "name_en": "Soap",
+  "kind": "tech",
+  "trunk": "2",
+  "trunk_name": "化学",
+  "year": -2800,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "油と強いアルカリをまぜると、石けんができる",
+  "hee1_en": "Mix oil with a strong alkali and you get soap.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "C12. 油と強いアルカリで石けん、残りの液からグリセリン［2-09］",
+    "answer": "油脂（グリセリン＋脂肪酸3本）を強いアルカリと煮ると、結び目が切れて脂肪酸のナトリウム塩（石けん）とグリセリンになる（けん化）。塩をたくさん入れると石けんが固まって浮き（塩析）、残りの液からグリセリンが取れる。",
+    "hee": {
+     "1": "油と強いアルカリをまぜると、石けんができる。",
+     "2": "石けんの分子は水になじむ頭と油になじむしっぽを持ち、油汚れを包んで流す（ミセル）。",
+     "3": "1823 シュヴルールが油脂の正体を解明、1779 シェーレがグリセリンを発見。",
+     "4": "ウェハーは石けんでなく RCA 洗浄（1965）で洗う。"
+    },
+    "certainty": "けん化・塩析・ミセル ◎／シュヴルール 1823 ○／シェーレ 1779 ○／紀元前2800年のバビロン △（TECH_TREE の本物欄どおり ⚠️）",
+    "basis": "- Wikipedia「Soap」：https://en.wikipedia.org/wiki/Soap"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "2-02"
+    ],
+    [
+     "2-08"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "けん化 (C17H35COO)3C3H5+3NaOH→3C17H35COONa+C3H5(OH)3（グリセリン）。紀元前2800年頃のバビロンに石けんのような物質の最古の証拠、処方を記したシュメールの粘土板はもっと後（紀元前2500年頃⚠️）、1823 シュヴルールが油脂＝脂肪酸＋グリセリンと解明"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "軽",
+  "missing": "",
+  "item": "soap",
+  "recipes": [
+   "作業台：けん化した脂 ＋ 塩 → 石けん×3"
+  ],
+  "machine_recipes": [],
+  "placeholder": "近似：香料・色はなし。",
+  "game_text": "鍋で煮る。KOH なら軟らかい石けん、NaOH なら固い石けん",
+  "hee_game": {
+   "note1": "油と強いアルカリをまぜると、石けんができる。油汚れを水で流せるようにする。",
+   "note2": "けん化した脂＋塩で3つ（水酸化ナトリウムで作ったので固い石けん。水酸化カリウムなら柔らかい石けんになる）。装置を洗う洗浄の入口。",
+   "note3": "石けんの分子は、水になじむ頭（-COO-）と、油になじむ長いしっぽを持つ。しっぽが油汚れを囲んで小さな粒（ミセル）にし、水に浮かせて流す。",
+   "note4": "石けんのような物の最古の証拠は紀元前2800年ごろのバビロン ⚠️。半導体工場のウェハーは、石けんではなく、RCA 洗浄（1965、アンモニアと過酸化水素など）で洗う（[9-14]）。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAN0lEQVR42mNgGAUUA0ZkjkVZ139iNJ3oKoPrY0GXLEmKwKu5Z94KFD4TpV4YBgawEAqkUUAYAAAtkQjkRcKk/QAAAABJRU5ErkJggg=="
+}

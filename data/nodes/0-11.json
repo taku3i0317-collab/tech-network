@@ -1,0 +1,60 @@
+{
+ "id": "0-11",
+ "history": {
+  "name": "消石灰・漆喰",
+  "name_en": "Slaked lime and lime plaster",
+  "kind": "tech",
+  "trunk": "0",
+  "trunk_name": "生存・道具",
+  "year": -7000,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "消石灰は空気の中の二酸化炭素を吸って、石にもどって固まる",
+  "hee1_en": "Slaked lime soaks up carbon dioxide from the air, turns back into stone, and hardens.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "0-10"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "CaO+H2O→Ca(OH)2（強く発熱）、空気中で Ca(OH)2+CO2→CaCO3 に戻って固まる。ローマはポッツォラーナ（火山灰）を混ぜて水中でも固まるコンクリートに"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": "slaked_lime",
+  "recipes": [
+   "作業台：生石灰 ＋ 水入りバケツ → 消石灰"
+  ],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "新規アイテム「消石灰」「漆喰」。用途: [2-02]苛性化、[6-10]硝石床",
+  "hee_game": {
+   "note1": "生石灰に水をかけると、湯気が出るほど熱くなって白い粉になる。",
+   "note2": "Ca(OH)2。CaO + H2O → Ca(OH)2 は強く発熱する。「石灰乳」として約2%混ぜると、珪砂をつないで耐火れんが（ディナスれんが）が作れる。空気中ではゆっくり CO2 を吸って Ca(OH)2 + CO2 → CaCO3 + H2O と元に戻る。これが漆喰が固まるしくみ。",
+   "note3": "ローマ人は消石灰に火山灰（ポッツォラーナ）を混ぜ、水中でも固まるコンクリートを作った。日本の城の白壁（漆喰）は、消石灰に海藻のりと繊維を混ぜたもの。",
+   "note4": "消化（水を加えること）で CaO 1mol あたり約65kJ の熱が出て、水が沸いたり木が燃えたりするほど。ひもを引くと温まる駅弁もこの反応。消石灰は強い塩基（pH 約12.4）で、炭酸カリウム[2-02]・ソーダ[2-08]の苛性化や酸の中和に使う。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAeElEQVR42mNgGAXDADDikrAo6/qPzD/RVYZVLRM+zTBNJUkRGAYy4LN5zY1H/9fcePQfmQ3jE+WCN6c+McBshoGeeSuweoMF3dnImmAaYWLoXkNx9oxFV+DOhDkdpgFGu/h1YYgx4gpti7Ku/ye6yhix+RuX+MAAAMZvXo5bi8EKAAAAAElFTkSuQmCC"
+}

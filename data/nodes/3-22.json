@@ -1,0 +1,79 @@
+{
+ "id": "3-22",
+ "history": {
+  "name": "蒸気圧縮の冷凍サイクル",
+  "name_en": "Vapor-compression refrigeration cycle",
+  "kind": "tech",
+  "trunk": "3",
+  "trunk_name": "熱",
+  "year": 1834,
+  "year_range": "1805〜1835",
+  "year_uncertain": false,
+  "hee1": "冷蔵庫は冷たさを作る機械ではなく、中の熱を外へくみ出す「熱のポンプ」（S-004 で追加。出典：asme.org、en.wikipedia.org）",
+  "hee1_en": "A refrigerator is not a machine that makes cold; it is a \"heat pump\" that pumps the heat inside out. (Added in S-004. Sources: asme.org, en.wikipedia.org)",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "C45. 冷蔵庫は熱のポンプ（蒸気圧縮の冷凍サイクル）［3-22］",
+    "answer": "1834年、アメリカ生まれでロンドンにいたジェイコブ・パーキンスが、エーテルを圧縮して液にし、細い弁で圧力を下げて蒸発させ、その気化熱で冷やし、また圧縮する、閉じた回路の冷凍機の特許（英国特許6662号）を取った。機械工ジョン・ヘイグが作った試作機は少しの氷を作ったが、商売にはならなかった。この回路が今の冷蔵庫とエアコンの基本。よく「冷蔵庫はリンデ（1876）の発明」と言われるが、リンデはアンモニアで実用の機械にした人で、サイクル自体はパーキンスが先。",
+    "hee": {
+     "1": "冷蔵庫は冷たさを作る機械ではなく、中の熱を外へくみ出す「熱のポンプ」。",
+     "2": "アルコールをぬったら冷たく感じるのと同じ「気化熱」を使っている。",
+     "3": "最初の冷媒のエーテルは、手術の麻酔にも使われた燃えやすい液。",
+     "4": "冷蔵庫の裏が温かいのは、中からくみ出した熱を捨てているから。"
+    },
+    "certainty": "パーキンス 1834・英国特許6662・ヘイグの試作機 ◎（TECH_TREE の本物欄、ASME）／リンデ 1876 ◎",
+    "basis": "- Wikipedia「Jacob Perkins」/「Vapor-compression refrigeration」：https://en.wikipedia.org/wiki/Vapor-compression_refrigeration"
+   }
+  ],
+  "people": [
+   {
+    "name": "ジェイコブ・パーキンス",
+    "tool": "❄️ 冷凍機",
+    "year": "1834",
+    "intro": "1834年、圧縮した気体で冷やす冷凍機の特許を取った（1766〜1849）",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACDElEQVR42mNgGAUjHTCSori9vf0/MeoqKyuJNpeFWIUzZ878n5aWhiH+6NEjbMr/E+sIRmJ9HhUVBedzP96PVd1XWUc4e9myZUSFBBO1LEeXi4qKIirKmEhJA/gsJ0UN2Q6gBSDaAc+PLmeghVqiHaAiJ0GTEGAhRTFyKkePa2Q5hkfLqeOAiuRAsnIAck74eOfU/4656xmpEgKchqEMepqaDJeuX2f4fn41TjmGR5OpUxRXJAf+11WTZ1CWlYCngRdvPjBIiAjA1dx59AJD7s6jFwwMDAwMdx+/YLh86yEDvhAgmAiVZVETH7Ll6ABdDl0vWQ7YsPckZlSws8HZL99+wCqOSy9JaQAp6P6XJPrDxb///MXAwMDAcOHGAwZuTg4McZjl+IKe5Oq4IjkQxRH4QM/8jURZTnIuQAaHZ29F4dumetO+QUJMKJDie5IdAHOEqBA/Q7y/A4r4wo0HGF6/+0iS5RSBiuTA/2+OLPj/5siC/xXJgf8ZaNkmFBWVgFtQUVHEwMDAwBAXF4OiZtGiJZCc09EHF3v9+gVluQBmMR8fooA5cWIfXgMtLJzg7E+fPhB0CAuxFpMDkPT/x+UQRlIt/vr1CwM3Nw9GSFhYOMHlcAFsIcJCTR+TEyKMMAcQYzkhHxKrBhYar1+/YBzwRikLevzgAj9//mBgZ+cgqA4atAzs7BxEOQAAZXnkT4vMKCoAAAAASUVORK5CYII="
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "5-01"
+    ]
+   ],
+   [
+    [
+     "1-03"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1834年、アメリカ生まれでロンドンにいたジェイコブ・パーキンスが、エーテルを圧縮して液にし、細い弁で圧力を下げて蒸発させ、その気化熱で冷やし、また圧縮する、閉じた回路の冷凍機の特許（英国特許6662号）を取った。機械工ジョン・ヘイグが作った試作機は少しの氷を作ったが、商売にはならなかった。圧縮→放熱（熱交換器で液に）→膨張弁→蒸発（熱を吸う）のこの回路が、今の冷蔵庫とエアコンの基本。よく「冷蔵庫はリンデ（1876）の発明」と言われるが、リンデはアンモニアで実用の機械にした人で、サイクル自体はパーキンスが先"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "実験＋軽",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAaUlEQVR42mNgoBAwInOsHHz+E6Pp2IEtcH0s6JJePj54NW/bsgWFz0SsUxfNmoRVnInSMCDagLi0PMKBqKamRVQg3rp1DXsgikgpERWIt25dG4qBSLNYoNgFLMQkV2KTOcEMRWxmIwkAAMpEHYMnIyKAAAAAAElFTkSuQmCC"
+}

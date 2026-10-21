@@ -1,0 +1,86 @@
+{
+ "id": "12-11",
+ "history": {
+  "name": "測量",
+  "name_en": "Surveying",
+  "kind": "tech",
+  "trunk": "12",
+  "trunk_name": "建築・土木",
+  "year": 1615,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "伊能忠敬は歩幅で日本中を測った",
+  "hee1_en": "Tadataka Ino measured all of Japan by his steps",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "O31. 行かずに距離を測る（三角測量）［12-11］",
+    "answer": "離れた2点（底辺の両はし）から同じ目標をのぞいて角度を測ると、三角形の形が決まり、正弦定理で目標までの距離が分かる。1615年スネルが三角形をつないで町の間の距離を測り、18世紀には望遠鏡と目盛り円のセオドライトで国土が測られた。",
+    "hee": {
+     "1": "底辺を1本ていねいに測れば、あとは角度だけで国じゅうの地図が作れる。",
+     "2": "伊能忠敬は 55歳から17年かけて日本中を歩き、歩いた距離と山の方角を組み合わせて地図を作った。",
+     "3": "細長い三角形ほど、角度のわずかなずれで距離が大きく狂う。",
+     "4": "メートルは、フランスの子午線を三角測量して決めた長さだった（[8-22]）。"
+    },
+    "certainty": "三角測量の原理 ◎／スネル 1615（Eratosthenes Batavus 1617 刊）◎／伊能忠敬 1800〜1821（本人は1818没、地図の完成は1821）◎／伊能の方法（導線法・交会法）○",
+    "basis": "- Wikipedia「Triangulation (surveying)」：https://en.wikipedia.org/wiki/Triangulation_(surveying)"
+   }
+  ],
+  "people": [
+   {
+    "name": "伊能忠敬",
+    "tool": "🗺️ 歩いて測る測量",
+    "year": "1800〜1821",
+    "intro": "1800年から日本中を歩いて測り、日本地図を作った（地図の完成は1821年）",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACJ0lEQVR42mNkIANERUX9xya+bNkyRlLNYmEgE9jY2KDwjxw5QpY5TAwDDAbcAYzkxD168KNHAylpgWiFBQUF/729vTHEb9++jdUhxDqCkVif4/I1LkCsI5hoYTksmnBl19FcQLYDvGS+MHjJfCHI1mC8T30HwCwglk2TonjbEx6cliHLaTC+pk5BVBTl9t/HVp+BgYGBQUlalGhD7z1FOGDL4YsMfct2MVIlDYg6ZzM450xhEHXOJkmOohDQUpJiUJIWhYfAy3efGMSF+FB8iy4HC4F7T18zXLv3jLIQQA96ZMvRAbocMdFG0AFbDl/EEONgZ4WzX737hFUcl16ScgFS0P3Pi3CBi//4+ZuBgYGB4fKdJwzcnOwY4sQkPpJrw6IoNxRH4AOTVuwhynKKmmTn155G4RsGm9K+QUJMKJDie5IdAHOEiAAPQ5SHBWqLeMcJhjcfvpBkOUWgKMrt/4NNXf8fbOr6XxTl9p+Blm1CCTkzuAWl+SGQOOdCLe/Pf4Pk+e6Ja+BiLx6dYqQoEcIsFhBRgYvFxcVAsuCafhS1MPHZSy8gC/8n5BBGYi1GBod39jAwMDAw2LqXYOWjgw9v7uAMERZSLGZgYGD48vEJXjkefhkMcSTzMEKEkViL0S2B+RoGbN1LcDoAX4gwYXElyT6EAR5+GbwhhM0ushulyPGNK+5JKophwYIL/Pj+noGDUxBF3aJFS7DqffH4NAMHpyBRDgAAqtP0y2Qp7MgAAAAASUVORK5CYII="
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "7-04"
+    ]
+   ],
+   [
+    [
+     "8-04"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1615 スネルの三角測量、18世紀 セオドライト、1800〜1821 伊能忠敬の日本地図"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": "theodolite",
+  "recipes": [
+   "作業台：屈折望遠鏡 ＋ 青銅インゴット×2 ＋ ノギス ＋ 棒×2 → セオドライト（測量器）"
+  ],
+  "machine_recipes": [],
+  "placeholder": "近似：底辺の長さは、2つの測点の間の長さをそのまま使う（本物は測鎖や物差しで地面を測る）。地図アイテムとのつながりはまだ無い。",
+  "game_text": "実装（IMP2 O-007）：theodolite（セオドライト＝屈折望遠鏡＋ノギスの副尺＋青銅＋棒、item/TheodoliteItem）。のぞいて離すと向きを 1分（1/60°）まで読む。測点A → 3m 以上横へ → 測点B で同じ目印 → 底辺・角A・角B から正弦定理で距離と目標の場所。のぞいた先のブロックまでの実際の距離とずれも出る（細長い三角形ほど誤差が大きいのが分かる）。⚠️ 底辺はそのままの長さ（測鎖は省略）。地図アイテムの精度向上は後で",
+  "hee_game": {
+   "note1": "遠くの物までの距離を、そこへ行かずに測る道具。2か所から同じ目印をのぞくと、三角形の形から距離が分かる。",
+   "note2": "望遠鏡＋ノギス（副尺の目盛り）＋青銅×2＋棒×2。右クリックを押してのぞき、離すと向きを読む。①目印をのぞいて離す（測点A）→ ②横に3m以上歩いて、同じ目印をのぞいて離す（測点B）→ 底辺と2つの角から距離が出る。スニーク＋右クリックで測点A を消す。",
+   "note3": "1615年、オランダのスネルは、三角形をつないで町と町の距離を測った（三角測量）。底辺を1本だけていねいに測れば、あとは角度だけで国じゅうを測れる。18世紀には、望遠鏡と目盛り円を組み合わせたセオドライトが作られた。",
+   "note4": "正弦定理：底辺 c、両はしの角 α・β なら、Bから目標まで＝c・sin α／sin(α＋β)。細長い三角形（目標が遠いのに底辺が短い）ほど、角度の少しのずれが大きな誤差になる。伊能忠敬（1800〜1821）は、歩いた距離（導線法）と、山の頂上をいろいろな場所からのぞく方法（交会法）を組み合わせて日本地図を作った。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAcElEQVR42mNgGPKAEcaY4mfw/9yHT0RpmnfoHlwfE02dl2Sn9D/JTuk/PjUs+DR72ajBuP+RnU2UAQwMDAzbjtyizAtT/Az+T/EzwOsF2gUisu34XIHXBTmbLjAS8gJO29FtxmUQ9V2ATwM2OYpjAQBMCi8/j9DtaQAAAABJRU5ErkJggg=="
+}

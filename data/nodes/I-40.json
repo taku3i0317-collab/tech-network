@@ -1,0 +1,68 @@
+{
+ "id": "I-40",
+ "history": {
+  "name": "放射能と元素の変換",
+  "name_en": "Radioactivity and transmutation of elements",
+  "kind": "idea",
+  "trunk": "I",
+  "trunk_name": "発見・考え方",
+  "year": 1903,
+  "year_range": "1896〜1909",
+  "year_uncertain": false,
+  "hee1": "風船のヘリウムは、地下の岩の中のウランが何億年もかけて作ったもの",
+  "hee1_en": "The helium in balloons was made by uranium in underground rocks over hundreds of millions of years.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://www.nobelprize.org/prizes/chemistry/1908/summary/",
+   "https://www.nobelprize.org/prizes/chemistry/1921/summary/",
+   "https://en.wikipedia.org/wiki/National_Historic_Chemical_Landmarks"
+  ],
+  "refs": [],
+  "people": [
+   {
+    "name": "マリー・キュリー",
+    "tool": "☢️ ラジウム",
+    "year": "1898",
+    "intro": "1898年、ピエール・キュリーとポロニウムとラジウムを見つけた。1911年ノーベル化学賞",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACDklEQVR42mNkIBE4aUn8F+Biwyr34dsvhn3XXjCSYh4LAxlARogLpwNIBUwMAwyGlgOctCT+68gI4JTXkRFgcNKS+E+KmUQnmCATuf/myiIY4k/ff8MQu/LkA9GJkZEaPscGiHUEEy0sJyU6BnciJNf3pIQCSSFQV1fBUFdXQZAdlZBAnVyAHAIwC4gBdx69YFi2YAFRiZGkoripqQMlNHDJUS0EKpID/wc4mzMwMDAwqMhJkBQCMLBh70mGjrnrqRMCnIahDHqamgyXrl9n+H5+NU45hkeTqVcU332M8M3386sZNk4qQrEc5ltscsh6yXaAsixq0EuI4M6W6HLoeslywIa9JzGjgh3RIHn59gNWcVx6SUoDSInnf0miPyIqfkIaHhduPGDg5uTAECcm8ZFcG1YkB6I4Ah/omb+RKMvJbpIxMDAwHJ69FYVvm+pNljkkNSCJCQVSfE+yA2COEBXiZ4j3d0ARX7jxAMPrdx9JspwiUJEc+P/NkQX/3xxZ8L8iOfA/ueYQ5VpRUcwqdfPEAhS+b/4EDH2vXxNuEbEQYzEfH2oB8/XrFwy1zMwsDNzcPOjC/wk5hJEUi5EdgG4ZNjEY+PTpA84QYSTFYkIW4ZPD5RAWYi2mBkAyHx41TFgkyfI9AwMDAzc3D9b0gcchA98qZkGPH1zg588fDOzsHATVQYOWgZ2dgygHAAAeSO3n7AZrvwAAAABJRU5ErkJggg=="
+   },
+   {
+    "name": "アーネスト・ラザフォード",
+    "tool": "⚛️ 元素の変換",
+    "year": "1902",
+    "intro": "1902〜03年、ソディと放射能は元素が変わることだと示した（1871〜1937）",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAB/0lEQVR42mNgGAUjHTCSojgqKuo/MeqWLVtGtLksxCosKCj47+3tjSF++/ZtbMr/E+sIRmJ9bmNjQ1LQHjlyhKiQYKKF5QwMDAw2NjZERRnTQCfCoeWAMD0uhjA9LoJsI4FP1HcAzAJi2VTPhgwMDAyrLn3DaRmynJEAlQqiiuTA/wHO5gwMDAwMKnISRBt659ELOHvD3pMMHXPXM1IlBDgNQxn0NDUZLl2/zvD9/GqccgyPJlMvDdx9jPDN9/OrGTZOKkKxHOZbbHLIesl2gLIsatBLiOCOYHQ5dL1kOWDD3pOYUcHOBme/fPsBqzguvSSlAaTE878k0R8RFT9/MTAwMDBcuPGAgZuTA0OcmMRHcnVckRwIdwRylsNWVvTM30iU5STnApjlYXpcDIdnb0URt031hsvRrEGCHAq4ACm+J9kBMEeICvEzxPs7oIgv3HiA4fW7jyRZThGoSA78/+bIgv9vjiz4X5Ec+J+Blm1CUVEJuAUVFUUMDAwMDHFxMShqFi1aAsk5HX1wsdevX1CWC2AW8/EhCpgTJ/bhNdDCwgnO/vTpA0GHsBBrMTkASf9/XA5hJNXir1+/MHBz82CEhIWFE1wOF8AWIizU9DE5IcIIcwAxlhPyIbFqYKHx+vULxgFvlLKgxw8u8PPnDwZ2dg6C6qBBy8DOzkGUAwBr2t+7mFiOTwAAAABJRU5ErkJggg=="
+   }
+  ],
+  "media": [],
+  "requires": [],
+  "understanding": [],
+  "enables": [],
+  "explains": [
+   "6-15"
+  ],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1896年、フランスのアンリ・ベクレルが、X線の発見に刺激されてウランの塩から目に見えない放射線が出ていることを見つけ、1898年にマリー・キュリーとピエール・キュリーがポロニウムとラジウムを見つけた（マリー・キュリーは1911年ノーベル化学賞）。1902〜03年、ラザフォードとソディが、放射能は原子が別の元素に変わることだと示した（1908年・1921年ノーベル化学賞）。1908〜09年には、α線の正体がヘリウムの原子核だと確かめられた。1905年にアメリカ・カンザス州の天然ガスからヘリウムが見つかったのは、地下のウランなどが何億年もかけてヘリウムを溜めたから（ACS 化学遺産）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "実験：放射線を出す石の近くに写真の乾板を置いて、光を当てなくても黒くなるのを見る",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAZ0lEQVR42mNgoBY4Mo3hP7liOCUJ8QkagotNVcCITdDKwQerbccObMFQz4JNc1fYFoYD32YwMDAwMDhwZcDZDAwM/9ENYcJm04FvMxgcuDIw2NgAVgOQbUVzAXEGkOICigNxFFABAAD3lDsPvx8Y8AAAAABJRU5ErkJggg=="
+}

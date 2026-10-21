@@ -1,0 +1,95 @@
+{
+ "id": "9-25",
+ "history": {
+  "name": "金属配線",
+  "name_en": "Metal wiring",
+  "kind": "tech",
+  "trunk": "9",
+  "trunk_name": "半導体プロセス",
+  "year": 1959,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "チップの中の電線はアルミホイルと同じ金属",
+  "hee1_en": "The wires inside a chip are the same metal as aluminum foil.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "F8. 金より高かった金属を電気で（ホール・エルー法・アルミニウム）［1-29］（［9-25］Al 配線の前提）",
+    "answer": "約960℃で溶かした氷晶石にアルミナを溶かし、炭素の電極で直流の大電流を流すと、アルミニウムが槽の底にたまる（2Al₂O₃ + 3C → 4Al + 3CO₂）。陽極の炭素は燃えて減る。アルミ1kg に約13〜15kWh。1886年にホールとエルーが別々に発明した。",
+    "hee": {
+     "1": "それまでアルミは金より高く、ナポレオン3世が来賓用の食器にした（と伝えられる）。",
+     "2": "ホール（米）とエルー（仏）は同じ1886年に同じ方法を見つけ、二人とも1863年生まれ・1914年没。",
+     "3": "アルミは「電気の缶詰」。工場は水力発電の近くに建てられ、リサイクルは新しく作る電気の約5%ですむ。",
+     "4": "1959年のノイスの IC はアルミを蒸着して配線した。1990年代に銅に変わるまで IC の配線はアルミ。"
+    },
+    "certainty": "反応・浴・陽極・電力量 ◎（ブリタニカ、International Aluminium Institute）／ホールとエルーの生没年 ◎／ナポレオン3世の食器 ○（よく引かれる逸話）／リサイクル約5% ◎",
+    "basis": "ブリタニカ「Hall–Héroult process」https://www.britannica.com/technology/Hall-Heroult-process 、ACS National Historic Chemical Landmark「Production of Aluminum: The Hall-Héroult Process」https://www.acs.org/education/whatischemistry/landmarks/aluminumprocess.html 、International Aluminium Institute https://international-aluminium.org/ （英語）"
+   },
+   {
+    "title": "F9. チップの上の電線（Al 蒸着と配線）［9-25］",
+    "answer": "チップの表面に真空蒸着でアルミニウムを一面に付け、写真の技術（レジスト）で守った所だけを残して、ほかをリン酸系の液で溶かすと、アルミの配線ができる。酸化膜の窓の所でアルミとシリコンがつながる。1959年のノイスの IC から1990年代に銅に変わるまで、IC の配線はアルミだった。",
+    "hee": {
+     "1": "チップの中の電線は、アルミホイルと同じアルミニウム。",
+     "2": "1959年、ノイス（フェアチャイルド）はプレーナ技術の酸化膜の上にアルミを蒸着して部品をつなぎ、1枚の板の上で配線まで終わる IC を考えた。",
+     "3": "アルミはシリコンに少しずつ溶けこみ、接合を突きやぶる（スパイク）ので、のちに Si を約1%混ぜたアルミを使った。",
+     "4": "アルミを削る液は、温めたリン酸に少しの硝酸と酢酸を混ぜたもの。骨の灰と硫酸からリン酸が取れる（2世紀以上前からの方法）。"
+    },
+    "certainty": "ノイス 1959 の Al 配線 ◎（コンピュータ歴史博物館）／銅への交代 1997〜 ◎（IBM）／スパイクと Al-Si ○（教科書）／リン酸系のエッチング液 ○（教科書）",
+    "basis": "コンピュータ歴史博物館「1959: Practical Monolithic Integrated Circuit Concept Patented」https://www.computerhistory.org/siliconengine/practical-monolithic-integrated-circuit-concept-patented/ 、IBM「Copper interconnects」https://www.ibm.com/history/copper-interconnects （英語）"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "5-14"
+    ]
+   ],
+   [
+    [
+     "1-29"
+    ]
+   ],
+   [
+    [
+     "9-21"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1959 ノイスの IC から1990年代まで Al 配線。Si に溶け込みやすい（スパイク）ので Si を約1%混ぜる"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "重",
+  "missing": "",
+  "item": "evaporator",
+  "recipes": [
+   "作業台：タングステン線×2 ＋ 鉄インゴット×2 ＋ 銅ケーブル ＋ ソーダ石灰ガラス → 真空蒸着装置"
+  ],
+  "machine_recipes": [],
+  "placeholder": "省略：膜の厚さの管理（のちの水晶振動子の膜厚計 [8-15]）、スパッタリング。今つけられるのは銀と CaF2（アルミ・クロムなどは前提ができたら）。",
+  "game_text": "配線層（ROADMAP v0.3 #6）",
+  "hee_game": {
+   "note1": "真空の中で金属を熱して蒸気にし、ガラスに薄くくっつける機械。",
+   "note2": "電気 300W（タングステン線のヒーター）。真空容器のとなりに置き、容器が 0.01Pa 以下（拡散ポンプ [5-05] が要る）のときだけ動く（20秒）。クラウンガラス＋銀の粒 → 半透明鏡、レンズ＋蛍石 → 反射防止膜付きレンズ [7-22]。1回ごとに容器を開けるので、圧力が少し上がる。作り方：W線×2＋鉄×2＋銅ケーブル＋ソーダ石灰ガラス。",
+   "note3": "1912年、ポールとプリングスハイムは真空の中で金属を蒸発させて鏡の膜を作った（それより前にも試みはあった）。1930年代、ジョン・ストロングは望遠鏡の鏡にアルミニウムを蒸着し、曇りにくい鏡にした。1960年代の IC のアルミ配線もこの方法。",
+   "note4": "空気が残っていると、蒸発した金属原子が気体分子にぶつかって散らばる。気体分子が次にぶつかるまでに飛ぶ距離（平均自由行程）は、およそ 6.6mm÷圧力（Pa）。0.01Pa なら約 66cm で、ベルジャーより長いので、原子はまっすぐ飛んで基板に付く。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAQklEQVR42mOMCAv6z0ABYGFgYGDQMXMjS/OVU7sYmBgoBANvAAu6wLYtW/Bq8PLxGWReGI6xgB7KIyUMrpzaRbYBAOzUC2ECTbCwAAAAAElFTkSuQmCC"
+}

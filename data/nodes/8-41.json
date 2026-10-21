@@ -1,0 +1,58 @@
+{
+ "id": "8-41",
+ "history": {
+  "name": "水圧鍛造プレス",
+  "name_en": "Hydraulic forging press",
+  "kind": "tech",
+  "trunk": "8",
+  "trunk_name": "精密・計測",
+  "year": 1954,
+  "year_range": "1795〜1955",
+  "year_uncertain": false,
+  "hee1": "5万トンのプレスは、何階建てのビルほどの大きさがある ⚠️（O-012 で追加。出典：Wikipedia「Heavy Press Program」、ASME Landmark #71・#89）",
+  "hee1_en": "A 50,000-ton press is as big as a building several stories tall ⚠️ (Added in O-012. Sources: Wikipedia \"Heavy Press Program\", ASME Landmark #71 and #89)",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-29"
+    ]
+   ],
+   [
+    [
+     "1-26"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "水の圧力で、大きな金属の塊を型の中でゆっくり押しつぶして形を作る。1795年、イギリスのジョセフ・ブラマーが水圧プレスを作り、1893年にアメリカのベスレヘムで1万4千トンのプレスが動いた。1954〜55年、アメリカの空軍の「重プレス計画」で5万トンのプレスが2台作られ（ASME ランドマーク #71・#89）、飛行機の主翼の桁や脚、タービンの円板などの大きなアルミや鋼の部品を一体で作れるようになった"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAdklEQVR42sVSQQ6AIAwrZK/y5JnsuYtnTnwLL87gHNGICT2VlHXLOmAQAQCWleuX4pIlxNEJSElixiZycg+trpxasWQJx7NaE6vfJuh1e8J/O7DbHTLwou2ZUq/YSaJ6JvFlMRKze3CXO/Disyb6R1Oaf8rzsQOO0zflmaOxFQAAAABJRU5ErkJggg=="
+}

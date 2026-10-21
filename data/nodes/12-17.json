@@ -1,0 +1,73 @@
+{
+ "id": "12-17",
+ "history": {
+  "name": "電気エレベーターとつり合いおもり",
+  "name_en": "Electric elevator and counterweight",
+  "kind": "tech",
+  "trunk": "12",
+  "trunk_name": "建築・土木",
+  "year": 1880,
+  "year_range": "1880〜1903",
+  "year_uncertain": false,
+  "hee1": "エレベーターのロープの反対側にはかごと同じくらい重いおもりがぶら下がっていて、モーターは『重さの差』だけを持ち上げている。（S-004 で追加。出典：en.wikipedia.org、theelevatormuseum.org、britannica.com）",
+  "hee1_en": "On the other end of an elevator's rope hangs a weight about as heavy as the car, so the motor only lifts the \"difference in weight.\" (Added in S-004. Sources: en.wikipedia.org, theelevatormuseum.org, britannica.com)",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "12-16"
+    ]
+   ],
+   [
+    [
+     "4-08"
+    ]
+   ],
+   [
+    [
+     "4-05"
+    ]
+   ],
+   [
+    [
+     "8-19"
+    ]
+   ],
+   [
+    [
+     "1-26"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1880年、ヴェルナー・フォン・シーメンスがドイツ・マンハイムの博覧会で、電動モーターで動くリフトを見せた。1903年、オーチス社はモーターで綱車を直接回し、ロープの反対側につり合いおもりを下げる『ギアレス・トラクション式』を実用化した。かごとおもりの重さでロープが綱車の溝に押しつけられ、その摩擦で動く。巻き取らないのでロープの長さに限りがなく、高層ビル（摩天楼）が建てられるようになった"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAqklEQVR42mNgoBAw4pKwcvD5j8w/dmALVrVM+Ezn4rNj4OKzw+sCrAa4+HX99/LxgfO9fHwYXPy6/mNTy4LL5G1btiCxGXC6BKcB6H528bPD7wLkQHOw42P49gnBxxWAGGEA8zfM+cjhgAuwoPsbzTZYYP6HuQrdNUzEJBZ8LmGiNCWyYLHpPzE2Y3UBctzD+OhiOF2AL6qQAhN7ZsKVTAmBPZvKGCkNQwYAmYk9pCwly5MAAAAASUVORK5CYII="
+}

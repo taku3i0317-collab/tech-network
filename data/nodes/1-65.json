@@ -1,0 +1,58 @@
+{
+ "id": "1-65",
+ "history": {
+  "name": "高速度鋼",
+  "name_en": "High-speed steel",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": 1900,
+  "year_range": "1868〜1900",
+  "year_uncertain": false,
+  "hee1": "ハイスの刃は、赤く光るほど熱くなっても切れ味が落ちない（O-012 で追加。出典：Wikipedia「High-speed steel」「Robert Forester Mushet」、Knife Steel Nerds「The History of the First Tool Steel」・West Yorkshire Steel「A History of High Speed Steel」（https://knifesteelnerds.com/2018/03/22/the-history-of-the-first-tool-steel/））",
+  "hee1_en": "A high-speed steel blade stays sharp even when it gets hot enough to glow red. (Added in O-012. Sources: Wikipedia \"High-speed steel\" \"Robert Forester Mushet\", Knife Steel Nerds \"The History of the First Tool Steel\", West Yorkshire Steel \"A History of High Speed Steel\" (https://knifesteelnerds.com/2018/03/22/the-history-of-the-first-tool-steel/))",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-40"
+    ]
+   ],
+   [
+    [
+     "1-26"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "タングステン（約18%）やクロム（約4%）を入れて特別な熱処理をした鋼で、刃先が赤く熱くなっても硬さを失わず、速く削れる。1868年にロバート・マシェットがタングステン入りの「自硬鋼」を作り、1898〜1900年にアメリカのフレデリック・テイラーとマンセル・ホワイトが高い温度での熱処理を見つけて、1900年のパリ万博で赤く熱した刃で削り続けるのを見せた。旋盤で削る速さが数倍になり、工作機械が作り直された。1930年代にはタングステンの代わりにモリブデンを使うハイスもできた"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAS0lEQVR42mNgoCWwcvD5b+Xg8x+fGiZKLaHYABZ8zvfy8YFx/x87sIWRZBds27KFMi94+fgQNIRgGCB5g2HUCzTyAsV5gShDaJpjAWP9H/HRG37gAAAAAElFTkSuQmCC"
+}

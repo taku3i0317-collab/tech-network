@@ -1,0 +1,58 @@
+{
+ "id": "9-44",
+ "history": {
+  "name": "サーミスタ",
+  "name_en": "Thermistor",
+  "kind": "tech",
+  "trunk": "9",
+  "trunk_name": "半導体プロセス",
+  "year": 1930,
+  "year_range": "1833〜1930",
+  "year_uncertain": false,
+  "hee1": "エアコンの温度計は、温まると電気が通りやすくなる小さな焼き物のつぶ（S-004 で追加。出典：shura.shu.ac.uk、murata.com）",
+  "hee1_en": "An air conditioner's thermometer is a tiny ceramic bead that lets electricity flow more easily as it warms up. (Added in S-004. Sources: shura.shu.ac.uk, murata.com)",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "3-09"
+    ]
+   ],
+   [
+    [
+     "1-04"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1833年、マイケル・ファラデーが、硫化銀は温めると電気が通りやすくなる（ふつうの金属と逆）ことに気づいた。これは半導体の性質の最初の記録とされる。約100年後の1930年、サミュエル・ルーベンが酸化銅などを使った温度計の素子を特許にし、製品化が始まった。温度でセラミックの抵抗が大きく変わるので、エアコン・冷蔵庫・電池・体温計の温度を安く正確に測れる"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAfUlEQVR42mNgGGjAiE1wip/Bf2ziOZsuYKhnwabZxsEAq21TGBj+oxvCRKxmBgYGBhsHAwzXYbhg17ZjeP3MxcWF3wtuXlZ4DThy4AIDTi/kbLrAiKzgyIELDOh89DBgwRbSUxgY/iOHOjqfIOhyUftPjBiGF8gBw8CAgQcAbFQvUAMHNWgAAAAASUVORK5CYII="
+}

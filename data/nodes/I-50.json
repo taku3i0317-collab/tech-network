@@ -1,0 +1,61 @@
+{
+ "id": "I-50",
+ "history": {
+  "name": "ムーアの法則",
+  "name_en": "Moore's law",
+  "kind": "idea",
+  "trunk": "I",
+  "trunk_name": "発見・考え方",
+  "year": 1965,
+  "year_range": "1965〜1975",
+  "year_uncertain": false,
+  "hee1": "ムーアの法則は自然の法則ではなく、業界みんなが目標にした「約束」のようなもの",
+  "hee1_en": "Moore's law is not a law of nature but more like a \"promise\" the whole industry aimed for",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://en.wikipedia.org/wiki/Moore%27s_law",
+   "https://ethw.org/Milestones:List_of_IEEE_Milestones"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "9-22"
+    ]
+   ],
+   [
+    [
+     "9-18"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1965年、フェアチャイルドのゴードン・ムーアが、1つの集積回路に入る部品の数がおよそ毎年2倍になっていると論文に書き、1975年に「2年で2倍」と見直した。自然の法則ではなく、それまでの実績からの見通しで、のちに「ムーアの法則」と名付けられた。プレーナ技術で同じ写真の工程をくり返せるので、小さくするほど1個あたりが安くなる。半導体の業界はこれを目標にして、露光装置などを何十年も進めてきた"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "実験：これまでに作ったチップのトランジスタの数を年ごとにグラフにして、まっすぐな線（倍々）になるのを見る",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAXElEQVR42mNgoBewcvD5j02ciRTNuAyhyAUUA0aSXWKVA3fJsWNTGJnIsdXBwYu0QMQHKDaAhVQ/k+UCZD8TdAEhG7G6wMoq5z+yRnw2Yk0H5KayYwe2MDIMOAAAYU8dR94mP5YAAAAASUVORK5CYII="
+}

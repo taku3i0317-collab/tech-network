@@ -1,0 +1,72 @@
+{
+ "id": "6-07",
+ "history": {
+  "name": "空気分離",
+  "name_en": "Air separation",
+  "kind": "tech",
+  "trunk": "6",
+  "trunk_name": "ガス",
+  "year": 1895,
+  "year_range": "1895〜1910",
+  "year_uncertain": false,
+  "hee1": "空気を液体にして「蒸留」する",
+  "hee1_en": "Turn air into a liquid and \"distill\" it.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [
+   {
+    "name": "リンデ",
+    "tool": "🧊 液体空気",
+    "year": "1895",
+    "intro": "1895年に空気の液化に成功し、1902年から精留塔で酸素と窒素を分けた",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACLklEQVR42mNgGAUjHTCSori9vf0/MeoqKyuJNpeFWIUzZ878n5aWhiH+6NEjbMr/E+sIRmJ9HhUVBedzP96PVd1XWUc4e9myZUSFBBO1LEeXi4qKIirKmEhJA/gsJ0UN2Q6gBSDaAc+PLmeghVqiHaAiJ0GTEGAhRTFyKkePa2Q5hkfLqeOAiuRAsnIAck74eOfU/4656xmpEgKchqEMepqaDJeuX2f4fn41TjmGR5OpUxRXJAf+11WTZ1CWlYCngRdvPjBIiAjA1dx59AJD7s6jFwwMDAwMdx+/YLh86yEDvhAgmAiVZSUYJK0j4XGMbDk6gMlJWkcySFpHMijLSlCeCzbsPYkZFexscPbLtx+wiuPSS1IagAUdv4rZfwsLCwZdVoj495+/GBgYGBgu3HjAwM3JAVcPE4fVBfiCnuTquL29/X+qrSRmlsOSE2Yffk50lUx2ObA1PxVFznvibCT5ZbRrkMDKhXv37jEoKSlhqCG2GibLATBHvH79miE/Px/DYlJbQxSB9vb2/w8fPvz/8OHD/8Q21cgOAVFRCbgFFRVFDAwMDAxxcTEoahYtWgLJOR19cLHXr19QlgtgFvPxIQqffft24jXQyckdzv706QNBh7AQazE5AEn/f1wOYSTV4q9fvzBwc/MwnDixD0XcwsIJLocLYAsRFmr6mJwQYYQ5gBjLCfmQWDWw0Hj9+gXjgDdKWdDjBxf4+fMHAzs7B0F10KBlYGfnIMoBADmd8kh5Ry13AAAAAElFTkSuQmCC"
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "6-03"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-38"
+  ],
+  "frontier": false,
+  "real": "1895 リンデが空気の液化に成功（圧縮→膨張で冷却＝ジュール・トムソン効果）。1902〜 リンデの精留塔（何段も蒸留を繰り返す塔）で O2/N2 を分離。Ar の実用的な取り出しは1910年頃。Kr(1.1ppm)・Ne(18ppm) は微量なので[6-08]で大型装置が要る"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": "air_separation_unit",
+  "recipes": [
+   "作業台：鋼インゴット×4 ＋ 銅インゴット×4 ＋ 圧縮機 → 空気分離装置"
+  ],
+  "machine_recipes": [
+   "空気分離装置「空気分離」：空気 10 mol → 袋詰め窒素 7.808 mol ＋ 酸素ガス（袋詰め） 2.095 mol ＋ 袋詰めアルゴン 0.093 mol（5 kW × 16 秒＝80 kJ）。端数は持ち越して袋（1 mol）にする"
+  ],
+  "placeholder": "省略：断熱箱（本物は羊毛などを詰めた木箱）、始動の冷却に何時間もかかること、アルゴン専用の塔。電力は現代の装置の値（1900年代はもっと多い）。",
+  "game_text": "段階解禁にするなら 液化→精留(O2/N2)→Ar の順",
+  "hee_game": {
+   "note1": "空気をこおらせて液体にし、窒素・酸素・アルゴンに分ける。",
+   "note2": "電気だけで動く（材料はまわりの空気）。5kW×16秒で空気10molを分け、窒素約8袋・酸素約2袋・アルゴンは約11回に1袋。隣のガスホルダーが出口から自動で吸う。",
+   "note3": "空気を約200気圧に圧縮し、熱交換器で冷やしてから小さな穴で一気に膨張させると温度が下がる（ジュール・トムソン効果）。くり返すと −194℃ くらいで液体になる。液体空気を精留塔で何段も蒸留すると、沸点の低い窒素（−196℃）が上へ、酸素（−183℃）が下へ分かれ、アルゴン（−186℃）は塔の中ほどにたまる。",
+   "note4": "1895年、カール・フォン・リンデが空気の液化に成功し、1902年に精留塔で酸素を取り出した。アルゴンは1894年にレイリーとラムゼーが「空気の窒素は化学で作った窒素より少し重い」ことから見つけた。名前はギリシャ語の「なまけもの（何とも反応しない）」。のちに電球や、シリコンの結晶を引き上げる炉を満たすガスになった。初期の装置は今よりずっと多くの電気を使った。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAMklEQVR42mOMCAv6z0ABYGFgYGDQMXMjS/OVU7sYmBgoBKMGjBowagBSbrxyahfZBgAAxmkHe9C54nYAAAAASUVORK5CYII="
+}

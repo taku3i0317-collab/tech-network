@@ -1,0 +1,67 @@
+{
+ "id": "13-03",
+ "history": {
+  "name": "麻酔",
+  "name_en": "Anesthesia",
+  "kind": "tech",
+  "trunk": "13",
+  "trunk_name": "医薬・衛生",
+  "year": 1844,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "世界初の全身麻酔手術は日本で行われた",
+  "hee1_en": "The world's first surgery under general anesthesia was done in Japan.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [
+   {
+    "name": "華岡青洲",
+    "tool": "🌿 通仙散（麻酔薬）",
+    "year": "1804",
+    "intro": "1804年、薬草から作った麻酔薬・通仙散で全身麻酔をして手術をした ⚠️",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACLklEQVR42mNkIANIiAj9xyb+4s07RlLNYmEgEwjw8aDwP3z6QpY5TAwDDAbcAYzkxD168KNHAylpgWiFcpJi/0UE+THEv/34idUhxDqCkVif4/I1LkCsI5hoYTksmnBl19FcQLYDdkzIYdgxIYcge1ppOPWyISwNwCwgBtx7+pohq3slUQmRpKLYo2AKSmjgkqNaCBRFuf33sdVnYGBgYFCSFiUpBGBgy+GLDH3LdjFSJQ2IOmczOOdMYRB1ziZJjqIQ0FKSYlCSFoWHwMt3nxjEhfhQfIsuBwuBe09fM1y794yyEEAPemTL0QG6HDHRRtABWw5fxBDjYGeFs1+9+4RVHJdeknIBUtD9z4twgYv/+PmbgYGBgeHynScM3JzsGOLEJD6Sa8OiKDcUR+ADk1bsIcpyippk59eeRuEbBpvSvkFCTCiQ4nuSHQBzhIgAD0OUhwWK+LIdJxjefPhCkuUUgaIot/8PNnX9f7Cp639RlNt/Blq2CW20pOEWBCbnQ+Kc6zVqmvgGyfPr506Eix259pSRokQIs1hDRgguFhcXA8mCa/pR1MLEr+9cjCz8n5BDGIm1GBm0L93JwMDAwFAZ7Y6Vjw5uPHmHM0RYSLGYgYGB4dHrT3jl5EQxi2ok8zBChJFYi9EtgfkaBiqj3XE6AF+IMGFxJck+hPcdRPnwhhA2u8hulCLHN664J6kohgULLvDu83cGIV5OFHWLFi3BqvfY9acMQrycRDkAADyL/N8esC7TAAAAAElFTkSuQmCC"
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "2-39",
+     "2-01"
+    ]
+   ],
+   [
+    [
+     "6-11"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1844 ホレス・ウェルズの笑気（N2O）、1846 ウィリアム・モートンのエーテル麻酔の公開手術（ボストン）。1804 華岡青洲が通仙散で全身麻酔⚠️"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "解説のみ",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAbUlEQVR42mNgGGjAiC6gpqb1H13s1q1rjLgMYEHX7OXlh03df1yGMBGhmcHLyw+ry1AMoEoYwGzx8vJj2LZtE9HhgAFc/Lr+E6uWhRTnIhu8Z1MZI0lhgO4qGJ+JUi8xkhsGMC+Q5H9SAncIAQDWBSpF4us/YgAAAABJRU5ErkJggg=="
+}

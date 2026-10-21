@@ -1,0 +1,64 @@
+{
+ "id": "P-15",
+ "history": {
+  "name": "SSD",
+  "name_en": "SSD",
+  "kind": "product",
+  "trunk": "P",
+  "trunk_name": "モノ（作品）",
+  "year": 1991,
+  "year_range": "1978〜1991",
+  "year_uncertain": false,
+  "hee1": "マイクラのワールドのセーブは、SSD の中で電子を閉じこめて覚えている",
+  "hee1_en": "Your Minecraft world save is remembered by electrons trapped inside an SSD",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://en.wikipedia.org/wiki/Solid-state_drive",
+   "https://www.computerhistory.org/storageengine/solid-state-drive-module-demonstrated/"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "10-24"
+    ]
+   ],
+   [
+    [
+     "10-23"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [
+   "シリコン",
+   "銅"
+  ],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "セーブデータや OS をしまっておく場所。フラッシュメモリのチップと、書く場所を散らす制御チップでできていて、電気を切っても消えない。ハードディスクとちがって動く部品が無い"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "作品：ワールドをしまっておく箱",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAdUlEQVR42mNgoBAwwhhWDj7/SdF47MAWRgYGBgYWZME3z+4xxKXl4dW4aNYkBhEpJTgfxYC4tDyGRbMm4TUgLi2PYduWLdgNQFaEbCM+wILLmcQCJkpjYeANYMEXgPT3AjGhj66GiVTno6vB6gJCNFUzE8UAAOl/KXuRrEu2AAAAAElFTkSuQmCC"
+}

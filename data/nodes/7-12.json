@@ -1,0 +1,90 @@
+{
+ "id": "7-12",
+ "history": {
+  "name": "クロムマスク",
+  "name_en": "Chrome mask",
+  "kind": "tech",
+  "trunk": "7",
+  "trunk_name": "光学",
+  "year": 1970,
+  "year_range": "1960年代末〜1970年代初め",
+  "year_uncertain": true,
+  "hee1": "回路の「原版」は、透明な石英に貼った薄い金属の影絵",
+  "hee1_en": "The \"master copy\" of a circuit is a shadow picture made of thin metal on clear quartz.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "O47. 石英に貼った薄い金属の影絵（クロムマスク）［7-12］",
+    "answer": "1970年ごろから、IC の原版（マスク）は、合成石英やガラスの板にクロムを 0.1µm ほど付け、レジストで回路を描いてクロムを削った「クロムマスク」になった。やわらかい銀塩（乳剤）マスクは密着露光ですぐ傷み、銀の粒の大きさより細かい線は描けなかったが、クロムの膜は傷に強く何千回も使え、細かい線も描ける。",
+    "hee": {
+     "1": "回路の「原版」は、透明な石英に貼った薄い金属の影絵。",
+     "2": "紫外の光ではガラスが光を吸うので、石英の板を使う。",
+     "3": "日本では ULVAC が1970年にクロムのマスクブランクスを開発した。",
+     "4": "今のマスクも、石英にクロムやその仲間の膜を付け、電子線で描いて作る。"
+    },
+    "certainty": "1960年代は乳剤マスクが主流 ○／1970 ULVAC のクロムマスクブランクス ○／Cr 約50〜100nm ○／エッチング液 硝酸セリウムアンモニウム ◎",
+    "basis": "- Wikipedia「Photomask」：https://en.wikipedia.org/wiki/Photomask"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "7-11"
+    ]
+   ],
+   [
+    [
+     "1-40",
+     "2-07"
+    ]
+   ],
+   [
+    [
+     "5-14"
+    ]
+   ],
+   [
+    [
+     "7-02"
+    ],
+    [
+     "7-15"
+    ]
+   ],
+   [
+    [
+     "2-32"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1960年代末〜70年代初め（1960年代後半はまだ乳剤マスクが主流、ULVAC は1970年にクロム膜のマスクブランクスを開発）、ガラス板に Cr を約50〜100nm（反射防止の酸化クロム層は25〜45nm）蒸着（後にスパッタ）し、レジストで描いてエッチングした硬いマスク（傷に強く何千回も使える）⚠️。紫外の KrF/ArF ではガラスが吸収するので石英基板。Cr のエッチング液は硝酸セリウムアンモニウム＋過塩素酸（または硝酸）（Ce＝[1-19]）"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "重（縮小カメラで作り、耐久と細かさの差）",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAbUlEQVR42mNgoBAwMjAwMFiUdf0nR/OJrjJGBnINgOlhQRa0cvBBMejYgS2MMDF0NkwNC7rJyJLofHQ5rAZgcwm6i/C6AJ9t2AALPklsYYLXAGwKCLkEZyzA/IpMI8v9wxanFKUDclPjKGBgAACAdkLkKEpGbgAAAABJRU5ErkJggg=="
+}

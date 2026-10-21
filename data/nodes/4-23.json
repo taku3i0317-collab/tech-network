@@ -1,0 +1,58 @@
+{
+ "id": "4-23",
+ "history": {
+  "name": "横流ファン",
+  "name_en": "Cross-flow fan",
+  "kind": "tech",
+  "trunk": "4",
+  "trunk_name": "動力・電気",
+  "year": 1893,
+  "year_range": "1891〜1893",
+  "year_uncertain": true,
+  "hee1": "エアコンの室内機の中には、ちくわのような細長い羽根車が入っていて、横に広い風を出している。（S-004 で追加。出典：patents.google.com、research.unipd.it）",
+  "hee1_en": "Inside an air conditioner's indoor unit is a long, thin impeller shaped like a chikuwa tube, which blows a wide sheet of air. (Added in S-004. Sources: patents.google.com, research.unipd.it)",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "4-02"
+    ]
+   ],
+   [
+    [
+     "4-18"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "細長い円筒のまわりに小さな曲がった羽根をたくさん並べた羽根車で、空気は筒の横から入り、筒の中を横切って反対側から出る。筒の中にできる渦がこの流れを助ける。長さをのばせば幅の広い平たい風が作れるので、タワーファンやエアコンの室内機の中に使われている。フランスのポール・モルティエが鉱山の換気用に考えた（1891年・1892年と書く資料もある）。今も設計は経験にたよる部分が多い"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAUklEQVR42mNgGGjAyMDAwKCmpvWfHM23bl1jZIFxRKSUSNL85tk9BgYGBgYmZEEzAx2iaKxeIMcFt25dYxx4F7CgBwpZgJxohOlhocSQUUAlAACe8SHXCzay+wAAAABJRU5ErkJggg=="
+}

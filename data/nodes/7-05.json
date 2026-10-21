@@ -1,0 +1,106 @@
+{
+ "id": "7-05",
+ "history": {
+  "name": "反射鏡",
+  "name_en": "Reflecting mirror",
+  "kind": "tech",
+  "trunk": "7",
+  "trunk_name": "光学",
+  "year": 1668,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "銀の鏡は、銀を溶かした液から化学反応でガラスに付ける",
+  "hee1_en": "Silver mirrors are made by a chemical reaction that coats glass with silver from a solution",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "O10. 金属を磨いた鏡と反射望遠鏡（スペキュラム）［7-05］",
+    "answer": "銅2・スズ1ほどの白い青銅（スペキュラム合金）を鋳込んで、研削と研磨で凹面鏡にする。反射率は約6割で、すぐ曇るので磨き直しが要った。1668年ニュートンは、色のにじみがない鏡の望遠鏡を作った。19世紀半ばにガラスへの銀めっきが広まるまで、大望遠鏡の鏡はこの金属だった。",
+    "hee": {
+     "1": "鏡は色によって曲がり方が変わらないので、色収差がない。",
+     "2": "ハーシェルは自分で鋳込んで磨いたスペキュラム鏡の望遠鏡で、1781年に天王星を見つけた。",
+     "3": "1845年ロス卿の「リヴァイアサン」は直径 約1.8m の鏡（約4トン）。",
+     "4": "今の大望遠鏡も EUV 露光装置 [7-17] も、レンズではなく鏡で光を集める。"
+    },
+    "certainty": "スペキュラムの組成・反射率・曇り ◎／ニュートン 1668・王立協会 1671〜72 ◎／ハーシェル 天王星 1781 ◎／リヴァイアサン 1845・約1.8m ◎（重さ 約4トン ○）",
+    "basis": "- Wikipedia「Speculum metal」：https://en.wikipedia.org/wiki/Speculum_metal"
+   },
+   {
+    "title": "O42. 砂糖で銀の鏡を作る（銀鏡反応）［7-05］",
+    "answer": "硝酸銀のアンモニア水に糖などの還元剤を入れると、銀イオンが銀の原子になってガラスに鏡のように付く（1835 リービッヒ）。1857年、フーコーはこの方法でガラスに銀めっきした望遠鏡の鏡を作り、重く曇りやすいスペキュラム合金の鏡をおきかえた。1881年のマイケルソンの干渉計の半透明鏡も、化学の銀めっきだった。",
+    "hee": {
+     "1": "鏡の銀は、砂糖が銀イオンに電子を渡してできる。",
+     "2": "銀めっきの鏡は、くもったらはがしてやり直せる。スペキュラムの鏡は磨き直しが大変だった。",
+     "3": "銀を薄くすると半分だけ光を通す「半透明鏡」になり、干渉計で光を2つに分けられる。",
+     "4": "銀鏡反応の液は置いておくと危ない物質ができるので、使ったらすぐに捨てる（実験室の注意）。"
+    },
+    "certainty": "リービッヒ 1835 ◎／フーコー 1857（シュタインハイルも同じころ）◎／マイケルソンの半透明鏡が化学銀めっき ○",
+    "basis": "- Wikipedia「Silvering」：https://en.wikipedia.org/wiki/Silvering"
+   },
+   {
+    "title": "O65. 曇らない鏡（アルミ蒸着の鏡）［7-05 段階3］",
+    "answer": "1930年代、カリフォルニア工科大のジョン・ストロングは、真空の中でアルミを熱して蒸発させ、望遠鏡のガラスの鏡に薄く付けた。銀の鏡は空気中の硫黄で黒ずんで数か月ごとにめっきし直しが要ったが、アルミは表面にできる数nm の酸化膜に守られて何年も曇らない。紫外線もよく反射する。パロマー山の5m 望遠鏡（1948）も、今の天体望遠鏡の多くもアルミの鏡。",
+    "hee": {
+     "1": "今の望遠鏡の鏡の多くは、ガラスに付けたアルミのとても薄い膜。",
+     "2": "銀は見える光をいちばんよく反射するが、紫外線はほとんど反射しない。",
+     "3": "アルミはさびないのではなく、さびの膜がとても薄くてそこで止まる。",
+     "4": "アルミの膜の上にさらに透明な膜をかぶせて守ることも多い。"
+    },
+    "certainty": "ストロングのアルミ蒸着 1930年代・論文 1936 ◎／パロマー 1948 ◎／反射率の数字 ○（代表値、スペキュラムの紫外は △）",
+    "basis": "- Wikipedia「Aluminized mirror」：https://en.wikipedia.org/wiki/Aluminized_mirror"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-05"
+    ],
+    [
+     "1-32",
+     "6-11",
+     "2-21"
+    ],
+    [
+     "5-14",
+     "1-29"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1668 ニュートンの反射望遠鏡はスペキュラム合金（Cu:Sn≈2:1、反射率約60%、すぐ曇る）。1835 リービッヒの銀鏡反応、1857 フーコー（とシュタインハイル）がガラスに化学銀めっきした鏡（反射率90%超・再めっき可）。1930年頃 カリフォルニア工科大のジョン・ストロングがアルミ蒸着を開発（曇らない、紫外も反射。詳しい論文は1936年）"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "作品（のぞける反射望遠鏡）＋実験（反射率と曇り方）",
+  "missing": "",
+  "item": "speculum_charge",
+  "recipes": [
+   "作業台：銅インゴット×2 ＋ スズのインゴット → スペキュラムの地金（調合）×3"
+  ],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {
+   "note1": "銅とスズを2対1で混ぜたもの。溶かすと白く光る合金になる。",
+   "note2": "銅インゴット×2＋スズのインゴット×1 → 3個（スズ 約33%）。かまどで溶かすとスペキュラム合金。",
+   "note3": "ニュートンは銅6・スズ2に少しヒ素を加えた合金で、自分の望遠鏡の鏡を作った。配合は鏡職人それぞれの秘密だった。",
+   "note4": "スズが3割をこえると、青銅は赤銅色から銀白色に変わる。Cu-Sn の金属間化合物（δ相など）が増えるためで、そのぶんとても固く、もろくなる。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA0ElEQVR42u2RMQoCMRREX8RaLCxSy2JlEazDknoL8Qxbi4cR65xBLDxAsBYLK5HUKbYQLxAbE1B3a0Gc7v/MzB8m8McPQHQ91OU4AsyGAwCWu1Mrt9clts6L2XCANgo5lWzmKrZx+23i1aIEiNooAIqRpDCS+naP1nnRmaAux7HSEwCeJqy3DoBrE6j05CNJNtjMVbTOi3AOXJuQxdZ5kUyKkUQblfvJJabL4RzQRmUDgP3hQkq1P1xeklnnhXiPdLzdc/NpTr+x3J0yP+2/jwcJHFVwcdUahwAAAABJRU5ErkJggg=="
+}

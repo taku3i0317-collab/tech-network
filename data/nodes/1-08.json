@@ -1,0 +1,76 @@
+{
+ "id": "1-08",
+ "history": {
+  "name": "鍛鉄",
+  "name_en": "Wrought iron",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": -1200,
+  "year_range": "-1400〜-1200",
+  "year_uncertain": true,
+  "hee1": "赤く焼けた鉄をたたくと、まじったかすが絞り出される",
+  "hee1_en": "Hammering red-hot iron squeezes out the slag mixed inside it.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "M6. 赤く焼けた鉄をたたくと、かすが絞り出される（鍛鉄・錬鉄）［1-08］",
+    "answer": "塊鉄炉のブルームは、鉄のつぶのすきまにスラグ（ケイ酸塩のかす）が入っている。約1000℃以上に赤く熱してから叩くと、スラグがやわらかくなって外へ絞り出され、鉄のつぶどうしがくっつく（鍛接）。こうしてできた鍛鉄（錬鉄）は炭素が0.1%未満で、柔らかく粘る。表面に炭素をしみこませて（浸炭）急に冷やす（焼入れ）と、硬い刃物になる。",
+    "hee": {
+     "1": "赤く焼けた鉄をたたくと、まじったかすが絞り出される。",
+     "2": "冷えたままでは叩いても割れたり、つぶがくっつかなかったりする。",
+     "3": "鍛鉄に木炭をまぶして長く熱すると表面に炭素が入り、水で急に冷やすと硬くなる（浸炭・焼入れ）。",
+     "4": "19世紀のエッフェル塔（1889年）も、鋼ではなく錬鉄でできている。"
+    },
+    "certainty": "叩いてスラグを出す・炭素0.1%未満・浸炭と焼入れ ◎（教科書）／始まりの年（製鉄と同じ紀元前1400〜1200年ごろ）○⚠️／エッフェル塔が錬鉄 ◎",
+    "basis": "TECH_TREE［1-08］、ブリタニカ「wrought iron」https://www.britannica.com/technology/wrought-iron"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-06"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-51",
+   "I-52"
+  ],
+  "frontier": false,
+  "real": "赤熱したブルームを叩いてスラグを絞り出す。炭素0.1%未満で柔らかく粘る。浸炭（木炭と加熱して表面に炭素を入れる）＋焼入れで刃物に"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "軽",
+  "missing": "",
+  "item": "hot_iron_bloom",
+  "recipes": [
+   "かまど：ブルーム（海綿鉄） を焼く → 赤熱したブルーム"
+  ],
+  "machine_recipes": [],
+  "placeholder": "近似：1回熱して1回叩く（本物は熱しては叩くを何度もくり返す）",
+  "game_text": "ブルーム→ハンマー作業→鍛鉄",
+  "hee_game": {
+   "note1": "赤く光るまで熱したブルーム。今なら叩ける。",
+   "note2": "たき石と一緒に作業台に置くと、叩いてスラグを絞り出した鍛鉄（鉄インゴット）になる。たき石は戻る。",
+   "note3": "約1000℃以上に熱すると、すきまのスラグがやわらかくなる。叩くと鉄のつぶがくっつき合い、スラグが外へ絞り出される。できた鍛鉄（錬鉄）は炭素0.1%未満で、柔らかく粘る。",
+   "note4": "鍛鉄に木炭をまぶして長く熱すると、表面に炭素がしみこんで硬くなる（浸炭）。それを水で急に冷やす（焼入れ）と刃物になる。鍛鉄の始まりは製鉄と同じ紀元前1400〜1200年ごろ⚠️。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAqUlEQVR42mNgGBmgy0XtPy45RlI0lO25haGeBV1gip/BfwYGBgYHMyWGA6fuMTiYKcHluLi4/udsusCI0wVdLmr/vRx0UAw8cOoew7dv3xi4uLjgYsiGMKG74MCpe3AaxoYBZNfgNABZ0bdv3xgczJQY0F2FMwy4uLjgtsIMgnkBlyEoBiArhAUgurO/ffuGPxbQXYAMth24ghGVRKUDLi4uuM3Y0sIQBwADqkbf470pcAAAAABJRU5ErkJggg=="
+}

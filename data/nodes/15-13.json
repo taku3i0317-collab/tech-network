@@ -1,0 +1,69 @@
+{
+ "id": "15-13",
+ "history": {
+  "name": "光ファイバー",
+  "name_en": "Optical fiber",
+  "kind": "tech",
+  "trunk": "15",
+  "trunk_name": "通信・情報",
+  "year": 1966,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "海の底を通る光のケーブルが、世界のインターネットを運ぶ",
+  "hee1_en": "Light cables running along the sea floor carry the world's internet.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [
+   {
+    "name": "チャールズ・カオ",
+    "tool": "💡 光ファイバー",
+    "year": "1966",
+    "intro": "1966年、不純物を取り除いたガラスなら光を遠くまで送れると示した（2009 ノーベル物理学賞）",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACWElEQVR42mNgGAUjHTCSojgqKuo/MeqWLVtGtLksxCosKCj47+3tjSF++/ZtbMr/E+sIRmJ9bmNjA+d7yXzBqm7bEx44+8iRI0SFBBO1LEeXs7GxISrKmEhJA/gsJ0UN2Q6gBSDaARqM9xlooZZoByhJi9IkBFhIUYycytHjGllOg/E1dQqioii3/yo2AQwMDAwMCxeuxpBfWe3JwMDAwBDeuh1DLj4+lIGBgYHhzpENDH3LdjFSJRHu27eF4c3zuwz79m2BWwyzHF2OammA7dkpeKJycvJhEJFUZnBy8oGHQHuCCVY5Dcb7DGzPTlGeBmCJDxbc2AC63L2nr+F6r917RlkIbDl8EUOMg50Vzn717hNWcVx6SQoBpMTzPy/CBS7+4+dvBgYGBobLd54wcHOyY4jDLMeX+Eiujoui3FAcgQ9MWrGHKMtJLgeQwfm1p1H4hsGmtG+QEBMKpPieZAfAHCEiwMMQ5WGB2gracYLhzYcvJFlOESiKcvv/YFPX/webuv4XRbn9Z6BlXSAhZ4ZhgY+tPgO3ZQyE/fQ1w7IjHzDUvHh0ipEiB8AsFhBRQRH/8vEJAwMDA0OrqRWDDAcHg1G+LwMLKwcDD78MRtuQkEOYcFksIWf2X0BEBcNyGNANKWSQ4eCAs7EBmH6YeQRDAJeP0X2PxacMPPwyOOWQzMMIERZiLUYGh3f2YBUztIjAqw+bQ5iwSJLse/RQIASQ7SK5UYrN98TIEcwFH97cwavwx/f3DBycggyLFi2Bi5348AFSmiGJ/fn9g+HF49MMHJyCRDkAAIKe6oigD4/gAAAAAElFTkSuQmCC"
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "7-15"
+    ]
+   ],
+   [
+    [
+     "B-07"
+    ],
+    [
+     "7-25"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1966 チャールズ・カオが「不純物を除けばガラスで光を遠くまで送れる」と示した（2009 ノーベル賞）。1970 コーニングが損失 20dB/km 以下を達成"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "超長距離通信ケーブル",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAY0lEQVR42mNgGLLgyDSG/wwMDAyMxCi2KOv6j8zvUShjsPYJYWCUW8PIQoymE11lKBbZMDAwHGFY85+BgYGBhVhNuAAjskZcmvB5gZEcL8AC0SaLgXEYeIGRUi/ANaI7cwQBAHC1PoUr+2SNAAAAAElFTkSuQmCC"
+}

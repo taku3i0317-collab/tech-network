@@ -1,0 +1,61 @@
+{
+ "id": "1-13",
+ "history": {
+  "name": "亜鉛",
+  "name_en": "Zinc",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": 1150,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "亜鉛はふつうの炉では気体になって逃げてしまうので、冷やして集めた",
+  "hee1_en": "In an ordinary furnace zinc turns into a gas and escapes, so people cooled it to collect it.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "0-12"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "ZnO+C→Zn+CO の温度（約1000℃）が亜鉛の沸点907℃より高く、普通の炉では蒸気で逃げる→冷やして凝縮させる「蒸留製錬」。インド・ザワール（12世紀〜19世紀初めに操業）、中国（明）、欧州は1738 ウィリアム・チャンピオンの特許"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": "zinc_ingot",
+  "recipes": [
+   "かまど：酸化亜鉛 を焼く → 亜鉛インゴット",
+   "かまど：閃亜鉛鉱（原石） を焼く → 亜鉛インゴット"
+  ],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "既存の閃亜鉛鉱→亜鉛（#15 の「2段を1段に」を解消する工程）",
+  "hee_game": {
+   "note1": "亜鉛のかたまり。トタンや電池に使う。",
+   "note2": "閃亜鉛鉱をかまどで焼くか、反射炉で酸化亜鉛にしてからかまどで還元する。",
+   "note3": "ZnO + C → Zn + CO。でも還元に必要な約1000℃は亜鉛の沸点（約907℃）より高いので、亜鉛は気体で出てくる。空気に触れると燃えて酸化亜鉛に戻るので、空気を断って冷やして集める。",
+   "note4": "亜鉛の蒸留はインドのザーワル（12世紀ごろから19世紀初めまで操業）で始まり、ヨーロッパでは1738年にイギリスのチャンピオンが特許を取った。トタンは鉄に亜鉛をめっきしたもので、亜鉛が先にさびて鉄を守る（犠牲防食）。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAOUlEQVR42mNgGAUUA0YYQ01N6z8pGm/dusbIwMDAwIIsWFSziijNfS1hcDYTpV4YBgZQHAujgIEBAFZuCw8H3KvKAAAAAElFTkSuQmCC"
+}

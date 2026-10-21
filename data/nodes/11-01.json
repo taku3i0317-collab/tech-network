@@ -1,0 +1,58 @@
+{
+ "id": "11-01",
+ "history": {
+  "name": "灌漑",
+  "name_en": "Irrigation",
+  "kind": "tech",
+  "trunk": "11",
+  "trunk_name": "農業・食",
+  "year": -6000,
+  "year_range": null,
+  "year_uncertain": true,
+  "hee1": "水をやりすぎると畑が塩でだめになる",
+  "hee1_en": "Too much watering ruins a field with salt.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "0-04"
+    ]
+   ],
+   [
+    [
+     "0-08"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "紀元前6000年頃 メソポタミア⚠️で川から水路を引いた。乾燥地で水を撒き続けると土に塩がたまる（塩害）＝シュメールが小麦から塩に強い大麦へ移った理由とされる⚠️"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "水路ブロックで作物の成長が速くなる、長期では「塩害」で収量低下",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAU0lEQVR42mNgoCWwKOv6b1HW9R+fGiZKLWFiYGBgmOJn8B8bjQxwqWFBVmDjYMAwhYEBTi/BI0eU6chhgEsNI0whOf4/0VXGSLELRsNgMITBwAMAlyqWUdoN7RMAAAAASUVORK5CYII="
+}

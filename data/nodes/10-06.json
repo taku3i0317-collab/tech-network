@@ -1,0 +1,55 @@
+{
+ "id": "10-06",
+ "history": {
+  "name": "リレー計算機",
+  "name_en": "Relay computer",
+  "kind": "tech",
+  "trunk": "10",
+  "trunk_name": "制御・計算",
+  "year": 1941,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "最初のプログラム式計算機は、カチャカチャ鳴るスイッチの集まり",
+  "hee1_en": "The first programmable computer was a bunch of clattering switches.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "10-05"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [
+   "I-08"
+  ],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1941 コンラート・ツーゼの Z3（約2600個のリレー、プログラム式・2進浮動小数点）、1944 ハーバード Mark I"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "計算機ブロック（遅いが動く）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAcUlEQVR42mNgoBAwMjAwMFg5+PwnR/OxA1sYWWCcAJZbDAwMDAy/PIoY2Hb0EWRv27KFgYGBgYGJUi/AXfDLo4iBFDYMwF3AtqMP7kRi2BgGjHph2Hhh25YtDAxbtjAwMKhBBHGwvbCZREqGIjfzYQUAAY1SBETaWR4AAAAASUVORK5CYII="
+}

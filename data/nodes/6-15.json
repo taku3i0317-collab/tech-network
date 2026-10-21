@@ -1,0 +1,49 @@
+{
+ "id": "6-15",
+ "history": {
+  "name": "ヘリウム 回避",
+  "name_en": "Helium (avoided)",
+  "kind": "tech",
+  "trunk": "6",
+  "trunk_name": "ガス",
+  "year": 1903,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "ヘリウムは太陽で先に見つかった（1868 日食の分光）。地球では放射性崩壊で地下に溜まったものしか取れない",
+  "hee1_en": "Helium was found on the Sun first (spectroscopy of the 1868 eclipse). On Earth we can only get the helium that built up underground from radioactive decay.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-40"
+  ],
+  "frontier": false,
+  "real": "天然ガスに数%含まれるものを液化分離（1903 カンザスで発見）。用途は検漏（He リークディテクター）・極低温冷却"
+ },
+ "game": {
+  "status": "➖",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "バニラに天然ガスがないため不要な設計にする。検漏は「圧力上昇（ビルドアップ）法」、冷却は水・液体窒素[6-07]で代替",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAYElEQVR42mNgoBAw4pJQU9P6j8y/desaI1Emqqlp/UfXjE8cp60WZV3/Lcq6/hNyGUmasallwqXoRFcZI0mhSdB/pLqALECMK4iKCbKjEZdNJGmkyFZKYoY2hlDFBYQAAL+LMC7Nz6kYAAAAAElFTkSuQmCC"
+}

@@ -1,0 +1,58 @@
+{
+ "id": "14-18",
+ "history": {
+  "name": "ドラムブレーキとディスクブレーキ",
+  "name_en": "Drum brakes and disc brakes",
+  "kind": "tech",
+  "trunk": "14",
+  "trunk_name": "輸送",
+  "year": 1902,
+  "year_range": "1900〜1950年代",
+  "year_uncertain": false,
+  "hee1": "ブレーキは車の動く力を「熱」に変えて止めるので、山道を下ると熱くなりすぎることがある。（S-004 で追加。出典：en.wikipedia.org、classicsworld.co.uk）",
+  "hee1_en": "Brakes stop a car by turning its motion into \"heat\", so they can get too hot going down a mountain road. (Added in S-004. Sources: en.wikipedia.org, classicsworld.co.uk)",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "14-11"
+    ]
+   ],
+   [
+    [
+     "1-26"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "ドラムブレーキは車輪と回る筒（ドラム）の内側に摩擦材を押しつけるもので、1900年にマイバッハが車に使い、1902年にルイ・ルノーが特許を取った。ディスクブレーキは回る円板を両側からはさむもので、1902年にフレデリック・ランチェスターが特許を取った。どちらも動く力を摩擦で熱に変えて止める。よくある間違い：二人の役を逆に書いた解説がある（ドラム＝ルノー、ディスク＝ランチェスター）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAmklEQVR42sVTMQ6EMAxzT3kVE3OV50admfgWLGeUhhSQGMjSKqlj102Br6OMCtOsG/frYsNzMgJWVTQzVFUA2DLwuliRCP4D0MzI3OX8vlMQwWRm7vEVMuar+EV270MzO6RyTRsk7J37Pu+bnhpU1U6Nf0rmWWPDkpmYqWI9qpQrg568hoT73s5BnEqJk8Wp88w0LRvp13/hdezJun2v13G5hwAAAABJRU5ErkJggg=="
+}

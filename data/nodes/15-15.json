@@ -1,0 +1,61 @@
+{
+ "id": "15-15",
+ "history": {
+  "name": "コンピュータネットワーク",
+  "name_en": "Computer networks",
+  "kind": "tech",
+  "trunk": "15",
+  "trunk_name": "通信・情報",
+  "year": 1969,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "最初のネット通信は「LO」の2文字で止まった（LOGIN の途中でダウン）",
+  "hee1_en": "The first network message stopped after 2 letters, \"LO\" (it crashed partway through LOGIN)",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "10-14"
+    ]
+   ],
+   [
+    [
+     "10-03"
+    ],
+    [
+     "15-13"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1969 ARPANET、1983 TCP/IP へ移行、1991 ティム・バーナーズ＝リーの WWW 公開"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "⚠️範囲：解説のみ（スマホ[B-10]の背景）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAsklEQVR42sVSsQ2DQAy8R8xB+QVijFRfUGQGZsgQmSFTfPFV5qBwmYIpkJwiMbKC/UJKgZu33ueTfT7g7AiSxNiz5ERzsMAWptWAlEYAwNStbBEsw6deSt7+2l9QKRlEZE/wylzd536JrF+rdoiglh8mENG0cFa0XiHGnkVUAOxdxiWYuhWPr9peMwA0tfGI5iDNng6NHnkZrptZbs/9KUUTrctuhZRG10iiiTbS31Y+P94xYlL9Eg/BmQAAAABJRU5ErkJggg=="
+}

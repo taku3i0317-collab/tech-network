@@ -1,0 +1,80 @@
+{
+ "id": "10-16",
+ "history": {
+  "name": "ニューラルネット",
+  "name_en": "Neural network",
+  "kind": "product",
+  "trunk": "10",
+  "trunk_name": "制御・計算",
+  "year": 1998,
+  "year_range": "1943〜2012",
+  "year_uncertain": false,
+  "hee1": "石と砂から始めて、数字を読める機械にたどり着いた",
+  "hee1_en": "Starting from stones and sand, we arrived at a machine that can read numbers.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [
+   {
+    "name": "マカロック",
+    "tool": "🧠 人工ニューロン",
+    "year": "1943",
+    "intro": "1943年、ピッツと人工ニューロン（脳の神経細胞の数学モデル）を発表した",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACM0lEQVR42mNgGAUjHTCSori9vf0/MeoqKyuJNpeFWIUzZ878n5aWhiH+6NEjbMr/E+sIRmJ9HhUVBedzP96PVd1XWUc4e9myZUSFBBO1LEeXi4qKIirKmEhJA/gsJ0UN2Q6gBSDaAc+PLmeghVqiHaAiJ0GTEGAhRTFyKkePa2Q5hkfLqeOAiuRAsnIAck74eOfU/4656xmpEgKchqEMepqaDJeuX2f4fn41TjmGR5OpUxRXJAf+11WTZ1CWlYCngRdvPjBIiAjA1dx59AJD7s6jFwwMDAwMdx+/YLh86yEDvhAgmAiVZSUYJK0j4XGMbDk6gMlJWkcySFpHMijLSlCeCzbsPYkZFexscPbLtx+wiuPSS1IagAUdv4rZfwsLCwZdVoj495+/GBgYGBgu3HjAwM3JAVcPE4fVBfiCnuTquL29/X+qrSRmlsOSE2Yffk50lUx2ObA1PxVFznvibCT5ZbRrkMDKhXv37jEoKSlhqCG2GibLATBHvH79miE/Px/DYlJbQxSB9vb2/w8fPvz/8OHD/8Q21cgOARstabgFgckQn8fFxaCoWbRoCQMDAwPD+rkT4WJHrj2lLBfALNaQEYKL1c7egtfA5lQfOPvGk3cEHcJCrMXkACT9/3E5hJFUix+9/sQgJ8rH0L50J2pTPNodLocLYAsRFmr6mJwQYYQ5gBjLCfmQWDWw0Dhy7SnjgDdKWdDjBxd49/k7gxAvJ0F1DAwMDMeuP2UQ4uUkygEAJqHycosYeecAAAAASUVORK5CYII="
+   },
+   {
+    "name": "ピッツ",
+    "tool": "🧠 人工ニューロン",
+    "year": "1943",
+    "intro": "1943年、マカロックと人工ニューロンを発表した",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACRUlEQVR42mNgGAUjHTCSolhLTvQ/MequPXpNtLksxCo0UZX8rywphCH+/ssPbMr/E+sIRmJ9LiPCR1LQPnnziaiQYKKF5QwMDAwyInxERRnTQCfCoeWAZZNqGZZNqiXIbipJpV42hKUBmAXEgDuPXjDU9cwmKiGykBICUXnNKKGBS45qIVCRHPg/wNmcgYGBgSF/4k4M+a298QwMDAwM3sULMeQm5rszMDAwMGzYe5KhY+56RqqkgX37tjC8eX6XYd++LXCLYZajy1EtEd59/ALOdnLyYRCRVGZwcvKBhwDMp+hy6HrJTgPKshIowY0NoMvdefQCrvfyrYeUhcCGvScxxDjZ2eDsl28/YBXHpZekEEBKPP9LEv3h4t9//mJgYGBguHDjAQM3JweGODGJj+TquCI5EMUR+EDP/I1EWU5yOYAMDs/eisK3TfWmfYOEmFAgxfckOwDmCFEhfoZ4fwcU8YUbDzC8fveRJMspAhXJgf/fHFnw/82RBf8rkgP/k2sOUWnAyckDw4IAZ3OG/+puUPYLhlP3v//HLDl3MFLkAJjFOjoGKOL3799hYGBgYDC1TWLg4BJiWFCix8DNzcOgqKiC0TYk5BAWUixGKSFd4xg4ei7B2QzLz2CoQdKP0yEspFp8//4dbD5lUFRUwSmHzyEsxFqMDGpr87CKJSXl4dWHzSFMWCRJ9j16KBACyHaR3CjF5nti5AgmwitXLuBV+ObNKwYRETGGRYuWwMU+vIH4Flns69cvDAcO7GIQEREjygEAvpH59yS8R2YAAAAASUVORK5CYII="
+   },
+   {
+    "name": "ローゼンブラット",
+    "tool": "🧠 パーセプトロン",
+    "year": "1958",
+    "intro": "1958年、学習するパーセプトロンを作った",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACLUlEQVR42mNgGAVEAC050f9acqL/yWETAkwD7TkWYhXKiPAxMDAw/IfSBNlP3nwiylxGYh1goir5X1lSCEP8/ZcfGGJP3nxiuPboNSNFDoDF4bVHrxm15ESRfUgUgDkC2RySowBLsDOQE2X4ooOJSIPIAsToHfBcQJIDlk2qZVg2qZYgu6kklWgz8SZC5CCEWUAMuPPoBUNdz2yicgULKSEQldeM00HIclQNAZhhKnISJIUADNT1zMYbAjjTwLVHrxmNDPVQxDgNQxnMo+oYOA1DMdTjkjMy1MNbKBFMhHcfI3zz/fxqho2Tihi+n1+N4Vtscsh6yXaAsixq0EuICOBUiy6HrpcsB2zYexIzuNnZ4OyXbz9gFcell6Rc0DF3PSzu/pck+iOi4ucvBgYGBoYLNx4wcHNyYIjDLEfST3ltWJEciOIIfKBn/kaiLCe5HEAGh2dvReHbpnqTZQ4jKYqJCQVSfE+yA2COEBXiZ4j3d0ARX7jxAMPrdx9JspwiUJEc+P/NkQX/3xxZ8L8iOfA/ueYQ5VoJOTO4BaX5IQwMDAwMcXExKGoWLVrCwMDAwNA9cQ1c7MWjU5TlApjFAiIqiMS3swevgbbuJXD2hzd3CDqEhViLyQFI+v/jcggjqRZ/+fiEgYdfBiMkbN1L4HK4ALYQYaGmj8kJEUaYA4ixnJAPiVUDC40Xj04xDp6uGSx+cIEf398zcHAKElTHwMDA8OLxaQYOTkGiHAAAgbwIJLBk2yMAAAAASUVORK5CYII="
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "B-11",
+     "9-40"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [
+   "I-05",
+   "I-36",
+   "I-49"
+  ],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1943 マカロック＆ピッツの人工ニューロン、1958 ローゼンブラットのパーセプトロン、1986 ラメルハート・ヒントン・ウィリアムズの誤差逆伝播法、1998 ルカンらの LeNet-5 と MNIST（28×28 の手書き数字、学習用6万枚・テスト用1万枚）、2012 AlexNet（GPU で画像認識）。中身は掛け算と足し算の積み重ね（行列の積）で、それを速く大量にこなすのが AI チップ"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "エンディング。プレイヤーがブロックや画面に書いた数字を、自作チップの上で本物の小さなニューラルネットが実際に計算して判別する（作り話の AI ブロックにはしない）。重みの持ち方・学習の有無・チップ性能との連動は未決定（DESIGN 未決定）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAr0lEQVR42mNgoBAwYhO0ssr5j0382LEpjAQNsLLK+e/g4IXVNpkvcQxZk96g6GHCplnmSxwDAwMDw4ED2xgOHNgG1/yEZxGG61iw2QLTjOTk/zEmMLkIBrwGPOFZxCDzJY4B6o3/DAwMEPaXFQxPeBYxMDBsw28AzBC4RjQxdMCEK7CwhQE2MPBhQFI6gHkHOVHhTIkODl5wDTA2tpSIEyAnGFxJG2csYNOAz5CBBQBzqGBVpNInwQAAAABJRU5ErkJggg=="
+}

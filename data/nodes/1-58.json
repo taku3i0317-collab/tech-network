@@ -1,0 +1,66 @@
+{
+ "id": "1-58",
+ "history": {
+  "name": "伸線",
+  "name_en": "Wire drawing",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": 1350,
+  "year_range": "古代〜1893",
+  "year_uncertain": true,
+  "hee1": "電線の銅線は、太い棒を小さな穴に何十回も通して細く引きのばしている（O-012 で追加。出典：Wikipedia「Wire drawing」、ASME Landmark #139）",
+  "hee1_en": "The copper wire in electric cables is made by pulling a thick rod through small holes dozens of times to stretch it thin. (Added in O-012. Sources: Wikipedia \"Wire drawing\", ASME Landmark #139)",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "F22. 穴を通して細くする（伸線・ボンディング線）［1-58］（［9-33］の前提）",
+    "answer": "金属の棒を、少しずつ小さくなる穴（ダイス）に次々と通して引っぱると、細く長い線になる。古代から手で引き、14世紀のニュルンベルクで水車の力で引くようになった（年は ⚠️）。すり減らないダイヤモンドの穴を使うと、チップをつなぐ直径約25µm の金線まで引ける。",
+    "hee": {
+     "1": "電線の銅線は、太い棒を小さな穴に何十回も通して細く引きのばしている。",
+     "2": "金は1g から数km の線が引けるほどよくのびる。",
+     "3": "チップと外をつなぐ線は、髪の毛の3分の1ほどの太さの金。",
+     "4": "1893年のローブリングの撚り線機（ASME ランドマーク #139）は、鋼線をより合わせて吊り橋のワイヤロープを作った。"
+    },
+    "certainty": "伸線のしくみ ◎／ニュルンベルクの水車 △（年が不確か）／ASME #139 ◎／25µm の金線 ◎／ダイヤモンドのダイスの普及の年 △",
+    "basis": "Wikipedia「Wire drawing」https://en.wikipedia.org/wiki/Wire_drawing 、ASME「Roebling 80-Ton Wire Rope Machine」https://www.asme.org/about-asme/engineering-history/landmarks （英語）"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-08"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "金属の棒を、少しずつ小さくなる穴（ダイス）に次々と通して引っぱり、細く長い線にする。古代は手で引いていたが、14世紀のニュルンベルクで水車の力で引くようになった（年は ⚠️）。のちに硬いダイヤモンドの穴のダイスも使われた。1893年のローブリングの80トンの撚り線機は、何本もの鋼線をより合わせて吊り橋や昇降機のワイヤロープを作った（ASME ランドマーク #139）。電線の銅線、電球のタングステン線、海底ケーブル、チップの金のボンディング線（直径約25µm）もこうして作る"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "軽",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "決定（S-001 ①）：引き板とダイヤモンドのダイス",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAATUlEQVR42mNgGN7AysHnPyE1TJQawkSpSxgZGBgYulzUMBSU7bnFiM2QYwe2MBJlADGgbM8tRhZ8kkS7gBi/o2skKRBxaaZKOhgFDAwAeOsfahelPI0AAAAASUVORK5CYII="
+}

@@ -1,0 +1,87 @@
+{
+ "id": "1-18",
+ "history": {
+  "name": "白金精製",
+  "name_en": "Platinum refining",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": 1800,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "白金の粉を押し固めてたたくと、加工できる金属になった",
+  "hee1_en": "By pressing platinum powder together and hammering it, people got a metal they could work.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "F13. 王水で溶かし、粉から鍛える（白金の精製・ウォラストン）［1-18］",
+    "answer": "白金はどの酸にも溶けないが、王水（塩酸3：硝酸1）には溶けて塩化白金酸になる。塩化アンモニウムを加えると黄色い (NH₄)₂PtCl₆ が沈み、焼くとスポンジ状の白金が残る。1800年ごろウォラストンは、その粉をねじで押し固め、白熱に熱して鍛え、加工できる白金を作った（粉末冶金の始まり）。",
+    "hee": {
+     "1": "白金の粉を押し固めてたたくと、加工できる金属になった。",
+     "2": "王水の名前は、金（酸の王でも溶けない金属の王）を溶かすことから。",
+     "3": "ウォラストンは方法を秘密にして財産をきずき、途中でパラジウムとロジウムも発見した。",
+     "4": "1889〜2019年の 1kg の基準は、白金90%・イリジウム10% の円柱だった。"
+    },
+    "certainty": "精製の化学 ◎（ブリタニカ・Platinum Metals Review）／ウォラストンの粉末冶金 ◎／パラジウム（1802）・ロジウム（1804）◎／国際キログラム原器 ◎（BIPM）",
+    "basis": "ブリタニカ「William Hyde Wollaston」https://www.britannica.com/biography/William-Hyde-Wollaston 、Johnson Matthey Technology Review（旧 Platinum Metals Review）「Wollaston and the platinum」https://technology.matthey.com/ 、BIPM「The kilogram」https://www.bipm.org/ （英語）"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-20"
+    ]
+   ],
+   [
+    [
+     "6-06"
+    ],
+    [
+     "6-04",
+     "6-12"
+    ]
+   ],
+   [
+    [
+     "6-11"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "王水（HCl:HNO3=3:1）で溶かし H2PtCl6 に→NH4Cl で (NH4)2PtCl6 を沈殿→加熱で白金スポンジ。1800年頃 ウォラストンが粉末を圧縮・鍛造して加工可能に（粉末冶金の始まり）"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "軽",
+  "missing": "",
+  "item": "platinum_sponge",
+  "recipes": [
+   "かまど：塩化白金酸アンモニウム を焼く → 白金海綿"
+  ],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "砂白金→白金インゴット",
+  "hee_game": {
+   "note1": "すきまだらけのスポンジのような白金のかたまり。",
+   "note2": "黄色い沈殿をかまどで焼くと残る。2つを押し固めて（白金の圧粉）、溶鉱炉の白熱で鍛えると白金のインゴット。",
+   "note3": "表面積がとても大きいので、触媒としてよく働く（水素と酸素をふれさせると、ひとりでに燃えだす。1823年のデーベライナーのライター）。",
+   "note4": "白金の融点は約1768℃で、19世紀はじめの炉では溶かせなかった。だから粉のまま固めて鍛える方法が考えられた。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA10lEQVR42t2SoQ6DMBCGf5YGjUI1PAEagVoQDWIKQXjEZWJqglSQqQk0T0Cqqqobkk4sNNDC0NuZNn/b/77rHfDzEXw7bOrKzPvr7b55l7hCfr4YAEjiEGnGMPQcacaQS21ez0dwSNDUlUkzBgCg0WR1oQiGnnskxM1esgLAZB/RaLIrZQUAmKXJaWmQxCGEIhDKq8xqo9Qr/bT1MTM6jSa0vIObZNdglBpDz1cU7n+4BB5ryQoI5dMsyzjswseErAxa3mGUGm4rg70BGqW29c7YW3PwB/EGHqldlZESWCUAAAAASUVORK5CYII="
+}

@@ -1,0 +1,53 @@
+{
+ "id": "13-09",
+ "history": {
+  "name": "サルファ剤",
+  "name_en": "Sulfa drugs",
+  "kind": "tech",
+  "trunk": "13",
+  "trunk_name": "医薬・衛生",
+  "year": 1935,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "最初の抗菌薬は、布を染める染料だった",
+  "hee1_en": "The first antibacterial drug was a dye for coloring cloth.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "2-24"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1935 ゲルハルト・ドーマク（バイエル）が赤い染料プロントジルで細菌感染が治ることを発見（1939 ノーベル賞）。体内で分解されたスルファニルアミドが有効成分"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "解説のみ",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAiklEQVR42mNgGGjASIyiaXki/9HFsia9YWRgYGBgIkczMmCiRDNeA5A1Z016wwhzMjpgwSaopqb1n4HhFVEuYcKm2cvLj+EWUwpOZyO7hgmbZhjAZgi6V5hwacZmCLZwYCEmHUzYIcZw69Y1RpKjkYGBgWHbtk04NRM0gJBmlKQMiTo0/xPQPDgAANwTNGMX3gZRAAAAAElFTkSuQmCC"
+}

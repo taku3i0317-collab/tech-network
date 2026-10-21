@@ -1,0 +1,86 @@
+{
+ "id": "P-31",
+ "history": {
+  "name": "コーヒーマシン",
+  "name_en": "Coffee machine",
+  "kind": "product",
+  "trunk": "P",
+  "trunk_name": "モノ（作品）",
+  "year": 1948,
+  "year_range": "1901〜1948",
+  "year_uncertain": false,
+  "hee1": "エスプレッソは、タイヤの空気の約4倍、9気圧ほどの力でお湯をコーヒーの粉に押し通して作っている。",
+  "hee1_en": "Espresso is made by forcing hot water through coffee grounds at about 9 atmospheres, about 4 times the air pressure in a tire.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://en.wikipedia.org/wiki/Espresso_machine",
+   "https://www.gaggia.com/our-history/"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "11-17"
+    ]
+   ],
+   [
+    [
+     "3-24"
+    ]
+   ],
+   [
+    [
+     "9-44"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [
+   "0-03",
+   "1-26",
+   "2-29",
+   "3-13",
+   "3-24",
+   "4-02",
+   "4-08",
+   "5-03",
+   "8-02",
+   "9-44",
+   "10-01",
+   "10-14",
+   "11-17",
+   "15-18",
+   "B-07"
+  ],
+  "materials": [
+   "銅",
+   "鋼",
+   "プラスチック"
+  ],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "細かくひいた豆に、約90℃のお湯を約9気圧で25〜30秒押し通して濃いコーヒーを取り出す。全自動機は、ミル（豆ひき）・ヒーター・ポンプ・抽出ユニット・マイコンを1つの箱に入れ、ボタン1つでひく→詰める→押す→かすを捨てるまでを行う"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "作品：豆をひき、熱いお湯を圧力で押し通してコーヒーをいれる",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAeklEQVR42mNgoBAwwhhWDj7/SdF47MAWRgYGBgYWZEEvHx+iNG/bsgXOZqLUCyzYTIa5BNkmXK5jQfcTFPzHJobNEBZ8AUQMoG4YTPEzwIjKnE0XGClyATZDqeoFggZQ7AWiA9HKwef/BzvMeLb6tOU/voREcWaiGAAAgM4puC9XewsAAAAASUVORK5CYII="
+}

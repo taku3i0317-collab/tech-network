@@ -1,0 +1,80 @@
+{
+ "id": "1-14",
+ "history": {
+  "name": "バイヤー法",
+  "name_en": "Bayer process",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": 1888,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "ボーキサイトを水酸化ナトリウムで溶かし、鉄分の赤い泥をこして、アルミナを取り出す",
+  "hee1_en": "Bauxite is dissolved in sodium hydroxide, the red iron-rich mud is filtered out, and alumina is taken out.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "F6. 赤い土から白い粉（バイヤー法・アルミナ）［1-14］",
+    "answer": "ボーキサイトを熱い濃い水酸化ナトリウムの液で溶かすと、アルミの成分は NaAl(OH)₄ として溶け、鉄さびは溶けずに赤い泥（赤泥）として残る。こした液を冷やして種を入れると水酸化アルミニウムが出てくる。焼くとアルミナ（Al₂O₃）。液は使い回す。",
+    "hee": {
+     "1": "ボーキサイトを水酸化ナトリウムで溶かし、鉄分の赤い泥をこして、アルミナを取り出す。",
+     "2": "1888年、カール・ヨーゼフ・バイヤーがロシアの工場で考えた。2年前のホール・エルー法と組になって、今も世界のアルミのほとんどを作る。",
+     "3": "ルビーとサファイアも、結晶になったアルミナ。",
+     "4": "赤泥はアルミナ1トンに1〜1.5トン。2010年ハンガリー・アイカの決壊事故（10人死亡）以来、固めて使い直す研究が進む。"
+    },
+    "certainty": "反応と工程 ◎（ブリタニカ・教科書）／バイヤー 1888 ◎／ロシアの工場（サンクトペテルブルク）○／赤泥の量 ○（ボーキサイトで変わる）／アイカの事故 ◎",
+    "basis": "ブリタニカ「Bayer process」https://www.britannica.com/technology/Bayer-process 、International Aluminium Institute「Bauxite residue」https://international-aluminium.org/ 、BBC News 2010-10「Hungary toxic sludge」（英語）"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-24"
+    ]
+   ],
+   [
+    [
+     "6-05"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1888 カール・ヨーゼフ・バイヤー。Al(OH)3+NaOH→NaAl(OH)4 で溶かし、鉄分（赤泥）をろ過、冷やして Al(OH)3 を析出→焼いて Al2O3"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "重",
+  "missing": "",
+  "item": "bayer_digester",
+  "recipes": [
+   "作業台：鋼インゴット×6 ＋ 銅ケーブル → バイヤー法の溶解釜"
+  ],
+  "machine_recipes": [
+   "バイヤー法の溶解釜「バイヤー法」：ボーキサイト×2 ＋ 水酸化ナトリウム 4回で1個 ＋ 水入りバケツ 4回で1個 → 水酸化アルミニウム ＋ 赤泥（2 kW × 30 秒＝60 kJ）。Al(OH)3 + NaOH → NaAl(OH)4 → こして冷やすと Al(OH)3。鉄は赤泥に。液は使い回す"
+  ],
+  "placeholder": "省略：加熱は電気ヒーター（本物は蒸気で熱した圧力釜、約150〜250℃）。量は記号的（本物はボーキサイト約2〜3トンでアルミナ1トン）。母液のガリウムは取り出さない。",
+  "game_text": "ボーキサイト+NaOH → アルミナ+赤泥（＋母液から副産物 [1-44]ガリウム）。[1-29]の前段",
+  "hee_game": {
+   "note1": "ボーキサイトを熱い苛性ソーダの液で溶かし、アルミの成分だけを取り出す釜。",
+   "note2": "電気 2kW。ボーキサイト2 → 水酸化アルミニウム1＋赤泥1（30秒）。液は水酸化ナトリウム1を水バケツ1に溶かして作り、4回くり返し使える（空のバケツは出口へ）。水酸化アルミニウムをかまどで焼くとアルミナ。",
+   "note3": "Al(OH)3 + NaOH → NaAl(OH)4。アルミの成分は液に溶けるが、鉄さびは溶けずに赤い泥として残る。泥をこした液を冷やして種を入れると、水酸化アルミニウムがまた出てくる。液は何度も使い回す。",
+   "note4": "1888年、カール・ヨーゼフ・バイヤーがロシアの繊維工場向けの研究から考えた。2年前のホール・エルー法と組になり、今も世界のアルミのほとんどがこの2つの方法で作られている。母液にはガリウムがたまり、今のガリウムの大半はここから取れる。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAaklEQVR42mOMCAv6z0ABYGFgYGCQkFIjS/OLZ7cYmBgoBIPUgBfPbuHl4zXgxbNb8EBF1vji2S2sBrGgCyDHiISUGlwTrphiIuR8dIMIGoCsGNk7RLsAm3dICkRstuFLqcMgJbIQCiRCAAC+iit1mrSLPwAAAABJRU5ErkJggg=="
+}

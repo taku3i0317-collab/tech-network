@@ -1,0 +1,81 @@
+{
+ "id": "2-46",
+ "history": {
+  "name": "透明な電極 ITO",
+  "name_en": "Transparent electrode ITO",
+  "kind": "tech",
+  "trunk": "2",
+  "trunk_name": "化学",
+  "year": 1954,
+  "year_range": "1907〜1970年代",
+  "year_uncertain": true,
+  "hee1": "インジウムの名前は、炎の光を分けたときに見えた藍色（インディゴ）から付いた（S-003 で追加。出典：RSC「Indium」、USGS「Mineral Commodity Summaries 2024: Indium」、Wikipedia「Indium tin oxide」）",
+  "hee1_en": "Indium is named after the indigo color seen when the light of its flame was split. (Added in S-003. Sources: RSC \"Indium\", USGS \"Mineral Commodity Summaries 2024: Indium\", Wikipedia \"Indium tin oxide\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "C32. 透けて見えるのに電気が通る（ITO）［2-46］",
+    "answer": "酸化インジウム In2O3 に酸化スズ SnO2 を約10%混ぜた膜（ITO）は、光を通すのに電気も通す。Sn4+ が電子を1つ余らせて n 型の半導体のように電気を運ぶが、電子は金属よりずっと少ないので目に見える光をはね返さない。1907年ベーデカーが薄い酸化カドミウムの膜で透明な導電膜を初めて報告し、1950年代に酸化インジウムの膜の研究が進んだ（ITO の最初の年は資料で揺れる ⚠️）。インジウムは1863年、ライヒとリヒターが閃亜鉛鉱の藍色（インディゴ）の線から見つけた。",
+    "hee": {
+     "1": "インジウムの名前は、炎の光を分けたときに見えた藍色（インディゴ）から。",
+     "2": "スマートフォンの画面を指でさわって動かせるのは、透明な電極があるから。",
+     "3": "金属の膜は光をはね返すが、酸化物にすると透けて見える。",
+     "4": "インジウムの大部分は、今も亜鉛の製錬の副産物。"
+    },
+    "certainty": "ITO の組成としくみ ◎／ベーデカー 1907 ◎／ITO の最初の年 △ → ⚠️／ライヒとリヒター 1863 ◎",
+    "basis": "- Wikipedia「Indium tin oxide」：https://en.wikipedia.org/wiki/Indium_tin_oxide"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "3-06"
+    ]
+   ],
+   [
+    [
+     "1-30"
+    ]
+   ],
+   [
+    [
+     "2-14"
+    ]
+   ],
+   [
+    [
+     "5-14"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "酸化インジウム In2O3 に酸化スズ SnO2 を約10%混ぜた膜で、光を通すのに電気も通す。1907年、カール・ベーデカーが薄い酸化カドミウムの膜で「透明で電気を通す膜」を初めて報告し、1950年代に酸化インジウムの膜の研究が進んで ITO が広まった（ITO の最初の年は資料で揺れる ⚠️）。今はガラスや樹脂の上にスパッタリング（[9-26]）で付ける。インジウムは1863年、ライヒとリヒターがフライベルクの閃亜鉛鉱を分光して、藍色（インディゴ）の線から見つけた（[7-06]）。今も大部分が亜鉛の製錬の副産物（第1章の焙焼炉で閃亜鉛鉱から出るインジウムと同じ）"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "軽",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAW0lEQVR42mNgGGjAyMDAwGBR1vWfHM0nusoYGdANODKNgSAbWQ8TKTZalHX9R3ct0QaUPOhCdTYpBsBsRddMlAEwzT0KZVjlWYgOabRAJDkMcIFhYAB1kvKAAgAk2CZcVcvK9QAAAABJRU5ErkJggg=="
+}

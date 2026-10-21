@@ -1,0 +1,89 @@
+{
+ "id": "7-19",
+ "history": {
+  "name": "投影レンズ",
+  "name_en": "Projection lens",
+  "kind": "tech",
+  "trunk": "7",
+  "trunk_name": "光学",
+  "year": 1978,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "露光装置のレンズは何十枚ものレンズを積み重ねた「ガラスの塔」",
+  "hee1_en": "The lens of a lithography machine is a \"tower of glass\" stacking dozens of lenses.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "O37. マスクを縮めて写す「ガラスの塔」（投影レンズ）［7-19］",
+    "answer": "ステッパーの投影レンズは、マスクの模様を 1/10〜1/4 に縮めてウェハーに写す多枚数のレンズ。解像度は CD＝k1×λ÷NA で、レンズの心のずれなどの収差が大きいと k1 が上がってぼける。1978年の GCA DSW（g線）から、ニコン・キヤノン・ツァイスの 20〜30枚組のレンズへ進んだ。",
+    "hee": {
+     "1": "露光装置のレンズは何十枚ものレンズを積み重ねた「ガラスの塔」で、重さ1トンを超えるものもある。",
+     "2": "マスクを大きく作るので、マスクの小さなごみや誤差もウェハーの上では 1/5 になる。",
+     "3": "枚数が多いと表面の反射で光が減るので、反射防止膜が欠かせない。",
+     "4": "EUV（13.5nm）はガラスが光を吸うので、レンズの代わりに鏡で組む。"
+    },
+    "certainty": "1978 GCA DSW の発売 ◎／DSW の NA 約0.28・1/10 縮小 ○／1980年代の g線ステッパー NA 0.35〜0.45・1/5 ○／20〜30枚組 ○",
+    "basis": "- Wikipedia「Stepper」：https://en.wikipedia.org/wiki/Stepper"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "7-01"
+    ],
+    [
+     "7-15"
+    ]
+   ],
+   [
+    [
+     "7-03"
+    ]
+   ],
+   [
+    [
+     "7-09"
+    ]
+   ],
+   [
+    [
+     "8-14"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "マスクの像を 1/5〜1/4 に縮小してウェハーに写す。1978 GCA の DSW（発売の年）など1970年代末のステッパーから、ニコン・キヤノン・ツァイスの 20〜30枚組レンズへ。EUV はレンズの代わりに鏡[7-17]で組む"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "実験（心出しの良さで CD が決まる）",
+  "missing": "",
+  "item": "projection_lens",
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": "近似：レンズは5枚（本物は 20〜30枚）。NA 0.35 は1980年代前半の値（1978 の GCA は約0.28）。ずれから収差への換算はゲームの値。露光装置そのものはまだ。",
+  "game_text": "",
+  "hee_game": {
+   "note1": "マスクの模様を 1/5 に小さくしてウェハーに写すレンズ。何枚ものレンズを積んだ「ガラスの塔」。",
+   "note2": "心出し済みの鏡筒＋反射防止膜のクラウンレンズ。鏡筒のレンズのずれを引き継ぎ、ずれが小さいほど細かく写せる（CD＝k1·λ/NA）。点灯中の水銀灯を右クリックでテスト露光、左手に干渉計を持つと波面のゆがみも測る。",
+   "note3": "1978年、GCA の DSW（g線、マスクを縮小して1チップずつ写すステッパー）が発売され、のちにニコン・キヤノンが続いた。マスクを大きく作れるので、マスクの小さなごみや誤差も 1/5 になる。",
+   "note4": "解像度は CD＝k1×λ÷NA（アッベの限界から）。λ を短く（g線 436nm → i線 365nm → KrF 248nm → ArF 193nm）、NA を大きく、k1 を小さくして微細化が進んだ。今の投影レンズは 20〜30枚、重さ1トンを超え、EUV ではレンズの代わりに鏡で組む。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAi0lEQVR42mNgoBAwYhO0cvD5/+bZPRQxESklhmMHtmCoZ8FlspeXHwr/1IUrWNUxUeoFFmzO9/LxwXSRjAIDAwPDf3RvYPXCmycPiHYBxV6gbhhYOfj8NzPQYRCB+BcDmEEolHAYBmHAiO5/BgYGnGEA89qpC1fgyZriMEAxYNu2TURpEpFSYqAaAAC34yt1a5baxwAAAABJRU5ErkJggg=="
+}

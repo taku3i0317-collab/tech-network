@@ -1,0 +1,78 @@
+{
+ "id": "7-16",
+ "history": {
+  "name": "液浸光学",
+  "name_en": "Immersion optics",
+  "kind": "tech",
+  "trunk": "7",
+  "trunk_name": "光学",
+  "year": 2006,
+  "year_range": "1878〜2006",
+  "year_uncertain": true,
+  "hee1": "レンズとウェハーの間に水を入れるだけで、細かく描ける",
+  "hee1_en": "Just putting water between the lens and the wafer lets you draw finer patterns.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "O23. 波長が短いほど細かく描ける（露光の方法と解像度、アッベの限界）［7-10］［9-20］［9-39］［7-20］［7-16］［9-40］（LITHO_DESIGN §3 の出典）",
+    "answer": "レンズで写せるいちばん細かい線は、光の波長 λ とレンズの開口数 NA で決まる（アッベ 1873：d ≈ λ／2NA。露光ではレイリーの式 CD ＝ k1 × λ ÷ NA、k1 は工程の工夫で 0.25〜0.8 ほど）。だから露光の歴史は「短い波長・大きい NA」の歴史：水銀の g線 436nm → i線 365nm → KrF 248nm → ArF 193nm → 水を入れて NA を 1 より大きく（液浸）→ EUV 13.5nm。",
+    "hee": {
+     "1": "光の顕微鏡では、光の波長より細かい物は見えない（アッベ）。",
+     "2": "最初の密着露光（1960年ごろ）はマスクをウェハーにじかに押し当てた。マスクがすぐ傷むので、1973年にパーキンエルマーのマイクラライン（等倍の投影、鏡を使う）、1978年に GCA の DSW4800（g線、10分の1に縮める最初のステッパー）が出た。",
+     "3": "液浸は、レンズとウェハーのあいだを水（屈折率 1.44）で満たして NA を 1.35 まで上げた。",
+     "4": "EUV（13.5nm）はどんな物質にも吸われるのでレンズが作れず、多層膜の鏡で光を集める。"
+    },
+    "certainty": "アッベの限界・レイリーの式 ◎／マイクラライン 1973（最初の投影アライナー）○（Wikipedia・SHMJ）／DSW4800 1978（最初のステッパー、g線、10:1）○（SHMJ。1975 とする資料もある）／各方法の CD の値 △（世代のめやす。とくに密着 10µm・等倍投影 3µm・DSW の 1µm は製品資料で未確認）→ ゲーム内は ⚠️",
+    "basis": "- Wikipedia「Micralign」：https://en.wikipedia.org/wiki/Micralign"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "7-20"
+    ]
+   ],
+   [
+    [
+     "7-19"
+    ]
+   ],
+   [
+    [
+     "2-18"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-04"
+  ],
+  "frontier": false,
+  "real": "1878頃 アッベとツァイスの油浸顕微鏡（レンズと試料の間を油で満たして NA を上げる）。2002 TSMC のバーン・リン（林本堅）が ArF で水を使う液浸を提案（液浸の考え自体は1984年の特許にもある）。水の屈折率 1.44（193nm）、2006年ごろ量産へ、NA 1.35（ASML XT:1900i、2007年出荷）に。2003年にインテルが157nm F2 レーザーを計画から外し（CaF2 レンズ材とレジストの問題）、業界は193nm 液浸へ傾いて157nm は主流から外れた"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "重（ステッパーに超純水）",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAiUlEQVR42mNgoBAwYhO0KOv6j038RFcZhnoWbBpLkiKw2tbDwPAf3SBGZM24NGIYNG8F3BAmSsOACdl/PfNWkGQ7hgsIGYKuGasXcBmCTTNeYFHW9X/NjUf/19x49B9XtGJNB10uav/xGVy25xZuLxDSjE0NC7KTlYhMBxbzVvyHhQcLekCNQAAAuyVDvtAdMTwAAAAASUVORK5CYII="
+}

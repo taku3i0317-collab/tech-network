@@ -1,0 +1,66 @@
+{
+ "id": "3-11",
+ "history": {
+  "name": "光高温計",
+  "name_en": "Optical pyrometer",
+  "kind": "tech",
+  "trunk": "3",
+  "trunk_name": "熱",
+  "year": 1901,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "熱い物の色と、電球のフィラメントの色を比べて温度を測る",
+  "hee1_en": "It measures temperature by comparing the color of a hot object with the color of a light bulb filament.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-28"
+    ]
+   ],
+   [
+    [
+     "7-01",
+     "7-03"
+    ]
+   ],
+   [
+    [
+     "4-07"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-31"
+  ],
+  "frontier": false,
+  "real": "1901 ホルボルンとクルルバウム（消失フィラメント型）。熱い物の色と、電流で光らせたフィラメントの色を重ね、フィラメントが見えなくなる電流から温度を読む。根拠は1900 プランクの放射則"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "熱電対が溶ける 1600℃超の炉用（アーク炉・CZ炉・アチソン炉）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAi0lEQVR42uWSMQ6DMAxFXyQmjgQZMiOPHALlQBWHYIyYMyCOxBoGZARKYapKpf7Jw/v2t2X4P00v0ncbVU5S5eQSLhS6AhoRxhCyydZj9gYKurIDIC49ruyIS5/FrqXdaoZkPaY4Amp4Z75dATjFHBEg7MlU1mMmhnyFOQZzM+R0HzU+9w8fe6Tf0QqCVjOW9azMIgAAAABJRU5ErkJggg=="
+}

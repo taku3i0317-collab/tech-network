@@ -1,0 +1,61 @@
+{
+ "id": "2-40",
+ "history": {
+  "name": "アセトン",
+  "name_en": "Acetone",
+  "kind": "tech",
+  "trunk": "2",
+  "trunk_name": "化学",
+  "year": 1915,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "ワイツマンは後にイスラエルの初代大統領になった",
+  "hee1_en": "Weizmann later became the first president of Israel",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "2-23",
+     "0-11"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "Ca(CH3COO)2→CaCO3+(CH3)2CO（乾留）。1915 ワイツマンがクロストリジウム菌の ABE 発酵を開発（英国の無煙火薬コルダイト用）"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "軽",
+  "missing": "",
+  "item": "acetone",
+  "recipes": [
+   "かまど：酢酸カルシウム（酢酸石灰） を焼く → アセトン"
+  ],
+  "machine_recipes": [],
+  "placeholder": "近似：炭酸カルシウム（副産物）は回収しない。",
+  "game_text": "酢酸カルシウムの乾留",
+  "hee_game": {
+   "note1": "マニキュアを落とす液の成分。いろいろな物をよく溶かし、すぐ乾く。",
+   "note2": "酢酸カルシウムをかまどで焼いて作る。ビスフェノールA（エポキシ樹脂 [2-41]）の原料、レジスト除去・器具洗浄の溶剤。⚠ GHS：引火性・眼刺激性・特定標的臓器毒性（眠気）。",
+   "note3": "酢酸カルシウムを熱すると分解して、炭酸カルシウムとアセトンになる：Ca(CH3COO)2 → CaCO3 + (CH3)2CO。アセトンはいちばん小さいケトンで、水とも油ともよく混ざる。",
+   "note4": "第一次世界大戦で無煙火薬（コルダイト）の溶剤のアセトンが足りなくなり、ワイツマンが菌の発酵（ABE 発酵）で作る方法を開発した（1915）。彼はのちにイスラエルの初代大統領になった。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAVklEQVR42mNgGNTAxa/rv4tf1398apgotYRiA1hwOf2LBgNDRlIEAwMDA8MXDYb/PDcYGPZsKmMk2gUlUM3o7MEXBqMG0CohMTAwMPTMW4HC56FVhgMArQwRykfVa/IAAAAASUVORK5CYII="
+}

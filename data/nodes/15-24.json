@@ -1,0 +1,53 @@
+{
+ "id": "15-24",
+ "history": {
+  "name": "ダイナミックマイク",
+  "name_en": "Dynamic microphone",
+  "kind": "tech",
+  "trunk": "15",
+  "trunk_name": "通信・情報",
+  "year": 1931,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "カラオケのマイクは、スピーカーを逆向きに使っているのと同じしくみ（S-004 で追加。出典：mixonline.com、en.wikipedia.org）",
+  "hee1_en": "A karaoke microphone works the same way as a speaker used in reverse. (Added in S-004. Sources: mixonline.com, en.wikipedia.org)",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "15-19"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "膜につけた銅線のコイルが、磁石のすき間で音といっしょに動くと、電磁誘導で電気が生まれる。スピーカーを逆に使うのと同じしくみ。1931年、ベル研究所のエドワード・ウェンテとアルバート・スラースが、最初の商用ダイナミックマイク「618A」を出した（ジュラルミンの膜とコバルト鋼の磁石）。じょうぶで電源が要らないので、今もカラオケやライブで使われる"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAf0lEQVR42mNgoCWwcvD5b+Xg8x+fGiZcGtXUtP57+fgwvHl2D69BjLgM8PLxQRFbNGsSw61b1xiJcsGbZ/fgmmC0iJQS8V6AKY5Ly4PTMEOJMgDddmRDiQoDBgYGBjU1LZRAw+Z/vC4gRjPRBpCcDgaXAfj8TxCgxwRNvEAxAABn5y9uiFnsHAAAAABJRU5ErkJggg=="
+}

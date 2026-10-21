@@ -1,0 +1,66 @@
+{
+ "id": "I-07",
+ "history": {
+  "name": "電気アークのしくみ",
+  "name_en": "How the electric arc works",
+  "kind": "idea",
+  "trunk": "I",
+  "trunk_name": "発見・考え方",
+  "year": 1899,
+  "year_range": "1895〜1902",
+  "year_uncertain": false,
+  "hee1": "アークのシューという音は、炭素が空気の酸素と反応する音だった",
+  "hee1_en": "The hissing sound of an arc turned out to be carbon reacting with oxygen in the air.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://en.wikipedia.org/wiki/Hertha_Ayrton",
+   "https://english-heritage.org.uk/visit/blue-plaques/hertha-ayrton"
+  ],
+  "refs": [],
+  "people": [
+   {
+    "name": "ハータ・エアトン",
+    "tool": "⚡ 炭素のアーク",
+    "year": "1895〜1902",
+    "intro": "アークのシューという音は炭素と酸素の反応だと突き止めた。1899年、イギリス電気技術者協会（IEE）の初の女性会員",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACH0lEQVR42mNkIBFoyYn+52JnwSr37ecfhmuPXjOSYh4LAxlAiJcLhwM+kWwWE8MAg6HlAC050f8yInw45WVE+Bi05ET/k2Im0QnGRFXyv7KkEIb4+y8/MMSevPlEdGJkpIbPsQFiHcFEC8tJiY7BnQjJ9T0poUBSCCybVMuwbFItQXZTSSp1cgFyCMAsIAbcefSCoa5nNlGJkaSiOCqvGSU0cMlRLQQqkgP/BzibMzAwMDCoyEmQFAIwsGHvSYaOueupEwKchqEMepqaDJeuX2f4fn41TjmGR5OpVxTffYzwzffzqxk2TipCsRzmW2xyyHrJdoCyLGrQS4gI4FSLLoeulywHbNh7EjMq2Nng7JdvP2AVx6WXpDSAlHj+lyT6I6Li5y8GBgYGhgs3HjBwc3JgiBOT+EiuDSuSA1EcgQ/0zN9IlOVkN8kYGBgYDs/eisK3TfUmyxySGpDEhAIpvifZATBHiArxM8T7O6CIL9x4gOH1u48kWU4RqEgO/P/myIL/b44s+F+RHPifXHOIcq2oqATcgoqKIgYGBgaGuLgYFDWLFi2B5JyOPrjY69cvKMsFMIv5+BAFzIkT+/AaaGHhBGd/+vSBoENYiLWYHICk/z8uhzCSavHXr18YuLl5MELCwsIJLocLYAsRFmr6mJwQYYQ5gBjLCfmQWDWw0Hj9+gXjgLeKWdDjBxf4+fMHAzs7B0F10KBlYGfnIMoBACzg9SRmSIiiAAAAAElFTkSuQmCC"
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-07"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [
+   "3-15"
+  ],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "ハータ・エアトンが 1895〜96年に雑誌『The Electrician』で、炭素の電極で作るアーク（アーク灯）のシューという音は炭素と空気の酸素の反応が原因で、酸素を断つと安定したアークになると示した。1899年、この研究「電気アークのシュー音」をイギリス電気技術者協会（IEE）で発表（女性で初めて）し、同じ年に IEE 初の女性会員になった。1902年に本『The Electric Arc』、1906年に王立協会のヒューズ・メダル"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "実験：2本の炭素棒の間にアークを飛ばし、まわりの空気（酸素）を止めると、音が消えてアークが安定する",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAdElEQVR42mNgoBAw4pKwcvD5j8w/dmALVrVM+Ez38vFh8PLxwesCJgZaAisHn//oXiEKHJnG8B+ZRmeTbAg+zYy4NFv7hKCIHd2yhsEmC3esYTUEm1dIcj6u8KBqLLDg04yUiP6TlRKJASz4JLdt2cIw+AEA6qw3FEEdFTQAAAAASUVORK5CYII="
+}

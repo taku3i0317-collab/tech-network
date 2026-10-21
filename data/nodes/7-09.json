@@ -1,0 +1,89 @@
+{
+ "id": "7-09",
+ "history": {
+  "name": "干渉計",
+  "name_en": "Interferometer",
+  "kind": "tech",
+  "trunk": "7",
+  "trunk_name": "光学",
+  "year": 1881,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "光の波を物差しにすると、髪の毛の100分の1が測れる",
+  "hee1_en": "If you use light waves as a ruler, you can measure one hundredth of a hair.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "O17. 光の波を物差しにする（マイケルソン干渉計）［7-09］",
+    "answer": "半透明鏡で光を2つの道に分け、2枚の鏡で返して重ねると、道の長さの差で明暗の縞ができる。片方の鏡を d 動かすと往復で 2d 変わり、縞が 2d÷λ 本流れる。波長 λ を知っていれば、縞を数えるだけで長さが分かる（縞1本＝λ/2）。",
+    "hee": {
+     "1": "光の波を物差しにすると、髪の毛の100分の1が測れる。",
+     "2": "1887年のマイケルソン・モーリーの実験は「エーテルの風」を見つけられず、相対性理論の手がかりになった。",
+     "3": "1907年、マイケルソンはアメリカ人で初めてノーベル物理学賞（精密な光学機器と、それによる計測）。",
+     "4": "露光装置のステージはレーザー干渉計で nm の位置を測りながら動く。重力波の LIGO も腕 4km のマイケルソン干渉計。"
+    },
+    "certainty": "干渉の式 ◎／マイケルソン 1881・マイケルソン・モーリー 1887・ノーベル賞 1907 ◎／LIGO の腕 4km ◎／マイケルソンの半透明鏡が化学の銀めっき ○（当時の銀めっきの普及から）",
+    "basis": "- Wikipedia「Michelson interferometer」：https://en.wikipedia.org/wiki/Michelson_interferometer"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "7-05"
+    ]
+   ],
+   [
+    [
+     "7-03"
+    ]
+   ],
+   [
+    [
+     "5-14"
+    ]
+   ],
+   [
+    [
+     "7-10"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1881 マイケルソンの干渉計、1887 マイケルソン・モーリーの実験（エーテルが見つからない＝相対論の前触れ）。光の波長（約0.5μm）を物差しにして長さを測る"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "実験（光の波で長さを測る）",
+  "missing": "",
+  "item": "interferometer",
+  "recipes": [
+   "作業台：半透明鏡 ＋ スペキュラム鏡×2 ＋ 送りねじ ＋ 鉄インゴット×2 → マイケルソン干渉計",
+   "作業台：半透明鏡 ＋ 銀鏡×2 ＋ 送りねじ ＋ 鉄インゴット×2 → マイケルソン干渉計"
+  ],
+  "machine_recipes": [],
+  "placeholder": "近似：緑の線だけを取り出すフィルター（色ガラス）は省略。送りねじ1回転＝0.5mm はゲームの値。マイケルソンの半透明鏡は化学の銀めっきだったが、ここでは真空蒸着で作る（年が後になる⚠️）。",
+  "game_text": "",
+  "hee_game": {
+   "note1": "光を2つに分けてまた重ね、光の波を物差しにして、髪の毛の100分の1より小さい長さを測る道具。",
+   "note2": "半透明鏡＋スペキュラム鏡×2＋送りねじ＋鉄×2。点灯中の水銀灯を右クリック → 緑の線（546.1nm）で、送りねじを1回転（0.5mm）回すと縞が何本流れるかと、そこから求めた長さが出る。",
+   "note3": "1881年、マイケルソンはこの干渉計を作り、1887年にモーリーと「エーテルの風」を測ろうとしたが見つからなかった。これがのちの相対性理論の手がかりになった。1907年、マイケルソンはアメリカ人で初めてノーベル物理学賞を受けた。",
+   "note4": "鏡を d 動かすと光の道は往復で 2d 変わり、縞が 2d÷λ 本流れる。縞1本＝波長の半分（約0.27μm）。今の露光装置のステージは、レーザー干渉計で nm の位置を測りながら動く。重力波を見つけた LIGO も、長さ 4km の巨大なマイケルソン干渉計。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAATUlEQVR42mNgGAUUA0Z0ARe/rv/4NOzZVIaihwVdc0iIFyFL/yMbAmdEhAX993BzIsrZO3btY1ixah0jAwMDAxOlYTDwBrCg+20UkA4AsdYTMulW1EcAAAAASUVORK5CYII="
+}

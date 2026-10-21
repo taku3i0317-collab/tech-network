@@ -1,0 +1,105 @@
+{
+ "id": "9-16",
+ "history": {
+  "name": "熱拡散",
+  "name_en": "Thermal diffusion",
+  "kind": "tech",
+  "trunk": "9",
+  "trunk_name": "半導体プロセス",
+  "year": 1954,
+  "year_range": "1954〜55",
+  "year_uncertain": false,
+  "hee1": "1000℃で何時間も焼くと、原子が固体の中を少しずつ歩く",
+  "hee1_en": "Bake at 1000°C for hours, and atoms walk little by little through the solid.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "8. シリコンが勝った理由（熱酸化・酸化膜マスク）［9-15］［9-16］",
+    "answer": "シリコンを酸素の中で約1000℃に熱すると、表面にきれいなガラス（SiO₂）の膜ができる。この膜はドーパントを通さないので、膜に窓を開けたところだけに元素をしみ込ませられる。1955年にベル研究所のフロッシュとデリックが発見し、1957年に発表した。",
+    "hee": {
+     "1": "シリコンは、自分の体からガラスのよろいを作れる。",
+     "2": "このよろいを「型紙」にして、決めた場所だけに不純物を入れられる。これがのちの IC（集積回路）の基本。",
+     "3": "ゲルマニウムの酸化物は水に溶けてしまい、よろいにならない。トランジスタはゲルマニウムで始まったのに、シリコンに主役が移った大きな理由。",
+     "4": "発見は偶然と伝えられている。拡散炉で不純物を運んでいた水素に火がつき、できた水蒸気で板がガラスの膜におおわれた（Howard Huff の聞き取り）。きっかけを「管のもれ」とする回想（Mason Clark）もあり、細部は ⚠️。"
+    },
+    "certainty": "1955年発見・1957年発表 ◎（コンピュータ歴史博物館、ECS Interface 2007）／水素の火の話 ○（ただし回想に食い違いあり ⚠️）／Deal–Grove の定数 ◎（原論文と教科書の表）／色見本 ○",
+    "basis": "コンピュータ歴史博物館「1955: Development of Oxide Masking」https://www.computerhistory.org/siliconengine/development-of-oxide-masking/ 、ECS Interface 2007 秋号 https://www.electrochem.org/dl/interface/fal/fal07/fall07_p36-41.pdf 、Howard Huff「Transistors to integrated circuits」https://www.chiphistory.org/exhibits/ex_howard_huff_transitors_integrated_circuits/howard_huff_section2.pdf 、Mason Clark「Silicon Burns」https://smecc.org/silicon_burns_-_by_mason_clark.htm 、Deal & Grove, J. Appl. Phys. 36, 3770 (1965)、Pliskin & Conrad, IBM J. Res. Dev. 8, 43 (1964)（すべて英語）"
+   },
+   {
+    "title": "8a. 表面にしみ込ませる（熱拡散）［9-16］",
+    "answer": "シリコンの板を高温にしてドーパント（ホウ素やリン）の蒸気に当てると、原子が表面から少しずつ中へ入り、表面に反対の型の薄い層ができる。その境目が p-n 接合。",
+    "hee": {
+     "1": "焼くだけで、板の表面だけが別の種類のシリコンになる。",
+     "2": "原子は固体の中でも、高温なら少しずつ歩いていく（拡散）。",
+     "3": "1954年の太陽電池は、ヒ素で n型にした板にホウ素を拡散した。その前のリチウムで作った電池は、リチウムが室温でも動いて接合がずれていった。",
+     "4": "1955年からは酸化膜のマスクで、決めた窓の部分だけに拡散できるようになった（熱酸化 [9-15]）。1954年の電池は板全体に拡散した。"
+    },
+    "certainty": "仕組み ◎／1954年のヒ素の板＋ホウ素 ◎（ETHW・コンピュータ歴史博物館・Perlin の本の要約）／拡散の温度・時間 △（未確認）",
+    "basis": "ETHW「IEEE マイルストーン：最初の実用太陽電池 1954」、PVEducation「Early Silicon Cells」、コンピュータ歴史博物館「1954 拡散法の開発」https://www.computerhistory.org/siliconengine/diffusion-process-developed-for-transistors/（すべて英語）"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "9-12"
+    ]
+   ],
+   [
+    [
+     "9-11"
+    ]
+   ],
+   [
+    [
+     "4-12"
+    ],
+    [
+     "3-14"
+    ]
+   ],
+   [
+    [
+     "7-02"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1954 フラーが、ヒ素で n型にしたシリコンの板にホウ素をしみ込ませ、表面に薄い p型の層を作った（太陽電池、ETHW・Perlin）。1954〜55 ベル研（フラー、タネンバウムら）の拡散型トランジスタ（1954 リーが Ge で、1955年3月 タネンバウムとトーマスが Si で）。高温でドーパントを表面から数µm しみ込ませる（フィックの法則）。酸化膜の窓の部分だけに入れる方法（マスク）は 1955 の熱酸化から（IMP-25 Q25-1：1954年はマスクなしで板全体に拡散したので、前提から熱酸化を外した）"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "重",
+  "missing": "",
+  "item": "diffusion_furnace",
+  "recipes": [
+   "作業台：耐火れんが（珪石れんが）×6 ＋ 石英管 ＋ 電気炉 ＋ 銅ケーブル → 拡散炉"
+  ],
+  "machine_recipes": [
+   "拡散炉「p-n 接合」：シリコンの板×8（n型 か p型） ＋ 三酸化二ホウ素（白リンも可、板と反対の型） → p-n 接合の板×8（5 kW × 120 秒＝600 kJ）。ドーパントが表面からしみ込む（1954：n型＋ホウ素）"
+  ],
+  "placeholder": "省略：⚠️ 温度（約1000℃）・電力（5kW）・時間（120秒、本物は何時間も）は出典で未確認のゲームの値。1954年の土台はヒ素の n型だが、ヒ素はまだないので同じ V族のリンを使う。運び役のガスは省略。",
+  "game_text": "拡散炉（ROADMAP v0.2b #8）",
+  "hee_game": {
+   "note1": "シリコンの板を焼いて、表面にホウ素やリンを少しだけしみ込ませる炉。",
+   "note2": "電気 5kW。シリコンの板8（n型 か p型）＋反対の型のドーパント源1 → p-n 接合の板8（120秒）。n型の板には B2O3（ホウ素で表面が薄い p型、1954年の電池と同じ）、p型の板にはリン。ドーパントなし・同じ型の板では接合ができないので動かない。（本物の 1954年の土台はヒ素の n型。ゲームは同じ V族のリン）",
+   "note3": "高温では、ドーパントの原子が表面から固体の中へ少しずつ歩いていく（拡散、フィックの法則）。表面に反対の型の薄い層ができ、土台との境目が p-n 接合になる。太陽電池とトランジスタの心臓部。",
+   "note4": "1954年、フラーはヒ素で n型にしたシリコンにホウ素を拡散して、最初の実用的な太陽電池を作った。それより前のリチウムで作った電池は、リチウムが室温でも動いてしまい不安定だった。1955年からは酸化膜のマスクで、決めた窓だけにドーパントを入れられるようになった。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAbklEQVR42mOMCAv6z0ABYMImaPPjHmUGHOFQoswAsrxg8+MeUU5HV8MCE4Q5m5AhyOqOcChBXECKn9ENYiI39LGGATkuYSIn6iiKRpg3YTQLOYkI2btMpMQ5siUwObx5AZ9r8LqA2ERF0AvEhAcAJ9gxNeFjg0kAAAAASUVORK5CYII="
+}

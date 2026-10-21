@@ -1,0 +1,63 @@
+{
+ "id": "8-40",
+ "history": {
+  "name": "ガス溶接・ガス切断",
+  "name_en": "Gas welding and cutting",
+  "kind": "tech",
+  "trunk": "8",
+  "trunk_name": "精密・計測",
+  "year": 1903,
+  "year_range": "1895〜1903",
+  "year_uncertain": false,
+  "hee1": "酸素とアセチレンの炎は約3100℃で、鉄をバターのように切れる ⚠️（O-012 で追加。出典：Wikipedia「Oxy-fuel welding and cutting」「Edmond Fouché」、Linde「A Look at The History of Welding」（https://www.lindedirect.com/blogs/industrial-guides/industrial-guides/2024/01/30/a-look-at-the-history-of-welding））",
+  "hee1_en": "An oxygen-acetylene flame is about 3100°C and cuts iron like butter ⚠️ (added in O-012. Sources: Wikipedia \"Oxy-fuel welding and cutting\", \"Edmond Fouché\", Linde \"A Look at The History of Welding\" (https://www.lindedirect.com/blogs/industrial-guides/industrial-guides/2024/01/30/a-look-at-the-history-of-welding))",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "B-14"
+    ]
+   ],
+   [
+    [
+     "6-07"
+    ]
+   ],
+   [
+    [
+     "3-15"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "アセチレンを純粋な酸素で燃やすと約3100℃の炎になる（1895年、ル・シャトリエが報告）。1903年、フランスのエドモン・フーシェとシャルル・ピカールがトーチ（吹管）を作り、鉄を溶かしてつないだり、酸素を吹きつけて鉄を燃やしながら切ったりできるようになった。空気分離（[6-07]）で純酸素が安くなり、溶解アセチレン（[B-23]）で運べるようになって広まった。鉄骨や船の切断と解体に使われる"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAApklEQVR42s2SsQ3CMBBF3yEqRgoUrpFLlBkiBmAIDxBlCMpTahchI6U1BbJiQoIMigRXnaz7T//+Gf6iCmNDYWz4RruNjSuVCw9I71U+BvihwZUVfmgAskGbONiqRjFHa7NXkGkWKaBVpfcq8X3OkSyFmkJib3YVAIfzqJN3l0khrlT29gTATa9PkOzzdjWhqwmr/iGZBphbL4HOAZYsp7PrOfhZ3QFV6k5JDgJ6BgAAAABJRU5ErkJggg=="
+}

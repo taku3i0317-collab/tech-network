@@ -1,0 +1,58 @@
+{
+ "id": "8-39",
+ "history": {
+  "name": "アーク溶接",
+  "name_en": "Arc welding",
+  "kind": "tech",
+  "trunk": "8",
+  "trunk_name": "精密・計測",
+  "year": 1881,
+  "year_range": "1881〜1907",
+  "year_uncertain": false,
+  "hee1": "アーク溶接の光はとても強いので、溶接する人は黒い面で目を守る（O-012 で追加。出典：Wikipedia「Arc welding」、ASME Landmark #44）",
+  "hee1_en": "The light from arc welding is so strong that welders protect their eyes with a dark mask. (Added in O-012. Sources: Wikipedia \"Arc welding\", ASME Landmark #44)",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "4-16"
+    ]
+   ],
+   [
+    [
+     "4-05"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "電極と金属の間に電気のアーク（火花の連続）を作り、その熱で金属を溶かしてつなぐ。1881年、ロシアのニコライ・ベナルドスが炭素の電極でアーク溶接をパリの電気博覧会で発表し（特許1887年）、1888年にニコライ・スラヴャノフが金属の棒を電極にした。1904〜07年、スウェーデンのオスカー・シェルベリが、金属の棒に被覆を付けてアークを安定させる溶接棒を作った。リベットに代わって鉄骨・船・ボイラー・真空容器を組むのに使われる（ASME ランドマーク #44 の溶接ボイラー、1930年）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAiUlEQVR42mNgoBAwwhhWDj7/YexjB7YwEmsACzKnK2wLw4FvMxgYGBj+E2sIigEHvs1gcODKYGDwId4QFjRn/2fwIc0QFBeQYwgLugCphrBgE0Q2hCJg5eDzHzl6yTaEbM1HpjH8R6ZJ1vz/Uch/ZBpnUsbmTC8fHwzF27ZswQhsFlwuQFc8eAEAzZ1R0+1Ovg4AAAAASUVORK5CYII="
+}

@@ -1,0 +1,58 @@
+{
+ "id": "4-27",
+ "history": {
+  "name": "誘導コイル",
+  "name_en": "Induction coil",
+  "kind": "tech",
+  "trunk": "4",
+  "trunk_name": "動力・電気",
+  "year": 1836,
+  "year_range": "1834〜1851",
+  "year_uncertain": false,
+  "hee1": "電池1つから、雷のような何万ボルトの火花を作れる（O-006 で追加。出典：IEEE Milestones「Callan's Pioneering Contributions 1836」、Wikipedia「Induction coil」）",
+  "hee1_en": "From a single battery it can make lightning-like sparks of tens of thousands of volts. (Added in O-006. Sources: IEEE Milestones \"Callan's Pioneering Contributions 1836\", Wikipedia \"Induction coil\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "10-01"
+    ]
+   ],
+   [
+    [
+     "4-13"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "鉄心に、太い線を少し巻いた一次コイルと、細い線をたくさん巻いた二次コイルを重ね、一次の電流を断続器で何度も急に切ると、電磁誘導で二次側に何万ボルトもの高い電圧が出て火花が飛ぶ。1836年、アイルランドのメイヌースの司祭で科学者のニコラス・カランが最初の誘導コイルを作り（IEEE マイルストーン）、同じころアメリカのチャールズ・グラフトン・ペイジも独立に作った。1851年ごろハインリッヒ・ルームコルフが改良して売り出し、実験室に広まった。ヘルツの電波の実験（[15-06]）やレントゲンの X 線の発見（[B-03]）の火花・放電はこれで作った"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAgklEQVR42mNgoBXoclH7j42NDpgotYiJkO2EXMHCwMDAYOXggyL5y8OHgYGBgcHqz5b/2PgwcOzAFkZGmAEBLLdIcvqGP2oMxw5sYWRBtbmIKM1sO/qoF4gsuEwm2YANf9QYvHx8GLZt2YJXA1416LFBjBoWYjViM+TYgS2MDKOAAQAvuTFDdqtJCwAAAABJRU5ErkJggg=="
+}

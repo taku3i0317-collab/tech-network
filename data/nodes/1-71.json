@@ -1,0 +1,58 @@
+{
+ "id": "1-71",
+ "history": {
+  "name": "熱処理",
+  "name_en": "Heat treatment",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": 1930,
+  "year_range": "古代〜1930",
+  "year_uncertain": false,
+  "hee1": "同じ鋼でも、冷やす速さを変えるだけで硬さがまったく変わる（O-012 で追加。出典：Wikipedia「Quenching」「Isothermal transformation diagram」、Davenport & Bain「Transformation of austenite at constant subcritical temperatures」Trans. AIME 90 (1930)（https://doi.org/10.1007/BF02643420））",
+  "hee1_en": "The same steel can become totally different in hardness just by changing how fast you cool it (added in O-012. Sources: Wikipedia \"Quenching\", \"Isothermal transformation diagram\", Davenport & Bain \"Transformation of austenite at constant subcritical temperatures\" Trans. AIME 90 (1930) (https://doi.org/10.1007/BF02643420))",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-26"
+    ]
+   ],
+   [
+    [
+     "3-09"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "鋼を赤く熱してから水や油で急に冷やす（焼入れ）と、硬い組織（マルテンサイト）になる。少し温め直す（焼戻し）と粘りが出て、ゆっくり冷ます（焼なまし）と柔らかくなる。焼入れは古代からあり、1890年代にマルテンスやオスモンドが組織に名前を付けた。1930年、アメリカのエドガー・ベインとエドマンド・ダヴェンポートが、温度と時間で組織がどう変わるかを表す図（恒温変態図）を作り、狙った硬さを計算で決められるようになった。熱で原子を動かして欠陥を直す考えは、半導体のアニール（[9-29]）と同じ"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAYElEQVR42mNggAKLsq7/hNgEAVUMQQZWDj4ENTLh0+zl40PQECYGCsFwMcDKwec/MSGOTS0LjOHl48PAwMDwH42PVXzbli0MGAYga0IHuMSpEgaMpKQ6GDh2YAsjw/ABAGiQKA9VW5umAAAAAElFTkSuQmCC"
+}

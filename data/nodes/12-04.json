@@ -1,0 +1,56 @@
+{
+ "id": "12-04",
+ "history": {
+  "name": "鉄骨構造",
+  "name_en": "Steel frame construction",
+  "kind": "tech",
+  "trunk": "12",
+  "trunk_name": "建築・土木",
+  "year": 1779,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "エッフェル塔は夏と冬で高さが十数cm 変わる",
+  "hee1_en": "The Eiffel Tower's height changes by more than ten centimeters between summer and winter.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-09"
+    ],
+    [
+     "1-26"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1779 英国アイアンブリッジ（鋳鉄の橋）、1885 シカゴのホーム・インシュアランス・ビル（初の鉄骨高層ビル⚠️）、1889 エッフェル塔（錬鉄）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "高い建物の骨組み",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAgklEQVR42sVTMQ7AIAg8jK9ycm58LnF28lt2KYkSLa2Ll5gIiHInAKdBsgkxtT+JtTABgJsFZAHAldLg1+ed9VJmRi1Mqwrdn5JDTE0qEvjeeIJN2YNPw78JJImKe1tSsPh+1mDF16SgNVjpkpnnFwiFnm/fB6YGR/qAduZg8t37uAG+fE+W5uYJ8AAAAABJRU5ErkJggg=="
+}

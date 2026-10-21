@@ -1,0 +1,63 @@
+{
+ "id": "I-20",
+ "history": {
+  "name": "超伝導の発見",
+  "name_en": "Discovery of superconductivity",
+  "kind": "idea",
+  "trunk": "I",
+  "trunk_name": "発見・考え方",
+  "year": 1911,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "冷やしていくと、電気の流れをじゃまするものが突然まったく無くなる金属がある",
+  "hee1_en": "Some metals, as they are cooled, suddenly lose everything that blocks the flow of electricity.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://ethw.org/Milestones:Discovery_of_Superconductivity,_1911",
+   "https://www.nobelprize.org/prizes/physics/1913/summary/"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "6-15"
+    ]
+   ],
+   [
+    [
+     "1-45"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [
+   "8-25"
+  ],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1908年にヘリウムを液体にしたライデン（オランダ）のヘイケ・カメルリング・オネスのチームが、1911年4月8日、水銀を約3K（−270℃）まで冷やすと電気抵抗がほぼゼロになることを見つけた（1913年ノーベル物理学賞）。測定はヒレス・ホルスト、低温の装置はコルネリス・ドルスマンとヘリット・ヤン・フリムが担った（IEEE マイルストーン「超伝導の発見 1911」）。水銀が選ばれたのは、純度を上げやすかったから。のちに超伝導の素子（ジョセフソン接合）が、電圧の標準やワット天秤（[8-25]）に使われる"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "実験：水銀の線を少しずつ冷やし、ある温度で電気抵抗が急に 0 になるのを見る",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAATklEQVR42mNgoAawcvD5T65eJlI1dLmo/e9yUftPlgswNJJiAE7NxBiAVzMhAwhqxmcAMZqZKE0CA28AC0mBRYukzEiJAccObGFkGHAAAKwRIAkqL9QXAAAAAElFTkSuQmCC"
+}

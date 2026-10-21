@@ -1,0 +1,53 @@
+{
+ "id": "13-01",
+ "history": {
+  "name": "石けんと手洗い",
+  "name_en": "Soap and handwashing",
+  "kind": "tech",
+  "trunk": "13",
+  "trunk_name": "医薬・衛生",
+  "year": 1847,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "手を洗えと言った医者は、生きている間は笑われた",
+  "hee1_en": "The doctor who told people to wash their hands was laughed at while he was alive.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "2-09"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1847 イグナーツ・ゼンメルワイス（ウィーン）が、医師が塩素水で手を洗うと産褥熱の死亡率が激減すると示したが、当時は認められなかった"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "解説＋石けんで「汚れ」状態を消す",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAbUlEQVR42mNgGGjASIwii7Ku/zD2ia4yFD1MxGqGaUQ2DKcGGMamAZ2P1QXozsRlGE4DsPkZ3SsDC5DDCMU5ampa/wlpvnXrGooeFmTNXl5+DCfYhDBt/PUOmfsf2RAWAooJAiaqJmVywmDgAQAPHTsEuXoCgwAAAABJRU5ErkJggg=="
+}

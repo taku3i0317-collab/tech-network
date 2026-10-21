@@ -1,0 +1,86 @@
+{
+ "id": "B-01",
+ "history": {
+  "name": "白熱電球",
+  "name_en": "Incandescent light bulb",
+  "kind": "product",
+  "trunk": "B",
+  "trunk_name": "枝",
+  "year": 1879,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "真空管は電球の中に板を1枚足したところから生まれた",
+  "hee1_en": "The vacuum tube was born from adding one metal plate inside a light bulb.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [
+   {
+    "name": "エジソン",
+    "tool": "💡 炭素フィラメント",
+    "year": "1879",
+    "intro": "1877年に錫はくの円筒に声を刻む蓄音機を、1879年に炭素フィラメントの電球を作った",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAB9ElEQVR42mNgGAUjHTCSojgqKuo/MeqWLVtGtLksxCosKCj47+3tjSF++/ZtbMr/E+sIRmJ9bmNjQ1LQHjlyhKiQYKKF5QwMDAw2NjZERRnTQCfCoeWAMD0uhjA9LoJsI4FP1HcAzAJi2VTPhgwMDAyrLn3DaRmynJEAlQqiiuTA/wHO5gwMDAwMKnISRBt659ELOHvD3pMMHXPXM1IlBDgNQxn0NDUZLl2/zvD9/GqccgyPJlMvDdx9jPDN9/OrGTZOKkKxHOZbbHLIesl2gLIsatBLiOCOYHQ5dL1kOWDD3pOYUcHOBme/fPsBqzguvSSlAaTE878k0R8RFT9/MTAwMDBcuPGAgZuTA0OcmMRHcnVckRyI4gh8oGf+RqIsJzkXIIPDs7ei8G1TvWnfICEmFEjxPckOgDlCVIifId7fAUV84cYDDK/ffSTJcopARXLg/zdHFvx/c2TB/4rkwP8MtGwTiopKwC2oqChiYGBgYIiLi0FRs2jREkjO6eiDi71+/YKyXACzmI8PUcCcOLEPr4EWFk5w9qdPHwg6hIVYi8kBSPr/43III6kWf/36hYGbmwcjJCwsnOByuAC2EGGhpo/JCRFGmAOIsZyQD4lVAwuN169fMA54o5QFPX5wgZ8/fzCws3MQVAcNWgZ2dg6iHAAArXDWuwMhk/gAAAAASUVORK5CYII="
+   },
+   {
+    "name": "スワン",
+    "tool": "💡 炭素フィラメント",
+    "year": "1879",
+    "intro": "1879年、エジソンと同じころに炭素フィラメントの電球を作った",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACLklEQVR42mNgGAUjHTCSori9vf0/MeoqKyuJNpeFWIUzZ878n5aWhiH+6NEjbMr/E+sIRmJ9HhUVBedzP96PVd1XWUc4e9myZUSFBBO1LEeXi4qKIirKmEhJA/gsJ0UN2Q6gBSDaAc+PLmeghVqiHaAiJ0GTEGAhRTFyKkePa2Q5hkfLqeOAiuRAsnIAck74eOfU/4656xmpEgKchqEMepqaDJeuX2f4fn41TjmGR5OpUxRXJAf+11WTZ1CWlYCngRdvPjBIiAjA1dx59AJD7s6jFwwMDAwMdx+/YLh86yEDvhAgmAiVZSUYJK0j4XGMbDk6gMlJWkcySFpHMijLSlCeCzbsPYkZFexscPbLtx+wiuPSS1IagAUdv4rZfwsLCwZdVoj495+/GBgYGBgu3HjAwM3JAVcPE4fVBfiCnuTquL29/X+qrSRmlsOSE2Yffk50lUx2ObA1PxVFznvibCT5ZbRrkMDKhXv37jEoKSlhqCG2GibLATBHvH79miE/Px/DYlJbQxSB9vb2/w8fPvz/8OHD/8Q21cgOAVFRCbgFFRVFDAwMDAxxcTEoahYtWgLJOR19cLHXr19QlgtgFvPxIQqffft24jXQyckdzv706QNBh7AQazE5AEn/f1wOYSTV4q9fvzBwc/MwnDixD0XcwsIJLocLYAsRFmr6mJwQYYQ5gBjLCfmQWDWw0Hj9+gXjgDdKWdDjBxf4+fMHAzs7B0F10KBlYGfnIMoBADmd8kh5Ry13AAAAAElFTkSuQmCC"
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "5-15",
+     "5-05"
+    ]
+   ],
+   [
+    [
+     "1-28"
+    ]
+   ],
+   [
+    [
+     "2-14"
+    ]
+   ],
+   [
+    [
+     "5-12"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-31"
+  ],
+  "frontier": false,
+  "real": "1879 エジソンとスワンの炭素フィラメント電球、1910 クーリッジの延性タングステン線、1913 ラングミュアがアルゴン封入（[6-07]）で長寿命化"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "明かりブロック（バニラの光源との比較）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAjklEQVR42mNgoBAw4pKwKOv6j8w/0VXGSJSJFmVd/9E14xPHaysxaphwKTwyjeE/NjY6YMElYZPFwAjTaJOFO6xY8DnX2icEwshaQ3y0IPvx/6OQ//8fhfwnJYxQFCIbQLRmZEOOTGP4f2QaA97oY8JnyAunRwwvnB7htQhvIErsk4Oyuhho5gKykvXgAgBiz0iQ/ayyeQAAAABJRU5ErkJggg=="
+}

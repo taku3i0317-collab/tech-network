@@ -1,0 +1,84 @@
+{
+ "id": "9-21",
+ "history": {
+  "name": "現像・ポストベーク",
+  "name_en": "Development and post-bake",
+  "kind": "tech",
+  "trunk": "9",
+  "trunk_name": "半導体プロセス",
+  "year": 1957,
+  "year_range": "1955〜57",
+  "year_uncertain": false,
+  "hee1": "写真の現像と同じ手順で回路を浮かび上がらせる",
+  "hee1_en": "The circuit is brought out with the same steps as developing a photograph.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "F20. 写真と同じ手順で模様を出す（現像・ポストベーク）［9-21］",
+    "answer": "露光したウェハーを薄いアルカリの水（ポジ型の現像液）に浸すと、光の当たったレジストだけが溶け、マスクの模様が浮かび上がる。すすいで熱板で温め（ポストベーク）、残ったレジストを固めてエッチングに耐えるようにする。",
+    "hee": {
+     "1": "写真の現像と同じ手順で、回路の模様を浮かび上がらせる。",
+     "2": "1955〜57年、ベル研のアンドラスとボンド、米陸軍のラスロップとナルが、コダックのレジストで写真製版を半導体に使った。",
+     "3": "ナトリウムは MOSFET の大敵なので、今の現像液は金属を含まない TMAH（2.38%）。",
+     "4": "ポジ型は光の当たった所が溶け、ネガ型（KPR・KTFR）は光の当たった所が残る（キシレンで現像）。"
+    },
+    "certainty": "現像のしくみ ◎（教科書）／1955〜57 の写真製版 ◎（コンピュータ歴史博物館）／TMAH 2.38% ◎／ポストベークの始まりの年 △",
+    "basis": "コンピュータ歴史博物館「1955: Photolithography Techniques Are Used to Make Silicon Devices」https://www.computerhistory.org/siliconengine/photolithography-techniques-are-used-to-make-silicon-devices/ 、Wikipedia「Photolithography」https://en.wikipedia.org/wiki/Photolithography （英語）"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "9-20"
+    ]
+   ],
+   [
+    [
+     "2-02"
+    ],
+    [
+     "2-08"
+    ],
+    [
+     "2-20"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "露光部（ポジ）or 未露光部（ネガ）を溶かして模様を出す → 加熱して固め、エッチングに耐えるように。現像で窓を開ける工程はベル研の1955〜57年から（コダックの KPR）。ポストベークの始まりの年は未確認"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "重",
+  "missing": "",
+  "item": "developer",
+  "recipes": [
+   "作業台：水酸化ナトリウム ＋ 水入りバケツ ＋ 空のガラス瓶×3 → 現像液（ポジ型）×3"
+  ],
+  "machine_recipes": [],
+  "placeholder": "近似：水は水バケツ（本物は純水で作る）。",
+  "game_text": "現像槽（ROADMAP v0.3 #4）",
+  "hee_game": {
+   "note1": "光が当たったレジストだけを溶かす、うすいアルカリの水。",
+   "note2": "水酸化ナトリウム 約1% の水溶液（ガラス瓶入り、使うと瓶が戻る）。作業台で 水酸化ナトリウム1＋水バケツ1＋空のガラス瓶3 → 3（バケツは戻る）。現像槽 [9-21] で使う。GHS：腐食性（目・皮膚）。",
+   "note3": "光が当たったポジ型レジストは、DNQ が分解して酸になっているので、アルカリと反応して溶ける。光が当たっていない所は溶けずに残る。",
+   "note4": "ナトリウムは酸化膜に入りこむと MOSFET の特性を狂わせるので、のちの工場は金属を含まない TMAH（2.38% の水溶液が標準）に変えた。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAVklEQVR42mNgoBAw4pKwKOv6j8w/0VWGVS0LNkE1Na3/Fr/eoYi9U9P6f+vWNUaiDGBgYGCwychC4W/btgmrOiZKw2DUgFEDcOYFNTWt/9jEsSXlgQcABmQTplF3y6kAAAAASUVORK5CYII="
+}

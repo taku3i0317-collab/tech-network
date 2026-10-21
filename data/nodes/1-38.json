@@ -1,0 +1,83 @@
+{
+ "id": "1-38",
+ "history": {
+  "name": "氷晶石の合成",
+  "name_en": "Synthetic cryolite",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": 1886,
+  "year_range": null,
+  "year_uncertain": true,
+  "hee1": "天然の氷晶石はグリーンランドでしか取れず、いまは化学で作る",
+  "hee1_en": "Natural cryolite was only found in Greenland, so today it is made by chemistry.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "F7. アルミを溶かす「お湯」（氷晶石）［1-38］",
+    "answer": "氷晶石（Na₃AlF₆）は約1000℃で溶け、その中にアルミナがよく溶ける。だからアルミナ（融点約2050℃）を約960℃で電気分解できる。天然の氷晶石はグリーンランドでしか取れず、今はフッ酸・水酸化アルミニウム・水酸化ナトリウムから合成する。",
+    "hee": {
+     "1": "天然の氷晶石はグリーンランドでしか取れず、いまは化学で作る。",
+     "2": "イヴィグトゥートの鉱山は1987年に掘りつくされた。",
+     "3": "6HF + Al(OH)₃ + 3NaOH → Na₃AlF₆ + 6H₂O。フッ素の化学がアルミを支えている。",
+     "4": "アルミ1トンを作るのに、氷晶石などのフッ化物が少しずつ失われる（数十 kg）。⚠️ 量は確かめていない。"
+    },
+    "certainty": "溶媒としての役目 ◎／イヴィグトゥート 1987 ◎（ブリタニカ）／合成の反応 ○（教科書）／合成の工業化の年 △",
+    "basis": "ブリタニカ「cryolite」https://www.britannica.com/science/cryolite 、ブリタニカ「Hall–Héroult process」https://www.britannica.com/technology/Hall-Heroult-process （英語）"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "2-10"
+    ]
+   ],
+   [
+    [
+     "1-14"
+    ]
+   ],
+   [
+    [
+     "6-05"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "天然氷晶石はグリーンランド・イヴィグトゥートのみ（1987枯渇）。合成: 6HF+Al(OH)3+3NaOH→Na3AlF6+6H2O"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "軽",
+  "missing": "",
+  "item": "cryolite",
+  "recipes": [
+   "作業台：フッ酸×3 ＋ 水酸化アルミニウム ＋ 水酸化ナトリウム×3 → 氷晶石"
+  ],
+  "machine_recipes": [],
+  "placeholder": "近似：作業台で混ぜる（本物は鉛やゴムを張った槽で反応させ、沈んだ結晶をこして乾かす）。",
+  "game_text": "[1-29]ホール・エルー法の電解浴",
+  "hee_game": {
+   "note1": "氷のように白くすきとおった石。アルミニウムを作るときの「お湯」になる。",
+   "note2": "Na3AlF6。作業台で フッ酸3（鉛の瓶は戻る）＋水酸化アルミニウム1＋水酸化ナトリウム3 → 氷晶石1（6HF + Al(OH)3 + 3NaOH → Na3AlF6 + 6H2O）。ホール・エルー法 [1-29] の電解浴。",
+   "note3": "アルミナは約2050℃でないと溶けないが、約1000℃で溶けた氷晶石の中にはよく溶ける。だから約960℃で電気分解できる。これがホール・エルー法の一番のアイデア。",
+   "note4": "天然の氷晶石は、グリーンランドのイヴィグトゥートでしかまとまって取れず、1987年に掘りつくされた。今は全部化学で作る（この作り方）。⚠️ 合成の工業化の年は確かめていない。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAqUlEQVR42mNgGPKAEZeEi1/X/y8aEDbPDQaGPZvKsKplwaU5oyuCgYGBgeHNqU8MIkl8DF80GP6f6MI0BEPAoqzrf0lSBFZXzShbgeESJnSbE3S8MDS+OfWJgYGBgSGjK4LBoqzrP04DvmgwMIiY8aFoYmBAiGEDTLgkkA1CNoxoA7DZjs0ggga8OfUJrxewxgJyQCJr7pm3ggE9KrEmDvSQhgFs6WAYAAAPeju+0P5qMQAAAABJRU5ErkJggg=="
+}

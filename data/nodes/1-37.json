@@ -1,0 +1,66 @@
+{
+ "id": "1-37",
+ "history": {
+  "name": "ニッケル",
+  "name_en": "Nickel",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": 1751,
+  "year_range": "1751〜1890",
+  "year_uncertain": false,
+  "hee1": "ニッケルは一酸化炭素と気体になり、熱するとまた純粋なニッケルにもどる",
+  "hee1_en": "Nickel becomes a gas with carbon monoxide, and when heated it turns back into pure nickel.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "C36. 金属が気体になる（ニッケルとモンド法）［1-37］",
+    "answer": "ニッケルは一酸化炭素と約50℃で結びついて気体のニッケルカルボニル Ni(CO)4 になり、約200℃に熱すると分解して純粋なニッケルにもどる。鉄や銅はこの温度では気体にならないので、ニッケルだけを取り出せる。1890年にルートヴィヒ・モンドたちが見つけ、1902年にイギリスのクライダックでカナダ・サドベリーの鈹を精製する工場を動かした。ニッケルは1751年にクロンステットが単離した。ニッケルカルボニルは猛毒。",
+    "hee": {
+     "1": "ニッケルは一酸化炭素と気体になり、熱するとまた純粋なニッケルにもどる。",
+     "2": "「ニッケル」は、銅がとれない鉱石を小鬼のせいにしたドイツの鉱夫の言葉から。",
+     "3": "サドベリーのニッケル鉱山は、約18億年前の隕石の衝突でできたくぼみにある。",
+     "4": "ニッケルは水素化の触媒（サバティエ 1897、ノーベル賞 1912）になり、ナイロンやマーガリンを作るのに使われる。"
+    },
+    "certainty": "モンド法 1890・クライダック 1902 ◎／クロンステット 1751 ◎／サドベリーの衝突（約18億年前）◎／名前の由来 ○",
+    "basis": "- Wikipedia「Mond process」：https://en.wikipedia.org/wiki/Mond_process"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-10"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1751 クロンステットが単離。1890 モンド法 Ni+4CO→Ni(CO)4（約50℃で気体化）→約200℃で分解して純Ni"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "重",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAgklEQVR42sVTQQ6AIAwbhFd58rz0uQtnT34LTxDAuWk0cUfSrt06iF5W0B6XFUV73zc54ZNGZOBKsMyNQk9mgLKIabliapPBQRax1Bumr9ira2DNEQNt3GgpMUDeWNEiz3PfbjATrN0kb9tOrGOMHrhPQY3xyR2op+y5mNU/+Qv/1wFi+FCJZC0tlwAAAABJRU5ErkJggg=="
+}

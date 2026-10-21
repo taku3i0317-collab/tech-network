@@ -1,0 +1,58 @@
+{
+ "id": "8-32",
+ "history": {
+  "name": "歯切り盤",
+  "name_en": "Gear cutting machine",
+  "kind": "tech",
+  "trunk": "8",
+  "trunk_name": "精密・計測",
+  "year": 1897,
+  "year_range": "1897〜1953",
+  "year_uncertain": false,
+  "hee1": "歯車を作る機械の歯車を、もっと正確に作り直すことをくり返して、正確さを上げていった（O-010 で追加。出典：日本機械学会「機械遺産 No.034」、Wikipedia「Hobbing」）",
+  "hee1_en": "Accuracy rose by remaking the gears of the gear-making machine more precisely, again and again (added in O-010. Sources: JSME \"Mechanical Engineering Heritage No.034\", Wikipedia \"Hobbing\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "8-01"
+    ]
+   ],
+   [
+    [
+     "8-02"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "ねじの形の刃物（ホブ）と歯車の材料を、決まった速さの比で一緒に回しながら削ると、歯の形が正しくそろった歯車が次々にできる。1897年、ドイツのヘルマン・プファウターがホブ盤を作った。日本では芝浦の親歯車ホブ盤 HRS-500（1953年）が、親歯車で歯車を切り、それよりも正確な親歯車を作り直すことをくり返して精度を上げた（機械遺産 No.034）。船のタービンの大きな減速歯車や自動車の変速機の歯車はこうして作る"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAcUlEQVR42mNgoCWwcvD5b+Xg8x+fGhZ8mr18fGDc/8cObGGkiQuYaOJvdBpdDBkwYtNMCCCHByOOQMMKtm3ZwoAemCzoCvABqAUoMcKCbDs2G9C9h24IC5Kf/hMTDuiWsGBxInlhgOwKqqcDUqKY/gAAYL5M5xBYXUoAAAAASUVORK5CYII="
+}

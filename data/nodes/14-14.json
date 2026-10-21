@@ -1,0 +1,58 @@
+{
+ "id": "14-14",
+ "history": {
+  "name": "電気鉄道",
+  "name_en": "Electric railway",
+  "kind": "tech",
+  "trunk": "14",
+  "trunk_name": "輸送",
+  "year": 1879,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "地下鉄は煙が出ない電気でないと無理だった",
+  "hee1_en": "Subways were only possible with smoke-free electricity.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "4-05"
+    ]
+   ],
+   [
+    [
+     "4-08"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1879 ヴェルナー・フォン・ジーメンスがベルリン工業博覧会で電気機関車を展示、1890 ロンドン地下鉄の電化"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "電力網で動くトロッコ",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAlUlEQVR42mNgoBAwMjAwMByZxvAfXcLaJ4Th6JY1OPkMDAwMNlkQ/VgBuqHYLCEIYJrI0kyszSwwhpWDD1aFB775MFg5bMGQO3ZgCyOKAQwMDAxdYVugmmYwOHBlwA1AFy9b5QPXw0RpNLKgOncGkewt2A2AgW1btmC1zcvHB7cLoIHyHzmAsAAMeUZ8MUAI4LFoRAEAtJ5DNrp0lHwAAAAASUVORK5CYII="
+}

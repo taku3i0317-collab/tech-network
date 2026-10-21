@@ -1,0 +1,91 @@
+{
+ "id": "5-10",
+ "history": {
+  "name": "真空計",
+  "name_en": "Vacuum gauge",
+  "kind": "tech",
+  "trunk": "5",
+  "trunk_name": "真空",
+  "year": 1874,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "何もない空間の「何もなさ」を、電線の冷え方で測る",
+  "hee1_en": "It measures the \"emptiness\" of empty space by how fast a wire cools down.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "E9. 空気を抜く（真空ポンプ・真空計）［5-01］［5-10］［5-15］",
+    "answer": "真空を作る道具は3段階で進んだ。1643年トリチェリが水銀柱で真空を作り、1650年ごろゲーリケが手押しの空気ポンプを作り、1865年シュプレンゲルが水銀を落として気体を押し出すポンプで、ずっと低い圧力まで引いた。",
+    "hee": {
+     "1": "空気を抜いた2つの半球は、馬が何頭で引いても離れなかった（ゲーリケの「マクデブルクの半球」）。",
+     "2": "水銀の柱は約76cm で止まる。それより上は何もない空間＝真空。これが「気圧」の発見になった。",
+     "3": "シュプレンゲルのポンプは、エジソンやスワンの電球の空気を抜くのに使われた。真空が良くないと、フィラメントがすぐ燃えてしまう。",
+     "4": "手押しポンプは約1kPa、シュプレンゲルは約0.1Pa。ゲームで真空管の封止にシュプレンゲルが要るのは、この差のため（詳しくは SOURCES.md［5-15］）。"
+    },
+    "certainty": "1643・1865・1654年レーゲンスブルク帝国議会での公開実験・馬16頭（8頭ずつ2組）◎／ゲーリケのポンプ1650年 ○（Wikipedia のみ。1655年頃とする資料もある）／半球を馬で引いた年 △（1654年レーゲンスブルクとも1656年マクデブルクとも。1657年はショットの本の刊行年）",
+    "basis": "SOURCES.md［5-15］（シュプレンゲルの原論文 1865、Chemistry World）、Wikipedia「Otto von Guericke」https://en.wikipedia.org/wiki/Otto_von_Guericke 、Wikipedia「Magdeburg hemispheres」https://en.wikipedia.org/wiki/Magdeburg_hemispheres 、Physics Today https://physicstoday.aip.org/backscatter/magdeburg-hemispheres 、ガリレオ博物館 https://catalogue.museogalileo.it/indepth/MagdeburgHemispheres.html 、Spektrum https://www.spektrum.de/lexikon/physik/magdeburger-halbkugeln/9274 、OVGU https://www.kustodie.ovgu.de/Dezember2022.pdf"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "5-03"
+    ]
+   ],
+   [
+    [
+     "1-28"
+    ],
+    [
+     "1-20"
+    ]
+   ],
+   [
+    [
+     "4-03"
+    ]
+   ],
+   [
+    [
+     "5-02"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1874 マクラウド真空計（水銀で気体を圧縮して測る、基準器）。1906 マルチェロ・ピラニ：熱した細線の熱が気体に奪われる量で圧力を測る（中真空）。1916 バックリーの熱陰極電離真空計（電子で気体をイオン化し電流で測る、高真空）。1950 ベアード・アルパート型（超高真空）"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": "mercury_vacuum_gauge",
+  "recipes": [
+   "作業台：ソーダ石灰ガラス×2 ＋ 棒×3 ＋ 水銀 → 水銀真空計"
+  ],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {
+   "note1": "気圧は水銀76cmぶんの重さ。",
+   "note2": "片側を閉じた U字管に水銀を入れたもの（トリチェリの水銀柱 1643 と同じ原理）。真空容器に右クリック：水銀面の高さの差が圧力（mmHg）。1mmHg＝133Pa、1気圧＝760mmHg。差が 1mm 未満は目で読めない。",
+   "note3": "閉じた側の水銀の上は何もない「トリチェリの真空」、もう片側は容器につながっている。容器の気体が、その圧力（水銀何mm分）だけ水銀面を押し下げる。",
+   "note4": "もっと低い圧力には、マクラウド真空計（1874、気体を水銀で押し縮めて読む）、ピラニ真空計（1906、熱い細線の冷え方）、熱陰極電離真空計（1916、真空管と同じつくり）が生まれた。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAANklEQVR42mNgGAhgUdb1H8ZmokQzyQZYlHX9L0mKIN/Za248+o/uglHNo5oxDCBbM7Y0TjcAAMmIVOjGIrItAAAAAElFTkSuQmCC"
+}

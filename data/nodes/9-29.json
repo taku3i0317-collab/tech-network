@@ -1,0 +1,79 @@
+{
+ "id": "9-29",
+ "history": {
+  "name": "アニール",
+  "name_en": "Annealing",
+  "kind": "tech",
+  "trunk": "9",
+  "trunk_name": "半導体プロセス",
+  "year": 1980,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "金属の焼きなましと同じく、熱で原子が並び直す",
+  "hee1_en": "Just like annealing metal, heat lets the atoms line up again.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "F29. 打ちこんだ後に焼きなます（アニール）［9-29］",
+    "answer": "イオンを打ちこむと、結晶の原子がはじき飛ばされ、打ちこんだ原子もすき間に止まるので、そのままでは電気を運ばない。窒素やアルゴンの中で約1000℃ に熱すると、原子が並び直し、ドーパントが格子の位置に入って働きだす（活性化）。1980年代からは、ランプで数秒だけ熱する RTA が使われる。",
+    "hee": {
+     "1": "鉄の「焼きなまし」と同じことば（anneal）。熱で原子が並び直す。",
+     "2": "長く熱すると、ドーパントが決めた場所から広がってしまう。だから「短く・熱く」の RTA が生まれた。",
+     "3": "空気の中で熱すると表面が酸化するので、窒素やアルゴンで守る。",
+     "4": "今はミリ秒だけ熱するレーザーやフラッシュランプのアニールもある。"
+    },
+    "certainty": "注入の損傷と活性化に熱処理が要ること ◎／RTA が 1980年代に広まったこと ○（TECH_TREE の出典）",
+    "basis": "Wikipedia「Rapid thermal processing」https://en.wikipedia.org/wiki/Rapid_thermal_processing 、Wikipedia「Ion implantation」（Problems with ion implantation／Crystallographic damage）https://en.wikipedia.org/wiki/Ion_implantation （英語）"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "9-28"
+    ]
+   ],
+   [
+    [
+     "4-12"
+    ],
+    [
+     "7-10"
+    ]
+   ],
+   [
+    [
+     "6-07"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "加熱して結晶の傷を直し、ドーパントを格子の位置に収める（活性化）。1980年代〜ランプで数秒だけ加熱する RTA（拡散で広がるのを防ぐ）"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "重",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "アニール炉（ROADMAP v0.4 #3）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAY0lEQVR42mNgoAY4Mo3hPzk0igFHpjH8//8ohCSaKq5nxCZoZZWD1fRjx6ZgqGfBptHBwQuXhf/RDWJE1oxHIwo4cGAb3BAmqoYBIS8cOLCNAacXyA1EBqqlRIoSEsVJeWgDAJS5iLLw2zGZAAAAAElFTkSuQmCC"
+}

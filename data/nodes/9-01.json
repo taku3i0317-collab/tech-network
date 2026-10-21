@@ -1,0 +1,83 @@
+{
+ "id": "9-01",
+ "history": {
+  "name": "Ge 帯域精製",
+  "name_en": "Ge zone refining",
+  "kind": "tech",
+  "trunk": "9",
+  "trunk_name": "半導体プロセス",
+  "year": 1952,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "溶けた帯を何度も通すと、汚れが端に集まる",
+  "hee1_en": "Passing a molten band through many times gathers the impurities at one end.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "G4. 不純物を端に追い出す（帯域精製）［9-01］",
+    "answer": "棒の一部だけを溶かし、その溶けた帯をゆっくり端まで動かす。不純物の多くは固体より液体に残りやすいので、帯と一緒に端へ運ばれていく。これを何度もくり返すと、真ん中は驚くほどきれいになる。1952年、ベル研究所のプファンが発表した。",
+    "hee": {
+     "1": "溶けた帯が、ほうきのように不純物を端へはき寄せる。",
+     "2": "「固まるとき、不純物は液体のほうに残りたがる」という性質（偏析）を使っている。氷を作ると、真ん中に不純物が集まるのと似ている。",
+     "3": "これでゲルマニウムの純度は 10N 近く（100億個に1個の不純物）まで上がった。人類がそれまで作ったどんな物質よりも純粋だった。",
+     "4": "不純物ごとに「液体に残りたがる強さ」（偏析係数 k）が違う。k が1に近い不純物はほとんど動かないので、帯域精製だけでは取れない。ゲームでボートや経路によって上限が違うのはここに由来する。"
+    },
+    "certainty": "1952・原理 ◎（プファンの原論文、SOURCES.md）／到達純度 ○（SOURCES の要確認：10N 前後）",
+    "basis": ""
+   }
+  ],
+  "people": [
+   {
+    "name": "プファン",
+    "tool": "🔥 動く溶けた帯",
+    "year": "1952",
+    "intro": "1952年、溶けた帯を動かして不純物を端に集める帯域精製を考えた",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACRklEQVR42mNgGAUjHTCSolhLTvQ/MequPXpNtLksxCo0UZX8rywphCH+/ssPbMr/E+sIRmJ9LiPCR1LQPnnziaiQYKKF5QwMDAwyInxERRnTQCfCoeWAZZNqGZZNqiXIbipJpV42hKUBmAXEgDuPXjDU9cwmKiGykBICUXnNKKGBS45qIVCRHPg/wNmcgYGBgSF/4k4M+a298QwMDAwM3sULMeQm5rszMDAwMGzYe5KhY+56RqqkgX37tjC8eX6XYd++LXCLYZajy1EtEd59/ALOdnLyYRCRVGZwcvKBhwDMp+hy6HrJTgPKshIowY0NoMvdefQCrvfyrYeUhcCGvScxxDjZ2eDsl28/YBXHpZekEEBKPP9LEv3h4t9//mJgYGBguHDjAQM3JweGODGJj+TquCI5EMUR+EDP/I1EWU5yOYAMDs/eisK3TfWmfYOEmFAgxfckOwDmCFEhfoZ4fwcU8YUbDzC8fveRJMspAhXJgf/fHFnw/82RBf8rkgP/k2sOUWmgpaURwwIXJXaG/+puDAwMDAwBzi8YeBQNMNTU1NQzUuQAmMUREWFoRfJ+BgaGTwymtkkMHFxCDAtK9BjExEQZnJwcMdqGhBzCQorFKCWkaxwDR88lOPvS+g0YapD043QIC6kW79u3H5tPGZycHHHK4XMIC7EWIwN+fn6ixIhxCBMWSZJ9jx4KJDiE9EYpPp8SEwo408CKFavwKrxx4yaDhoY6w6JFS+BiH97cYWBgYEAR+/79O0NDQzODhoY6UQ4AAI1/9uDc+T0CAAAAAElFTkSuQmCC"
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-01"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [
+   "I-06"
+  ],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1952 ウィリアム・プファン（ベル研）。溶けた帯を何度も通すと不純物が液体側に集まり端へ運ばれる（偏析係数 k<1）"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": "refined_germanium",
+  "recipes": [],
+  "machine_recipes": [
+   "帯域精製炉「帯域精製（1パスで純度が1段上がる：6N→9N→10N）」：還元ゲルマニウム（未精製）（最大8） ＋ 粘土黒鉛ボート（減らない、粘土黒鉛＝9Nまで、人造黒鉛＝10Nまで） → 精製ゲルマニウム（3 kW × 30 秒＝90 kJ）。入れた数だけ出る。GeCl4 経由でない Ge は 9N まで"
+  ],
+  "placeholder": null,
+  "game_text": "ZoneRefiningFurnace",
+  "hee_game": {
+   "note1": "とても純粋なゲルマニウム。トランジスタの材料。",
+   "note2": "純度は結晶の中身の話。表面は手や空気ですぐ汚れるので、本物は使う直前に酸（CP-4液）で表面を削り取る。ゲームではまだ未実装。",
+   "note3": "帯域精製：たいていの不純物は固体より液体に溶けやすい（偏析係数 k < 1）。溶けた帯を同じ向きに何度も動かすと不純物が端に集まり、その端を切り捨てる。",
+   "note4": "1952年、ベル研のウィリアム・パンが考案した。数回のパスで不純物を100億分の1（10N）近くまで減らせ、トランジスタを量産できる材料が初めて手に入った。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAOUlEQVR42mNgGAUUA0YYQ01N6z8pGm/dusbIwMDAwIIs2LZpB1Gaq/w84GwmSr0wDAygOBZGAQMDAGQuCw9HHQsGAAAAAElFTkSuQmCC"
+}

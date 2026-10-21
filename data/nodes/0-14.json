@@ -1,0 +1,73 @@
+{
+ "id": "0-14",
+ "history": {
+  "name": "水運",
+  "name_en": "Water transport",
+  "kind": "tech",
+  "trunk": "0",
+  "trunk_name": "生存・道具",
+  "year": -8000,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "重い石や鉱石は、陸よりも水に浮かべて運ぶほうがずっと楽",
+  "hee1_en": "Heavy stones and ores are much easier to move floating on water than over land",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "S10. 重い物は水に浮かべて運ぶ（丸木舟）［0-14］",
+    "answer": "水は、沈んだ部分の体積の水の重さだけ押し上げる（浮力）。舟と荷の重さは水が支え、地面とこすれる摩擦もないので、こぐ力は水をかき分ける分だけで済む。だから鉄道ができるまで、重い物を遠くへ運ぶいちばん安い方法は川と運河だった。最初の舟は1本の丸太をくりぬいた丸木舟。",
+    "hee": {
+     "1": "重い石や鉱石は、陸よりも水に浮かべて運ぶほうがずっと楽。",
+     "2": "丸木舟は、丸太を火で焦がしては石の斧で削ってくりぬいた。",
+     "3": "知られている最古の舟はオランダのペッセの丸木舟（紀元前8040〜7510年ごろ）⚠️。",
+     "4": "古代エジプトはナイルの舟で巨石を運び、18世紀イギリスの運河では馬1頭が荷車の数十倍を運んだといわれる⚠️。"
+    },
+    "certainty": "浮力のしくみ ◎／ペッセの丸木舟の年代（放射性炭素）○、「最古」は見つかり方しだい → ⚠️／運河の輸送力の倍率 △ → ⚠️",
+    "basis": "- Wikipedia「Pesse canoe」：https://en.wikipedia.org/wiki/Pesse_canoe"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "0-08"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "丸木舟 約紀元前8000年（オランダ・ペッセ）、帆は紀元前3500年頃エジプト⚠️。重い鉱石・石材は陸より水で運ぶ方が桁違いに楽"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "実験＋作品",
+  "missing": "",
+  "item": "dugout_canoe",
+  "recipes": [
+   "作業台：logs×5 ＋ 磨製石斧 → 丸木舟"
+  ],
+  "machine_recipes": [],
+  "placeholder": "近似：形と動きはバニラのチェスト付きボートと同じ（荷物入れ＝くりぬいた中の空間）。",
+  "game_text": "決定：バニラのボートを「本物」として認める（丸木舟・帆の近似。新規不要）",
+  "hee_game": {
+   "note1": "重い石や荷物は、陸よりも水に浮かべて運ぶほうがずっと楽。",
+   "note2": "原木5＋磨製石斧（戻るが少し傷む）で作る。水に置いて乗れる。荷物入れがあり、石材の荷を積める。石材の荷を持って歩くと遅くなるが、舟に乗っていれば遅くならない。同じ荷を陸と水で運んで比べてみよう。",
+   "note3": "1本の太い丸太を、火で焦がしては石の斧や手斧で削ってくりぬいた舟。水は舟と荷の重さと同じだけ押し上げる（浮力）ので、重い荷も水が支えてくれる。陸のように地面とこすれないので、小さな力で進む。",
+   "note4": "オランダのペッセで見つかった丸木舟は、紀元前8040〜7510年ごろに作られた、知られているなかで最古の舟 ⚠️。日本でも縄文時代の丸木舟が各地で見つかっている。古代エジプトはナイル川の舟でピラミッドの巨石を運んだ。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAPklEQVR42mNgGAWjgIGBEZmTZKf0nxhN8w7dY0QxgFiN2AxiYWBgYNBgYyHbC0yUhgELAwMDw41ff0ZyOgAAOVQLDaByXGgAAAAASUVORK5CYII="
+}

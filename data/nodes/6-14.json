@@ -1,0 +1,88 @@
+{
+ "id": "6-14",
+ "history": {
+  "name": "フッ素ガス",
+  "name_en": "Fluorine gas",
+  "kind": "tech",
+  "trunk": "6",
+  "trunk_name": "ガス",
+  "year": 1886,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "フッ素は単離するまでに何人もの化学者が中毒になった「最も危険な元素」",
+  "hee1_en": "Fluorine is the \"most dangerous element\": several chemists were poisoned before it was isolated.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "O60. いちばん激しい元素を取り出す（フッ素）［6-14］",
+    "answer": "フッ素はすべての元素の中でいちばん電子を引きつけ、ガラスや水とも燃えるように反応する。何人もの化学者が失敗し体をこわしたあと、1886年モアッサンがフッ化カリウムを溶かしたフッ化水素を冷やして電解し、初めて取り出した（1906年ノーベル化学賞）。今は溶かした KF·2HF を電解し、フッ化物の膜で守られるニッケル・モネル・鋼の容器で扱う。",
+    "hee": {
+     "1": "フッ素はとても危ないので、工業でも専用の容器と仕組みで扱う。",
+     "2": "陽極でフッ素、陰極で水素が出るので、混ざらないように仕切る。",
+     "3": "露光用のエキシマレーザー（KrF・ArF）の光は、希ガスとフッ素から生まれる。",
+     "4": "フッ素の化合物（PTFE・フッ化物ガラスなど）は、半導体工場の配管や光学部品にも欠かせない。"
+    },
+    "certainty": "モアッサン 1886・1906 ノーベル賞 ◎／現代の KF·2HF 電解 ◎",
+    "basis": "- Wikipedia「Fluorine」：https://en.wikipedia.org/wiki/Fluorine"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "2-10"
+    ]
+   ],
+   [
+    [
+     "2-02"
+    ]
+   ],
+   [
+    [
+     "1-07"
+    ]
+   ],
+   [
+    [
+     "4-04"
+    ]
+   ],
+   [
+    [
+     "6-02"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-45"
+  ],
+  "frontier": false,
+  "real": "HF そのものは電気をほぼ通さないので、KF を溶かして電解する。1886 モアッサンが無水HF+KHF2 を白金のU字管で低温電解して単離（1906 ノーベル化学賞）。現代は溶融 KF·2HF（約100℃）を炭素陽極・鋼/モネル製セルで電解：陽極 2F⁻→F2、陰極 2H⁺→H2"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "重（事故あり）",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "[6-01]電解槽（energy/ConsumerBlockEntity）を参考にした別ブロック",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAeklEQVR42mNgoBAwYhO0cvD5j0382IEtGOpZsGmO0TuBwz6f/+iG4HSBl48Piti2LVuwuoARl9/QvYFNMwOxmvGFCwMpCrHJMeFSPC1P5D82NsFYgIGsSW8YYRqzJr0h3f/YXIDNCxS7gAWfa4hxOhOleYGF1KgcfAAA4c04M2ETTrMAAAAASUVORK5CYII="
+}

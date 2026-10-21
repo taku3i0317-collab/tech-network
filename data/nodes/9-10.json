@@ -1,0 +1,58 @@
+{
+ "id": "9-10",
+ "history": {
+  "name": "成長接合トランジスタ",
+  "name_en": "Grown-junction transistor",
+  "kind": "tech",
+  "trunk": "9",
+  "trunk_name": "半導体プロセス",
+  "year": 1951,
+  "year_range": "1950〜51",
+  "year_uncertain": false,
+  "hee1": "結晶を育てながら材料を混ぜて、中に3層を作った",
+  "hee1_en": "Materials were mixed in while the crystal was growing, making 3 layers inside",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "9-07"
+    ]
+   ],
+   [
+    [
+     "9-11"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1950〜51 ショックレー・スパークス・ティール（ベル研）。引き上げの途中で融液にドーパントを足し、結晶の中に n-p-n の層を作る。1954 TI のティールが初の Si トランジスタ（成長接合）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "CZ 機で「途中でドーパント投入」→ NPN（ROADMAP v0.2b #6）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAZklEQVR42mNgGGjAiC5gZZXzH5+GY8emoOhhwabIwcELq+YDB7ZhiDFR6gUMFwRw7WJgOLULq+IALgaGYzR3wYZvbgTC4BZ1XYDTAFiIHziwDWvo4wWwtICcJnClD9p5YegYQDEAAIzAHNvgV6JPAAAAAElFTkSuQmCC"
+}

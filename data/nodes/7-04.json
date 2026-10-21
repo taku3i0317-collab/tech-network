@@ -1,0 +1,115 @@
+{
+ "id": "7-04",
+ "history": {
+  "name": "屈折望遠鏡と色消しレンズ",
+  "name_en": "Refracting telescope and achromatic lens",
+  "kind": "product",
+  "trunk": "7",
+  "trunk_name": "光学",
+  "year": 1608,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "2種類のガラスを貼り合わせると、虹色のにじみが消える",
+  "hee1_en": "Gluing two kinds of glass together removes the rainbow-colored blur.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "O5. 2種類のガラスで色のにじみを消す（色消しレンズ・屈折望遠鏡）［7-04］",
+    "answer": "凸レンズ1枚では、色ごとに焦点の位置がずれる（色収差）。分散の小さいクラウンの凸レンズと、分散の大きいフリントの凹レンズを組み合わせると、曲げる力を残したまま2色の焦点をそろえられる（色消しレンズ）。これを対物レンズにすると、短くて明るい屈折望遠鏡になる。",
+    "hee": {
+     "1": "2種類のガラスを貼り合わせると、虹色のにじみが消える。",
+     "2": "ニュートンはレンズでは色のにじみを消せないと考え、鏡の望遠鏡を作った。オイラーやクリンゲンシェルナの理論がそれをくつがえし、ドロンドの実験につながった。",
+     "3": "最初の色消しレンズはホール（1730〜50年代、発表しなかった）。1758年にドロンドが特許を取り、のちに息子のピーターが特許を守る裁判で勝った（使って広めた人の特許が有効とされた）。",
+     "4": "望遠鏡は1608年にオランダのリッペルハイが特許を願い出て、1609年にガリレオが月や木星を観測した。色消しの前は、にじみを減らすため長さ数十mの望遠鏡まで作られた。"
+    },
+    "certainty": "色収差と色消しの原理 ◎／ドロンドの特許 1758年4月19日・ホールの先行 ○（Wikipedia・Linda Hall Library）／リッペルハイ 1608・ガリレオ 1609 ◎（よく知られた史実、このファイルでのリンクは未記載）／ヘヴェリウスの長い望遠鏡（約45m）○",
+    "basis": "- Wikipedia「John Dollond」：https://en.wikipedia.org/wiki/John_Dollond"
+   }
+  ],
+  "people": [
+   {
+    "name": "リッペルハイ",
+    "tool": "🔭 筒とレンズ",
+    "year": "1608",
+    "intro": "1608年、オランダで望遠鏡の特許を申し出た",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACF0lEQVR42mNgGAUjHTCSothJS+I/Mer2XXtBtLksxCoMMpH7b64sgiH+9P03bMr/E+sIRmJ9riMjQFLQXnnygaiQYKKF5QwMDAw6MgJERRnTQCfCoeWAuroKhrq6CoLsqIQE6mVDWBqAWUAMuPPoBcOyBQuISogspIRAU1MHSmjgkqNaCFQkB/4PcDZnYGBgYFCRkyApBGBgw96TDB1z1zNSJQQ4DUMZ9DQ1GS5dv87w/fxqnHIMjyZTLxHefYzwzffzqxk2TipCsRzmW2xyyHrJdoCyLGrQS4jgLpTQ5dD1kuWADXtPYkYFOxuc/fLtB6ziuPSSlAaQEs//kkR/RFT8/MXAwMDAcOHGAwZuTg4McWISH0mJEGoQ3BHIWY6BgYFhE1rWJNZyknMBzPK6ugqGw7O3oojbpnrD5UgBRDsAFgowC/Y/v4zqAAZvhrq6Coae+RuJ9j3JIQBzhKgQP4bcwo0HGF6/+0iS5SQ3yXC1E4htfJDtAFFRRMOioqKIgYGBgeHhznkoauTdkyCh1NEHF3v9mrCjGImxmI8PUcCcOLGPgYGBgaE52glFbe1SiLiFBUL806cPBB3CQqzF6ABmIT6ApP8/Locwkmrx169fGLi5eeAhAQMWFk5wOVwAW4iwEGsxNQC2EGGEOYAYywn5kFg1sNB4/foF44A3SlnQ4wcX+PnzBwM7OwdBddCgZWBn5yDKAQCYdvZQ3P+peAAAAABJRU5ErkJggg=="
+   },
+   {
+    "name": "ガリレオ",
+    "tool": "🔭 望遠鏡",
+    "year": "1609",
+    "intro": "1609年、望遠鏡を作って空を観察した",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACJ0lEQVR42mNgGAUjHTCSojhKS+I/MeqWXXtBtLksxCosMJH7760sgiF++/03bMr/E+sIRmJ9biMjAOeH1VVgVbeqqQPOPvLkA1EhwUQty9HlbGQEiIoyJlLSAD7LSVFDtgNoAYh2gFFCAgMt1BLtABU5CZqEAAspipFTOXpcI8uREgJ4s0lFcuB/ucfXSU5cdx69YDi3YAEDAwMDwyNZTYaOuesZqRICnIahDHqamgyXrl9n+H5+NU45hkeTqRcCumryDMqyEvA08OLNBwYJEQEU36LL3Xn0goGBgYHh7uMXDJdvPcQbAgQTobKsBMO5BQvgcYxsOTqAyZ1bsIDh3IIFDMqyEpTngg17T2JGBTsbnP3y7Qes4rj0kpQGYEEXpSXxX1WQCy7+/ecvBgYGBoYLNx4wcHNyYIjD64Jd6xmpkg2XXXvBiFyuI2c5BgYGhltoWZPYioik9gB6pcTAJYeq4NsjkmtCshokMEe8/PqLQZybDUMNKZaT7ACYIz79/MPghdY4OfLkA8mtIbIcgC00SPU1yQ4QFUUkwIqKIgYGBgaGuLgYFDWLFi2B5JyOPrjY69eEHcVIjMV8fIjEV6yM38Deuwj2p08fCDqEhViLyQFI+v/jcggjqRZ//fqFgZubh+HEiX0o4hYWTnA5XABbiLBQ08fkhAgjzAHEWE7Ih8SqgYXG69cvGAe8UcqCHj+4wM+fPxjY2TkIqoMGLQM7OwdRDgAAnert95N5KAcAAAAASUVORK5CYII="
+   }
+  ],
+  "media": [
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Galileo_telescope_replica_%281%29_-_white_bg.jpg/960px-Galileo_telescope_replica_%281%29_-_white_bg.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Galileo_telescope_replica_(1)_-_white_bg.jpg",
+    "kind": "画像",
+    "author": "\"The authors that took this picture are Jim and Rhoda Morris.\" - white BG added",
+    "license": "Public domain",
+    "description": "ガリレオが作ったと伝わる、いちばん古く残る望遠鏡の複製。",
+    "verified": "2026-10-20 Commons API で PD を確認（PD の根拠は投稿者の申告）"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Galileo%27s_sketches_of_the_moon.png/960px-Galileo%27s_sketches_of_the_moon.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Galileo%27s_sketches_of_the_moon.png",
+    "kind": "画像",
+    "author": "Galileo Galilei",
+    "license": "Public domain",
+    "description": "ガリレオが1610年に望遠鏡で見て描いた、月の満ち欠けとでこぼこのスケッチ。",
+    "verified": "2026-10-20 Commons API で PD を確認"
+   }
+  ],
+  "requires": [
+   [
+    [
+     "7-01"
+    ],
+    [
+     "2-14"
+    ]
+   ],
+   [
+    [
+     "7-03"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1608 リッペルハイ（オランダ）の特許申請、1609 ガリレオ。単レンズは色ごとに焦点がずれる（色収差）→ 1733頃 チェスター・ムーア・ホール、1758 ジョン・ドロンドがクラウン＋フリントの色消しレンズ"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "作品（のぞける望遠鏡）",
+  "missing": "",
+  "item": "achromatic_lens",
+  "recipes": [
+   "作業台：クラウンレンズ（凸） ＋ フリントレンズ（凹） ＋ 銅インゴット → 色消しレンズ"
+  ],
+  "machine_recipes": [],
+  "placeholder": "省略：2枚を貼り合わせる接着剤（19世紀からカナダバルサム）。本物の枠は真ちゅう。",
+  "game_text": "",
+  "hee_game": {
+   "note1": "2種類のガラスのレンズを重ねたもの。虹色のにじみが消えて、くっきり見える。",
+   "note2": "クラウンレンズ（凸）＋フリントレンズ（凹）＋銅インゴット（レンズの枠）。分散の小さいクラウンと大きいフリントで、色ごとの焦点のずれ（色収差）を打ち消す。屈折望遠鏡の対物レンズになる。",
+   "note3": "ニュートンは「色のにじみはレンズでは消せない」と考え、鏡の望遠鏡を作った。1733年ごろホールが色消しレンズを作り、1758年にドロンドが特許を取って広めた。",
+   "note4": "色消しは「2つの色（ふつう赤と青）の焦点を1つにそろえる」こと。残る小さな色ずれ（二次スペクトル）は、蛍石などの特別な材料でさらに減らす（アポクロマート）。露光装置の投影レンズ [7-19] は、もっと多くのガラスを組み合わせ、たった1つの波長の光で使って色の問題を避けている。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAkklEQVR42mNgGL7Aoqzrv0VZ138Ym2TNa248+r9gzpT/MLZFWdf/iLAgDIMYkTkRYUH/HyhYMJQkRWA1uGfeCoYTXWUoepiQOfg0MzAwMJQkRWB4hwld0Zcjm0jyLooBCg9OMPDY+JFvwAMFC5JdwoRLgliXoBhwoquMsWfeCgZc4YItFhhxpQNYmCB7C13zMAEA0t9AXEUyIqAAAAAASUVORK5CYII="
+}

@@ -1,0 +1,58 @@
+{
+ "id": "6-12",
+ "history": {
+  "name": "鉛室法硫酸",
+  "name_en": "Lead chamber process sulfuric acid",
+  "kind": "tech",
+  "trunk": "6",
+  "trunk_name": "ガス",
+  "year": 1746,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "硫酸工場が鉛でできていた理由",
+  "hee1_en": "Why sulfuric acid factories were made of lead.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-27"
+    ]
+   ],
+   [
+    [
+     "6-11"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1746ロバック。鉛張りの部屋でSO2+NO2+H2O→H2SO4。最初の工業的硫酸"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "現在の「SO2+水」の省略を置換",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAbUlEQVR42mNgoCaICAv6T6o8I7GakcGKVesYMQStHHyIMgBdHQs+BccObGFE56OrZ8Jmi5wYG14+QQNIAbQx4NGrX3j5RIUuWbFATFpAdw2KF3TM3BgevfqFE+uYuVHmDWzyTOiSuAwhJD9wAAAcK0FFmV8m/gAAAABJRU5ErkJggg=="
+}

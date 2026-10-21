@@ -1,0 +1,83 @@
+{
+ "id": "9-13",
+ "history": {
+  "name": "ラッピング・鏡面研磨",
+  "name_en": "Lapping and mirror polishing",
+  "kind": "tech",
+  "trunk": "9",
+  "trunk_name": "半導体プロセス",
+  "year": 1963,
+  "year_range": "1963〜65",
+  "year_uncertain": false,
+  "hee1": "鏡のように磨いたウェハーの凸凹は、原子数十個分",
+  "hee1_en": "The bumps on a mirror-polished wafer are only a few dozen atoms high.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "F10. 鏡のようにみがく（ラッピング・コロイダルシリカ研磨）［9-13］",
+    "answer": "切ったウェハーは、まず固い砥粒で平らにけずり（ラッピング）、傷の層をエッチングで取ってから、コロイダルシリカ（水に分散したシリカの微粒子）で化学＋機械の鏡面研磨をする。1963年にモンサントのウォルシュとハーゾグが特許を出した。のちの CMP の祖先。",
+    "hee": {
+     "1": "鏡のようにみがいたウェハーの凸凹は、原子数十個分。",
+     "2": "みがく粒はシリコンより柔らかいシリカ。アルカリの液が表面を少し溶かすので、化学と機械の両方で傷のない面になる。",
+     "3": "失敗したウェハーをみがき直して使う「再生ウェハー」は、今も工場で使われる。",
+     "4": "シリカのゾルは 1941年にデュポンがイオン交換で安定に作った（ルドックス）。⚠️ 年は二次資料で確認。"
+    },
+    "certainty": "ウォルシュとハーゾグ 1963・US 3,170,273 ○（特許番号は TECH_TREE と一致、原文は未読 ⚠️）／工程の順 ◎（教科書）／再生ウェハー ◎／ルドックス 1941 ○",
+    "basis": "Google Patents「US3170273A」https://patents.google.com/patent/US3170273A/en 、Jaeger『Introduction to Microelectronic Fabrication』のウェハー作りの章（英語）"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "9-12"
+    ]
+   ],
+   [
+    [
+     "7-03"
+    ]
+   ],
+   [
+    [
+     "6-05"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "両面ラッピング（砥粒で平らに）→ エッチングで傷層を除去 → 1963 ウォルシュとハーゾグ（モンサント）がコロイダルシリカによる Si の鏡面研磨を特許出願（US 3,170,273、1965年成立）。化学＋機械の鏡面仕上げで、CMP[9-31]の祖先"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "軽",
+  "missing": "",
+  "item": "wafer_polisher",
+  "recipes": [
+   "作業台：鋼インゴット×6 ＋ 送りねじ ＋ 電動モーター ＋ 銅ケーブル → 研磨機"
+  ],
+  "machine_recipes": [],
+  "placeholder": "省略：⚠️ 電力・時間はゲームの値。ウェハーの平らさ（平坦度）はまだ表さない。ラッピングと鏡面研磨を1回にまとめた。",
+  "game_text": "研磨機（ROADMAP v0.2b #7）。ウェハーの平坦度",
+  "hee_game": {
+   "note1": "ウェハーを回る台に押し当てて、鏡のようにみがく機械。作った回路を全部けずって、最初からやり直せる。",
+   "note2": "電気 1kW。加工中のウェハー1〜8枚＋砥粒1（アルミナかベンガラ）＋コロイダルシリカ1（空のガラス瓶は上に戻る）→ 層を全部けずったウェハー（60秒）。やり直しは1枚につき2回まで（再生ウェハー）。",
+   "note3": "まず固い砥粒でけずって平らにし（ラッピング）、傷の層を取ってから、コロイダルシリカでみがく。シリカの粒は柔らかく、アルカリの液がシリコンの表面を少しだけ溶かすので、化学と機械の両方で傷のない鏡の面になる。",
+   "note4": "1963年、モンサントのウォルシュとハーゾグがコロイダルシリカでシリコンを鏡面にみがく方法を特許に出した（US 3,170,273）。これが、何層も重ねる今のチップを平らにする CMP [9-31] の祖先。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAQklEQVR42mOMCAv6z0ABYGFgYGDQMXMjS/OVU7sYmBgoBANvAAu6gIzAH7wannxgGWReGI6xgB7KIyUMrpzaRbYBAPYHDFeGpnYIAAAAAElFTkSuQmCC"
+}

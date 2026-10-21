@@ -1,0 +1,78 @@
+{
+ "id": "14-16",
+ "history": {
+  "name": "自動運転",
+  "name_en": "Self-driving cars",
+  "kind": "tech",
+  "trunk": "14",
+  "trunk_name": "輸送",
+  "year": 2005,
+  "year_range": "1980年代〜2007",
+  "year_uncertain": false,
+  "hee1": "最初の無人自動車レースでは1台も完走できず、いちばん遠くまで行った車でもコースの約20分の1だった（S-005 で追加。出典：AI Magazine（2009）Urmson ほか、DTIC「DARPA Grand Challenge」）",
+  "hee1_en": "In the first driverless car race, not a single car finished; even the one that went farthest covered only about 1/20 of the course. (Added in S-005. Sources: AI Magazine (2009) Urmson et al., DTIC \"DARPA Grand Challenge\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "14-11"
+    ]
+   ],
+   [
+    [
+     "B-17"
+    ]
+   ],
+   [
+    [
+     "9-42"
+    ]
+   ],
+   [
+    [
+     "7-23"
+    ]
+   ],
+   [
+    [
+     "10-14"
+    ]
+   ],
+   [
+    [
+     "10-04"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1980年代にはドイツや米国の大学の実験車がすでに走っていた。アメリカ国防高等研究計画局（DARPA）が砂漠を無人で走るレースを開き、2004年は約227km のコースで完走ゼロ（最長でも約12km）、2005年はスタンフォード大学の「スタンレー」が約7時間で優勝して5台が完走した。2007年は街の中を交通ルールを守って走るレースで、カーネギーメロン大学の「ボス」が優勝した。車は GPS・LiDAR・カメラ・レーダーで周りを知り、コンピュータがハンドルとアクセルを動かす"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAcElEQVR42mNgoBAwogscmcbwH58GmyxMPURrxqaGkRSD8NpOjCuwyTESq5go26kSCwwMDAxWDj5YvXHswBYM9SzYNHv5+OCy8D+6ISzYVDlwZWDVvY0B02CsBhz4NgOHA7ZgiDBRGogD7wWKo5FiAABoYinNnU0bOgAAAABJRU5ErkJggg=="
+}

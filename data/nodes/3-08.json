@@ -1,0 +1,72 @@
+{
+ "id": "3-08",
+ "history": {
+  "name": "転炉",
+  "name_en": "Converter (Bessemer process)",
+  "kind": "tech",
+  "trunk": "3",
+  "trunk_name": "熱",
+  "year": 1856,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "溶けた鉄に空気を吹き込むだけで、燃料なしで温度が上がる",
+  "hee1_en": "Just blowing air into molten iron raises its temperature, with no fuel",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-09"
+    ]
+   ],
+   [
+    [
+     "4-02"
+    ]
+   ],
+   [
+    [
+     "3-12"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1856 ヘンリー・ベッセマー。溶けた銑鉄に空気を吹き込むと Si+O2→SiO2、2C+O2→2CO の発熱だけで温度が上がる（燃料なし）。1878 トーマスとギルクリストが塩基性の内張り（ドロマイト）でリンも除去"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": "bessemer_converter",
+  "recipes": [
+   "作業台：鉄インゴット×6 ＋ 耐火れんが（珪石れんが）×2 ＋ 電動モーター → ベッセマー転炉"
+  ],
+  "machine_recipes": [
+   "ベッセマー転炉「ベッセマー転炉」：銑鉄 → 鋼インゴット（20 kW × 20 秒＝400 kJ）。送風の動力を電力で代表"
+  ],
+  "placeholder": null,
+  "game_text": "[1-26]鋼の設備",
+  "hee_game": {
+   "note1": "燃料なしで、鉄に空気を吹き込むだけで鋼になる。",
+   "note2": "溶けた銑鉄に底の羽口から空気を吹き込む炉（1856 ベッセマー）。燃料は使わない：先にケイ素が、次に炭素が燃える熱だけで鉄が溶けたまま保たれる。炎の色で進み具合がわかる：①赤い火花（ケイ素）→②白く長い炎（炭素が燃える「ボイル」）→③炎が落ちたら終わり。ゲーム：鉄インゴット（銑鉄の近似）1個＋送風機の電力 20kW×20秒 → 鋼インゴット1個。",
+   "note3": "本物の転炉は洋なし形の鉄の容器で、横の軸で傾けて鉄を注ぎ入れ・注ぎ出す。送風は蒸気機関の送風機。内張りは酸性の珪石質耐火物（ゲームでは耐火れんが[3-12]。初期の転炉はガニスター＝珪質の岩＋粘土を突き固めた）。",
+   "note4": "炉の中では主に 2C+O2→2CO、炉口で CO が空気と燃えて CO2 になり長い炎になる。Si+O2→SiO2 の発熱が大きく、ケイ素が少ない銑鉄では温度が上がりきらない。炎の終わり（フレームドロップ）は職人が目で見て判断し、のちに分光器で炎の光を見て判断した。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAYUlEQVR42mNUU9P6z0ABYGFgYGDw8vKDC2zbtgmvBnS1TAwUAooNYGFgYGB48ewW0RrQ1bIwMDAwSEipIUQu3MBrALpaFnyBRJcwGAYGkByNWA1AiRpSwIUbgyAMGCnNzgDt7RfvumLCWwAAAABJRU5ErkJggg=="
+}

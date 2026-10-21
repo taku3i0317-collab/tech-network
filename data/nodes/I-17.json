@@ -1,0 +1,61 @@
+{
+ "id": "I-17",
+ "history": {
+  "name": "フロンとオゾン層の破壊",
+  "name_en": "CFCs and ozone depletion",
+  "kind": "idea",
+  "trunk": "I",
+  "trunk_name": "発見・考え方",
+  "year": 1974,
+  "year_range": "1974〜2016",
+  "year_uncertain": false,
+  "hee1": "世界中の国が約束を守ってフロンをやめたので、オゾン層は少しずつ元に戻り始めている",
+  "hee1_en": "Because countries around the world kept their promise and stopped using CFCs, the ozone layer is slowly starting to recover.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://www.nobelprize.org/prizes/chemistry/1995/9056-the-nobel-prize-in-chemistry-1995-1995/",
+   "https://sdg.iisd.org/news/kigali-amendment-enters-into-force-bringing-promise-of-reduced-global-warming/",
+   "https://www.euronews.com/2023/01/10/fantastic-news-ozone-layer-on-track-to-recover-within-decades-un-reports"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "2-48"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [
+   "2-48",
+   "P-29",
+   "P-30"
+  ],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1971年、ジェームズ・ラブロックが自作の検出器で空気の中のフロンを初めて測った。1974年、マリオ・モリーナとシャーウッド・ローランドが Nature 誌で、空に上ったフロンが紫外線で分解して塩素を出し、有害な紫外線を防ぐオゾン層を壊すと警告した。1985年、イギリス南極観測所のジョゼフ・ファーマンらが、南極上空で春にオゾンが大きく減る「オゾンホール」を報告した。紫外線が増えると皮膚がんや白内障が増えるおそれがあるため、1987年のモントリオール議定書でフロンの生産を段階的にやめることが決まり、のちに国連の全ての国が加わった（1995年、クルッツェン・モリーナ・ローランドにノーベル化学賞）。代わりの代替フロン（HFC）はオゾン層を壊さないが、二酸化炭素の数百〜数千倍の強さの温室効果ガスだったため、2016年のキガリ改正で HFC も減らすことになった（2019年発効）。2022年の WMO・UNEP の評価では、今の対策が続けば、オゾン層は南極で2066年ごろ、北極で2045年ごろ、その他で2040年ごろに1980年の水準に戻る見通し"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "実験：フロンを使った冷蔵庫と使わない冷蔵庫をくらべ、空の上のオゾンの量の変化を年表で見る",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAeUlEQVR42mNgoAWwKOv6b1HW9R8Xn2iNJMmjS0SEBf1HxrjUMsIETnSVMSJr9nBzQrFgx659DCtWrWNENuREVxkjE7pLsGlmYGBg8HBzYkB3CQMDAwMTpQE+CA1YsWod445d+zAUogci1aKR4oTESIxrYAA5rQwjAADsE1R1sLCcogAAAABJRU5ErkJggg=="
+}

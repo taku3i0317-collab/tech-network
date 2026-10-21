@@ -1,0 +1,87 @@
+{
+ "id": "2-36",
+ "history": {
+  "name": "エチレン",
+  "name_en": "Ethylene",
+  "kind": "tech",
+  "trunk": "2",
+  "trunk_name": "化学",
+  "year": 1795,
+  "year_range": null,
+  "year_uncertain": true,
+  "hee1": "アルコールから水を取ると、エチレンというガスになる",
+  "hee1_en": "Take water out of alcohol and it becomes a gas called ethylene",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "C15. アルコールから水を取るとエチレン［2-36］",
+    "answer": "エタノールの蒸気を熱したアルミナ（Al2O3）に通すと、水が抜けてエチレンになる（C2H5OH → C2H4 + H2O）。アルミナは触媒で減らない。石油化学が広まる前の工業エチレンはこの方法で、今もブラジル・インドではサトウキビのエタノールから「バイオエチレン」を作っている。1795年にオランダの化学者たちが「油生ガス」と呼んだ（塩素と油状の液を作るため）。",
+    "hee": {
+     "1": "アルコールから水を取ると、エチレンというガスになる。",
+     "2": "触媒は反応を助けるだけで、なくならない。",
+     "3": "エチレンは果物を熟させる植物ホルモン。バナナの追熟に使われる。",
+     "4": "「オレフィン」という言葉は、この「油を作るガス（gaz oléfiant）」から来た。"
+    },
+    "certainty": "反応・アルミナ触媒 ◎／1795 オランダの化学者 ○⚠️（年は資料で 1794〜1795）／バイオエチレンの工業化 ○",
+    "basis": "- Wikipedia「Ethylene」（歴史・製法）：https://en.wikipedia.org/wiki/Ethylene"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "2-39"
+    ],
+    [
+     "11-10"
+    ]
+   ],
+   [
+    [
+     "1-14"
+    ],
+    [
+     "2-01"
+    ],
+    [
+     "6-12"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "C2H5OH→C2H4+H2O（アルミナ触媒、約350℃）。初期の工業エチレンはこの経路。1795 オランダの化学者4人組が「油生ガス」として記述⚠️"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "実験",
+  "missing": "",
+  "item": "alumina_catalyst_tube",
+  "recipes": [
+   "作業台：鉄インゴット×6 ＋ アルミナ×3 → アルミナの触媒管"
+  ],
+  "machine_recipes": [],
+  "placeholder": "近似：温度は「火の上」かどうかだけ。水（副産物）は回収しない。濃い硫酸で脱水する古い方法は未実装。",
+  "game_text": "ガスアイテム → [2-37]",
+  "hee_game": {
+   "note1": "熱した白い粉（アルミナ）にアルコールの蒸気を通すと、エチレンというガスになる。",
+   "note2": "鉄6＋アルミナ3で作る。火のついたたき火の上に置き、エタノールを持って右クリック → エチレン1袋（瓶は戻る）。管（触媒）は減らない。冷たい管では反応しない。 硫化水素の袋で右クリックすると硫黄（クラウス法 [2-11]）。",
+   "note3": "熱いアルミナの表面がエタノールから水を引き抜く（脱水）：C2H5OH → C2H4 + H2O。アルミナは反応を助けるだけで、なくならない（触媒）。",
+   "note4": "石油が安くなる前、エチレンはこの方法でアルコールから作られていた。今もブラジルやインドではサトウキビのアルコールから「バイオエチレン」を作っている。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAfklEQVR42mNUU9P6z0AEMDLQYDh34QaGGGNEWNB/CSk1FIkXz24xECvGxEAhINoAdNvhBqD7Cxd48ewWdgOMDDSo7wVcziXaAFzORQfnLtygLBaMDDSoEAvEKsbmLZxeIDYMSPICxSmR4nSAKxBZGBgYGLZt20RWdmZgYGAAADntKu0359znAAAAAElFTkSuQmCC"
+}

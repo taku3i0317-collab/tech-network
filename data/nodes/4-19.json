@@ -1,0 +1,63 @@
+{
+ "id": "4-19",
+ "history": {
+  "name": "スイッチング電源",
+  "name_en": "Switching power supply",
+  "kind": "tech",
+  "trunk": "4",
+  "trunk_name": "動力・電気",
+  "year": 1970,
+  "year_range": "1960年代後半〜1977",
+  "year_uncertain": true,
+  "hee1": "スマホの充電器が小さいのは、電気を1秒に何万回も入れたり切ったりして変圧器を小さくしているから（S-002 で追加。出典：righto.com「Apple didn't revolutionize power supplies」、Wikipedia「Switched-mode power supply」）",
+  "hee1_en": "Phone chargers are small because they switch the electricity on and off tens of thousands of times a second, which lets the transformer be small. (Added in S-002. Sources: righto.com \"Apple didn't revolutionize power supplies\", Wikipedia \"Switched-mode power supply\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "4-10"
+    ]
+   ],
+   [
+    [
+     "4-11"
+    ]
+   ],
+   [
+    [
+     "9-04"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "コンセントの交流を直流に直し、トランジスタで1秒に何万回もオン・オフして小さな変圧器で電圧を下げ、また直流に整える電源。オン・オフを速くすると変圧器が小さく軽くなり、熱で捨てる電気も減る。1960年代後半〜1970年代半ばに、速く大電流をさばけるトランジスタが安くなってコンピュータに広まった（1969年の DEC PDP-11/20 など）。特定の発明者はいない（[9-41] パワー半導体の年 1980 との関係は proposals Y-4）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAc0lEQVR42mNgoBAwwhhqalr/SdF469Y1RhQBUgxAVsuCLtnlogaXLNtzixGXGAwwYbMBXREuMZwGINuIT4x2YTDnEQtDitwfBmw0RuhT3QUwSZhNyIqx2c5EjI1eXn445VhwOQ2blwh6EzmqiGET7YXBDQCwvUDlX4XaewAAAABJRU5ErkJggg=="
+}

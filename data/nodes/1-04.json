@@ -1,0 +1,53 @@
+{
+ "id": "1-04",
+ "history": {
+  "name": "銅の製錬",
+  "name_en": "Copper smelting",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": 1880,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "今の銅のほとんどは、硫黄と結びついた鉱石から空気を吹きつけて取り出す",
+  "hee1_en": "Most copper today is taken from ores bonded with sulfur, by blowing air into them.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-03"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "CuFeS2 を焙焼→硫化銅の「マット」→空気を吹いて Fe を酸化しスラグへ、S を SO2 へ（1880 マネス転炉）。現代の銅の大半はこの硫化鉱から"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "決定：バニラ銅鉱石＝黄銅鉱 CuFeS2 の近似（CHEMISTRY #34）。バニラかまどでの精錬＝るつぼ炉の近似（本物は約1100〜1200℃で可、CHEMISTRY #38）。副産物 SO2 → [2-01]硫酸",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAArElEQVR42s2SIRKDMBBFX5ioPUh1NINAdBAITsJJqnMSREVVRaea06xNFUwGUlJKRVclm8n7u38XfhG+c8F3Lnzz106HqnZ4CAD9MJrdAABVpWnLXSATt6Gq80PTljzuYxZill7EEAARYauaIr70w2hEBBGhacu5rY89iJU8hEk9B8nG5Xx6O+Li6A4dBtjUVi5zVe0QkZDyyqaoS9Nu12dytKs92Koipf4f8QK7dj3nqn9gxgAAAABJRU5ErkJggg=="
+}

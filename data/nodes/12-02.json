@@ -1,0 +1,61 @@
+{
+ "id": "12-02",
+ "history": {
+  "name": "ポルトランドセメント",
+  "name_en": "Portland cement",
+  "kind": "tech",
+  "trunk": "12",
+  "trunk_name": "建築・土木",
+  "year": 1824,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "ポートランド島の石に色が似ていたので名前が付いた",
+  "hee1_en": "It got its name because its color looked like the stone from the Isle of Portland.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "0-10"
+    ]
+   ],
+   [
+    [
+     "3-04"
+    ],
+    [
+     "3-05"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1824 ジョセフ・アスプディン（英）が特許。石灰石と粘土を焼いたクリンカー（ケイ酸カルシウム）を粉にし、水と反応して固まる（水和）。1880年代 回転窯"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "セメント → コンクリートブロック（バニラのコンクリートの「本物」ルート）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAu0lEQVR42t1SrQ7DIBD+aEgfoZInmJ6oqppoUBXNHnGZmLpUVKEQ1X2CyT3CzM2MhgLJIHX7DHcJfD/HAf+BttPcdpoB4DoOXPJWuqLXGgC4VFz6Ta811mWGcwMA1pDIIpiInIvt/IIBQDU1bvdHRCbCWaimxul8iZTWZcbz9Y5c7SJYQ0KNA09ECGYT1uzuy1SuIPcWwSdyItWvKVtDwhFORPDdRRFyyHxXxQSpiNXRLd59Y84ap3bhED44ZkOaY21XbAAAAABJRU5ErkJggg=="
+}

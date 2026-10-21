@@ -1,0 +1,47 @@
+{
+ "id": "6-10",
+ "history": {
+  "name": "硝石床",
+  "name_en": "Saltpeter bed",
+  "kind": "tech",
+  "trunk": "6",
+  "trunk_name": "ガス",
+  "year": 1750,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "硝石は細菌が作る",
+  "hee1_en": "Saltpeter is made by bacteria.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "有機物+石灰を数か月堆積、細菌の硝化でKNO3（18世紀の火薬原料）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "堆肥ブロックが時間で硝石に",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAhklEQVR42mNgGH4gIizoPyE2MmDCphldMS5xqriABcaY4mfwn4GBgcHGgo/B5gd+NgMDA0POpguMcC9M8TP4f4RDieEIhxIDAwMDAzLbxsEAqzgMMMIMsHEwICmwjxy4wJCz6QIjPBA7TnxiwMYmJAc3oMKCjwEbm5AcC7KTSAGwQBwFDAwAjoJBOR5Kaw0AAAAASUVORK5CYII="
+}

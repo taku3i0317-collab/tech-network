@@ -1,0 +1,100 @@
+{
+ "id": "7-07",
+ "history": {
+  "name": "回折格子",
+  "name_en": "Diffraction grating",
+  "kind": "tech",
+  "trunk": "7",
+  "trunk_name": "光学",
+  "year": 1821,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "CD の裏の虹色も回折格子",
+  "hee1_en": "The rainbow colors on the back of a CD come from a diffraction grating too.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "O7. 緑の石から最初の銅（孔雀石の製錬）［1-03］（［7-07］の前提）",
+    "answer": "銅の鉱床の地表に近い部分は、雨水と空気で緑の孔雀石 Cu2CO3(OH)2 などの酸化鉱に変わっている。これを炭火で焼くと、分解して酸化銅になり、炭（一酸化炭素）が酸素を奪って銅が出てくる。硫黄を含まないので、人類が最初に製錬した銅鉱石になった。",
+    "hee": {
+     "1": "緑色の石を炭と焼くと、銅が出てくる。",
+     "2": "セルビアのベロヴォデ遺跡で、約7000年前（紀元前5000年ごろ）の銅のスラグが見つかった。今わかっている最古の製錬の直接の証拠。",
+     "3": "ベロヴォデでは、製錬にはマンガンを含む銅鉱石を使い、きれいな孔雀石はビーズにしていた。",
+     "4": "地表の酸化鉱を掘りつくすと、下の硫化鉱（黄銅鉱）にぶつかる。硫化鉱は焼いて硫黄を飛ばす手間がいる [1-04]。"
+    },
+    "certainty": "孔雀石の化学・分解・還元 ◎／ベロヴォデ 約7000年前・最古の製錬の証拠 ○（Radivojević ら 2010、UCL）／マンガンを含む鉱石とビーズの話 ○",
+    "basis": "- UCL Discovery「On the origins of extractive metallurgy: new evidence from Europe」（Radivojević ら 2010）：https://discovery.ucl.ac.uk/id/eprint/1380193/"
+   },
+   {
+    "title": "O11. 細い針金の格子で光の波長を測る（回折格子）［7-07］",
+    "answer": "等しい間隔 d のすき間をたくさん通った光は、d·sinθ = λ（1次）を満たす角度でだけ強め合う。d と角度 θ を測れば、波長 λ が長さとして決まる。1821年ごろフラウンホーファーは、2本の細いねじに針金を巻いた格子で、太陽の D線の波長を約1000分の1の精度で初めて測った。",
+    "hee": {
+     "1": "CD の裏の虹色も回折格子（溝の間隔 1.6μm）。",
+     "2": "プリズムは紫ほど強く曲げるが、格子は赤ほど大きく曲げる。",
+     "3": "フラウンホーファーの格子は、太さ 0.002 インチの針金を 0.004 インチ間隔で並べたもの。",
+     "4": "1882年ローランドは刻線機で金属に細かい溝を刻んだ格子を作り、太陽スペクトルの精密な地図を作った [8-12]。"
+    },
+    "certainty": "格子の式 ◎／フラウンホーファーの針金格子と D線の測定 ○（年は 1820〜1821 で資料により違う）／針金の太さ・間隔 ○（一つの資料）／ローランド 1882 ○",
+    "basis": "- Physics Today「The master of dispersion」（フラウンホーファー）：https://physicstoday.aip.org/opinion/the-master-of-dispersion"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "7-06"
+    ]
+   ],
+   [
+    [
+     "7-05"
+    ]
+   ],
+   [
+    [
+     "8-12"
+    ],
+    [
+     "1-03"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-28"
+  ],
+  "frontier": false,
+  "real": "1821 フラウンホーファーが細い針金を並べた格子で波長を測定。1882 ローランドの刻線機（凹面格子）。波長 λ＝d sinθ（d＝溝の間隔、1次光）で長さから波長が決まる"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "実験（波長を測る）",
+  "missing": "",
+  "item": "wire_grating",
+  "recipes": [
+   "作業台：送りねじ×2 ＋ 銅インゴット → 針金の回折格子"
+  ],
+  "machine_recipes": [],
+  "placeholder": "省略：反射格子（金属に溝を刻む、刻線機 [8-12] が要る）はまだ。針金の太さ・本数のむらも省略。",
+  "game_text": "",
+  "hee_game": {
+   "note1": "細い銅線をすき間をそろえてたくさん並べたもの。光を通すと虹ができる。",
+   "note2": "送りねじ×2＋銅インゴット。2本のねじのみぞに細い銅線を巻き、間隔 d＝0.004 インチ（101.6μm）の格子にする。分光器と組み合わせると波長を測れる格子分光器。",
+   "note3": "1821年ごろ、フラウンホーファーは太さ 0.002 インチの針金をこの間隔で並べた格子で、太陽の暗線（D線）の波長を初めて測った。誤差は約1000分の1だった。",
+   "note4": "すき間を通った光の波が重なり、ある角度でだけ強め合う（干渉）。d·sinθ = λ（1次）なので、d と角度 θ がわかれば、波長 λ が長さの物差しで決まる。CD の裏の虹色も、間隔 1.6μm の溝が作る回折格子。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAo0lEQVR42sVSuw2FMAw8R8ySioIRKFJRMAl1hkjNJNQZgjrLmCqSFRy/POlJz6U/5/P5gH8HtYlzX9gaOK6busVzX9gC0OrUbj6um1LwKkjMhWSfSj0FzxqAzEsWU29TC6LlAMBZgsVcKOZCVo8bfVcKnrd1RnvG9GlIsgHAVcgqousNSvq9+18MKrJUfFtnAOD2jcNGkZtNI43a2bTyt2A/iQfqpmopMrCi4AAAAABJRU5ErkJggg=="
+}

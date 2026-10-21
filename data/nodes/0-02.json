@@ -1,0 +1,53 @@
+{
+ "id": "0-02",
+ "history": {
+  "name": "火起こし",
+  "name_en": "Fire making",
+  "kind": "tech",
+  "trunk": "0",
+  "trunk_name": "生存・道具",
+  "year": -1000000,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "木と木をこすると熱くなって、やがて火がつく",
+  "hee1_en": "Rub two pieces of wood together and they get hot, and at last a fire starts",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "0-01"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "火の利用は約100万年前（ワンダーワーク洞窟）。摩擦熱（弓錐）で木を発火点（約300℃）へ"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "バニラの火打ち石と打ち金で可（※黄鉄鉱式はバニラに黄鉄鉱がないので扱わない）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAhUlEQVR42mNgoBAw4pJIslP6D2PPO3SPkSzTkQ3BBZgo9QITzCZibMOmlgnZj/gMQpZDDhNGfP72slFj2HbkFgPZgUm/QKS6AUemMfzHx8cLYIqPTGP4v6bK4z8yH5t6FvQAe/FEjSHJ7tb/F0/UGCB8Dzg/ye4WRvJmJCXEkQHZ+YPqAACZmkj0zNZVygAAAABJRU5ErkJggg=="
+}

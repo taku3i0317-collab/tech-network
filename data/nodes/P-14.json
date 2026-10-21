@@ -1,0 +1,59 @@
+{
+ "id": "P-14",
+ "history": {
+  "name": "メモリ",
+  "name_en": "Memory",
+  "kind": "product",
+  "trunk": "P",
+  "trunk_name": "モノ（作品）",
+  "year": 1966,
+  "year_range": "1966〜1970",
+  "year_uncertain": false,
+  "hee1": "メモリは、忘れないように1秒に何十回も自分で書きなおしている",
+  "hee1_en": "Memory rewrites itself dozens of times a second so it does not forget.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://en.wikipedia.org/wiki/Dynamic_random-access_memory",
+   "https://www.nature.com/articles/s41928-018-0091-3"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "10-12"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [
+   "シリコン",
+   "銅"
+  ],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "CPU がいま使っているデータを置いておく作業机。1つのトランジスタと1つの小さなコンデンサーで1ビットを覚えるが、電気が少しずつ漏れるので、1秒に十数回以上も書きなおしている。電気を切ると消える"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "作品：パソコンの作業机。電気を切ると中身が消える",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAXklEQVR42mNgGAUUA0YYQ01N6z+pmm/dusbIAtNc4PEKIcGUwqD2bw5e/rZtmxgYGBgYmCj1AsUGsCA7C8V/BPhEuQDmT6JcgBxIMDDh1hvGAo9XWGNnG4PYaBqGAgCcrx3rWppgHAAAAABJRU5ErkJggg=="
+}

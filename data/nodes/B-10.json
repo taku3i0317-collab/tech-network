@@ -1,0 +1,87 @@
+{
+ "id": "B-10",
+ "history": {
+  "name": "スマホ",
+  "name_en": "Smartphone",
+  "kind": "product",
+  "trunk": "B",
+  "trunk_name": "枝",
+  "year": 2007,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "ポケットの中に、アポロのコンピュータの何百万倍の計算力",
+  "hee1_en": "In your pocket, millions of times the computing power of the Apollo computer",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "9-37"
+    ]
+   ],
+   [
+    [
+     "7-16"
+    ]
+   ],
+   [
+    [
+     "10-14"
+    ]
+   ],
+   [
+    [
+     "15-13"
+    ]
+   ],
+   [
+    [
+     "1-42"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [
+   "P-12",
+   "P-14",
+   "P-16",
+   "P-17",
+   "P-18",
+   "P-19",
+   "P-20",
+   "P-21",
+   "P-22",
+   "P-23"
+  ],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-13",
+   "I-16"
+  ],
+  "frontier": false,
+  "real": "2007 iPhone。10億個超のトランジスタ、ArF 液浸＋マルチパターニングのチップ"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "ROADMAP v0.5 #8。電池は [1-42] の炭酸リチウム＋[1-07]黒鉛負極で作る（正極はコバルトを避けリン酸鉄リチウム LiFePO4＝鉄＋リン✅で可⚠️、電解液の LiPF6 はフッ素[2-10]が要る）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAWUlEQVR42mNgoBAwYhNUU9P6j0381q1rjAQNUFPT+i8UkIDVtncbFmAYwoLLaRa/3qHwT7AJYVXHRGkYjBpABQNwRiOuaCPJBRa/3mGkB6JdQKwrKM4LAw8Anx8YHnPD+ZkAAAAASUVORK5CYII="
+}

@@ -1,0 +1,58 @@
+{
+ "id": "10-04",
+ "history": {
+  "name": "フィードバック制御",
+  "name_en": "Feedback control",
+  "kind": "tech",
+  "trunk": "10",
+  "trunk_name": "制御・計算",
+  "year": 1788,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "目標とのずれを見て直す、が全ての自動制御の基本",
+  "hee1_en": "Look at the gap from the target and correct it: that is the basis of all automatic control.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "4-02"
+    ]
+   ],
+   [
+    [
+     "8-01"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1788 ワットの遠心調速機（回転が速すぎると弁を閉じる）、1868 マクスウェルの安定性の論文、1922 ミノルスキーの PID 制御（船の自動操舵）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "機械の「自動調整」機能（発電機の出力安定）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAfUlEQVR42mNgGPKAEZuglYPPf2zixw5swVDPgszpclH7X7bnFiMDAwODl48PisJtW7bgdkGXixqKjb88irAqZtvRh8Iv23OLkQmZA6Ox2bZtyxaGsj23GGEYqxeQJXA5GW8Y4AssXICJ0mjEagB6oBJMB6RowBVmZLtgGAAAnV0u34gwW/kAAAAASUVORK5CYII="
+}

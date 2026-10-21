@@ -1,0 +1,83 @@
+{
+ "id": "2-41",
+ "history": {
+  "name": "エポキシ樹脂",
+  "name_en": "Epoxy resin",
+  "kind": "tech",
+  "trunk": "2",
+  "trunk_name": "化学",
+  "year": 1936,
+  "year_range": "1891〜1936",
+  "year_uncertain": false,
+  "hee1": "2本のチューブを混ぜると固まる接着剤がエポキシ",
+  "hee1_en": "The glue that hardens when you mix two tubes together is epoxy.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "C13. 2つの液を混ぜて熱すると固まる（エポキシ樹脂と IC の封止）［2-41］",
+    "answer": "ビスフェノールA（フェノール2＋アセトン、1891 ディアニン）とエピクロロヒドリン（グリセリンから）を反応させると、両端に三角の輪（エポキシ基）を持つ樹脂になる。硬化剤（フェノールの OH やアミン）が輪を開いてつながると網の目になり、固く、電気も水も通さない。1936年ごろカスタンとグリーンリーが別々に開発。IC の黒い外装は、エポキシ樹脂＋フェノールノボラックの硬化剤＋シリカの粉を型で固めた物。",
+    "hee": {
+     "1": "2つの液を混ぜて熱すると、固くて丈夫なプラスチックになる（2液の接着剤）。",
+     "2": "IC の黒い外装はエポキシ。1960〜70年代にセラミックから安いエポキシの成形に移った。",
+     "3": "カスタンは歯の詰め物の研究からエポキシにたどり着いた。",
+     "4": "BPA はホルモンに似た働きが心配され、食器での使い方に決まりがある。エピクロロヒドリンは発がん性1B。"
+    },
+    "certainty": "反応・硬化のしくみ ◎／ディアニン 1891・カスタンとグリーンリー 1936ごろ ○（TECH_TREE の本物欄と一致）／IC 封止材の組成（エポキシ＋フェノールノボラック＋シリカ）○",
+    "basis": "- Wikipedia「Epoxy」（歴史・硬化剤）：https://en.wikipedia.org/wiki/Epoxy"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "2-25",
+     "2-40"
+    ]
+   ],
+   [
+    [
+     "2-09",
+     "6-06",
+     "2-08"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-23"
+  ],
+  "frontier": false,
+  "real": "1891 ディアニンがビスフェノールA を合成。1936〜 ピエール・カスタン（スイス）とシルヴァン・グリーンリー（米）がビスフェノールA＋エピクロロヒドリンの樹脂を開発、アミンで硬化。接着剤・塗料・電子部品の封止"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "実験＋軽",
+  "missing": "",
+  "item": "epoxy_resin",
+  "recipes": [
+   "作業台：ビスフェノールA ＋ エピクロロヒドリン×2 ＋ 水酸化ナトリウム → エポキシ樹脂（未硬化）×2"
+  ],
+  "machine_recipes": [],
+  "placeholder": "近似：分子量（重合度）は扱わない。",
+  "game_text": "2液（樹脂＋硬化剤）アイテム",
+  "hee_game": {
+   "note1": "まだ固まっていない、ねばねばの樹脂。硬化剤を混ぜて熱すると固くなる（2液の接着剤と同じ）。",
+   "note2": "ビスフェノールA＋エピクロロヒドリン2＋水酸化ナトリウムで2つ。ノボラック（硬化剤）と合わせると成形材料。これだけ熱しても固まらない。⚠ GHS：皮膚刺激性・皮膚感作性。",
+   "note3": "ビスフェノールA の両端にエポキシ基が付いた分子。硬化剤のフェノールの OH やアミンの NH2 がエポキシ基の輪を開いてつながり、網の目になる。",
+   "note4": "1936年ごろスイスのカスタン（歯の詰め物の研究）とアメリカのグリーンリーが、別々に作った。接着剤・塗料・電子部品の封止に使われる。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAYElEQVR42mNgGNRgWp7I/2l5Iv/xqWGi1BKKDWDBJuji1/WfgYGBgcnEC8rf9p+BgYFhz6YyRqJdEBLihZVNHy8wMDAwBMiVoPDXMDgN0lgYBgbgjIV1686giTjRJsMBAIeGETIiW4ldAAAAAElFTkSuQmCC"
+}

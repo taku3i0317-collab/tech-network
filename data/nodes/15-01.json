@@ -1,0 +1,89 @@
+{
+ "id": "15-01",
+ "history": {
+  "name": "紙",
+  "name_en": "Paper",
+  "kind": "product",
+  "trunk": "15",
+  "trunk_name": "通信・情報",
+  "year": 105,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "紙の原料は昔はぼろ布、今は木",
+  "hee1_en": "Paper used to be made from rags; today it is made from wood.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "C23. 紙は昔はぼろ布、今は木（パルプ）［15-01］",
+    "answer": "105年に蔡倫が紙の製法を改良してから、紙の原料は長くぼろ布や樹皮だった。1840年代にドイツのケラーが木をすりつぶす砕木パルプを、1867年にアメリカのティルマンが亜硫酸法（SO2 と石灰の液でリグニンを溶かし、セルロースの繊維だけを取り出す）を考え、1874年にスウェーデンのエクマンが最初の工場を動かした。蒸解は圧力釜で煮る。",
+    "hee": {
+     "1": "紙の原料は、昔はぼろ布、今は木。",
+     "2": "木は、セルロースの繊維をリグニンという「のり」で固めた物。のりだけを溶かすと紙の原料になる。",
+     "3": "ぼろ布が足りなくなって、19世紀には紙の値段が上がり、木から作る方法が求められた。",
+     "4": "亜硫酸法の純度の高いパルプ（溶解パルプ）は、酢酸セルロースやレーヨンの原料にもなる。"
+    },
+    "certainty": "蔡倫 105 ◎／ケラー 1840年代 ○／ティルマン 1867・エクマン 1874 ○／蒸解の温度（約130〜140℃）○",
+    "basis": "- Wikipedia「Sulfite process」（歴史）：https://en.wikipedia.org/wiki/Sulfite_process"
+   }
+  ],
+  "people": [
+   {
+    "name": "蔡倫",
+    "tool": "📜 紙すき",
+    "year": "105",
+    "intro": "105年、紙の作り方を改良した",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACEUlEQVR42t1WPUvDUBQ9kYiphlqKxVIni1OX4iC4dKqUDt0UlPwELSIF/4SCqIg/QRTUQR2KiEuXgqCo0ElqESvxgxJLkIrDc5CEfLV5r41UPFNy7807555383gcGDA4GCTG99HRMQDA/f2dqe79vcbRrsmxCujvF1vWfHyoTAJ60GVwLNa7dW90gXYrqB2gJWet7foW/P0ZCA8FCdcrtrU4+VIhv7WeA55qCH3tdad8/bcZyK9nkV/Puj5vL896OwMBv6gT0KBcfcX86h6UukczoCG9tGVyo1nOMwdyUopkEnEAQHQkxOSAhpPCNdZ2TjlPZiCUXEAyu4VQcoEp15EDsWgE0ZGQ7sBzrY7hoN/UrTWnOVCuvqJUfurMAav1RnIrrDmabXMVcFK4tsWEvl79+aVWd4w3+5bpLzBYRxbnpvR44/PniLu9e8SAr88Wpxk+5htRTkqZRLTC5u4ZFTnzOWDE1cGF6X18euL3bkQsLrB0zyxAEzEUECGlJ03xnXwRb4rKRN4RclKKVI5WSOVoheSkFGl3HaoZmAmHbQSZRFw/cDKJOB7Ob2w1+7LMdSRAI54MBEzxkqraav08j5houzkRNyE8C7ERlxvHrs4Zvm8qhGMlLqmqU6euOQAoKopta3haYi/g5EiPQ7Kt7gEgJoqO89FCSPcvpbx1f5rhqdFARBBc6wDgUJYREQQqAd+ce+LMJp8zmwAAAABJRU5ErkJggg=="
+   }
+  ],
+  "media": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Making_Paper.gif",
+    "page": "https://commons.wikimedia.org/wiki/File:Making_Paper.gif",
+    "kind": "画像",
+    "author": "Unknown pre-modern painter of the 1637 Tiangong Kaiwu of the Ming dynasty.",
+    "license": "Public domain",
+    "description": "『天工開物』（1637年）にある、竹から紙を作る5つの手順を描いた木版画。",
+    "verified": "2026-10-20 Commons API で PD を確認"
+   }
+  ],
+  "requires": [
+   [
+    [
+     "0-06"
+    ]
+   ],
+   [
+    [
+     "0-11"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "105年 蔡倫が紙の製法を改良。1840年代 ケラーの砕木パルプ、1867 ティルマンの亜硫酸法パルプ（SO2＋石灰でリグニンを溶かす）"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "軽",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "バニラの紙（サトウキビ）＝近似。木材パルプは上位ルート",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAdUlEQVR42mNgoBAwInNc/Lr+41K4Z1MZIzZxFnSBkBAvrAbIfZjxf96hexiGMJHi3CQ7pf8UGYDNEBZsik7N8UPhm6VsYjBL2QTnPxLY9h8WJlgNQFaMDtas2YYSoES5AJ/BJLuAKANGXYA9HVCcmYjJWGQBAPacL4JwHRRYAAAAAElFTkSuQmCC"
+}

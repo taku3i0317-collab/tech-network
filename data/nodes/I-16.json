@@ -1,0 +1,53 @@
+{
+ "id": "I-16",
+ "history": {
+  "name": "サプライチェーン",
+  "name_en": "Supply chain",
+  "kind": "idea",
+  "trunk": "I",
+  "trunk_name": "発見・考え方",
+  "year": 1982,
+  "year_range": null,
+  "year_uncertain": true,
+  "hee1": "スマホ1台の中には、世界のいろいろな所で取れた材料が入っている",
+  "hee1_en": "One smartphone contains materials taken from many different places around the world.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://en.wikipedia.org/wiki/Supply_chain_management",
+   "https://supplychaindigital.com/digital-supply-chain/keith-oliver-the-man-who-gave-us-supply-chain-management"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [],
+  "understanding": [],
+  "enables": [],
+  "explains": [
+   "B-10",
+   "P-06"
+  ],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1つの製品の材料と部品が、鉱山・精錬所・部品の工場・組み立ての工場と、たくさんの会社・国をつないだ鎖のように運ばれてくること。スマホ1台にも、亜鉛の製錬から出るインジウム（画面）、リチウム（電池）、シリコン（チップ）、ネオジム（スピーカー）など、別々の所で取れて作られた物が入っている。「サプライチェーン・マネジメント」という言葉は、1982年にブーズ・アレン・ハミルトンのキース・オリバーが新聞のインタビューで広めたとされる（同じころのチームの仕事で、ほかの人の名前を挙げる説もある ⚠️）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "実験：スマホの部品表をさかのぼって、材料がどの鉱石から来たかをたどる",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAhUlEQVR42mNgoBAwMjAwMCTZKf1HFpx36B4jsQYwwRg3mLQYbjBpUccFMIOOHdjCSLbfrBx8/hOjjgVdAOYaL6s/DBr/lP4TCg8WbII3mLQYbhxjYNAgNgywuYBu4cGCTyMx4cFCyHZC4cFIjAtoGh4sxGrEFR4spNiOLTxIMkDj3zUMMQBDyTwpyAb4rQAAAABJRU5ErkJggg=="
+}

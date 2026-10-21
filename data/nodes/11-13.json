@@ -1,0 +1,76 @@
+{
+ "id": "11-13",
+ "history": {
+  "name": "冷蔵・冷凍",
+  "name_en": "Refrigeration and freezing",
+  "kind": "product",
+  "trunk": "11",
+  "trunk_name": "農業・食",
+  "year": 1876,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "冷蔵庫と液体空気は同じ人が作った",
+  "hee1_en": "The refrigerator and liquid air were made by the same person.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "O48. 熱を運んで氷を作る（冷凍機）［11-13］",
+    "answer": "冷媒を圧縮して熱くし、外で冷やして液にしてから、細い所で一気に広げて蒸発させると、まわりの熱をうばう。1876年、リンデはアンモニアを冷媒にした圧縮式冷凍機を作り、ビール工場や製氷工場で季節を問わず冷やせるようになった。",
+    "hee": {
+     "1": "冷蔵庫もエアコンも、熱を「くみ上げて」外に捨てている（ヒートポンプ）。",
+     "2": "リンデはのちに空気を冷やして液にし、酸素と窒素を分けた。",
+     "3": "アンモニアは今も大きな冷凍倉庫の冷媒。毒性があるので家庭ではフロン類に置き換わり、そのフロンはオゾン層を壊すとして規制された。",
+     "4": "半導体工場は、空調で温度を 0.1℃ 単位でそろえる。"
+    },
+    "certainty": "リンデ 1876 のアンモニア冷凍機 ◎／製氷・醸造での利用 ◎／フロンの規制（モントリオール議定書 1987）◎",
+    "basis": "- Wikipedia「Carl von Linde」：https://en.wikipedia.org/wiki/Carl_von_Linde"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "6-03"
+    ]
+   ],
+   [
+    [
+     "2-21"
+    ]
+   ],
+   [
+    [
+     "4-08"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1876 カール・フォン・リンデのアンモニア圧縮式冷凍機（[6-07]空気分離と同じ人物）。圧縮→放熱→膨張で熱を運ぶ"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "重",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "冷蔵庫ブロック（食べ物が腐らない）。[12-12]空調と共通",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAcElEQVR42mNgoBAwInOsHHz+E6Pp2IEtcH0s6JJePj5YNW159YnBR4yPYduWLSjiTJR6gYmqYWBR1kVUGJzoKsMeBkynDuEMAxggOwy2vPpEmzBgIWSbjxgfbWOBaANwuYSFFMW0T0jEZCjkjEQVAADVWR0g3C35+AAAAABJRU5ErkJggg=="
+}

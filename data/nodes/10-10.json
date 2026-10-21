@@ -1,0 +1,71 @@
+{
+ "id": "10-10",
+ "history": {
+  "name": "IC 論理",
+  "name_en": "IC logic",
+  "kind": "tech",
+  "trunk": "10",
+  "trunk_name": "制御・計算",
+  "year": 1961,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "月に行ったコンピュータは、同じ形の小さな IC を何千個も並べていた",
+  "hee1_en": "The computer that went to the Moon lined up thousands of small ICs, all the same kind.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "L9. 論理回路の歴史（お題の答え合わせ）［10-05］［10-09］［10-10］［10-11］（O-016、v0.3b）",
+    "answer": "トランジスタ1個と抵抗の NOT（RTL のインバータ）を並べると NOR になり、NOR だけでどの論理も作れる。1961年のフェアチャイルドの「マイクロロジック」は RTL の IC の最初の製品群で、1960年代のアポロ誘導コンピュータは3入力の NOR ゲートの IC だけで組まれた。のちに DTL・TTL の NAND が主役になった。足し算は XOR（和）と AND（けた上がり）でできる。",
+    "hee": {
+     "1": "ゲート1種類（NAND だけ、または NOR だけ）で、どんな論理回路も作れる（万能ゲート）。",
+     "2": "ド・モルガンの法則（1847）：NOT(A AND B) ＝ NOT A OR NOT B。",
+     "3": "1937年、ジョージ・スティビッツが電話のリレーで2進数の足し算器を台所で作った（モデルK）。",
+     "4": "アポロ誘導コンピュータには、同じ NOR ゲートの IC が何千個も使われた。当時アメリカで作られた IC の大きな割合を買ったといわれる ⚠️。"
+    },
+    "certainty": "マイクロロジック 1961（RTL）◎／アポロ誘導コンピュータが NOR の IC で組まれた ◎／ド・モルガン 1847 ◎／スティビッツのモデルK 1937 ◎／DTL・TTL の NAND の最初の製品の年 △⚠️／アポロが IC の大きな割合を買った ○⚠️",
+    "basis": "Computer History Museum「1961 – Fairchild's Micrologic」、Wikipedia「Apollo Guidance Computer」「Resistor–transistor logic」「De Morgan's laws」「George Stibitz」"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "9-22"
+    ]
+   ],
+   [
+    [
+     "10-09"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1961 フェアチャイルドのマイクロロジック（RTL）、1960年代 TTL（1964 TI の 7400 シリーズ）。1チップにゲート数個（SSI）→数十〜数百（MSI）。1969 アポロ誘導コンピュータは IC を大量に使った"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "論理 IC アイテム（第3章の製品＝自作チップ）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAcElEQVR42mNgoBAwoguoqWn9h7Fv3brGiEsMBlhgjC4Xtf8MDAwMz3T8kOX/MzAwMHh5IcRS5P78Z2BgYCjbc4sRpwtS5P4wPNMJwnDutm2bMFzAiOmCILx+lrqyjoGgC5CdPOqCURcQ4wIWXArpBgBUsGLxu0DPHAAAAABJRU5ErkJggg=="
+}

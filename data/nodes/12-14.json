@@ -1,0 +1,90 @@
+{
+ "id": "12-14",
+ "history": {
+  "name": "層流クリーンルーム",
+  "name_en": "Laminar-flow cleanroom",
+  "kind": "tech",
+  "trunk": "12",
+  "trunk_name": "建築・土木",
+  "year": 1962,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "手術室より何千倍もきれいな部屋で、チップは作られる",
+  "hee1_en": "Chips are made in rooms thousands of times cleaner than an operating room.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "O51. 部屋ごとほこりを押し流す（層流クリーンルーム）［12-14］",
+    "answer": "1962年、サンディア研究所のウィリス・ホイットフィールドは、天井全体の HEPA フィルターから床へ一方向に空気を流し、ほこりを押し流す「層流クリーンルーム」を考えた。部屋のほこりは何百分の1になり、半導体工場の歩留まりを一変させた。等級は、空気 1 立方フィートの中の 0.5µm 以上の粒の数（米国連邦規格 209、1963）。",
+    "hee": {
+     "1": "手術室より何千倍もきれいな部屋で、チップは作られる。",
+     "2": "いちばんのほこりの元は人。だから全身を覆うクリーンスーツを着る。",
+     "3": "ほこり1粒が回路の線をまたぐと、チップが動かなくなる。",
+     "4": "今の工場は、部屋全体ではなくウェハーの通り道だけをきれいに保つ（ミニエンバイロメント）方法も使う。"
+    },
+    "certainty": "ホイットフィールド 1962 ◎／連邦規格 209 1963 ◎／歩留まりへの効果 ○",
+    "basis": "- Wikipedia「Willis Whitfield」：https://en.wikipedia.org/wiki/Willis_Whitfield"
+   }
+  ],
+  "people": [],
+  "media": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/TRACE_in_cleanroom_during_assembly.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:TRACE_in_cleanroom_during_assembly.jpg",
+    "kind": "画像",
+    "author": "NASA（米国政府の著作物）",
+    "license": "Public domain",
+    "description": "NASA のクリーンルームで、防じん服を着た人たちが人工衛星 TRACE を組み立てているところ。",
+    "verified": "2026-10-20 Commons API で PD を確認"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Cleanroom_air_shower.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cleanroom_air_shower.jpg",
+    "kind": "画像",
+    "author": "NASA（米国政府の著作物）",
+    "license": "Public domain",
+    "description": "クリーンルームに入る前に、風を吹きつけて服のほこりを落とすエアシャワー（NASA）。",
+    "verified": "2026-10-20 Commons API で PD を確認"
+   }
+  ],
+  "requires": [
+   [
+    [
+     "12-13"
+    ]
+   ],
+   [
+    [
+     "12-12"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1962 ウィリス・ウィットフィールド（サンディア研究所）：天井全体の HEPA から床へ一方向に空気を流し、ほこりを押し流す。半導体工場の歩留まりを一変させた"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "作品（部屋を作ると露光の汚れが減る）",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "クリーンルーム判定（ROADMAP v0.5 #5、第5章の前提）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAXUlEQVR42mNgoBAwMjAwMFg5+PwnR/OxA1sYWWAcLx8fhi2vPjH4iPExMDAwEGRv27KFOi5goCqwKOv6TwqfgYGBgYlSS0cNQDIAFsLE0lSLRuoAWFImhSY3+WMAAPrNP88c0xdIAAAAAElFTkSuQmCC"
+}

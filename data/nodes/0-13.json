@@ -1,0 +1,53 @@
+{
+ "id": "0-13",
+ "history": {
+  "name": "荷車",
+  "name_en": "Cart",
+  "kind": "tech",
+  "trunk": "0",
+  "trunk_name": "生存・道具",
+  "year": -3500,
+  "year_range": "-3500〜-3000",
+  "year_uncertain": false,
+  "hee1": "牛に引かせた四輪の車。車軸には動物の脂を塗ってすべらせた",
+  "hee1_en": "A four-wheeled cart pulled by oxen. People greased the axles with animal fat to make them slide.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "0-09"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "紀元前3500〜3000年、牛に引かせる四輪車（メソポタミア・中欧）。車軸と車輪の摩擦が課題（獣脂で潤滑）"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "軽",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "決定：進捗（アドバンスメント）のみ。エンティティは作らない（車輪[0-09]を作ると達成）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAd0lEQVR42mNgGLIgyU7pP1U0M5Jj2rxD9xhhbCZkCS8bNaJoZIDVBegKtx25hdMFjLj8CDNk25FbKBrQARMxoYsvjJiwKfSyUWPYduQWw7Yjt+DewWUICzZBZI3o/ifoBVwuwAUYcfkX3QW4ApKRmGSKLxYGHgAA5cg8SBNXtQUAAAAASUVORK5CYII="
+}

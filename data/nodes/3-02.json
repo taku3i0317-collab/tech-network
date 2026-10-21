@@ -1,0 +1,53 @@
+{
+ "id": "3-02",
+ "history": {
+  "name": "かまど",
+  "name_en": "Hearth stove",
+  "kind": "tech",
+  "trunk": "3",
+  "trunk_name": "熱",
+  "year": -6000,
+  "year_range": null,
+  "year_uncertain": true,
+  "hee1": "火を囲うと熱が壁ではね返り、たき火より熱くなる",
+  "hee1_en": "When you surround a fire with walls, the heat bounces back off them, making it hotter than a campfire.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "3-01"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "火を囲うと放射が壁で戻り約1000℃。土器窯・鍛冶炉の原型"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "バニラのかまど（furnace）で可。決定：≈1000℃と固定（節頭の表）。1085℃以上（銅の溶融など）はふいご[3-04]が必要、とツールチップで示す",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAnElEQVR42mNgGGjAiC4wxc/gPz4NOZsuoOhhQdds42CA18YpDAz/kQ1hQjf9yIELODUfOXABwwWM6E4n5AKYBTCDULyArBndJTA5GwcDFDkWYp06hYEBa/gw4dJ8ZBoDPDaOTIMEHLbwYcHlV2ufEIb/PghDGLLWYFWHYYCNgwHDEY8LGGnhyDSG/zw/DLAnJGLiH5dXWXCF+ggCAE0HSO4dfshuAAAAAElFTkSuQmCC"
+}

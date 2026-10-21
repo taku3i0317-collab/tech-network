@@ -1,0 +1,63 @@
+{
+ "id": "1-73",
+ "history": {
+  "name": "めっき鋼板",
+  "name_en": "Coated steel sheet",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": 1837,
+  "year_range": "17世紀〜1837",
+  "year_uncertain": false,
+  "hee1": "トタンの亜鉛は、自分が先にさびて中の鉄を守っている（O-012 で追加。出典：Wikipedia「Hot-dip galvanization」「Tinplate」、1911 Encyclopædia Britannica「Tin-plate and Terne-plate」・Galvanizers Association「The potted history of galvanizing」（https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Tin-plate_and_Terne-plate））",
+  "hee1_en": "The zinc on galvanized sheet rusts first itself, protecting the iron inside. (Added in O-012. Sources: Wikipedia \"Hot-dip galvanization\" \"Tinplate\", 1911 Encyclopædia Britannica \"Tin-plate and Terne-plate\", Galvanizers Association \"The potted history of galvanizing\" (https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Tin-plate_and_Terne-plate))",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-13"
+    ]
+   ],
+   [
+    [
+     "1-30"
+    ]
+   ],
+   [
+    [
+     "1-08"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "鉄の板の表面を、ほかの金属でおおってさびを防ぐ。錫をかぶせたブリキは中世のボヘミアで作られはじめ、1620年ごろザクセンへ広まり、1720年代にウェールズで大量に作られるようになった。1837年、フランスのスタニスラス・ソレルが、溶けた亜鉛に鉄をひたす亜鉛めっき（トタン）の特許を取った。亜鉛は鉄より先にさびて鉄を守る（犠牲防食）。缶詰の缶（ブリキ）や、屋根・バケツ（トタン）に使われる"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAgElEQVR42mNgGPKAEZ+klYPPf3zyxw5sYWTEp9nLx4eBbUcfwy+PIrg4244+hg1/1BiOHdjCiNMFMM3YwLYtW+CaGRgYGJgIaWbb0YdTM4YLiHU2VgNIcTYyYKJEM9wFXS5qeKOrbM8tnAawMDAwMGz4o8aAzwUMDLcYaOaCYQAAqa5FCCkCod0AAAAASUVORK5CYII="
+}

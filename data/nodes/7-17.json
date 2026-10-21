@@ -1,0 +1,81 @@
+{
+ "id": "7-17",
+ "history": {
+  "name": "多層膜ミラー",
+  "name_en": "Multilayer mirror",
+  "kind": "tech",
+  "trunk": "7",
+  "trunk_name": "光学",
+  "year": 1985,
+  "year_range": "1981〜1985",
+  "year_uncertain": false,
+  "hee1": "1枚では反射しない光を、40回の弱い反射を重ねて跳ね返す",
+  "hee1_en": "Light that one layer cannot reflect is bounced back by stacking 40 weak reflections.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-31"
+    ]
+   ],
+   [
+    [
+     "1-17"
+    ]
+   ],
+   [
+    [
+     "5-14"
+    ]
+   ],
+   [
+    [
+     "5-07"
+    ]
+   ],
+   [
+    [
+     "7-21"
+    ],
+    [
+     "7-02"
+    ]
+   ],
+   [
+    [
+     "7-09"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "EUV はどの物質にも吸収されレンズが作れない。Mo と Si を周期約6.9nm で約40対重ねると、各層の弱い反射が強め合って約70%反射（ブラッグ反射）。1981 アンダーウッドとバービーが多層膜（W/C）で垂直入射の軟X線鏡、1985 バービー・ムロウカ・ヘトリックが EUV 用の Mo/Si 多層膜鏡（反射率 最大約78%）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAUklEQVR42mNgGGjACGNMyxP5T4rGrElvGBkYGBhYYAJfrgmRaPcbBhQDeLTeMQQFmRCldd26MwwMexgYMFyw6No9Im0XGnUBLheQBPYwjAJqAQDdPib6DeaO3gAAAABJRU5ErkJggg=="
+}

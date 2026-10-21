@@ -1,0 +1,64 @@
+{
+ "id": "10-19",
+ "history": {
+  "name": "VLSI 設計法",
+  "name_en": "VLSI design methodology",
+  "kind": "tech",
+  "trunk": "10",
+  "trunk_name": "制御・計算",
+  "year": 1979,
+  "year_range": "1970年代後半",
+  "year_uncertain": false,
+  "hee1": "何百万個のトランジスタも、決まったルールで並べれば設計できる （IMP-24 で追加、network_proposals W-5）",
+  "hee1_en": "Even millions of transistors can be designed if you arrange them by fixed rules. (Added in IMP-24, network_proposals W-5)",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [
+   {
+    "name": "リン・コンウェイ",
+    "tool": "📐 設計ルール",
+    "year": "1979",
+    "intro": "1979年ごろ、大きな IC を設計するルールと教え方をまとめた（2024年没）",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACLUlEQVR42u1Wv0sjQRT+Ni7RXAplUQhIwoFTROEkNtooBAJpLNzGWoWzsTxS+CeksLqDa0T0uFJBU9gISuDCgRYa0hhhBFkR9hQXLY5wAdkr1HVnfzkbJ1joq2bfz+99M/tmgHd56yKFcV6cHTV5/IprB9x5ZV7H74s587P6yaU/rF96uZu8ICTeztUsCUXtVplyMRFpR3EAULOEa8sir30II+3oPgwLoRggJA9C8s+uER0Ww4CzeJi18N8QACjd8S1mt4VhIBhARz+TLKhDu41q+lNcR0McA7GRaQwPDqJ2fIzG0bqvDdo3cWfg9Fy31o2jdZS+fmGKU033tdljWwYwkEww34neHl9fp80ZK2wQxTqj1vrP9Y2nXswW3F0AzZpL3fjXBABU62eIx7pcekuatfscLz6EzRqoBpAUS2km/TEwRugc2NrdR2Fuyvr+tbzN2CfmJxlfdSImDoDtajUfQdgL2mVptYTiyqaEO757JNQcKK5sSgDMPqUbM1NZxvajVMaVcfvo055RbAOBK+PWYsPqugXhAlCRF0DGh5hrVc2lrSGk5sawcdJtsjFZqNh5GYANOoSKfE91Iv1EuaFVXb7RDz1QUhlGV6jkodMogINwAMj4rOks6pTCnnPKeY/dhxwmANDKmhT4KOUpbGhVV6c8NgDQ62U4gci8hUWILb/FSMTD2FL3AKCkMp7nIwDI67+KZef++Mlf4xxxJfmsHwCc/v6JuJLkAvAfkZ7ZTAgWu48AAAAASUVORK5CYII="
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "10-13"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-53",
+   "I-54"
+  ],
+  "frontier": false,
+  "real": "1979 リン・コンウェイ（とカーヴァー・ミード）の『Introduction to VLSI Systems』。大きさを変えても使える設計ルールで、大きな IC の設計の教え方と進め方を変えた（network_proposals W-5）。人物はリン・コンウェイのみ（存命の共同研究者は載せない）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "実験（ルールに沿って回路を並べる）",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "AI チップ [B-11] の設計",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAvUlEQVR42q1TsRHDIAx8fCo9QsZw5YraE6TwZYKMwwQ+F56AWpWqjOER0pMKn4wB5+J8JYEA/b8ALsIAQN8/Q7oh4ozOSzUUk7FbAABrO4HZZ1+zdtjiWEOVwhAvnV/33WGN7YK1nX7SINsBs4eIMyJxxQFAyHVBKSdNIRXy9n4cuqWc4gDCJQol5HSinM+K644Gsz+4QSWfK4MVdE5nIp1113zL39oBY7dsj0Q0qUilgdI269jUPkvB4v/iA2DLVAMjFjIjAAAAAElFTkSuQmCC"
+}

@@ -1,0 +1,56 @@
+{
+ "id": "12-15",
+ "history": {
+  "name": "避雷針",
+  "name_en": "Lightning rod",
+  "kind": "tech",
+  "trunk": "12",
+  "trunk_name": "建築・土木",
+  "year": 1752,
+  "year_range": null,
+  "year_uncertain": true,
+  "hee1": "マイクラの避雷針が銅でできているのは本物どおり",
+  "hee1_en": "Minecraft's lightning rod is made of copper, just like the real thing",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "4-03"
+    ],
+    [
+     "1-03"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1752 ベンジャミン・フランクリンの凧の実験（⚠️実際に行ったかは議論あり）、1753 避雷針。雷の電流を地面へ逃がす"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "落雷で火事にならない（バニラの避雷針は銅＝本物どおり）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAmUlEQVR42s2SMQ7CMBAExxGvAgrq6Eq/gndQUkc85JQ6RZSH5CNHlShKfLYRFGx7nvXu2fBLjR02dlhqdr6JFWGbo3vIM2gW+CIRAJujm6KoHFxVIQc/ni9LmawVAK53QgpuRQBoRQ5JQi7VFt6qV2UaNKwJPoH3SVyDadDQqyZnVQn2gGd2qoGX24BDrebb7198hdyO+Au9AZhlVJbcDnSqAAAAAElFTkSuQmCC"
+}

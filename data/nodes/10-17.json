@@ -1,0 +1,53 @@
+{
+ "id": "10-17",
+ "history": {
+  "name": "CAD",
+  "name_en": "CAD",
+  "kind": "tech",
+  "trunk": "10",
+  "trunk_name": "制御・計算",
+  "year": 1963,
+  "year_range": null,
+  "year_uncertain": true,
+  "hee1": "図面を紙ではなく数字で持つと、何度でも直せる （IMP-24 で追加、network_proposals N-7）",
+  "hee1_en": "Keep drawings as numbers instead of on paper, and you can fix them as many times as you like (added in IMP-24, network_proposals N-7)",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "10-14"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "形を画面の上で描き、数値として保存・修正する（年・出典は未調査 ⚠️）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "作品（形を描いて 3D プリンターで出す）",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "3D プリンター（[P-04]）に形を渡す",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAv0lEQVR42s2SvQ2DMBSEP5BHQS6ygjdAKJUXoWMEKiZxhSxvwAoUVnYhBTLIDiY/NHndO/tOd/bBxSkApLwtv5C9nwsRlrq+f0V2bgRA5C5o2Ue7ajSTNRjfRbjIkVWjaYdqB+2KmYFzgUBOXRjfge2B2EF55KAdqs1uajmd8uo3irPDEEE1GsWDyX4goBoNto+sr2RzGOdFYLJmE9kxsm+RbWJarFCctIlFLr+UtyWIODfi/VxkHaTEd/3nr+YJHGRIukhF9nMAAAAASUVORK5CYII="
+}

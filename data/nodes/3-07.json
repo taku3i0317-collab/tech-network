@@ -1,0 +1,61 @@
+{
+ "id": "3-07",
+ "history": {
+  "name": "るつぼ炉",
+  "name_en": "Crucible furnace",
+  "kind": "tech",
+  "trunk": "3",
+  "trunk_name": "熱",
+  "year": 1740,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "るつぼに入れて溶かすと、燃料や炎が中身を汚さない",
+  "hee1_en": "Melting things in a crucible keeps the fuel and flame from dirtying what is inside.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-07"
+    ],
+    [
+     "0-03"
+    ]
+   ],
+   [
+    [
+     "3-04"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "[1-11] を参照（1740頃 ハンツマン）。中身を燃料・炎から隔てて溶かす＝不純物が入らない"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "少量高純度の溶解（[1-11]るつぼ鋼、ガラス）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAkElEQVR42mNgGBRgip/Bf3L1sJBjUM6mC4wwNgu6pIHHBQZrnxCsGo9uWcNwYYcBihgTusnoCpDBhR0GKLZjGIBsEzFiWL2Qs+kC4xQGg/8XdtxB9xyG7VgNQA8kQgDFC0emMfwnhY3igiPTGP5b+4Qw/PdBKMDFPsKw5v+FHXgCkRTAghxFmAGHCxgwDCMAACy+P7gixx+eAAAAAElFTkSuQmCC"
+}

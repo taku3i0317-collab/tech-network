@@ -1,0 +1,91 @@
+{
+ "id": "B-02a",
+ "history": {
+  "name": "ダゲレオタイプ",
+  "name_en": "Daguerreotype",
+  "kind": "tech",
+  "trunk": "B",
+  "trunk_name": "枝",
+  "year": 1839,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "1枚きりで複製できない（ネガがない）",
+  "hee1_en": "Each picture is one of a kind and cannot be copied (there is no negative).",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "O30. 銀の板に光を写す（ダゲレオタイプ）［B-02a］",
+    "answer": "磨いた銀の板をヨウ素の蒸気にあててヨウ化銀の膜を作り、カメラで数分間光を当てる（露光）。見えない潜像を、温めた水銀の蒸気で白いアマルガムの粒にして見えるようにし（現像）、食塩水やハイポで残りの銀塩を取る（定着）。1839年ダゲールが発表し、フランス政府が買い取って世界に無料で公開した。",
+    "hee": {
+     "1": "1枚きりで複製できない（ネガがない）。",
+     "2": "最初は露光に数分かかり、動く人は写らなかった。だから昔の街の写真には人がいない。",
+     "3": "1840〜41年、ペッツヴァールの明るいレンズと臭素の増感で、露光は十数秒になり肖像写真が広まった。",
+     "4": "感光材・露光・現像・定着は、IC のフォトリソグラフィにそのまま受け継がれた。"
+    },
+    "certainty": "ダゲレオタイプの工程（ヨウ素・水銀・食塩）◎／1839 の公開とフランス政府 ◎／露光時間 数分〜15分 ○（条件で大きく違う）／偶然の水銀の発見の話 △ → ゲーム内は ⚠️",
+    "basis": "- Wikipedia「Daguerreotype」：https://en.wikipedia.org/wiki/Daguerreotype"
+   }
+  ],
+  "people": [
+   {
+    "name": "ダゲール",
+    "tool": "📷 銀板",
+    "year": "1839",
+    "intro": "1839年、銀板をヨウ素の蒸気にさらし、水銀の蒸気で現像する写真を発表した",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACMklEQVR42mNgGAVEAC050f9acqL/yWETAkwD7TkWYhXKiPAxMDAw/IfSBNlP3nwiylxGYh1goir5X1lSCEP8/ZcfGGJP3nxiuPboNSNFDoDF4bVHrxm15ESRfUgUgDkC2RySowBLsDOQE2X4ooOJSIPIAsToHfBcQJIDlk2qZVg2qZYgu6kklWgz8SZC5CCEWUAMuPPoBUNdz2yicgULKSEQldeM00HIclQNAZhhKnISJIUADNT1zMYbAjjTwLVHrxmNDPVQxDgNQxnMo+oYOA1DMdTjkjMy1MNbKBFMhHcfI3zz/fxqho2Tihi+n1+N4Vtscsh6yXaAsixq0EuICOBUiy6HrpcsB2zYexIzuNnZ4OyXbz9gFcell6Rc0DF3PSzu/pck+iOi4ucvBgYGBoYLNx4wcHNyYIjDLEfST1l1DDUI7gjkLIdeUJFiOcnlAMzyZZNqGQ7P3ooibpvqDZcjBTCSorgiORAlKrCBnvkbifY9yQ6AOUJUiJ8h3t8BRXzhxgMMr999JMlyikBFcuD/N0cW/H9zZMH/iuTA/+SaQ5RrRUUl4BZUVBQxMDAwMMTFxaCoWbRoCSTBdvTBxV6/fsFIkQNgFvPxIQqYEyf24TXQwsIJzv706QNBh7AQazE5AEn/f1wOYSTV4q9fvzBwc/NghISFhRNcDhfAFiIs1PQxOSHCCHMAMZYT8iGxamCh8fr1C8bB0zWDxQ8u8PPnDwZ2dg6C6qBBy8DOzkGUAwBUhxIOHBmuyAAAAABJRU5ErkJggg=="
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-32"
+    ]
+   ],
+   [
+    [
+     "2-04"
+    ]
+   ],
+   [
+    [
+     "1-45"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1839 ダゲール。銀板をヨウ素蒸気で AgI 化→露光→水銀蒸気で現像（Hg が感光部にアマルガム）→食塩水で定着"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "実験（露光時間で写りが変わる）",
+  "missing": "",
+  "item": "camera",
+  "recipes": [
+   "作業台：色消しレンズ ＋ 木材×4 → 暗箱カメラ"
+  ],
+  "machine_recipes": [],
+  "placeholder": "近似：ちょうどよい露光を 銀板 60秒・乾板 1秒にした（本物は 1839年の銀板が数分〜15分、1878年ごろの乾板が 1/25秒ほど）。景色の絵は写らない（写真の中身は場所・時刻・写りのデータ。絵は仕上げのときに）。",
+  "game_text": "",
+  "hee_game": {
+   "note1": "レンズのついた暗い箱。中の板に外の景色の光が当たって、写真が写る。",
+   "note2": "色消しレンズ＋板材×4。もう片方の手に感光板を持って、右クリックを押している間シャッターが開く。銀板（ダゲレオタイプ）は昼の空の下で 60秒、ゼラチン乾板は 1秒がちょうどよい（雨だと光が 3割、屋根の下や夜は写らない）。短いと「うすい」、長すぎると「黒い」。",
+   "note3": "1839年、ダゲールの写真の発表に合わせて、シュヴァリエの色消しレンズをつけたカメラが売り出された。最初は露光に何分もかかり、動く人は写らなかった（だから昔の街の写真には人がいない）。",
+   "note4": "1840年、ペッツヴァールが計算で設計した明るいレンズを作り、露光は十数倍短くなった。レンズの明るさ（F 値）と板の感度の両方が、露光時間を決める。露光装置でも、光の強さと露光時間の積（露光量）で、レジストの写り方が決まる。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAARUlEQVR42mNgGAUUA0Z0gSQ7pf/4NMw7dA9FDxMpmrGpYSJFMza1TJSGwcAbwAJjHHnBwWAj8YPhyAsOuCSMjy4+ClABAD0eFcgHc6q8AAAAAElFTkSuQmCC"
+}

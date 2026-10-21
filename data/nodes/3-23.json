@@ -1,0 +1,53 @@
+{
+ "id": "3-23",
+ "history": {
+  "name": "ヒートポンプ",
+  "name_en": "Heat pump",
+  "kind": "tech",
+  "trunk": "3",
+  "trunk_name": "熱",
+  "year": 1856,
+  "year_range": "1852〜1858",
+  "year_uncertain": false,
+  "hee1": "エアコンの暖房は、冬の冷たい外の空気からも熱を集めて部屋に運んでいる（S-004 で追加。出典：en.wikipedia.org、austria-forum.org）",
+  "hee1_en": "An air conditioner's heating gathers heat even from the cold outside air in winter and carries it into the room. (Added in S-004. Sources: en.wikipedia.org, austria-forum.org)",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "3-22"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1852年にケルビン卿（ウィリアム・トムソン）が、冷凍機を逆向きに使えば暖めるのにも使えると理論で示した。1856年、オーストリアの鉱山技師ペーター・フォン・リッティンガーが、エーベンゼーの塩の工場で、湯気の熱をくり返し使って塩水を煮つめる装置を作り始めた（真水ではうまく動いたが塩水では失敗し、1858年にやめた）。暖房のときは外の冷たい空気からも熱を集めて部屋へ運ぶので、使う電気より多くの熱を出せる。今のエアコンは四方弁で冷媒の向きを変えて冷房と暖房を切り替える"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAArElEQVR42sWSvRGDMAyFP3MeIVXKjJEqNecZKCkZhpKSGXTUVIxBmSo7kMo++edIoEhUybr3LL0nwb/DANwfbjtDXmYx1j9q5wAYhz4DNm2X1SYRAKwujkMfwHs5wOV6A6AqkUsTeGLTdhHOHtWdThBMfD3Xj2TdeRKJTUwBqSTfOZ3gsAT/qd9CVTKqpFtvQeOCB2fuIPNAaysdjT64aI3LLAbYVL4X3+J+FG/WMFTNiAvAXwAAAABJRU5ErkJggg=="
+}

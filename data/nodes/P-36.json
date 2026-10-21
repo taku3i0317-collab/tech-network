@@ -1,0 +1,89 @@
+{
+ "id": "P-36",
+ "history": {
+  "name": "自動ドア",
+  "name_en": "Automatic door",
+  "kind": "product",
+  "trunk": "P",
+  "trunk_name": "モノ（作品）",
+  "year": 1954,
+  "year_range": "1931〜1960",
+  "year_uncertain": false,
+  "hee1": "自動の引き戸は、風が強くて開き戸がすぐ壊れる町で生まれた。",
+  "hee1_en": "The automatic sliding door was born in a town where strong winds quickly broke swinging doors.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://en.wikipedia.org/wiki/Automatic_door",
+   "https://hortondoors.com/about-us/"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "4-08"
+    ]
+   ],
+   [
+    [
+     "10-02"
+    ]
+   ],
+   [
+    [
+     "8-20"
+    ]
+   ],
+   [
+    [
+     "2-14"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [
+   "1-29",
+   "1-52",
+   "2-29",
+   "4-08",
+   "4-21",
+   "8-20",
+   "9-42",
+   "9-46",
+   "10-04",
+   "10-14",
+   "12-05",
+   "B-07"
+  ],
+  "materials": [
+   "ガラス",
+   "アルミニウム",
+   "銅",
+   "シリコン"
+  ],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1931年、スタンレー社の技師ホレス・レイモンドとシェルドン・ロビーが光のしかけで開く扉を作り、皿を運ぶ給仕のためにコネチカット州のレストランに付けた。1954年、テキサス州コーパスクリスティでガラス店にいた2人が、強い風で開き戸が壊れる問題から自動の引き戸を考え、1960年に売り出した。よくある間違い：1954年は「最初の自動ドア」ではなく「自動の引き戸」の始まり"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "作品：人が近づくと、センサーが気づいて戸が横に開く",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAmUlEQVR42mNgoCWwcvD5b+Xg8x+fGhYYw6KsC0NhUVIEAwMDA8O/eXYYcie6yhhRDEAWhIEeBob/2MSRLWOi1JtM2PyNL0xwhgGyAhgNC4O+U4f+I6v5h8uAYwe2MFo5+Pw/dmALI3LgnYDyYXIWZna4wwCmGRvAJkf9QKS7ASy4EggDAwNDCTQWYAkKG2DElYyJAegpdGAAAPWZP4P7BsTKAAAAAElFTkSuQmCC"
+}

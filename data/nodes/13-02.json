@@ -1,0 +1,58 @@
+{
+ "id": "13-02",
+ "history": {
+  "name": "消毒",
+  "name_en": "Antisepsis",
+  "kind": "tech",
+  "trunk": "13",
+  "trunk_name": "医薬・衛生",
+  "year": 1867,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "うがい薬リステリンの名前はリスターから",
+  "hee1_en": "The mouthwash Listerine is named after Lister",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "2-25"
+    ]
+   ],
+   [
+    [
+     "6-05"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1867 ジョゼフ・リスターが石炭酸で傷と器具を消毒し、手術後の感染死を減らした"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "解説のみ",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAkklEQVR42mNgoBAw4pKwKOv6j038RFcZih4WYjSWJEUwMDAwMPTMW4Hdti4Xtf/INDZD19x49B+Xq/AaAtNkUdaF1QAmmKayPbcYYTQDtQFRXiCkGYbRDWEipBkWA8gxgmwICyEX3MtxwRQ0SiHOBchAacoerOJMpGjGZghRBsC8gc07RHsBa1gQE4jrkAKMJgAAmrpRN9bW0msAAAAASUVORK5CYII="
+}

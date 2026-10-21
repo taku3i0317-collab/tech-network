@@ -1,0 +1,76 @@
+{
+ "id": "B-03",
+ "history": {
+  "name": "X線管",
+  "name_en": "X-ray tube",
+  "kind": "tech",
+  "trunk": "B",
+  "trunk_name": "枝",
+  "year": 1895,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "X線は「正体不明の線」なので X と名付けられた",
+  "hee1_en": "X-rays were named X because they were \"rays of unknown nature\".",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "4-27"
+    ]
+   ],
+   [
+    [
+     "5-05"
+    ]
+   ],
+   [
+    [
+     "1-28"
+    ]
+   ],
+   [
+    [
+     "4-10",
+     "4-11"
+    ]
+   ],
+   [
+    [
+     "2-14"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-25"
+  ],
+  "frontier": false,
+  "real": "1895 レントゲンがクルックス管（放電管）から X線を発見、1913 クーリッジの熱陰極 X線管（高真空で安定）。高速の電子が W に当たって急に止まると X線（制動放射）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "透視アイテム（[13-11]X線診断の装置）。被ばく警告",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAp0lEQVR42tVSMQ6DMAy85CV9hiV4QscOnRmZkR9hMTN27pCxTwCJJzDzEXdCMoFQGnWpl1MSn+07B/j7cPEFsegRYRR2uw/Eop/IyTxi0TDNGqZZiUX7DgoAMcZ5AOBtofbxBACUNVzfQS0SizbVfTORt+RR2C0ayxortA2yPLBybN7pLbQXRnG9YXiF1VSnImXqxsQU+aijz/l9y3ayC3ytPXX+SbwBatti2kMSug8AAAAASUVORK5CYII="
+}

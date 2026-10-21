@@ -1,0 +1,58 @@
+{
+ "id": "11-17",
+ "history": {
+  "name": "エスプレッソの圧力抽出",
+  "name_en": "Espresso pressure brewing",
+  "kind": "tech",
+  "trunk": "11",
+  "trunk_name": "農業・食",
+  "year": 1948,
+  "year_range": "1901〜1948",
+  "year_uncertain": false,
+  "hee1": "エスプレッソは、タイヤの空気の約4倍、9気圧ほどの力でお湯をコーヒーの粉に押し通して作っている。（S-004 で追加。出典：en.wikipedia.org、gaggia.com、home-barista.com）",
+  "hee1_en": "Espresso is made by forcing hot water through coffee grounds at about 9 atmospheres, roughly 4 times the air pressure in a tire. (Added in S-004. Sources: en.wikipedia.org, gaggia.com, home-barista.com)",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "4-02"
+    ]
+   ],
+   [
+    [
+     "5-03"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1901年、ミラノのルイジ・ベッツェラがボイラーの蒸気の圧力でお湯を粉に通す機械の特許を取り、1905年にデジデリオ・パボーニが量産した。この方式は約1.5気圧しかなく、お湯も熱すぎた。アキッレ・ガッジアは1938年に蒸気を使わない方式の特許、1947年にレバーでばねを縮めてピストンで押す方式の特許を取り、1948年に店用の機械を出した。約9気圧で押すことで、表面にクレマ（細かい泡の層）ができる今のエスプレッソになった。『ジープのエンジンを見て思いついた』という話は言い伝え"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAqUlEQVR42mNgoBAwMjAwMFg5+PwnRdOxA1sYYWwWGMPLx4eBgYGBQeDQDLjCD3YZGJq3bdmCwmfCZgM2jbgAVgOQXUEIsFBiO4YL0P1HciwcO7CF0crB5z8sQLdt2cIQxfcEq8acTRcYsXoBGkVwA4+RE4hRfE9Q4pqoQPTy8WGI4nsCT1BT/Az+ozuXaBeggyl+Bv+RDSTZAHwuwIgFXDbhMoTizEQxAAAkej/VC/0rtwAAAABJRU5ErkJggg=="
+}

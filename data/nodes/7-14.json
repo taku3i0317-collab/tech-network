@@ -1,0 +1,86 @@
+{
+ "id": "7-14",
+ "history": {
+  "name": "CO2 レーザー",
+  "name_en": "CO2 laser",
+  "kind": "tech",
+  "trunk": "7",
+  "trunk_name": "光学",
+  "year": 1964,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "このレーザーの光はガラスを通らないので、窓は塩の結晶",
+  "hee1_en": "This laser's light can't pass through glass, so its windows are salt crystals",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "O63. 塩の窓から出る見えない光（CO2 レーザー）［7-14］",
+    "answer": "1964年、ベル研究所の研究者が、二酸化炭素の気体に放電をかけて、分子の振動から 10.6µm の赤外線のレーザーを出した。翌1965年、窒素を混ぜると、放電で揺れた N2 が CO2 にエネルギーを渡して出力が大きく上がることを見つけた（さらにヘリウムで効率 10〜20%）。赤外線はガラスを通らないので、窓には岩塩 NaCl の結晶を使った。",
+    "hee": {
+     "1": "このレーザーの光はガラスを通らないので、窓は塩の結晶。",
+     "2": "CO2 は石灰石を焼く窯の煙から集められる。",
+     "3": "今も金属・木・アクリルの切断や、手術、そして EUV 露光の光源（スズの粒を撃つ）に使う。",
+     "4": "N2 の振動の高さが CO2 の上の準位とほぼ同じなので、ぶつかるとエネルギーが渡る（共鳴エネルギー移動）。"
+    },
+    "certainty": "1964 ベル研究所・10.6µm ◎／N2 の効果 1965 ◎／He で 10〜20% ○／ゲームの出力の数字 △（ゲームの値）",
+    "basis": "- Wikipedia「Carbon-dioxide laser」：https://en.wikipedia.org/wiki/Carbon-dioxide_laser"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "0-10"
+    ]
+   ],
+   [
+    [
+     "6-07"
+    ]
+   ],
+   [
+    [
+     "4-10"
+    ]
+   ],
+   [
+    [
+     "6-04"
+    ]
+   ],
+   [
+    [
+     "7-05"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1964 クマール・パテル（ベル研）。CO2 分子の振動で10.6μm の赤外線、効率約10〜20%で大出力。N2 を混ぜると N2 の振動が CO2 にエネルギーを渡して強くなる。He を足すとさらに効率が上がる（1965〜、約100W・効率6〜7%）が[6-15]で回避→ 決定：He なし（CO2+N2）の低出力版。EUV 駆動[7-18]には台数を増やして補う"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "重＋実験",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAVUlEQVR42mNgGGjACGNYOfj8J0bDsQNbGLFKEGOAlYPPf3R1LMicI9MY/lv7hBDhjpD/R7esYbDJYmBkolpgkOsF6gUiPoPwGc6ETSGyBmxio2CwAQC3ISSae0M2agAAAABJRU5ErkJggg=="
+}

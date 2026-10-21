@@ -1,0 +1,63 @@
+{
+ "id": "8-27",
+ "history": {
+  "name": "波動歯車減速機",
+  "name_en": "Strain wave gearing",
+  "kind": "tech",
+  "trunk": "8",
+  "trunk_name": "精密・計測",
+  "year": 1957,
+  "year_range": "1955〜1959",
+  "year_uncertain": false,
+  "hee1": "ロボットの関節の中では、金属の歯車の輪が楕円にぐにゃっと曲がりながら回っている（S-005 で追加。出典：Wikipedia「Strain wave gearing」「Walton Musser」、Harmonic Drive LLC 'C. Walton Musser'（1957年発表、米国特許 2,906,143）（https://legacy.harmonicdrive.net/aboutus/musser/））",
+  "hee1_en": "Inside a robot's joints, a metal gear ring turns while bending into a wobbly oval. (Added in S-005. Sources: Wikipedia \"Strain wave gearing\", \"Walton Musser\", Harmonic Drive LLC 'C. Walton Musser' (announced 1957, US Patent 2,906,143) (https://legacy.harmonicdrive.net/aboutus/musser/))",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "8-01"
+    ]
+   ],
+   [
+    [
+     "8-02"
+    ]
+   ],
+   [
+    [
+     "1-26"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "モーターは速く回るが力が弱いので、歯車で回転を遅くして力を大きくする（減速機）。アメリカのユナイテッド・シュー・マシナリー社のウォルトン・マッサーが、薄くて曲がる歯車の輪を楕円の部品で押し広げながら回す「波動歯車」を1957年に発表した（特許の成立は1959年）。1段で回転を数十〜百分の1にでき、ガタ（すき間）が小さいので、ロボットの関節によく使われる"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAYUlEQVR42mNgoBAwYhO0cvD5j0382IEtGOqZ0DXCNHv5+DCg09gMZiRkKyGXYBiAzZnYLIGpY8SmGZtr0OVgfCZKY2HgDWAhNr4JJiRSohFvIGJLQMg0znRArEtI8d4QAQBnPjQI1jtfHgAAAABJRU5ErkJggg=="
+}

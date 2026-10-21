@@ -1,0 +1,66 @@
+{
+ "id": "0-12",
+ "history": {
+  "name": "木炭",
+  "name_en": "Charcoal",
+  "kind": "tech",
+  "trunk": "0",
+  "trunk_name": "生存・道具",
+  "year": -30000,
+  "year_range": "-30000〜-5000",
+  "year_uncertain": true,
+  "hee1": "木を空気の少ないところで焼くと、炭素の多い炭が残る",
+  "hee1_en": "If you burn wood where there is little air, carbon-rich charcoal is left behind.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "M1. 木を焼いて炭にする（木炭）［0-12］",
+    "answer": "木を空気の少ないところで約400〜700℃に熱する（乾留）と、水分と煙になる成分が抜けて、炭素が80〜90%の木炭が残る。金属を取り出す還元剤と燃料になる。",
+    "hee": {
+     "1": "木を「燃やす」のではなく「蒸し焼き」にすると炭になる。",
+     "2": "石炭とちがって硫黄がほとんどないので、金属を汚しにくい。だから古い製鉄はみな木炭だった。",
+     "3": "イギリスでは製鉄のために森を切りすぎ、1709年にダービーが石炭を蒸し焼きにしたコークスで製鉄した。",
+     "4": "洞窟壁画の黒い線は、3万年以上前の木炭で描かれている。"
+    },
+    "certainty": "乾留の温度と炭素の割合 ◎（化学の標準値）／コークス製鉄 1709 ◎／洞窟壁画の木炭 約3万年前 ◎（ショーヴェ洞窟の放射性炭素年代 2万9000〜3万2000年前）／製錬の燃料として重要になった時期（銅の製錬、紀元前5000年頃〜）△ → ゲーム内は ⚠️",
+    "basis": "TECH_TREE［0-12］、化学の標準値。Scientific American（ショーヴェの年代）https://www.scientificamerican.com/article/scientists-confirm-great 、UCL（ベロヴォデの銅製錬 紀元前5000年頃）https://discovery.ucl.ac.uk/id/eprint/1470180/ 、ペン博物館（木炭は製錬の主燃料）https://www.penn.museum/sites/expedition/fuel-for-the-metal-worker/"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "0-02"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "木を空気を絞って加熱（乾留、約400〜700℃）すると水分・揮発分が抜け炭素80〜90%に。洞窟壁画の顔料として約3万年前から（ショーヴェ洞窟）、銅の製錬（紀元前5000年頃〜、セルビア・ベロヴォデ）とともに燃料として重要に⚠️"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "バニラの木炭で可（炭窯の酸欠は省略）。冶金[1-03]以降の還元剤・燃料",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAiklEQVR42mNgGGjAiE1QTU3rPzbxW7euYahnwabRy8sPl4X/0Q1iRNaMrPHTuVUMfEZhGGwGBgaGbds2wQ1hwmYNugY+ozCGT+dWYXUSEz7Nn86tgmvEZQgTLs/CDMJnO0YgIgNkjcjeIegCdI24AhKvF9CdjUszRkIilA62bdvEgDMdkJsShwEAAJdPSY7xJF/qAAAAAElFTkSuQmCC"
+}

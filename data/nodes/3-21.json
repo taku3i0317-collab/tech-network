@@ -1,0 +1,63 @@
+{
+ "id": "3-21",
+ "history": {
+  "name": "ヒートパイプ",
+  "name_en": "Heat pipe",
+  "kind": "tech",
+  "trunk": "3",
+  "trunk_name": "熱",
+  "year": 1963,
+  "year_range": "1942〜1963",
+  "year_uncertain": false,
+  "hee1": "中は真空で少しの水しか入っていないので、体温くらいでも水が沸いて熱を運ぶ（S-002 で追加。出典：Wikipedia「Heat pipe」、C&R Technologies「Two-Phase Musing」）",
+  "hee1_en": "Inside is a vacuum with only a little water, so the water boils even at about body temperature and carries heat (added in S-002. Sources: Wikipedia \"Heat pipe\", C&R Technologies \"Two-Phase Musing\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-04"
+    ]
+   ],
+   [
+    [
+     "5-11"
+    ]
+   ],
+   [
+    [
+     "5-12"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "管の中の少しの液体が、熱い側で蒸発し、冷たい側で凝縮して、細い芯（ウィック）を伝って戻ってくることで熱を運ぶ。1942年にゼネラルモーターズのゴーグラーが考えた（特許1944年）が使われず、1963年にロスアラモスのジョージ・グローバーが知らずに再発明して「ヒートパイプ」と名づけた。1960年代後半に NASA が人工衛星で育て、今はノートパソコンの CPU の熱を銅の管でファンまで運ぶ"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAgElEQVR42mNgoBfoclH7j41motRgig1gRHYOqaBszy1GBnINwBoGR6Yx/P//KAQDH5nG8B8mjzcMrH1CsNoGE7f2CcEwBMWAo1vWYDUAJn50yxoGmyxIuGH1DzlhwEKJIQzoAYgroPClRBaYJmufEIb/PlBDGNb8x+pXWqTEgQcAst1J3JDUG9gAAAAASUVORK5CYII="
+}

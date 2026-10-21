@@ -1,0 +1,63 @@
+{
+ "id": "15-26",
+ "history": {
+  "name": "MEMS マイク",
+  "name_en": "MEMS microphone",
+  "kind": "tech",
+  "trunk": "15",
+  "trunk_name": "通信・情報",
+  "year": 2003,
+  "year_range": "1980年代〜2003",
+  "year_uncertain": false,
+  "hee1": "スマホには、シリコンを削って作った小さなマイクが何個も入っていて、雑音を消すのにも使っている（S-004 で追加。出典：businesswirechina.com、nt.tu-darmstadt.de）",
+  "hee1_en": "A smartphone has several tiny microphones carved from silicon, and they are also used to cancel noise. (Added in S-004. Sources: businesswirechina.com, nt.tu-darmstadt.de)",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "9-43"
+    ]
+   ],
+   [
+    [
+     "15-25"
+    ]
+   ],
+   [
+    [
+     "9-24"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "シリコンを削って作った、ごく薄い膜と穴のあいた板のすき間で音をとらえるコンデンサーマイク。1980年代にドイツのダルムシュタット工科大学でシリコンのコンデンサーマイクを研究し、2003年2月にアメリカのノウルズ社（エムケイ部門）が、基板にそのままはんだ付けできる MEMS マイク「SiSonic」を発売した。熱に強く機械で組み立てやすいので、スマホには何個も入っている（ノウルズは2009年に10億個目を出荷）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAdElEQVR42mNgGAUUA0YYw8oq5z8pGo8dm8LIwMDAwIIsGGOygoGBgYHhCc8ivJoPHNgGZ6MYgKxR5kscAy45ZMCEz6YnPIsIuoYFnyS6K0gygJDNRHmB6GiclifynxzNWZPewJMBw7Q8kf/IBuFjk2shbQAA4BMkV18zjocAAAAASUVORK5CYII="
+}

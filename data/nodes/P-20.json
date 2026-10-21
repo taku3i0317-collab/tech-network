@@ -1,0 +1,64 @@
+{
+ "id": "P-20",
+ "history": {
+  "name": "スマホのスピーカー",
+  "name_en": "Smartphone speaker",
+  "kind": "product",
+  "trunk": "P",
+  "trunk_name": "モノ（作品）",
+  "year": 1982,
+  "year_range": "1925〜1982",
+  "year_uncertain": false,
+  "hee1": "スマホの小さなスピーカーにも、強いネオジム磁石が入っている",
+  "hee1_en": "Even the tiny speaker in a smartphone has a strong neodymium magnet inside.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://en.wikipedia.org/wiki/Loudspeaker",
+   "https://spectrum.ieee.org/the-men-who-made-the-magnet-that-made-the-modern-world"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "15-19"
+    ]
+   ],
+   [
+    [
+     "1-35"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [
+   "銅",
+   "ネオジム"
+  ],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "ネオジム磁石と銅のコイルで小さな振動板をふるわせて音を出す。小さくても強い磁石なので、薄いスマホに入る"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "作品：音を出す",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAdklEQVR42mNgoBAwwhhWDj7/SdF47MAWRgYGBgYWZEEvHx+iNG/bsgXOZqLUCwNvAAs+/8HCBJsYVgO2bdkCD10GBgaGN8/u/WdgYGC4desaI5Ky/1ijkZSoRLYEJ1BT0/qPjU2yRrIMwqYQl2ZGYg1BC8jhBAACLyxQgPwrwAAAAABJRU5ErkJggg=="
+}

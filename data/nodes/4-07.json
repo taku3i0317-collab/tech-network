@@ -1,0 +1,90 @@
+{
+ "id": "4-07",
+ "history": {
+  "name": "鉛蓄電池",
+  "name_en": "Lead-acid battery",
+  "kind": "tech",
+  "trunk": "4",
+  "trunk_name": "動力・電気",
+  "year": 1859,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "車のバッテリーと同じ",
+  "hee1_en": "The same as a car battery.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "E6. 電気をためる（鉛蓄電池）［4-07］",
+    "answer": "鉛と二酸化鉛を硫酸に浸すと電池になり、しかも充電してくり返し使える。1859年にフランスのプランテが発明した。",
+    "hee": {
+     "1": "充電できる電池の第1号。今も自動車のバッテリーとして使われている。",
+     "2": "放電すると両方の極板が硫酸鉛になり、充電すると元に戻る。Pb + PbO₂ + 2H₂SO₄ ⇄ 2PbSO₄ + 2H₂O。",
+     "3": "160年以上前の発明が、今も毎年何億個も作られている。重いけれど安く、丈夫で、鉛はほぼ全部リサイクルされている。",
+     "4": "1881年にフォールが、極板に鉛のペーストを塗る方法を考え、容量が大きく増えた。極板を硬くするためにアンチモンを混ぜる工夫もある（ゲームでは任意の上位素材［1-43］）。"
+    },
+    "certainty": "1859・反応式 ◎",
+    "basis": "MagLab「Planté Battery 1859」、ETHW「Gaston Planté」（英語）"
+   }
+  ],
+  "people": [
+   {
+    "name": "プランテ",
+    "tool": "🔋 鉛の板と硫酸",
+    "year": "1859",
+    "intro": "1859年、鉛の板と硫酸で、充電できる電池（鉛蓄電池）を作った",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACDElEQVR42mNgGAUjHTCSolhLTvQ/MequPXpNtLksxCo0UZX8rywphCH+/ssPbMr/E+sIRmJ9LiPCR1LQPnnziaiQYKKF5QwMDAwyInxERRnTQCfCoeWAZZNqGZZNqiXIbipJpV42hKUBmAXEgDuPXjDU9cwmKiGykBICUXnNKKGBS45qIVCRHPg/wNmcgYGBgUFFToKkEICBDXtPMnTMXc9IlRDgNAxl0NPUZLh0/TrD9/OrccoxPJpMvUR49zHCN9/Pr2bYOKkIxXKYb7HJIesl2wHKshIMdT2z4XEsISKAUy1Mrq5nNkNdz2wGZVkJyh2wYe9JzKhgZ4OzX779gFUcl16S0gAs8WjJif4X5OFARMXPXwwMDAwMF248YODmxBSH1QW78CQ+khLhtUevGZHLdeQsh15QkVIRkdQeQK+UAuSUUYP70V2Sa0KyGiQwR3z98YuBm4ON7GqYLAfAHPHz9x8G9MbJkzefSG4NkeUAbKFBqq9JdoCoqAQ8AVZUFDEwMDAwxMXFoKhZtGgJJOd09MHFXr9+wUiRA2AW8/EhCh9l/t/4S86PrHD2p08fCDqEhViLyQFI+v/jcggjqRZ//fqFgZubh+HEiX0o4hYWTnA5XABbiLBQ08fkhAgjzAHEWE7Ih8SqgYXG69cvGAe8UcqCHj+4wM+fPxjY2TkIqoMGLQM7OwdRDgAAg5T4sX7nUVkAAAAASUVORK5CYII="
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-27"
+    ]
+   ],
+   [
+    [
+     "2-01"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-21"
+  ],
+  "frontier": false,
+  "real": "プランテ1859。Pb+PbO2+H2SO4。極板の格子は純鉛だと柔らかいので [1-43]アンチモンを数%混ぜて硬くした（任意の上位素材）"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": "lead_acid_battery",
+  "recipes": [
+   "作業台：鉛インゴット×3 ＋ 銅ケーブル ＋ ソーダ石灰ガラス×4 ＋ 硫酸 → 鉛蓄電池"
+  ],
+  "machine_recipes": [
+   "鉛蓄電池「電気をためる」：電気 → 電気（1 MJ まで、充電は 85% がたまる）（10 kW）。充電・放電とも最大の電力"
+  ],
+  "placeholder": "省略：自己放電、電圧（12V など）。容器はガラス（本物もガラス瓶、のちにエボナイト・樹脂）。",
+  "game_text": "蓄電ブロック(1MJ)。energy/SimpleEnergyStorage",
+  "hee_game": {
+   "note1": "車のバッテリーと同じ。電気を化学変化として貯めておく。",
+   "note2": "プランテ1859年。硫酸の中に鉛の板。容量 1MJ。どの面からも充電・放電できる（どちらも最大 10kW、貯まるのは充電の85%）。ケーブル網では、電気が余れば充電、機械が足りなければ放電する。壊しても残量はアイテムに残る。右クリックで残量。放電中は光る。",
+   "note3": "充電：2PbSO4 + 2H2O → Pb + PbO2 + 2H2SO4。放電はその逆向きなので、空になるほど硫酸がうすくなる（整備士は液の比重で残量を測った）。プランテは裸の鉛板の充電・放電を何度もくり返して PbO2 の極板を作った（化成）。",
+   "note4": "最初の「充電できる電池」。160年以上たった今もほぼすべての車に積まれている：セルモーターに大電流を出せて、安く、鉛の95%以上がリサイクルされるから。純鉛の格子は柔らかいので、アンチモン[1-43]を数%混ぜて硬くした。充電しすぎると水が H2 と O2 に分かれる（電池室は換気が必要）。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAPklEQVR42mO0cvD5z0ABYGFgYGCQE2MjS/OjV78YmBgoBANvAAs2f+ED6OE1DMJgEMYCqalyuIQBodSHDwAATjsK7cMZ9Q0AAAAASUVORK5CYII="
+}

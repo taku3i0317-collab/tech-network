@@ -1,0 +1,66 @@
+{
+ "id": "P-12",
+ "history": {
+  "name": "CPU",
+  "name_en": "CPU",
+  "kind": "product",
+  "trunk": "P",
+  "trunk_name": "モノ（作品）",
+  "year": 1971,
+  "year_range": "1971〜2026",
+  "year_uncertain": false,
+  "hee1": "今の CPU のトランジスタの数は、4004 の数百万倍",
+  "hee1_en": "Today's CPUs have millions of times more transistors than the 4004.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://en.wikipedia.org/wiki/Intel_4004",
+   "https://www.intel.com/content/www/us/en/history/museum-story-of-intel-4004.html"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "10-13"
+    ]
+   ],
+   [
+    [
+     "9-24"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [
+   "シリコン",
+   "銅"
+  ],
+  "enabled_by": [],
+  "explained_by": [
+   "I-13"
+  ],
+  "frontier": false,
+  "real": "命令を1つずつ読んで計算する、パソコンの中心のチップ。1971年のインテル 4004 は約2300個のトランジスタだったが、今の CPU には数十億〜数百億個が入っている。シリコンの板の上に光で回路を焼きつけて作る"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "作品：パソコンの頭。命令を読んで計算する",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAoUlEQVR42mNgoDaYlifyHx+NDpgotZAF3fZ3ci0MVg5b/r+T88FKMzAwMBw7sIURpocR2Xnv5FqIslXoUQ0DAwMDQ9akN4yMyBJWDj7/vXx84ArQwTu5FoZtW7aguIAF1QU+KIqx2erl48MQo3fiP8wFLDAGxAVb/nv5+OB1PsQFbwi7ABeguguwxgK+QCQqFgi7ABELTLgU4aMHV16gGAAA1kN1FQoCcnEAAAAASUVORK5CYII="
+}

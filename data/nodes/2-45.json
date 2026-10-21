@@ -1,0 +1,66 @@
+{
+ "id": "2-45",
+ "history": {
+  "name": "光で固まる樹脂",
+  "name_en": "Light-curing resin",
+  "kind": "tech",
+  "trunk": "2",
+  "trunk_name": "化学",
+  "year": 1981,
+  "year_range": "1981〜1984",
+  "year_uncertain": true,
+  "hee1": "チップの回路を描く樹脂と、3D プリンターの樹脂は同じしくみ （IMP-24 で追加、network_proposals N-6）",
+  "hee1_en": "The resin used to draw chip circuits and the resin in 3D printers work the same way. (Added in IMP-24, network_proposals N-6)",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "C38. 光を当てた所だけ固まる（光で固まる樹脂）［2-45］",
+    "answer": "アクリルの単量体（手が3本のトリアクリレートなど）に光開始剤（ベンゾフェノン＋アミン）を混ぜた液は、紫外線を受けるとラジカルができて C=C が次々につながり、網になって固まる。チップのネガ型フォトレジスト（光の当たった所がつながって溶けなくなる）と同じしくみ。1981年に名古屋の小玉秀男が層ごとに光で固めて立体を作る方法を発表し、1984年にハルが光造形の特許を出した ⚠️。アクリル酸は1930年代ドイツのレッペが、アセチレンと一酸化炭素と水から（ニッケルカルボニルで）作る方法を開いた。",
+    "hee": {
+     "1": "チップの回路を描く樹脂と、3D プリンターの樹脂は同じしくみ。",
+     "2": "手が3本の単量体を使うと、つながって固い網になる。",
+     "3": "ベンゾフェノンは紫外線を吸うので、日焼け止めにも使われる。",
+     "4": "歯の詰め物やネイルも、光で固まる樹脂。"
+    },
+    "certainty": "ラジカル光重合のしくみ ◎／レッペ法 1930年代 ○／小玉 1981・ハル 1984 ○⚠️（TECH_TREE の本物欄、ASME の資料）／フリーデル・クラフツ 1877 ◎",
+    "basis": "- Wikipedia「Stereolithography」（小玉・ハル）：https://en.wikipedia.org/wiki/Stereolithography"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "2-30"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "光が当たったところだけ分子どうしがつながって（重合・橋かけ）液体が固まる。露光のネガ型レジスト [2-30] と同じ原理（光で分子がつながり、溶けなくなる）。1981 小玉秀男、1984 ハルが光造形（3D プリンター）に使った（ASME の資料、network_proposals N-6）。存命の人は人物に載せない"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "実験＋軽",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "3D プリンター（[P-04]）の材料",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAfUlEQVR42mNgoBAwInPU1LT+E6Pp1q1rcH0s6JJeXn54NW/btgm3C9BdATMMWROy7RjgyDSG/+h8bGJ4nYis4P+jkP//H4X8J1ozukJkA4jWjGzI/0ch/0nWSFE6wJcmcIU+Cy6NWNLDf2wGYaREYhISsiGMpCRhfEl6CAMAyAJKbdJOMFQAAAAASUVORK5CYII="
+}

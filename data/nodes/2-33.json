@@ -1,0 +1,61 @@
+{
+ "id": "2-33",
+ "history": {
+  "name": "化学増幅レジスト",
+  "name_en": "Chemically amplified resist",
+  "kind": "tech",
+  "trunk": "2",
+  "trunk_name": "化学",
+  "year": 1982,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "光で生まれた酸1つが、何百もの反応を起こす。だから少ない光で模様がうつせる",
+  "hee1_en": "One acid made by light sets off hundreds of reactions. That is why a pattern can be copied with very little light.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "2-32"
+    ]
+   ],
+   [
+    [
+     "7-20"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-23",
+   "I-27"
+  ],
+  "frontier": false,
+  "real": "1982 IBM の伊藤洋・ウィルソン・フレシェ。光で出た酸1個が加熱中に何百もの保護基を外す（触媒）→感度が桁違い。t-BOC 保護ポリヒドロキシスチレン"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "幹7・幹9 で詳細化（ここは参照先だけ）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAb0lEQVR42mNgoBU4Mo3h/5FpDP8pMuT/oxDyDaGKC9TUtP6rqWn9J1szNjbJmgkZwkSsQqJcgsvZ+LzDRKyzYexbt64xYgQujIONxifHwMDAwIJsiJeXHwMDAwM6jU0MbjsjWdEEBbduXWNkGPoAAP8CRM0mpR9WAAAAAElFTkSuQmCC"
+}

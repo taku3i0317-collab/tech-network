@@ -1,0 +1,65 @@
+{
+ "id": "15-17",
+ "history": {
+  "name": "Wi-Fi",
+  "name_en": "Wi-Fi",
+  "kind": "tech",
+  "trunk": "15",
+  "trunk_name": "通信・情報",
+  "year": 1999,
+  "year_range": "1997〜1999",
+  "year_uncertain": false,
+  "hee1": "「Wi-Fi」は何かの略ではなく、覚えやすいように付けた名前（S-002 で追加。出典：Wikipedia「Wi-Fi Alliance」、EE World「Wi-Fi's long road」）",
+  "hee1_en": "\"Wi-Fi\" does not stand for anything; it is a name chosen to be easy to remember. (Added in S-002. Sources: Wikipedia \"Wi-Fi Alliance\", EE World \"Wi-Fi's long road\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "15-07"
+    ]
+   ],
+   [
+    [
+     "15-15"
+    ]
+   ],
+   [
+    [
+     "9-24"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-14"
+  ],
+  "frontier": false,
+  "real": "1990年に IEEE 802.11 委員会が動き出し、1997年に最初の無線 LAN の規格（2.4GHz、2Mbit/s）を出した。1999年に 802.11b（11Mbit/s）が決まり、同じ年に各社が互換性を保証する団体（WECA、のちの Wi-Fi Alliance）を作って「Wi-Fi」と名づけた。部屋の壁で電波がはね返って遅れて届く問題には、オーストラリアの CSIRO の特許の方法が 802.11a/g 以降で使われた"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAaklEQVR42mNgoBAwYhM8Mo3hPzZxmyzs6lE04tJMUB6fRnxqGYlRRJTzCTmTkPeoGwsUeQGbAUQ5XU1Ni2j/IatlojQMWMh1BVYDvLz8GELUOhjW3KqA09jAtm2bMGOBVNtv3brGyDAoAAChnDaaDFhiuAAAAABJRU5ErkJggg=="
+}

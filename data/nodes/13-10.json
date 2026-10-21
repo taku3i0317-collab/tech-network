@@ -1,0 +1,66 @@
+{
+ "id": "13-10",
+ "history": {
+  "name": "ペニシリン",
+  "name_en": "Penicillin",
+  "kind": "tech",
+  "trunk": "13",
+  "trunk_name": "医薬・衛生",
+  "year": 1928,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "量産に使われたカビは、市場の腐ったメロンから見つかった",
+  "hee1_en": "The mold used for mass production was found on a rotten melon from a market",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [
+   {
+    "name": "フレミング（アレクサンダー）",
+    "tool": "🧫 青カビの皿",
+    "year": "1928",
+    "intro": "1928年、青カビのまわりで菌が死ぬのを見つけた（ペニシリン）",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACJklEQVR42mNgGAUjHTCSojgqKuo/MeqWLVtGtLksxCosKCj47+3tjSF++/ZtbMr/E+sIRmJ9bmNjQ1LQHjlyhKiQYKKF5QwMDAw2NjZERRnTQCfCoeWAMD0uhjA9LoJsI4FP1HcAzAJi2VTPhgwMDAyrLn3DaRmynJEAlQqiiuTA/wHO5gwMDAwMKnISRBt659ELOHvD3pMMHXPXM1IlBDgNQxn0NDUZLl2/zvD9/GqccgyPJlMvDdx9jPDN9/OrGTZOKkKxHOZbbHLIesl2gLIsatBLiOCOYHQ5dL1kOWDD3pOYUcHOBme/fPsBqzguvSSlAaTE878k0R8RFT9/MTAwMDBcuPGAgZuTA0OcmMRHcnVckRyI4gh8oGf+RqIsJzkXIIPDs7ei8G1TvWnfICEmFEjxPckOgDlCVIifId7fAUV84cYDDK/ffSTJcopARXLg/zdHFvx/c2TB/4rkwP/kmkNUGmhpacSwwEWJneG/uhsDAwMDQ4DzCwYeRQMMNTU19YwUOQBmcUREGIr4vn37GRgYPjG0mloxyHBwMNjUJTCIiYkyODk5YrQNCTmEhRSLUUo51zgGmaYFcPal9Rsw1CDpx+kQFlIt3rdvPzafMjg5OeKUw+cQFmItRgb8/PxEiRHjECYskiT7Hj0USHAI6Y1SfD4lJhRwpoEVK1bhVXjjxk0GDQ11hkWLlsDFTnyA1ISMSGLfv39naGhoZtDQUCfKAQBkzN4Os204MAAAAABJRU5ErkJggg=="
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "13-05"
+    ]
+   ],
+   [
+    [
+     "2-39"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1928 アレクサンダー・フレミングが青カビのまわりで菌が死ぬのを発見。1940 フローリーとチェーンが精製、1943〜 米国で深部タンク培養による大量生産（腐ったメロンのカビ株が高収量だった）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "解説のみ",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAmUlEQVR42rVTsRHAIAhEhqFwEisHcgAHsnKSFC5jKjxCUHPnhQpP/nkfBPgziHwn8n1V4ywQ57lUAABIMYz71i43JWAwA3UwkSRBC5xieHTViqRK1AUSaOVaHX411PJjEBD5zgWyg8ylglzqeAbOummpSwWtXc4yzZoA+8STwFnhzjzTxBTDS6o+6wbbRbJI5SIdr/LxZzqOG3LvYtPeP6g/AAAAAElFTkSuQmCC"
+}

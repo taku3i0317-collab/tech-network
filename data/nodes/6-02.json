@@ -1,0 +1,54 @@
+{
+ "id": "6-02",
+ "history": {
+  "name": "ガスホルダー",
+  "name_en": "Gas holder",
+  "kind": "tech",
+  "trunk": "6",
+  "trunk_name": "ガス",
+  "year": 1812,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "①ガス灯の時代のガスタンクは水でふたをしていた ②圧力はベルの重さ÷面積 ③ロンドンのキングス・クロスに骨組みが残り公園・住宅に ④水素は金属のすき間からも逃げる",
+  "hee1_en": "1) Gas tanks in the gas-lamp era used water as their lid 2) The pressure is the bell's weight ÷ its area 3) At King's Cross in London, the frames remain, now part of parks and homes 4) Hydrogen escapes even through gaps in metal",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "19世紀のガス灯用ガスタンク（水封式）。水を張った槽に底なしの鉄のベルをかぶせ、ガスが入るとベルが浮く。ガス圧＝ベルの重さ÷面積（数kPa）で圧縮不要。1812 ロンドンのガス・ライト・アンド・コーク社"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": "gas_holder",
+  "recipes": [
+   "作業台：鉄インゴット×7 ＋ 水入りバケツ → ガスホルダー"
+  ],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "block/GasHolderBlock・GasHolderBlockEntity・GasHolderMenu・block/GasType（種類の列挙。将来 Cl2[6-05]・N2/Ar[6-07] を足す）、client/GasHolderScreen（貯蔵量バー）。電気は使わない（BlockEntity 直継承、GUI は電解槽を踏襲）。隣接6方向の電解槽の H2/O2 出口から同じ種類を自動で吸う（10tick ごと）。左スロット＝袋を吸い込む、右スロット＝1袋ずつ出てくる",
+  "hee_game": {
+   "note1": "ガス灯の時代のガスタンクは、水でふたをして（水封）ガスがもれないようにしていた。",
+   "note2": "水を張った槽に、底のない鉄のベルをかぶせた低圧タンク（19世紀のガス灯用）。ガスが入るとベルが浮き、ベルの重さでガスを押し出す。1種類のガスだけ貯める（最初に入れたガスで決まり、空になると解除）。隣の電解槽から同じガスを自動で受け取る。容量1000mol≈24.5m³（25℃・1気圧）。水素と酸素を混ぜると爆鳴気（2H2+O2→2H2O）で爆発する。",
+   "note3": "1812年設立のロンドンのガス会社（ガス・ライト・アンド・コーク社）は、石炭ガスを水封式のガスホルダーに貯めて街灯に配った。巨大な円筒形の鉄骨枠は今もロンドンのキングス・クロスなどに残り、公園や集合住宅として再利用されている。",
+   "note4": "ガスの圧力＝ベルの重さ÷ベルの断面積（数kPa、大気圧の数%増し程度）。だから圧縮機なしで貯められるが、体積は大きいまま。小さく押し縮めて持ち運ぶのは[6-03]圧縮機とボンベ。水素は分子が小さく金属のすき間からも少しずつ逃げ、水封の水にも少し溶ける（ゲームでは省略）。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAj0lEQVR42mO0cvD5z0ABYJZVUGuIS+pguH33FwMruzwDK7s8Q2R0JlH83z8fMjBaOfj89/LxIcv2bVu2MDAxUAgoNoCFgYGBQUTMhmHNmm1wwZAQL6L5o2EADQOKXMDFZ4ci4GDHx3Dg0CeixZgo0YwSiORohhtArmYGBgYGZglJ9oanLyRQBL99OsRArBgAijFq/QAeRIgAAAAASUVORK5CYII="
+}

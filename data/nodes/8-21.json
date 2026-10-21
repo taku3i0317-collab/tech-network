@@ -1,0 +1,63 @@
+{
+ "id": "8-21",
+ "history": {
+  "name": "六分儀",
+  "name_en": "Sextant",
+  "kind": "tech",
+  "trunk": "8",
+  "trunk_name": "精密・計測",
+  "year": 1757,
+  "year_range": "1731〜1757",
+  "year_uncertain": true,
+  "hee1": "2枚の鏡で太陽を水平線に重ねると、自分が地球のどこにいるかが分かる（NET-06 で追加。出典：Wikipedia「Sextant」「Octant (instrument)」、Grace's Guide「John Hadley」）",
+  "hee1_en": "Line up the Sun with the horizon using two mirrors, and you can tell where on Earth you are. (Added in NET-06. Sources: Wikipedia \"Sextant\", \"Octant (instrument)\", Grace's Guide \"John Hadley\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "7-05"
+    ]
+   ],
+   [
+    [
+     "7-04"
+    ]
+   ],
+   [
+    [
+     "8-04"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "2枚の鏡で太陽や星の像を水平線に重ね、その高さの角度を測る。1731 ジョン・ハドリー（イギリス）が反射式の八分儀を王立協会で発表、同じころフィラデルフィアのトマス・ゴドフリーも独立に作った。月と星の間の角度（月距）は90°を超えることがあるので、ジョン・キャンベルが測れる角度を広げた六分儀を提案した（1757年とされる ⚠️）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "実験（太陽の高さを測って、自分のいる緯度を知る）",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAa0lEQVR42mNgoCWYlifyf1qeyH98apjwacbGJsl2sg2AabAo6/pvUdb1H58hTDQJOFLk8LoA2QtExcK0PJH/WZPeMOJSnDXpDSO6K1jwmX6iq4yRKn7Hp5aFXEPwxj0hGtkiRnJcgC+g6Q8Ab0NBI0Ws6fYAAAAASUVORK5CYII="
+}

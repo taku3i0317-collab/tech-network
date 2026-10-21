@@ -1,0 +1,81 @@
+{
+ "id": "8-08",
+ "history": {
+  "name": "ボールねじ精密ステージ",
+  "name_en": "Ball-screw precision stage",
+  "kind": "tech",
+  "trunk": "8",
+  "trunk_name": "精密・計測",
+  "year": 1939,
+  "year_range": "1898〜1941",
+  "year_uncertain": true,
+  "hee1": "ねじの溝の中を、小さな鉄の玉が転がっている",
+  "hee1_en": "Little steel balls roll inside the screw's groove",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "O44. ねじの中で玉が転がる（ボールねじ）［8-08］",
+    "answer": "ねじとナットの間に鋼の球を入れて転がすと、すべりの摩擦がほとんどなくなり、細かく軽く動かせる。1898年スティーブンソンとグレンがアメリカで特許をとり、自動車の循環ボール式ステアリング（1939年ごろ）で広まった。1952年、MIT の数値制御フライス盤と組み合わさって µm 級の位置決めが始まった。",
+    "hee": {
+     "1": "ねじの溝の中を、小さな鉄の玉が転がって、出口から入口へぐるぐる戻っている。",
+     "2": "ふつうのねじは「引っかかってから急にすべる」ので、ごく小さくは動かせない（スティックスリップ）。",
+     "3": "玉の大きさがそろっていないと、送りがガタつく。玉軸受と同じく研削でそろえることが大事。",
+     "4": "露光装置のステージは、のちにボールねじからリニアモーターと空気の膜（[8-09]）に変わった。"
+    },
+    "certainty": "1898 の米国特許 ◎／GM の循環ボール式ステアリングの特許 1939出願・1941登録 ○（量産の年は未確認⚠️）／1952 MIT の NC フライス盤 ◎",
+    "basis": "- Wikipedia「Ball screw」：https://en.wikipedia.org/wiki/Ball_screw"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "8-02"
+    ]
+   ],
+   [
+    [
+     "8-05"
+    ]
+   ],
+   [
+    [
+     "8-20"
+    ]
+   ],
+   [
+    [
+     "4-08"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "ねじとナットの間に鋼球を転がして摩擦をほぼ0にする（1898年 スティーブンソンとグレンが米国特許 601,451・610,044。GM サギノーの循環ボール式ステアリングの特許は1939年出願・1941年登録。自動車での量産開始の年は未確認⚠️）。1952 MIT の数値制御（NC）フライス盤と組み合わせて µm 級の位置決め"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "実験（送りねじとの比べ：送りの細かさ・電気）",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "既存 lead_screw✅ の上位。露光[9-20]のステージ部品",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAYUlEQVR42mNgGGjAiC5g5eDzH5vCYwe2MGITZ6LUBSzotnr5+OBS+x+ba1Bc4OXjw7BtyxYGBgYGDBrZcCsHn/8wzIjP37gARniQYgC6WhZSDYF64z/MJSTHAnKYjILBAgAbFSbo7MBOkQAAAABJRU5ErkJggg=="
+}

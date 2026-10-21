@@ -1,0 +1,63 @@
+{
+ "id": "I-27",
+ "history": {
+  "name": "光電効果と光子",
+  "name_en": "Photoelectric effect and the photon",
+  "kind": "idea",
+  "trunk": "I",
+  "trunk_name": "発見・考え方",
+  "year": 1905,
+  "year_range": "1887〜1916",
+  "year_uncertain": false,
+  "hee1": "光は波でもあり、決まった大きさのエネルギーのつぶでもある",
+  "hee1_en": "Light is a wave, and also grains of energy of a fixed size.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://www.nobelprize.org/prizes/physics/1921/summary/",
+   "https://www.nobelprize.org/prizes/physics/1923/summary/",
+   "https://galileo.phys.virginia.edu/classes/252/photoelectric_effect.html"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "15-06"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [
+   "7-13",
+   "15-11"
+  ],
+  "explains": [
+   "2-33",
+   "B-12"
+  ],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1887年、ヘルツが電波の実験中に、紫外線を当てると火花が飛びやすくなることに気づいた。1888年にハルヴァックスが、マイナスの電気をおびた亜鉛板が紫外線で電気を失うことを示し、1902年にレーナルトが、飛び出す電子の勢いは光の強さではなく色（波長）で決まることを見つけた。1905年、アインシュタインが「光は決まったエネルギーのつぶ（光子）の集まり」と考えて説明し（1921年ノーベル物理学賞）、1914〜1916年にミリカンが実験で確かめた。太陽電池が光で電気を起こすのも、短い波長の光ほどレジストの反応を起こしやすいのも、光子1個のエネルギーで決まる"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "実験：赤い光ではいくら明るくしても電子が出ず、紫外線なら暗くても出るのをくらべる",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAYklEQVR42mNgoAY4Mo3hPzKND1g5+Py3cvCBq2NiYGBgsMliYDwyjeE/jKaZS5BtJtkQojTjMoQkzeiGkKUZ3RCaAkZKnHnswBZGFhjHy8eHJM3btmxhYGBgYGBBFxgFpAMAw2QxQk8nyWEAAAAASUVORK5CYII="
+}

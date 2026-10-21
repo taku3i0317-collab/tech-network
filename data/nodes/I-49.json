@@ -1,0 +1,58 @@
+{
+ "id": "I-49",
+ "history": {
+  "name": "人工知能という分野",
+  "name_en": "The field of artificial intelligence",
+  "kind": "idea",
+  "trunk": "I",
+  "trunk_name": "発見・考え方",
+  "year": 1956,
+  "year_range": "1955〜1956",
+  "year_uncertain": false,
+  "hee1": "「人工知能」という言葉は、1955年の研究会の提案書で初めて使われた",
+  "hee1_en": "The term \"artificial intelligence\" was first used in a 1955 proposal for a research workshop.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://ojs.aaai.org/index.php/aimagazine/article/view/1904",
+   "https://en.wikipedia.org/wiki/Dartmouth_workshop"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "10-07"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [
+   "10-16"
+  ],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1955年8月、ジョン・マッカーシー、マーヴィン・ミンスキー、ナサニエル・ロチェスター、クロード・シャノンが研究会の提案書を書き、ここで「人工知能（Artificial Intelligence）」という言葉が初めて使われた。1956年夏、アメリカのダートマス大学で研究会が開かれた。同じころアレン・ニューウェルとハーバート・サイモン（プログラムはクリフ・ショー）が、数学の定理を記号の論理で証明するプログラム（ロジック・セオリスト）を計算機で動かした。ここから「考える機械」を作る研究が1つの分野になった"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "実験：記号の規則を順に当てはめて、かんたんな論理の問題を機械に解かせる",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAfklEQVR42mNgoCU4Mo3h/5FpDP/xqWHBJ1m2ygfK2oJTDSMyx8rB5z8xLjt2YAsjVgliDEBXw0SM3/GFBROlAY01EG2yUMMGnU9ULKD7FVfAsZAc0oQMIDYqSYoqfAazYFPk5ePDwMCAGm3IYgQTEizOkeMfRqO7hLpJmRwAAAVEPWeMik+WAAAAAElFTkSuQmCC"
+}

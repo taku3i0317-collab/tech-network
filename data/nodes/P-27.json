@@ -1,0 +1,80 @@
+{
+ "id": "P-27",
+ "history": {
+  "name": "デジタルカメラ",
+  "name_en": "Digital camera",
+  "kind": "product",
+  "trunk": "P",
+  "trunk_name": "モノ（作品）",
+  "year": 1990,
+  "year_range": "1975〜1990",
+  "year_uncertain": false,
+  "hee1": "最初のデジタルカメラの試作（1975）は、写真をカセットテープに記録した",
+  "hee1_en": "The first digital camera prototype (1975) recorded pictures on a cassette tape",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://www.popphoto.com/gear/2013/10/30-most-important-digital-cameras/",
+   "https://en.wikipedia.org/wiki/Konica_C35_AF"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "9-42"
+    ]
+   ],
+   [
+    [
+     "10-23"
+    ]
+   ],
+   [
+    [
+     "7-24"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [
+   "7-03",
+   "7-24",
+   "9-42",
+   "9-45",
+   "10-13",
+   "B-19",
+   "P-22",
+   "P-23"
+  ],
+  "materials": [
+   "ガラス",
+   "シリコン",
+   "銅",
+   "リチウム"
+  ],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1975年12月、コダックの技術者が CCD 画像センサーで白黒の写真を撮り、カセットテープに記録する試作機を作った（売り物ではない）。1988年の富士フイルム DS-1P はメモリーカードに記録したが発売されず、最初に売られたのは1990年の Dycam Model 1（白黒）とされる。今のカメラは、レンズで集めた光を画像センサーで数え、チップで写真に直してフラッシュメモリーに保存する"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "作品：向けた景色を写真にしてしまっておく",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAl0lEQVR42mNgGPKAEZlj5eDzH8Y+dmALI7piNTWt/wwMDAy3bl2Dy7Ega/Ty8UFW/x/dAJj8ti1b/sMsYYQZ8ObZPQYGBgaGuLQ8opy+bcsWhmMHtjCy4FKwaNYkDDFshjMhS2JTQMhFTPhsj0vLY1g0axLcEGyuYiLkV7JcgG4jsotIdgE2ZyMDFnKdjmHAti1bhmhmAgCnVTaxeMzEAgAAAABJRU5ErkJggg=="
+}

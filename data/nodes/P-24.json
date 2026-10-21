@@ -1,0 +1,105 @@
+{
+ "id": "P-24",
+ "history": {
+  "name": "人型ロボット",
+  "name_en": "Humanoid robot",
+  "kind": "product",
+  "trunk": "P",
+  "trunk_name": "モノ（作品）",
+  "year": 2020,
+  "year_range": "1973〜2026",
+  "year_uncertain": false,
+  "hee1": "1973年に早稲田大学で作られた人型ロボットは、歩くだけでなく簡単な日本語で話せた",
+  "hee1_en": "The humanoid robot built at Waseda University in 1973 could not only walk but also speak simple Japanese.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://humanoid.guide/waseda-traces-50-years-of-waseda-humanoid-robots-development/",
+   "https://www.redalyc.org/journal/5117/511766773023/"
+  ],
+  "refs": [],
+  "people": [
+   {
+    "name": "加藤一郎",
+    "tool": "🤖 WABOT-1",
+    "year": "1973",
+    "intro": "1973年、早稲田大学で二本の足で歩く人型ロボット WABOT-1 を作った",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACJUlEQVR42mNgGAUjHTCSolhCROg/MepevHlHtLksxCqUkxT7LyLIjyH+7cdPbMr/E+sIRmJ9LsDHA+fvmJCDVZ1HwRQ4+8OnL0SFBBO1LEeXE+DjISrKmEhJA/gsJ0UN2Q6gBSDaAdNKwxlooZZoByhJi9IkBFhIUYycytHjGlmOlBDAm02Kotz+bztxg4GBgYGBX1QZQ35ltScDAwMDQ3jrdgy5j6/vMjAwMDB4WWgw9C3bxUiVRLhv3xaGN8/vMuzbtwVuMcxydDmqhYCWkhSDkrQoQ+WCM1hD4N7T11jl2hNMGO49fc1w7d4zvCHAQmzigwU3NoAud+/pa7jea/eeUZYLthy+iCHGwc4KZ7969wmrOC69JIUAUtD9z4twgYv/+PmbgYGBgeHynScM3JzsGOIwy/EFPcnVcVGUG4oj8IFJK/YQZTnJ5QAyOL/2NArfMNiU9g0SYkKBFN+T7ACYI0QEeBiiPCxQxJftOMHw5sMXkiynCBRFuf1/sKnr/4NNXf+Lotz+M9CyTSghZwa3oDQ/hIGBgYEhLi4GRc2iRUsYGBgYGLonrkG0DR+doiwXwCwWEFGBix3e2YPXQFv3EkSz7M0dgg5hIdZicgCS/v+4HMJIqsVfPj5h4OGXwQgJW/cSuBwugC1EWKjpY3JChBHmAGIsJ+RDYtXAQuPFo1OMA94oZUGPH1zgx/f3DBycggTVMTAwMLx4fJqBg1OQKAcAAMaV56jagvj8AAAAAElFTkSuQmCC"
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "10-27"
+    ]
+   ],
+   [
+    [
+     "8-27"
+    ]
+   ],
+   [
+    [
+     "8-28"
+    ]
+   ],
+   [
+    [
+     "9-43"
+    ]
+   ],
+   [
+    [
+     "9-42"
+    ]
+   ],
+   [
+    [
+     "4-15"
+    ]
+   ],
+   [
+    [
+     "10-28"
+    ]
+   ],
+   [
+    [
+     "10-29"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [
+   "シリコン",
+   "銅",
+   "リチウム",
+   "ネオジム",
+   "アルミニウム"
+  ],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": true,
+  "real": "1973年、早稲田大学の加藤一郎らの WABOT-1 が、二本の足で歩き、手で物をつかみ、簡単な日本語で話す人型ロボットとして完成した。2000年ごろには人型ロボットが走ったり階段を上ったりできるようになった。2020年代は、強化学習でシミュレーションの中で歩き方を練習させたり、言葉と画像を学んだ大きな AI に動きを決めさせたりする研究・試作が多くの国で進んでいる（予想ではなく、今進んでいること）。画面の中で考えていた AI（[10-16]）が、体を持って現実の世界で動き出す流れの一つ"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "作品：歩いて、見て、物をつかむ",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAi0lEQVR42mNgoBAwYhO0cvD5j0382IEtGOpZcJncFbaF4cC3GQwMDAwMDlwZDGWrfLCqY8JlAEwzOptoF2zbsoWhK2wLAwMDA07bqQIYCQUcLgALUBQvePmgOtWBKwNrGGzbsoVwIBILWPBJ4gt9rAbAnAbzCi4+VgPQUtl/NLH/uFIixWEw8AZQDADTXDD6dByxjgAAAABJRU5ErkJggg=="
+}

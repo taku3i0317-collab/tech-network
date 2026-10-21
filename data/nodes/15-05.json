@@ -1,0 +1,66 @@
+{
+ "id": "15-05",
+ "history": {
+  "name": "蓄音機",
+  "name_en": "Phonograph",
+  "kind": "product",
+  "trunk": "15",
+  "trunk_name": "通信・情報",
+  "year": 1877,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "最初に録音された言葉は「メリーさんのひつじ」",
+  "hee1_en": "The first words ever recorded were \"Mary Had a Little Lamb.\"",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [
+   {
+    "name": "エジソン",
+    "tool": "🎵 錫はくの円筒",
+    "year": "1877",
+    "intro": "1877年に錫はくの円筒に声を刻む蓄音機を、1879年に炭素フィラメントの電球を作った",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAB9ElEQVR42mNgGAUjHTCSojgqKuo/MeqWLVtGtLksxCosKCj47+3tjSF++/ZtbMr/E+sIRmJ9bmNjQ1LQHjlyhKiQYKKF5QwMDAw2NjZERRnTQCfCoeWAMD0uhjA9LoJsI4FP1HcAzAJi2VTPhgwMDAyrLn3DaRmynJEAlQqiiuTA/wHO5gwMDAwMKnISRBt659ELOHvD3pMMHXPXM1IlBDgNQxn0NDUZLl2/zvD9/GqccgyPJlMvDdx9jPDN9/OrGTZOKkKxHOZbbHLIesl2gLIsatBLiOCOYHQ5dL1kOWDD3pOYUcHOBme/fPsBqzguvSSlAaTE878k0R8RFT9/MTAwMDBcuPGAgZuTA0OcmMRHcnVckRyI4gh8oGf+RqIsJzkXIIPDs7ei8G1TvWnfICEmFEjxPckOgDlCVIifId7fAUV84cYDDK/ffSTJcopARXLg/zdHFvx/c2TB/4rkwP8MtGwTiopKwC2oqChiYGBgYIiLi0FRs2jREkjO6eiDi71+/YKyXACzmI8PUcCcOLEPr4EWFk5w9qdPHwg6hIVYi8kBSPr/43III6kWf/36hYGbmwcjJCwsnOByuAC2EGGhpo/JCRFGmAOIsZyQD4lVAwuN169fMA54o5QFPX5wgZ8/fzCws3MQVAcNWgZ2dg6iHAAArXDWuwMhk/gAAAAASUVORK5CYII="
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "8-02"
+    ]
+   ],
+   [
+    [
+     "1-30"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1877 エジソンが錫はくを巻いた円筒に針で溝を刻み、声を録音・再生。1887 ベルリナーの円盤レコード"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "バニラのジュークボックスとの比較",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAaUlEQVR42mNgGAgwLU/k/7Q8kf8MDAwMTORoRuazkKuRaANwaYQBJkrDgygDsia9YSQ7tHHFANmxgO4aRmICDJ8XGIkJaXwGsTAwMDCcucDH4GWjhlfztiO3GBgY3gxQNOIDLKhOHAAAAHY8Jqp6dQI3AAAAAElFTkSuQmCC"
+}

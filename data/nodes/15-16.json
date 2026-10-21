@@ -1,0 +1,65 @@
+{
+ "id": "15-16",
+ "history": {
+  "name": "USB",
+  "name_en": "USB",
+  "kind": "tech",
+  "trunk": "15",
+  "trunk_name": "通信・情報",
+  "year": 1996,
+  "year_range": "1994〜1996",
+  "year_uncertain": false,
+  "hee1": "USB の前のパソコンには、マウス用・キーボード用・プリンター用と形のちがう差し口がいくつもあった（S-002 で追加。出典：IEEE Milestones「Universal Serial Bus (USB)」、heise「30 years of USB 1.0」）",
+  "hee1_en": "Before USB, computers had several differently shaped ports: one for the mouse, one for the keyboard, one for the printer. (Added in S-002. Sources: IEEE Milestones \"Universal Serial Bus (USB)\", heise \"30 years of USB 1.0\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "10-13"
+    ]
+   ],
+   [
+    [
+     "9-24"
+    ]
+   ],
+   [
+    [
+     "4-03"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-14"
+  ],
+  "frontier": false,
+  "real": "1994年、7社（コンパック・DEC・IBM・インテル・マイクロソフト・NEC・ノーテル）が、ばらばらだったプリンター・マウス・キーボードの差し口を1つにまとめる規格を作り始め、1996年1月に USB 1.0（最大12Mbit/s）を出した。挿したまま抜き差しでき、電気も一緒に送れる。インテルの技術者が早くから提案した"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAZUlEQVR42mNgoBAwogtYOfj8x6fh2IEtjHhNRDbAysHnPzofXT0TpV5gwecKLx8fmNB/kgxA0ojC37ZlC/5AVFPT+k+Ms2/dusZItTAYNQBLUsYXG8ihTxRQU9P6TyhqKfYCxQAA9gEdoKDjwDIAAAAASUVORK5CYII="
+}

@@ -1,0 +1,59 @@
+{
+ "id": "P-23",
+ "history": {
+  "name": "記憶チップ",
+  "name_en": "Memory chip",
+  "kind": "product",
+  "trunk": "P",
+  "trunk_name": "モノ（作品）",
+  "year": 1987,
+  "year_range": "1984〜1987",
+  "year_uncertain": false,
+  "hee1": "スマホの写真は、チップの中に閉じこめた電子の数で覚えている",
+  "hee1_en": "Photos on your phone are remembered by the number of electrons trapped inside a chip",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://en.wikipedia.org/wiki/Flash_memory",
+   "https://www.kioxia.com/en-jp/insights/history-of-our-memory-201910.html"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "10-23"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [
+   "シリコン",
+   "銅"
+  ],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "写真やアプリをしまうチップ。NAND 型のフラッシュメモリを何枚も重ねたもので、電気を切っても消えない（パソコンの SSD と同じ仲間）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "作品：写真やアプリをしまっておく",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAYklEQVR42mNgGGjAiC6gpqb1H5+GW7euoehhgTGsHHz+MzAwMJgZ6DCcunCFwcxAB6sBIlJK/xkYGBiOHdjCiNMFXl5+WDVv27YJwwWM2FyAD5y6cIVh1AXDzgUsuBQOHQAAqfBOEmU8UuMAAAAASUVORK5CYII="
+}

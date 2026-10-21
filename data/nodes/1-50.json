@@ -1,0 +1,58 @@
+{
+ "id": "1-50",
+ "history": {
+  "name": "連続鋳造",
+  "name_en": "Continuous casting",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": 1950,
+  "year_range": "1930〜1960",
+  "year_uncertain": true,
+  "hee1": "鋼を止めずに流し続けて、型から長い板を引き出す（S-001 で追加。出典：encyclopedia.pub「Continuous casting」、MDPI Metals review (continuous casting history, Junghans 1930s, CONCAST 1950s)（https://www.mdpi.com/2075-4701/12/5/862））",
+  "hee1_en": "Steel keeps flowing without stopping, and a long slab is pulled out of the mold. (Added in S-001. Sources: encyclopedia.pub \"Continuous casting\", MDPI Metals review (continuous casting history, Junghans 1930s, CONCAST 1950s) (https://www.mdpi.com/2075-4701/12/5/862))",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-26"
+    ]
+   ],
+   [
+    [
+     "1-03"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "溶けた鋼を、底の開いた水冷の銅の型に流しこみ、外側が固まったものを下から引き出し続けて、長い板や棒をそのまま作る（インゴットを作って切り落とす無駄が減る）。1930年代にジークフリート・ユングハンスが研究を始め、まずマグネシウム・非鉄金属に使われ、鋼では1950年代に工業化したとされる（最初の鋼の工場の年は未確認 ⚠️）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAApElEQVR42sWTMQ7CMAxFfxBDz9QuzMhjxFE4BAfIISpGi7lD2oPkFGxmqCylYNqEDniLYj8/xwqwMxwAtCeSkuRpYGcCFHK7sFl47cksXgBykzMRAODB/LXzasQAiQFFYx0tg46a+dw/ZcvgsPVIVfpqIMmLJC81G1pAFPBT8W4D3YIkX7yJD4MckoP0Ps9za7BpYBcDpCOPke/1H+W9o2Xw/3gBF+1pL/ZjnjUAAAAASUVORK5CYII="
+}

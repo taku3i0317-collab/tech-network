@@ -1,0 +1,53 @@
+{
+ "id": "1-70",
+ "history": {
+  "name": "ジルコニウム・ハフニウム",
+  "name_en": "Zirconium and hafnium",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": 1925,
+  "year_range": "1923〜1945",
+  "year_uncertain": false,
+  "hee1": "ハフニウムは、X線で元素を調べる方法ができてから、やっと見つかった（O-012 で追加。出典：Wikipedia「Hafnium」「Crystal bar process」）",
+  "hee1_en": "Hafnium was only found after a method of studying elements with X-rays was developed. (Added in O-012. Sources: Wikipedia \"Hafnium\", \"Crystal bar process\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-28"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "ジルコニウムとハフニウムは性質がとても似ていて、長く区別できなかった。1923年、コペンハーゲンでディルク・コスターとゲオルク・ド・ヘヴェシーが、X線の分光（[I-42]）でハフニウムを見つけた。1925年、オランダのファン・アルケルとデ・ブールが、金属をヨウ素と反応させて気体にし、熱したタングステンの線の上で分けて純粋な金属を析出させる方法（ヨウ化物法）を作った。1945年以後はチタンと同じクロール法でジルコニウムを作る。2007年ごろから、チップのトランジスタのゲートの絶縁膜に酸化ハフニウム（high-k）が使われている"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAP0lEQVR42mNgoDawcvD5b+Xg8x9dPCIs6H9EWBCGOBOlFjKh2+7l48Pg5ePDgOwKZJuxuYJ6Xhh1wagLhi4AAPSlW7vUpcNxAAAAAElFTkSuQmCC"
+}

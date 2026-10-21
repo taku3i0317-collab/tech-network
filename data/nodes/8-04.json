@@ -1,0 +1,77 @@
+{
+ "id": "8-04",
+ "history": {
+  "name": "ノギスとマイクロメータ",
+  "name_en": "Calipers and micrometers",
+  "kind": "tech",
+  "trunk": "8",
+  "trunk_name": "精密・計測",
+  "year": 1631,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "ねじを1回まわすと何mm進むかが分かれば、0.01mm が測れる",
+  "hee1_en": "If you know how many mm a screw moves in one turn, you can measure 0.01 mm",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "O27. 0.01mm を測る（ノギスとマイクロメータ）［8-04］",
+    "answer": "ノギスは主尺と少しずれた副尺（ヴェルニエ 1631）で目盛りの間の端数を読み、0.05mm ほどまで測れる。マイクロメータはねじを回して物をはさみ、ねじ1回転（0.5mm）を円周の 50 目盛りで割って 0.01mm まで測る（パルマー 1848）。正確なねじが作れるようになって（[8-02]）、はじめて生まれた計器。",
+    "hee": {
+     "1": "ねじを1回まわすと何mm進むかが分かれば、0.01mm が測れる。",
+     "2": "副尺は、2本の線がぴったりそろう所を目で探す。目は線のずれにとても敏感。",
+     "3": "マイクロメータには、強くはさみすぎないように一定の力で空回りするラチェットが付いている。",
+     "4": "鋼は1℃で1mあたり約11µm 伸びるので、精密な測定は 20℃ で行う（[8-07]）。"
+    },
+    "certainty": "ヴェルニエ 1631 ◎／パルマー 1848 ◎／ブラウン＆シャープのノギス 1851 ○／読みの細かさ（0.05・0.01mm）◎",
+    "basis": "- Wikipedia「Vernier scale」：https://en.wikipedia.org/wiki/Vernier_scale"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "8-02",
+     "1-26"
+    ],
+    [
+     "1-05"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1631 ピエール・ヴェルニエの副尺（主尺と少しずれた目盛りで端数を読む）。1851 ブラウン＆シャープのノギス。1848 ジャン・ローラン・パルマーのマイクロメータ（ねじ1回転で0.5mm 進む→円周の50目盛りで0.01mm）"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "実験（測って等級を分ける）",
+  "missing": "",
+  "item": "vernier_caliper",
+  "recipes": [
+   "作業台：青銅インゴット×2 → ノギス"
+  ],
+  "machine_recipes": [],
+  "placeholder": "近似：本物の材料は真ちゅう（銅＋亜鉛）。ここでは青銅で作る。",
+  "game_text": "計器アイテム：部品の「寸法」を表示（部品の等級判定に使う）",
+  "hee_game": {
+   "note1": "2本のあごで物をはさんで、長さや太さを測る道具。小さな目盛りで細かいところまで読める。",
+   "note2": "青銅×2。もう片方の手に旋盤の部品を持って右クリック → 0.05mm まで読める。部品の等級（0.01mm の差）は決められない（マイクロメータが要る）。",
+   "note3": "1631年、フランスのピエール・ヴェルニエは、主尺と少しずれた目盛り（副尺）をならべて、目盛りの間の端数を読む方法を考えた。今の形のノギスは 1851年ごろアメリカのブラウン＆シャープが売り出した。",
+   "note4": "副尺の 20 目盛りが主尺の 19mm にあたるようにすると、1目盛りの差は 0.05mm。主尺と副尺の線がぴったりそろう所を探すと、その差の分だけ読める（目は線のずれにとても敏感）。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAARklEQVR42mNgGAiQZKf0H8ZmokQzyQYk2Sn997JRY9BgYyHP2WuqPP53uaj9H9U8qhkdoKTEe6fuMZTtucVIVgYhy9nUAADwMkPXwSlXSwAAAABJRU5ErkJggg=="
+}

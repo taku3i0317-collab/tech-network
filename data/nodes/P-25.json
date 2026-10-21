@@ -1,0 +1,86 @@
+{
+ "id": "P-25",
+ "history": {
+  "name": "ロボットアーム",
+  "name_en": "Robot arm",
+  "kind": "product",
+  "trunk": "P",
+  "trunk_name": "モノ（作品）",
+  "year": 2020,
+  "year_range": "1961〜2026",
+  "year_uncertain": false,
+  "hee1": "最初の工場ロボットの腕は、電気のモーターではなく油の圧力で動いていた",
+  "hee1_en": "The first factory robot arm was moved not by electric motors but by oil pressure.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://spectrum.ieee.org/unimation-robot",
+   "https://www.automate.org/robotics/engelberger/joseph-engelberger-unimate"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "10-26"
+    ]
+   ],
+   [
+    [
+     "10-27"
+    ]
+   ],
+   [
+    [
+     "8-27"
+    ]
+   ],
+   [
+    [
+     "8-28"
+    ]
+   ],
+   [
+    [
+     "10-13"
+    ]
+   ],
+   [
+    [
+     "9-42"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [
+   "鋼",
+   "銅",
+   "シリコン",
+   "ネオジム"
+  ],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": true,
+  "real": "最初のユニメート（1961）は油の圧力で動き、覚えた動きをくり返すだけだった。1970年代にサーボモーターと減速機・マイクロプロセッサで動く電気の腕になり、自動車の工場の溶接や塗装に広まった。2010年代からは、力のセンサーで人にぶつかると止まる「協働ロボット」が使われ、今はカメラと AI で、形の決まっていない物をつかむ研究・製品が進んでいる。画面の中で考えていた AI（[10-16]）が、体を持って現実の世界で動き出す流れの一つ"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "作品：教えた動きで部品を運び、AI で物の形を見てつかむ",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAqElEQVR42mNgGDLAysHnv5WDz390cUZsitXUtP4zMDAwiEgpMTAwMDC8eXaP4data4wwg44d2MKI0wA1Na3/cWl5DAwMDAyLZk1iYGBggGsm2qlqalr/Ya7AJo/MZ8GmSERKiQHZmcga0cVJCjCqhDpRsYAcE4QCkYmQZkIAZyASG2As2Pzu5eMD4/4nZAgjejQhaWZgYGBg2LZlC5yNzTAMFyBroAsAAPBwQLNZKzzgAAAAAElFTkSuQmCC"
+}

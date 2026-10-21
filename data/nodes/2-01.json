@@ -1,0 +1,55 @@
+{
+ "id": "2-01",
+ "history": {
+  "name": "硫酸",
+  "name_en": "Sulfuric acid",
+  "kind": "tech",
+  "trunk": "2",
+  "trunk_name": "化学",
+  "year": 1831,
+  "year_range": "1831〜1915",
+  "year_uncertain": false,
+  "hee1": "二酸化硫黄に酸素をくっつけて水に吸わせると、硫酸になる",
+  "hee1_en": "Join oxygen to sulfur dioxide and let water absorb it, and you get sulfuric acid.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "接触法 2SO2+O2→2SO3, SO3+H2O→H2SO4"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": "sulfuric_acid",
+  "recipes": [
+   "作業台：緑礬（りょくばん） ＋ 石英の蒸留器 ＋ 空のガラス瓶 → 硫酸",
+   "作業台：二酸化硫黄 ＋ 水入りバケツ ＋ 空のガラス瓶 → 硫酸"
+  ],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "SO2+水 → 硫酸（SO3酸化を省略、CHEMISTRY #4b）",
+  "hee_game": {
+   "note1": "とても強い酸。電気分解などに使う。",
+   "note2": "二酸化硫黄＋水から作る。Ge精鉱を溶かして GeO2 にするのと、電解槽の電解質（減らない）に使う。",
+   "note3": "H2SO4。水と混ぜると大きな熱が出るので、必ず「水に酸を少しずつ」入れる（逆だと沸騰して飛び散る）。濃硫酸は水を奪う力が強く、砂糖から水を奪って黒い炭にする。",
+   "note4": "硫酸の生産量は「国の工業の力のものさし」と言われた。18世紀は鉛の部屋で作る鉛室法、19世紀後半からは触媒を使う接触法。今も世界で年に約2億5千万トン作られる、いちばん多い化学品の一つ。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAQ0lEQVR42mNgoBAw4pKY4mfwH5mfs+kCI9EGqKlp/ccmfuvWNQz1LLhcsCrDDIUfNuMUVnVMlIbBqAGjBlAlKQ88AACGzA8aCNFAiAAAAABJRU5ErkJggg=="
+}

@@ -1,0 +1,65 @@
+{
+ "id": "I-33",
+ "history": {
+  "name": "半導体のトンネル効果",
+  "name_en": "Tunneling in semiconductors",
+  "kind": "idea",
+  "trunk": "I",
+  "trunk_name": "発見・考え方",
+  "year": 1957,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "電子は、越えられないはずの薄い壁を、ときどきすり抜けてしまう",
+  "hee1_en": "Electrons sometimes slip through a thin wall they should not be able to cross.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://www.nobelprize.org/prizes/physics/1973/summary/",
+   "https://shmj.or.jp/innovation50/english/detail_D01E.htm",
+   "https://en.wikipedia.org/wiki/Tunnel_diode"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "9-04"
+    ]
+   ],
+   [
+    [
+     "9-01"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [
+   "8-16",
+   "9-38"
+  ],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1957年、東京通信工業（今のソニー）の研究所で、不純物をとても濃くしたゲルマニウムの p-n 接合を調べていたところ、電圧を上げると逆に電流が減る部分があることが見つかった。電子が本来は越えられない薄い壁を、波の性質で「すり抜ける」トンネル効果によるもので、半導体で初めてはっきり示された（1973年ノーベル物理学賞）。1958年の国際会議で紹介されて有名になった。共同で発見した人の範囲は資料で分かれる ⚠️。走査トンネル顕微鏡が原子を見られるのも、とても小さなトランジスタで電流が漏れやすくなるのも、このトンネル効果"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "実験：ゲルマニウムの接合の電圧を上げていくと、ある所で電流が減るのを測る",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAaklEQVR42u2RsQ3AIBAD/Yz1oqDOKIgJmCNilEyAWMtUn4IiQqCkimv/2dYDb0o1UTXxyeN2Q25ALeAyoBbQR8gKxAGAj5DtCQayFrWAIRwYJ061NJNqYs4Xx+PpqZ+8USxp5bi1U/BrXx35Cyyk8sQLbAAAAABJRU5ErkJggg=="
+}

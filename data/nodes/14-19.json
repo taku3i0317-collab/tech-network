@@ -1,0 +1,63 @@
+{
+ "id": "14-19",
+ "history": {
+  "name": "自動変速機",
+  "name_en": "Automatic transmission",
+  "kind": "tech",
+  "trunk": "14",
+  "trunk_name": "輸送",
+  "year": 1940,
+  "year_range": "1937〜1940",
+  "year_uncertain": false,
+  "hee1": "最初の量産の自動変速機は、ペダルの踏み分けではなく「油の圧力」で歯車を切り替えていた。（S-004 で追加。出典：en.wikipedia.org、ateupwithmotor.com）",
+  "hee1_en": "The first mass-produced automatic transmission shifted gears by \"oil pressure\", not by working pedals. (added in S-004. Sources: en.wikipedia.org, ateupwithmotor.com)",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "14-11"
+    ]
+   ],
+   [
+    [
+     "14-09"
+    ]
+   ],
+   [
+    [
+     "8-02"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "エンジンは回る速さの幅がせまいので、歯車の組み合わせ（変速機）で車の速さに合わせる。GM のアール・トンプソンらが、流体継手（油でつなぐ継手）と油の圧力で自動に切り替わる4段の遊星歯車を組み合わせ、1940年型オールズモビルに「ハイドラマチック」として載せた。量産された最初の全自動の変速機とされる。トンプソンは1928年のシンクロメッシュ（歯車をそろえてから入れるしくみ）も作った"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAsElEQVR42qVTsQ3EMAjElkfINK5cv5gkRab48qsU0Q9ifZ0q02QHvroIxRgpMg0I3XEYMNGgBSuZC4uVP/ba4KNFfjETERE8Yqtwssi/WqEmShWFxeqEcmF5f76iVbZlkm2ZxMOkjjI5M2g7yYWlN7jekIGPHvD+BMuiNWWLhJze0nUHIB57DZo8r2e4F5zXM2h80wFI8DoGWXfgrvExxgIg7pGTt2d1zt07Gf5Mw/YHh9OU81ZVo3sAAAAASUVORK5CYII="
+}

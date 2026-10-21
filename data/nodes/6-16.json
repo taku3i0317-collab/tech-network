@@ -1,0 +1,65 @@
+{
+ "id": "6-16",
+ "history": {
+  "name": "天然硝石の採取",
+  "name_en": "Collecting natural saltpeter",
+  "kind": "tech",
+  "trunk": "6",
+  "trunk_name": "ガス",
+  "year": 1250,
+  "year_range": "850〜1600",
+  "year_uncertain": false,
+  "hee1": "火薬の原料は、古い家畜小屋の土からとれた",
+  "hee1_en": "An ingredient for gunpowder was taken from the soil of old animal sheds.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "O19. 洞窟の土から硝石（天然硝石の採取）［6-16］（硝酸の前提）",
+    "answer": "乾いた洞窟や古い家畜小屋の土には、窒素の化合物が細菌に分解されてできた硝酸塩がたまる。土を水につけ、木灰（炭酸カリウム）を加えてカルシウムを沈め、煮つめると白い硝石（硝酸カリウム KNO3）の結晶がとれる。",
+    "hee": {
+     "1": "火薬の原料は、古い家畜小屋の土からとれた。",
+     "2": "1812年の米英戦争のころ、アメリカのマンモスケーブでは洞窟の土から硝石を取った。木の樋や桶が今も洞窟に残る。",
+     "3": "硝石は熱い水によく溶け、冷たい水に溶けにくい。煮つめて冷ますと先に結晶になる（再結晶）。",
+     "4": "19世紀はチリ硝石が肥料として輸出され、1913年からはハーバー・ボッシュ法で空気から窒素化合物を作れるようになった。"
+    },
+    "certainty": "硝化・浸出・木灰で KNO3 に変える化学 ◎／マンモスケーブの硝石採掘 1812年ごろ ◎（米国国立公園局）／火薬の年（中国 9〜10世紀・ヨーロッパ 13世紀）○（TECH_TREE の記述）／土をなめて見分けた話 △ → ゲーム内は ⚠️",
+    "basis": "- 米国国立公園局「Mammoth Cave: Saltpeter Mining」：https://www.nps.gov/maca/learn/historyculture/saltpeter-mining.htm"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "古い壁・洞窟・家畜小屋の床の土には、尿や糞が細菌で分解されてできた硝酸カリウム（硝石 KNO3）が白くふき出す。土を水に浸して煮つめ、木灰（K2CO3）を加えて結晶にした。中国で9〜10世紀ごろの火薬（808年の道教の文書が最古の処方とされ、1044年『武経総要』がまとまった処方の最古）、ヨーロッパでは13世紀ごろから（ロジャー・ベーコンの処方、1250〜1267年頃）。18世紀に人工の硝石床 [6-10] で増産、のちにチリ硝石・ハーバー・ボッシュ法 [6-09]"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "軽",
+  "missing": "",
+  "item": "nitre_earth_block",
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": "近似：鍾乳石の洞窟だけに置いた（本物は古い家畜小屋・壁の土からも取れた。家畜化 [0-17]・硝石床 [6-10] は後日）。",
+  "game_text": "",
+  "hee_game": {
+   "note1": "鍾乳洞の奥にある、白い結晶がまじったやわらかい土。",
+   "note2": "鍾乳石の洞窟だけにできる（鍾乳石ブロックの中）。シャベルで掘ると硝石土が2つ。シルクタッチでブロックのまま。",
+   "note3": "1812年の米英戦争のころ、アメリカのマンモスケーブでは洞窟の土を掘って硝石を取っていた。洞窟の中には、そのときの木の樋（とい）や桶が今も残っている。",
+   "note4": "洞窟の硝酸塩は、コウモリのふんなどの窒素が細菌に分解されてできる（硝化）。雨に流されない乾いた洞窟の土に、何百年もかけてたまる。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA1UlEQVR42o2TvRHCMAyFv/hcZghXzJAiFQOkTs0MHENwzEBNnRlSeAwPkR4Kzj6jSA7qrKef92SpG273N0BIEYAUBloWUvyJ8QDXywzMHNm2LnA6048TAI/nC1eAP6wfp5KczWXgp4vsamClQA3IDv04sa0L27rssFKgqbnBMKTYLiCZ1Izyj7mQ4o6a1VnzOytRDqz+gRpz9VJoTLTJ13H+u4HzLlGbuCbPy9XNAZpe7e2Otk4WlJJcPiJrXWUROWCfwmDSzQmWjJAiXT5n7VQtX+3/AM5rgwuRLlk1AAAAAElFTkSuQmCC"
+}

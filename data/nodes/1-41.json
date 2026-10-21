@@ -1,0 +1,82 @@
+{
+ "id": "1-41",
+ "history": {
+  "name": "チタン",
+  "name_en": "Titanium",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": 1940,
+  "year_range": "1791〜1940",
+  "year_uncertain": false,
+  "hee1": "砂鉄にまじっている黒い粒から、飛行機の骨組みの金属がとれる",
+  "hee1_en": "From the black grains mixed into iron sand, we get the metal used for airplane frames.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "C41. 砂鉄の黒い粒から飛行機の金属（チタンとクロール法）［1-41］",
+    "answer": "1791年、イギリスのグレゴールがコーンウォールの砂の中の黒い粒（チタン鉄鉱、FeTiO3）から新しい元素を見つけた。チタンは酸素・窒素と強く結びつくので、なかなか金属にできなかった。1940年、ルクセンブルクのヴィルヘルム・クロールが、チタン鉄鉱を炭素と塩素で四塩化チタン（沸点136℃、蒸留で精製）にし、アルゴンの中で溶けたマグネシウムで還元してスポンジ状のチタンを取り出す方法を作った。できた塩化マグネシウムは電気分解してマグネシウムと塩素に戻す。",
+    "hee": {
+     "1": "砂鉄にまじっている黒い粒から、飛行機の骨組みの金属がとれる。",
+     "2": "チタンは鋼くらい強いのに、鉄の6割くらいの重さ。",
+     "3": "四塩化チタンは空気の水で白い煙になり、昔は煙幕に使われた。",
+     "4": "マグネシウムと塩素は、クロール法の中でぐるぐる回る。"
+    },
+    "certainty": "グレゴール 1791・クロール 1940 ◎／反応 ◎／浜の砂鉄にチタン鉄鉱が含まれること ◎",
+    "basis": "- Wikipedia「Kroll process」：https://en.wikipedia.org/wiki/Kroll_process"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "6-05"
+    ]
+   ],
+   [
+    [
+     "1-39"
+    ]
+   ],
+   [
+    [
+     "0-12"
+    ]
+   ],
+   [
+    [
+     "5-11",
+     "6-07"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1791 グレゴールが砂鉄の中に新元素を発見（メナカン石）。1940 ヴィルヘルム・クロール（ルクセンブルク）：FeTiO3 を炭素と塩素で TiCl4（沸点136℃の液体、蒸留で精製）→ アルゴン中で溶けた Mg で還元 TiCl4+2Mg→Ti+2MgCl2（約800〜900℃）→ 「スポンジチタン」。MgCl2 は電解して Mg と Cl2 に戻す（[1-39]b と同じ循環）"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "重",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAjklEQVR42t1SOQ7AIAxrUV7FxIzy3Ii5U79FlwYZA1W3Ss2Ww8Y42bavY58VY9LKtfOw6WxgYExas2oHyqqtxwTCr94gJ2lk3otJK6oRZENQMevIvDdV4LIZhADv+VdchcwMZNn8pWI2mgivPxLyXEC30WUexBznZLHvwQPPWaXwilYerI7p1SWurvAncQEzlHny/6E50wAAAABJRU5ErkJggg=="
+}

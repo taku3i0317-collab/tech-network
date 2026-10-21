@@ -1,0 +1,66 @@
+{
+ "id": "5-11",
+ "history": {
+  "name": "真空容器",
+  "name_en": "Vacuum chamber",
+  "kind": "tech",
+  "trunk": "5",
+  "trunk_name": "真空",
+  "year": 1850,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "壁の金属からも気体がしみ出してくるので、焼いて追い出す",
+  "hee1_en": "Gas seeps out even from the metal walls, so they are baked to drive it out.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "2-14"
+    ],
+    [
+     "2-15",
+     "1-26",
+     "1-37",
+     "1-40"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "19世紀はガラスのベルジャー（釣鐘形）。大型・高温は軟鋼の溶接容器。超高真空は表面から気体が出にくいステンレス（Fe-18Cr-8Ni）を焼き出し（ベーキング、約150〜250℃）して使う"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": "vacuum_chamber",
+  "recipes": [
+   "作業台：ソーダ石灰ガラス×5 ＋ 鉄インゴット×3 → 真空容器（ベルジャー）"
+  ],
+  "machine_recipes": [],
+  "placeholder": "省略：すり合わせ面のグリース（獣脂[2-09]）。",
+  "game_text": "",
+  "hee_game": {
+   "note1": "鉄の台にかぶせたガラスの鐘。となりの手押しポンプで空気をぬく。",
+   "note2": "中の圧力（Pa＝パスカル）を持つ。最初は 1気圧＝101325 Pa。となりの手押しポンプを1回引くごとに下がり（1kPa まで）、シュプレンゲル水銀ポンプなら 0.05Pa まで下がる。グリースを塗った合わせ目から少しずつ空気がもどる（1分に約 0.1 Pa）。圧力は目では見えないので水銀真空計で測る。",
+   "note3": "19世紀の実験室では、ふちを平らにみがいたガラスの鐘（ベルジャー）を、グリースを塗った平らな台にのせた。外の空気が 1cm² あたり約1kg の力で鐘を押しつけるので、それでふさがる。",
+   "note4": "大きい容器や熱い容器はのちに軟鋼の溶接容器になり、超高真空ではステンレスを 150〜250℃で焼き出して（ベーキング）壁にしみこんだ気体を先に追い出す。ここではガラスの段階だけ。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAALklEQVR42mNUU9P6z0ABYGFgYGBo27SDLM1Vfh4MTAwUglEDRg0YNQACGCnNzgCtGQYLt1MJiwAAAABJRU5ErkJggg=="
+}

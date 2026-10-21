@@ -1,0 +1,53 @@
+{
+ "id": "1-75",
+ "history": {
+  "name": "真空脱ガス",
+  "name_en": "Vacuum degassing",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": 1959,
+  "year_range": "1956〜1959",
+  "year_uncertain": false,
+  "hee1": "溶けた鋼を真空に吸い上げると、中にかくれていた気体があわになって出てくる（O-012 で追加。出典：Wikipedia「Vacuum degassing」「Secondary steelmaking」、AISE『The Making, Shaping and Treating of Steel』（二次精錬の章））",
+  "hee1_en": "Suck molten steel up into a vacuum, and the gas hidden inside comes out as bubbles (added in O-012. Sources: Wikipedia \"Vacuum degassing\", \"Secondary steelmaking\", AISE, The Making, Shaping and Treating of Steel (chapter on secondary refining))",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-26"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "溶けた鋼を真空の容器に吸い上げて、溶けこんだ水素や窒素を抜く。鋼の中の水素は、あとで細かい割れ（水素割れ）の原因になる。1956年にドイツでドルトムント・ヘルデ法（DH 法）、1959年にルールシュタール社とヘレウス社の RH 法ができた。大きな鍛造品やレール、薄い鋼板の品質を上げる、転炉のあとの仕上げ（二次精錬）の中心"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAiklEQVR42mNgoBAwogtYOfj8x6fh2IEtjHhNxGcANjkmXIqPTGP4j41NtAE2WQyMMI02WQw4nc2Cz6k2WRD/4vMWEymBhE2OidJopNgAFmxR5OXjA2P+x8ZH9g4jsgFdYVuIsrVslQ/cAJRYOPBtBpEO34IZBscObGHctoWwC7Zt2YISG9TPC3QHAKRZN9AHn+TCAAAAAElFTkSuQmCC"
+}

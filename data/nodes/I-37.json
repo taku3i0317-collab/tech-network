@@ -1,0 +1,58 @@
+{
+ "id": "I-37",
+ "history": {
+  "name": "巨大磁気抵抗",
+  "name_en": "Giant magnetoresistance",
+  "kind": "idea",
+  "trunk": "I",
+  "trunk_name": "発見・考え方",
+  "year": 1988,
+  "year_range": "1988〜1997",
+  "year_uncertain": false,
+  "hee1": "ハードディスクの読み取りヘッドには、原子数十個分の厚さの膜が重なっている",
+  "hee1_en": "A hard disk read head has stacked films only a few dozen atoms thick.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://www.nobelprize.org/prizes/physics/2007/summary/",
+   "https://aip.brightspotcdn.com/PTO.v60.i12.14_1.online.pdf"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "9-26"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [
+   "15-12"
+  ],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "鉄とクロムのような磁性のある金属と無い金属を、原子数十個分の厚さで交互に重ねると、外の磁場で電気抵抗が大きく変わる。1988年にフランスとドイツの2つのグループが別々に見つけた（2007年ノーベル物理学賞）。スパッタリングで多層膜を作れるようにして、ハードディスクのとても小さな磁石の向きを読むヘッドが1997年に製品になり、ハードディスクに入る量が何十倍にもなった"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "実験：磁石を近づけたり遠ざけたりして、重ねた膜の抵抗が大きく変わるのを測る",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAdklEQVR42mNgoBAwMjAwMFg5+PwnR/OxA1sYGYg1oMtFDUUNTA8LPkW4DCnbc4uRAZtpFLmAkCG/PHwYrP5s+Y81EAk5HRco23OLkYWBgYFhwx81FAkvHx+GbVu2EGHELezOJ8ZFBGMBnyEEY4EUF1AnJY5wAABotTnWT4rbqAAAAABJRU5ErkJggg=="
+}

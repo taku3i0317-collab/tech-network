@@ -1,0 +1,74 @@
+{
+ "id": "14-01",
+ "history": {
+  "name": "運河と閘門",
+  "name_en": "Canals and locks",
+  "kind": "tech",
+  "trunk": "14",
+  "trunk_name": "輸送",
+  "year": 984,
+  "year_range": "984〜1761",
+  "year_uncertain": true,
+  "hee1": "運河の階段で、船が山を登る",
+  "hee1_en": "On a canal's staircase, ships climb mountains.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [
+   {
+    "name": "喬維岳",
+    "tool": "🚢 閘門",
+    "year": "984",
+    "intro": "984年（宋）、2つの水門で水の高さを上げ下げする閘門を作った ⚠️",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACHElEQVR42tVWQUvjQBT+IlFjN9RQWra0tx6LIB4EL54qSw/eXNhlz3vaFhFhf4UgRYo/QRTUk4ci3rwIe5Ci9CQ9bUt2lRJDKNU9ZC8mJDMTZyYNVL9T8t7MvG++N2/mKYiBfDbjsuzmw0CRXUtFTBhpPfRv2U6sdbiM5+fp3aZSOnPscEiTeHx8XRUhBaIC8saxCJGYwoQxcQIKK8dx5I8CLw0TV0DlndK5abhkyYnCsh1uFbyvQ9hq1NFq1Lnf+z+/JHcR5bMZ10jrfgARdHv3+LFzBMt2uNez1FVc3WqG1IjyJabA9rdP7vrqIgCgVMxJKeDh7LKN3YNzJZEzkKvUUKk3kavUpHxjKVAuFVAq5nwF/gxsfMykQ7slfZ4C3d49Ot3+eAqQ0geDkyB9ImnjEji7bFM2bXba//47sJn2qLlSVRCQzt38uubbR0//AAA3d7/xYW6WsoscPqkyfFnIJxEsOfKikgkeqyWrbjXRatRxffIrZF/aWPZ9ibZkZFVEqeAF3ju8EN69tAJeKrIG/ToetK7wYDlSwaUVYL0R3rMbpyUXJvA5n6e6ptvUTOh/YfhMzTs2zfGqwAu8Yhghe8eh26y0qqKsU6lxeURUmcBBfJ9JhUk906QC8yOJKLKBO47D2inXBwBXlkWlRhUNnARYikwxnLF2DwBlXWeej1eIvIG2nMxPFPqjEQqaxh0HAKemiYKmCRH4D28V6gHd8SlNAAAAAElFTkSuQmCC"
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "0-14"
+    ]
+   ],
+   [
+    [
+     "0-08"
+    ]
+   ],
+   [
+    [
+     "12-02"
+    ],
+    [
+     "0-11"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "984 中国・宋の喬維岳が二重の水門で水位を上下する閘門（パウンドロック）⚠️。1761 英国ブリッジウォーター運河（石炭輸送で産業革命を支えた）、1914 パナマ運河"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "水位を変えるブロック",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAcUlEQVR42mNgGNQgIizoPyE1TOgaiNGEDFiQNXu4OcG4/1esWsdIjAGMDAwMDBZlXVhtVXhwgoGQQUyUhtPAG8CCT9LDzYnhgYIFzlg50VXGOEi8oPDgBANSGkABGWpcWMV37NrHcAI5DHbs2scwNAEAOqUfEmoyFNYAAAAASUVORK5CYII="
+}

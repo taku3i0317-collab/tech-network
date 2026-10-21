@@ -1,0 +1,58 @@
+{
+ "id": "1-60",
+ "history": {
+  "name": "銅の電解精錬",
+  "name_en": "Electrolytic copper refining",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": 1869,
+  "year_range": "1865〜1870年代",
+  "year_uncertain": false,
+  "hee1": "電線の銅は、電気分解で 99.99% まで純粋にしてある（O-012 で追加。出典：Wikipedia「Copper extraction」「James Balfour Elkington」、OneMine (SME) 'Origins of Electrorefining: the World's First Commercial Electrorefinery'（https://www.onemine.org/documents/origins-of-electrorerefining-birth-of-the-technology-and-the-world-s-first-commercial-electrorefinery））",
+  "hee1_en": "The copper in electric wires is purified to 99.99% by electrolysis. (Added in O-012. Sources: Wikipedia \"Copper extraction\", \"James Balfour Elkington\", OneMine (SME) 'Origins of Electrorefining: the World's First Commercial Electrorefinery' (https://www.onemine.org/documents/origins-of-electrorerefining-birth-of-the-technology-and-the-world-s-first-commercial-electrorefinery))",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-03"
+    ]
+   ],
+   [
+    [
+     "4-05"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "製錬でできた粗い銅（約99%）を陽極、うすい銅の板を陰極にして硫酸銅の液で電気分解すると、陰極に 99.99% の純粋な銅がつく。不純物の銀や金は陽極の下に泥として沈み、回収できる。1865年にイギリスのジェームズ・バルフォア・エルキントンが特許を取り、1869年にウェールズで最初の工場が動いた。安い大きな直流（発電機）ができてから大規模になった。電線の銅は少しでも不純物があると電気が通りにくくなるので、電解銅が電線の標準になった"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAa0lEQVR42mNgoBAwogt0uaj9x6ehbM8tRrwm4jMAmxwTpV5gYmBgYLAo6/pPyCZ0MZgeil3Agm4iw7k5DNhchUscbkBJUgQDAwMDwz2oQhgfBtDFe+atoGIgDqgBjFgDjEhwoquMkWEUMAAAddEntssI8e0AAAAASUVORK5CYII="
+}

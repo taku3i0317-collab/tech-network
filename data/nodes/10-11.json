@@ -1,0 +1,80 @@
+{
+ "id": "10-11",
+ "history": {
+  "name": "加算器・カウンタ・レジスタ",
+  "name_en": "Adders, counters and registers",
+  "kind": "tech",
+  "trunk": "10",
+  "trunk_name": "制御・計算",
+  "year": 1964,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "足し算は「くり上がり」を隣に渡すだけ",
+  "hee1_en": "Adding is just passing the \"carry\" to the next digit.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "L9. 論理回路の歴史（お題の答え合わせ）［10-05］［10-09］［10-10］［10-11］（O-016、v0.3b）",
+    "answer": "トランジスタ1個と抵抗の NOT（RTL のインバータ）を並べると NOR になり、NOR だけでどの論理も作れる。1961年のフェアチャイルドの「マイクロロジック」は RTL の IC の最初の製品群で、1960年代のアポロ誘導コンピュータは3入力の NOR ゲートの IC だけで組まれた。のちに DTL・TTL の NAND が主役になった。足し算は XOR（和）と AND（けた上がり）でできる。",
+    "hee": {
+     "1": "ゲート1種類（NAND だけ、または NOR だけ）で、どんな論理回路も作れる（万能ゲート）。",
+     "2": "ド・モルガンの法則（1847）：NOT(A AND B) ＝ NOT A OR NOT B。",
+     "3": "1937年、ジョージ・スティビッツが電話のリレーで2進数の足し算器を台所で作った（モデルK）。",
+     "4": "アポロ誘導コンピュータには、同じ NOR ゲートの IC が何千個も使われた。当時アメリカで作られた IC の大きな割合を買ったといわれる ⚠️。"
+    },
+    "certainty": "マイクロロジック 1961（RTL）◎／アポロ誘導コンピュータが NOR の IC で組まれた ◎／ド・モルガン 1847 ◎／スティビッツのモデルK 1937 ◎／DTL・TTL の NAND の最初の製品の年 △⚠️／アポロが IC の大きな割合を買った ○⚠️",
+    "basis": "Computer History Museum「1961 – Fairchild's Micrologic」、Wikipedia「Apollo Guidance Computer」「Resistor–transistor logic」「De Morgan's laws」「George Stibitz」"
+   },
+   {
+    "title": "L11. 覚える回路（フリップフロップ・カウンタ・レジスタ）［10-11］（S-009、v0.3b）",
+    "answer": "2つの増幅器（ゲート）の出力をたがいの入力に戻すと、2つの安定な状態のどちらかに落ち着き、入力が消えてもその状態を保つ＝1ビットの記憶（フリップフロップ）。これを並べると、クロックのたびに数を数える回路（カウンタ）や、数をしまう回路（レジスタ）になる。",
+    "hee": {
+     "1": "1918年、イギリスのエクルズとジョーダンが真空管2本で「トリガ回路」を作った。今のすべてのフリップフロップの祖先。",
+     "2": "1932年、ウィン＝ウィリアムズはサイラトロン管の「2進の計数回路」で、放射線の粒を数えた。",
+     "3": "記憶が安定するには、切れている側のトランジスタが確実に切れていること。ゲームの SR ラッチの例でも、入力の抵抗が長いと記憶が消えた（真ん中の不安定な点に落ちる）。",
+     "4": "1971年のインテル 4004 は、4ビットのレジスタ16個に数を入れていた。CPU はほとんどがレジスタと加算器。"
+    },
+    "certainty": "エクルズ・ジョーダン 1918 ◎／ウィン＝ウィリアムズ 1932 ◎／4004 の 4ビット×16 のレジスタ ◎／D ラッチが初期の IC のメモリの1ビットを覚えた ○⚠️（製品名と年は確かめていない）",
+    "basis": "Wikipedia「Flip-flop (electronics)」（History）、「C. E. Wynn-Williams」、「Intel 4004」"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "10-10"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-53"
+  ],
+  "frontier": false,
+  "real": "半加算器（XOR+AND）を並べると足し算、フリップフロップを並べると数を数え・覚える。1960年代の電卓（1964 シャープ CS-10A は世界初とされるオールトランジスタ電卓で Ge トランジスタ約530個、1969 シャープ QT-8D で IC（MOS LSI 4チップ）化）"
+ },
+ "game": {
+  "status": "🔧",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "電卓[B-08]の中身（ROADMAP v0.3 #8）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAVElEQVR42mNgGHRATU3rv5qa1n8GBgaGI9MY/h+ZxvAfnzjT4HI6ulNxORuZzQJT6OXlx8DAABGkyAWkAkZ0AZjTiAE2WZj6KQe44h4Xm4lhFFAMAMaVNSrBSAN5AAAAAElFTkSuQmCC"
+}

@@ -1,0 +1,74 @@
+{
+ "id": "1-40",
+ "history": {
+  "name": "クロム",
+  "name_en": "Chromium",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": 1797,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "テルミットは線路のレールを現場で溶接するのに今も使われる",
+  "hee1_en": "Thermite is still used today to weld railway rails on site.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "O46. 色の元素を取り出す（クロムとテルミット）［1-40］［2-07］",
+    "answer": "クロム鉄鉱をソーダと空気で焼くと、水に溶けるクロム酸ナトリウム（6価、黄）になる。酸を加えると重クロム酸（オレンジ）、熱で分解すると緑の酸化クロム(III)。これをアルミの粉と反応させると、アルミが酸素を奪う大きな熱でクロムが溶けて出てくる（テルミット法、1894〜95 ゴルトシュミット）。クロムは1797年ヴォークランが発見し、色とりどりの化合物から「色」と名づけられた。",
+    "hee": {
+     "1": "クロムの名前はギリシャ語の「色」。黄・オレンジ・緑と、価数で色が変わる。",
+     "2": "テルミットは今も、線路のレールを現場で溶接するのに使われる。",
+     "3": "6価クロムは発がん性があり、日本では1975年にクロム化合物の工場の鉱さいによる土の汚染と、働いた人の健康被害が社会問題になった。",
+     "4": "IC のマスクは、石英に 0.1µm ほどのクロムを付けて作る。"
+    },
+    "certainty": "ヴォークラン 1797 ◎／ゴルトシュミット 1894〜95・DRP 96317 ◎／ソーダ焙焼の反応式 ◎／1975 の六価クロム鉱さい問題 ○／6価クロムの発がん性（IARC グループ1）◎",
+    "basis": "- Wikipedia「Chromium」：https://en.wikipedia.org/wiki/Chromium"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "2-07"
+    ]
+   ],
+   [
+    [
+     "1-29"
+    ],
+    [
+     "0-12"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1797 ヴォークランが紅鉛鉱から発見。テルミット法（1894〜95年 ハンス・ゴルトシュミットが炭素を含まない Cr を得た。特許 DRP 96317 は1895年3月13日、論文は1898年）Cr2O3+2Al→2Cr+Al2O3（約2000℃まで自己発熱、外部の炉不要）"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "軽",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "決定：新鉱石「クロム鉄鉱」OK（中優先）。クロム鉄鉱→[2-07]→Cr2O3→Al粉と点火",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAkUlEQVR42mNgoDewKOv6j8xnIkczsiGM2BRaOfj8xyZ+7MAWRouyrv8nusrg+liwaf5nZsfAwMDA4CPGhy79/xiSZgwXwDRj0QgH27ZsYTh2YAsjRhhYOfj89/LxIRgOXj4+KF5ECcQtrz7htR0bQDGAVM0kRyNtDTh2YAvjti1bCGrAGQvEGIKumayUyDDoAACddDtMoAT1XgAAAABJRU5ErkJggg=="
+}

@@ -1,0 +1,112 @@
+{
+ "id": "9-08",
+ "history": {
+  "name": "CZ 法",
+  "name_en": "CZ process",
+  "kind": "tech",
+  "trunk": "9",
+  "trunk_name": "半導体プロセス",
+  "year": 1951,
+  "year_range": "1916〜1952",
+  "year_uncertain": false,
+  "hee1": "世界のシリコンの大半は、100年前の偶然から生まれた方法で作られている",
+  "hee1_en": "Most of the world's silicon is made with a method born from an accident 100 years ago.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "4. 1つの大きな結晶にする（CZ 法・単結晶の引き上げ）［9-07］［9-08］",
+    "answer": "溶かしたシリコンに小さな種の結晶を浸け、ゆっくり回しながら引き上げると、全体が1つの結晶（単結晶）になる。",
+    "hee": {
+     "1": "綿あめのように、溶けた液体から結晶を「引き上げて」作る。",
+     "2": "発見したのはポーランドのチョクラルスキーで、1916年。金属が結晶になる速さを調べる実験から生まれた（ペンをインクではなく溶けたスズに浸してしまった、と言われる）。",
+     "3": "半導体に使ったのはベル研究所のティールとリトルで、1950年（ゲルマニウム）。当時は「多結晶で十分」という意見が強く、ティールは反対されながら続けた。単結晶にしたらトランジスタの性能が一気にそろった。",
+     "4": "るつぼは石英（SiO₂）。シリコンを溶かすと石英が少しずつ溶け出し、結晶に酸素が入る。これが CZ 結晶の弱点で、次の FZ 法が生まれた理由。ホウ素は結晶の上から下までほぼ均一に入るが（偏析係数 約0.8）、リンは下のほうに多くたまる（約0.35）。"
+    },
+    "certainty": "1916年・1950年 ◎（IEEE 公式認定＋コンピュータ歴史博物館＋全米工学アカデミー）／ペンの逸話 ○（伝記サイトと Wikipedia。IEEE には無い）／偏析係数 B 0.8・P 0.35 ◎／電力 17.4kWh/kg ○（1つの論文の改良後の値）／ネッキング（ダッシュ 1959）△",
+    "basis": "IEEE Milestone「Czochralski Process, 1916」、コンピュータ歴史博物館「1951 成長接合トランジスタ」、全米工学アカデミーのティール追悼文、チョクラルスキーの伝記サイト https://janczochralski.com/en/method/ ・Wikipedia「Czochralski method」https://en.wikipedia.org/wiki/Czochralski_method（すべて英語）"
+   }
+  ],
+  "people": [
+   {
+    "name": "チョクラルスキー",
+    "tool": "🏺 溶けた金属と種",
+    "year": "1916",
+    "intro": "1916年、溶けた金属から結晶を引き上げる方法を見つけた",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACWElEQVR42mNgGAUjHTCSolhLTvQ/MequPXpNtLksxCo0UZX8rywphCH+/ssPbMr/E+sIRmJ9LiPCB+cvm1SLVV1UXjOc/eTNJ6JCgolalqPLyYjwERVlTKSkAXyWk6KGbAfQAhDtgKaSVAZaqCXaASpyEjQJARZSFCOncvS4RpYjJQTwZpOK5MD/585fIjlx3Xn0gqGuZzYDAwMDg5GhHkPH3PWMVAkBTsNQBj1NTYZL168zfD+/Gqccw6PJ1AsBXTV5BmVZCXgaePHmA4OEiACKb9Hl7jx6wcDAwMBw9/ELhsu3HuINAYKJUFkWNfEhW44O0OXQ9ZLlgA17T2JGBTsbnP3y7Qes4rj0kpQGkILuf0miP1z8+89fDAwMDAwXbjxg4ObkwBCHWY4v6ElKhFCD4I5AznLYimFiLSc5F8AsXzapluHw7K0o4rap3nA5mjVIKpIDUaICG+iZv5Fo35PsAJgjRIX4GeL9HVDEF248wPD63UeSLKcIVCQH/n9zZMH/N0cW/K9IDvzPQMu6QELODMOCAGdzhv/qblD2C4YFu59iqHnx6BRluQBmsYCICor4l49PGBgYGBhaTa0YZDg4GGzqEhhYWDkYePhlMNqGhBzChMtiCTmz/wIiKhiWw0s51zgGGQ4OOBsbgOmHmUcwBHD5GN33WHzKwMMvg1MOyTyMEGEh1mJkcHhnD1YxQ4sIvPqwOYQJiyTJvkcPBUIA2S6SG6XYfE+MHMFc8OHNHbwKf3x/z8DBKciwaNESuNiJD5CakBFJ7M/vHwwvHp9m4OAUJMoBAKcr8EC/cS8lAAAAAElFTkSuQmCC"
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "9-07"
+    ]
+   ],
+   [
+    [
+     "1-17"
+    ]
+   ],
+   [
+    [
+     "7-02"
+    ]
+   ],
+   [
+    [
+     "4-12"
+    ]
+   ],
+   [
+    [
+     "6-07"
+    ]
+   ],
+   [
+    [
+     "9-11"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-06",
+   "I-52"
+  ],
+  "frontier": false,
+  "real": "1916 ヤン・チョクラルスキー（ペンをインク壺でなく溶けたスズに浸したと言われる）。Si では1951年にベル研のティールとビューラーが引き上げた（発表1952年。1954年は TI の Si トランジスタの年）。現在は直径300mm・長さ約2m のインゴット。石英るつぼから O が溶け込む"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "重",
+  "missing": "",
+  "item": "cz_puller",
+  "recipes": [
+   "作業台：鋼インゴット×4 ＋ 送りねじ ＋ 黒鉛棒×2 ＋ 単結晶引き上げ機 ＋ 電動モーター → CZ 引き上げ機（シリコン）"
+  ],
+  "machine_recipes": [
+   "CZ 引き上げ機（シリコン）「種結晶」：多結晶シリコン（種のスロットに） ＋ 石英るつぼ ＋ 袋詰めアルゴン 1 mol → シリコン種結晶（150 kW × 60 秒＝9,000 kJ）。細く絞って引くと1つの粒だけが残る",
+   "CZ 引き上げ機（シリコン）「単結晶」：シリコン種結晶（減らない） ＋ 多結晶シリコン×2 ＋ 石英るつぼ ＋ 袋詰めアルゴン 2 mol ＋ 三酸化二ホウ素（白リンも可、入れなくてもよい（真性）） → シリコン単結晶（B2O3 で p型・リンで n型、純度は多結晶シリコンと同じ）（150 kW × 835.2 秒＝125,280 kJ）。約1420℃の融液から回しながら引き上げる。17.4kWh/kg"
+  ],
+  "placeholder": "⚠️ 近似：引き上げは本物（1分に約1mm）の約8倍速い（電力量は 17.4kWh/kg で本物どおり）。アルゴンの量は記号的（本物は 1kg に数十 mol）。ドーパントは B2O3・リンを直接入れる（本物は B や P を濃く入れたシリコンの小片＝母合金を入れる ⚠️）。直径の制御と酸素の量は省略。",
+  "game_text": "CZ 引き上げ機（ROADMAP v0.2b #6）。直径とドーパントがパラメータ",
+  "hee_game": {
+   "note1": "とてもきれいなシリコンを溶かし、綿あめのように1つの大きな結晶をゆっくり引き上げる。",
+   "note2": "電気 150kW（黒鉛ヒーター）。種：種のスロットに多結晶シリコン＋石英るつぼ＋アルゴン1 → シリコン種結晶（60秒）。単結晶：種結晶（減らない）＋多結晶シリコン2＋石英るつぼ＋アルゴン2（＋B2O3 で p型、リンで n型、入れなければ真性）→ シリコン単結晶（835秒＝17.4kWh/kg）。るつぼは毎回使い捨て。隣のガスホルダーからアルゴンを吸う。本物は B や P を多く含むシリコンの小片（母合金）で入れる。",
+   "note3": "シリコンは 1414℃で溶け、黒鉛と反応して SiC になるので、るつぼは石英。石英が少しずつ融液に溶けるので、CZ の結晶には酸素が入る（1cm³ に約10¹⁸個）。アルゴンは空気を入れず、出てくる SiO を運び去る。ホウ素は結晶にほぼ均一に入るが（偏析係数 約0.8）、リンは融液に残りやすく（約0.35）、n型のインゴットは下ほど濃くなる。",
+   "note4": "方法は1916年、ポーランドのチョクラルスキーが金属の結晶化の速さを測っていて見つけた。いまのインゴットは直径300mm・長さ約2m・数百kg。1959年ダッシュが、最初に細い「首」を引くと転位（結晶のずれ）が抜けることを示した ⚠️。世界のシリコンウェハーの大半はこの方法。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAZElEQVR42mNUU9P6z0ABYGFgYGCoKssiS3Nb1zQGJgYKwSA04MKVJwwXrjzBECPaAAMdGQZcYtgMwuoCdENgGrEZTlQYYNOI1wvITsXFxusCZD8j206yF/A5fRAnJFIBI6XZGQCCSyQLUyfc9AAAAABJRU5ErkJggg=="
+}

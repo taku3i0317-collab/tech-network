@@ -1,0 +1,73 @@
+{
+ "id": "15-27",
+ "history": {
+  "name": "八木・宇田アンテナ",
+  "name_en": "Yagi-Uda antenna",
+  "kind": "tech",
+  "trunk": "15",
+  "trunk_name": "通信・情報",
+  "year": 1926,
+  "year_range": "1924〜1930",
+  "year_uncertain": false,
+  "hee1": "屋根のテレビのアンテナの横に並んだ棒は、電波を一方向に集めるための形（O-010 で追加。出典：IEEE Milestones「Directive Short Wave Antenna, 1924」、ETHW「Yagi Antenna」、Wikipedia「Yagi–Uda antenna」）",
+  "hee1_en": "The rods lined up on a rooftop TV antenna are shaped to gather radio waves from one direction (added in O-010. Sources: IEEE Milestones \"Directive Short Wave Antenna, 1924\", ETHW \"Yagi Antenna\", Wikipedia \"Yagi–Uda antenna\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [
+   {
+    "name": "宇田新太郎",
+    "tool": "📡 八木・宇田アンテナ",
+    "year": "1926",
+    "intro": "電波を一方向に集めるアンテナの実験と最初の発表をした",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACJUlEQVR42mNgGAUjHTCSolhCROg/MepevHlHtLksxCqUkxT7LyLIjyH+7cdPbMr/E+sIRmJ9LsDHA+fvmJCDVZ1HwRQ4+8OnL0SFBBO1LEeXE+DjISrKmEhJA/gsJ0UN2Q6gBSDaAdNKwxlooZZoByhJi9IkBFhIUYycytHjGlmOlBDAm02Kotz+bztxg4GBgYGBX1QZQ35ltScDAwMDQ3jrdgy5j6/vMjAwMDB4WWgw9C3bxUiVRLhv3xaGN8/vMuzbtwVuMcxydDmqhYCWkhSDkrQoQ+WCM1hD4N7T11jl2hNMGO49fc1w7d4zvCHAQmzigwU3NoAud+/pa7jea/eeUZYLthy+iCHGwc4KZ7969wmrOC69JIUAUtD9z4twgYv/+PmbgYGBgeHynScM3JzsGOIwy/EFPcnVcVGUG4oj8IFJK/YQZTnJ5QAyOL/2NArfMNiU9g0SYkKBFN+T7ACYI0QEeBiiPCxQxJftOMHw5sMXkiynCBRFuf1/sKnr/4NNXf+Lotz+M9CyTSghZwa3oDQ/hIGBgYEhLi4GRc2iRUsYGBgYGLonrkG0DR+doiwXwCwWEFGBix3e2YPXQFv3EkSz7M0dgg5hIdZicgCS/v+4HMJIqsVfPj5h4OGXwQgJW/cSuBwugC1EWKjpY3JChBHmAGIsJ+RDYtXAQuPFo1OMA94oZUGPH1zgx/f3DBycggTVMTAwMLx4fJqBg1OQKAcAAMaV56jagvj8AAAAAElFTkSuQmCC"
+   },
+   {
+    "name": "八木秀次",
+    "tool": "📡 八木・宇田アンテナ",
+    "year": "1926",
+    "intro": "1926年、宇田新太郎とアンテナの論文を出した",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACKUlEQVR42u1Wz0sbQRh9I6ubkiAeDFTqqXrIVWhhD3taSmiNh0IpLUtR/wIJexJ6FsWDB/8DRUJFhCJBpZS9NIdgD6UIXmLVg0ZxRSREMHgYL51hsz+SmWSXHup3mv2+N/vevPl2doDH+N+DyIBN06QiuEKhIPxeRRSYz+dpLpfz5SuVShCcioogoivXdZ0/jw/XA3Hbpyk+LpVKQk70REXurem6LrRlPTI90IpcBtOxgDhCWECGHCMOrLCA58/SsTigyIDdXe7da3ctQ5xoDiLLzNJR/S0AYGVlw1df//wGAPBhbsdXm5p6DwA4LH3FUuEbiaQJbbuIq/M/sO0iJ2bk3lpkPdBX3eNNZRgTGBwagWFMcAfmp18E1jLkGH3Vve57gDUfszsovLWjM4fPPTiqdudA8cdvXy6h9vLx5XUtMB82V8oBV/PQmY+veP6ucQ8A2D88RfKJ6ssz8lbNJ/07tswsF+H+5IKO4eUv34XIpc8BRj4+XMevzZ9N+bF3L3kttguJ24WwkFm9tAAmYnAgBfO11nwL2i3j6qYuRd5VWGaWnmwt0pOtRWqZWYo474Tp9FNOMDtrAQAmJz81YVZX1wAACwtLPOc4F919BYy4v3+A58plu+ULNc3g41rtpq0QRZS4k3DNp2FCiCzx7W0dyWTK54SmGbwWFkGOKFGuuBNHCBMgQt5uhaIY5objXJB/filVvPsTFo3GHVQ10Rb311qoakJIwAOJfuqfiMt35wAAAABJRU5ErkJggg=="
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "15-22"
+    ]
+   ],
+   [
+    [
+     "15-07"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "電波を受ける棒の前に少し短い金属の棒を、後ろに少し長い棒を並べると、電波が一方向に強め合い、その方向の電波だけを強く送ったり受けたりできる。東北帝国大学の宇田新太郎が実験と最初の発表を行い、八木秀次と1926年に論文にした（IEEE マイルストーン「Directive Short Wave Antenna, 1924」、未来技術遺産）。英語の論文と特許が八木の名前だったので、外国では長く「八木アンテナ」と呼ばれた。家の屋根のテレビのアンテナの多くはこの形"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAYUlEQVR42mNgGDTAysHnPzn6mCg1jIkUl2EzmIlSLzNRGnZYDQhguUW0ASww53j5+DAwMDBA/XgL7kRkcVQ1eAKry0XtP6FAxBsGG/6oMVAtGmlmwLEDWxhJSjA0ywsUAwA77CaGM1kkdAAAAABJRU5ErkJggg=="
+}

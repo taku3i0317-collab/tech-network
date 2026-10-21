@@ -1,0 +1,65 @@
+{
+ "id": "1-20",
+ "history": {
+  "name": "白金",
+  "name_en": "Platinum",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": 1748,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "白金は川の砂の中に、金属のまま少しだけまじっている",
+  "hee1_en": "Platinum is found as tiny bits of pure metal mixed in river sand.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "F12. 川の砂の中の白い金属（砂白金）［1-20］（［2-19］過酸化水素の白金電極の前提）",
+    "answer": "白金は重く、さびないので、岩がこわれても金属のまま残り、砂鉄や砂金といっしょに川底や浜にたまる（漂砂鉱床）。コロンビアやウラルの川砂から取れた。1748年のウジョアの旅行記がヨーロッパで最初の記述。",
+    "hee": {
+     "1": "白金は川の砂の中に、金属のまま少しだけまじっている。",
+     "2": "コロンビアの金掘りは、溶けにくい白い粒を「platina（小さな銀）」と呼んで捨てていた。",
+     "3": "自然白金にはパラジウム・イリジウム・オスミウムなどの仲間がまざっている（あとで分けられた）。",
+     "4": "白金は酸素が出る電気分解の電極にも負けないので、過酸化水素や過硫酸の電解に欠かせなかった。"
+    },
+    "certainty": "漂砂鉱床・コロンビアとウラル ◎（USGS・ブリタニカ）／ウジョア 1748 ◎／platina の由来 ◎",
+    "basis": "ブリタニカ「platinum」https://www.britannica.com/science/platinum 、USGS「Platinum-Group Metals Statistics and Information」https://www.usgs.gov/centers/national-minerals-information-center/platinum-group-metals-statistics-and-information （英語）"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "漂砂鉱床に自然白金が微量（ウラル・コロンビア）。1748年 ウジョアの『Relación Histórica』がヨーロッパで最初の記述（ウッドは1741年頃に試料を調べ、英国の医師ブラウンリッグに報告していた）"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "軽",
+  "missing": "",
+  "item": "platinum_grain",
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": "近似：ゲームでは浜の砂鉄から出る（本物はおもにコロンビア・ウラルの川の砂）。",
+  "game_text": "砂鉄のドロップに低確率で白金粒",
+  "hee_game": {
+   "note1": "川や浜の砂にまじっている、白金の小さな粒。とてもめずらしい。",
+   "note2": "自然白金（Pt にパラジウム・イリジウム・鉄などがまざる）。浜辺の砂鉄をシャベルで掘ると、まれに（約3%）出る（シルクタッチでは出ない）。王水で溶かして精製する [1-18]。",
+   "note3": "白金は重く、さびないので、岩がこわれて川に流されても金属のまま残り、砂鉄や砂金といっしょに川底や浜にたまる（漂砂鉱床）。コロンビアやウラル山脈の川で取れた。",
+   "note4": "コロンビアの金を掘る人たちは、溶けにくくて役に立たない白い粒を「platina（小さな銀）」と呼んで捨てていた。1748年、ウジョアの旅行記がヨーロッパで最初に紹介した。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAwklEQVR42u2SoQ6DMBCG/y4onqKKZzg9saARBD3FAyx9iOrJiUlCGjRBoPsIZOrCQ8zeTEtYMtDLsjOX9v7/u7umwD9+INRWoSoLYU3L2VvzUXvYMjdtp/aMmwAydums2YOMFc1+Ae/uQ8aKm2a5365SlYW4aV5yrJGxb5Bkba6zFADQDyOatlOsSXzIUVdnKWCsxNWSOFqepeiHEfx4QgexZg9dFsLhLRx7yU9HXM4VHHtp2k4pCjRaUeOY8f67P9ILtgxpjVKWC8QAAAAASUVORK5CYII="
+}

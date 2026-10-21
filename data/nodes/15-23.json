@@ -1,0 +1,66 @@
+{
+ "id": "15-23",
+ "history": {
+  "name": "コンデンサーマイク",
+  "name_en": "Condenser microphone",
+  "kind": "tech",
+  "trunk": "15",
+  "trunk_name": "通信・情報",
+  "year": 1916,
+  "year_range": "1916〜1920年代",
+  "year_uncertain": false,
+  "hee1": "録音スタジオのマイクは、音で動くとても薄い膜と板のすき間で音をとらえている（S-004 で追加。出典：mmrmagazine.com、dpamicrophones.com）",
+  "hee1_en": "Studio microphones catch sound with the gap between a very thin film that moves with sound and a plate (added in S-004. Sources: mmrmagazine.com, dpamicrophones.com)",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [
+   {
+    "name": "エドワード・ウェンテ",
+    "tool": "🎙️ コンデンサーマイク",
+    "year": "1916",
+    "intro": "1916年、コンデンサーマイクの特許を出した（1889〜1972）",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACWUlEQVR42mNgGAUjHTCSolhLTvQ/MequPXpNtLksxCo0UZX8rywphCH+/ssPbMr/E+sIRmJ9LiPCB+cvm1SLVV1UXjOc/eTNJ6JCgolalqPLyYjwERVlTKSkAXyWk6KGbAfQAhDtgKaSVAZaqCXaASpyEjQJARZSFCOncvS4RpYjJQTwZpOK5MD/585fYmBgYGD4yCqHIb+1N56BgYGBwbt4IYYc/+9HDAwMDAxGhnoMHXPXM1IlEe7bt4XhzfO7DPv2bYFbDLMcXY5qIaCrJs+gLCvBkD9xJ9YQuPPoBVa5ifnuDHcfv2C4fOsh3hAgmAaUZSVQghsbQJe78+gFXO/lWw8pywUb9p7EEONkZ4OzX779gFUcl16SQgAp6P6XJPrDxb///MXAwMDAcOHGAwZuTg4McZjl+IKe5Oq4IjkQxRH4QM/8jURZTnI5gAwOz96KwrdN9aZ9g4SYUCDF9yQ7AOYIUSF+hnh/BxTxhRsPMLx+95EkyykCFcmB/98cWfD/zZEF/yuSA/8z0LIukJAzw7AgwNmc4b+6G5T9gmHB7qcYal48OsVIkQNgFguIqKCIf/n4hIGBgYGh1dSKQYaDg8GmLoGBhZWDgYdfBqNtSMghTLgslpAz+y8gooJhObyEdI1jkOHggLOxAZh+mHkEQwCXj9F9j8WnDDz8MjjlkMzDCBEWYi1GKQN29mAVM7SIwKsPm0OYsEiS7Hv0UCAEkO0iuVGKzffEyBHMBR/e3MGr8Mf39wwcnIIMixYtgYud+ACpCRmRxP78/sHw4vFpBg5OQaIcAACogfESa7sY+AAAAABJRU5ErkJggg=="
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "15-04"
+    ]
+   ],
+   [
+    [
+     "5-02"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1916年12月、ウェスタン・エレクトリック（のちのベル研究所）のエドワード・ウェンテが、薄い膜と後ろの板でコンデンサー（電気をためる部品）を作り、音で膜が動いてすき間が変わると電圧が変わるマイクを特許に出した（米国特許1,333,744）。炭素マイクより雑音が少なく、高い音までとれた。とても弱い信号なので、1920年代半ばに真空管アンプがよくなって、録音や放送で使われるようになった"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAo0lEQVR42mNgoBAw4pKwcvD5j8w/dmALVrUsuDTH6J1AE/X5j80QFlwueCfXgipwaQsD0S5gYGBgEHpUgyZiQZoBdHMBEzJnWp7If2QXIGNsarC6YFqeyP8ll7C7AF0zVgBTZOXg87+lZ8b/lp4Z/2FpApsBjPgMQQdZk94wkpRMrRx8/qOnSLyBSA5gwZcHvHx8YMz/uPIECz7Tt23ZwkBzAACUREKJjq6OUwAAAABJRU5ErkJggg=="
+}

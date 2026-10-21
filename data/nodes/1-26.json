@@ -1,0 +1,81 @@
+{
+ "id": "1-26",
+ "history": {
+  "name": "鋼",
+  "name_en": "Steel",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": 1856,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "①鉄に空気を吹き込むだけで鋼になる。炎の色で終わりがわかる ②銑鉄4%→鋼0.1〜0.5%、燃料なし ③ベッセマー1856・ケリー、鋼が安くなりレールと橋が鋼に ④マシェットのスピーゲルアイゼン、リン問題→トーマス1878",
+  "hee1_en": "1) Just blowing air into iron turns it into steel. The color of the flame tells you when it is done. 2) Pig iron 4% -> steel 0.1-0.5%, with no fuel. 3) Bessemer 1856 and Kelly; steel became cheap, and rails and bridges became steel. 4) Mushet's spiegeleisen; the phosphorus problem -> Thomas 1878.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [
+   {
+    "name": "ベッセマー",
+    "tool": "🏭 空気を吹き込む転炉",
+    "year": "1856",
+    "intro": "1856年、溶けた銑鉄に空気を吹き込んで鋼にする転炉を発明した",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACB0lEQVR42mNgGAUjHTCSojgqKuo/MeqWLVtGtLksxCosKCj47+3tjSF++/ZtbMr/E+sIRmJ9bmNjA+eH6XFhVbfq0jc4+8iRI0SFBBO1LEeXs7GxISrKmEhJA/gsJ0UN2Q6gBSDaAUYCnxhooZZoB6jISdAkBFhIUYycytHjGlnOSIBKBVFFcuB/OWNXkhPXnUcvGM594GNgYGBgeHR2N0PH3PWMVAkBTsNQBj1NTYZL168zfD+/Gqccw6PJtMkF38+vZtg4qQjF8juPXuCUo0k2lBARIEuOquUAJzsbnP3y7Qes4lRxQMfc9YxHjhzBjIqfvxgYGBgYLtx4wMDNyYEhjlwf4EuAJCXCO49eYJQFBhoK9CkHjhw5wvCI8ztDSaI/XOzw7K0oamxTEVX1hr0nGR5956R+g6QiOfA/siOwgZ75GwkGO9kOgDlCVIifId7fAUV84cYDDK/ffSTJcopARXLg/zdHFvx/c2TB/4rkwP8MtGwTiopKwC2oqChiYGBgYIiLi0FRs2jREkjO6eiDi71+/YKRIgfALObjQxQwJ07sw2ughYUTnP3p0weCDmEh1mJyAJL+/7gcwkiqxV+/fmHg5ubBCAkLCye4HC6ALURYqOljckKEEeYAYiwn5ENi1cBC4/XrF4wD3ihlQY8fXODnzx8M7OwcBNVBg5aBnZ2DKAcAALt51R1DaC4EAAAAAElFTkSuQmCC"
+   }
+  ],
+  "media": [
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/A_Bessemer_steel_converter_LCCN90715020.jpg/960px-A_Bessemer_steel_converter_LCCN90715020.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:A_Bessemer_steel_converter_LCCN90715020.jpg",
+    "kind": "画像",
+    "author": "Miscellaneous Items in High Demand, PPOC, Library of Congress",
+    "license": "Public domain",
+    "description": "火花を吹き上げるベッセマー転炉の木版画（1889年）。溶けた鉄に空気を吹き込んで鋼にする。",
+    "verified": "2026-10-20 Commons API で PD を確認"
+   }
+  ],
+  "requires": [
+   [
+    [
+     "4-02",
+     "4-08"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-51"
+  ],
+  "frontier": false,
+  "real": "1856 ヘンリー・ベッセマー。溶けた銑鉄（C約4%）の底から空気を吹き込み、C+O2→CO2（炉内は主に 2C+O2→2CO、炉口で CO が燃える）で炭素を C約0.1〜0.5% まで抜く。燃料なし：Si と C が燃える熱で溶けたまま。炎の色で終点が分かる（①Si の赤い火花→②C のボイル＝白く長い炎→③フレームドロップ）。1856 マシェットのスピーゲルアイゼン（脱酸・加炭）で実用化"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": "steel_ingot",
+  "recipes": [],
+  "machine_recipes": [
+   "ベッセマー転炉「ベッセマー転炉」：銑鉄 → 鋼インゴット（20 kW × 20 秒＝400 kJ）。送風の動力を電力で代表"
+  ],
+  "placeholder": null,
+  "game_text": "block/BessemerConverterBlock・BessemerConverterBlockEntity（energy/ConsumerBlockEntity 継承、電解槽が見本）・BessemerConverterMenu、client/BessemerConverterScreen（バーの色＝炎の色、下の行に段階）。ModItems.STEEL_INGOT、タグ c:ingots/steel",
+  "hee_game": {
+   "note1": "鉄に空気を吹き込むだけで鋼になる。炎の色で終わりがわかる。",
+   "note2": "鋼＝炭素を約0.1〜0.5%だけ含む鉄。銑鉄（炭素約4%）は硬いがもろく、純鉄に近い錬鉄は柔らかすぎる。その中間の鋼は強くてねばる。ベッセマー転炉で、溶けた銑鉄に空気を吹き込み C+O2→CO2 で炭素を燃やして作る。タービン・圧力容器・旋盤の材料。",
+   "note3": "1856年 ヘンリー・ベッセマー（英）が発表。それまで鋼は るつぼで少しずつ作る高級品だったが、転炉は数トンを約20分で作れ、鋼の値段が大きく下がった。鉄道のレール・橋・船が鋼になった。同じころ米国のウィリアム・ケリーも同じ原理に気づいていた。",
+   "note4": "初期のベッセマー鋼は酸素や硫黄が残ってもろかった。1856年 ロバート・マシェットがスピーゲルアイゼン（Fe-Mn-C 合金）を最後に加えて酸素を抜き、炭素量を戻す方法を見つけて実用になった（マンガンは未実装のため省略）。また酸性の内張りではリンが抜けず、リンの多い鉱石には使えなかった→1878年 トーマスとギルクリストの塩基性転炉[3-08]で解決。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAaklEQVR42mNgGAWMyBwrB5//MLacGBtOTStWrYPrY0HW7OXjg6JQRuAPLjP+wwxhwue8Jx9YCHqBiZACQoYwERNQ+AxhwuV/fIZ4uDkxRIQF/SfaBfhcwkRqvKMbAudt27KFJIPwpZMhBgCAwR3DyfLtagAAAABJRU5ErkJggg=="
+}

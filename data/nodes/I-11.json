@@ -1,0 +1,52 @@
+{
+ "id": "I-11",
+ "history": {
+  "name": "基準なしに正確さを生む",
+  "name_en": "Creating accuracy without a reference",
+  "kind": "idea",
+  "trunk": "I",
+  "trunk_name": "発見・考え方",
+  "year": 1830,
+  "year_range": "1800〜1840",
+  "year_uncertain": true,
+  "hee1": "いちばん平らな板は、もっと平らな板がなくても作れる。3枚あればいい",
+  "hee1_en": "The flattest plate can be made without an even flatter plate. You just need three.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://en.wikipedia.org/wiki/Flatness_(manufacturing)",
+   "https://en.wikipedia.org/wiki/Surface_plate"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [],
+  "understanding": [],
+  "enables": [],
+  "explains": [
+   "8-03"
+  ],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "平らな板を作るのに、もっと平らな板（基準）はいらない。2枚だけをすり合わせると、へこみとふくらみがぴったり合うだけで平面にならないが、3枚を2枚ずつ順に組み合わせてすり合わせると、3枚が互いに合う形は平面しかないので、外の基準なしに平面に近づく。モーズリーが3枚1組で作り始めたとされ（年は ⚠️）、1830〜40年代にホイットワースが広めた"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "実験：2枚だけですり合わせるとへこみとふくらみが残り、3枚を順番に組み合わせると3枚とも平らになる → 基準は自分たちで作れる",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAARElEQVR42mNgGGjACGNYOfj8J0XjsQNbGBkYGBiYKHUBE8OgAaSEAbJaRnICEDkgmZBDFEYTE/oYsUCMZnLUjiYkegAAvbUc/CkCt+MAAAAASUVORK5CYII="
+}

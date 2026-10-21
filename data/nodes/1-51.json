@@ -1,0 +1,55 @@
+{
+ "id": "1-51",
+ "history": {
+  "name": "圧延",
+  "name_en": "Rolling",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": 1783,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "2本の回るローラーの間を通すと、鉄がぐんぐん薄く長くなる（S-001 で追加。出典：Wikipedia「Rolling (metalworking)」、ERIH「Henry Cort」）",
+  "hee1_en": "Pass iron between two turning rollers and it quickly gets thinner and longer (added in S-001. Sources: Wikipedia \"Rolling (metalworking)\", ERIH \"Henry Cort\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-08"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-52"
+  ],
+  "frontier": false,
+  "real": "回る2本のロールの間に金属を通して、薄く・長くのばす。1783年、ヘンリー・コートが溝付きのロールで鉄の棒を作る特許を取り、ハンマーでたたくよりずっと速く作れるようになった（同じころのコートのパドル法と組み合わせ、1786年頃カイファースファ製鉄所で初めて本格的に使われた）。熱いまま延ばす熱間圧延と、冷えてから延ばして表面と寸法を整える冷間圧延がある"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAjElEQVR42mNgoBAwYhO0cvD5j0382IEtGOpZsGn28vHBZeF/dEMYcWl24MpA0Xng2wwGBgYGhm1btqC4hAWbNQ5cGXAN+MRwGnDg2wycLsAIxCPTGP5b+4QwHN2yhsEmi4ERXxigO5+BgYGB8f+jEHiI4zMEpvnINIb/1HXBMIgFUlIiwTAgJy8MPAAA6wto82tu2cUAAAAASUVORK5CYII="
+}

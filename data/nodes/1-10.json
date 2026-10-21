@@ -1,0 +1,81 @@
+{
+ "id": "1-10",
+ "history": {
+  "name": "コークス高炉",
+  "name_en": "Coke blast furnace",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": 1709,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "森の木が足りなくなって、石炭を蒸し焼きにしたコークスで鉄を作るようになった",
+  "hee1_en": "When forests ran short of wood, people began making iron with coke, made by baking coal without air.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "M7. 森の木のかわりに石炭を（コークス高炉）［1-10］",
+    "answer": "1709年、イギリスのエイブラハム・ダービー1世は、石炭を蒸し焼きにしたコークスを高炉の燃料に使い、銑鉄を作った。それまでの高炉は木炭を大量に使い、森の木が足りなくなっていた。コークスは木炭よりつぶれにくく、炉の中で上の重い鉱石を支えながら風を通すので、炉を高く大きくできた。",
+    "hee": {
+     "1": "森の木が足りなくなって、石炭を蒸し焼きにしたコークスで鉄を作るようになった。",
+     "2": "石炭をそのまま使うと、硫黄が鉄に入ってもろくなる。蒸し焼きにすると揮発分がとび、ほぼ炭素だけになる。",
+     "3": "コークスは高炉の中で、燃料・鉄鉱石の酸素を奪う炭素・上の材料を支える骨組みの3役をこなす。",
+     "4": "コークスを作るときに出るコールタール［2-20］は、のちに染料・薬・レジストの材料になる。"
+    },
+    "certainty": "ダービー1世 1709年・コークス ◎／炉を大きくできた理由（つぶれにくく通気がよい）◎（教科書）",
+    "basis": "TECH_TREE［1-10］［2-20］、ブリタニカ「Abraham Darby」https://www.britannica.com/biography/Abraham-Darby-English-ironmaker-1678-1717 、ブリタニカ「blast furnace」"
+   }
+  ],
+  "people": [
+   {
+    "name": "エイブラハム・ダービー1世",
+    "tool": "🔥 コークス",
+    "year": "1709",
+    "intro": "1709年、石炭を蒸し焼きにしたコークスで鉄を作った",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACo0lEQVR42u1Wv4sTQRT+ZlnUEElEYrJNoiFbXHEHd41Wgpc0gkXY4pptRND/wGYtLJ0U/gEBDWJzKccUggjeBeRAu4O7QiRHdFMk68UjWRDRZi0ky/6Ync0mh9f4IDB5781+b7733rwB/ssZCxEZKaXOaYAYhhGJI8dt1nV9KfDt7W2hXZ73Q6VSias3TXOpAOcOYFmgKJHichdHYRz9ovzHBvAvRBJVP6XUWaYIdV0HpdQRdZMURT0PPD3YRXqwG7se7rW530vEAA88ydpbAyIGuF1g2zYsywIAFAoFV/+juBkJ5rXBbLspsG3bqdVqYIwla0PGGOprWQx7f/+rJSUEGsUQADcN9bXsYm1IKSWv3n306VIbW7ihP0ZqYyvkL7IxxkApJYlmAaXU2bxKcDQYoVJUoJYUAMBoPIGSu+T69cxRyNYzRwCAo8EIB5+/otFihFLq8O4EWVSEw702KkXFZ/OCByVoqxQVVIoKsup1Z6GLKJgCl+7z59y19X3C1c870KSoLmg2m2i0GOkcTEOB/Pz1GwCw/+kL0qkLIf0seEmtQlKrsCwLtm0n6wJKKTEMwwGARosRAM7De3Wfz/rKtUjmGi1GSH7F0TRNWISSCFzTtEjq3j977fuJ2tl7mERFCACZTAY8Fm4+uMMFfPqiM/NFJpNZ7CaMGqezIK5czuJu/ZbP92Wni+OTqQsenClRY12OAw/27wzg+GTqsuE9NW+qit4UZJ6xWq3eDlH45L6fgUfPu6F9OztvyFJPshnw6uq6T9/v98KzIH0R5bIaVDtxgchJgH0p+jCJZc6zPzIQkhS43+/xThprA4DDw/1QauR5gU9DeIxIHONCpweAclnl1ocgkLN/FcvB/ETJePwNuVw+1g8Aut23yOXycwXwB8t+WBdk7mWIAAAAAElFTkSuQmCC"
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-09"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1709 エイブラハム・ダービー1世。石炭を蒸し焼きにしたコークスで木炭を置換（森林枯渇の解決）"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "軽",
+  "missing": "",
+  "item": "coke",
+  "recipes": [],
+  "machine_recipes": [
+   "ガス工場のレトルト「石炭を乾留する」：石炭×8 ＋ 石炭 → コークス×6 ＋ 安水×2 ＋ コールタール（80 秒）。空気なしで約1000℃（燃料は石炭・木炭・コークス1個で石炭8個、電気なし）。石炭ガスは回収しない"
+  ],
+  "placeholder": null,
+  "game_text": "バニラ石炭→新規「コークス」。副産物コールタール → [2-20]（回収には[3-19]副産物回収式コークス炉）",
+  "hee_game": {
+   "note1": "石炭を蒸し焼きにした残り。軽くて穴だらけの、灰色の炭。",
+   "note2": "ガス工場のレトルト [2-20] で、石炭4個からコークス3個。レトルトと高炉 [1-09] の燃料になる（木炭のかわり＝コークス高炉 [1-10]）。",
+   "note3": "石炭のままだと煙や硫黄が多く、鉄をもろくする。蒸し焼きにして揮発分をとばすと、ほぼ炭素だけの強い燃料になる。1709年、ダービーがコークスで鉄を作り、森の木を使い切る心配がなくなった。",
+   "note4": "コークスは高炉の中で、燃料・鉄鉱石を還元する炭素・上の材料を支える骨組みの3役をこなす。穴だらけなので、下から吹き込む風が通り抜けられる。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAf0lEQVR42mNgGPKAEZeElYPPfxj72IEtjCQZEBEW9B+b+IpV6zDUM2Gz+dGrXwyPXv1iYGBggNPorsJqgJWDz385MTYGOTE2uBgyG5shKAbg0wgTQxdHMQDZuchsfGJMuBThcgFeA2BOJNZ2DAOwRRO67ehqWHBpQLYRl+ZhAgCMOjPa3rxJAAAAAABJRU5ErkJggg=="
+}

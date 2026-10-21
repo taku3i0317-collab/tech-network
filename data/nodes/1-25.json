@@ -1,0 +1,47 @@
+{
+ "id": "1-25",
+ "history": {
+  "name": "モナザイト",
+  "name_en": "Monazite",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": 1829,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "モナザイトは、砂鉄といっしょに砂の中から取れる",
+  "hee1_en": "Monazite is collected from sand together with iron sand.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "漂砂鉱床（砂鉄と共産）。1829年 ブライトハウプトが命名（模式産地はウラルのイリメニ山地）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "砂鉄の副産物",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAc0lEQVR42mNgoCWY4mfwn5AaJnyabRwMCBrChE9zx4lPDIQMYcKnucKCj6AhTPg0MzAwEDSEEV0zMkA2CAaOHLjAkLPpAiPBQCQWDCcDcjZdYDxy4AJexegBiOECfIZg04zVC9gMwaUZJR3gy0i4NFMFAACkSkx86vSOXAAAAABJRU5ErkJggg=="
+}

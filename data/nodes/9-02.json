@@ -1,0 +1,76 @@
+{
+ "id": "9-02",
+ "history": {
+  "name": "ゾーンレベリング",
+  "name_en": "Zone leveling",
+  "kind": "tech",
+  "trunk": "9",
+  "trunk_name": "半導体プロセス",
+  "year": 1952,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "溶けた帯を行ったり来たりさせて、混ぜ物を全体に均一に広げる",
+  "hee1_en": "Moving the molten zone back and forth spreads the added impurity evenly through the whole bar",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "G5. わざと混ぜる（ゾーンレベリング・ドーピング）［9-02］",
+    "answer": "精製の逆で、溶けた帯にリン（n型）やインジウム（p型）をほんの少し入れて、帯を行ったり来たりさせる。すると混ぜた元素が棒全体に均一に広がる。これもプファンの方法。",
+    "hee": {
+     "1": "きれいにしたものに、狙った元素をひとつまみ入れる。",
+     "2": "ゲルマニウムは手が4本の原子。手が5本のリンなら電子が1個余って n型、手が3本のインジウムなら1個足りなくて p型になる。",
+     "3": "精製の装置をそのまま使い、帯を往復させるだけで均一にできる。同じ機械で「取る」も「入れる」もできるのがプファンの発明のすごいところ。",
+     "4": "初期のゲルマニウムトランジスタで実際に使われた n型の元素は、アンチモンやヒ素が多かったとも言われる。ゲームではリンにしている（⚠️ 要確認）。"
+    },
+    "certainty": "原理 ◎／初期の実際のドーパント △",
+    "basis": ""
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "9-01"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-03",
+   "I-06"
+  ],
+  "frontier": false,
+  "real": "プファン。帯域を往復させてドーパントを均一に分布させる"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": "n_type_germanium",
+  "recipes": [],
+  "machine_recipes": [
+   "帯域精製炉「ゾーンレベリング（n型）」：精製ゲルマニウム（最大8、9N 以上） ＋ 白リン → n型ゲルマニウム（3 kW × 30 秒＝90 kJ）。入れた数だけ出る"
+  ],
+  "placeholder": null,
+  "game_text": "n型/p型ゲルマニウム",
+  "hee_game": {
+   "note1": "電子がほんの少し多いゲルマニウム。",
+   "note2": "ゾーンレベリングで作る：溶融帯にドーパントを入れて均一に広げる。固体を混ぜても半導体にはならない。",
+   "note3": "Ge は電子4つで隣の原子と手をつなぐ。15族のリン（電子5つ）が入ると1つ余り、その電子が自由に動いて電気を運ぶ。Ge 原子1億個にリン1個くらいでも、電気の通しやすさは大きく変わる。",
+   "note4": "n は negative（負の電荷の電子が電気を運ぶ）の頭文字。初期のベル研の n型Ge ではアンチモンやヒ素がよく使われたが、リンも Ge の n型ドーパントとして本当に使える。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAOUlEQVR42mNgGAUUA0YYQ01N6z8pGm/dusbIwMDAwIIsWFSziijNfS1hcDYTpV4YBgZQHAujgIEBAFZuCw8H3KvKAAAAAElFTkSuQmCC"
+}

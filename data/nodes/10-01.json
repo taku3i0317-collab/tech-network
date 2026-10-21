@@ -1,0 +1,104 @@
+{
+ "id": "10-01",
+ "history": {
+  "name": "電磁石",
+  "name_en": "Electromagnet",
+  "kind": "tech",
+  "trunk": "10",
+  "trunk_name": "制御・計算",
+  "year": 1820,
+  "year_range": "1820〜1825",
+  "year_uncertain": false,
+  "hee1": "スイッチを切ると、ただの鉄に戻る磁石",
+  "hee1_en": "A magnet that turns back into plain iron when you switch it off",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "F25. 電気を流すと磁石になる鉄（電磁石）［10-01］（［9-28］イオン注入の前提）",
+    "answer": "電流のまわりには磁場ができる。鉄の芯に絶縁した銅線を何重にも巻くと、電流を流している間だけ強い磁石になる。1820年にエルステッドが電流で方位磁針が振れることを見つけ、1825年にスタージャンが電磁石を、1830年代にヘンリーが強い電磁石を作った。",
+    "hee": {
+     "1": "スイッチを切ると、ただの鉄に戻る磁石。",
+     "2": "線を多く巻くほど、磁場が重なって強くなる。",
+     "3": "電磁石は、リレー（計算機のスイッチ）・モーター・発電機の中にもある。",
+     "4": "イオン注入装置は、電磁石でイオンを曲げて、重さごとにふるい分ける。"
+    },
+    "certainty": "エルステッド 1820・スタージャン 1825・ヘンリー 1830年代 ◎（ブリタニカ）",
+    "basis": "ブリタニカ「electromagnet」https://www.britannica.com/technology/electromagnet （英語）"
+   }
+  ],
+  "people": [
+   {
+    "name": "エルステッド",
+    "tool": "🧭 電流で振れる方位磁針",
+    "year": "1820",
+    "intro": "1820年、電流で方位磁針が振れることを見つけた",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACLElEQVR42mNgGAVEACctif9OWhL/yWETAkwD7TkWYhXqyAgwMDAw/IfSBNlXnnwgylxGYh0QZCL331xZBEP86ftvGGJXnnxg2HftBSNFDoDF4b5rLxidtCSQfUgUgDkC2RySowBLsDOQE2X4ooOJSIPIAsToHfBcQJID6uoqGOrqKgiyoxISiDYTbyJEDkKYBcSAO49eMCxbsICoXMFCSgg0NXXgdBCyHFVDAGaYipwESSEAA8sWLMAbAjjTwL5rLxi5ZDVRxDgNQxnMo+oYOA1DMdTjkuOS1cRbKBFMhHcfI3zz/fxqho2Tihi+n1+N4Vtscsh6yXaAsixq0EuI4M7b6HLoeslywIa9JzGDm50Nzn759gNWcVx6ScoFHXPXw+Luf0miPyIqfv5iYGBgYLhw4wEDNycHhjjMciT9lNeGFcmBKI7AB3rmbyTKcpLLAWRwePZWFL5tqjdZ5jCSopiYUCDF9yQ7AOYIUSF+hnh/BxTxhRsPMLx+95EkyykCFcmB/98cWfD/zZEF/yuSA/+Taw5RrpWQM4NbUJofwsDAwMAQFxeDombRoiUMDAwMDN0T18DFXjw6RVkugFksIKKCSHw7e/AaaOteAmd/eHOHoENYiLWYHICk/z8uhzCSavGXj08YePhlMELC1r0ELocLYAsRFmr6mJwQYYQ5gBjLCfmQWDWw0Hjx6BTj4OmaweIHF/jx/T0DB6cgQXUMDAwMLx6fZuDgFCTKAQD/nQe8nqqmTgAAAABJRU5ErkJggg=="
+   }
+  ],
+  "media": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Sturgeon_electromagnet.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Sturgeon_electromagnet.png",
+    "kind": "画像",
+    "author": "William Sturgeon",
+    "license": "Public domain",
+    "description": "1824年にウィリアム・スタージャンが発表した、最初の電磁石の図。",
+    "verified": "2026-10-20 Commons API で PD を確認"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Joseph_Henry_electromagnet.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Joseph_Henry_electromagnet.png",
+    "kind": "画像",
+    "author": "Unknown author",
+    "license": "Public domain",
+    "description": "ジョセフ・ヘンリーが作った、線を何重にも巻いた大きな電磁石の絵。",
+    "verified": "2026-10-20 Commons API で PD を確認"
+   }
+  ],
+  "requires": [
+   [
+    [
+     "4-03"
+    ],
+    [
+     "1-03"
+    ]
+   ],
+   [
+    [
+     "4-13"
+    ],
+    [
+     "4-01"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1820 エルステッドが電流で方位磁針が振れることを発見、1825 ウィリアム・スタージャンの電磁石、1830年代 ジョセフ・ヘンリーが絶縁線を何重にも巻いて強力に"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "軽",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "部品アイテム（リレー・質量分離[9-28]・電磁レンズ[8-11]）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAb0lEQVR42mNgoBboclH7T45aRhjDysEHxYBjB7YwIvNxyTMhC3r5+DB4+fjgtBmbPCMuL5TtucWIz4sweRaYwIY/anDTt23ZwsDAcAvFJlzyoy5AMgA9uhgYGP5jEcMALPjinBiAN7XhAuipdIgDAI/2UTdTvsZdAAAAAElFTkSuQmCC"
+}

@@ -1,0 +1,58 @@
+{
+ "id": "2-53",
+ "history": {
+  "name": "接触分解",
+  "name_en": "Catalytic cracking",
+  "kind": "tech",
+  "trunk": "2",
+  "trunk_name": "化学",
+  "year": 1937,
+  "year_range": "1936〜1942",
+  "year_uncertain": false,
+  "hee1": "車のガソリンの多くは、原油の重い油を触媒の上で割って作っている（O-011 で追加。出典：Wikipedia「National Historic Chemical Landmarks」、ACS「Landmarks directory」）",
+  "hee1_en": "Much of the gasoline in cars is made by breaking heavy crude oil apart over a catalyst. (Added in O-011. Sources: Wikipedia \"National Historic Chemical Landmarks\", ACS \"Landmarks directory\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "2-35"
+    ]
+   ],
+   [
+    [
+     "1-14"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "原油を蒸留したあとに残る重い油を、シリカとアルミナの触媒の上で熱して分子を割り、ガソリンにする。1936〜37年、フランス出身のウジェーヌ・ウードリーがアメリカのサン石油の工場で実用にし（ACS 化学遺産）、1942年には粉の触媒を流しながら使う流動接触分解がエッソのベイトンルージュの工場で動き出した。ノッキングしにくい（オクタン価の高い）ガソリンをたくさん作れるようになった"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAASUlEQVR42mNgGGjAyMDAwKCmpvUfm+StW9cYccnB5Jlo6ryIsKD/hNQwEdJMjCEUuYA2sYAt9HGJMTEMGoAe6sTSlGumqiEDAgB02kXwKHegIQAAAABJRU5ErkJggg=="
+}

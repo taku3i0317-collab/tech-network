@@ -1,0 +1,83 @@
+{
+ "id": "1-17",
+ "history": {
+  "name": "シーメンス法",
+  "name_en": "Siemens process",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": 1956,
+  "year_range": "1953〜1959",
+  "year_uncertain": false,
+  "hee1": "熱した細いシリコンの棒が、ガスの中でどんどん太っていく",
+  "hee1_en": "A thin, hot silicon rod keeps getting thicker inside the gas.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "3. 超高純度のシリコンを育てる（シーメンス法）［1-17］",
+    "answer": "電気を流して約1100℃に熱した細いシリコンの棒に、トリクロロシランと水素を吹きつける。シリコンだけが棒の表面に積もり、棒が太っていく。SiHCl₃ + H₂ → Si + 3HCl。純度は 9N〜11N（9が9〜11個並ぶ）。",
+    "hee": {
+     "1": "細い棒が、ガスの中でどんどん太くなっていく。",
+     "2": "棒そのものに電気を流して温めるので、まわりの壁は熱くならず、壁からの汚れが入りにくい。",
+     "3": "11N は「1000億個の原子のうち、ちがう原子が1個」。地球の人口の10倍以上の中に、他人が1人いるくらい。",
+     "4": "出てきた塩化水素は、また工程の最初（トリクロロシラン作り）に戻して使う。ゲームでも副産物の HCl を戻せる設計にしてある。"
+    },
+    "certainty": "反応・温度・純度 ◎／電力 90kWh/kg ○（特許の比較例。現代の炉はもっと少ない）／シーメンス法の基本特許 ◎（DE 1061593、シーメンス・シュッケルトが1956年6月25日出願・1959年7月16日公開。1953年はワッカーの研究開始年で、ワッカーは1958年にライセンスを受けた）",
+    "basis": "PV-Manufacturing.org「ポリシリコン製造」（英語）、米国特許 US 8,398,946（英語）、ドイツ特許 DE 1061593 https://patents.google.com/patent/DE1061593B/de （ドイツ語）、ワッカーの資料 https://cdn.ihs.com/Connect/Content/ChemWeek/pdf/Wacker.pdf （英語）"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-16"
+    ]
+   ],
+   [
+    [
+     "6-01"
+    ]
+   ],
+   [
+    [
+     "6-05"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1950年代半ば シーメンス社が開発（基本特許 DE 1061593 は1956年6月出願・1959年公開。ワッカーは1958年にライセンスを受けて量産）。通電で約1100℃にした細いSi棒の上で SiHCl3+H2→Si+3HCl、棒が太っていく。純度 11N（99.999999999%）級"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "重",
+  "missing": "",
+  "item": "polysilicon",
+  "recipes": [],
+  "machine_recipes": [
+   "シーメンス炉「多結晶シリコン」：トリクロロシラン（9N 以上に蒸留したもの） ＋ 水素ガス（袋詰め） 1 mol → 多結晶シリコン（純度はトリクロロシランと同じ（9N〜11N）） ＋ 塩化水素ガス 3 mol（500 kW × 648 秒＝324,000 kJ）。SiHCl3 + H2 → Si + 3HCl（約1100℃の棒が太る）。HCl はトリクロロシラン作りに戻せる"
+  ],
+  "placeholder": "近似：1個≈1kg（量は記号的、Q22-1）。本物は棒を砕いて塊にし、るつぼに入れる。",
+  "game_text": "多結晶シリコン → CZ結晶[9-08]・FZ[9-09]・ウェハー[9-12]へ。副産物 HCl は[1-16]に戻せる",
+  "hee_game": {
+   "note1": "人がたくさん作るものの中で一番きれいなもの。シリコン以外がほとんど入っていない。",
+   "note2": "シーメンス炉 [1-17] で作る：純度はトリクロロシランと同じ（9N〜11N）。小さな結晶の集まり。次は1つの大きな結晶（CZ [9-08]・FZ [9-09]）にしてウェハーへ。",
+   "note3": "「多結晶」＝たくさんの結晶。棒に積もったシリコンは、向きのばらばらな小さな粒としてできる。トランジスタにするには、溶かして1つの結晶に育て直す。",
+   "note4": "多結晶シリコンの多くは太陽電池に使われる（純度は少し低くてよい）。一番きれいなものが半導体のチップへ。世界では毎年100万トン以上作られ ⚠️、その大半がシーメンス法。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAwUlEQVR42t2SoQ7CMBRF7xY+oWqZWCYqlokpBArdLHwCEsnXNeipCRSCICaaiqaq/1AEtKyj2zRc2dd7cl7ygJ9PsjTc7VsLAEYLDMMj+nczfaC0siQrAQCsbWGUBJoaAGwMksao26b+lN85ns7eaNaA0soydgDJCxglQfLCz4ySL6gWgUlgQLIyKMXi1ltcYazuizPgAGC0+FJfSxrTGxvEbGYBfceT6+3ulZ2Ng1w4R9/xZPWQxrdgtPBm0/Kf5Ankd0w0a0l1HgAAAABJRU5ErkJggg=="
+}

@@ -1,0 +1,66 @@
+{
+ "id": "2-43",
+ "history": {
+  "name": "ばん油",
+  "name_en": "Oil of vitriol",
+  "kind": "tech",
+  "trunk": "2",
+  "trunk_name": "化学",
+  "year": 1300,
+  "year_range": "900〜1300",
+  "year_uncertain": true,
+  "hee1": "昔の硫酸は、緑色の結晶を焼いて作る「油」だった",
+  "hee1_en": "Long ago, sulfuric acid was an \"oil\" made by roasting green crystals.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "C39. 緑の結晶を焼いて作った昔の硫酸（ばん油）［2-43］",
+    "answer": "黄鉄鉱（FeS2）は水と空気で風化して緑礬（FeSO4·7H2O）になる。16〜19世紀のイギリスの「コッパラス」工場は、黄鉄鉱の山を何年も雨にさらして緑礬を作った。緑礬を焼くと SO3 が出て、水に吸わせると硫酸になる。とろりとした見た目から「ばん油（oil of vitriol）」とよばれた。イスラム世界の錬金術師も知っていたと伝わり（確かなのはラーズィーが緑礬を鉱物の分類に入れたことだけ ⚠️）、13世紀ごろのヨーロッパで知られた。のちに鉛室法（1746）、接触法（1831）に変わった。残る赤い酸化鉄（ベンガラ）は顔料や磨き粉になった。",
+    "hee": {
+     "1": "昔の硫酸は、緑色の結晶を焼いて作る「油」だった。",
+     "2": "「愚か者の金」とよばれた黄鉄鉱から、硫酸が作れた。",
+     "3": "緑礬は中世の黒いインク（没食子インク）の材料でもあった。",
+     "4": "古い鉱山の黄鉄鉱が風化して出る酸性の水は、今も川を汚す（酸性坑廃水）。"
+    },
+    "certainty": "反応 ◎／コッパラス工場（16〜19世紀イギリス）○／ばん油の最初の年・人 △ → ⚠️（TECH_TREE の本物欄と同じ）",
+    "basis": "- Wikipedia「Sulfuric acid」（歴史・oil of vitriol）：https://en.wikipedia.org/wiki/Sulfuric_acid"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "0-15"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "緑礬（FeSO4·7H2O。黄鉄鉱が風化してできる）を焼くと 2FeSO4 → Fe2O3 + SO2 + SO3、SO3 を水に吸わせると H2SO4。とろりとした見た目から「ばん油（oil of vitriol）」。イスラム世界の錬金術師も知っていたと伝わる（確かなのはラーズィーが緑礬を鉱物の分類に入れたことだけで、乾留した人・年は特定できない⚠️）、13世紀ごろのヨーロッパで知られた（ヴァンサン・ド・ボーヴェや偽ゲーベル『完全大全』に言及）。1746 鉛室法 [6-12]・1831 接触法 [2-01] より前の硫酸"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "実験＋軽",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAdUlEQVR42mNgGGjAiC5gUdb1H5l/oquMkWjT0DXjEiNaM7IcQYOIsQmbQYzEGIAcDjB1MDEWZIUlSRFYDehhYPgP0wCjLcq6/p/oKmNkQbalh4HhPyEXUA0QHTskgSPTEF7Axcar+f+jkP9HpjH8x8VmGJ4AACqITh9IagN9AAAAAElFTkSuQmCC"
+}

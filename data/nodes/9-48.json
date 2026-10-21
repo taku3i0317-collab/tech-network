@@ -1,0 +1,71 @@
+{
+ "id": "9-48",
+ "history": {
+  "name": "半導体ヘテロ構造",
+  "name_en": "Semiconductor heterostructure",
+  "kind": "tech",
+  "trunk": "9",
+  "trunk_name": "半導体プロセス",
+  "year": 1970,
+  "year_range": "1963〜1979",
+  "year_uncertain": false,
+  "hee1": "CD や光ファイバーのレーザーは、ちがう半導体を原子の厚さで重ねたサンドイッチの中で光っている（O-009 で追加。出典：Nobel Prize「Physics 2000」、京都賞、IEEE Milestones「HEMT 1979」、半導体産業人協会）",
+  "hee1_en": "The lasers in CDs and optical fibers shine inside a sandwich of different semiconductors stacked atoms thick. (Added in O-009. Sources: Nobel Prize \"Physics 2000\", Kyoto Prize, IEEE Milestones \"HEMT 1979\", Semiconductor History Museum of Japan (SSIS))",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [
+   {
+    "name": "林厳雄",
+    "tool": "🔦 半導体レーザー",
+    "year": "1970",
+    "intro": "1970年、ベル研究所で室温で連続して光る半導体レーザーを作った",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACFklEQVR42mNgGAUjHTCSojgqKuo/MeqWLVtGtLksxCosKCj47+3tjSF++/ZtbMr/E+sIRmJ9bmNjQ1LQHjlyhKiQYKKF5QwMDAw2NjZERRnTQCfCoeUAL5kvDF4yXwiyNRjvU98BMAuIZVM9GzIwMDBse8KD0zJkOQ3G19QpiIqi3P772OozMDAwMFQuOIMhv7Lak4GBgYEhvHU7hlx7ggkDAwMDw5bDFxn6lu1ipEoa2LdvC8Ob53cZ9u3bArcYZjm6HNXSwL2niOB0cvJhEJFUZnBy8oGHAMyn6HLoeslOA0rSoijBjQ2gy8EsVpIWZbh27xllIbDl8EUMMQ52Vjj71btPWMVx6SUpBJASz/+8CBe4+I+fvxkYGBgYLt95wsDNyY4hTkziI7k6LopyQ3EEPjBpxR6iLCe5HEAG59eeRuEbBpvSvkFCTCiQ4nuSHQBzhIgAD0OUhwVqK2jHCYY3H76QZDlFoCjK7f+DTV3/H2zq+l8U5fafgZZtQhWbBLgFmYFaDAwMDAxxcTEoahYtWsLAwMDAMH39NbjYnSMLKMsFMIslNBzgYuvb3fAaGFi5C85+ceMAQYewEGsxOQBJ/39cDmEk1eJ3jy4wCMkZYIREYOUuuBwugC1EWKjpY3JChBHmAGIsJ+RDYtXAQuPOkQWMA94oZUGPH1zg67vHDNxCsgTVMTAwMNw9tpiBW0iWKAcAALEt5u9bWiR1AAAAAElFTkSuQmCC"
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "7-25"
+    ]
+   ],
+   [
+    [
+     "9-30"
+    ]
+   ],
+   [
+    [
+     "1-44"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "性質のちがう半導体（ガリウムヒ素とアルミニウムガリウムヒ素など）を原子の並びをそろえて薄く重ねると、その境目に電子や光を閉じこめられる。1963年、ハーバート・クレーマーとジョレス・アルフェロフが別々にこの考えを出し、1970年、アルフェロフのグループとベル研究所の林厳雄らが、室温で連続して光る半導体レーザーを作った（アルフェロフの方が約1か月早く発表）。アルフェロフとクレーマーは2000年にノーベル物理学賞。光ファイバー通信の光源、CD・DVD・ブルーレイのレーザー、明るい LED、1979年に富士通で発明された HEMT（スマホや衛星放送の電波を受けるトランジスタ、IEEE マイルストーン）に使われる"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAcUlEQVR42mNgGGjAiC5gZZXznxiNx45NYWRgYGBgQdfs4OBFUPO9O3MYjkHZTORoRgZMpGhmYGBgUFJJwTSAEsDCwMDAICfzDMNpJBnw6IkUA7FeQA+HgXcBxYFInVhgYGBgOHBgG9Gajh1bx8gwaAAAIgQnmPOcJFYAAAAASUVORK5CYII="
+}

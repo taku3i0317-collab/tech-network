@@ -1,0 +1,83 @@
+{
+ "id": "0-03",
+ "history": {
+  "name": "土器",
+  "name_en": "Earthenware",
+  "kind": "product",
+  "trunk": "0",
+  "trunk_name": "生存・道具",
+  "year": -20000,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "粘土は焼くと、もう水で元に戻らない。2万年前の人もそれを知っていた",
+  "hee1_en": "Once clay is fired, water can never turn it back. People knew this 20,000 years ago.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "S2. 粘土は焼くと水で戻らない（土器）［0-03］",
+    "answer": "粘土は細かい板状の結晶（粘土鉱物）が水をはさんで重なったもので、ぬれていると形を変えられ、乾かしただけなら水で元に戻る。約500〜600℃に熱すると結晶の中の OH が水として抜け（カオリナイト → メタカオリン）、この変化は戻らない。だから焼いた土器は水を入れても溶けない。",
+    "hee": {
+     "1": "粘土は焼くと、もう水で元に戻らない。2万年前の人もそれを知っていた。",
+     "2": "土器は農耕より前、狩りや漁をする人たちが作り始めた（東アジア）。",
+     "3": "最古級の土器は中国・仙人洞の約2万年前。日本の大平山元遺跡の土器片は約1万6500年前⚠️。",
+     "4": "縄文晩期には海水を煮つめる製塩土器があった。生乾きで焼くと中の水が水蒸気になって割れる。"
+    },
+    "certainty": "カオリナイトの脱水（約500〜600℃、不可逆）◎／仙人洞 約2万年前 ○（Wu ほか 2012）／大平山元 約1万6500年前 △（較正年代の幅あり）→ ゲーム内は ⚠️／製塩土器 ○",
+    "basis": "- Wu ほか 2012「Early pottery at 20,000 years ago in Xianrendong Cave, China」Science 336：https://www.science.org/doi/10.1126/science.1218643"
+   }
+  ],
+  "people": [],
+  "media": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/%E7%81%AB%E7%84%94%E5%9C%9F%E5%99%A8-%E2%80%9CFlame-Rimmed%E2%80%9D_Cooking_Vessel_%28Kaen_doki%29_MET_2015_300_258_Burke_website.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:%E7%81%AB%E7%84%94%E5%9C%9F%E5%99%A8-%E2%80%9CFlame-Rimmed%E2%80%9D_Cooking_Vessel_(Kaen_doki)_MET_2015_300_258_Burke_website.jpg",
+    "kind": "画像",
+    "author": "メトロポリタン美術館（CC0 で公開）",
+    "license": "CC0",
+    "description": "縁が炎のように盛り上がった、縄文時代の火焔土器（煮炊き用のうつわ）。",
+    "verified": "2026-10-20 Commons API で PD を確認"
+   }
+  ],
+  "requires": [
+   [
+    [
+     "0-02"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "約2万年前（中国・仙人洞）、縄文土器 約1万6500年前。粘土鉱物（カオリナイト等）は約500〜600℃で結晶水が抜け、二度と水で戻らない（不可逆な脱水）"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "軽＋実験",
+  "missing": "",
+  "item": "raw_clay_pot",
+  "recipes": [
+   "作業台：粘土玉×5 → 生の土器"
+  ],
+  "machine_recipes": [],
+  "placeholder": "省略：乾かす工程（生乾きで焼くと割れる）はない。",
+  "game_text": "バニラの粘土玉→レンガ・植木鉢・飾り壺で可",
+  "hee_game": {
+   "note1": "粘土をこねて形にした入れもの。まだ焼いていないので、水につけるとまた粘土にもどる。",
+   "note2": "粘土玉5つで作る。たき火で30秒（野焼き）か、かまどで10秒焼くと土器になる。水バケツといっしょに作業台に置くと粘土玉5つにもどる（焼いた土器はもどらない）。",
+   "note3": "粘土は、とても細かい板のような結晶（粘土鉱物）が水をはさんで重なったもの。水があると板どうしがすべるので、こねて自由な形にできる。乾かしただけなら、水を吸ってまたやわらかくなる。",
+   "note4": "縄文土器の「縄文」は、生乾きの表面に縄を転がしてつけた模様。焼く前によく乾かさないと、中の水が焼くときに水蒸気になって割れる。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAApklEQVR42mNgGGjACGNEhAX9f/PDAqsiEY4TGGIrVq1jZGBgYGAhpJAQQDHAwaeJgYGBgYHj1wGGH2wODBy/DmDVtGPXPjibCV0SpplYwIRLMzG2YxiArBmXKzzcnLCHATRU/3u4OeH1wo5d++AxgDUMiHEFTi+QE5BM6InjwJY6nK5Adz5OF6B7h6ikjAwiwoL+wxIVDBzYUodhO04DYIZgS/tUBwDwdUgf+jjZLQAAAABJRU5ErkJggg=="
+}

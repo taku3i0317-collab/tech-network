@@ -1,0 +1,63 @@
+{
+ "id": "10-12",
+ "history": {
+  "name": "DRAM",
+  "name_en": "DRAM",
+  "kind": "tech",
+  "trunk": "10",
+  "trunk_name": "制御・計算",
+  "year": 1966,
+  "year_range": "1966〜68",
+  "year_uncertain": false,
+  "hee1": "小さなコンデンサにためた電気が「1」。放っておくと漏れて忘れる",
+  "hee1_en": "Charge stored in a tiny capacitor is a \"1\". Left alone, it leaks away and is forgotten.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "9-23"
+    ]
+   ],
+   [
+    [
+     "9-15"
+    ]
+   ],
+   [
+    [
+     "10-10"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1966〜68 ロバート・デナード（IBM）の1トランジスタ+1キャパシタのセル（特許1968）、1970 インテル 1103（1kbit）。電荷が漏れるので数ms ごとに書き直す（リフレッシュ）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "メモリ IC（ROADMAP v0.4 #6）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAZUlEQVR42mNgGAWMDAwMDGpqWv/J0Xzr1jVGFhjHy8uPJM3btm1iYGBgYIAboPZvDsJkphSCfBhgojQMKDaABZuzYPxt2zbBwwZdHsMFsEBBpm/dusaITRwDTMsT+Y+NJlZ+pAMAeMQynWk7MOAAAAAASUVORK5CYII="
+}

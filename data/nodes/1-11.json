@@ -1,0 +1,96 @@
+{
+ "id": "1-11",
+ "history": {
+  "name": "るつぼ鋼",
+  "name_en": "Crucible steel",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": 1740,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "鉄をふたをしたるつぼで完全に溶かすと、むらのない鋼になる。時計のばねに使われた",
+  "hee1_en": "Melt iron completely in a covered crucible and you get even, uniform steel. It was used for clock springs",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "O39. ふたをしたるつぼで鋼を完全に溶かす（るつぼ鋼）［1-11］",
+    "answer": "1740年ごろ、シェフィールドの時計職人ハンツマンは、ばねにするむらのない鋼を作るため、浸炭した鋼（ふくれ鋼）を耐火粘土のるつぼに入れてふたをし、コークスの火で完全に溶かして型に流した（キャスト・スチール）。ふたで空気をさえぎるので炭素が逃げず、どこも同じ硬さの鋼になる。",
+    "hee": {
+     "1": "時計のばねのために生まれた鋼が、100年以上、刃物と工具の最高の鋼になった。",
+     "2": "インドのウーツ鋼（ダマスカス刀の材料）も、鉄と植物を密閉したるつぼで作られた。",
+     "3": "るつぼは職人が耐火粘土を足で踏んでこねて作り、3回ほどで割れた。",
+     "4": "むらのない鋼があって初めて、ゲージブロックのような精密な測定具が作れた。"
+    },
+    "certainty": "ハンツマン 1740年ごろ・時計のばね ◎／ストウブリッジ粘土のるつぼ ○／るつぼが3回ほど使えた ○／ウーツ鋼の製法 ○",
+    "basis": "- Wikipedia「Crucible steel」：https://en.wikipedia.org/wiki/Crucible_steel"
+   }
+  ],
+  "people": [
+   {
+    "name": "ハンツマン",
+    "tool": "🏺 るつぼ",
+    "year": "1740ごろ",
+    "intro": "1740年ごろ、シェフィールドで鉄を密閉るつぼで溶かし、むらのない鋼を作った",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACn0lEQVR42u1WPYgTQRT+Zlk8Y7iNBGMWNKuQFEE48BptFLxLaRFSXLONWFjaXbMgVsKkuM4mIEFsknJMYSkn6Al2woEekgNNPJIlGi4rcmizFpJlf2Zms8nhNT5Y2H3v7XxvvvfevAH+ywkLkRkppe5xgFiWJcRR4342TXMh8FarJbWrsy5kGAZX3+v1Fgpw5gAWBRKJEpe7OArj6JflPzaAfyGKrPoppe4iRWiaJiilrqybFBH1PPB0fxvp/nbs+2CnzV0vEQM88CTv/hqQMcDtAsdxYNs2ACCfz3v6n4U1IZjfhl7bS4HjOG6lUgFjLFkbMsZQXclg0P37XTL0CKiIIQBeGqormfnakFJKnr98F9ClVjdw3XyI1OpGxF9mY4yBUkoSzQJKqbt2iWC/P0SxoKNk6ACA4bdD6OfOen7d3jBi6/aGAID9/hC7n76g3mSEUuryzgRVVoSDnTaKBT1g84OHJWwrFnQUCzoypWvuXAdROAUe3UunvHf7+yFXP+tAU0Rd0Gg0UG8y0tmdRAI5+vUbAPB+7zPSqdMR/TR4pbQOpbQO27bhOE6yLqCUEsuyXACoNxkB4G7erQZ8rpYvC5mrNxkh58turVaTFqEiA6/VakLqXj95EXhk7ezfTKIiBABN08Bj4ea921zAraedqS80TZvvJBSN02kQuWwGd6q3Ar7POq8wGk888PBMEY11NQ483L9TgNF44rHh3zVvqsruFGSWsXrjyoUIhVsP7ge+Nx89jvz35sMBWehKNgUuX8wGr2ejaEudWVJh5LSw2o0LhCQB9gcQBuPpprL3dSxkhCQBjgOS2USBqLMCH4f41vdSo3CMc+0eAIycxq0PSSAnfytWw/kRyfjHEbLLqVg/AHj78QDZ5dRMAfwB01hcNjgmHMUAAAAASUVORK5CYII="
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-08"
+    ]
+   ],
+   [
+    [
+     "1-10"
+    ]
+   ],
+   [
+    [
+     "1-07"
+    ],
+    [
+     "0-03"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-51"
+  ],
+  "frontier": false,
+  "real": "1740頃 ベンジャミン・ハンツマン（シェフィールド）。鉄を密閉るつぼで完全に溶かし、炭素量の均一な鋼に（時計ばね用）。それ以前のウーツ鋼（インド）も同系統"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "軽",
+  "missing": "",
+  "item": "clay_crucible",
+  "recipes": [
+   "溶鉱炉：生のるつぼ を焼く → 耐火粘土のるつぼ"
+  ],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "少量・高品質の鋼。精密部品（幹8）向け",
+  "hee_game": {
+   "note1": "鉄が溶けるほど熱くしても割れない、粘土のつぼ。",
+   "note2": "生のるつぼを溶鉱炉で焼いた物。鍛鉄×2と木炭を入れて、るつぼの仕込みにする。",
+   "note3": "鉄は 1500℃ ほどで溶ける。ふつうの土器はその前に柔らかくなるので、熱に強い耐火粘土が必要だった。",
+   "note4": "本物のるつぼは3回ほど使えたが、中の鋼を流し出すたびに傷み、最後は割れた。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAATUlEQVR42mNgGAWMyJyIsKD/xGhasWodXB8LuqSHmxNezTt27UPhM1HqBeoasGLVOkZ0J6I7H9n/g9ALVDEAVzhg8z9VXMBCbIKhGQAAEX4aDq4/rq0AAAAASUVORK5CYII="
+}

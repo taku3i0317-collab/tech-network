@@ -1,0 +1,76 @@
+{
+ "id": "8-15",
+ "history": {
+  "name": "水晶振動子",
+  "name_en": "Quartz crystal oscillator",
+  "kind": "tech",
+  "trunk": "8",
+  "trunk_name": "精密・計測",
+  "year": 1921,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "腕時計の中では、水晶が1秒に32768回ふるえている",
+  "hee1_en": "Inside a wristwatch, a quartz crystal vibrates 32,768 times a second.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "O53. 1秒に何百万回ふるえる石（水晶振動子）［8-15］",
+    "answer": "水晶は押すと電気が出て、電圧をかけると伸び縮みする（圧電効果、1880 キュリー兄弟）。決まった厚さに切った水晶の板は決まった速さでふるえるので、1921年ケイディが水晶で振動の速さを決める発振器を作り、1927年マリソンが水晶時計を作った。1959年ザウアーブレイは、水晶に膜が付くと振動数が下がることを式にし、蒸着の膜厚計が生まれた。",
+    "hee": {
+     "1": "腕時計の中では、水晶が1秒に 32768 回ふるえている。",
+     "2": "水晶の板は薄いほど速くふるえる（AT カットで 1661kHz·mm÷厚さ）。",
+     "3": "膜厚計は、ナノメートルの膜の重さを振動数の変化で量る。",
+     "4": "計算機の時計（クロック）も、水晶のふるえを数えて作る。"
+    },
+    "certainty": "キュリー兄弟 1880 ◎／ケイディ 1921・マリソン 1927 ◎／AT カットの周波数定数 約1.66MHz·mm ◎／ザウアーブレイ 1959 ◎",
+    "basis": "- Wikipedia「Crystal oscillator」：https://en.wikipedia.org/wiki/Crystal_oscillator"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-46"
+    ]
+   ],
+   [
+    [
+     "4-09"
+    ]
+   ],
+   [
+    [
+     "8-03"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1921 ケイディの水晶発振器、1927 マリソン（ベル研）の水晶時計。1959 ザウアーブレイ：水晶に膜が付くと振動数が下がる → 膜厚を nm で測れる"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "実験（磨いて振動数を合わせる・膜厚計）",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "[5-14]蒸着の膜厚計、[10-13]計算機のクロック",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAUElEQVR42mNgGGjACGNYOfj8J0XjsQNb4HpJ1oyshwWXBFE2YzOAgYGBQU6MDavmR69+YYgxURqILMTaRLQB6H6kTzSSYgi6GooDkYlhFAAAhZMbLsdHXUgAAAAASUVORK5CYII="
+}

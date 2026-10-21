@@ -1,0 +1,52 @@
+{
+ "id": "1-07",
+ "history": {
+  "name": "黒鉛",
+  "name_en": "Graphite",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": 1850,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "鉛筆の芯と同じ黒鉛は、熱に強いるつぼの材料にもなった",
+  "hee1_en": "Graphite, the same stuff as pencil lead, was also used to make heat-proof crucibles",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "変成岩中の天然黒鉛（脈状黒鉛。黒鉛るつぼは1840年代に普及（ディクソン、米墨戦争のころ）、特許は1850年）"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": "graphite",
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "黒鉛鉱石 → 黒鉛（CHEMISTRY #17）",
+  "hee_game": {
+   "note1": "鉛筆の芯と同じ、黒くてすべすべした炭素。",
+   "note2": "変成岩中の天然黒鉛（スリランカの脈状黒鉛など）。鉛筆の芯と同じもの。",
+   "note3": "炭素原子の六角形の網が層に重なったもの。層と層は弱い力（ファンデルワールス力）でしかつながっていないので、すべって紙に跡が残る。溶けずに、ふつうの気圧では約3600℃で直接気体になる（昇華）。",
+   "note4": "1560年代、イギリスのボローデールで純粋な黒鉛の大きな鉱脈が見つかり、鉛筆が生まれた。当時は鉛の仲間と思われ「プランバゴ（鉛のようなもの）」と呼ばれた。1789年、ドイツのヴェルナーがギリシャ語の「書く（graphein）」から graphite と名づけた。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAMUlEQVR42mNgGAWjgIGBEV1ATU3rPyFNt25dg+tjIlUzujomSr0wyAxADhxiA3HgAQCHxwwMKDe7jgAAAABJRU5ErkJggg=="
+}

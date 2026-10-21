@@ -1,0 +1,58 @@
+{
+ "id": "I-28",
+ "history": {
+  "name": "X線回折と結晶構造解析",
+  "name_en": "X-ray diffraction and crystal structure analysis",
+  "kind": "idea",
+  "trunk": "I",
+  "trunk_name": "発見・考え方",
+  "year": 1912,
+  "year_range": "1912〜1913",
+  "year_uncertain": false,
+  "hee1": "結晶に X 線を当てると、目に見えない原子の並びが点の模様になって写る",
+  "hee1_en": "Shine X-rays on a crystal, and the invisible arrangement of atoms shows up as a pattern of dots.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://www.nobelprize.org/prizes/physics/1914/summary/",
+   "https://www.nobelprize.org/prizes/physics/1915/summary/"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "B-03"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [
+   "7-07"
+  ],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1912年、ドイツのマックス・フォン・ラウエが、結晶に X 線を当てると、原子の規則正しい並びが細かい回折格子のように働いて、決まった方向に点の模様ができることを示した（1914年ノーベル物理学賞）。1913年、イギリスのブラッグ父子（ウィリアム・ヘンリーとウィリアム・ローレンス）が、その模様から原子の並び方と間隔を計算する方法を作り、食塩などの結晶の形を決めた（1915年ノーベル物理学賞）。1916年にはデバイとシェラーが、粉にした結晶でも測れる方法（粉末法）を作った（デバイは1936年ノーベル化学賞）。今もシリコンの結晶の向きを確かめたり、新しい物質の形を調べたりするのに使われる"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "実験：細かい目のあみに光を当てると点の模様ができるのを見て、結晶でも同じことが起きると知る",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAApklEQVR42qWTwQ3DMAhFn63O4kNXyAZR1JOHyQgexqco8gZZIQeWaU+VUEycpv434AOCD9AJBxDC8/1PssjuHl9jHF8VIYYEQJa5ipWyAOCPZI0ss5msuV6TW8W0T3O9NZvV1fKZBXSnGFJlnxY4LiyGxDBFhimaseYId1AtUXfb1sy2ZjNWHZJ1By2UsiCyO3OEKxmbS/xFxstDOpPR4nY/U6+KfAAliE8kMr9g3QAAAABJRU5ErkJggg=="
+}

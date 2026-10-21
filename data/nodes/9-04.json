@@ -1,0 +1,73 @@
+{
+ "id": "9-04",
+ "history": {
+  "name": "合金接合トランジスタ",
+  "name_en": "Alloy-junction transistor",
+  "kind": "tech",
+  "trunk": "9",
+  "trunk_name": "半導体プロセス",
+  "year": 1952,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "ゲルマニウムの両側にインジウムの粒をのせて焼くと、3層の部品になる",
+  "hee1_en": "Put a bead of indium on each side of germanium and bake it, and you get a three-layer part.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "G7. 両側を溶かして作る（合金接合型トランジスタ）［9-04］",
+    "answer": "n型ゲルマニウムの薄い板の両面にインジウムの粒を置いて加熱すると、インジウムが溶けてゲルマニウムにしみ込み、両側が p型になる。p-n-p の3層ができて、トランジスタになる。",
+    "hee": {
+     "1": "小さな粒を両側に乗せて焼くだけで作れるトランジスタ。",
+     "2": "点接触型は接点の具合で性能がばらばらだった。合金接合型は形が決まっているので、安定して大量に作れた。",
+     "3": "ゼネラル・エレクトリック（GE）のホールらが、ゲルマニウムとインジウムを溶かし合わせて接合を作る方法を研究し、1950年代の初めに GE や RCA が製品にした。",
+     "4": "ゲームで「未焼成 → かまど」の2段階にしているのは、この「乗せて → 焼く」の工程そのもの。"
+    },
+    "certainty": "仕組み ◎／発明者と年 ○（1950年ごろ研究、1952年ごろ製品化）",
+    "basis": ""
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "9-02"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1952 GE・RCA。Ge 片の両面に In 粒を乗せて加熱、合金化して p-n-p"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": "junction_transistor",
+  "recipes": [
+   "かまど：合金接合型トランジスタ（未焼成） を焼く → 合金接合型トランジスタ"
+  ],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "junction_transistor",
+  "hee_game": {
+   "note1": "1950年代のトランジスタ。点接触型よりずっと丈夫。",
+   "note2": "未焼成品をかまどで焼くとできる。3つでトランジスタラジオになる。",
+   "note3": "p-n-p 構造：真ん中の薄い n型Ge（ベース）を、インジウムがしみ込んだ p型の層（エミッタ・コレクタ）ではさむ。ベースの小さな電流で、エミッタからコレクタへの大きな電流を操る（増幅）。",
+   "note4": "1951年ごろ GE（ゼネラル・エレクトリック）と RCA が開発した。作り方が簡単で、1950年代の補聴器やラジオで広く使われた。ただベースを薄くしにくく、高い周波数は苦手だった。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAQElEQVR42mNgGPKAEV1ATU3rPz4Nt25dQ9HDgk2RiJQSVs1vnt3DEGOi1AvDwAAWYgOLJGDl4PMfGz1MA3HgAQBswg8XT2RLnQAAAABJRU5ErkJggg=="
+}

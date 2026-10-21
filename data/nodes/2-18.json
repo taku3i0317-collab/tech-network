@@ -1,0 +1,79 @@
+{
+ "id": "2-18",
+ "history": {
+  "name": "超純水",
+  "name_en": "Ultrapure water",
+  "kind": "tech",
+  "trunk": "2",
+  "trunk_name": "化学",
+  "year": 1970,
+  "year_range": null,
+  "year_uncertain": true,
+  "hee1": "超純水は、水そのものがほんの少しイオンに分かれる分しか電気を通さない",
+  "hee1_en": "Ultrapure water conducts electricity only as much as water itself splits into a tiny amount of ions.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "C24. 水そのものしか電気を通さない水（超純水）［2-18］",
+    "answer": "イオン交換で作るきれいな水は1950年代から半導体工場で使われ、「超純水」の言葉は1970年代後半〜80年代から広まった ⚠️。今の超純水は、イオン交換・逆浸透（RO）膜・紫外線（254nm）などを組み合わせて作る。理論上の抵抗率の上限は 18.2 MΩ·cm（25℃）で、水自身の電離（H+ と OH- が 10^-7 mol/L ずつ）で決まる。RO 膜は 1960年ごろローブとスリラージャン（UCLA）の非対称な酢酸セルロース膜が最初の実用品。",
+    "hee": {
+     "1": "超純水は、水そのものがほんの少しイオンに分かれる分しか電気を通さない。",
+     "2": "超純水をガラス瓶に入れると、ガラスからイオンが溶け出すので、ポリエチレンや PTFE の容器を使う。",
+     "3": "逆浸透膜は、海水から真水を作る装置にも使われる。",
+     "4": "今の半導体工場は1日に何千トンもの超純水を使う。"
+    },
+    "certainty": "18.2 MΩ·cm（25℃）◎／ローブとスリラージャン 1960ごろ ◎／超純水の語の広まり（1970年代後半〜80年代）△ → ⚠️（TECH_TREE の本物欄と同じ）",
+    "basis": "- Wikipedia「Ultrapure water」：https://en.wikipedia.org/wiki/Ultrapure_water"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "2-16"
+    ]
+   ],
+   [
+    [
+     "2-17"
+    ]
+   ],
+   [
+    [
+     "15-01",
+     "2-42"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-21"
+  ],
+  "frontier": false,
+  "real": "理論上の上限 18.2 MΩ·cm（25℃）。水自身の電離 H2O⇌H++OH-（各 10^-7 mol/L）で決まり、これ以上は上がらない。イオン交換の純水は1950年代から半導体工場向けに工業化され、「超純水」の語は1970年代後半〜80年代初めから⚠️。逆浸透（RO）膜は1960 ローブとスリラージャン（UCLA）の非対称酢酸セルロース膜（表面だけ緻密な薄い層、下は多孔質の支え）が最初の実用品"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "重",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "多段ブロック（蒸留→イオン交換→RO→UV）、抵抗率の表示",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAbElEQVR42mNgoCWwKOv6T0gNE6WGMuFTWJIUgaIBxkYWI8kFJ7rKGJFpvM5cc+MRHOMLCyZcTkcG6F7BaQBMc8+8FRgKcRmC4YKeeSsY0F1A1WgkaAAuL+ACjMQEIsxr2KKPkdgkTDDuhy4AAIh8QSCSR0QcAAAAAElFTkSuQmCC"
+}

@@ -1,0 +1,97 @@
+{
+ "id": "6-01",
+ "history": {
+  "name": "電解槽",
+  "name_en": "Electrolyzer",
+  "kind": "tech",
+  "trunk": "6",
+  "trunk_name": "ガス",
+  "year": 1800,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "純水は電気をほとんど通さない",
+  "hee1_en": "Pure water barely conducts electricity",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "E7. 水を電気で分ける（電気分解）［6-01］",
+    "answer": "水に電気を流すと、陰極から水素、陽極から酸素が、体積で 2:1 の割合で出てくる。2H₂O → 2H₂ + O₂。1800年、ボルタの電池が発表されたわずか数週間後に、イギリスのニコルソンとカーライルが発見した。",
+    "hee": {
+     "1": "水は水素と酸素でできている。電気で元の2つに戻せる。",
+     "2": "きれいな水はほとんど電気を通さない。硫酸などを少し溶かすと、よく通るようになる。",
+     "3": "電池ができてすぐ、科学者たちは何でも電気分解した。デービーはこの方法で、ナトリウムやカリウムを初めて取り出した（1807年）。",
+     "4": "電気分解には一方向の電気（直流）が要る。だからゲームでもダイナモ（直流）が電解槽の前提になっている。"
+    },
+    "certainty": "1800・反応 ◎（化学史の定番）",
+    "basis": "Wikipedia「William Nicholson (chemist)」（英語）https://en.wikipedia.org/wiki/William_Nicholson_(chemist)"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "4-01"
+    ],
+    [
+     "4-13"
+    ]
+   ],
+   [
+    [
+     "1-07"
+    ],
+    [
+     "1-03"
+    ]
+   ],
+   [
+    [
+     "2-01"
+    ],
+    [
+     "2-02"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-21"
+  ],
+  "frontier": false,
+  "real": "2H2O→2H2+O2。純水はほぼ電気を通さない（イオンが少ない）ので電解質を入れる。電解質は硫酸 or KOH（アルカリなら黒鉛陽極の消耗が少ない）。黒鉛電極。直流が必要（ダイナモは直流）"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": "electrolyzer",
+  "recipes": [
+   "作業台：黒鉛×2 ＋ 銅インゴット ＋ ソーダ石灰ガラス×5 → 電解槽"
+  ],
+  "machine_recipes": [
+   "電解槽「水の電気分解」：水入りバケツ ＋ 硫酸（減らない） → 水素ガス（袋詰め）×2 ＋ 酸素ガス（袋詰め） ＋ バケツ（5 kW × 115 秒＝575 kJ）。2H2O → 2H2 + O2。硫酸は電解質",
+   "電解槽「塩水の電気分解（クロルアルカリ）」：水入りバケツ ＋ 塩×2 → 水素ガス（袋詰め） ＋ 袋詰め塩素 ＋ 水酸化ナトリウム×2 ＋ バケツ（5 kW × 128 秒＝640 kJ）。2NaCl + 2H2O → Cl2 + H2 + 2NaOH"
+  ],
+  "placeholder": "省略（塩水モード）：塩素と苛性ソーダが混ざらないように分ける隔膜・水銀・イオン交換膜の違いは省略。",
+  "game_text": "energy/ 消費側テンプレ（新規）。ElectrolyzerBlock BE/Menu/Screen",
+  "hee_game": {
+   "note1": "電気の力で、水を水素と酸素に分ける。",
+   "note2": "左下に硫酸か塩を入れる。① 水＋硫酸（減らない）：2H2O → 2H2 + O2、572kJ＝5kWで115秒。② 水＋塩×2 [6-05]：2NaCl + 2H2O → Cl2 + H2 + 2NaOH、約640kJ＝128秒。＋極からは、水なら酸素、塩水なら塩素が出る（塩化物イオンのほうが先に電子を渡す）。",
+   "note3": "純粋な水はほとんど電気を通さないので、硫酸を入れてイオン（電気を運ぶ粒）を増やす。硫酸自身は反応で減らない。水を分けるのに理論上は1.23V必要だが、実際は電極での抵抗などで約2V かける。",
+   "note4": "ボルタの電池の知らせが届いた1800年、ニコルソンとカーライルはすぐ水の電気分解に成功した。1834年、ファラデーは電気分解の法則を見つけ、「電極」「陽極」「陰極」「イオン」「電解質」という言葉を作った（ヒューウェルと相談して）。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAcElEQVR42mO0cvD5z0ABYGFgYGDw8vFhYGBgYPj2Tg4uwSX0CEXhti1b4GyY+m1btjAwISviEnoEx+gApglGwwATusJtW7ag2IbNBXgNICsMkP0OA9jEsIlT7IJRA4aFASzoAg5WWVgV4hJnpDQ7AwBulB+VynnlCwAAAABJRU5ErkJggg=="
+}

@@ -1,0 +1,66 @@
+{
+ "id": "10-18",
+ "history": {
+  "name": "コンパイラ",
+  "name_en": "Compiler",
+  "kind": "tech",
+  "trunk": "10",
+  "trunk_name": "制御・計算",
+  "year": 1952,
+  "year_range": "1952〜1959",
+  "year_uncertain": true,
+  "hee1": "「計算機に人の言葉で命令したい」が、プログラミング言語の始まり （IMP-24 で追加、network_proposals W-4）",
+  "hee1_en": "\"I want to give orders to a computer in human words\" was the start of programming languages. (Added in IMP-24, network_proposals W-4)",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [
+   {
+    "name": "グレース・ホッパー",
+    "tool": "💻 コンパイラ",
+    "year": "1952",
+    "intro": "1952年ごろ、最初期のコンパイラ A-0 を作り、のちの言語 COBOL のもとを作った",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACDklEQVR42u1WPUsDQRB9J0ETFYyioKA2WltYaHMBiUWKEzQgFkEUCdYJGCE/QVCL1CJ+IClEUMEUKQyC16iNaCNGQaPgifET8atZq1tzdzmzm1wQ0anmZmbvvXk7e7fAv/11E3iKfT4fYamLRqPM77WxFgaDQSJJkiGeTCazlRNWEgJr56IockkryzKTEiXFAAcAURSZtqzkp4fwdxEYaCvHQFt5Tr/d+WQ9ARWA1bf8GALA8sGLKVhmrt1p0Yco7PeSvu5OAEAgEjfkY9PDAABpbMGQiwQ8AIC1zR1MzK4KlsxAIrGB9NUpEokNCqyC63OWzcDphUJ9t7sHtQ0tcLt7qAJqp/qcfm3eM9DSVK+RO5vpcycpha49PD4vTIG1zR1DzFFWSv3r24escbO1XApkDA8JjfTS+Ov7BwBg/+gMFQ67Ic4yfNy/47DfqyHxnU3NrTOBc38HMm17JqZ5do1Kxb+QsKjA0z03AZVEXU0Vhnu7NPGF9S3c3D1ygRdkYb+XpOV5kpbnSdjvJSjmnbC+uYMCjAf6AQBDQ4OamsXFJQDAZGSFxpTUbmGnQAV21rZ+DV986tsXujwh6j+kT3ISsbEC52MZ64kZEYEX+PnxEpVVjQYlXJ4QzZlZNkVsVnacjyKCSoAFPFeHrDWqGkpqV/jxS6lNvz9m9vZ6D7ujOmcdACgXe7A7qpkIfAKjFd6jNFsLDwAAAABJRU5ErkJggg=="
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "10-31"
+    ]
+   ],
+   [
+    [
+     "10-07"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "人が読める命令を、計算機の機械語に自動で翻訳するプログラム。1952 グレース・ホッパーの A-0 システム（初期のコンパイラ。「世界初」とする言い方には諸説 ⚠️）、のち COBOL（network_proposals W-4）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "実験（ゲーム内の計算機に命令を書く）",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "AI [10-16] を動かすソフトの土台",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAqklEQVR42mNgGGjAyMDAwODi1/UfXWLPpjJGZD4uNUwwTkiIFxzjAo9uLGAICfFieHRjAVyMBcboawmDC8ppJGA1oKhmFZxes2YbqgEwSQYGBrgkNgCzCGYJQReoqWn9v3XrGiO6RXhdAPXvf2RDQkK84JYgq8VwAbpB2MIAGeAMA5izYV5Ys2bb/0c3FmAYQjAMsPmfKBfgiwGssUAMwGYJCzFxT4oa+gMASVpbIz5G4SwAAAAASUVORK5CYII="
+}

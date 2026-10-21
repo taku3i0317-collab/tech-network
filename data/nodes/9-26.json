@@ -1,0 +1,83 @@
+{
+ "id": "9-26",
+ "history": {
+  "name": "スパッタリング",
+  "name_en": "Sputtering",
+  "kind": "tech",
+  "trunk": "9",
+  "trunk_name": "半導体プロセス",
+  "year": 1970,
+  "year_range": "1852〜1970",
+  "year_uncertain": false,
+  "hee1": "原子のビリヤードで膜を作る",
+  "hee1_en": "Making films by atomic billiards",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "F31. 原子のビリヤードで膜を作る（スパッタリング）［9-26］",
+    "answer": "低い圧力のアルゴンに高い電圧をかけて放電させると、アルゴンのイオンが的（付けたい金属）にぶつかり、原子をはじき出す。その原子がウェハーに積もって膜になる。原子がいろいろな向きから来るので、蒸着より段差の横を覆いやすい。1852年にグローブが見つけ、1970年代にマグネトロン（的の裏の磁石）で量産の方法になった。",
+    "hee": {
+     "1": "最初は「放電管の電極が削れて、ガラスが黒くなる」困った現象だった。",
+     "2": "的の裏の磁石が電子をぐるぐる回して閉じこめ、放電を濃くする（マグネトロン）。",
+     "3": "融けにくい W・Mo・Ti や、合金もそのままの割合で膜にできる。蒸着ではむずかしい。",
+     "4": "窓ガラスの断熱膜（Low-E ガラス）や、ハードディスクの磁性膜もスパッタで作る。"
+    },
+    "certainty": "グローブ 1852 の観察 ◎（Phil. Trans. R. Soc.）／マグネトロンの量産化 1970年代 ○",
+    "basis": "Wikipedia「Sputter deposition」https://en.wikipedia.org/wiki/Sputter_deposition （英語）"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "5-04",
+     "5-06"
+    ]
+   ],
+   [
+    [
+     "6-07"
+    ]
+   ],
+   [
+    [
+     "4-10",
+     "4-11"
+    ]
+   ],
+   [
+    [
+     "4-04"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1852 グローブが放電管の陰極が削れて壁に付くことを記録。Ar イオンで的（ターゲット）をたたき、飛び出した原子を膜にする。1970年代 マグネトロンスパッタで量産化。合金・高融点金属（W・Mo・Ti）も膜にできる"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "重",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "スパッタ装置（ROADMAP v0.4 #4）。[7-17]Mo/Si 多層膜も本物はこれ",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAWElEQVR42mNgoBAwMjAwMFg5+PwnR/OxA1sYWWCcrrAtJGkuW+XDwMDAwMCCLODl48OwbQvEIGLYGODINIb/pLDJNoQizUPABXRPSExUcQY5LiDX1YMQAABpe0ZFhGCinAAAAABJRU5ErkJggg=="
+}

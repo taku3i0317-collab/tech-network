@@ -1,0 +1,58 @@
+{
+ "id": "I-23",
+ "history": {
+  "name": "高分子説",
+  "name_en": "Macromolecular theory",
+  "kind": "idea",
+  "trunk": "I",
+  "trunk_name": "発見・考え方",
+  "year": 1920,
+  "year_range": "1920〜1930年代",
+  "year_uncertain": false,
+  "hee1": "プラスチックの中では、小さな分子が何万個も手をつないで長い鎖になっている",
+  "hee1_en": "Inside plastic, tens of thousands of small molecules hold hands to form long chains.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://www.nobelprize.org/prizes/chemistry/1953/summary/",
+   "https://www.nobelprize.org/prizes/chemistry/1974/summary/",
+   "https://en.wikipedia.org/wiki/National_Historic_Chemical_Landmarks"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [],
+  "understanding": [],
+  "enables": [],
+  "explains": [
+   "2-28",
+   "2-29",
+   "2-30",
+   "2-33",
+   "2-37",
+   "2-41"
+  ],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1920年、ドイツのヘルマン・シュタウディンガーが、ゴムやプラスチックは小さな分子が何千・何万もつながった長い鎖（高分子）だと論文で主張した。小さな分子の集まりだと考える人が多く、1920年代に大きな論争になった。1929年からデュポンのウォーレス・カロザースが、設計どおりの長さの鎖を作ってみせ（ナイロンなど）、高分子説を実証した（カロザースは1937年に亡くなり受賞していない）。シュタウディンガーは1953年にノーベル化学賞。フォトレジストが光で溶けなくなるのも、鎖どうしが橋でつながるから"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "実験：短い鎖と長い鎖の模型をくらべ、長い鎖ほどからまって硬くなるのを見る",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAK0lEQVR42mNgGB5ATU3rv5qa1n9yxJmo7hJS2NR3ATnhwTQajaPRyMDAAABwrSjZShUiowAAAABJRU5ErkJggg=="
+}

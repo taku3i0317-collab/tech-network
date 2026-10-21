@@ -1,0 +1,73 @@
+{
+ "id": "1-39",
+ "history": {
+  "name": "マグネシウム",
+  "name_en": "Magnesium",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": 1941,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "海水 1L に Mg は約1.3g。第二次大戦の航空機用 Mg は海から取った",
+  "hee1_en": "1 L of seawater holds about 1.3 g of Mg. The Mg for aircraft in World War II was taken from the sea",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "C40. 海の水から軽い金属（マグネシウムとダウ法）［1-39］",
+    "answer": "海水 1L には約1.3g のマグネシウムが溶けている。ダウ社は1916年に地下のかん水から、1941年にテキサス州フリーポートで海水からマグネシウムを取り出し始めた。塩化マグネシウムを乾かすとき、ふつうに熱すると水と反応して酸化マグネシウムになってしまう（加水分解）ので、塩化水素の中で乾かす。無水の塩化マグネシウムを溶かして電気分解すると、マグネシウムと塩素になる。マグネシウムはクロール法でチタンを取り出す還元剤になる。",
+    "hee": {
+     "1": "豆腐を固めるにがりの中に、軽い金属マグネシウムが入っている。",
+     "2": "にがりをただ焼くと、マグネシウムでなく白い粉（マグネシア）になる。",
+     "3": "マグネシウムは燃えるとまぶしく光り、昔のカメラのフラッシュに使われた。",
+     "4": "第二次大戦では、海水から作ったマグネシウムが飛行機に使われた。"
+    },
+    "certainty": "ダウ 1916・1941 ◎／海水の Mg 約1.3g/L ◎／加水分解と HCl 雰囲気の乾燥 ◎",
+    "basis": "- Wikipedia「Dow process」：https://en.wikipedia.org/wiki/Dow_process"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "3-15",
+     "5-01"
+    ]
+   ],
+   [
+    [
+     "0-11",
+     "6-06"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "(a) 1941 ロイド・ピジョン（カナダ）：2(MgO·CaO)+Si→2Mg↑+Ca2SiO4、約1200℃・真空で Mg を蒸気として取り出し凝縮"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "実験＋重",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "決定：(b) を先に。海水は [0-16]塩田 で区別する（塩田のにがり MgCl2 → 乾燥 → 溶融塩電解。にがりは最初から濃い MgCl2 なので「石灰で沈殿→塩酸で溶かす」段は省略可⚠️。本物は脱水時に MgCl2 が加水分解しないよう HCl 雰囲気で乾かす＝[6-06]）。(a) ピジョン法は後：決定：新鉱石「ドロマイト」CaMg(CO3)2 を山岳バイオームの岩として追加（[3-08]トーマス転炉の塩基性内張りにも使う）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAeUlEQVR42mNgoAY4Mo3hPyl8gobgYhNlyP9HIXBMjGZGZFusfUIYGBgYGFpXuTBUh+1hYGBgYDi6ZQ0DAwMDg00WRC1WA9Cde+DbDAYHrgy8GvGGgZWDz3+yAxDdAJIDEpsBZAFiDWFioCUgxhW0dQExrmCiW6zgAgDLgEE0SRT2wwAAAABJRU5ErkJggg=="
+}

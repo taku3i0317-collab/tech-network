@@ -1,0 +1,58 @@
+{
+ "id": "12-09",
+ "history": {
+  "name": "道路",
+  "name_en": "Roads",
+  "kind": "tech",
+  "trunk": "12",
+  "trunk_name": "建築・土木",
+  "year": 1820,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "「ターマック」はコールタールとマカダムさんの名前",
+  "hee1_en": "\"Tarmac\" comes from coal tar and Mr. McAdam's name.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "0-09"
+    ]
+   ],
+   [
+    [
+     "2-20"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1820年頃 ジョン・ラウドン・マカダムの砕石舗装、1902 エドガー・フーリーのタールマカダム（ターマック）。現代のアスファルトは原油由来＝このMODでは扱わない（[2-35]）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "速く歩ける道ブロック",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAf0lEQVR42mNgoBAw4pKICAv6j8xfsWodVrVM+Ey3kzjEYCdxCK8LmHDZ7uHmBOd7uDlhuAgGWPCZzqXXQDAMmAjZTsgVeMPg26UGhm+XGoh3AS7b8bmCiWrpgJDtyGDHrn3wdEGxC5jw2Y4rEJHDgjouoASwIAcMZl7ALUc1AAB9UzJVkR8KtwAAAABJRU5ErkJggg=="
+}

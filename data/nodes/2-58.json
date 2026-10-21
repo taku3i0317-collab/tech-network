@@ -1,0 +1,76 @@
+{
+ "id": "2-58",
+ "history": {
+  "name": "無水酢酸",
+  "name_en": null,
+  "kind": "tech",
+  "trunk": "2",
+  "trunk_name": "化学",
+  "year": 1852,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "酢酸2つから水を1つ取ると、もっと反応しやすい物になる",
+  "hee1_en": null,
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "C18. 光でくっつく分子の材料（無水酢酸・ケイ皮酸）［2-58］［2-59］",
+    "answer": "無水酢酸は 1852年ジェラールが塩化アセチルと酢酸の塩から初めて作った。ケイ皮酸は 1868年パーキンの反応（ベンズアルデヒド＋無水酢酸＋酢酸ナトリウム）で作れる。ベンズアルデヒドはトルエンの側鎖を塩素化して加水分解して作る。ケイ皮酸の C=C は紫外線で [2+2] 二量化する（となりどうしが4つの炭素の輪でつながる）。この性質をポリビニルアルコールの鎖に付けたのが、1950年代コダックのネガ型レジスト KPR（ポリケイ皮酸ビニル）。",
+    "hee": {
+     "1": "シナモンのにおいの仲間（ケイ皮酸）は、光が当たるとくっつく。",
+     "2": "パーキンは18歳で紫の染料モーブを見つけ、のちにこの反応で香料クマリンを作った。",
+     "3": "トルエンの名前は南米のトルーバルサムから。",
+     "4": "酢酸ナトリウムの過冷却は、くり返し使えるカイロに使われている。"
+    },
+    "certainty": "反応 ◎／ジェラール 1852・パーキン 1868 ◎（パーキン反応の発表は 1868〜1877）／KPR の年（1950年代、ミンスクの特許 1954 前後）○⚠️",
+    "basis": "- Wikipedia「Acetic anhydride」（歴史）：https://en.wikipedia.org/wiki/Acetic_anhydride"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "2-42"
+    ]
+   ],
+   [
+    [
+     "6-05"
+    ]
+   ],
+   [
+    [
+     "6-05"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "CH3COCl + CH3COONa → (CH3CO)2O + NaCl"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "軽",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAZUlEQVR42mNgGHRgip/B/yl+Bv+JFWei1EKKDWBBF5h04xdWhbjEB94LFBvAiMxRU9NCiaY8DTas/r916xojzkBElmTQgMQ7shi6JSz4nJez6QIjUdGIbiohAFN/69Y1RiaGIQ8AjAIjcJ43yK4AAAAASUVORK5CYII="
+}

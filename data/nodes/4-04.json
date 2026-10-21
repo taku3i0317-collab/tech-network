@@ -1,0 +1,87 @@
+{
+ "id": "4-04",
+ "history": {
+  "name": "ダイナモ・天然磁石",
+  "name_en": "Dynamo and natural magnets",
+  "kind": "tech",
+  "trunk": "4",
+  "trunk_name": "動力・電気",
+  "year": 1831,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "磁石のそばでコイルを回すと、電気が生まれる",
+  "hee1_en": "Spinning a coil near a magnet makes electricity.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "E1. 水の力で電気をつくる（水車発電・ダイナモ）［4-01］［4-04］",
+    "answer": "磁石のそばでコイルを回すと、電気が生まれる（電磁誘導）。回す力に水車を使えば、川の流れが電気になる。1831年にファラデーが電磁誘導を発見し、翌1832年にはピクシーが手回しの発電機を作った。",
+    "hee": {
+     "1": "電気は「磁石とコイルをぐるぐる回す」とできる。今の発電所もほとんど同じ仕組み。",
+     "2": "そのままだと電気の向きが行ったり来たりする（交流）。ピクシーは「整流子」という切り替えスイッチを付けて、一方向の電気（直流）にした。電気分解には直流が要る。",
+     "3": "電気を使う家が初めて水力で明かりをともしたのは、1878年のイギリス（クラッグサイド邸。アームストロングが水車の電気でアーク灯をともした）。1882年にはアメリカで水力発電所が動き出した。",
+     "4": "発電できる量は「流れる水の量 × 落ちる高さ」で決まる。だから水力発電所はダムで水をため、落差を大きくする。"
+    },
+    "certainty": "ファラデー1831・ピクシー1832 ◎／クラッグサイド1878 ◎（初めて水力の電気で照明された家。「世界初の水力発電所」ではない）／アップルトン1882 ○",
+    "basis": "米国国立強磁場研究所（MagLab）の電気の歴史、ケニオン大学の初期の実験装置コレクション、ナショナル・トラスト https://www.nationaltrust.org.uk/visit/north-east/cragside/history-of-cragside 、英国科学博物館群 https://collection.sciencemuseumgroup.org.uk/people/ap29986 （英語）"
+   }
+  ],
+  "people": [
+   {
+    "name": "ファラデー",
+    "tool": "🧲 コイルと磁石",
+    "year": "1831",
+    "intro": "1831年、磁場の中でコイルを動かすと電流が流れること（電磁誘導）を見つけた",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACHklEQVR42mNgGAVEgKioqP9RUVH/yWETAkwD7TkWYhXa2NgwMDAw/IfSBNlHjhwhylxGYh1QUFDw39vbG0P89u3bGGJHjhxhWLZsGSNFDoDF4bJlyxijoqKQfUgUgDkC2RySowBLsDOQE2X4ooOJSIPIAsToHfBcQJIDwvS4GML0uAiyjQQ+Ud8BMAuIZVO9HGBgYGBYdekbTsuQ5YwEaOQAfD5ElrvziApRsGzZMsZHZ3ejiHEahjKYR9UxcBqGYqjHJffo7G68hRJJifD7+dUMGycVMXw/vxrJty9wytGkMpIQESBLjqrlACc7G5z98u0HrOJUcUDH3PWM2IrR7z9/MTAwMDBcuPGAgZuTA0McuT7omLuekSq54M6jFwwqchIoYgYaCvRpDxw5coThEed3hpJEf7jY4dlbUdTYpiKq6g17TzI8+s5J3fYAAwMDQ0Vy4H9kR2ADPfM3Egx2sh0Ac4SoED9DvL8DivjCjQcYXr/7SJLlFIGK5MD/b44s+P/myIL/FcmB/8k1hyjXiopKwC2oqChiYGBgYIiLi0FRs2jREkjO6eiDi71+/YKRIgfALObjQxQwJ07sw2ughYUTnP3p0weCDmEh1mJyAJL+/7gcwkiqxV+/fmHg5ubBCAkLCye4HC6ALURYqOljckKEEeYAYiwn5ENi1cBC4/XrF4yDp2sGix9c4OfPHwzs7BwE1UGDloGdnYMoBwAAO8D07X8eo+MAAAAASUVORK5CYII="
+   }
+  ],
+  "media": [
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Faraday_disk_generator.jpg/960px-Faraday_disk_generator.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Faraday_disk_generator.jpg",
+    "kind": "画像",
+    "author": "Émile Alglave",
+    "license": "Public domain",
+    "description": "ファラデーの円板発電機の絵。磁石のあいだで銅の円板を回すと電気が生まれる。",
+    "verified": "2026-10-20 Commons API で PD を確認"
+   }
+  ],
+  "requires": [],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [
+   "I-01"
+  ],
+  "explained_by": [],
+  "frontier": false,
+  "real": "ファラデー1831。整流子付きダイナモは直流を出す（電解に直流が要る点で重要）"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": "dynamo",
+  "recipes": [
+   "作業台：誘導コイル×3 ＋ 天然磁石 ＋ 鉄インゴット → ダイナモ"
+  ],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {
+   "note1": "回すと電気が生まれる。自転車のライトと同じ仕組み。",
+   "note2": "ファラデー1831年：磁場の中でコイルを回すと電流が流れる。初期は永久磁石、1866〜67年（ヴァーリー・ジーメンス・ホイートストンがほぼ同時）からは鉄心に残った磁気だけで足りるようになった。",
+   "note3": "コイルを通る磁束（磁力線の量）が変わると電圧が生まれる：起電力 ＝ −dΦ/dt（ファラデーの法則）。回るコイルの電圧は向きが入れかわる交流だが、整流子が半回転ごとにつなぎ方を入れかえて直流にする。電気分解には直流が必要。",
+   "note4": "1832年、パリのピクシーが手回しの磁石発電機を作った（ファラデーの発見の翌年）。1871年のグラムのリング発電機で、ようやく工場で使えるなめらかな直流が得られた。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA0ElEQVR42o1TOxLCIBB9YVIzlNQprFI41E4OYOEhcibP4gmsU6XyBJRMLhALZ531uaCvAZb9vH2w3fVy3AFgKRsAIAUPOcue72UPAN08Dfv5dEBeM+IYkdcMAIhjBEN8BLf7A04OtQANKaDtTtOUCuLISS2bW8rWpP2rjT4F/zZoarXq3FbPPXL/YuPVbIFhMWM4y/Ef9T8SsKMlprxOM0EtuAVXu7AE5X0K/rsFK4C/ePUnshb8fCziUrYXA0vdlhY6WTdPw84jyqz0aPOYPwGz14q9vw5cGwAAAABJRU5ErkJggg=="
+}

@@ -1,0 +1,73 @@
+{
+ "id": "1-34",
+ "history": {
+  "name": "四塩化ゲルマニウム蒸留精製",
+  "name_en": "Germanium tetrachloride distillation",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": 1948,
+  "year_range": null,
+  "year_uncertain": true,
+  "hee1": "ゲルマニウムを83℃で沸騰する液体に変えて、蒸留できれいにする",
+  "hee1_en": "Germanium is turned into a liquid that boils at 83°C, then purified by distillation.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "G3. 酸化物から金属へ（GeO₂ の還元）［1-01］［1-34］",
+    "answer": "集めたゲルマニウムを酸化物（GeO₂）にし、水素や炭素で酸素を奪うと金属のゲルマニウムになる。工業では水素を使う。GeO₂ + 2H₂ → Ge + 2H₂O。",
+    "hee": {
+     "1": "さびた物から酸素を取り除くと、金属に戻る。",
+     "2": "炭素で還元すると炭素が少し混ざるので、きれいな物を作りたいときは水素を使う。",
+     "3": "塩酸で四塩化ゲルマニウム（GeCl₄、液体）にして蒸留すると、さらにきれいにできる（v0.2a の［1-34］で実装済み）。",
+     "4": "ゲームで「硫酸の道は 9N 止まり、塩酸と蒸留の道は 10N」としているのは、蒸留でしか取れない不純物があるため。"
+    },
+    "certainty": "反応 ◎（化学の標準）",
+    "basis": ""
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "6-06"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "GeO2+4HCl→GeCl4+2H2O。GeCl4 は沸点83℃の液体なので蒸留で他の塩化物から分け、水で加水分解 GeCl4+2H2O→GeO2+4HCl して高純度 GeO2 に"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": "germanium_tetrachloride",
+  "recipes": [
+   "作業台：粗四塩化ゲルマニウム ＋ 石英の蒸留器 → 四塩化ゲルマニウム"
+  ],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "CHEMISTRY #2・#5 の「精製炉が肩代わり",
+  "hee_game": {
+   "note1": "わかして冷やして作った、とても純粋なゲルマニウムの液体。",
+   "note2": "蒸留した GeCl4（沸点 約86℃）。水を加えて加水分解：GeCl4 + 2H2O → GeO2 + 4HCl で高純度 GeO2 になる。",
+   "note3": "1940〜50年代、イーグル・ピッチャー社やベル研究所はこの方法でトランジスタ用のゲルマニウムを作った：GeCl4 の蒸留 → 加水分解 → 水素還元 → 帯域精製。",
+   "note4": "今の GeCl4 は光ファイバーの原料でもある：SiCl4 と一緒に燃やして芯に GeO2 を入れ、光の屈折率を上げる。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAnUlEQVR42mNgGPKAEZeERVnXfwYGBgaFBycYVqxah1MdCy6NJUkRUJEIhgcKFv9h8ie6yhhxusCirOs/QiMm6Jm3AsMAJmSOwoMTeP1bkhQBdyFWAx4oWBAMNHRLSHLBlyObMCwh6IIvRzah0OiACZcGGOCx8YPTMDZOA050lTHOuPUNpxfW1BVgxAJGOjjRVcbYw8DwH2sAMgxLAABa3zercoKQ/AAAAABJRU5ErkJggg=="
+}

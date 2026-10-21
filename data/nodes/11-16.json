@@ -1,0 +1,71 @@
+{
+ "id": "11-16",
+ "history": {
+  "name": "ボルドー液",
+  "name_en": "Bordeaux mixture",
+  "kind": "tech",
+  "trunk": "11",
+  "trunk_name": "農業・食",
+  "year": 1885,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "盗まれないよう道ばたのブドウに塗った青い薬が、病気を防いでいた",
+  "hee1_en": "A blue spray put on roadside grapes to stop theft turned out to prevent disease",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "C52. 煮てから封をするか、封をしてから煮るか（缶詰とボルドー液）［11-12］［11-16］",
+    "answer": "1804〜10年、フランスのニコラ・アペールは、食べ物をびんにつめてしっかり封をし、湯で長く煮ると腐らないことを見つけ、ナポレオンの軍の懸賞を取った。1810年にはイギリスのピーター・デュランドが、ブリキ（鉄にスズをめっきした板）の缶の特許を取った。なぜ腐らないか（加熱で菌が死に、封で新しい菌が入らない）は、1860年代のパスツールまでわからなかった。1885年、フランスのピエール・ミラルデは、硫酸銅と石灰をまぜたボルドー液がブドウのべと病（カビの病気）を防ぐと発表した。",
+    "hee": {
+     "1": "缶詰が発明されてから約50年、缶切りがなかった ⚠️。",
+     "2": "アペールは、なぜ腐らないのかを知らないまま、缶詰のもとを作った。",
+     "3": "ボルドーの農家が、ブドウ泥棒よけに道ばたのブドウに青い薬をぬったら、そこだけ病気にならなかった。",
+     "4": "ボルドー液の銅は、カビの胞子が芽を出すのを止める。石灰は銅を葉にくっつけ、雨で流れにくくする。"
+    },
+    "certainty": "アペール 1804〜10・デュランド 1810・ミラルデ 1885 ◎／缶切りがなかった年数 △",
+    "basis": "- Wikipedia「Nicolas Appert」：https://en.wikipedia.org/wiki/Nicolas_Appert"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "2-12"
+    ]
+   ],
+   [
+    [
+     "0-11"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1885 ピエール・ミラルデ。ブドウのべと病に CuSO4＋Ca(OH)2 の懸濁液。銅イオンがカビの胞子を殺す"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "作物の病気を防ぐ散布液",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAkUlEQVR42mNgGGjACGN0uaj9R5Yo23OLkRgDWGCavRx00OX+E2MICy4JLwcdhnVGKf/RxU90lTESZcC2A1cYTuxZh+ECi7Ku/ye6yhhhNBMpAYaumYGBgYEkA5A1W5R1/SfJAJgG9LBgIsX2Lhe1/3P4TqBEOdEG4Ihq3LGADqBp4j96ImNBlySUEolNoUMIAAC9MEUdZbgj7AAAAABJRU5ErkJggg=="
+}

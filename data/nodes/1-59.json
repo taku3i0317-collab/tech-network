@@ -1,0 +1,66 @@
+{
+ "id": "1-59",
+ "history": {
+  "name": "パドル法",
+  "name_en": "Puddling process",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": 1784,
+  "year_range": "1783〜1830年代",
+  "year_uncertain": false,
+  "hee1": "エッフェル塔の鉄は、職人が炉の中の鉄を棒でかき混ぜて作った錬鉄（O-012 で追加。出典：Wikipedia「Puddling (metallurgy)」「Henry Cort」、Britannica「Puddling furnace」・Grace's Guide「Henry Cort」（https://www.britannica.com/technology/puddling-furnace））",
+  "hee1_en": "The iron of the Eiffel Tower is wrought iron, made by workers stirring the iron inside a furnace with a rod (added in O-012. Sources: Wikipedia \"Puddling (metallurgy)\", \"Henry Cort\", Britannica \"Puddling furnace\", Grace's Guide \"Henry Cort\" (https://www.britannica.com/technology/puddling-furnace))",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [
+   {
+    "name": "ヘンリー・コート",
+    "tool": "🔥 パドル法",
+    "year": "1784",
+    "intro": "1783〜84年、溝付きロールの圧延とパドル法の特許を取った（1740〜1800）",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACn0lEQVR42u1WPYgTQRT+Zlk8Y7iNBGMWNKuQFEE48BptFLxLaRFSXLONWFjaXbMgVsKkuM4mIEFsknJMYSkn6Al2woEekgNNPJIlGi4rcmizFpJlf2Zms8nhNT5Y2H3v7XxvvvfevAH+ywkLkRkppe5xgFiWJcRR4342TXMh8FarJbWrsy5kGAZX3+v1Fgpw5gAWBRKJEpe7OArj6JflPzaAfyGKrPoppe4iRWiaJiilrqybFBH1PPB0fxvp/nbs+2CnzV0vEQM88CTv/hqQMcDtAsdxYNs2ACCfz3v6n4U1IZjfhl7bS4HjOG6lUgFjLFkbMsZQXclg0P37XTL0CKiIIQBeGqormfnakFJKnr98F9ClVjdw3XyI1OpGxF9mY4yBUkoSzQJKqbt2iWC/P0SxoKNk6ACA4bdD6OfOen7d3jBi6/aGAID9/hC7n76g3mSEUuryzgRVVoSDnTaKBT1g84OHJWwrFnQUCzoypWvuXAdROAUe3UunvHf7+yFXP+tAU0Rd0Gg0UG8y0tmdRAI5+vUbAPB+7zPSqdMR/TR4pbQOpbQO27bhOE6yLqCUEsuyXACoNxkB4G7erQZ8rpYvC5mrNxkh58turVaTFqEiA6/VakLqXj95EXhk7ezfTKIiBABN08Bj4ea921zAraedqS80TZvvJBSN02kQuWwGd6q3Ar7POq8wGk888PBMEY11NQ483L9TgNF44rHh3zVvqsruFGSWsXrjyoUIhVsP7ge+Nx89jvz35sMBWehKNgUuX8wGr2ejaEudWVJh5LSw2o0LhCQB9gcQBuPpprL3dSxkhCQBjgOS2USBqLMCH4f41vdSo3CMc+0eAIycxq0PSSAnfytWw/kRyfjHEbLLqVg/AHj78QDZ5dRMAfwB01hcNjgmHMUAAAAASUVORK5CYII="
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-09"
+    ]
+   ],
+   [
+    [
+     "3-06"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "高炉の銑鉄を、燃料と鉄を分けた反射炉で溶かし、職人が長い棒でかき混ぜて（パドル）空気にふれさせ、炭素を燃やして柔らかい錬鉄にする。1784年、イギリスのヘンリー・コートが特許を取った（同じころピーター・オニオンズも似た方法の特許）。石炭の硫黄が鉄に入らないので、木炭を使わずに錬鉄をたくさん作れるようになり、コートの溝付きロールの圧延（[1-51]）と組んで産業革命を支えた。1830年代にジョセフ・ホールが収率を上げた。エッフェル塔もパドル法の錬鉄でできている"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAkUlEQVR42mNgoAawcvD5P4INYYExpvgZ/GdgYGCwcRBhyGLw+R/F9wSnppxNFxhhbCaYZhsHAwYGBgaGIwcu4LXRxsEAbhmKC44cuAA32cpB5j+yLchgCgMDiheZcIUBMo0vXFiQnWb1SeY/rgCFsW0cRFC8yYKsYZqfCFEhb+NgwDCFgeF/zqYLjChhMArIAwCT3jfV5HZqfAAAAABJRU5ErkJggg=="
+}

@@ -1,0 +1,102 @@
+{
+ "id": "4-02",
+ "history": {
+  "name": "蒸気機関",
+  "name_en": "Steam engine",
+  "kind": "product",
+  "trunk": "4",
+  "trunk_name": "動力・電気",
+  "year": 1776,
+  "year_range": "1712〜1776",
+  "year_uncertain": false,
+  "hee1": "最初の蒸気機関は、炭鉱の水をくみ出すためのものだった",
+  "hee1_en": "The first steam engines were for pumping water out of coal mines.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "E2. 石炭で電気をつくる（蒸気機関）［4-02］",
+    "answer": "石炭で水を沸かし、その蒸気の力でピストンを動かし、発電機を回す。ワットが蒸気を冷やす部屋を別にする「分離凝縮器」を発明し（特許1769年）、効率を数倍にした。実用機は1776年から。",
+    "hee": {
+     "1": "石炭の熱 → 水蒸気 → 回る力 → 電気、と形を変えていく。",
+     "2": "ワットの前のニューコメンの機関（1712年）は、同じ部屋で蒸気を温めたり冷やしたりしていたので、熱の大半が無駄になっていた。",
+     "3": "それでも効率は数%。石炭のエネルギーの95%以上は、ただの熱として逃げていた。ゲームの蒸気機関が5%なのはこのため。",
+     "4": "仕事の単位「ワット（W）」は彼の名前から。ゲームの電力表示（kW）もワットの名前を使っている。"
+    },
+    "certainty": "1712・1769・1776 ◎／効率の数字 ○",
+    "basis": ""
+   }
+  ],
+  "people": [
+   {
+    "name": "ニューコメン",
+    "tool": "⛏️ 炭鉱の排水ポンプ",
+    "year": "1712",
+    "intro": "1712年、炭鉱の水をくみ出す大気圧機関を作った",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACn0lEQVR42u1WPYgTQRT+Zlk8Y7iNBGMWNKuQFEE48BptFLxLaRFSXLONWFjaXbMgVsKkuM4mIEFsknJMYSkn6Al2woEekgNNPJIlGi4rcmizFpJlf2Zms8nhNT5Y2H3v7XxvvvfevAH+ywkLkRkppe5xgFiWJcRR4342TXMh8FarJbWrsy5kGAZX3+v1Fgpw5gAWBRKJEpe7OArj6JflPzaAfyGKrPoppe4iRWiaJiilrqybFBH1PPB0fxvp/nbs+2CnzV0vEQM88CTv/hqQMcDtAsdxYNs2ACCfz3v6n4U1IZjfhl7bS4HjOG6lUgFjLFkbMsZQXclg0P37XTL0CKiIIQBeGqormfnakFJKnr98F9ClVjdw3XyI1OpGxF9mY4yBUkoSzQJKqbt2iWC/P0SxoKNk6ACA4bdD6OfOen7d3jBi6/aGAID9/hC7n76g3mSEUuryzgRVVoSDnTaKBT1g84OHJWwrFnQUCzoypWvuXAdROAUe3UunvHf7+yFXP+tAU0Rd0Gg0UG8y0tmdRAI5+vUbAPB+7zPSqdMR/TR4pbQOpbQO27bhOE6yLqCUEsuyXACoNxkB4G7erQZ8rpYvC5mrNxkh58turVaTFqEiA6/VakLqXj95EXhk7ezfTKIiBABN08Bj4ea921zAraedqS80TZvvJBSN02kQuWwGd6q3Ar7POq8wGk888PBMEY11NQ483L9TgNF44rHh3zVvqsruFGSWsXrjyoUIhVsP7ge+Nx89jvz35sMBWehKNgUuX8wGr2ejaEudWVJh5LSw2o0LhCQB9gcQBuPpprL3dSxkhCQBjgOS2USBqLMCH4f41vdSo3CMc+0eAIycxq0PSSAnfytWw/kRyfjHEbLLqVg/AHj78QDZ5dRMAfwB01hcNjgmHMUAAAAASUVORK5CYII="
+   },
+   {
+    "name": "ワット",
+    "tool": "⚙️ 分離凝縮器",
+    "year": "1776",
+    "intro": "1776年、分離凝縮器で蒸気機関の効率を数倍にした",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACBklEQVR42mNgGAUjHTCSojgqKuo/MeqWLVtGtLksxCosKCj47+3tjSF++/ZtbMr/E+sIRmJ9bmNjA+eH6XFhVbfq0jc4+8iRI0SFBBO1LEeXs7GxISrKmEhJA/gsJ0UN2Q6gBSDaAUYCnxhooZZoB6jISdAkBFhIUYycytHjGlnOSIBKBVFFcuB/OWNXkhPXnUcvGM594GNgYGBgeHR2N0PH3PWMVAkBTsNQBj1NTYZL168zfD+/Gqccw6PJ1EsD/J9vwRPV9/OrGTZOKkKx/M6jF1jljAQ+MfB/vkW5A5RlUROfhAjuCEaXQ9dLlgM27D2JGRXsbHD2y7cfsIrj0ktSGkBKPP9LEv3h4t9//mJgYGBguHDjAQM3JweGOMxyfImP5Oq4IjkQxRH4QM/8jURZTnIuQAaHZ29F4dumetO+QUJMKJDie5IdAHOEqBA/Q7y/A4r4wo0HGF6/+0iS5RSBiuTA/2+OLPj/5siC/xXJgf8ZaNkmFBWVgFtQUVHEwMDAwBAXF4OiZtGiJZCc09EHF3v9+gVluQBmMR8fooA5cWIfXgMtLJzg7E+fPhB0CAuxFpMDkPT/x+UQRlIt/vr1CwM3Nw9GSFhYOMHlcAFsIcJCTR+TEyKMMAcQYzkhHxKrBhYar1+/YBzwRikLevzgAj9//mBgZ+cgqA4atAzs7BxEOQAA5TDaN2JpGxEAAAAASUVORK5CYII="
+   }
+  ],
+  "media": [
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/SteamEngine_Boulton%26Watt_1784.png/960px-SteamEngine_Boulton%26Watt_1784.png",
+    "page": "https://commons.wikimedia.org/wiki/File:SteamEngine_Boulton%26Watt_1784.png",
+    "kind": "画像",
+    "author": "Robert Henry Thurston (1839–1903)",
+    "license": "Public domain",
+    "description": "1784年のボールトン・アンド・ワット社の蒸気機関のしくみを描いた図。",
+    "verified": "2026-10-20 Commons API で PD を確認"
+   }
+  ],
+  "requires": [
+   [
+    [
+     "1-09"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-02"
+  ],
+  "frontier": false,
+  "real": "1712 ニューコメンの大気圧機関（炭鉱の排水）、ワット1776。熱効率は約2〜5%（ニューコメン機関は約1%、ワットの分離凝縮器で数倍に改善）"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": "steam_engine",
+  "recipes": [
+   "作業台：鉄インゴット×5 ＋ ダイナモ ＋ バケツ ＋ 送りねじ ＋ 銅インゴット → 蒸気機関発電機"
+  ],
+  "machine_recipes": [
+   "蒸気機関発電機「蒸気で発電」：石炭 ＋ 水入りバケツ（バケツ1杯で石炭2個分） → 電気（発電 50 kW・石炭1個 30 秒）。石炭1個の熱は 30 MJ（ゲームの約束）。自励式ダイナモで2倍"
+  ],
+  "placeholder": null,
+  "game_text": "石炭+水→50kW",
+  "hee_game": {
+   "note1": "石炭でお湯をわかし、湯気の力で電気を作る。",
+   "note2": "石炭で水を沸かし、蒸気がピストンを押し、ダイナモが回る：50kW。ワットの機関の熱効率はわずか2〜5%（石炭の熱の大半は捨てられた）。30%級になるのは蒸気タービンから。水バケツ1杯＝石炭2個分の蒸気。",
+   "note3": "熱機関の効率には上限がある（カルノー効率 η = 1 − 低温/高温、絶対温度）。蒸気が約150℃（423K）、冷やす側が約40℃（313K）なら上限は約26%。実際の機関は漏れや摩擦でもっと低い。このゲームでは石炭1個30MJから1.5MJの電気（5%）。",
+   "note4": "ニューコメンの機関（1712年）は効率約1%。ワットは1769年に分離凝縮器（蒸気を別の容器で冷やす）で数倍に改善した。電力の単位「ワット」は彼の名前、「馬力」もワットが機関を売るために考えた単位。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA1ElEQVR42oVTMQ7DIAy8oDwC8QCEOiE/I0OHDlVfjRhRHhDlF+kQOTKuabwQbDjfXcz0eb8OGFFqA+Vk5mTNAYAP8QdgWZ7d3ocIyqlbAcCV2rpDHPu2dgC8l2upDY5ywr6t8CFeRQnE3xZLyumUwIjWIQ2uPXEjmj7EC9BixjFrqlqrrMucDxEkTdy31byk9zo3y19i6dXMtFwnu/Nl3eUfs9nSaPlgMSm19R6MtI+YUE7nIP1z25oTWXdWJz2J2uThIN0NjW5AOWGK8XGwDOsJ38UXItKTGbs4IFwAAAAASUVORK5CYII="
+}

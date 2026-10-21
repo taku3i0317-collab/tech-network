@@ -1,0 +1,68 @@
+{
+ "id": "3-24",
+ "history": {
+  "name": "電熱線ヒーター",
+  "name_en": "Heating wire heater",
+  "kind": "tech",
+  "trunk": "3",
+  "trunk_name": "熱",
+  "year": 1906,
+  "year_range": "1905〜1906",
+  "year_uncertain": false,
+  "hee1": "トースターの赤く光る線は、真っ赤になっても燃えつきないように、ニッケルとクロムを混ぜた特別な金属でできている。（S-004 で追加。出典：en.wikipedia.org、en.wikipedia.org、hagley.org）",
+  "hee1_en": "The glowing red wires in a toaster are made of a special metal mixing nickel and chromium, so they do not burn out even when red hot. (Added in S-004. Sources: en.wikipedia.org, en.wikipedia.org, hagley.org)",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-37"
+    ]
+   ],
+   [
+    [
+     "1-40"
+    ]
+   ],
+   [
+    [
+     "4-03"
+    ]
+   ],
+   [
+    [
+     "4-14"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "アルバート・マーシュはホスキンス社で、ニッケル約80%・クロム約20%の合金を作り、1906年に特許を取った（『クロメル』の名で、のちにニクロム）。電気を通しにくいので電流を流すと熱くなり、しかも高温でも表面に酸化クロムの膜ができて燃えつきない。それまでの鉄などの線はすぐ酸化して切れたので、この合金のおかげで電気トースター・ドライヤー・電気こんろ・コーヒーマシンのヒーターが作れるようになった"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAbElEQVR42mNgGAWMDAwMDBFhQf/J0bxi1TpGFhgnx2EdSZqnHAhiYGBgYIAbcIdtCtGaVX7lwNks2ARJASzIHFJcwcCwD9MA0lwx6MIA5oIdu/bh1eDh5oQZBitWrWNkYGD4j8TGB4hVRycAAPveIX+M4IRtAAAAAElFTkSuQmCC"
+}

@@ -1,0 +1,85 @@
+{
+ "id": "2-37",
+ "history": {
+  "name": "ポリエチレン",
+  "name_en": "Polyethylene",
+  "kind": "tech",
+  "trunk": "2",
+  "trunk_name": "化学",
+  "year": 1933,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "ポリエチレンは、とても高い圧力をかけた実験の中で偶然見つかった",
+  "hee1_en": "Polyethylene was discovered by accident in an experiment using very high pressure.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "L5. フッ酸の瓶：鉛・ろう → ポリエチレン［2-37］［2-10］（S-006）",
+    "answer": "フッ酸（HF）はガラス（SiO2）を溶かす（4HF + SiO2 → SiF4 + 2H2O）ので、ガラス瓶には入れられない。昔は鉛・ろう（セレシン）・ガタパーチャ（木の樹脂）の容器に入れた。ポリエチレン（1933年に ICI のフォーセットとギブソンが見つけ、1939年から工業生産）の瓶ができると、軽くて割れないのでフッ酸の瓶はそれに代わった。",
+    "hee": {
+     "1": "フッ酸の瓶がガラスでないのは、中身が瓶を溶かしてしまうから。",
+     "2": "ポリエチレンは -CH2- が長くつながっただけなので、フッ酸が攻める所がない。",
+     "3": "鉛の瓶は、内側にフッ化鉛（PbF2）のうすい膜ができて、それ以上溶けにくい。",
+     "4": "今のチップ用のとても純粋なフッ酸は、金属がしみ出さないよう、PTFE（テフロン）や高純度の PE の容器で運ぶ。"
+    },
+    "certainty": "HF がガラスを溶かす式 ◎／ICI 1933・工業生産 1939 ◎／昔の容器が鉛・ろう・ガタパーチャ ○／フッ酸の瓶が PE になったのが 1950年代 △⚠️（はっきりした年の出典は見つけていない）",
+    "basis": "Wikipedia「Hydrofluoric acid」（Storage）、「Polyethylene」（History）"
+   },
+   {
+    "title": "C16. ポリエチレンは偶然見つかった［2-37］",
+    "answer": "1933年、イギリスの ICI のフォーセットとギブソンは、エチレンとベンズアルデヒドを約1400気圧で反応させる実験で、釜の中に白いろうのような物（ポリエチレン）を見つけた。再現がむずかしかったが、1935年にペリンが「もれて入った微量の酸素がきっかけ（開始剤）」と気づき、工業化された。第二次大戦ではレーダーのケーブルの絶縁に使われた。",
+    "hee": {
+     "1": "ポリエチレンは、とても高い圧力の実験の中で偶然見つかった。",
+     "2": "酸素がまったくないと始まらず、多すぎると爆発的に分解する。ほんの少しが大事。",
+     "3": "レーダーのケーブルを軽く細くでき、飛行機に積めるようになった。",
+     "4": "1950年代にチーグラーとナッタの触媒（[2-50]）で、ふつうの圧力でも作れるようになった（高密度ポリエチレン）。"
+    },
+    "certainty": "1933 フォーセットとギブソン・約1400気圧 ◎／1935 ペリンの酸素 ○／レーダーの絶縁 ◎",
+    "basis": "- Wikipedia「Polyethylene」（歴史）：https://en.wikipedia.org/wiki/Polyethylene"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "2-36"
+    ]
+   ],
+   [
+    [
+     "6-03"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-23"
+  ],
+  "frontier": false,
+  "real": "1933 ICI のフォーセットとギブソン：約1400気圧＋微量の O2 で偶然発見。n C2H4→(C2H4)n。第二次大戦のレーダーケーブルの絶縁"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "重",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "高圧釜",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAb0lEQVR42mNgoBAwwhhqalr/Yexbt64xYlOMTQ0TsgJcGvGpYSJkEz4xBgYGBhZsNqipaf3HpgGbC1mw2eLl5YfLB//xGoBHI4r8tm2bcIfBCTYhkqKRCV2zxa935BtAqmac0Ti0DECJRuToGToAAPdLJ3g0ZFbuAAAAAElFTkSuQmCC"
+}

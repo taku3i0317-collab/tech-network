@@ -1,0 +1,58 @@
+{
+ "id": "B-15",
+ "history": {
+  "name": "豆腐",
+  "name_en": "Tofu",
+  "kind": "tech",
+  "trunk": "B",
+  "trunk_name": "枝",
+  "year": -150,
+  "year_range": null,
+  "year_uncertain": true,
+  "hee1": "豆腐を固めるにがりから、金属マグネシウムが取れる（[1-39]）",
+  "hee1_en": "From nigari, which sets tofu, you can get magnesium metal ([1-39]).",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "0-05"
+    ]
+   ],
+   [
+    [
+     "0-16"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "豆乳のたんぱく質が Mg²⁺ でつながって固まる。中国で紀元前2世紀ごろ⚠️、日本へは奈良〜平安時代"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "食べ物",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAATklEQVR42mNgGPKAEZnj4tf1n1iNezaVMTIwMDCwIGsOCfHCq2nNmm0YYkzEasYFWPCZTpIBxLgApxcoAUPUAFgaIMsAZM0kRyO65sEBAB0iGRHSFAEjAAAAAElFTkSuQmCC"
+}

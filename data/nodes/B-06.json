@@ -1,0 +1,59 @@
+{
+ "id": "B-06",
+ "history": {
+  "name": "偏光フィルム",
+  "name_en": "Polarizing film",
+  "kind": "tech",
+  "trunk": "B",
+  "trunk_name": "枝",
+  "year": 1929,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "液晶画面の前には、ヨウ素で染めたフィルムが貼ってある",
+  "hee1_en": "In front of an LCD screen is a film dyed with iodine",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "2-04"
+    ]
+   ],
+   [
+    [
+     "3-15",
+     "2-23"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1929 エドウィン・ランドがヘラパタイト（ヨウ素キニーネ）の微結晶を並べたシート、1938 PVA を引き伸ばしてヨウ素で染めた H シート（今の液晶画面の偏光板の原型）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "サングラス・液晶表示の部品",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAdElEQVR42mNgoBAwMjAwMFiUdf0npPBEVxkjTkmLsq7/ampa/9fceISVxmcBE6VeGHgD4IFYkhSBIlHl54HCFwpIwBqwLMTahG5Bz7wV1PECC7qJZIUBrrSB7GxsYUJSGLRt2oE1DIg2AFes0NYF5AYsSQAATzc2j5UtRTkAAAAASUVORK5CYII="
+}

@@ -1,0 +1,58 @@
+{
+ "id": "12-07",
+ "history": {
+  "name": "塩素消毒",
+  "name_en": "Chlorination",
+  "kind": "tech",
+  "trunk": "12",
+  "trunk_name": "建築・土木",
+  "year": 1908,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "プールのにおいは、病気を防ぐ塩素のにおい",
+  "hee1_en": "The smell of a swimming pool is the smell of chlorine that prevents disease",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "12-06"
+    ]
+   ],
+   [
+    [
+     "6-05"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1908 米国ジャージーシティで水道の常時塩素消毒。チフス・コレラが激減"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "安全な水（[13-07]疫学とつながる）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAg0lEQVR42mNgoBAwInOsHHz+w9jHDmxhJMtEZEOIAUzomr18fEgyhAldMwMDAwMphjCR4lyLsq7/OA34Z2bHsOXVJzj+Z2aHVTO6IXADmE4dYvAR44NjplOHcNqMzGcix9nI4kyUJiTaG3Ciq4wRnzhRLkA3BJnPQqxTcbmE+pmJVAAAm5s7CMpqNAQAAAAASUVORK5CYII="
+}

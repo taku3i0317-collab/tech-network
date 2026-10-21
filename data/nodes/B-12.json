@@ -1,0 +1,91 @@
+{
+ "id": "B-12",
+ "history": {
+  "name": "太陽電池",
+  "name_en": "Solar cell",
+  "kind": "product",
+  "trunk": "B",
+  "trunk_name": "枝",
+  "year": 1954,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "太陽電池はトランジスタと同じ p-n 接合",
+  "hee1_en": "A solar cell uses the same p-n junction as a transistor.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "9. 章のゴール：太陽電池［B-12］",
+    "answer": "1954年、ベル研究所のチェイピン・フラー・ピアソンが、実用的なシリコン太陽電池を発表した。効率は約6%。p型と n型の境目（p-n 接合）に光が当たると、電気が生まれる。",
+    "hee": {
+     "1": "シリコンの板に光を当てると、電気ができる。",
+     "2": "最初の使い道は、電話線のない田舎の中継器や、人工衛星だった。",
+     "3": "6% は、当時の他の方式（セレンなど、1%未満）より何倍も良かった。今の家庭用は 20% 以上。",
+     "4": "ゲームでは、この章で作ってきた全部（精製・単結晶・ドーピング・拡散）がそろって初めて作れる「卒業制作」。"
+    },
+    "certainty": "1954年・発明者・約6% ◎（米国物理学会の記事ほか）／最初の使い道 ○／作り方（細長い板・ヒ素の n型・ホウ素の拡散・くもった樹脂の膜・裏側の電極）○（Perlin の本の要約、PVEducation）／電極の金属 △（未確認）",
+    "basis": "米国物理学会 APS News「1954年4月25日 ベル研がシリコン太陽電池を発表」（英語）。原論文（J. Appl. Phys. 25, 676, 1954）は有料"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "9-08"
+    ]
+   ],
+   [
+    [
+     "9-12"
+    ]
+   ],
+   [
+    [
+     "9-16"
+    ]
+   ],
+   [
+    [
+     "4-03"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-27",
+   "I-29"
+  ],
+  "frontier": false,
+  "real": "1954 ベル研のチェイピン・フラー・ピアソンが Si 太陽電池（効率約6%、1平方ヤードあたり約50W）。作り方：結晶から細長い板を切る → ヒ素で n型の板にホウ素を拡散して表面に薄い p型 → 光る表面の反射を、くもった樹脂の膜で減らした → 電極は2つとも裏側（ETHW・Perlin、PVEducation）。反射防止膜 [7-22] と金属配線 [9-25] はのちの改良（IMP-25 Q25-1 で前提から外した）。1958 人工衛星ヴァンガード1号"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "作品（置くと日なたで発電）",
+  "missing": "",
+  "item": "solar_cell",
+  "recipes": [
+   "作業台：p-n 接合の板×8 ＋ 銅ケーブル → 太陽電池"
+  ],
+  "machine_recipes": [],
+  "placeholder": "近似：太陽の高さや雲の厚さで出力は変えない（昼か夜か・雨かだけ。雨は2割 ⚠️、本物の曇りの日の光は雲で変わる）。土台の n型は 1954年のヒ素ではなくリン ⚠️。電極は銅ケーブル（1954年の電極の金属は未確認 ⚠️）。反射を減らす膜は省略。",
+  "game_text": "発電ブロック（日中のみ。energy/GeneratorBlockEntity）",
+  "hee_game": {
+   "note1": "日の光をそのまま電気に変えるシリコンのパネル。第2章のゴール！",
+   "note2": "p-n 接合の板8＋銅ケーブル。昼、真上に空があれば（ガラスは通す）60W。雨・曇りの日も雲を通った散らばった光（散乱光）で晴れの約2割＝12W。夜・屋根の下は0。右クリックで出力を見られる。ほかの発電機と同じように銅ケーブルでつなぐ。本物の 1954年の電池の土台はヒ素の n型（ゲームはリン）。",
+   "note3": "真昼の日光は 1m² に約1000W。効率6% なら 1m² のブロックで 60W。1954年、ベル研は「1平方ヤードあたり約50W」と発表した。ちょうど合う。",
+   "note4": "1954年4月25日、チェイピン・フラー・ピアソンは「ベル太陽電池」でおもちゃの観覧車を回して見せた。1954年の電池は、くもった樹脂の膜で反射を減らし、電極は2つとも裏側。1958年には人工衛星ヴァンガード1号の電源になった。いまの家庭用は 20% を超える。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAjklEQVR42u2RsQ2FMAxEX6w/B3OkYBDqjICQh4gQI6RmECZhEPKrWFFEE/GrL9zkfLo7x7LzGjMPSgDkOCnvEibDpS8YsN40ANc4GFkHXuNgXK2psfQaWr30Glr9H6zgvMZcTtdba9r5AGwhWuoSJrYQbcKclDXt9os5qel5r/CbFZzXmFuDHKeJau4u6Avxpr5jvhRYIwAAAABJRU5ErkJggg=="
+}

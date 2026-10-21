@@ -1,0 +1,112 @@
+{
+ "id": "2-10",
+ "history": {
+  "name": "フッ酸",
+  "name_en": "Hydrofluoric acid",
+  "kind": "tech",
+  "trunk": "2",
+  "trunk_name": "化学",
+  "year": 1771,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "フッ酸はガラスを溶かすので、ガラス瓶には入れられない",
+  "hee1_en": "Hydrofluoric acid dissolves glass, so it cannot be kept in a glass bottle.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "F1. フッ素のはじまりの石（蛍石）［1-21］（［2-10］フッ酸の前提）",
+    "answer": "蛍石はフッ化カルシウム（CaF₂）の鉱物で、方鉛鉱・閃亜鉛鉱と同じ熱水鉱脈に出ることが多い。硫酸と熱するとフッ化水素が出る（フッ酸の原料）。フッ素の化学はほとんどここから始まる。",
+    "hee": {
+     "1": "紫や緑のガラスのような石に、フッ素が入っている。",
+     "2": "1530年、アグリコラが「fluores」と書いたのが最初の記録。炉で鉱石を溶けやすくする「融剤」で、ラテン語の「流れる」から。元素フッ素の名前もここから。",
+     "3": "紫外線で青く光る蛍石があり、1852年ストークスがこの光を「蛍光（fluorescence）」と名づけた。",
+     "4": "日本語の「蛍石」は熱するとホタルのように光ることから。大きな結晶はエキシマレーザー露光のレンズにも使われる。"
+    },
+    "certainty": "CaF₂・熱水鉱脈で方鉛鉱と共生 ◎（USGS）／アグリコラ 1530 ◎／ストークスの命名 1852 ◎／和名の由来（熱で光る）○",
+    "basis": "USGS「Fluorspar Statistics and Information」https://www.usgs.gov/centers/national-minerals-information-center/fluorspar-statistics-and-information 、Stokes, \"On the Change of Refrangibility of Light\", Phil. Trans. 142 (1852)、ブリタニカ「fluorite」https://www.britannica.com/science/fluorite （英語）"
+   },
+   {
+    "title": "F3. ガラスを溶かす酸（フッ酸）［2-10］（［9-06］酸化膜エッチングの前提）",
+    "answer": "蛍石（CaF₂）に硫酸をかけて熱すると、フッ化水素（HF）の気体が出る。これを水に吸わせたものがフッ酸。ガラスの主成分 SiO₂ を溶かすので、ガラスの瓶には入れられず、昔は鉛・ろう・ガタパーチャ、今はポリエチレンの容器を使う。",
+    "hee": {
+     "1": "フッ酸はガラスを溶かすので、ガラス瓶には入れられない。",
+     "2": "1771年、シェーレが蛍石と硫酸をガラスのレトルトで熱して見つけた。レトルトが内側から曇った（溶けた）ことで性質に気づいた。",
+     "3": "シリコンの酸化膜だけを溶かしてシリコンはほとんど溶かさないので、IC の窓開け（エッチング）に欠かせない。",
+     "4": "皮膚をすり抜けて体のカルシウムと結びつくので、すぐ痛まなくても危ない。工場ではグルコン酸カルシウムのゲルを必ず用意する。"
+    },
+    "certainty": "反応と工業条件（200〜250℃、ロータリーキルン）◎／シェーレ 1771 ◎／ガラスの侵食で気づいた話 ○／石こうが HF 1トンあたり約3.6トン ○（理論値は約3.4トン）／健康影響と応急処置 ◎（CDC）",
+    "basis": "ブリタニカ「hydrogen fluoride」https://www.britannica.com/science/hydrogen-fluoride 、CDC NIOSH「Hydrogen Fluoride」https://www.cdc.gov/niosh/ershdb/emergencyresponsecard_29750030.html 、Royal Society of Chemistry「Fluorine」https://www.rsc.org/periodic-table/element/9/fluorine （英語）"
+   },
+   {
+    "title": "L5. フッ酸の瓶：鉛・ろう → ポリエチレン［2-37］［2-10］（S-006）",
+    "answer": "フッ酸（HF）はガラス（SiO2）を溶かす（4HF + SiO2 → SiF4 + 2H2O）ので、ガラス瓶には入れられない。昔は鉛・ろう（セレシン）・ガタパーチャ（木の樹脂）の容器に入れた。ポリエチレン（1933年に ICI のフォーセットとギブソンが見つけ、1939年から工業生産）の瓶ができると、軽くて割れないのでフッ酸の瓶はそれに代わった。",
+    "hee": {
+     "1": "フッ酸の瓶がガラスでないのは、中身が瓶を溶かしてしまうから。",
+     "2": "ポリエチレンは -CH2- が長くつながっただけなので、フッ酸が攻める所がない。",
+     "3": "鉛の瓶は、内側にフッ化鉛（PbF2）のうすい膜ができて、それ以上溶けにくい。",
+     "4": "今のチップ用のとても純粋なフッ酸は、金属がしみ出さないよう、PTFE（テフロン）や高純度の PE の容器で運ぶ。"
+    },
+    "certainty": "HF がガラスを溶かす式 ◎／ICI 1933・工業生産 1939 ◎／昔の容器が鉛・ろう・ガタパーチャ ○／フッ酸の瓶が PE になったのが 1950年代 △⚠️（はっきりした年の出典は見つけていない）",
+    "basis": "Wikipedia「Hydrofluoric acid」（Storage）、「Polyethylene」（History）"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-21"
+    ]
+   ],
+   [
+    [
+     "2-01"
+    ],
+    [
+     "6-12"
+    ]
+   ],
+   [
+    [
+     "1-27"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "CaF2 + H2SO4 → 2HF↑ + CaSO4（副産物は石こう）。1771 シェーレが蛍石を硫酸で処理して「フッ素酸」を得た（ガラスのレトルトが侵食されたことで性質に気付いた）。工業では200〜250℃のロータリーキルン。HF気体を水に吸わせたものがフッ酸"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "重",
+  "missing": "",
+  "item": "lead_retort",
+  "recipes": [
+   "作業台：鉛インゴット×4 ＋ 空の鉛の瓶 ＋ furnace ＋ れんが×3 → 鉛のレトルト（フッ酸）"
+  ],
+  "machine_recipes": [
+   "鉛のレトルト（フッ酸）「フッ酸」：蛍石 ＋ 硫酸 ＋ 空の鉛の瓶 ＋ 水入りバケツ 4回で1個 ＋ 石炭×0.125 → フッ酸 ＋ 石こう（硫酸カルシウム） ＋ 空のガラス瓶（電気なし・10 秒）。CaF2 + H2SO4 → CaSO4 + 2HF（約200℃）。HF を受け器の水に吸わせる。釜も瓶も鉛（ガラスは溶ける）"
+  ],
+  "placeholder": "省略：量は記号的（本物は蛍石1つから HF が2つ）。フッ酸の濃さ（本物は約40〜70%）と吸収塔は表さない。",
+  "game_text": "加熱型の反応ブロック（既存の炉 BE を参考、クラス構成は着手時に決定）。フッ酸はガラス瓶に入れられない→鉛の容器アイテム（[1-27]が前提）",
+  "hee_game": {
+   "note1": "蛍石と硫酸を鉛の釜で熱して、フッ酸を作る装置。フッ酸はガラスを溶かすので、全部が鉛でできている。",
+   "note2": "蛍石1＋硫酸1（ガラス瓶は上に戻る）＋空の鉛の瓶かポリエチレンの瓶1 → フッ酸（その瓶入り）1＋石こう1（10秒、燃料1個で8回、電気なし）。出てくる気体を受け器の水に吸わせる：水バケツ1杯で4回（空のバケツは出口へ）。CaF2 + H2SO4 → CaSO4 + 2HF。",
+   "note3": "1771年、シェーレは蛍石を硫酸といっしょにガラスのレトルトで熱し、新しい酸を見つけた。レトルトのガラスが内側から溶けて曇ったことで、この酸がガラスを溶かすと分かった。だから工場の釜・管・瓶は鉛（のちにろう・ゴム・ポリエチレン）で作られた。",
+   "note4": "今の工場は、約200〜250℃のゆっくり回る長い窯（ロータリーキルン）で反応させ、出てきたフッ化水素を冷やして液にする。副産物の石こうは、1トンのフッ化水素あたり約3.6トンも出る。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAPklEQVR42mO0cvD5z0ABYGFgYGCQE2MjS/OjV78YmBgoBANvAAs2f+ED6OE1DMJgEMYCqalyuIQBodSHDwAATjsK7cMZ9Q0AAAAASUVORK5CYII="
+}

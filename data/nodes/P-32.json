@@ -1,0 +1,97 @@
+{
+ "id": "P-32",
+ "history": {
+  "name": "ロボット掃除機",
+  "name_en": "Robot vacuum",
+  "kind": "product",
+  "trunk": "P",
+  "trunk_name": "モノ（作品）",
+  "year": 2002,
+  "year_range": "1996〜2002",
+  "year_uncertain": false,
+  "hee1": "最初のころのルンバは部屋の地図を持たず、ぶつかっては向きを変える動きをくり返すだけで床じゅうを掃除していた。",
+  "hee1_en": "Early Roombas had no map of the room; they cleaned the whole floor just by bumping into things and changing direction, again and again.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://en.wikipedia.org/wiki/Robotic_vacuum_cleaner",
+   "https://blackgate.com/?p=406673",
+   "https://digitaltmuseum.org/011024242349"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "10-14"
+    ]
+   ],
+   [
+    [
+     "4-21"
+    ]
+   ],
+   [
+    [
+     "4-15"
+    ]
+   ],
+   [
+    [
+     "B-07"
+    ]
+   ],
+   [
+    [
+     "10-30"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [
+   "4-08",
+   "4-15",
+   "4-18",
+   "4-19",
+   "4-21",
+   "7-23",
+   "9-42",
+   "9-43",
+   "10-02",
+   "10-14",
+   "10-30",
+   "12-13",
+   "B-07",
+   "P-18"
+  ],
+  "materials": [
+   "シリコン",
+   "リチウム",
+   "銅",
+   "プラスチック"
+  ],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "最初に売られたロボット掃除機はスウェーデンのエレクトロラックスの『トリロバイト』（2001年発売）で、超音波で障害物を見つけた。2002年に出たアメリカ iRobot 社の『ルンバ』は値段が安く、初めて広く売れた。初期のルンバは地図を作らず、ぶつかったら向きを変える・壁に沿う・らせんに回るなどの簡単な動きを組み合わせて、時間をかけて床全体を通った。よく『ルンバは最初から部屋の地図を作っていた』と思われるが、地図を作る（SLAM の）機種が広まったのは2010年代"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "作品：部屋を自分で走り回ってごみを吸い、電池が減ると充電台に戻る",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAj0lEQVR42mNgGAWM2AStHHz+MzAwMLx5do+BgYGBQURKiYGBgYHh2IEtGOpZsGn08vFhYGBgYFg0axIDMp+BgeE/ukEsyJqRFGIFb57dY4hLy2NgYGD4DzOEkVjN6GDbli0Mxw5sYWRkYGBgUFPT+k9OAN66dY2RidJYYKJafKqpaf0n1yvwMCDHAKahnxcASnUqOtEHr2kAAAAASUVORK5CYII="
+}

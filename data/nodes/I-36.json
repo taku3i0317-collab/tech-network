@@ -1,0 +1,52 @@
+{
+ "id": "I-36",
+ "history": {
+  "name": "エネルギーで考えるニューラルネット",
+  "name_en": "Energy-based neural networks",
+  "kind": "idea",
+  "trunk": "I",
+  "trunk_name": "発見・考え方",
+  "year": 1982,
+  "year_range": "1972〜1985",
+  "year_uncertain": false,
+  "hee1": "AI の研究には、熱や磁石の物理学の考え方が使われている",
+  "hee1_en": "AI research uses ideas from the physics of heat and magnets.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://www.nobelprize.org/prizes/physics/2024/summary/",
+   "https://www.nobelprize.org/prizes/physics/2024/advanced-information/"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [],
+  "understanding": [],
+  "enables": [
+   "10-16"
+  ],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "たがいにつながった人工のニューロンの網に「エネルギー」を決め、エネルギーが下がる方へ動かすと、少し欠けた絵からでも覚えていた絵を思い出せる（連想記憶、1982年）。さらに熱力学・統計力学の考え（ボルツマン分布）を使って、網が自分でデータの特徴を学ぶボルツマンマシンが1983〜85年に作られた。これらは2024年のノーベル物理学賞になり、今の深層学習（[10-16]）の土台の一つとされた（受賞者たちは存命なので名前を出さない）。日本の研究者も1972年に学習する網や連想記憶を発表していた"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "実験：ばらばらにした絵の点を、エネルギーが下がるように1つずつ直していくと元の絵にもどるのを見る",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAWElEQVR42mNgGB5ATU3rP7l6mCi1nBHZxHkF1xgYGBgYbLIYGNFddevWNRS1MD4LLucha8AlhlUjvvAgJE8dcGQaw39CbLya/z8K+Q9TjEwji9POBSMUAAA4Sz0BLp34HQAAAABJRU5ErkJggg=="
+}

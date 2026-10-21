@@ -1,0 +1,105 @@
+{
+ "id": "7-15",
+ "history": {
+  "name": "紫外光学材料",
+  "name_en": "Ultraviolet optical materials",
+  "kind": "tech",
+  "trunk": "7",
+  "trunk_name": "光学",
+  "year": 1920,
+  "year_range": "1920〜1939",
+  "year_uncertain": false,
+  "hee1": "天然の蛍石が、最先端レーザーの窓になる",
+  "hee1_en": "Natural fluorite becomes the window of cutting-edge lasers.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "O21. 蛍石をとかして1つの結晶に（CaF2 単結晶、ブリッジマン法）［7-15］",
+    "answer": "黒鉛のるつぼで蛍石（CaF2）をとかし（1418℃）、アルゴンや真空の中で、るつぼを熱い所から冷たい所へゆっくり下げると、先から1つの大きな結晶が育つ（ブリッジマン 1925、ストックバーガー 1930年代）。CaF2 は紫外を約130nm まで通し、分散がとても小さいので、紫外の露光装置のレンズや色消しのレンズになる。",
+    "hee": {
+     "1": "天然の蛍石が、最先端レーザーの窓になる。",
+     "2": "1886年ごろアッベは天然の蛍石を顕微鏡のレンズに使い、色のにじみをさらに減らした（アポクロマート）。",
+     "3": "ArF（193nm）の投影レンズは石英ガラスと CaF2 の組み合わせ。",
+     "4": "157nm の露光は CaF2 だけが頼りだったが、大きく均質な結晶が作れず、2003年ごろ開発が止まった（理由はレンズ材とレジスト。監査 V-162）。"
+    },
+    "certainty": "ブリッジマン法 1925 ◎／ストックバーガーの CaF2・LiF ○（年は資料で違う ⚠️）／CaF2 の物性（融点・透過・アッベ数）◎／アッベの蛍石アポクロマート ○／157nm の中止 ○（EE Times、監査 V-162）",
+    "basis": "- Wikipedia「Bridgman–Stockbarger method」：https://en.wikipedia.org/wiki/Bridgman%E2%80%93Stockbarger_method"
+   },
+   {
+    "title": "O28. 薬品から作る純粋なガラス（合成石英、SiCl4 の炎加水分解）［7-15］［1-16］",
+    "answer": "トリクロロシランを作ると副産物の四塩化ケイ素 SiCl4 もたくさんできる。これを酸水素炎に吹きこむと、炎の中の水と反応して（SiCl4 + 2H2O → SiO2 + 4HCl）とても細かい SiO2 の粉になり、溶かし固めると不純物の極めて少ない合成石英になる（1934 コーニングのハイド）。紫外線をよく通すので、ArF の投影レンズやフォトマスクの板、光ファイバーの材料になる。",
+    "hee": {
+     "1": "天然の水晶より、薬品から作ったガラスのほうが純粋。",
+     "2": "多結晶シリコンの工場の「ゴミ」だった SiCl4 が、合成石英や光ファイバーの原料になる。",
+     "3": "光ファイバー（1970 コーニング）もこの炎の加水分解の方法で作られた。",
+     "4": "わずかな鉄や水（OH）でも紫外線を吸って熱くなり、レンズがゆがむ。だから露光装置のレンズの材料は純度で決まる。"
+    },
+    "certainty": "反応式・副産物としての SiCl4 ◎／ハイド 1934（米国特許 2,272,342）◎（TECH_TREE の記述）／光ファイバー 1970 コーニング ◎／TCS 合成の SiCl4 の割合 1〜2割 ○",
+    "basis": "- Wikipedia「Silicon tetrachloride」：https://en.wikipedia.org/wiki/Silicon_tetrachloride"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-21"
+    ]
+   ],
+   [
+    [
+     "7-02"
+    ]
+   ],
+   [
+    [
+     "3-14"
+    ],
+    [
+     "4-12",
+     "3-16"
+    ]
+   ],
+   [
+    [
+     "1-16",
+     "6-01"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "193nm を通す材料は少ない。CaF2 はブリッジマン・ストックバーガー法（1920〜30年代）で単結晶に。合成石英は SiCl4 を炎で加水分解して堆積（1934 コーニングのハイド、米国特許 2,272,342。特許の言葉は「酸素の炎」）。不純物が少なく紫外で透明"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "重",
+  "missing": "",
+  "item": "synthetic_quartz",
+  "recipes": [],
+  "machine_recipes": [
+   "酸水素バーナー「合成石英を作る」：四塩化ケイ素 ＋ 水素ボンベ 4 mol ＋ 酸素ボンベ 2 mol → 合成石英（電気なし・10 秒）。SiCl4 + 2H2O → SiO2 + 4HCl（炎の中で加水分解、ハイド 1934）"
+  ],
+  "placeholder": "近似：出てくる HCl のガスは回収しない（本物は回収して使い回す）。",
+  "game_text": "",
+  "hee_game": {
+   "note1": "薬品から作った、とても純粋な石英ガラス。目に見えない紫外線もよく通す。",
+   "note2": "酸水素バーナーに四塩化ケイ素を入れる：SiCl4 + 2H2O（炎の中の水）→ SiO2 + 4HCl。天然の珪石を溶かした溶融石英より不純物（鉄・アルミなど）がずっと少ない。",
+   "note3": "1934年、アメリカのコーニングのハイドが、SiCl4 を炎の中で加水分解して純粋なガラスを作る方法を発明した（特許の言葉は「酸素の炎」）。のちに光ファイバー（1970年）もこの方法で作られた。",
+   "note4": "ArF（193nm）の露光装置では、投影レンズのほとんどと、フォトマスクの板がこの合成石英。わずかな鉄や水（OH）でも紫外線を吸って熱くなり、レンズがゆがむので、不純物の少なさが性能を決める。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAkklEQVR42mNgGPKAEZ+kRVnXfxj7RFcZVrUsuDTy3GBgyEiKgIvNuMHwf88mTENYsGkuSYpgeHPqE4p4RlcEwxcNhv/oLmHCppmBgYFBxIwPw5CSpAgUb2EYgA5EzPjgbHTDiDIAl2F4DcBlEy7ARKxNRBlwoquMsWfeCsoTkotf1/8vGgg+zw0GBhgfV4IawgAA6OAyoIg4qeUAAAAASUVORK5CYII="
+}

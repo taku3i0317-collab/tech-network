@@ -1,0 +1,58 @@
+{
+ "id": "1-42",
+ "history": {
+  "name": "リチウム",
+  "name_en": "Lithium",
+  "kind": "tech",
+  "trunk": "1",
+  "trunk_name": "冶金",
+  "year": 1817,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "リチウムは水に浮くほど軽い金属",
+  "hee1_en": "Lithium is a metal so light it floats on water.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "2-01"
+    ]
+   ],
+   [
+    [
+     "2-06"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1817 アルフェドソン（ベルセリウスの研究室）がペタル石から発見、1855 ブンゼンとマティーセンが溶融 LiCl の電解で金属を得た。工業：リチア輝石を約1050℃で焼いて（α→β 型、硫酸に溶けやすくなる）硫酸焙焼 → Li2SO4 を水で抽出 → Na2CO3 で Li2CO3 を沈殿"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAUElEQVR42mNgoBawKOv6T45aJkotZsElYeXgg+KiYwe2MGJTR10XIPutKCkCReG/eXb/CRpQgqYJl1zPvBXU88IwMICRnNR4oquMkWEUwAEAduMW8n1FkUcAAAAASUVORK5CYII="
+}

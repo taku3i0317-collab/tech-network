@@ -1,0 +1,96 @@
+{
+ "id": "3-10",
+ "history": {
+  "name": "アチソン炉",
+  "name_en": "Acheson furnace",
+  "kind": "tech",
+  "trunk": "3",
+  "trunk_name": "熱",
+  "year": 1896,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "炭を電気で焼きすぎると黒鉛になる",
+  "hee1_en": "Heat carbon with electricity way too much and it becomes graphite.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "E11. 炭素を電気で熱する（電気炉・アチソン炉・人造黒鉛）［4-12］［3-10］",
+    "answer": "炭素の棒や粉に直接大電流を流すと、炭素そのものが発熱して約2500℃になる。アチソンは1891年、この炉で偶然カーボランダム（炭化ケイ素 SiC）を見つけ、1896年に同じ方式で人造黒鉛を作る方法の特許を取った。",
+    "hee": {
+     "1": "電気で炭を超高温にすると、ダイヤモンドの次に硬い石や、純粋な黒鉛ができる。",
+     "2": "アチソンはもともと人工ダイヤモンドを作ろうとしていた。できたのは別の物だったが、それが研磨材として大ヒットした。",
+     "3": "アチソンはエジソンの研究所で電球の仕事をしていた人。電気と炭素の扱いに慣れていた。",
+     "4": "人造黒鉛は不純物が少ないので、ゲームでは帯域精製のボートに使える（純度 10N まで）。粘土を混ぜた黒鉛ボートとの差は本物の差。"
+    },
+    "certainty": "1891・1896 ◎（電気化学会、科学史研究所）／人工ダイヤモンドを狙っていた話 ○",
+    "basis": "Science History Institute「Edward Goodrich Acheson」、電気化学会（ECS）「Historical Member Spotlight: E.G. Acheson」（英語）"
+   }
+  ],
+  "people": [
+   {
+    "name": "アチソン",
+    "tool": "⚫ 人造黒鉛",
+    "year": "1896",
+    "intro": "1896年、炭素に直接大電流を流して人造黒鉛を作った",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACKUlEQVR42mNgGAUjHTCSori9vf0/MeoqKyuJNpeFWIUzZ878n5aWhiH+6NEjbMr/E+sIRmJ9HhUVBedzP96PVd1XWUc4e9myZUSFBBO1LEeXi4qKIirKmEhJA/gsJ0UN2Q6gBSDaAc+PLmeghVqiHaAiJ0GTEGAhRTFyKkePa2Q5hkfLqeOAiuRAsnIAck74eOfU/4656xmpEgKchqEMepqaDJeuX2f4fn41TjmGR5OpUxRXJAf+11WTZ1CWlYCngRdvPjBIiAjA1dx59AJD7s6jFwwMDAwMdx+/YLh86yEDvhAgmAiVZVETH7Ll6ABdDl0vWQ7YsPckZlSws8HZL99+wCqOSy9JaQAp6P6XJPrDxb///MXAwMDAcOHGAwZuTg4McZjl+IKepEQINQjuCFiWU5WFZkG0nECs5STnApjl3I/3MxyevRVF3DbVGy5HswZJRXIgSlRgAz3zNxLte5IdAHOEqBA/Q7y/A4r4wo0HGF6/+0iS5RSBiuTA/2+OLPj/5siC/xXJgf8ZaNkmdHLygFvg7e3EwMDAwBAXF4OiZtGiJQwMDAwMW7fug4vt27eDslwAs1hHxwAuhm4xuvjDh+9Q2oaEHMJCrMXkACT9OB3CSKrF9+/fYVBUVGGorc1DEW9ungSXwwWuXLmAETUs1PQxOSHCCHMAMZYT8iGxamChsW/fDsYBb5SyoMcPLvDmzSsGERExguoYGBgYDhzYxSAiIkaUAwDArvBSrdEQrgAAAABJRU5ErkJggg=="
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "4-12"
+    ]
+   ],
+   [
+    [
+     "4-06"
+    ],
+    [
+     "4-14"
+    ]
+   ],
+   [
+    [
+     "1-07"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "炭素に直接大電流を流し、炭素そのものを発熱体にする抵抗炉。約2500℃。アチソンが1896年に人造黒鉛の製法として特許化（1891年に同じ炉で SiC=カーボランダムを発見）"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": "acheson_furnace",
+  "recipes": [
+   "作業台：耐火れんが（珪石れんが）×4 ＋ 黒鉛棒×2 ＋ 銅ケーブル×2 ＋ 鋼インゴット → アチソン炉"
+  ],
+  "machine_recipes": [
+   "アチソン炉「人造黒鉛」：石炭×4（木炭も可） ＋ 砂 → 人造黒鉛×2（500 kW × 60 秒＝30,000 kJ）。2500℃ 以上で進む（電力が足りないと届かない）"
+  ],
+  "placeholder": null,
+  "game_text": "acheson_furnace（ConsumerMachineBlock＋AchesonFurnaceBlockEntity。温度モデル：入る電力−逃げる熱、500kW で 2600℃ に落ち着く。電力不足は「電力不足！最高≈X℃」と表示）。耐火れんが×5＋黒鉛棒（電極）×2＋銅ケーブル×2＋鋼。人造黒鉛→高純度ボート（粘土黒鉛ボートを置換、CHEMISTRY #18✅）",
+  "hee_game": {
+   "note1": "炭を電気で焼きすぎると黒鉛になる。",
+   "note2": "中身そのものが電熱線になる抵抗炉：両端の黒鉛電極から、詰めた炭素に直接電流を流す。石炭/木炭4＋砂1 → 人造黒鉛2（炉が2500℃に達してから）。必要電力 500kW（蒸気機関およそ10台）。電力が足りないと低い温度で止まり、いつまでも黒鉛にならない。",
+   "note3": "エドワード・アチソンは1891年、ダイヤモンドを作ろうとして炭化ケイ素（カーボランダム）を見つけ、1896年に人造黒鉛の特許を取った。SiC をさらに熱するとケイ素が蒸発して黒鉛が残る。アチソンは砂が「触媒」として働くと考えた。",
+   "note4": "ゲームのモデル：温度は「入る電力」で上がり「逃げる熱（20℃との差に比例）」で下がる。500kW でちょうど 2600℃ に落ち着くように決めてある。本物の炉は長さ十数m、ナイアガラの水力発電の数百kW〜MW 級の電力を使い、1回に数日かかった。今は石油コークスのような「黒鉛になりやすい炭素」は触媒なしでも黒鉛化することがわかっている。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAPklEQVR42mNMslP6z0ABYGFgYGAwEuAjS/O5D58YmBgoBANvAAs2f+ED6OE1DMJgEMYCqalyuIQBodSHDwAAVbUK6QNwXUsAAAAASUVORK5CYII="
+}

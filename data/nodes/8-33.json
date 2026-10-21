@@ -1,0 +1,71 @@
+{
+ "id": "8-33",
+ "history": {
+  "name": "質量分析",
+  "name_en": "Mass spectrometry",
+  "kind": "tech",
+  "trunk": "8",
+  "trunk_name": "精密・計測",
+  "year": 1919,
+  "year_range": "1913〜1919",
+  "year_uncertain": false,
+  "hee1": "原子は、電磁石で曲げると重さごとに分かれて飛んでいく（O-010 で追加。出典：Nobel Prize「Chemistry 1922」「Chemistry 2002」、Wikipedia「National Historic Chemical Landmarks」）",
+  "hee1_en": "When bent by an electromagnet, atoms fly apart sorted by weight. (Added in O-010. Sources: Nobel Prize \"Chemistry 1922\", \"Chemistry 2002\", Wikipedia \"National Historic Chemical Landmarks\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "F27. 原子を重さでふるい分ける（質量分析）［8-33］（［9-28］イオン注入の前提）",
+    "answer": "試料の原子をイオンにして飛ばし、電磁石の中で曲げると、軽いイオンほど大きく曲がる。着く場所で重さ（質量数）がわかり、同じ元素にも重さのちがう仲間（同位体）があることがわかる。1913年に J・J・トムソンがネオンの同位体を見つけ、1918年にデンプスター、1919年にアストンが質量分析器を作った（アストンは1922年ノーベル化学賞）。",
+    "hee": {
+     "1": "同じ元素なのに、重さがちがう原子がまざっている。",
+     "2": "ホウ素は ¹⁰B が約20%、¹¹B が約80%。リンや金は1種類だけ。",
+     "3": "イオン注入装置は質量分析と同じしくみで、入れたいイオンだけを選んでウェハーに打ちこむ。",
+     "4": "塩素の原子量が 35.45 と半端なのは、³⁵Cl（約76%）と ³⁷Cl（約24%）がまざっているから。"
+    },
+    "certainty": "トムソン 1913・アストン 1919・ノーベル賞 1922 ◎／同位体の割合 ◎（IUPAC）",
+    "basis": "Nobel Prize「Chemistry 1922」https://www.nobelprize.org/prizes/chemistry/1922/summary/ 、IUPAC「Isotopic compositions of the elements」https://ciaaw.org/isotopic-abundances.htm （英語）"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "10-01"
+    ]
+   ],
+   [
+    [
+     "5-05"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "電気を帯びた原子や分子を飛ばし、電磁石の中で曲げると、軽い物ほど大きく曲がるので、重さごとに分けて数えられる。1913年に J・J・トムソンがネオンに重さのちがう2種類（同位体）があることを見つけ、1918年にデンプスター、1919年にフランシス・アストンが質量分析器を作った（1922年ノーベル化学賞）。塩素の原子量が 35.5 と半端なのは、重さ 35 と 37 の塩素が混ざっているから。半導体にホウ素やリンだけを選んで打ちこむイオン注入装置（[9-28]）や、真空の漏れをヘリウムで探す道具もこのしくみ。1987年には日本の研究者が、たんぱく質のような大きな分子も壊さずに測る方法を見つけた（2002年ノーベル化学賞）"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "実験（試料の同位体を調べる）",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAApElEQVR42sVQuw3CMBB9ljxVcJEBXEYM4TmoEHXkIVKeqF1YDMIQaY/qJNskzgEFr/Ln3uce8COMHIbRc/v5SGSOBGx5uZ4JAJDWiDuRKkElkNYIAGryG4bR89Yqqg5KkXb3PKMSdQH73ZTDeQa35EMI4WOigJ8Tf00W555IW7RtB1yAYQ8++QkZi768Xuul++UW+wnEaUvEBTJA/W73Uqjj/h0v99tLNPx9s+4AAAAASUVORK5CYII="
+}

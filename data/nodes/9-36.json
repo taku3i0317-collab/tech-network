@@ -1,0 +1,68 @@
+{
+ "id": "9-36",
+ "history": {
+  "name": "銅配線",
+  "name_en": "Copper interconnects",
+  "kind": "tech",
+  "trunk": "9",
+  "trunk_name": "半導体プロセス",
+  "year": 1997,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "ダマスカスの象嵌細工の名前が、最先端の配線に使われている",
+  "hee1_en": "The name of Damascus inlay work is used for the most advanced wiring.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-66"
+    ]
+   ],
+   [
+    [
+     "9-31"
+    ]
+   ],
+   [
+    [
+     "2-12"
+    ]
+   ],
+   [
+    [
+     "9-26"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1997 IBM が発表。Cu は Al より電気抵抗が約40%低いがエッチングしにくい → 溝を掘って Cu を電気めっきで埋め、CMP で余分を削る（象嵌＝ダマシン）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "配線層の上位",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAbUlEQVR42mNgoBAwInO6XNT+E6OpbM8tRqwSxBiAroaFFIOw2cxCrDNxGcpEyLmEvMVEaSwMAwPgsWBllfP/g5kXg9W3bSg0AwMDhpjVt23/jx2bwojVBQ4OXig0LjHqe4GBgYHhwIFtDEMPAADDhjLz6vCpOAAAAABJRU5ErkJggg=="
+}

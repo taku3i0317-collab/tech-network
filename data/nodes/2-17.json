@@ -1,0 +1,84 @@
+{
+ "id": "2-17",
+ "history": {
+  "name": "イオン交換",
+  "name_en": "Ion exchange",
+  "kind": "tech",
+  "trunk": "2",
+  "trunk_name": "化学",
+  "year": 1935,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "ベークライトの親戚が水をきれいにする",
+  "hee1_en": "A relative of Bakelite cleans water.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "C10. ベークライトの親戚が水をきれいにする（イオン交換）［2-17］",
+    "answer": "スルホ基（SO3H）を付けた樹脂は金属イオンを H+ と、アミノ基を付けた樹脂は陰イオンを OH- と入れ替える。出てきた H+ と OH- が水になるので、水の中のイオンがなくなる。樹脂が飽和したら、酸とアルカリで元に戻せる（再生）。1935 アダムスとホームズがフェノール樹脂系で初めて作った。",
+    "hee": {
+     "1": "ベークライトの親戚が、水の中の塩を取りのぞく。",
+     "2": "純粋な水は電気をほとんど通さない。18.2 MΩ·cm（25℃）が理論上の上限。",
+     "3": "それまでは天然の鉱物（ゼオライト）が使われた。今の樹脂はポリスチレン系（1944 ダレリオ）。",
+     "4": "1950年代から半導体工場はイオン交換の純水でウェハーを洗った（[2-18] 超純水へ）。"
+    },
+    "certainty": "イオン交換のしくみ ◎／アダムスとホームズ 1935 ○（TECH_TREE の本物欄と一致）／18.2 MΩ·cm ◎／ダレリオ 1944 ○",
+    "basis": "- Wikipedia「Ion-exchange resin」：https://en.wikipedia.org/wiki/Ion-exchange_resin"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "2-28"
+    ]
+   ],
+   [
+    [
+     "2-01"
+    ]
+   ],
+   [
+    [
+     "2-08",
+     "6-05"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [
+   "I-21"
+  ],
+  "frontier": false,
+  "real": "1935 アダムスとホームズ（英）がフェノール・ホルムアルデヒド樹脂でイオン交換体を合成。陽イオン交換 R-SO3H+Na+→R-SO3Na+H+、陰イオン交換 R-OH+Cl-→R-Cl+OH-、出た H+ と OH- が水になる"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "実験",
+  "missing": "",
+  "item": "deionized_water",
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": "近似：電気抵抗（純度）は扱わない。",
+  "game_text": "樹脂を詰めた塔ブロック。使うと飽和→酸・アルカリで再生",
+  "hee_game": {
+   "note1": "塩もイオンもほとんど入っていない、とてもきれいな水。",
+   "note2": "イオン交換塔に蒸留水を通して作る（ガラス瓶入り）。超純水 [2-18] やウェハー洗浄の元。",
+   "note3": "純粋な水は電気をほとんど通さない。水の中のイオンが減るほど電気抵抗が上がり、25℃で 18.2 MΩ·cm が理論上の上限（水自身がわずかに H+ と OH- に分かれるため）。",
+   "note4": "半導体工場では、ナトリウムなどのイオンが1つでもトランジスタの性能を狂わせるので、大量の超純水でウェハーを洗う。"
+  }
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAVklEQVR42mNgGNTAxa/rv4tf1398apgotYRiA1hwOf2LBgNDRlIEAwMDA8MXDYb/PDcYGPZsKmMk2gUlUM3o7MEXBqMG0CohMTAwMPTMW4HC56FVhgMArQwRykfVa/IAAAAASUVORK5CYII="
+}

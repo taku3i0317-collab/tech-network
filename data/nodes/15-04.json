@@ -1,0 +1,66 @@
+{
+ "id": "15-04",
+ "history": {
+  "name": "電話",
+  "name_en": "Telephone",
+  "kind": "product",
+  "trunk": "15",
+  "trunk_name": "通信・情報",
+  "year": 1876,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "電話のマイクは炭の粒でできていた",
+  "hee1_en": "Telephone microphones were made of carbon grains.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [
+   {
+    "name": "ベル",
+    "tool": "☎️ 電話",
+    "year": "1876",
+    "intro": "1876年、電話の特許を取った（同じ日にイライシャ・グレイも出願）",
+    "portrait": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACGUlEQVR42mNgGAUjHTCSori9vf0/MeoqKyuJNpeFWIUzZ878n5aWhiH+6NEjbMr/E+sIRmJ9HhUVRVLQLlu2jKiQYKKF5QwMDAxRUVFERRnTQCfCoeUA7sf7Gbgf7yfIfn50OfUdALOAWDbVsyEDAwPDV1lHnJYhyzE8Wk6dgqgiOfB/gLM5AwMDA4OKnATRht559ALO3rD3JEPH3PWMVAkBTsNQBj1NTYZL168zfD+/Gqccw6PJ1EsDdx8jfPP9/GqGjZOKUCyH+RabHLJesh2gLCvBIGkdCY9jCREBnGphcpLWkQyS1pEMyrISlDtgw96TmFHBzgZnv3z7Aas4Lr0kpQFY4uFXMftvYWHBoMsKjYqfvxgYGBgYLtx4wMDNyYGIIqg4rC7Al/hIro7b29v/p9pKYmY5LGXF7MPPia6SyS4Htuanosh5T5yNJL+Mdg0SWM147949BiUlJbKrYbIcAHPE69evGfLz8zEsJrU1RBFob2////Dhw/8PHz78T2xTjewQEBWVgFtQUVHEwMDAwBAXF4OiZtGiJZCc09EHF3v9+gVluQBmMR8fovDZt28nXgOdnNzh7E+fPhB0CAuxFpMDkPT/x+UQRlIt/vr1CwM3Nw/DiRP7UMQtLJzgcrgAthBhoaaPyQkRRpgDiLGckA+JVQMLjdevXzAOeKOUBT1+cIGfP38wsLNzEFQHDVoGdnYOohwAADjT9Gx2hKjAAAAAAElFTkSuQmCC"
+   }
+  ],
+  "media": [],
+  "requires": [
+   [
+    [
+     "10-01"
+    ]
+   ],
+   [
+    [
+     "0-12"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1876 アレクサンダー・グラハム・ベルの特許（同じ日にイライシャ・グレイも出願）。1877〜78 エジソンとヒューズの炭素マイク（炭素粒の抵抗が圧力で変わる）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "2地点で音（文字）をやりとりするブロック",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAjklEQVR42mNgGGjAiMxRU9P6T4ymW7euwfWxIGv08vJjYGBgYNi2bRNWjTB5BgaG/zCDWNAlt23bhGIDGvjv5eXH4OXlB7cEbgAuW9EBujqsNuEKC2wuY8GmGcmvGF5AN4SJ6tEIs/3UhSsoCs0MdLAGMkEXwDTiAkyENKO7hCQDCGlGCQNikzG+KB0YAADdODmHgyUegwAAAABJRU5ErkJggg=="
+}

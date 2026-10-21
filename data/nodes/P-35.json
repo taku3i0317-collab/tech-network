@@ -1,0 +1,96 @@
+{
+ "id": "P-35",
+ "history": {
+  "name": "エスカレーター",
+  "name_en": "Escalator",
+  "kind": "product",
+  "trunk": "P",
+  "trunk_name": "モノ（作品）",
+  "year": 1900,
+  "year_range": "1892〜1922",
+  "year_uncertain": false,
+  "hee1": "最初のエスカレーターは遊園地の乗り物で、階段ではなく斜めに動くベルトだった。",
+  "hee1_en": "The first escalator was an amusement park ride, a slanted moving belt instead of stairs.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://en.wikipedia.org/wiki/Escalator",
+   "https://www.stannahlifts.co.uk/news/the-rise-of-escalators-a-history"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "4-08"
+    ]
+   ],
+   [
+    [
+     "1-26"
+    ]
+   ],
+   [
+    [
+     "8-20"
+    ]
+   ],
+   [
+    [
+     "12-04"
+    ]
+   ],
+   [
+    [
+     "8-29"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [
+   "1-26",
+   "1-51",
+   "2-29",
+   "4-08",
+   "4-22",
+   "8-20",
+   "8-29",
+   "9-41",
+   "9-46",
+   "10-01",
+   "10-02",
+   "10-14",
+   "12-04",
+   "14-18",
+   "B-07"
+  ],
+  "materials": [
+   "鋼",
+   "銅",
+   "アルミニウム"
+  ],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1892年3月、ジェシー・リノが傾斜したベルト式の「エンドレス・コンベヤー」の特許を取り、1896年にコニーアイランドで溝付きの板が動く遊具として動かした。チャールズ・シーバーガーはジョージ・ホイーラーの1892年の特許を買い、オーチス社と平らな段の型を作り、1900年パリ万博で一等賞をとった。「エスカレーター」はもとオーチス社の商標名だった。よくある間違い：リノのコニーアイランドの物は段のある階段ではなく、傾いた動くベルトだった"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": false,
+  "play": "作品：つながった踏み段が動いて、人を上の階へ運ぶ",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAdUlEQVR42mNgoBAwkqJYTU3rP4x969Y1RpIMUFPT+h+Xlgfnb9uyheHYgS2MTKTajA5YiDFAREqJwcvHh3QDYDbj0kzQAHw24zWAGJvxGkCMzVgNIMVmrAaQYjOKAWpqWv/J0czAwMDARK7NGF7YtmULw9AEAG8QHmRGFeSnAAAAAElFTkSuQmCC"
+}

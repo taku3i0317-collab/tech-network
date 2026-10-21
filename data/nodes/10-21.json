@@ -1,0 +1,55 @@
+{
+ "id": "10-21",
+ "history": {
+  "name": "計算尺",
+  "name_en": "Slide rule",
+  "kind": "tech",
+  "trunk": "10",
+  "trunk_name": "制御・計算",
+  "year": 1622,
+  "year_range": "1620〜1632",
+  "year_uncertain": false,
+  "hee1": "掛け算を「長さの足し算」に変える物差し。電卓が出るまで、技術者のポケットにはいつもこれがあった（NET-06 で追加。出典：Oughtred Society「History」、Smithsonian「Slide Rules」、Britannica「slide rule」、ETHW「HP-35 Milestone」）",
+  "hee1_en": "A ruler that turns multiplication into \"adding lengths\". Until calculators came, engineers always had one in their pocket (added in NET-06. Sources: Oughtred Society \"History\", Smithsonian \"Slide Rules\", Britannica \"slide rule\", ETHW \"HP-35 Milestone\")",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "0-08"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [
+   "I-10"
+  ],
+  "explained_by": [],
+  "frontier": false,
+  "real": "対数の目盛りを刻んだ物差しを2本並べて滑らせると、目盛りの長さを足すだけで掛け算・割り算ができる。1620 エドマンド・ガンターが対数の目盛りの物差し（ディバイダーで長さを足す）を作り、1622年頃 ウィリアム・オートレッドが2本の対数目盛りを並べて滑らせる計算尺にした（円形の計算尺の発表は1632年）。約350年、技術者の設計の計算の道具だったが、1972年の HP-35 など関数の計算ができるポケット電卓が出ると数年で使われなくなった（[B-08]電卓に置き換えられた）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "未定（実装の前に相談）",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAk0lEQVR42mNgGPKAkZACNTWt/8j8W7euMWIYkGSn9B+XAUdecDC0hcgxMDAwMFStecRgI/EDLjfv0D1GJmSFXjZqGDQMVK15hKIOxQXoziQW3Lp1DeICG4kfcGei0zCALg7zChM+RYQMo4oXWGDOQQ4YZFC15hFKLMDY247cYrh1C8kLsFBGp3HJUy0dUJwSBx4AAL+ZUgulZf6xAAAAAElFTkSuQmCC"
+}

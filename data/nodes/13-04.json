@@ -1,0 +1,53 @@
+{
+ "id": "13-04",
+ "history": {
+  "name": "細菌学",
+  "name_en": "Bacteriology",
+  "kind": "tech",
+  "trunk": "13",
+  "trunk_name": "医薬・衛生",
+  "year": 1670,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "病気は目に見えない生き物がうつしていた",
+  "hee1_en": "Diseases were spread by living things too small to see.",
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "8-10"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1670年代 レーウェンフックが微生物を観察。1860年代 パスツールの白鳥の首フラスコ（自然発生説の否定）、1876 コッホが炭疽菌、1882 結核菌を特定"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "顕微鏡で「菌」が見える演出",
+  "hee_game": {}
+ },
+ "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAl0lEQVR42rVSMQ7DIAy8VMwd+5aIiRnde/KIvMfKHGXo0E+5S5BAxSRI5SZs4fOdbeCfmJdV52XVnppHEXwO8PWED7xN4vLgvcsEQCMJAHrGBWHKVRWkD5sIIlkUnqQ/mCxpPlAjiU0EVvdL+EBNKvJ311YsQtNCq0uylFtxtSE2RGnzDobCGqJrFdT8X97B3VV138QwfAG12kXdBz/r0AAAAABJRU5ErkJggg=="
+}

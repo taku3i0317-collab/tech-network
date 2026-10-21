@@ -74,7 +74,8 @@
 .film .flegend{position:absolute;left:12px;right:12px;top:90px;display:flex;flex-wrap:wrap;gap:4px 10px;font-size:11px;color:var(--sub,#666);pointer-events:none}.film .flegend[hidden]{display:none}.film .flegend i{display:inline-block;width:9px;height:9px;border:2px solid;border-radius:50%;margin-right:3px;vertical-align:-1px}.film.story .flegend{display:none}
 .film .fhint{position:absolute;left:16px;right:12px;top:66px;font-size:13px;color:var(--sub,#666);pointer-events:none}
 .film.story .skip,.film.story .bar,.film.story .fhint{display:none}.film.story .cnt{top:96px;left:0;right:0;text-align:center;font-size:22px}.film.story .cap{bottom:110px;font-size:24px}
-.film.centerMode .flegend{} .film.centerMode .cap{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.film .cap small{display:block;font-family:var(--font-ui,sans-serif);font-size:13px;color:var(--sub,#666);text-shadow:none}
+.film.centerMode .flegend{} .film .ahaCard{position:absolute;left:12px;right:12px;top:24%;display:flex;justify-content:center;align-items:center;gap:4px;flex-wrap:nowrap;background:var(--panel,#fff);border:2px solid #e8a33d;border-radius:14px;padding:14px 8px;pointer-events:none;animation:filmcap 400ms ease-out}.film .ahaCard[hidden]{display:none}.film .ahaCard figure{margin:0;flex:0 1 auto;min-width:0;display:flex;flex-direction:column;align-items:center;gap:4px;max-width:84px;text-align:center;font-size:clamp(12px,3.6vw,15px);font-weight:700;line-height:1.3;color:var(--ink,#222)}.film .ahaCard img{width:clamp(40px,12vw,56px);height:clamp(40px,12vw,56px);image-rendering:pixelated}.film .ahaCard .ar{flex:none;font-size:20px;font-weight:700;color:#e8a33d}.film .ahaCard .dots{font-size:15px;color:var(--sub,#666)}.film.ahaOn .cap{font-size:clamp(22px,5.6vw,32px);font-weight:700}
+.film.centerMode .cap{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.film .cap small{display:block;font-family:var(--font-ui,sans-serif);font-size:13px;color:var(--sub,#666);text-shadow:none}
 @media (max-width:420px){.film .bar{gap:6px;padding-left:8px;padding-right:8px}.film .bar a,.film .bar button{font-size:13px;padding:0 6px}}
 @media (prefers-reduced-motion: reduce){.film,.film .cap.in{transition:none;animation:none}}`;
     document.head.appendChild(st);
@@ -321,12 +322,12 @@
     const root = document.createElement('div');
     root.className = 'film' + (window.FILM_STORY ? ' story' : '');   // story：インスタのストーリー用（上下の端に大事な物を置かない）
     root.setAttribute('role', 'dialog');
-    root.innerHTML = `<canvas></canvas><div class="cnt"></div><div class="fhint" hidden></div><div class="flegend" hidden></div><div class="cap" aria-live="polite"></div>
+    root.innerHTML = `<canvas></canvas><div class="cnt"></div><div class="fhint" hidden></div><div class="flegend" hidden></div><div class="cap" aria-live="polite"></div><div class="ahaCard" hidden></div>
       <button type="button" class="skip"></button>${reduce() && film ? `<button type="button" class="nextb">${T.next}</button>` : ''}
       <div class="bar" hidden><button type="button" class="toC" hidden>${T.toC}</button><button type="button" class="watch">${T.watch}</button><button type="button" class="watchUp">${T.watchUp}</button><button type="button" class="share">${T.share}</button><a class="detail" href="#">${T.detail}</a></div>`;
     document.body.appendChild(root);
     const cv = root.querySelector('canvas'), ctx = cv.getContext('2d', { alpha: false });
-    const cap = root.querySelector('.cap'), cnt = root.querySelector('.cnt'), hint = root.querySelector('.fhint'), skip = root.querySelector('.skip'), bar = root.querySelector('.bar');
+    const card = root.querySelector('.ahaCard'), cap = root.querySelector('.cap'), cnt = root.querySelector('.cnt'), hint = root.querySelector('.fhint'), skip = root.querySelector('.skip'), bar = root.querySelector('.bar');
     let W = 0, H = 0, dpr = 1;
     const resize = () => { dpr = Math.min(2, devicePixelRatio || 1); W = innerWidth; H = innerHeight; cv.width = W * dpr; cv.height = H * dpr; cv.style.width = W + 'px'; cv.style.height = H + 'px'; if (mode === 'center') { stackTop(); cap.style.bottom = bar.offsetHeight ? `${bar.offsetHeight + 10}px` : ''; } req(); };
     addEventListener('resize', resize);
@@ -351,8 +352,17 @@
     if (film) loadPeople();
 
     // ムービーの時間割（ms）
-    let P2, t1, t2, t3, t4, t5, STARTS;
-    const timing = () => { P2 = Math.max(S.aha.length ? 5200 : 1800, Math.min(6500, S.nL * 750)); t1 = 1400; t2 = t1 + P2 + 700; t3 = t2 + 1800; t4 = t3 + 2400; t5 = t4 + 2300; STARTS = [0, t1, t2, t3, t4, t5]; };
+    // S-046：分解が終わった所で止めて「あ！」を1つずつ見せる（字の数に合わせて 2.5〜3.5 秒、1回のムービーで2つまで）。
+    //  t1〜t5 は「図の時間」（あ！の間は止まる）。STARTS・T5 は本当の時間（押すと次の場面へ）
+    let P2, t1, t2, t3, t4, t5, STARTS, AHD = [], AH = 0, T5;
+    const ahaText = a => (S.dir === 'up' ? T.ahaUp : T.aha)(nm(byId.get(a.part)), nm(byId.get(a.root)));
+    const timing = () => {
+      P2 = Math.max(1800, Math.min(6500, S.nL * 750)); t1 = 1400; t2 = t1 + P2 + 700; t3 = t2 + 1800; t4 = t3 + 2400; t5 = t4 + 2300;
+      AHD = S.aha.slice(0, 2).map(a => Math.min(3500, Math.max(2500, [...ahaText(a)].length / 5.5 * 1000))); AH = AHD.reduce((x, y) => x + y, 0); T5 = t5 + AH;
+      STARTS = [...new Set([0, t1, t2, ...(AHD.length > 1 ? [t2 + AHD[0]] : []), t2 + AH, t3 + AH, t4 + AH, T5])];
+    };
+    const gmap = rt => rt < t2 ? rt : rt < t2 + AH ? t2 - 1 : rt - AH;   // 本当の時間 → 図の時間
+    const ahaAt = rt => rt >= t2 && rt < t2 + AH ? (rt < t2 + AHD[0] ? 0 : 1) : -1;
     timing();
     const layerStart = d => t1 + (d - 1) * (P2 / Math.max(1, S.nL));
     // 時計：ふつうは performance.now()。動画に書き出すとき（S-023）は外から1コマずつ進める（window.FILM_CLOCK）
@@ -422,9 +432,9 @@
     }
     function next() {
       if (mode !== 'film') return;
-      if (still >= 0) { still++; if (still > 4) toCenter(S.id); else req(); return; }
+      if (still >= 0) { still++; if (still > STARTS.length - 2) toCenter(S.id); else req(); return; }
       const t = now(), n = STARTS.find(x => x > t);
-      if (n == null || n >= t5) return toCenter(S.id);
+      if (n == null || n >= T5) return toCenter(S.id);
       jump += n - t;
     }
     skip.onclick = e => { e.stopPropagation(); if (mode === 'film') toCenter(S.id); else close(); };
@@ -481,7 +491,7 @@
       if (!stats.first) stats.first = fnow - stats.start;
       if (stats.last && mode === 'film') stats.worst = Math.max(stats.worst, fnow - stats.last);
       stats.last = fnow; stats.frames++;
-      const film = mode === 'film', t = film ? now() : 1e9;
+      const film = mode === 'film', rt = film ? now() : 1e9, t = film ? gmap(rt) : 1e9, ahI = film ? ahaAt(rt) : -1, ahaP = ahI >= 0 ? new Set(S.aha[ahI].path) : null;
       if (film && t >= t5 && still < 0) { toCenter(S.id); return; }
       ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
       ctx.fillStyle = C.bg; ctx.fillRect(0, 0, W, H);
@@ -520,7 +530,7 @@
       }
       // 線
       let arrived = 0;
-      ctx.lineWidth = px; ctx.strokeStyle = C.sub; ctx.globalAlpha = film ? 0.25 : 0.3; ctx.beginPath();
+      ctx.lineWidth = px; ctx.strokeStyle = C.sub; ctx.globalAlpha = film ? (ahaP ? 0.07 : 0.25) : 0.3; ctx.beginPath();
       const runs = [], wl = [], fadeL = [];
       // 案D：外の輪（3つ目から）は、開いた扇の物だけ出す
       const hid = k => S.LAY === 'D' && S.dist.get(k) > 2 && !S.open.has(S.sectorKey(k));
@@ -636,6 +646,7 @@
           a = p;   // S-043：すべって来ずに、その場所でうすく出る（＋少しふくらんで戻る）
         } else if (film) a = ease(t / 900);
         if (!film && TR) a = trA(k);
+        if (ahaP && !ahaP.has(k)) a *= 0.22;   // S-046：「あ！」の間は道の丸だけはっきり
         const r = nodeRk(S, k) * (film && !d ? 0.6 + 0.4 * a : 1) * swell * (!film && S.sel === k ? 1.35 : 1), rs = r * sc;   // 選んだ丸は少し大きく   // rs＝画面での半径
         ctx.globalAlpha = a;
         if (!film && glowK === k) { const q = Math.min(1, (performance.now() - glowAt) / 260); ctx.globalAlpha = 0.7 * (1 - q * 0.5); ctx.fillStyle = C.hl; ctx.beginPath(); ctx.arc(x, y, r + (4 + 10 * q) * px, 0, Math.PI * 2); ctx.fill(); ctx.globalAlpha = a; req(); }   // S-040：押した丸が光る
@@ -663,8 +674,8 @@
         }
       }
       // S-034「あ！」：その一言が出ている間、部品から原点までの道を光らせる
-      const ahaNow = film && t >= t1 && t < t2 ? S.aha[(t - t1) / P2 < 0.62 ? 0 : 1] : null;
-      if (ahaNow && (t - t1) / P2 > 0.3) {
+      const ahaNow = ahI >= 0 ? S.aha[ahI] : null;
+      if (ahaNow) {
         ctx.globalAlpha = 0.9; ctx.strokeStyle = C.hl; ctx.lineWidth = 3 * px; ctx.beginPath();
         ahaNow.path.forEach((k, i) => { if (S.dist.get(k) && t < layerStart(S.dist.get(k)) + 700) return; const [x, y] = S.P.get(k); i ? ctx.lineTo(x, y) : ctx.moveTo(x, y); });
         ctx.stroke();
@@ -710,9 +721,9 @@
       let capText, ct, capSub = '';
       if (film) {
         const sc5 = t < t1 ? 0 : t < t2 ? 1 : t < t3 ? 2 : t < t4 ? 3 : 4;
-        const fr = (t - t1) / P2, ah = sc5 === 1 && fr > 0.3 ? S.aha[fr < 0.62 ? 0 : 1] : null;
+        const ah = ahaNow;
         const ASK = S.dir === 'up' ? T.askUp : T.ask, AHA = S.dir === 'up' ? T.ahaUp : T.aha;
-        capText = [ASK(target), ah ? AHA(nm(byId.get(ah.part)), nm(byId.get(ah.root))) : ASK(target), S.dir === 'up' ? T.made(target, S.total) : T.roots(S.groups), people ? T.people(people.n, people.anon) : '…', T.you][sc5];
+        capText = ah ? ahaText(ah) : [ASK(target), ASK(target), S.dir === 'up' ? T.made(target, S.total) : T.roots(S.groups), people ? T.people(people.n, people.anon) : '…', T.you][sc5];
         ct = sc5 >= 1 ? T.count(Math.min(S.total, sc5 >= 2 ? S.total : arrived)) + (sc5 === 1 && shown ? (S.LAY === 'gran' ? `・${T.ring(shown)} +${S.layers[shown].length}` : S.dir === 'up' ? (EN() ? ` · ${shown} step${shown > 1 ? 's' : ''} ahead: +${S.layers[shown].length}` : `・${shown} 世代先 +${S.layers[shown].length}`) : T.gen(shown, S.layers[shown].length)) : '') : '';
       } else {
         if (S.sel && byId.has(S.sel)) {
@@ -723,6 +734,18 @@
       }
       if (cap.dataset.t !== capText + capSub) { cap.dataset.t = capText + capSub; cap.textContent = capText; if (capSub) { const sm = document.createElement('small'); sm.textContent = capSub; cap.appendChild(sm); } cap.classList.remove('in'); void cap.offsetWidth; cap.classList.add('in'); }
       if (cnt.textContent !== ct) { cnt.textContent = ct; if (!film) stackTop(); }
+      // S-046：「あ！」のカード：道の丸を大きく並べる（部品 ← … ← 原点。長い道は間を「…」に）
+      const ck = film && ahaNow ? ahaNow.part + '>' + ahaNow.root : '';
+      if (card.dataset.k !== ck) {
+        card.dataset.k = ck; card.hidden = !ck; root.classList.toggle('ahaOn', !!ck);
+        if (ck) {
+          const L = S.dir === 'up' ? ahaNow.path.slice().reverse() : ahaNow.path.filter(k => k !== S.id).reverse();
+          const show = L.length > 4 ? [L[0], L[1], null, L[L.length - 1]] : L;
+          const esc = x => String(x).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+          card.innerHTML = show.map(k => k === null ? `<span class="dots">…${L.length - 3}</span>` : `<figure>${byId.get(k).icon ? `<img src="${byId.get(k).icon}" alt="">` : ''}<figcaption>${esc(nm(byId.get(k)))}</figcaption></figure>`).join(`<span class="ar">${S.dir === 'up' ? '→' : '←'}</span>`);
+          if (window.Furigana) { Furigana.apply(card); Furigana.apply(cap); }
+        }
+      }
       if (film) req();
     }
     root.tabIndex = -1; root.focus();

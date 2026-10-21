@@ -319,7 +319,8 @@
         const old = S, ov = view, was = mode === 'center';
         S = scene(newId, DIR); people = null;
         // S-040：前の図にもあった丸は、前の画面の位置から次の位置へ動いて移る（動きを減らす設定の人はすぐ切り替える）
-        TR = was && !reduce() ? { at: performance.now(), to: new Map(S.P), from: new Map([...old.entries].map(([k]) => { const [x, y] = old.P.get(k); return [k, [ov.cx + x * ov.sc, ov.cy + y * ov.sc]]; })), osc: ov.sc, gone: [...old.entries].filter(([k]) => !S.dist.has(k)).map(([k]) => k), oldS: old } : null;
+        const XF = (window.FILM_RECENTER || 'fade') === 'fade';   // S-043：決まるまではクロスフェード（前の図がうすく消えて、新しい場所でうすく出る）。'slide'＝S-040 のすべる形（見本）
+        TR = was && !reduce() ? { at: performance.now(), xf: XF, to: new Map(S.P), from: XF ? new Map() : new Map([...old.entries].map(([k]) => { const [x, y] = old.P.get(k); return [k, [ov.cx + x * ov.sc, ov.cy + y * ov.sc]]; })), osc: ov.sc, gone: [...old.entries].filter(([k]) => XF || !S.dist.has(k)).map(([k]) => k), gpos: new Map([...old.entries].map(([k]) => { const [x, y] = old.P.get(k); return [k, [ov.cx + x * ov.sc, ov.cy + y * ov.sc]]; })), oldS: old } : null;
       }
       glowK = null; mode = 'center'; zoom = 1; panX = panY = 0; s = 0; S.sel = null; centerAt = reduce() ? 0 : performance.now();
       root.classList.add('centerMode'); root.setAttribute('aria-label', nm(byId.get(S.id)));
@@ -445,7 +446,7 @@
       // 線
       let arrived = 0;
       ctx.lineWidth = px; ctx.strokeStyle = C.sub; ctx.globalAlpha = film ? 0.25 : 0.3; ctx.beginPath();
-      const runs = [], wl = [];
+      const runs = [], wl = [], fadeL = [];
       // 案D：外の輪（3つ目から）は、開いた扇の物だけ出す
       const hid = k => S.LAY === 'D' && S.dist.get(k) > 2 && !S.open.has(S.sectorKey(k));
       for (const [k, d] of S.entries) {
@@ -456,11 +457,11 @@
         const [x, y] = S.P.get(k), [vx, vy] = S.P.get(S.via.get(k));
         if (!film) continue;   // 止まった後は下で全部のつながりを描く
         if ((S.LAY === 'A' || S.LAY === 'C' || S.LAY === 'D') && S.kindOf(k) === 'wisdom') { if (S.LAY !== 'C' || S.dist.get(k) <= 2) wl.push([x, y, vx, vy]); continue; }
-        ctx.moveTo(vx, vy); ctx.lineTo(vx + (x - vx) * p, vy + (y - vy) * p);
-        const r = (t - ls - 700) / 300;
-        if (film && r > 0 && r < 1 && still < 0) runs.push([x + (vx - x) * r, y + (vy - y) * r]);
+        if (p < 1) { fadeL.push([x, y, vx, vy, p]); continue; }   // S-043：線は伸びずに、その場でうすく出る
+        ctx.moveTo(vx, vy); ctx.lineTo(x, y);
       }
       ctx.stroke();
+      for (const [x, y, vx, vy, p] of fadeL) { ctx.globalAlpha = 0.25 * p; ctx.beginPath(); ctx.moveTo(vx, vy); ctx.lineTo(x, y); ctx.stroke(); }
       if (!film) {   // S-032：止まった後は、輪の中のノードどうしのつながりを全部（細く・薄く）。part は太く、understanding は点線
         const fade = TR ? 1 : Math.min(1, (performance.now() - centerAt) / 500);
         const draw = (list, alpha, col, w) => {
@@ -544,7 +545,8 @@
       // S-040：次の図に無い丸は、前の場所でうすく消える
       if (TR && !film && TR.gone.length) {
         const g = 1 - ease(trEl / 350);
-        if (g > 0) { ctx.globalAlpha = g; for (const k of TR.gone) { const [fx, fy] = TR.from.get(k), x = (fx - cx) / sc, y = (fy - cy) / sc, r = Math.max(2 * px, nodeRk(TR.oldS, k) * TR.osc / sc * 0.8); ctx.fillStyle = colOf(k); ctx.beginPath(); ctx.arc(x, y, r, 0, Math.PI * 2); ctx.fill(); } }
+        if (g > 0) { ctx.globalAlpha = g; if (TR.xf) { ctx.strokeStyle = C.sub; ctx.lineWidth = px; ctx.globalAlpha = 0.16 * g; ctx.beginPath(); for (const [f, t2] of TR.oldS.all) { const A1 = TR.gpos.get(f), B1 = TR.gpos.get(t2); if (!A1 || !B1) continue; ctx.moveTo((A1[0] - cx) / sc, (A1[1] - cy) / sc); ctx.lineTo((B1[0] - cx) / sc, (B1[1] - cy) / sc); } ctx.stroke(); ctx.globalAlpha = g; }
+          for (const k of TR.gone) { const [fx, fy] = TR.gpos.get(k), x = (fx - cx) / sc, y = (fy - cy) / sc, r = Math.max(2 * px, nodeRk(TR.oldS, k) * TR.osc / sc * 0.8); ctx.fillStyle = colOf(k); ctx.beginPath(); ctx.arc(x, y, r, 0, Math.PI * 2); ctx.fill(); } }
       }
       // 点
       ctx.imageSmoothingEnabled = false;
@@ -556,12 +558,7 @@
         if (film && d) {
           const jt = S.jit.get(k), q = (t - layerStart(d) - jt.delay) / (700 * jt.speed), p = ease(q); if (p <= 0) continue;
           swell = q < 1 ? 1 + 0.12 * Math.sin(Math.PI * Math.max(0, q)) : 1;   // 出てくる時に少しふくらんで元へ（控えめ）
-          const [vx0, vy0] = S.P.get(S.via.get(k)), [ex, ey] = S.P.get(k), at = pp => [vx0 + (ex - vx0) * pp, vy0 + (ey - vy0) * pp];
-          [x, y] = at(p); a = p;
-          if (q < 1 && still < 0) {
-            const [bx, by] = at(Math.max(0, ease(q - 0.12)));
-            ctx.globalAlpha = 0.5 * p; ctx.strokeStyle = C.hl; ctx.lineWidth = 2 * px; ctx.beginPath(); ctx.moveTo(bx, by); ctx.lineTo(x, y); ctx.stroke();
-          }
+          a = p;   // S-043：すべって来ずに、その場所でうすく出る（＋少しふくらんで戻る）
         } else if (film) a = ease(t / 900);
         if (!film && TR) a = trA(k);
         const r = nodeRk(S, k) * (film && !d ? 0.6 + 0.4 * a : 1) * swell, rs = r * sc;   // rs＝画面での半径
@@ -576,7 +573,7 @@
         if (sl && rs >= 3) ctx.drawImage(A.c, sl[0], sl[1], 16, 16, x - r * 0.7, y - r * 0.7, r * 1.4, r * 1.4);
         if (film && d === 1 && a >= 1 && rs >= 5 && t < t2) labels.push([x, y + r + 13 * px, nm(n), d]);   // 分解の始め：部品の名前を読める速さで
         if (!film && d && S.dir === 'up' && AIPATH.has(k) && n.kind === 'product' && rs >= 2) labels.push([x, y + r + 13 * px, nm(n), 0]);
-        if (!film && d && (rs >= 9 || (S.LAY === 'D' && d <= 2 && rs >= 4) || (n.pr || 0) >= 8 && rs >= 4)) labels.push([x, y + r + 13 * px, nm(n), d, n.pr || 0]);
+        if (!film && d && (rs >= 9 || (S.LAY === 'D' && d <= 2 && rs >= 4) || (n.pr || 0) >= 8 && rs >= 4)) labels.push([x, y + r + 13 * px, nm(n), d, n.pr || 0, a]);
       }
       // 始まりの光（3 の場面）：全部の始まりに輪が1回だけ広がる
       if (film && t >= t2 && t < t3 + 400) {
@@ -607,11 +604,11 @@
         ctx.globalAlpha = 1; ctx.font = `700 ${12 * px}px ${C.font}`; ctx.textAlign = 'center'; ctx.lineWidth = 3 * px; ctx.strokeStyle = C.bg; ctx.fillStyle = C.ink;
         const boxes = [];
         labels.sort((a, b) => (b[4] || 0) - (a[4] || 0) || a[3] - b[3]);   // S-039：混んでいる所は PageRank の高い物の名前を先に
-        for (const [x, y, text] of labels) {
+        for (const [x, y, text, , , la] of labels) {
           let w0 = MW.get(text); if (w0 == null) { w0 = 0; for (const ch of text) w0 += ch.codePointAt(0) > 0x2e80 ? 12 : 7.2; MW.set(text, w0); }   // 文字の幅は数えて見積もる（measureText は日本語で重い、S-040）
           const w = w0 * px, b = [x - w / 2, y - 12 * px, x + w / 2, y + 3 * px];
           if (boxes.some(o => o[0] < b[2] && b[0] < o[2] && o[1] < b[3] && b[1] < o[3])) continue;
-          boxes.push(b); ctx.strokeText(text, x, y); ctx.fillText(text, x, y);
+          boxes.push(b); ctx.globalAlpha = la ?? 1; ctx.strokeText(text, x, y); ctx.fillText(text, x, y);
         }
       }
       // 混んだ輪の「＋数」：点だけになった輪は、輪の右下に数

@@ -41,7 +41,7 @@
     skip: EN() ? 'Skip ▶▶' : 'とばす ▶▶',
     next: EN() ? 'Next ▶' : '次へ ▶',
     close: EN() ? '✕ Close' : '✕ 閉じる',
-    watch: EN() ? '▶ Watch' : '▶ できるまでを観る',
+    watch: EN() ? '▶ Watch' : '▶ できるまで',
     detail: EN() ? 'Details' : '詳しく見る',
     share: EN() ? '🔗 Share' : '🔗 シェア',
     hint: EN() ? 'Tap a circle to light its links, tap again to put it in the middle' : '丸を押すとつながりが光る。もう1回押すと真ん中に',
@@ -49,7 +49,7 @@
     ahaUp: (a, b) => EN() ? `Follow "${a}" and you reach "${b}"!` : `あ！「${a}」の先に「${b}」がある`,
     made: (k, n) => EN() ? `Without ${nm(k)}, ${n} things would not exist.` : `${nm(k)}が無ければ、${n} 個の物は生まれなかった`,
     sumUp: n => EN() ? `leads to ${n}` : `${n} の物につながる`,
-    watchUp: EN() ? '▶ What it made' : '▶ これが生んだ物',
+    watchUp: EN() ? '▶ What it made' : '▶ 生んだ物',
     sum: (n, r) => EN() ? `${n} technologies · ${r} starting points` : `${n} の技術・${r} 個の始まり`,
   };
   const reduce = () => !!window.FILM_STILL || matchMedia('(prefers-reduced-motion: reduce)').matches;   // FILM_STILL：見本で静止画を確かめる用
@@ -68,11 +68,12 @@
 .film .skip{position:absolute;right:12px;top:12px;min-height:48px;padding:0 18px;font:inherit;font-size:16px;font-weight:700;border:1px solid var(--accent,#2f6f8f);color:var(--accent,#2f6f8f);background:var(--panel,#fff);border-radius:12px;cursor:pointer}
 .film .nextb{position:absolute;right:12px;bottom:16px;min-height:48px;padding:0 18px;font:inherit;font-size:16px;font-weight:700;border:0;color:var(--panel,#fff);background:var(--accent,#2f6f8f);border-radius:12px}
 .film .bar{position:absolute;left:0;right:0;bottom:0;display:flex;gap:8px;padding:8px 12px calc(8px + env(safe-area-inset-bottom));background:var(--panel,#fff);border-top:1px solid var(--line,#ddd)}
-.film .bar[hidden],.film .bar [hidden]{display:none}.film .bar a,.film .bar button{flex:1;display:flex;align-items:center;justify-content:center;min-height:44px;border:1px solid var(--accent,#2f6f8f);border-radius:10px;color:var(--accent,#2f6f8f);background:var(--panel,#fff);text-decoration:none;font:inherit;font-weight:700;font-size:14px;cursor:pointer}
+.film .bar[hidden],.film .bar [hidden]{display:none}.film .bar a,.film .bar button{flex:1 1 auto;white-space:nowrap;padding:0 8px;display:flex;align-items:center;justify-content:center;min-height:44px;border:1px solid var(--accent,#2f6f8f);border-radius:10px;color:var(--accent,#2f6f8f);background:var(--panel,#fff);text-decoration:none;font:inherit;font-weight:700;font-size:14px;cursor:pointer}
 .film.centerMode .cap{bottom:calc(76px + env(safe-area-inset-bottom));font-size:clamp(18px,4vw,26px)}
-.film .flegend{position:absolute;left:12px;right:12px;top:74px;display:flex;flex-wrap:wrap;gap:4px 10px;font-size:11px;color:var(--sub,#666);pointer-events:none}.film .flegend[hidden]{display:none}.film .flegend i{display:inline-block;width:9px;height:9px;border:2px solid;border-radius:50%;margin-right:3px;vertical-align:-1px}.film.story .flegend{display:none}
-.film .fhint{position:absolute;left:16px;top:52px;font-size:13px;color:var(--sub,#666);pointer-events:none}
+.film .flegend{position:absolute;left:12px;right:12px;top:90px;display:flex;flex-wrap:wrap;gap:4px 10px;font-size:11px;color:var(--sub,#666);pointer-events:none}.film .flegend[hidden]{display:none}.film .flegend i{display:inline-block;width:9px;height:9px;border:2px solid;border-radius:50%;margin-right:3px;vertical-align:-1px}.film.story .flegend{display:none}
+.film .fhint{position:absolute;left:16px;right:12px;top:66px;font-size:13px;color:var(--sub,#666);pointer-events:none}
 .film.story .skip,.film.story .bar,.film.story .fhint{display:none}.film.story .cnt{top:96px;left:0;right:0;text-align:center;font-size:22px}.film.story .cap{bottom:110px;font-size:24px}
+.film.centerMode .flegend{} @media (max-width:420px){.film .bar{gap:6px;padding-left:8px;padding-right:8px}.film .bar a,.film .bar button{font-size:13px;padding:0 6px}}
 @media (prefers-reduced-motion: reduce){.film,.film .cap.in{transition:none;animation:none}}`;
     document.head.appendChild(st);
   }
@@ -276,12 +277,16 @@
     // S-039：丸の大きさ＝PageRank（この図の中で上位 10% は大きく、次の 30% はそのまま、ほかは少し小さく）
     const prf = new Map(), byPr = [...dist.keys()].filter(k => k !== id).sort((a, b) => (byId.get(b).pr || 0) - (byId.get(a).pr || 0));
     byPr.forEach((k, i) => prf.set(k, i < byPr.length * 0.1 ? 1.3 : i < byPr.length * 0.4 ? 1 : 0.8));
-    return { id, dir, bandW, prf, jit, aha, all, dist, via, layers, ang, nL, RAD, P, roots, grp, groups, lit, hops, sectors, band, kindOf, LAY, rk, und, sectorKey, open: new Set((window.FILM_OPEN || '').split(',').filter(Boolean)), badges: [],   // FILM_OPEN：見本で開いた扇を写す用
+    // S-044：丸どうしが重ならないように、丸の大きさの上限＝いちばん近い丸までの 45%（真ん中の丸とは、その外側から）。どんな並びでも重ならない
+    const rmax = new Map(), ksR = [...dist.keys()].filter(k => k !== id);
+    for (const k of ksR) { const [x, y] = P.get(k); rmax.set(k, Math.max(1, Math.hypot(x, y) - 34 - 4)); }
+    for (let i = 0; i < ksR.length; i++) { const [ax, ay] = P.get(ksR[i]); for (let j = i + 1; j < ksR.length; j++) { const [bx, by] = P.get(ksR[j]), m = Math.hypot(ax - bx, ay - by) * 0.45; if (m < rmax.get(ksR[i])) rmax.set(ksR[i], m); if (m < rmax.get(ksR[j])) rmax.set(ksR[j], m); } }
+    return { id, dir, bandW, rmax, prf, jit, aha, all, dist, via, layers, ang, nL, RAD, P, roots, grp, groups, lit, hops, sectors, band, kindOf, LAY, rk, und, sectorKey, open: new Set((window.FILM_OPEN || '').split(',').filter(Boolean)), badges: [],   // FILM_OPEN：見本で開いた扇を写す用
       total: dist.size - 1, entries: [...dist.entries()] };
   }
   const nodeR = (S, d) => d === 0 ? 34 : Math.max(3, Math.min(15, 0.45 * (2 * Math.PI * S.RAD[d]) / S.layers[d].length));
   const MW = new Map();   // 名前の幅（画面の px、12px の太字）
-  const nodeRk = (S, k) => (S.rk.get(k) || nodeR(S, S.dist.get(k))) * (S.prf.get(k) || 1);
+  const nodeRk = (S, k) => k === S.id ? 34 : Math.min((S.rk.get(k) || nodeR(S, S.dist.get(k))) * (S.prf.get(k) || 1), S.rmax.get(k) ?? 1e9);   // S-044：近くの丸と重ならない大きさまで
   // アイコンのアトラス：全部のノードのアイコンを 16×16 で1枚の canvas に（1回だけ、読めた物から）
   let ATL = null;
   function atlas() {
@@ -315,7 +320,7 @@
     const cv = root.querySelector('canvas'), ctx = cv.getContext('2d', { alpha: false });
     const cap = root.querySelector('.cap'), cnt = root.querySelector('.cnt'), hint = root.querySelector('.fhint'), skip = root.querySelector('.skip'), bar = root.querySelector('.bar');
     let W = 0, H = 0, dpr = 1;
-    const resize = () => { dpr = Math.min(2, devicePixelRatio || 1); W = innerWidth; H = innerHeight; cv.width = W * dpr; cv.height = H * dpr; cv.style.width = W + 'px'; cv.style.height = H + 'px'; req(); };
+    const resize = () => { dpr = Math.min(2, devicePixelRatio || 1); W = innerWidth; H = innerHeight; cv.width = W * dpr; cv.height = H * dpr; cv.style.width = W + 'px'; cv.style.height = H + 'px'; if (mode === 'center') { stackTop(); cap.style.bottom = bar.offsetHeight ? `${bar.offsetHeight + 10}px` : ''; } req(); };
     addEventListener('resize', resize);
     const GC = { nature: '#3f8f4f', tool: css('--hl') || '#d2691e', idea: '#8e5bd6' };
     // S-039：丸の色＝種類（粒度）。製品・部品＝青緑、素子・装置＝赤茶、工程・機械・道具＝茶、知恵＝紫、材料＝黄土、原点＝3つの群れの色
@@ -370,9 +375,16 @@
       root.querySelector('.watch').hidden = !countOf(S.id, 'down'); root.querySelector('.watchUp').hidden = !countOf(S.id, 'up');
       const sb = root.querySelector('.share'); sb.dataset.share = S.id; sb.dataset.shareView = 'center';   // share.js が拾う（S-024）
       const nx = root.querySelector('.nextb'); if (nx) nx.remove();
-      cap.style.bottom = bar.offsetHeight ? `${bar.offsetHeight + 10}px` : '';   // ボタンが2行になって下の帯が高いときも、文が隠れないように
+      cap.style.bottom = bar.offsetHeight ? `${bar.offsetHeight + 10}px` : '';
+      stackTop();   // ボタンが2行になって下の帯が高いときも、文が隠れないように
       cap.dataset.t = ''; if (push !== false && opt.onCenter) opt.onCenter(S.id);
       req();
+    }
+    // 上の行（数・使い方・凡例）を、実際の高さで上から順に重ねる（字が折り返しても重ならないように、S-044）
+    function stackTop() {
+      const lg = root.querySelector('.flegend'), cb = cnt.getBoundingClientRect(), sb = skip.getBoundingClientRect();
+      let y = Math.max(cb.bottom, sb.bottom) + 4; if (!hint.hidden) { hint.style.top = `${y}px`; y = hint.getBoundingClientRect().bottom + 6; }
+      if (!lg.hidden) lg.style.top = `${y}px`;
     }
     function startFilm(newId) {
       if (newId !== S.id || S.dir !== DIR) S = scene(newId, DIR);
@@ -690,7 +702,7 @@
         ct = S.dir === 'up' ? T.sumUp(S.total) : S.total ? T.sum(S.total, S.roots.length) : (EN() ? 'A starting point (no prerequisites)' : '始まりの1つ（前提なし）');
       }
       if (cap.dataset.t !== capText) { cap.dataset.t = capText; cap.textContent = capText; cap.classList.remove('in'); void cap.offsetWidth; cap.classList.add('in'); }
-      if (cnt.textContent !== ct) cnt.textContent = ct;
+      if (cnt.textContent !== ct) { cnt.textContent = ct; if (!film) stackTop(); }
       if (film) req();
     }
     root.tabIndex = -1; root.focus();

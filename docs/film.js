@@ -18,7 +18,9 @@
     ask: n => EN() ? `What does it take to make ${nm(n)}?` : `${nm(n)}を作るには？`,
     count: k => EN() ? `${k} technologies` : `${k} 個の技術`,
     gen: (d, n) => EN() ? ` · ${d} step${d > 1 ? 's' : ''} back: +${n}` : `・${d} 世代前 +${n}`,
-    roots: n => n > 1 ? (EN() ? `From many beginnings (${n} starting points)` : `たくさんの始まりから（${n} 個の始まり）`) : (EN() ? 'It all started here.' : '全部、ここから始まった'),
+    // S-025：始まりを3つの群れに（自然から得た物・最初の道具・考え方）
+    roots: g => { const n = g.nature + g.tool + g.idea, parts = [[g.nature, EN() ? 'from nature' : '自然から得た物'], [g.tool, EN() ? 'first tool' : '最初の道具'], [g.idea, EN() ? 'ideas' : '考え方']].filter(x => x[0]).map(x => `${x[1]} ${x[0]}`).join(EN() ? ', ' : '・');
+      return n > 1 ? (EN() ? `From many beginnings: ${parts}` : `たくさんの始まりから：${parts}`) : (EN() ? 'It all started here.' : '全部、ここから始まった'); },
     people: (p, a) => EN() ? `${p} people + many whose names are lost (${a} technologies)` : `${p} 人＋名前の残っていない、たくさんの人たち（${a} の技術）`,
     you: EN() ? 'Now it is your turn to choose.' : '次は、あなたが選んで',
     skip: EN() ? 'Skip ▶▶' : 'とばす ▶▶',
@@ -72,10 +74,13 @@
     const P = new Map([...dist.keys()].map(k => { const d = dist.get(k), a = ang.get(k); return [k, [Math.cos(a) * RAD[d], Math.sin(a) * RAD[d]]]; }));
     // 始まり＝前提の無いノード（データの中で）。光は全部の始まりから同時に、前提のつながり（via）をたどってモノへ
     const roots = [...dist.keys()].filter(k => k !== id && !(parents.get(k) || []).some(p => byId.has(p)));
+    // 始まりの群れ：考え方・発見（kind idea）／最初の道具（打製石器）／自然から得た物（鉱石・鉱物など、ほかの全部）
+    const grp = k => byId.get(k).kind === 'idea' ? 'idea' : k === '0-01' ? 'tool' : 'nature';
+    const groups = { nature: 0, tool: 0, idea: 0 }; for (const k of roots) groups[grp(k)]++;
     const lit = new Map();   // 線（k→via）が光る段（始まりから何段目か。いちばん早い物）
     let hops = 1;
     for (const r of roots) { let j = 0; for (let u = r; via.has(u); u = via.get(u)) { j++; if (!lit.has(u) || lit.get(u) > j) lit.set(u, j); } hops = Math.max(hops, j); }
-    return { id, dist, via, layers, ang, nL, RAD, P, roots, lit, hops, total: dist.size - 1, entries: [...dist.entries()] };
+    return { id, dist, via, layers, ang, nL, RAD, P, roots, grp, groups, lit, hops, total: dist.size - 1, entries: [...dist.entries()] };
   }
   const nodeR = (S, d) => d === 0 ? 34 : Math.max(3, Math.min(15, 0.45 * (2 * Math.PI * S.RAD[d]) / S.layers[d].length));
   // アイコンのアトラス：全部のノードのアイコンを 16×16 で1枚の canvas に（1回だけ、読めた物から）
@@ -113,6 +118,7 @@
     let W = 0, H = 0, dpr = 1;
     const resize = () => { dpr = Math.min(2, devicePixelRatio || 1); W = innerWidth; H = innerHeight; cv.width = W * dpr; cv.height = H * dpr; cv.style.width = W + 'px'; cv.style.height = H + 'px'; req(); };
     addEventListener('resize', resize);
+    const GC = { nature: '#3f8f4f', tool: css('--hl') || '#d2691e', idea: '#8e5bd6' };
     const C = { bg: css('--bg') || '#f8f5ee', ink: css('--ink') || '#222', sub: css('--sub') || '#777', hl: css('--hl') || '#d2691e', prod: css('--node-prod') || '#2f6f8f', tech: css('--node-tech') || '#8a6a4a', font: css('--font') || 'sans-serif' };
 
     let S = scene(id), mode = film ? 'film' : 'center', people = null;
@@ -285,7 +291,7 @@
         if (!film && rs < 3 && d) { ctx.fillStyle = n.kind === 'product' ? C.prod : C.tech; ctx.fillRect(x - 2 * px, y - 2 * px, 4 * px, 4 * px); continue; }   // 混んだ輪は小さな点
         ctx.beginPath(); ctx.arc(x, y, r, 0, Math.PI * 2); ctx.fillStyle = C.bg; ctx.fill();
         const glow = rootSet && rootSet.has(k);
-        ctx.lineWidth = (glow ? 3.5 : d ? 1.5 : 3) * Math.min(px, 1 / Math.max(0.5, s * 0.8)); ctx.strokeStyle = glow ? C.hl : n.kind === 'product' ? C.prod : C.tech; ctx.stroke();
+        ctx.lineWidth = (glow ? 3.5 : d ? 1.5 : 3) * Math.min(px, 1 / Math.max(0.5, s * 0.8)); ctx.strokeStyle = glow ? GC[S.grp(k)] : n.kind === 'product' ? C.prod : C.tech; ctx.stroke();
         const sl = A.slot.get(k);
         if (sl && rs >= 3) ctx.drawImage(A.c, sl[0], sl[1], 16, 16, x - r * 0.7, y - r * 0.7, r * 1.4, r * 1.4);
         if (!film && d && rs >= 9) labels.push([x, y + r + 13 * px, nm(n), d]);
@@ -294,9 +300,12 @@
       if (film && t >= t2 && t < t3 + 400) {
         const q = still >= 0 ? 0.5 : (t - t2) / 1400;
         if (q > 0 && q < 1) {
-          ctx.globalAlpha = (1 - q) * 0.9; ctx.strokeStyle = C.hl; ctx.lineWidth = 3 * px; ctx.beginPath();
-          for (const k of S.roots) { const [x, y] = S.P.get(k), r0 = nodeR(S, S.dist.get(k)); ctx.moveTo(x + r0 + 4 * px + q * 14 * px, y); ctx.arc(x, y, r0 + 4 * px + q * 14 * px, 0, Math.PI * 2); }
-          ctx.stroke();
+          ctx.globalAlpha = (1 - q) * 0.9; ctx.lineWidth = 3 * px;
+          for (const g of ['nature', 'tool', 'idea']) {   // 群れごとの色：自然＝緑、最初の道具＝だいだい、考え方＝紫
+            ctx.strokeStyle = GC[g]; ctx.beginPath();
+            for (const k of S.roots) if (S.grp(k) === g) { const [x, y] = S.P.get(k), r0 = nodeR(S, S.dist.get(k)); ctx.moveTo(x + r0 + 4 * px + q * 14 * px, y); ctx.arc(x, y, r0 + 4 * px + q * 14 * px, 0, Math.PI * 2); }
+            ctx.stroke();
+          }
         }
       }
       // モノに光が届いた：輪が1回広がる
@@ -339,7 +348,7 @@
       let capText, ct;
       if (film) {
         const sc5 = t < t1 ? 0 : t < t2 ? 1 : t < t3 ? 2 : t < t4 ? 3 : 4;
-        capText = [T.ask(target), T.ask(target), T.roots(S.roots.length), people ? T.people(people.n, people.anon) : '…', T.you][sc5];
+        capText = [T.ask(target), T.ask(target), T.roots(S.groups), people ? T.people(people.n, people.anon) : '…', T.you][sc5];
         ct = sc5 >= 1 ? T.count(Math.min(S.total, sc5 >= 2 ? S.total : arrived)) + (sc5 === 1 && shown ? T.gen(shown, S.layers[shown].length) : '') : '';
       } else {
         capText = `[${S.id}] ${nm(target)}`;

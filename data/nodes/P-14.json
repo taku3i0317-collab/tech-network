@@ -45,7 +45,7 @@
  },
  "game": {
   "status": "❓",
-  "buildable_now": false,
+  "buildable_now": true,
   "play": "作品：パソコンの作業机。電気を切ると中身が消える",
   "missing": "",
   "item": null,

@@ -36,6 +36,7 @@ section h2 { display: flex; justify-content: space-between; gap: 8px; }
     <a href="node.html#10-16">AI までの道</a>
     <a href="glossary.html">用語集</a>
     <input type="search" id="q" placeholder="名前・技術でさがす" aria-label="人物をさがす">
+    <button type="button" id="furiBtn" class="btn" aria-pressed="false">ふりがな</button>
   </nav>
   <header class="top"><div><h1>人物の一覧</h1>
     <div class="muted">技術ネットワークに出てくる人たち。肖像は自作のドット絵（髪・ひげ・服などの特徴だけ）で、写真や絵の写しではありません。存命の人は載せていません。
@@ -81,5 +82,7 @@ section h2 { display: flex; justify-content: space-between; gap: 8px; }
   render();
 })();
 </script>
+<script src="furigana.js"></script>
+<script>Furigana.init(document.getElementById('furiBtn'));</script>
 </body>
 </html>

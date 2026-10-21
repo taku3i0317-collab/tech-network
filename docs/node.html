@@ -77,6 +77,29 @@ details.wall summary b { color: var(--accent); font-size: 18px; }
 .wtile img, .wtile svg { width: 48px; height: 48px; image-rendering: pixelated; }
 .wtile b { font-size: 12px; line-height: 1.3; }
 .wtile small { font-size: 11px; color: var(--sub); line-height: 1.3; }
+/* S-012 決定3：ウィキのように絵を上に（大きなアイコン＋つながりの小さな図）→ 目次 →「図に戻る」をいつも下に */
+.hero { display: grid; grid-template-columns: 1fr auto 1fr; gap: 6px; align-items: center; background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 10px; }
+.hero .col { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.hero .col.l { align-items: flex-end; }
+.hero .col h3 { font-size: 11px; color: var(--sub); margin: 0; font-weight: 400; }
+.hero .mini { display: flex; align-items: center; gap: 4px; max-width: 100%; font-size: 12px; line-height: 1.3; text-decoration: none; color: var(--ink); border: 1px solid var(--line); border-radius: 8px; padding: 2px 6px 2px 2px; background: var(--bg); }
+.hero .col.l .mini { flex-direction: row-reverse; padding: 2px 2px 2px 6px; }
+.hero .mini span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.hero .mini img { width: 20px; height: 20px; image-rendering: pixelated; flex: none; }
+.hero .mini i { width: 20px; text-align: center; font-style: normal; flex: none; }
+.hero .me { display: flex; align-items: center; gap: 4px; color: var(--accent); font-weight: 700; }
+.hero .me .bigic { width: 96px; height: 96px; display: grid; place-items: center; border: 2px solid var(--line); border-radius: 14px; background: var(--bg); font-size: 56px; }
+.hero .me .bigic img { width: 80px; height: 80px; image-rendering: pixelated; }
+.hero .more { font-size: 11px; color: var(--sub); }
+nav.toc { display: flex; flex-wrap: wrap; gap: 6px; background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 8px 10px; margin-top: 12px; font-size: 13px; }
+nav.toc b { width: 100%; font-size: 12px; color: var(--sub); font-weight: 400; }
+nav.toc button { font: inherit; border: 1px solid var(--line); border-radius: 999px; background: var(--bg); color: var(--accent); padding: 2px 10px; cursor: pointer; }
+section { scroll-margin-top: 8px; }
+.backbar { position: fixed; left: 0; right: 0; bottom: 0; z-index: 20; display: flex; justify-content: center; gap: 8px; padding: 8px 12px calc(8px + env(safe-area-inset-bottom)); background: var(--panel); border-top: 1px solid var(--line); }
+.backbar a { display: block; text-align: center; flex: 1; max-width: 360px; padding: 8px; border: 1px solid var(--accent); border-radius: 10px; color: var(--accent); text-decoration: none; font-weight: 700; }
+.backbar button { font: inherit; border: 1px solid var(--line); border-radius: 10px; background: var(--bg); color: var(--ink); padding: 8px 12px; }
+body { padding-bottom: 64px; }
+header.top .ic { display: none; }   /* 大きなアイコンを絵の欄に出すので、題の横の小さいのは出さない */
 @media (max-width: 480px) { .hee { grid-template-columns: 1fr; } .hee .lv { padding: 0; } header.top h1 { font-size: 18px; } }
 </style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -93,9 +116,11 @@ details.wall summary b { color: var(--accent); font-size: 18px; }
     <a href="#10-16">AI までの道</a>
     <input type="search" id="go" placeholder="番号か名前で移動（例 9-07）" aria-label="ノードへ移動">
     <button type="button" id="langBtn" class="btn" lang="en">English</button>
+    <button type="button" id="furiBtn" class="btn" aria-pressed="false">ふりがな</button>
   </nav>
   <main id="page"><p class="muted">読み込み中…</p></main>
 </div>
+<div class="backbar"><a id="backbar" href="network.html">← 図に戻る</a><button type="button" id="topBtn">↑ 上へ</button></div>
 <script src="tech_network_graph.js"></script>
 <script src="tech_network_detail.js"></script>
 <script src="glossary.js"></script>
@@ -232,7 +257,8 @@ details.wall summary b { color: var(--accent); font-size: 18px; }
   }
 
   function render() {
-    const id = decodeURIComponent(location.hash.slice(1)) || data.goal;
+    // 番号は #番号 でも ?id=番号 でも（S-012：?id= を無視して [10-16] が出ていた）。両方あれば # を使う
+    const id = decodeURIComponent(location.hash.slice(1)) || new URLSearchParams(location.search).get('id') || data.goal;
     const d = byId.get(id);
     const page = document.getElementById('page');
     document.getElementById('back').href = 'network.html#' + encodeURIComponent(id);
@@ -400,6 +426,25 @@ details.wall summary b { color: var(--accent); font-size: 18px; }
         <p style="display:flex;flex-wrap:wrap;gap:6px">${issues}</p>
         <p class="muted">ノード番号が入ったひな形が開きます（GitHub のアカウントが要ります）。</p>
       </section>`;
+    // S-012 決定3：絵を上に。大きなアイコンと、前提→これ→次 の小さな図（それぞれ4つまで）。押すとそのノードへ
+    const miniOf = i => { const n = byId.get(i); if (!n) return '';
+      const mi = n.icon ? `<img src="${n.icon}" alt="">` : `<i>${esc(isProd(n) ? (n.emoji || n.symbol) : isIdea(n) ? (n.emoji || '💡') : n.symbol)}</i>`;
+      return `<a class="mini" href="#${i}" title="[${i}] ${esc(n.name)}">${mi}<span>${esc(n.name)}</span></a>`; };
+    const col = (ids, cls, h) => { const u = [...new Set(ids)].filter(i => byId.has(i));
+      return `<div class="col ${cls}"><h3>${h}</h3>${u.slice(0, 4).map(miniOf).join('') || '<span class="more">なし</span>'}${u.length > 4 ? `<span class="more">ほか ${u.length - 4}</span>` : ''}</div>`; };
+    const EN = LANG === 'en';
+    const hero = document.createElement('figure'); hero.className = 'hero'; hero.style.margin = '12px 0 0';
+    hero.innerHTML = col(parentsAll.get(id) || [], 'l', EN ? 'needs' : '前提') + `<div class="me"><span>→</span><div class="bigic">${ic}</div><span>→</span></div>` + col(kids.get(id) || [], 'r', EN ? 'leads to' : '次の技術');
+    const top = page.querySelector('header.top'); top.after(hero);
+    // 目次：ページの見出しから作る（# はノード番号に使っているので、ボタンでその見出しへスクロール）
+    const secs = [...page.querySelectorAll('section > h2')];
+    const toc = document.createElement('nav'); toc.className = 'toc'; toc.setAttribute('aria-label', EN ? 'Contents' : '目次');
+    toc.innerHTML = `<b>${EN ? 'Contents' : '目次'}</b>` + secs.map((h, k) => `<button type="button" data-k="${k}">${esc(h.childNodes[0].textContent.trim().replace(/（.*$/, ''))}</button>`).join('');
+    toc.onclick = e => { const b = e.target.closest('button'); if (b) secs[+b.dataset.k].parentElement.scrollIntoView({ behavior: 'smooth' }); };
+    hero.after(toc);
+    const back = document.getElementById('backbar'); back.href = `network.html#${id}`; back.textContent = EN ? '← Back to the map' : '← 図に戻る';
+    document.getElementById('topBtn').textContent = EN ? '↑ Top' : '↑ 上へ';
+    document.getElementById('topBtn').onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
     // 祖先を押すと、そこからこのノードまでの1本の道を矢印で（NET-09）
     const L = layersOf(id), box = page.querySelector('.pathbox');
     page.querySelectorAll('.lchip').forEach(b => b.onclick = () => {
@@ -421,5 +466,7 @@ details.wall summary b { color: var(--accent); font-size: 18px; }
   render();
 })();
 </script>
+<script src="furigana.js"></script>
+<script>Furigana.init(document.getElementById('furiBtn'));</script>
 </body>
 </html>

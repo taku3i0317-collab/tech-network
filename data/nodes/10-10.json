@@ -56,7 +56,7 @@
   "real": "1961 フェアチャイルドのマイクロロジック（RTL）、1960年代 TTL（1964 TI の 7400 シリーズ）。1チップにゲート数個（SSI）→数十〜数百（MSI）。1969 アポロ誘導コンピュータは IC を大量に使った"
  },
  "game": {
-  "status": "❓",
+  "status": "✅",
   "buildable_now": false,
   "play": "",
   "missing": "",

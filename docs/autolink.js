@@ -31,33 +31,46 @@
       });
     }).join('');
   }
-  // プレビュー：リンクにマウスを乗せると小さなカード。スマホは長押し（0.5 秒）
+  // プレビュー：マウスはリンクに乗せると小さなカード、スマホは長押し（0.5 秒）。
+  // S-012：スマホでカードが出たまま消えなかった（指で押すとマウスの「乗った」だけが起きて「離れた」が起きないため）。
+  // マウスの出し入れは本物のマウスのときだけ。スマホのカードは × ・外を押す・スクロール・画面の向きを変える・Esc で消える。言葉のすぐ下（入らなければ上）に出す
   function preview(root, info) {
     let box = document.getElementById('alprev');
     if (!box) { box = document.createElement('div'); box.id = 'alprev'; box.className = 'alprev'; box.hidden = true; document.body.appendChild(box); }
-    const show = (a) => {
+    let byTouch = false;
+    const show = (a, touch) => {
       const d = info(a.dataset.al); if (!d) return;
-      box.innerHTML = `${d.icon ? `<img src="${d.icon}" alt="">` : ''}<div><b>${d.name}</b>${d.text ? `<p>${d.text}</p>` : ''}</div>`;
+      byTouch = touch;
+      box.classList.toggle('touch', touch);
+      box.innerHTML = `${d.icon ? `<img src="${d.icon}" alt="">` : ''}<div><b>${d.name}</b>${d.text ? `<p>${d.text}</p>` : ''}</div>`
+        + (touch ? '<button type="button" class="alclose" aria-label="閉じる">×</button>' : '');
       box.hidden = false;
       const r = a.getBoundingClientRect(), w = Math.min(300, window.innerWidth - 16);
       box.style.width = w + 'px';
       box.style.left = Math.max(8, Math.min(window.innerWidth - w - 8, r.left)) + 'px';
-      const below = r.bottom + 8, h = box.offsetHeight;
-      box.style.top = (below + h > window.innerHeight ? Math.max(8, r.top - h - 8) : below) + 'px';
+      const below = r.bottom + 6, h = box.offsetHeight;
+      box.style.top = (below + h > window.innerHeight - 8 ? Math.max(8, r.top - h - 6) : below) + 'px';
     };
-    const hide = () => { box.hidden = true; };
-    root.addEventListener('mouseover', e => { const a = e.target.closest && e.target.closest('a.al'); if (a) show(a); });
-    root.addEventListener('mouseout', e => { const a = e.target.closest && e.target.closest('a.al'); if (a) hide(); });
+    const hide = () => { box.hidden = true; byTouch = false; };
+    const linkOf = e => e.target && e.target.closest ? e.target.closest('a.al') : null;
+    root.addEventListener('pointerover', e => { if (e.pointerType === 'mouse') { const a = linkOf(e); if (a) show(a, false); } });
+    root.addEventListener('pointerout', e => { if (e.pointerType === 'mouse' && linkOf(e) && !byTouch) hide(); });
     let timer = null, longShown = false;
-    root.addEventListener('touchstart', e => {
-      const a = e.target.closest && e.target.closest('a.al'); if (!a) return;
-      longShown = false; timer = setTimeout(() => { show(a); longShown = true; }, 500);
-    }, { passive: true });
-    root.addEventListener('touchend', () => clearTimeout(timer));
-    root.addEventListener('touchmove', () => clearTimeout(timer), { passive: true });
-    root.addEventListener('click', e => { if (longShown && e.target.closest && e.target.closest('a.al')) { e.preventDefault(); longShown = false; } }, true);
-    document.addEventListener('scroll', hide, { passive: true });
-    document.addEventListener('touchstart', e => { if (!e.target.closest || !e.target.closest('a.al')) hide(); }, { passive: true });
+    root.addEventListener('pointerdown', e => {
+      if (e.pointerType === 'mouse') return;
+      const a = linkOf(e); if (!a) return;
+      longShown = false; clearTimeout(timer);
+      timer = setTimeout(() => { show(a, true); longShown = true; }, 500);
+    });
+    const cancel = () => clearTimeout(timer);
+    root.addEventListener('pointerup', cancel); root.addEventListener('pointercancel', cancel); root.addEventListener('pointermove', e => { if (e.pointerType !== 'mouse') cancel(); });
+    root.addEventListener('click', e => { if (longShown && linkOf(e)) { e.preventDefault(); longShown = false; } }, true);
+    root.addEventListener('contextmenu', e => { if (linkOf(e)) e.preventDefault(); });   // 長押しのメニューを出さない
+    box.addEventListener('click', e => { if (e.target.closest('.alclose')) hide(); });
+    document.addEventListener('pointerdown', e => { if (!box.hidden && !box.contains(e.target) && !linkOf(e)) hide(); }, true);
+    window.addEventListener('scroll', hide, { passive: true, capture: true });   // どの箱がスクロールしても消す
+    window.addEventListener('resize', hide);
+    document.addEventListener('keydown', e => { if (e.key === 'Escape') hide(); });
   }
   window.AutoLink = { init, link, preview };
 })();

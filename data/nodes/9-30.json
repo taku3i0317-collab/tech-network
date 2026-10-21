@@ -29,6 +29,30 @@
     },
     "certainty": "低温 CVD の SiO2（シラン＋酸素、約400℃）◎／シランの初合成 1857 ○／2層配線の年 △",
     "basis": "Wikipedia「Chemical vapor deposition」（Silicon dioxide）https://en.wikipedia.org/wiki/Chemical_vapor_deposition 、Wikipedia「Silane」https://en.wikipedia.org/wiki/Silane （英語）"
+   },
+   {
+    "title": "F35. 結晶の上に結晶を育てる（エピタキシー）［9-30］",
+    "answer": "約1200℃ に熱したシリコンウェハーに、四塩化ケイ素と水素を流すと（SiCl4 + 2H2 → Si + 4HCl）、下の結晶の並びをまねて原子が積もり、同じ向きの単結晶の層が育つ。いっしょにドーパントを入れれば、基板とちがう型・濃さの層になる。1960年にベル研がこの方法のエピタキシャルトランジスタを発表した。",
+    "hee": {
+     "1": "「エピ」は上に、「タキシー」は並ぶ、という意味のギリシャ語。",
+     "2": "シーメンス炉で多結晶の棒を太らせる反応と同じ。単結晶の上なら単結晶になる。",
+     "3": "1960年代のバイポーラ IC は、p の基板の上に n のエピ層を育て、その中にトランジスタを作った。",
+     "4": "今のスマホのチップでも、シリコンにゲルマニウムを混ぜたエピ層で電子の通り道をゆがめて速くしている。"
+    },
+    "certainty": "反応と温度 ◎／ベル研のエピタキシャルトランジスタ 1960 ○",
+    "basis": "Wikipedia「Epitaxy」（Silicon）https://en.wikipedia.org/wiki/Epitaxy （英語）"
+   },
+   {
+    "title": "F36. チップに着せる最後のコート（窒化膜のパッシベーション）［9-30］",
+    "answer": "配線を作り終えたチップの上に、シランとアンモニアから窒化ケイ素の膜を積む（3SiH4 + 4NH3 → Si3N4 + 12H2）。窒化ケイ素は水分やナトリウムのイオンをほとんど通さないので、チップが湿気や汗の塩分でこわれるのを防ぐ。",
+    "hee": {
+     "1": "ナトリウムのイオンは、MOS トランジスタのしきい値をずらす大敵。1960年代の MOS が安定しなかった原因の一つ。",
+     "2": "アルミの上に積むので、今はプラズマで約300℃ に下げて積む（プラズマ CVD）。",
+     "3": "ワイヤーをつなぐパッドの所だけ、窒化膜に窓を開ける。",
+     "4": "窒化ケイ素はとても硬く、ベアリングの玉や切削工具にも使われる。"
+    },
+    "certainty": "反応式と役目 ◎／温度（LPCVD 約700〜800℃・プラズマ CVD 約300℃）○",
+    "basis": "Wikipedia「Silicon nitride」（Production／Applications in electronics）https://en.wikipedia.org/wiki/Silicon_nitride （英語）"
    }
   ],
   "people": [],

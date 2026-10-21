@@ -46,7 +46,7 @@
  },
  "game": {
   "status": "❓",
-  "buildable_now": false,
+  "buildable_now": true,
   "play": "作品：電気をためて、スマホを動かす",
   "missing": "",
   "item": null,

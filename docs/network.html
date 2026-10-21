@@ -15,7 +15,16 @@
 * { box-sizing: border-box; }
 html, body { margin: 0; height: 100%; }
 body { background: var(--bg); color: var(--ink); font: 14px/1.5 system-ui, -apple-system, "Hiragino Sans", "Yu Gothic UI", "Noto Sans JP", sans-serif; display: flex; flex-direction: column; }
-header { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; padding: 10px 16px; border-bottom: 1px solid var(--line); background: var(--panel); }
+header { display: flex; flex-wrap: nowrap; gap: 8px 12px; align-items: center; padding: 10px 16px; border-bottom: 1px solid var(--line); background: var(--panel); position: relative; z-index: 10; }
+header .searchbox { flex: 1 1 auto; min-width: 0; max-width: 420px; }
+header .searchbox input[type=search] { width: 100%; }
+.menuBtn { flex: none; }
+/* S-012：メニュー（☰）。上に固定（ページは動かず図だけが動く）、外を押す・Esc で閉じる */
+.menu { position: absolute; top: 100%; left: 8px; z-index: 20; display: flex; flex-direction: column; align-items: flex-start; gap: 10px; background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius, 8px); padding: 12px 14px; box-shadow: 0 6px 20px rgba(0,0,0,.15); max-width: calc(100vw - 16px); max-height: calc(100vh - 80px); overflow: auto; }
+.menu[hidden] { display: none; }
+.menu .btn, .menu select { min-height: 40px; }
+.menu label { min-height: 32px; }
+.menuRow { display: flex; gap: 8px; }
 header h1 { font-size: 16px; margin: 0 8px 0 0; white-space: nowrap; }
 header .stat { color: var(--sub); font-size: 12px; }
 header input[type=search], header select { font: inherit; padding: 5px 8px; border: 1px solid var(--line); border-radius: 6px; background: var(--bg); color: var(--ink); min-width: 0; }
@@ -95,7 +104,8 @@ small.term { color: var(--sub); font-weight: 400; }
   header .btn { min-height: 32px; padding: 0 10px; font-size: 13px; }
   .intro { font-size: 13px; padding: 6px 12px; }
   .legend { display: none; }
-  .hint { top: auto; bottom: 10px; right: 10px; left: 10px; text-align: center; }
+  .hint { top: 8px; bottom: auto; right: 10px; left: 10px; text-align: center; }   /* S-012：下の「？図の見方」と重ならないよう上に */
+  header h1 { display: none; }   /* スマホは「☰ メニュー」と検索だけ（S-012） */
 }
 </style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -105,18 +115,22 @@ small.term { color: var(--sub); font-weight: 400; }
 </head>
 <body>
 <header>
+  <button type="button" id="menuBtn" class="btn menuBtn" aria-expanded="false" aria-controls="menu">☰ メニュー</button>
   <h1>技術ネットワーク</h1>
   <div class="searchbox"><input type="search" id="q" placeholder="さがす（技術・モノ・人の名前、番号）" aria-label="さがす" autocomplete="off"><div id="results" class="results" hidden></div></div>
-  <button type="button" id="layoutBtn" class="btn primary">つながりで見る</button>
-  <button type="button" id="aiBtn" class="btn">AI までの道</button>
-  <a class="btn" href="people.html">人物の一覧</a>
-  <a class="btn" href="glossary.html" id="glossBtn">用語集</a>
-  <select id="trunk" aria-label="分野でしぼる"><option value="">すべての分野</option></select>
-  <label><input type="checkbox" id="all"> すべての技術</label>
-  <label><input type="checkbox" id="now"> 今すぐ作れるだけ</label>
-  <label><input type="checkbox" id="und" checked> なぜ動くかの線</label>
-  <button type="button" id="langBtn" class="btn" lang="en">English</button>
-  <span class="stat" id="stat"></span>
+  <!-- S-012：上は「☰ メニュー」と検索だけ。ほかはメニューの中（ユーザーの決定） -->
+  <div id="menu" class="menu" hidden>
+    <button type="button" id="layoutBtn" class="btn primary">つながりで見る</button>
+    <button type="button" id="aiBtn" class="btn">AI までの道</button>
+    <a class="btn" href="people.html">人物の一覧</a>
+    <a class="btn" href="glossary.html" id="glossBtn">用語集</a>
+    <select id="trunk" aria-label="分野でしぼる"><option value="">すべての分野</option></select>
+    <label><input type="checkbox" id="all"> すべての技術</label>
+    <label><input type="checkbox" id="now"> 今すぐ作れるだけ</label>
+    <label><input type="checkbox" id="und" checked> なぜ動くかの線</label>
+    <div class="menuRow"><button type="button" id="langBtn" class="btn" lang="en">English</button><button type="button" id="furiBtn" class="btn" aria-pressed="false" hidden>ふりがな</button></div>
+    <span class="stat" id="stat"></span>
+  </div>
 </header>
 <div class="intro" id="intro">石器から AI まで、約600の技術・モノ・発見が「何が無いと何が作れないか」でつながる地図です。<b>まず、モノ（大きな丸）を押してみよう。</b></div>
 <main>
@@ -149,6 +163,12 @@ small.term { color: var(--sub); font-weight: 400; }
   // カード・検索で本物やへえ・人物が要るときに、重いデータ（tech_network_detail.js）を読み込む（NET-05）
   const G = window.TECH_GRAPH;
   const nodes = G.nodes, byId = new Map(nodes.map(n => [n.id, n]));
+  // メニュー（S-012）：☰ で開け閉め。外を押す・Esc で閉じる
+  const menu = document.getElementById('menu'), menuBtn = document.getElementById('menuBtn');
+  const setMenu = open => { menu.hidden = !open; menuBtn.setAttribute('aria-expanded', String(open)); };
+  menuBtn.addEventListener('click', e => { e.stopPropagation(); setMenu(menu.hidden); });
+  document.addEventListener('click', e => { if (!menu.hidden && !menu.contains(e.target) && e.target !== menuBtn) setMenu(false); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') setMenu(false); });
   // 日本語／英語（O-021）：選んだ言語は次も（保存できない環境では毎回日本語）。英語はノードの名前とへえ①、見出しのボタンだけ
   let LANG = 'ja';
   try { LANG = localStorage.getItem('tn-lang') === 'en' ? 'en' : 'ja'; } catch (e) { /* 保存できない環境 */ }
@@ -162,6 +182,7 @@ small.term { color: var(--sub); font-weight: 400; }
   if (LANG === 'en') {
     for (const n of nodes) { n.name_ja = n.name; if (n.name_en) n.name = n.name_en; }
     document.querySelector('h1').textContent = 'Technology network';
+    document.getElementById('menuBtn').textContent = '☰ Menu';
     document.getElementById('q').placeholder = 'Search (technology, product, person, number)';
     document.getElementById('intro').innerHTML = 'A map of how about 600 technologies, products and discoveries connect, from stone tools to AI: "what cannot be made without what". <b>Start by clicking a product (a big circle).</b> <small>(Only names and the first fun fact are in English for now; other text is Japanese.)</small>';
     for (const id of ['aiBtn', 'legendBtn', 'layoutBtn']) { const b = document.getElementById(id); b.textContent = tr(b.textContent); }
@@ -789,5 +810,7 @@ small.term { color: var(--sub); font-weight: 400; }
   fromHash();
 })();
 </script>
+<script src="furigana.js"></script>
+<script>Furigana.init(document.getElementById('furiBtn'));</script>
 </body>
 </html>

@@ -34,6 +34,7 @@ dl { margin: 0; }
     <a href="people.html" id="ppl">人物の一覧</a>
     <input type="search" id="q" placeholder="言葉をさがす" aria-label="言葉をさがす">
     <button type="button" id="langBtn" class="btn" lang="en">English</button>
+    <button type="button" id="furiBtn" class="btn" aria-pressed="false">ふりがな</button>
   </nav>
   <header class="top"><div><h1 id="title">用語集</h1>
     <div class="muted" id="lead">技術の説明によく出てくる基本の言葉。説明の中の言葉や技術の名前は、押すとそのページへ行けます。</div></div></header>
@@ -83,5 +84,7 @@ dl { margin: 0; }
   if (location.hash) { const el = document.getElementById(decodeURIComponent(location.hash.slice(1))); if (el) el.scrollIntoView(); }
 })();
 </script>
+<script src="furigana.js"></script>
+<script>Furigana.init(document.getElementById('furiBtn'));</script>
 </body>
 </html>

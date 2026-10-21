@@ -58,3 +58,12 @@ a.al:hover { color: var(--accent); }
 .alprev { position: fixed; z-index: 50; background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius, 6px); padding: 8px 10px; display: flex; gap: 8px; align-items: flex-start; box-shadow: 0 2px 8px rgba(0,0,0,.12); font-size: 13px; color: var(--ink); pointer-events: none; }
 .alprev img { width: 32px; height: 32px; image-rendering: pixelated; flex: none; }
 .alprev p { margin: 4px 0 0; color: var(--sub); }
+/* S-012：スマホの長押しのカードは押せる（× で閉じる）。長押しで文字の選択・リンクのメニューを出さない */
+a.al { -webkit-touch-callout: none; -webkit-user-select: none; user-select: none; }
+.alprev.touch { pointer-events: auto; padding-right: 30px; }
+.alprev .alclose { position: absolute; top: 2px; right: 4px; border: 0; background: none; font-size: 18px; color: var(--sub); cursor: pointer; padding: 4px 6px; }
+
+/* ふりがな（S-012 決定1）：furigana.js が <ruby class="fu"> を付ける。ボタンはオンのとき色を反転 */
+ruby.fu rt { font-size: 0.55em; font-weight: 400; letter-spacing: 0; color: var(--sub); }
+#furiBtn.on { background: var(--accent); color: var(--panel); }
+.alprev[hidden] { display: none; }   /* S-012：display:flex が hidden に勝って、左上に空のカードが残っていた */

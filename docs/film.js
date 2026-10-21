@@ -201,7 +201,11 @@
     }
     const all = [];   // 図の中のノードどうしの、全部のつながり（共通の祖先への線も）
     for (const [key, k] of EK) { const [f, t] = key.split('>'); if (dist.has(f) && dist.has(t)) all.push([f, t, k]); }
-    return { id, dir, aha, all, dist, via, layers, ang, nL, RAD, P, roots, grp, groups, lit, hops, sectors, band, kindOf, LAY, rk, und, sectorKey, open: new Set((window.FILM_OPEN || '').split(',').filter(Boolean)), badges: [],   // FILM_OPEN：見本で開いた扇を写す用
+    // S-038：小さな揺らぎ。出てくる時刻（0〜120ms）と速さ（±13%）をノードの番号から決める（毎回同じ。止まる場所は変えない）
+    const jit = new Map();
+    for (const k of dist.keys()) { let h = 2166136261; for (const ch of k) h = Math.imul(h ^ ch.charCodeAt(0), 16777619) >>> 0;
+      jit.set(k, { delay: (h % 1000) / 1000 * 120, speed: 0.87 + ((h >>> 10) % 1000) / 1000 * 0.26 }); }
+    return { id, dir, jit, aha, all, dist, via, layers, ang, nL, RAD, P, roots, grp, groups, lit, hops, sectors, band, kindOf, LAY, rk, und, sectorKey, open: new Set((window.FILM_OPEN || '').split(',').filter(Boolean)), badges: [],   // FILM_OPEN：見本で開いた扇を写す用
       total: dist.size - 1, entries: [...dist.entries()] };
   }
   const nodeR = (S, d) => d === 0 ? 34 : Math.max(3, Math.min(15, 0.45 * (2 * Math.PI * S.RAD[d]) / S.layers[d].length));
@@ -381,7 +385,7 @@
       const hid = k => S.LAY === 'D' && S.dist.get(k) > 2 && !S.open.has(S.sectorKey(k));
       for (const [k, d] of S.entries) {
         if (!d) continue;
-        const ls = layerStart(d), p = film ? ease((t - ls) / 700) : 1;
+        const jt = S.jit.get(k), ls = layerStart(d) + jt.delay, p = film ? ease((t - ls) / (700 * jt.speed)) : 1;
         if (p <= 0) continue;
         if (p >= 1) arrived++;
         const [x, y] = S.P.get(k), [vx, vy] = S.P.get(S.via.get(k));
@@ -475,9 +479,10 @@
       const labels = [];
       for (const [k, d] of S.entries) {
         const n = byId.get(k);
-        let [x, y] = S.P.get(k), a = 1;
+        let [x, y] = S.P.get(k), a = 1, swell = 1;
         if (film && d) {
-          const q = (t - layerStart(d)) / 700, p = ease(q); if (p <= 0) continue;
+          const jt = S.jit.get(k), q = (t - layerStart(d) - jt.delay) / (700 * jt.speed), p = ease(q); if (p <= 0) continue;
+          swell = q < 1 ? 1 + 0.12 * Math.sin(Math.PI * Math.max(0, q)) : 1;   // 出てくる時に少しふくらんで元へ（控えめ）
           const [vx0, vy0] = S.P.get(S.via.get(k)), [ex, ey] = S.P.get(k), at = pp => [vx0 + (ex - vx0) * pp, vy0 + (ey - vy0) * pp];
           [x, y] = at(p); a = p;
           if (q < 1 && still < 0) {
@@ -485,7 +490,7 @@
             ctx.globalAlpha = 0.5 * p; ctx.strokeStyle = C.hl; ctx.lineWidth = 2 * px; ctx.beginPath(); ctx.moveTo(bx, by); ctx.lineTo(x, y); ctx.stroke();
           }
         } else if (film) a = ease(t / 900);
-        const r = nodeRk(S, k) * (film && !d ? 0.6 + 0.4 * a : 1), rs = r * sc;   // rs＝画面での半径
+        const r = nodeRk(S, k) * (film && !d ? 0.6 + 0.4 * a : 1) * swell, rs = r * sc;   // rs＝画面での半径
         ctx.globalAlpha = a;
         if (!film && hid(k)) continue;
         if (!film && rs < 3 && d) { ctx.fillStyle = n.kind === 'product' ? C.prod : C.tech; ctx.fillRect(x - 2 * px, y - 2 * px, 4 * px, 4 * px); continue; }   // 混んだ輪は小さな点

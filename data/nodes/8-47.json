@@ -1,0 +1,53 @@
+{
+ "id": "8-47",
+ "history": {
+  "name": "宝石の軸受",
+  "name_en": null,
+  "kind": "tech",
+  "trunk": "8",
+  "trunk_name": "精密・計測",
+  "year": 1704,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "「17石」は、時計の中に17個のルビーが入っているという意味",
+  "hee1_en": null,
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "7-13"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1704年、ファシオとドボーフル兄弟がルビーに穴をあけて時計の軸受にする特許をとった。硬くて減らず、すべりがよい。1902年のベルヌーイ法で人工ルビーが安くなった"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "作品",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": null
+}

@@ -23,15 +23,15 @@
 <meta property="og:type" content="website">
 <meta property="og:title" content="技術ネットワーク — スマホを作るには、254 の技術が要った">
 <meta property="og:description" content="石器から AI まで、約630の技術・モノ・発見が「何が無いと何が作れないか」でつながる地図。どのモノでも「作るには？」をたどれます。">
-<meta property="og:url" content="https://taku3i0317-collab.github.io/tech-network/network.html">
-<meta property="og:image" content="https://taku3i0317-collab.github.io/tech-network/og_image.png">
+<meta property="og:url" content="https://taku3i0317-collab.github.io/semiconductor-lab/network.html">
+<meta property="og:image" content="https://taku3i0317-collab.github.io/semiconductor-lab/og_image.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="スマホを真ん中に、作るのに要った技術が世代ごとの輪に並んだ図">
 <meta property="og:locale" content="ja_JP">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="技術ネットワーク — スマホを作るには、254 の技術が要った">
-<meta name="twitter:image" content="https://taku3i0317-collab.github.io/tech-network/og_image.png">
+<meta name="twitter:image" content="https://taku3i0317-collab.github.io/semiconductor-lab/og_image.png">
 <title>技術ネットワーク</title>
 <!-- データ：tools/gen_tree_views.py が書き出す tech_network_graph.js（図に要る軽いデータ。位置も計算済み）と
      tech_network_detail.js（カード用の重いデータ。押したとき・検索したときに読む）。実行すれば図も最新になる。描画は Canvas（NET-05）。
@@ -194,6 +194,7 @@ body.focusMode .intro { display: none; }
     <button type="button" class="btn" data-film="B-10" id="filmAgain">はじめの動きをもう一度</button>
     <button type="button" class="btn" id="installBtn" hidden>ホーム画面に追加</button>
     <a class="btn" href="ranking.html" id="rankBtn">縁の下の力持ちランキング</a>
+    <a class="btn" href="wiki/index.html" id="wikiBtn">MOD のウィキ（アイテム・機械・道案内）</a>
     <a class="btn" href="credits.html" id="creditsBtn">影響を受けた作品</a>
     <!-- S-051：応援の入口。network_meta.json の support.url が入るまで出さない。ただのリンク（外の会社のスクリプトは読まない）。ポップアップやくり返しの表示はしない -->
     <a class="btn" id="supportBtn" hidden rel="noopener" target="_blank">大人の方へ：この地図を続けるための応援</a>
@@ -269,7 +270,7 @@ body.focusMode .intro { display: none; }
     document.getElementById('intro').innerHTML = 'A map of how about 600 technologies, products and discoveries connect, from stone tools to AI: "what cannot be made without what". <b>Start by clicking a product (a big circle).</b> <small>(Only names and the first fun fact are in English for now; other text is Japanese.)</small>';
     for (const id of ['aiBtn', 'legendBtn', 'layoutBtn', 'toMap', 'toNode', 'toFocus', 'filmAgain', 'installBtn']) { const b = document.getElementById(id); b.textContent = tr(b.textContent); }
     document.querySelector('a[href="people.html"]').textContent = tr('人物の一覧');
-    document.getElementById('glossBtn').textContent = 'Glossary'; document.getElementById('creditsBtn').textContent = 'Inspirations'; document.getElementById('rankBtn').textContent = 'Unsung heroes ranking'; document.getElementById('supportBtn').textContent = 'For grown-ups: support this map';
+    document.getElementById('glossBtn').textContent = 'Glossary'; document.getElementById('creditsBtn').textContent = 'Inspirations'; document.getElementById('rankBtn').textContent = 'Unsung heroes ranking'; document.getElementById('wikiBtn').textContent = 'Mod wiki (items, machines, guides)'; document.getElementById('supportBtn').textContent = 'For grown-ups: support this map';
     document.querySelector('#trunk option').textContent = tr('すべての分野');
     for (const l of document.querySelectorAll('header label')) { const tx = l.lastChild; if (tx && tx.nodeType === 3) tx.textContent = tr(tx.textContent); }
   }

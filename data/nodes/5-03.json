@@ -8,7 +8,7 @@
   "trunk_name": "真空",
   "year": 1643,
   "year_range": null,
-  "year_uncertain": false,
+  "year_uncertain": true,
   "hee1": "天気予報の「hPa（ヘクトパスカル）」はパスカルの名前",
   "hee1_en": "The \"hPa (hectopascal)\" in weather forecasts is named after Pascal.",
   "hee_tree": {
@@ -17,7 +17,20 @@
    "4": ""
   },
   "sources": [],
-  "refs": [],
+  "refs": [
+   {
+    "title": "F53. 空気の重さを水銀で量る（水銀柱）［5-03］",
+    "answer": "水銀を満たしたガラス管を逆さにして水銀の皿に立てると、水銀は約 760mm の高さで止まり、上には何もない空間（トリチェリの真空）ができる。まわりの空気が皿の水銀を押す力（気圧）と水銀柱の重さがつり合う高さ。1643年にトリチェリが作り、1648年にペリエが山の上では水銀柱が低いことを確かめた。",
+    "hee": {
+     "1": "天気予報の hPa（ヘクトパスカル）は、パスカルの名前から。",
+     "2": "1気圧＝760mmHg＝1013hPa。水だと約 10m の柱になる。",
+     "3": "高い山ほど空気が薄く、気圧が低い。",
+     "4": "水銀の蒸気は毒なので、今は電子の気圧計に置きかわった。"
+    },
+    "certainty": "トリチェリ 1643・ペリエ 1648 ◎",
+    "basis": "Wikipedia「Barometer」（History）https://en.wikipedia.org/wiki/Barometer （英語）"
+   }
+  ],
   "people": [
    {
     "name": "トリチェリ",
@@ -51,9 +64,9 @@
   "real": "1643 トリチェリ：水銀を満たしたガラス管を逆さに立てると約76cm で止まり、上に「トリチェリの真空」ができる。1648 パスカルの義兄ペリエがピュイ・ド・ドーム山で高いほど水銀柱が低いことを確認。1atm＝101325Pa＝760mmHg、1Torr≈133Pa"
  },
  "game": {
-  "status": "❓",
-  "buildable_now": true,
-  "play": "",
+  "status": "✅",
+  "buildable_now": false,
+  "play": "軽（置いて右クリック）",
   "missing": "",
   "item": null,
   "recipes": [],

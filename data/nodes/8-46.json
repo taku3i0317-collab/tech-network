@@ -1,0 +1,58 @@
+{
+ "id": "8-46",
+ "history": {
+  "name": "レバー脱進機",
+  "name_en": null,
+  "kind": "tech",
+  "trunk": "8",
+  "trunk_name": "精密・計測",
+  "year": 1755,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "チクタクの音は、脱進機が歯車を1つずつ放す音",
+  "hee1_en": null,
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "8-45"
+    ]
+   ],
+   [
+    [
+     "8-47"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1755年ごろ、イギリスのトーマス・マッジがレバー脱進機を作り、のちに腕時計のほとんどがこの形になった。てんぷが振れるたびに、がんぎ車を1歯ずつ放す（チクタクの音）"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "作品",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": null
+}

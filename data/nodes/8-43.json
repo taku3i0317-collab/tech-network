@@ -1,0 +1,71 @@
+{
+ "id": "8-43",
+ "history": {
+  "name": "機械式時計と輪列",
+  "name_en": null,
+  "kind": "tech",
+  "trunk": "8",
+  "trunk_name": "精密・計測",
+  "year": 1300,
+  "year_range": "1280〜1350",
+  "year_uncertain": true,
+  "hee1": "時計の針は、歯車の数の比でちょうどの速さに回っている",
+  "hee1_en": null,
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "O90. チクタクと動く小さな機械（機械式腕時計）［8-43〜8-48］",
+    "answer": "機械式の時計は、ぜんまい（力）・輪列（歯車）・脱進機（1歯ずつ放す）・てんぷ（決まった速さで往復する）でできている。1300年ごろの塔の時計、1400年代のぜんまい時計を経て、1675年にホイヘンスがてんぷに渦巻きのひげぜんまいを付け、時計は1日数分以内の正確さになった。1704年には宝石の軸受、1755年ごろにはマッジのレバー脱進機が生まれ、1923年にハーウッドが腕時計の自動巻きの特許をとった。夜光の文字盤に使われたラジウムは、塗る仕事をした女性たちに深刻な被害を出し（ラジウム・ガールズ）、働く人を守る法律と放射線の安全の基準につながった。",
+    "hee": {
+     "1": "「17石」は、時計の中に17個のルビーが入っているという意味。",
+     "2": "チクタクの音は、脱進機が歯車を1歯ずつ放す音。",
+     "3": "自動巻きは、腕を振ると中のおもりが回ってぜんまいを巻く。",
+     "4": "ラジウム・ガールズの裁判は、仕事による病気を会社が償う考えを広めた。"
+    },
+    "certainty": "ホイヘンス 1675・宝石の軸受 1704・マッジ 1755・ハーウッド 1923 ◎／塔の時計 1300年ごろ・ぜんまい 1400年代・ペルレ 1770 ○⚠️／ラジウム・ガールズ ◎",
+    "basis": "- Wikipedia「Watch」「Balance spring」「Lever escapement」「Jewel bearing」「Automatic watch」「Radium Girls」：https://en.wikipedia.org/wiki/Watch ・ https://en.wikipedia.org/wiki/Balance_spring ・ https://en.wikipedia.org/wiki/Lever_escapement ・ https://en.wikipedia.org/wiki/Jewel_bearing ・ https://en.wikipedia.org/wiki/Automatic_watch ・ https://en.wikipedia.org/wiki/Radium_Girls"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-05"
+    ]
+   ],
+   [
+    [
+     "8-02"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1300年ごろヨーロッパで、おもりで回す歯車の列（輪列）をバージ脱進機で少しずつ放す塔の時計が生まれた ⚠️"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "作品（腕時計の部品）",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": null
+}

@@ -1,0 +1,53 @@
+{
+ "id": "8-44",
+ "history": {
+  "name": "ぜんまい",
+  "name_en": null,
+  "kind": "tech",
+  "trunk": "8",
+  "trunk_name": "精密・計測",
+  "year": 1450,
+  "year_range": "1400年代",
+  "year_uncertain": true,
+  "hee1": "時計のぜんまいは、巻くと縮み、ほどけながら力を出す鋼の帯",
+  "hee1_en": null,
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-11"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1400年代、おもりの代わりに巻いた鋼の帯（ぜんまい）で動く持ち運べる時計ができた ⚠️"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "作品（巻くと動く）",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": null
+}

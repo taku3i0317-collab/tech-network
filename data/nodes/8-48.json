@@ -1,0 +1,58 @@
+{
+ "id": "8-48",
+ "history": {
+  "name": "自動巻き",
+  "name_en": null,
+  "kind": "tech",
+  "trunk": "8",
+  "trunk_name": "精密・計測",
+  "year": 1923,
+  "year_range": "1770〜1923",
+  "year_uncertain": true,
+  "hee1": "腕を振ると、中のおもりが回ってぜんまいを巻く",
+  "hee1_en": null,
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "8-44"
+    ]
+   ],
+   [
+    [
+     "1-28"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1770年ごろスイスのペルレが歩く振動で巻く懐中時計を作ったとされ⚠️、1923年にイギリスのハーウッドが腕時計の自動巻きの特許をとった"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "作品（歩くと巻かれる）",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": null
+}

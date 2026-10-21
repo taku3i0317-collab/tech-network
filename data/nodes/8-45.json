@@ -1,0 +1,58 @@
+{
+ "id": "8-45",
+ "history": {
+  "name": "てんぷとひげぜんまい",
+  "name_en": null,
+  "kind": "tech",
+  "trunk": "8",
+  "trunk_name": "精密・計測",
+  "year": 1675,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "腕時計の中の小さな輪は、1秒に何回も行ったり来たりしている",
+  "hee1_en": null,
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "8-44"
+    ]
+   ],
+   [
+    [
+     "1-05"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "1675年、ホイヘンスが輪（てんぷ）を細いひげぜんまいで往復させ、決まった速さで振れる調速機にした（フックも同じころ主張）。振り子の等時性（ガリレオ）・フックの法則（1660）が下じき"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "作品",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": null
+}

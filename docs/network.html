@@ -93,7 +93,7 @@ small.term { color: var(--sub); font-weight: 400; }
 #card .wtile small { font-size: 10px; color: var(--sub); line-height: 1.25; }
 .sw { display: inline-block; width: 18px; height: 3px; border-radius: 2px; }
 @media (max-width: 700px) {
-  aside#card { position: absolute; left: 0; right: 0; bottom: 0; width: auto; max-height: 50vh; border-left: 0; border-top: 1px solid var(--line); box-shadow: 0 -6px 20px rgba(0,0,0,.15); z-index: 5; }
+  aside#card { position: absolute; left: 0; right: 0; bottom: 0; width: auto; max-height: 40vh; border-left: 0; border-top: 1px solid var(--line); box-shadow: 0 -6px 20px rgba(0,0,0,.15); z-index: 5; }
   /* スマホ：見出しの高さを詰めて図を広く（タイトルと検索を1行、切り替えを小さく） */
   header { padding: 8px 12px; gap: 6px 10px; }
   header h1 { font-size: 15px; margin: 0; }
@@ -294,7 +294,8 @@ small.term { color: var(--sub); font-weight: 400; }
   };
   const DASH = { understanding: [3, 3], enables: [7, 3], tool: [1, 3], same: [8, 3, 2, 3] };   // O-019：道具は細かい点、同じしくみは一点鎖線（色は増やさない）
   // モノは地図のピンのように、遠くからでも同じくらいの大きさに見せる（倍率の逆数で拡大）
-  const pinScale = () => Math.max(1, 0.7 / K);
+  // S-014：つながりで見るでは上限 1.6 倍（それ以上大きくすると、混んだ所で丸どうしが重なる。並びは gen_tree_views.py が 1.6 倍でも重ならない間を空けている）
+  const pinScale = () => Math.max(1, Math.min(0.7 / K, layoutMode === 'net' ? 1.6 : Infinity));
   // 文字は「その倍率で描いた小さな画像」を作って使い回す（ズーム中に毎コマ文字を描き直すのが一番重いため）。
   // 画像の細かさは倍率の 2 の累乗ごと（地図アプリのタイルと同じ考え）なので、見た目は直接描いた文字と同じ
   const spriteCache = new Map();
@@ -398,7 +399,7 @@ small.term { color: var(--sub); font-weight: 400; }
     ctx.setLineDash([]); ctx.globalAlpha = 1;
     // 点（丸の中に 16×16 のドット絵。無いものは幹の記号・モノの絵文字。発見はひし形）
     const ps = pinScale();
-    if (placedFor !== labelBucket() + layoutMode + (state.sel || '')) placeLabels();
+    if (placedFor !== labelBucket() + layoutMode + (state.sel || '') + '/' + renderGen) placeLabels();
     for (const d of ordered) {
       if (d.hidden) continue;
       const land = isLand(d), r = R(d), sr = (land ? ps : 1) * r * 1.3;
@@ -432,13 +433,14 @@ small.term { color: var(--sub); font-weight: 400; }
           `${Math.round((land ? (isIdea(d) ? 13 : 17) : Math.max(5, r * 1.05)) * 10) / 10}px ${FONT}`, 'center', 'middle', '#000', 0, 0, land ? ps : 1);
         ctx.globalAlpha = a;
       }
-      if (!land && d.descendants >= 8) text(d.name, `9px ${FONT}`, 'left', 'alphabetic', C.ink, r + 2, 3, 1, C.bg, 3);   // 技術の名前（背景色のふちどり付き）
       ctx.restore();
       // モノ・発見の名前（O-004 U-2）：placeLabels が重ならない場所（下・上・その外側）を選ぶ。置けない名前は、
       // 選んだ・検索で当たったときと、拡大して場所が空いたときだけ出す（名前は画面で 12px より大きくしない）
-      if (land && (!d.labelOff || d.sel || d.match)) {
+      // S-014：技術の名前も同じ大きさ（画面で 12px）。重なる名前は、大事さの低い方を出さない（拡大すると出る）
+      if (d.labelDx != null && (!d.labelOff || d.sel || d.match)) {
         ctx.globalAlpha = a;
-        text(d.name, `700 12px ${LABEL_FONT}`, 'center', 'alphabetic', C.ink, d.x + d.labelDx, d.y + d.labelDy, labelScale(K), C.bg, 3);
+        const ls = labelScale(K); ctx.save(); ctx.translate(d.x + d.labelDx, d.y + d.labelDy); ctx.scale(ls, ls);   // text() の s は細かさだけなので、大きさはここで合わせる
+        text(d.name, `700 12px ${LABEL_FONT}`, 'center', 'alphabetic', C.ink, 0, 0, ls, C.bg, 3); ctx.restore();
       }
     }
   }
@@ -475,23 +477,28 @@ small.term { color: var(--sub); font-weight: 400; }
   // モノ・発見の名前の場所（U-2、O-004）：倍率（√2 ごとの段）ごとに、子孫の多いモノから順に、丸の下・上・その外側の
   // 4か所のうち、ほかの名前とモノの丸に重ならない所へ置く。どこにも置けない名前は labelOff（拡大すると空いて出る）
   // 名前の大きさ：遠いときは今までどおり（ピンと一緒に拡大）、近づいたときは画面で 12px のまま（拡大しても大きくしない）
-  const labelScale = k => Math.max(0.7 / k, Math.min(1, 1 / k));
+  const labelScale = k => 1 / k;   // S-014：名前はいつも画面で 12px（倍率によって大きさを変えない）
   const labelBucket = () => 2 ** (Math.round(Math.log2(K) * 2) / 2);
-  let placedFor = null;
+  let placedFor = null, renderGen = 0;
   function placeLabels() {
-    const kb = labelBucket(), ps = Math.max(1, 0.7 / kb), ls = labelScale(kb), h = 13 * ls;
-    placedFor = kb + layoutMode + (state.sel || '');
-    // 選んでいるときは、薄くなったモノの名前は出さず、選んだモノと光った祖先の名前を先に置く
-    for (const n of nodes) if (isLand(n)) n.labelOff = true;
-    const L = nodes.filter(n => isLand(n) && !(state.sel && n.dim)).map(n => ({ n, x: layoutMode === 'net' ? n.netX : n.timeX, y: layoutMode === 'net' ? n.netY : n.timeY,
-      rr: R(n) * (isIdea(n) ? 1.25 : 1) * ps, w: ([...n.name].reduce((t, c) => t + (c.charCodeAt(0) < 0x2000 ? 7 : 12), 0) + 6) * ls }));
-    const boxes = L.map(a => [a.x - a.rr, a.y - a.rr, a.x + a.rr, a.y + a.rr]);   // モノの丸にも名前を重ねない
-    L.sort((a, b) => b.n.sel - a.n.sel || b.n.lit - a.n.lit || isProd(b.n) - isProd(a.n) || b.n.descendants - a.n.descendants);
+    const kb = labelBucket(), ps = Math.max(1, Math.min(0.7 / kb, layoutMode === 'net' ? 1.6 : Infinity)), ls = labelScale(kb), h = 13 * ls;
+    placedFor = kb + layoutMode + (state.sel || '') + '/' + renderGen;
+    const P = n => layoutMode === 'net' ? [n.netX, n.netY] : [n.timeX, n.timeY];
+    // 名前を出す候補：モノ・発見と、見えている技術のうち子孫の多い物（8 以上）・選んだ物・光った祖先・検索で当たった物。
+    // 選んでいるときは、薄くなった物の名前は出さない
+    for (const n of nodes) { n.labelOff = true; n.labelDx = null; }
+    const want = n => !n.hidden && !(state.sel && n.dim) && (isLand(n) || n.descendants >= 8 || n.sel || n.lit || n.match);
+    const L = nodes.filter(want).map(n => { const [x, y] = P(n); return { n, x, y,
+      rr: R(n) * (isIdea(n) ? 1.25 : 1) * (isLand(n) ? ps : 1), w: ([...n.name].reduce((t, c) => t + (c.charCodeAt(0) < 0x2000 ? 7.5 : 12.5), 0) + 16) * ls }; });   // 名前どうしの間を空ける（S-014）
+    // 見えている丸には名前を重ねない（モノも技術も）
+    const boxes = nodes.filter(n => !n.hidden).map(n => { const [x, y] = P(n), rr = R(n) * (isIdea(n) ? 1.25 : 1) * (isLand(n) ? ps : 1); return [x - rr, y - rr, x + rr, y + rr]; });
+    // 大事な順：選んだ物 → 検索で当たった物 → 光った祖先 → モノ → 発見 → 技術（子孫の多い順）
+    L.sort((a, b) => b.n.sel - a.n.sel || b.n.match - a.n.match || b.n.lit - a.n.lit || isLand(b.n) - isLand(a.n) || isProd(b.n) - isProd(a.n) || b.n.descendants - a.n.descendants);
     const hit = b => boxes.some(o => o[0] < b[2] && b[0] < o[2] && o[1] < b[3] && b[1] < o[3]);
     for (const a of L) {
       const side = a.rr + a.w / 2 + 3 * ls, mid = 5 * ls;   // 右・左：丸の横に、丸の真ん中の高さで
       const cands = [[0, a.rr + 13 * ls], [0, -(a.rr + 4 * ls)], [side, mid], [-side, mid], [0, a.rr + 26 * ls], [0, -(a.rr + 17 * ls)]];
-      a.n.labelOff = true; [a.n.labelDx, a.n.labelDy] = cands[0];
+      [a.n.labelDx, a.n.labelDy] = cands[0];
       for (const [dx, dy] of cands) {
         const b = [a.x + dx - a.w / 2, a.y + dy - h + 2 * ls, a.x + dx + a.w / 2, a.y + dy + 3 * ls];
         if (!hit(b)) { a.n.labelDx = dx; a.n.labelDy = dy; a.n.labelOff = false; boxes.push(b); break; }
@@ -515,7 +522,7 @@ small.term { color: var(--sub); font-weight: 400; }
     const xsN = to.map(p => p[0]), ysN = to.map(p => p[1]);
     const [x0, x1, y0b, y1b] = [d3.min(xsN), d3.max(xsN), d3.min(ysN), d3.max(ysN)];
     if (mode === 'net') {
-      const k = Math.min(b.width / (x1 - x0 + 80), b.height / (y1b - y0b + 80), 1.2);
+      const k = narrow ? 0.6 : Math.min(b.width / (x1 - x0 + 80), b.height / (y1b - y0b + 80), 1.2);   // S-014：スマホは読める倍率で真ん中から
       d3.select(cv).transition().duration(700).call(zoom.transform, d3.zoomIdentity.translate(b.width / 2 - (x0 + x1) / 2 * k, b.height / 2 - (y0b + y1b) / 2 * k).scale(k));
     } else {
       d3.select(cv).transition().duration(700).call(zoom.transform, d3.zoomIdentity.translate(narrow ? 4 : Math.max(4, (b.width - W * k0) / 2), 4).scale(k0));
@@ -633,7 +640,7 @@ small.term { color: var(--sub); font-weight: 400; }
     // 最初の画面（モノだけ）では、技術の帯を薄くして「ズームすると技術が見えます」と出す
     V.bandFaint = !det && !state.sel;
     V.bandZoomHidden = det || !!state.sel;
-    markDirty(); requestDraw();
+    renderGen++; markDirty(); requestDraw();
     const hits = q ? nodes.filter(d => matches(d, q)).length : 0;
     document.getElementById('stat').textContent = (q ? `「${state.q.trim()}」${hits} 件・` : '') +
       `モノ ${prods.length}・発見 ${nodes.filter(isIdea).length}・技術 ${nodes.length - prods.length - nodes.filter(isIdea).length}・つながり ${edges.length} 本・前提より古い技術（年の逆転）${G.inversions} 件`;
@@ -755,13 +762,19 @@ small.term { color: var(--sub); font-weight: 400; }
     card.querySelectorAll('.wtile').forEach(b => b.onclick = () => { select(b.dataset.id); center(b.dataset.id); });
     card.querySelectorAll('.chip:not(.lchip)').forEach(b => b.onclick = () => { select(b.dataset.id); center(b.dataset.id); });
   }
+  // 見えている図の真ん中の高さ。スマホでカードが下に開いているときは、カードより上の部分の真ん中（S-014：カードが図をふさぐ）
+  function midY(b) {
+    const c = document.getElementById('card'), cr = c.classList.contains('open') ? c.getBoundingClientRect() : null;
+    const bottom = cr && cr.top > b.top && cr.left <= b.left + 1 ? Math.min(b.bottom, cr.top) : b.bottom;
+    return (bottom - b.top) / 2;
+  }
   function centerKeep(id) {   // 倍率は変えずに、押した点を図の真ん中へ
     const d = byId.get(id), b = chart.getBoundingClientRect(), k = d3.zoomTransform(cv).k;
-    d3.select(cv).transition().duration(500).call(zoom.transform, d3.zoomIdentity.translate(b.width / 2 - d.x * k, b.height / 2 - d.y * k).scale(k));
+    d3.select(cv).transition().duration(500).call(zoom.transform, d3.zoomIdentity.translate(b.width / 2 - d.x * k, midY(b) - d.y * k).scale(k));
   }
   function center(id) {
     const d = byId.get(id), b = chart.getBoundingClientRect(), t = d3.zoomTransform(cv), k = Math.max(t.k, 1);
-    d3.select(cv).transition().duration(500).call(zoom.transform, d3.zoomIdentity.translate(b.width / 2 - d.x * k, b.height / 2 - d.y * k).scale(k));
+    d3.select(cv).transition().duration(500).call(zoom.transform, d3.zoomIdentity.translate(b.width / 2 - d.x * k, midY(b) - d.y * k).scale(k));
   }
 
   // ---- 操作 ----

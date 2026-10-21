@@ -67,3 +67,4 @@ a.al { -webkit-touch-callout: none; -webkit-user-select: none; user-select: none
 ruby.fu rt { font-size: 0.55em; font-weight: 400; letter-spacing: 0; color: var(--sub); }
 #furiBtn.on { background: var(--accent); color: var(--panel); }
 .alprev[hidden] { display: none; }   /* S-012：display:flex が hidden に勝って、左上に空のカードが残っていた */
+button, input, select, textarea { font-family: var(--font); }   /* S-013：ボタンは書体を受け継がないので、English ボタンだけ Arial になっていた */

@@ -6,9 +6,9 @@
   "kind": "tech",
   "trunk": "1",
   "trunk_name": "冶金",
-  "year": 1903,
-  "year_range": "1802〜1905",
-  "year_uncertain": false,
+  "year": 1802,
+  "year_range": null,
+  "year_uncertain": true,
   "hee1": "電球の線は、炭素→タンタル→タングステンと、熱に強い物へ代わっていった（O-012 で追加。出典：Wikipedia「Tantalum」「Werner von Bolton」、Deutsche Biographie 'Bolton, Werner'（https://www.deutsche-biographie.de/sfz5200.html））",
   "hee1_en": "Light bulb filaments changed from carbon to tantalum to tungsten, each more heat-resistant than the last. (Added in O-012. Sources: Wikipedia \"Tantalum\", \"Werner von Bolton\", Deutsche Biographie 'Bolton, Werner' (https://www.deutsche-biographie.de/sfz5200.html))",
   "hee_tree": {
@@ -17,7 +17,20 @@
    "4": ""
   },
   "sources": [],
-  "refs": [],
+  "refs": [
+   {
+    "title": "F38. 飲めないタンタロスの金属（タンタル）［1-66］",
+    "answer": "タンタルは、花崗岩の最後に固まった所（ペグマタイト）にできるタンタル石からとる。フッ酸に溶かしてフッ化カリウムを入れると、K2TaF7 が結晶になり、そっくりなニオブは液に残る（1866 マリニャック）。これを金属ナトリウムと熱するとタンタルになる。1903年にジーメンス・ハルスケ社が延ばせるタンタルを作り、電球の線になった。今はチップの銅配線の下にうすく敷いて、銅がシリコンへしみこむのを止める。",
+    "hee": {
+     "1": "名前はギリシャ神話のタンタロス（水が飲めない罰）。酸に入れても溶けない（＝酸を「飲まない」）ことから。",
+     "2": "タンタルとニオブは似すぎていて、40年以上「同じ元素では？」と争われた。分けたのがマリニャック法。",
+     "3": "還元に使う金属ナトリウムは、1886年のカストナー法（溶かした水酸化ナトリウムの電解）で安くなった。",
+     "4": "タンタルのコンデンサーはスマホに何十個も入っている。鉱石の一部は紛争の資金になり、今は出どころを確かめる決まりがある。"
+    },
+    "certainty": "マリニャック法 1866 ◎／カストナー法 1886 ◎／フォン・ボルトン 1903・タンタル電球 1905 ○（TECH_TREE の出典）",
+    "basis": "Wikipedia「Tantalum」（History／Production）https://en.wikipedia.org/wiki/Tantalum 、Wikipedia「Castner process」https://en.wikipedia.org/wiki/Castner_process （英語）"
+   }
+  ],
   "people": [],
   "media": [],
   "requires": [],
@@ -32,9 +45,9 @@
   "real": "とても融点が高く（約3000℃）さびにくい金属。1802年、スウェーデンのアンデシュ・エーケベリが見つけた。1903年、ドイツのジーメンス・ハルスケ社のヴェルナー・フォン・ボルトンが延ばせる純粋なタンタルを作り、1905年にタンタルのフィラメントの電球が売られた（炭素→タンタル→タングステンと電球の線が進んだ）。今はチップの銅配線（[9-36]）で、銅がシリコンへしみこむのを止める薄い膜（Ta・TaN）や、小さなコンデンサーに使われる"
  },
  "game": {
-  "status": "❓",
-  "buildable_now": true,
-  "play": "",
+  "status": "✅",
+  "buildable_now": false,
+  "play": "重",
   "missing": "",
   "item": null,
   "recipes": [],

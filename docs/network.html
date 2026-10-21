@@ -194,6 +194,8 @@ body.focusMode .intro { display: none; }
     <button type="button" class="btn" id="installBtn" hidden>ホーム画面に追加</button>
     <a class="btn" href="ranking.html" id="rankBtn">縁の下の力持ちランキング</a>
     <a class="btn" href="credits.html" id="creditsBtn">影響を受けた作品</a>
+    <!-- S-051：応援の入口。network_meta.json の support.url が入るまで出さない。ただのリンク（外の会社のスクリプトは読まない）。ポップアップやくり返しの表示はしない -->
+    <a class="btn" id="supportBtn" hidden rel="noopener" target="_blank">大人の方へ：この地図を続けるための応援</a>
     <select id="trunk" aria-label="分野でしぼる"><option value="">すべての分野</option></select>
     <label><input type="checkbox" id="all"> すべての技術</label>
     <label><input type="checkbox" id="now"> 今すぐ作れるだけ</label>
@@ -235,6 +237,7 @@ body.focusMode .intro { display: none; }
   // データ：最初は図に要る軽いデータ（TECH_GRAPH。位置は tools/gen_tree_views.py が先に計算してある）だけを読む。
   // カード・検索で本物やへえ・人物が要るときに、重いデータ（tech_network_detail.js）を読み込む（NET-05）
   const G = window.TECH_GRAPH;
+  { const u = G.support, b = document.getElementById('supportBtn'); if (u && /^https:\/\//.test(u)) { b.href = u; b.hidden = false; } }   // S-051：応援のリンク（設定が入るまで出さない）
   const nodes = G.nodes, byId = new Map(nodes.map(n => [n.id, n]));
   // メニュー（S-012）：☰ で開け閉め。外を押す・Esc で閉じる
   const menu = document.getElementById('menu'), menuBtn = document.getElementById('menuBtn');
@@ -265,7 +268,7 @@ body.focusMode .intro { display: none; }
     document.getElementById('intro').innerHTML = 'A map of how about 600 technologies, products and discoveries connect, from stone tools to AI: "what cannot be made without what". <b>Start by clicking a product (a big circle).</b> <small>(Only names and the first fun fact are in English for now; other text is Japanese.)</small>';
     for (const id of ['aiBtn', 'legendBtn', 'layoutBtn', 'toMap', 'toNode', 'toFocus', 'filmAgain', 'installBtn']) { const b = document.getElementById(id); b.textContent = tr(b.textContent); }
     document.querySelector('a[href="people.html"]').textContent = tr('人物の一覧');
-    document.getElementById('glossBtn').textContent = 'Glossary'; document.getElementById('creditsBtn').textContent = 'Inspirations'; document.getElementById('rankBtn').textContent = 'Unsung heroes ranking';
+    document.getElementById('glossBtn').textContent = 'Glossary'; document.getElementById('creditsBtn').textContent = 'Inspirations'; document.getElementById('rankBtn').textContent = 'Unsung heroes ranking'; document.getElementById('supportBtn').textContent = 'For grown-ups: support this map';
     document.querySelector('#trunk option').textContent = tr('すべての分野');
     for (const l of document.querySelectorAll('header label')) { const tx = l.lastChild; if (tx && tx.nodeType === 3) tx.textContent = tr(tx.textContent); }
   }

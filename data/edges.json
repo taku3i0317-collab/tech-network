@@ -11053,6 +11053,81 @@
 "kind": "part"
 },
 {
+"from": "8-46",
+"to": "P-38",
+"kind": "requires",
+"group": 0,
+"or": false
+},
+{
+"from": "8-45",
+"to": "P-38",
+"kind": "requires",
+"group": 1,
+"or": false
+},
+{
+"from": "8-44",
+"to": "P-38",
+"kind": "requires",
+"group": 2,
+"or": false
+},
+{
+"from": "8-43",
+"to": "P-38",
+"kind": "requires",
+"group": 3,
+"or": false
+},
+{
+"from": "8-47",
+"to": "P-38",
+"kind": "requires",
+"group": 4,
+"or": false
+},
+{
+"from": "1-26",
+"to": "P-38",
+"kind": "part"
+},
+{
+"from": "7-01",
+"to": "P-38",
+"kind": "part"
+},
+{
+"from": "8-43",
+"to": "P-38",
+"kind": "part"
+},
+{
+"from": "8-44",
+"to": "P-38",
+"kind": "part"
+},
+{
+"from": "8-45",
+"to": "P-38",
+"kind": "part"
+},
+{
+"from": "8-46",
+"to": "P-38",
+"kind": "part"
+},
+{
+"from": "8-47",
+"to": "P-38",
+"kind": "part"
+},
+{
+"from": "8-48",
+"to": "P-38",
+"kind": "part"
+},
+{
 "from": "10-01",
 "to": "I-01",
 "kind": "requires",
@@ -11956,6 +12031,21 @@
 "from": "I-56",
 "to": "2-62",
 "kind": "enables"
+},
+{
+"from": "I-57",
+"to": "8-45",
+"kind": "understanding"
+},
+{
+"from": "I-58",
+"to": "8-44",
+"kind": "understanding"
+},
+{
+"from": "I-58",
+"to": "8-45",
+"kind": "understanding"
 },
 {
 "from": "0-01",

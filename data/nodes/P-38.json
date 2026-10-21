@@ -1,0 +1,90 @@
+{
+ "id": "P-38",
+ "history": {
+  "name": "機械式腕時計",
+  "name_en": null,
+  "kind": "product",
+  "trunk": "P",
+  "trunk_name": "モノ（作品）",
+  "year": 1810,
+  "year_range": "1810〜1920年代",
+  "year_uncertain": true,
+  "hee1": "機械式の腕時計には電池が入っていない。巻いたぜんまいの力だけで動く",
+  "hee1_en": null,
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://en.wikipedia.org/wiki/Watch",
+   "https://en.wikipedia.org/wiki/Mechanical_watch"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "8-46"
+    ]
+   ],
+   [
+    [
+     "8-45"
+    ]
+   ],
+   [
+    [
+     "8-44"
+    ]
+   ],
+   [
+    [
+     "8-43"
+    ]
+   ],
+   [
+    [
+     "8-47"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [
+   "1-26",
+   "7-01",
+   "8-43",
+   "8-44",
+   "8-45",
+   "8-46",
+   "8-47",
+   "8-48"
+  ],
+  "materials": [
+   "鋼",
+   "青銅",
+   "ルビー",
+   "ガラス"
+  ],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "巻いたぜんまいの力を輪列で少しずつ伝え、てんぷとひげぜんまいが決まった速さで往復し、レバー脱進機がそのたびに歯車を1歯ずつ放す。軸はすり減らないようにルビーの軸受（17石など）で受ける。手首に巻く時計は1810年ごろブレゲがナポリ王妃のために作った物が早い例とされ⚠️、20世紀のはじめから広まった。電池は使わない"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "作品：巻くと、手首で時を刻む",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": null
+}

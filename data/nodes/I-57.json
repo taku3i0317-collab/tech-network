@@ -1,0 +1,51 @@
+{
+ "id": "I-57",
+ "history": {
+  "name": "振り子の等時性",
+  "name_en": null,
+  "kind": "idea",
+  "trunk": "I",
+  "trunk_name": "発見・考え方",
+  "year": 1602,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "ブランコは、大きくこいでも小さくこいでも、1往復の時間はほとんど同じ",
+  "hee1_en": null,
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://en.wikipedia.org/wiki/Pendulum"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [],
+  "understanding": [],
+  "enables": [],
+  "explains": [
+   "8-45"
+  ],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "ガリレオ・ガリレイ（1564〜1642）は1602年ごろから振り子を調べ、ふれ幅が大きくても小さくても、1往復にかかる時間はほぼ同じ（長さで決まる）ことに気づいた。いちばん古く残っている報告は、1602年11月29日にパドヴァからグイドバルド・デル・モンテに出した手紙。この性質が、ホイヘンスの振り子時計（1656年）や、腕時計のてんぷの考えの下じきになった（てんぷは、振り子の代わりにひげぜんまいで往復する）"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "実験：ひもにおもりをつけ、大きくふった時と小さくふった時の10往復の時間をくらべる",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": null
+}

@@ -33,7 +33,9 @@
   "parts": [],
   "materials": [],
   "enabled_by": [],
-  "explained_by": [],
+  "explained_by": [
+   "I-58"
+  ],
   "frontier": false,
   "real": "1400年代、おもりの代わりに巻いた鋼の帯（ぜんまい）で動く持ち運べる時計ができた ⚠️"
  },

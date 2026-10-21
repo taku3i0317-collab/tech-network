@@ -1,0 +1,52 @@
+{
+ "id": "I-58",
+ "history": {
+  "name": "フックの法則",
+  "name_en": null,
+  "kind": "idea",
+  "trunk": "I",
+  "trunk_name": "発見・考え方",
+  "year": 1678,
+  "year_range": "1660〜1678",
+  "year_uncertain": false,
+  "hee1": "フックは見つけた法則を、まずは文字を並べかえた暗号で発表した",
+  "hee1_en": null,
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [
+   "https://en.wikipedia.org/wiki/Hooke%27s_law"
+  ],
+  "refs": [],
+  "people": [],
+  "media": [],
+  "requires": [],
+  "understanding": [],
+  "enables": [],
+  "explains": [
+   "8-44",
+   "8-45"
+  ],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "ロバート・フック（1635〜1703）は1676年にラテン語の文字の並べかえ（アナグラム）で発表し、1678年にその答え「ut tensio, sic vis（のびのとおりに力がある）」を出した。そのとき1660年から知っていたと書いた。ばねは引いた力に比例してのびる（同じ割合でもどろうとする）ので、ひげぜんまいで往復するてんぷは、ふれ幅が変わってもほぼ同じ速さで振れる"
+ },
+ "game": {
+  "status": "❓",
+  "buildable_now": true,
+  "play": "実験：ばねにおもりを1つ・2つ・3つとつるし、のびが2倍・3倍になるかを測る",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": null
+}

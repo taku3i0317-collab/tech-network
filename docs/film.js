@@ -44,7 +44,8 @@
     watch: EN() ? '▶ Watch' : '▶ できるまで',
     detail: EN() ? 'Details' : '詳しく見る',
     share: EN() ? '🔗 Share' : '🔗 シェア',
-    hint: EN() ? 'Tap a circle to light its links, tap again to put it in the middle' : '丸を押すとつながりが光る。もう1回押すと真ん中に',
+    hint: EN() ? 'Tap a circle to choose it, tap again to put it in the middle' : '丸を押すと選べる。もう1回押すと真ん中に',
+    toC: EN() ? '◎ Center' : '◎ 真ん中へ',
     askUp: n => EN() ? `What did ${nm(n)} make possible?` : `${nm(n)}が生んだ物は？`,
     ahaUp: (a, b) => EN() ? `Follow "${a}" and you reach "${b}"!` : `あ！「${a}」の先に「${b}」がある`,
     made: (k, n) => EN() ? `Without ${nm(k)}, ${n} things would not exist.` : `${nm(k)}が無ければ、${n} 個の物は生まれなかった`,
@@ -67,13 +68,14 @@
 .film .cnt{position:absolute;left:16px;top:18px;right:150px;font-size:clamp(15px,3.6vw,20px);color:var(--sub,#666);font-weight:700;pointer-events:none}
 .film .skip{position:absolute;right:12px;top:12px;min-height:48px;padding:0 18px;font:inherit;font-size:16px;font-weight:700;border:1px solid var(--accent,#2f6f8f);color:var(--accent,#2f6f8f);background:var(--panel,#fff);border-radius:12px;cursor:pointer}
 .film .nextb{position:absolute;right:12px;bottom:16px;min-height:48px;padding:0 18px;font:inherit;font-size:16px;font-weight:700;border:0;color:var(--panel,#fff);background:var(--accent,#2f6f8f);border-radius:12px}
-.film .bar{position:absolute;left:0;right:0;bottom:0;display:flex;gap:8px;padding:8px 12px calc(8px + env(safe-area-inset-bottom));background:var(--panel,#fff);border-top:1px solid var(--line,#ddd)}
+.film .bar{position:absolute;left:0;right:0;bottom:0;display:flex;flex-wrap:wrap;gap:8px;padding:8px 12px calc(8px + env(safe-area-inset-bottom));background:var(--panel,#fff);border-top:1px solid var(--line,#ddd)}
 .film .bar[hidden],.film .bar [hidden]{display:none}.film .bar a,.film .bar button{flex:1 1 auto;white-space:nowrap;padding:0 8px;display:flex;align-items:center;justify-content:center;min-height:44px;border:1px solid var(--accent,#2f6f8f);border-radius:10px;color:var(--accent,#2f6f8f);background:var(--panel,#fff);text-decoration:none;font:inherit;font-weight:700;font-size:14px;cursor:pointer}
 .film.centerMode .cap{bottom:calc(76px + env(safe-area-inset-bottom));font-size:clamp(18px,4vw,26px)}
 .film .flegend{position:absolute;left:12px;right:12px;top:90px;display:flex;flex-wrap:wrap;gap:4px 10px;font-size:11px;color:var(--sub,#666);pointer-events:none}.film .flegend[hidden]{display:none}.film .flegend i{display:inline-block;width:9px;height:9px;border:2px solid;border-radius:50%;margin-right:3px;vertical-align:-1px}.film.story .flegend{display:none}
 .film .fhint{position:absolute;left:16px;right:12px;top:66px;font-size:13px;color:var(--sub,#666);pointer-events:none}
 .film.story .skip,.film.story .bar,.film.story .fhint{display:none}.film.story .cnt{top:96px;left:0;right:0;text-align:center;font-size:22px}.film.story .cap{bottom:110px;font-size:24px}
-.film.centerMode .flegend{} @media (max-width:420px){.film .bar{gap:6px;padding-left:8px;padding-right:8px}.film .bar a,.film .bar button{font-size:13px;padding:0 6px}}
+.film.centerMode .flegend{} .film.centerMode .cap{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.film .cap small{display:block;font-family:var(--font-ui,sans-serif);font-size:13px;color:var(--sub,#666);text-shadow:none}
+@media (max-width:420px){.film .bar{gap:6px;padding-left:8px;padding-right:8px}.film .bar a,.film .bar button{font-size:13px;padding:0 6px}}
 @media (prefers-reduced-motion: reduce){.film,.film .cap.in{transition:none;animation:none}}`;
     document.head.appendChild(st);
   }
@@ -130,6 +132,8 @@
         for (const k of set) if (isRoot(k)) ring.set(k, Math.max(maxL + 1, Ld(k)));
         const R = Math.max(...[...set].map(k => ring.get(k)));
         for (const k of set) if (isRoot(k)) ring.set(k, R);   // 始まりは全部いちばん外
+        // S-045：前提の無い知恵（考え方・発見）は遠い外周に飛ばさず、作る順番どおりの輪（それを使う物のすぐ外）に。いちばん外は物の始まり（原点）
+        for (const k of set) if (isRoot(k) && byId.get(k).kind === 'idea' && set.some(j => isRoot(j) && byId.get(j).kind !== 'idea')) ring.set(k, Math.min(R, Ld(k)));
         ring.set(id, 0);
         if (LAY0 === 'atom') {
           // S-042 見本（原子の図）：軌道 n に入るのは 2n² まで。あふれたら PageRank の低い物から1つ外へ。前提は必ず外（あふれた物の前提もさらに外へ）。
@@ -192,15 +196,18 @@
         const cmean = k => { const cs = (dist.kidsIn ? dist.kidsIn.get(k) || [] : [via.get(k)]).map(c => ang.get(c)).filter(a => a != null); if (!cs.length) return ang.get(via.get(k)) ?? 0; let x = 0, y = 0; for (const a of cs) { x += Math.cos(a); y += Math.sin(a); } return Math.atan2(y, x); };
         const key = new Map(layers[d].map(k => [k, cmean(k)]));
         const L = layers[d].filter(k => LAY !== 'C' || kindOf(k) !== 'wisdom').sort((a, b) => KR[kindOf(a)] - KR[kindOf(b)] || key.get(a) - key.get(b) || (byId.get(a).year ?? 0) - (byId.get(b).year ?? 0));
-        if ((LAY === 'height' || LAY === 'atom') && L.length < 14) {
-          // 少ない輪（作る順番の輪はこれが多い）：使う物の角度の近くに置き、となりと最低 0.3 ラジアン空ける（縦に1列に並ばないように）
-          const A = L.map(k => key.get(k)).sort((a, b) => a - b), gap = Math.min(0.3, 2 * Math.PI / Math.max(1, L.length));
-          const byK = L.slice().sort((a, b) => key.get(a) - key.get(b));
-          for (let i = 1; i < A.length; i++) if (A[i] - A[i - 1] < gap) A[i] = A[i - 1] + gap;
-          // 1つ内の輪の丸とほぼ同じ角度なら、左右に交互にずらす（1本道の前提が縦の1列に重ならないように）
+        if ((LAY === 'height' || LAY === 'atom') && L.length > 1) {
+          // S-045：どの輪も 360° 全体に等間隔（片側に固めない）。並びは種類→使う物の角度の順のまま、輪全体をいちばん使う物の近くに来るように回す
+          const base = L.map((k, i) => (i / L.length) * Math.PI * 2);
+          let x = 0, y = 0; L.forEach((k, i) => { const dd = key.get(k) - base[i]; x += Math.cos(dd); y += Math.sin(dd); });
+          const rot = Math.atan2(y, x);
+          L.forEach((k, i) => ang.set(k, base[i] + rot));
+        } else if ((LAY === 'height' || LAY === 'atom') && L.length === 1) {
+          // 1つだけの輪：使う物の角度。1つ内の輪の丸とほぼ同じ角度なら、左右に交互にずらす（1本道が縦1列に重ならないように）
+          let A0 = key.get(L[0]);
           const inner = d > 1 ? layers[d - 1].map(k => ang.get(k)).filter(a => a != null) : [];
-          for (let i = 0; i < A.length; i++) if (inner.some(b => Math.abs(Math.atan2(Math.sin(A[i] - b), Math.cos(A[i] - b))) < 0.25)) A[i] += (d % 2 ? 1 : -1) * 0.34;
-          byK.forEach((k, i) => ang.set(k, A[i]));
+          if (inner.some(b => Math.abs(Math.atan2(Math.sin(A0 - b), Math.cos(A0 - b))) < 0.25)) A0 += (d % 2 ? 1 : -1) * 0.34;
+          ang.set(L[0], A0);
         } else {
           const off = d % 2 ? 0 : Math.PI / Math.max(1, L.length);
           L.forEach((k, i) => ang.set(k, -Math.PI / 2 + off + (i / L.length) * Math.PI * 2));
@@ -281,7 +288,8 @@
     const rmax = new Map(), ksR = [...dist.keys()].filter(k => k !== id);
     for (const k of ksR) { const [x, y] = P.get(k); rmax.set(k, Math.max(1, Math.hypot(x, y) - 34 - 4)); }
     for (let i = 0; i < ksR.length; i++) { const [ax, ay] = P.get(ksR[i]); for (let j = i + 1; j < ksR.length; j++) { const [bx, by] = P.get(ksR[j]), m = Math.hypot(ax - bx, ay - by) * 0.45; if (m < rmax.get(ksR[i])) rmax.set(ksR[i], m); if (m < rmax.get(ksR[j])) rmax.set(ksR[j], m); } }
-    return { id, dir, bandW, rmax, prf, jit, aha, all, dist, via, layers, ang, nL, RAD, P, roots, grp, groups, lit, hops, sectors, band, kindOf, LAY, rk, und, sectorKey, open: new Set((window.FILM_OPEN || '').split(',').filter(Boolean)), badges: [],   // FILM_OPEN：見本で開いた扇を写す用
+    let exX = 40, exY = 40; for (const [k, [x, y]] of P) { const r = k === id ? 34 : Math.min((rk.get(k) || 3) * (prf.get(k) || 1), rmax.get(k) ?? 99); exX = Math.max(exX, Math.abs(x) + r + 46); exY = Math.max(exY, Math.abs(y) + r + 18); }   // 絵の広がり（名前の分も少し）
+    return { id, dir, ext: [exX, exY], bandW, rmax, prf, jit, aha, all, dist, via, layers, ang, nL, RAD, P, roots, grp, groups, lit, hops, sectors, band, kindOf, LAY, rk, und, sectorKey, open: new Set((window.FILM_OPEN || '').split(',').filter(Boolean)), badges: [],   // FILM_OPEN：見本で開いた扇を写す用
       total: dist.size - 1, entries: [...dist.entries()] };
   }
   const nodeR = (S, d) => d === 0 ? 34 : Math.max(3, Math.min(15, 0.45 * (2 * Math.PI * S.RAD[d]) / S.layers[d].length));
@@ -315,7 +323,7 @@
     root.setAttribute('role', 'dialog');
     root.innerHTML = `<canvas></canvas><div class="cnt"></div><div class="fhint" hidden></div><div class="flegend" hidden></div><div class="cap" aria-live="polite"></div>
       <button type="button" class="skip"></button>${reduce() && film ? `<button type="button" class="nextb">${T.next}</button>` : ''}
-      <div class="bar" hidden><button type="button" class="watch">${T.watch}</button><button type="button" class="watchUp">${T.watchUp}</button><button type="button" class="share">${T.share}</button><a class="detail" href="#">${T.detail}</a></div>`;
+      <div class="bar" hidden><button type="button" class="toC" hidden>${T.toC}</button><button type="button" class="watch">${T.watch}</button><button type="button" class="watchUp">${T.watchUp}</button><button type="button" class="share">${T.share}</button><a class="detail" href="#">${T.detail}</a></div>`;
     document.body.appendChild(root);
     const cv = root.querySelector('canvas'), ctx = cv.getContext('2d', { alpha: false });
     const cap = root.querySelector('.cap'), cnt = root.querySelector('.cnt'), hint = root.querySelector('.fhint'), skip = root.querySelector('.skip'), bar = root.querySelector('.bar');
@@ -356,7 +364,7 @@
     const stats = window.FILM_STATS = { id, frames: 0, start: performance.now(), first: 0, worst: 0, last: 0 };
 
     // 中心図の見る場所（拡大・移動）
-    let zoom = 1, panX = 0, panY = 0, s = 0, centerAt = 0, TR = null, glowK = null, glowAt = 0;   // TR＝真ん中を変える動き（S-040）、glowK＝押した丸が光っている間
+    let topY = 120, zoom = 1, panX = 0, panY = 0, s = 0, centerAt = 0, TR = null, glowK = null, glowAt = 0;   // TR＝真ん中を変える動き（S-040）、glowK＝押した丸が光っている間
     function toCenter(newId, push) {
       if (newId !== S.id) {
         const old = S, ov = view, was = mode === 'center';
@@ -371,9 +379,7 @@
       const lg = root.querySelector('.flegend'); lg.hidden = false;
       lg.innerHTML = (EN() ? [['#2f6f8f', 'products & parts'], ['#b0553a', 'devices'], ['#8a6a4a', 'processes & tools'], ['#a08a2a', 'materials'], ['#8e5bd6', 'ideas'], ['#3f8f4f', 'origins']]
         : [['#2f6f8f', '製品・部品'], ['#b0553a', '素子・装置'], ['#8a6a4a', '工程・機械・道具'], ['#a08a2a', '材料'], ['#8e5bd6', '知恵'], ['#3f8f4f', '原点']]).map(([c, t]) => `<span><i style="border-color:${c}"></i>${t}</span>`).join('');
-      root.querySelector('.detail').href = `${opt.base || ''}node.html#${S.id}`;
-      root.querySelector('.watch').hidden = !countOf(S.id, 'down'); root.querySelector('.watchUp').hidden = !countOf(S.id, 'up');
-      const sb = root.querySelector('.share'); sb.dataset.share = S.id; sb.dataset.shareView = 'center';   // share.js が拾う（S-024）
+      syncBar();
       const nx = root.querySelector('.nextb'); if (nx) nx.remove();
       cap.style.bottom = bar.offsetHeight ? `${bar.offsetHeight + 10}px` : '';
       stackTop();   // ボタンが2行になって下の帯が高いときも、文が隠れないように
@@ -384,8 +390,21 @@
     function stackTop() {
       const lg = root.querySelector('.flegend'), cb = cnt.getBoundingClientRect(), sb = skip.getBoundingClientRect();
       let y = Math.max(cb.bottom, sb.bottom) + 4; if (!hint.hidden) { hint.style.top = `${y}px`; y = hint.getBoundingClientRect().bottom + 6; }
-      if (!lg.hidden) lg.style.top = `${y}px`;
+      if (!lg.hidden) { lg.style.top = `${y}px`; y = lg.getBoundingClientRect().bottom; }
+      topY = y;
     }
+    // S-045：下のボタンは、選んだ丸（無ければ真ん中の物）について動く。選んでいる時だけ「真ん中へ」
+    const cntMemo = new Map(), cntOf = (k, d) => { const key = k + d; if (!cntMemo.has(key)) cntMemo.set(key, countOf(k, d)); return cntMemo.get(key); };
+    function syncBar() {
+      const tg = S.sel || S.id;
+      root.querySelector('.detail').href = `${opt.base || ''}node.html#${tg}`;
+      root.querySelector('.watch').hidden = !cntOf(tg, 'down'); root.querySelector('.watchUp').hidden = !cntOf(tg, 'up');
+      root.querySelector('.toC').hidden = !S.sel;
+      const sb = root.querySelector('.share'); sb.dataset.share = tg; sb.dataset.shareView = 'center';   // share.js が拾う（S-024）
+      if (mode === 'center') cap.style.bottom = bar.offsetHeight ? `${bar.offsetHeight + 10}px` : '';
+    }
+    const recenter = k => { if (reduce()) toCenter(k); else { glowK = k; glowAt = performance.now(); req(); setTimeout(() => { if (!done && glowK === k) toCenter(k); }, 260); } };   // S-040：押した丸が少し光ってから真ん中へ
+    const select = k => { S.sel = k; syncBar(); req(); };
     function startFilm(newId) {
       if (newId !== S.id || S.dir !== DIR) S = scene(newId, DIR);
       mode = 'film'; people = null; loadPeople(); timing();
@@ -409,8 +428,9 @@
       jump += n - t;
     }
     skip.onclick = e => { e.stopPropagation(); if (mode === 'film') toCenter(S.id); else close(); };
-    root.querySelector('.watch').onclick = e => { e.stopPropagation(); DIR = 'down'; startFilm(S.id); };
-    root.querySelector('.watchUp').onclick = e => { e.stopPropagation(); DIR = 'up'; startFilm(S.id); };
+    root.querySelector('.watch').onclick = e => { e.stopPropagation(); DIR = 'down'; startFilm(S.sel || S.id); };
+    root.querySelector('.watchUp').onclick = e => { e.stopPropagation(); DIR = 'up'; startFilm(S.sel || S.id); };
+    root.querySelector('.toC').onclick = e => { e.stopPropagation(); if (S.sel) recenter(S.sel); };
     root.querySelector('.detail').addEventListener('click', e => e.stopPropagation());
     root.addEventListener('keydown', e => { if (e.key === 'Escape') { if (mode === 'film') toCenter(S.id); else close(); } });
 
@@ -434,11 +454,9 @@
         if (b) { if (S.open.has(b.g)) S.open.delete(b.g); else S.open.add(b.g); s = 0; zoom = 1; panX = panY = 0; req(); return; }
       }
       const k = hit(e.clientX, e.clientY);
-      if (!k) { S.sel = null; req(); return; }
-      if (k === S.id) return;
+      if (!k || k === S.id) { if (S.sel) select(null); return; }   // 何も無い所・真ん中の物：選ぶのをやめる
       if (glowK) return;   // 光っている間の2回目は無視
-      if (S.sel === k) { if (reduce()) toCenter(k); else { glowK = k; glowAt = performance.now(); req(); setTimeout(() => { if (!done && glowK === k) toCenter(k); }, 260); } }   // S-040：押した丸が少し光ってから真ん中へ
-      else { S.sel = k; req(); }   // S-032：1回目は前提と使う物の線を光らせる、もう1回で真ん中に
+      if (S.sel === k) recenter(k); else select(k);   // S-045：1回目で選ぶ（少し大きく・枠が光る・下に名前、ボタンはその物について）、もう1回で真ん中に
     };
     cv.addEventListener('pointerup', up); cv.addEventListener('pointercancel', e => ptrs.delete(e.pointerId));
     cv.addEventListener('wheel', e => { if (mode !== 'center') return; e.preventDefault(); zoom = Math.max(0.6, Math.min(8, zoom * Math.exp(-e.deltaY * 0.0015))); req(); }, { passive: false });
@@ -470,9 +488,11 @@
       let shown = 0; for (let d = 1; d <= S.nL; d++) if (t >= layerStart(d)) shown = d;
       const ST = !!window.FILM_STORY;   // story：図を少し上に小さく（下の文と、上下の端を空ける）
       const outer = film ? S.RAD[Math.max(1, shown)] + 18 : (S.LAY === 'D' && !S.open.size ? (S.RAD[Math.min(3, S.nL)] || 0) + 60 : Math.max(...S.RAD) + (S.sectors || S.band ? 70 : 18));   // 案D：閉じているときは内側3輪に合わせる   // 中心図は外の帯・扇の名前まで入れる
-      const want = Math.min(1.6, (Math.min(W, H * (ST ? 0.56 : film ? 0.72 : 0.66)) / 2 - 24) / outer);
+      // S-045：中心図は、上の行の下〜下の名前の上の場所に、絵の広がりに合わせて大きく（真ん中の物は場所の真ん中）
+      const fitC = !film && !S.sectors && !S.band ? (() => { const top = topY + 8, bot = H - (bar.offsetHeight || 0) - (cap.offsetHeight || 40) - 18; return { cy: (top + bot) / 2, k: Math.min(2.4, (W / 2 - 8) / S.ext[0], (bot - top) / 2 / S.ext[1]) }; })() : null;
+      const want = fitC ? fitC.k : Math.min(1.6, (Math.min(W, H * (ST ? 0.56 : film ? 0.72 : 0.66)) / 2 - 24) / outer);
       s = s ? s + (want - s) * (film && still < 0 ? 0.06 : 1) : want;
-      const sc = s * (film ? 1 : zoom), cx = W / 2 + (film ? 0 : panX), cy = H * (ST ? 0.41 : film ? 0.46 : 0.44) + (film ? 0 : panY);
+      const sc = s * (film ? 1 : zoom), cx = W / 2 + (film ? 0 : panX), cy = (fitC ? fitC.cy : H * (ST ? 0.41 : film ? 0.46 : 0.44)) + (film ? 0 : panY);
       view = { cx, cy, sc };
       ctx.translate(cx, cy); ctx.scale(sc, sc);
       const px = 1 / sc;
@@ -616,7 +636,7 @@
           a = p;   // S-043：すべって来ずに、その場所でうすく出る（＋少しふくらんで戻る）
         } else if (film) a = ease(t / 900);
         if (!film && TR) a = trA(k);
-        const r = nodeRk(S, k) * (film && !d ? 0.6 + 0.4 * a : 1) * swell, rs = r * sc;   // rs＝画面での半径
+        const r = nodeRk(S, k) * (film && !d ? 0.6 + 0.4 * a : 1) * swell * (!film && S.sel === k ? 1.35 : 1), rs = r * sc;   // 選んだ丸は少し大きく   // rs＝画面での半径
         ctx.globalAlpha = a;
         if (!film && glowK === k) { const q = Math.min(1, (performance.now() - glowAt) / 260); ctx.globalAlpha = 0.7 * (1 - q * 0.5); ctx.fillStyle = C.hl; ctx.beginPath(); ctx.arc(x, y, r + (4 + 10 * q) * px, 0, Math.PI * 2); ctx.fill(); ctx.globalAlpha = a; req(); }   // S-040：押した丸が光る
         if (!film && hid(k)) continue;
@@ -687,7 +707,7 @@
       ctx.globalAlpha = 1;
       // 文と数
       const target = byId.get(S.id);
-      let capText, ct;
+      let capText, ct, capSub = '';
       if (film) {
         const sc5 = t < t1 ? 0 : t < t2 ? 1 : t < t3 ? 2 : t < t4 ? 3 : 4;
         const fr = (t - t1) / P2, ah = sc5 === 1 && fr > 0.3 ? S.aha[fr < 0.62 ? 0 : 1] : null;
@@ -697,11 +717,11 @@
       } else {
         if (S.sel && byId.has(S.sel)) {
           const a = S.all.filter(e => e[1] === S.sel).length, b = S.all.filter(e => e[0] === S.sel).length;
-          capText = EN() ? `${nm(byId.get(S.sel))}: needs ${a}, used by ${b}` : `${nm(byId.get(S.sel))}：前提 ${a}・使う物 ${b}`;
+          capText = nm(byId.get(S.sel)); capSub = EN() ? `needs ${a} · used by ${b}` : `前提 ${a}・使う物 ${b}`;   // S-045：名前は1行、数は下に小さく
         } else capText = `[${S.id}] ${nm(target)}`;
         ct = S.dir === 'up' ? T.sumUp(S.total) : S.total ? T.sum(S.total, S.roots.length) : (EN() ? 'A starting point (no prerequisites)' : '始まりの1つ（前提なし）');
       }
-      if (cap.dataset.t !== capText) { cap.dataset.t = capText; cap.textContent = capText; cap.classList.remove('in'); void cap.offsetWidth; cap.classList.add('in'); }
+      if (cap.dataset.t !== capText + capSub) { cap.dataset.t = capText + capSub; cap.textContent = capText; if (capSub) { const sm = document.createElement('small'); sm.textContent = capSub; cap.appendChild(sm); } cap.classList.remove('in'); void cap.offsetWidth; cap.classList.add('in'); }
       if (cnt.textContent !== ct) { cnt.textContent = ct; if (!film) stackTop(); }
       if (film) req();
     }
@@ -709,7 +729,7 @@
     resize();
     if (film) { skip.textContent = T.skip; root.setAttribute('aria-label', (DIR === 'up' ? T.askUp : T.ask)(byId.get(id))); req(); }
     else toCenter(id, false);
-    return { center: k => toCenter(k, false), close, get id() { return S.id; }, get mode() { return mode; }, get view() { return view; } };   // view：真ん中の画面の位置（S-041 の見本が使う）
+    return window.FILM_CTL = { select: k => select(k), center: k => toCenter(k, false), close, get id() { return S.id; }, get mode() { return mode; }, get view() { return view; } };   // view：真ん中の画面の位置（S-041 の見本が使う）
   }
   const play = (id, opt) => open(id, opt, true);
   const playUp = (id, opt) => open(id, { ...opt, dir: 'up' }, true);

@@ -56,7 +56,7 @@
  },
  "game": {
   "status": "❓",
-  "buildable_now": false,
+  "buildable_now": true,
   "play": "作品：置いて電気をつなぐと、画面が映る",
   "missing": "",
   "item": null,

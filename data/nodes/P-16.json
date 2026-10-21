@@ -61,7 +61,7 @@
  },
  "game": {
   "status": "❓",
-  "buildable_now": false,
+  "buildable_now": true,
   "play": "作品：指でさわった所が反応する画面",
   "missing": "",
   "item": null,

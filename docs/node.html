@@ -136,6 +136,7 @@ header.top .ic { display: none; }   /* 大きなアイコンを絵の欄に出�
 </div>
 <div class="backbar"><a id="backbar" href="network.html">← 図に戻る</a><button type="button" id="topBtn">↑ 上へ</button></div>
 <script src="tech_network_graph.js"></script>
+<script src="film.js"></script>
 <script src="tech_network_detail.js"></script>
 <script src="glossary.js"></script>
 <script src="autolink.js"></script>
@@ -400,7 +401,7 @@ header.top .ic { display: none; }   /* 大きなアイコンを絵の欄に出�
         <div>
           <h1>[${d.id}] ${esc(d.name)}</h1>
           <div class="meta">${yearText(d)}・${esc(d.trunk_name)}${d.trunk === 'P' || d.trunk === 'I' ? '' : `<small class="term">（${d.trunk === 'B' ? '枝' : '幹' + d.trunk}）</small>`}</div>
-          <div style="margin:6px 0;display:flex;gap:6px;flex-wrap:wrap">${isProd(d) ? `<button type="button" class="btn" data-film="${d.id}">${LANG === 'en' ? '▶ Watch how it is made' : '▶ できるまでを観る'}</button>` : ''}<button type="button" class="btn" data-share="${d.id}" data-share-view="node">${LANG === 'en' ? '🔗 Share' : '🔗 シェア'}</button></div>
+          <div style="margin:6px 0;display:flex;gap:6px;flex-wrap:wrap">${window.Film && Film.countOf(d.id, 'down') ? `<button type="button" class="btn" data-film="${d.id}">${LANG === 'en' ? '▶ Watch how it is made' : '▶ できるまでを観る'}</button>` : ''}${window.Film && Film.countOf(d.id, 'up') ? `<button type="button" class="btn" data-film-up="${d.id}">${LANG === 'en' ? '▶ What it made' : '▶ これが生んだ物'}</button>` : ''}<button type="button" class="btn" data-share="${d.id}" data-share-view="node">${LANG === 'en' ? '🔗 Share' : '🔗 シェア'}</button></div>
           <div>${d.status === '✅' ? '<span class="badge ok">✅ ゲームにある</span>' : `<span class="badge">${d.status} まだ</span>`}${isProd(d) ? '<span class="badge">モノ</span>' : ''}${isIdea(d) ? '<span class="badge">◆ 発見・考え方</span>' : ''}${d.buildable_now ? '<span class="badge ok">今すぐ作れる</span>' : ''}${d.year_uncertain ? '<span class="badge warn">⚠️ 年は諸説・未確認</span>' : ''}</div>
         </div>
       </header>
@@ -532,8 +533,7 @@ header.top .ic { display: none; }   /* 大きなアイコンを絵の欄に出�
 })();
 </script>
 <script src="share.js"></script>
-<script src="film.js"></script>
-<script>document.addEventListener('click', e => { const b = e.target.closest('[data-film]'); if (b) Film.play(b.dataset.film, { onClose: id => { location.hash = id; } }); });</script>
+<script>document.addEventListener('click', e => { const b = e.target.closest('[data-film], [data-film-up]'); if (b) (b.dataset.filmUp ? Film.playUp : Film.play)(b.dataset.film || b.dataset.filmUp, { onClose: id => { location.hash = id; } }); });</script>
 <script src="ui_icons.js"></script>
 <script>UiIcons.init();</script>
 <script src="vendor/budoux-ja.min.js"></script>

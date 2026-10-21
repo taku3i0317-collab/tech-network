@@ -243,7 +243,7 @@ body.focusMode .intro { display: none; }
     'モノを1つ選んでみよう。': 'Pick a product to start.', 'モノ（年の順）': 'Products (by year)', 'これを作るのに要った物': 'Needed to make this', '前提': 'needs',
     'なし（ここが出発点）': 'None (a starting point)', '✅ ゲームにある': '✅ in the game', 'まだゲームに無い': 'not in the game yet', 'この先に': 'leads to', 'の技術': 'technologies',
     'これで作れるようになった物': 'Made possible by this', '次の技術': 'next', 'なし': 'None', 'へえ': 'Fun fact', '全体の地図': 'Whole map', '詳しく見る': 'Details', '← 近所の図': '← Neighbours',
-    '影響を受けた作品': 'Inspirations', 'ホーム画面に追加': 'Add to Home Screen', '🔗 シェア': '🔗 Share', '▶ できるまでを観る': '▶ Watch how it is made', 'はじめの動きをもう一度': 'Play the intro again', '？ 図の見方': '? How to read', 'すべての技術を表示中': 'Showing all technologies', 'ズームすると技術が見えます（モノを選んでも）': 'Zoom in (or pick a product) to see technologies' };
+    '影響を受けた作品': 'Inspirations', '▶ これが生んだ物': '▶ What it made', 'ホーム画面に追加': 'Add to Home Screen', '🔗 シェア': '🔗 Share', '▶ できるまでを観る': '▶ Watch how it is made', 'はじめの動きをもう一度': 'Play the intro again', '？ 図の見方': '? How to read', 'すべての技術を表示中': 'Showing all technologies', 'ズームすると技術が見えます（モノを選んでも）': 'Zoom in (or pick a product) to see technologies' };
   const tr = ja => LANG === 'en' && EN_UI[ja] ? EN_UI[ja] : ja;
   document.documentElement.lang = LANG;
   document.getElementById('langBtn').textContent = LANG === 'en' ? '日本語' : 'English';
@@ -838,7 +838,7 @@ body.focusMode .intro { display: none; }
     const chips = ids => `<div class="chips">${ids.map(chip).join('')}</div>`;
     card.innerHTML = `<button class="close" aria-label="閉じる">×</button>
       <h2>${head}<span>[${d.id}] ${esc(d.name)} ${d.status}</span></h2>
-      <a class="more" href="node.html#${encodeURIComponent(d.id)}">詳しく見る →</a><button type="button" class="more" data-share="${d.id}" data-share-view="map">${tr('🔗 シェア')}</button>${isProd(d) ? ` <button type="button" class="more" data-film="${d.id}">${tr('▶ できるまでを観る')}</button>` : ''}
+      <a class="more" href="node.html#${encodeURIComponent(d.id)}">詳しく見る →</a><button type="button" class="more" data-share="${d.id}" data-share-view="map">${tr('🔗 シェア')}</button>${Film.countOf(d.id, 'down') ? ` <button type="button" class="more" data-film="${d.id}">${tr('▶ できるまでを観る')}</button>` : ''}${Film.countOf(d.id, 'up') ? ` <button type="button" class="more" data-film-up="${d.id}">${tr('▶ これが生んだ物')}</button>` : ''}
       <div class="meta"><span style="color:${isIdea(d) ? IDEA : isProd(d) ? DS.prod : color(d.trunk)}">${isIdea(d) ? '◆' : '●'}</span> ${isProd(d) ? '<b>モノ</b>・' : ''}${esc(d.trunk_name)}${d.trunk === 'P' || d.trunk === 'I' ? '' : `<small class="term">（${d.trunk === 'B' ? '枝' : '幹' + d.trunk}）</small>`}・${yearText(d)}${d.buildable_now ? '・<b>今すぐ作れる</b>' : ''}</div>
       ${wallHtml(id)}
       ${d.people.length ? `<div class="sec"><h3>人物</h3><div class="people">${d.people.map(p => `<div class="person">${p.portrait ? `<img class="portrait" src="${p.portrait}" alt="">` : silhouette}<div><b>${esc(p.name)}</b><small>${esc(p.tool)}・${esc(p.year)}</small></div></div>`).join('')}</div></div>` : ''}
@@ -950,7 +950,7 @@ body.focusMode .intro { display: none; }
       <div class="arrow">↓</div>
       <div class="me"><div class="top">${ficon(d)}<div><h2>[${d.id}] ${esc(d.name)}</h2>
         <div class="meta">${esc(yearText(d))}・${esc(d.trunk_name)}<br>${d.status === '✅' ? tr('✅ ゲームにある') : tr('まだゲームに無い')}・${tr('この先に')} ${d.descendants} ${tr('の技術')}</div></div></div>
-        <p class="hee" id="fhee"></p><button type="button" class="btn" data-share="${d.id}" data-share-view="center" style="margin:8px 8px 0 0">${tr('🔗 シェア')}</button>${isProd(d) ? `<button type="button" class="btn" data-film="${d.id}" style="margin-top:8px">${tr('▶ できるまでを観る')}</button>` : ''}</div>
+        <p class="hee" id="fhee"></p><button type="button" class="btn" data-share="${d.id}" data-share-view="center" style="margin:8px 8px 0 0">${tr('🔗 シェア')}</button>${Film.countOf(d.id, 'down') ? `<button type="button" class="btn" data-film="${d.id}" style="margin:8px 8px 0 0">${tr('▶ できるまでを観る')}</button>` : ''}${Film.countOf(d.id, 'up') ? `<button type="button" class="btn" data-film-up="${d.id}" style="margin-top:8px">${tr('▶ これが生んだ物')}</button>` : ''}</div>
       <div class="arrow">↓</div>
       <h3>▼ ${tr('これで作れるようになった物')}（${tr('次の技術')} ${new Set(kid).size}）</h3>
       ${tilesHtml(kid, 8, 'kid') || `<p class="muted" style="margin:0 12px">${tr('なし')}</p>`}`;
@@ -999,8 +999,8 @@ body.focusMode .intro { display: none; }
   const opts = { onCenter: k => { try { localStorage.setItem('tn-center-last', k); } catch (e) { /* 保存できない */ } if (location.hash !== '#center/' + k) history.pushState(null, '', '#center/' + k); },
                  onClose: k => { ctl = null; if (!quiet) { if (PH) location.hash = 'map/' + k; else go(k); } quiet = false; } };
   const openCenter = id => { history.replaceState(null, '', '#center/' + id); try { localStorage.setItem('tn-center-last', id); } catch (e) { /* 保存できない */ } if (ctl) ctl.center(id); else ctl = Film.center(id, opts); };
-  const open = id => { if (ctl) ctl.close(); ctl = Film.play(id, opts); };
-  document.addEventListener('click', e => { const b = e.target.closest('[data-film]'); if (b) { e.preventDefault(); if (b.closest('#menu')) { document.getElementById('menu').hidden = true; document.getElementById('menuBtn').setAttribute('aria-expanded', 'false'); } open(b.dataset.film); } });
+  const open = (id, up) => { if (ctl) ctl.close(); ctl = (up ? Film.playUp : Film.play)(id, opts); };
+  document.addEventListener('click', e => { const b = e.target.closest('[data-film], [data-film-up]'); if (b) { e.preventDefault(); if (b.closest('#menu')) { document.getElementById('menu').hidden = true; document.getElementById('menuBtn').setAttribute('aria-expanded', 'false'); } open(b.dataset.film || b.dataset.filmUp, !!b.dataset.filmUp); } });   // S-037：これが生んだ物（子孫の向き）も
   const fromHash = () => {
     const m = location.hash.match(/^#center\/(.+)$/);
     const plain = location.hash.match(/^#([^/]+)$/);

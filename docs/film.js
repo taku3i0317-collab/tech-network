@@ -18,6 +18,11 @@
     if (!EK.has(key)) (parents.get(t) || parents.set(t, []).get(t)).push(f);
     if (!EK.has(key) || RANK[k] > RANK[EK.get(key)]) EK.set(key, k);
   }
+  // S-037：逆の向き（これが生んだ物）に使う子のつながりと、AI までの道（名前を優先して出す物）
+  const kidsMap = new Map();
+  for (const key of EK.keys()) { const [f, t] = key.split('>'); (kidsMap.get(f) || kidsMap.set(f, []).get(f)).push(t); }
+  const reach = (id, m) => { const s2 = new Set(); let q = [id]; while (q.length) { const u = q.pop(); for (const v of m.get(u) || []) if (!s2.has(v) && byId.has(v)) { s2.add(v); q.push(v); } } return s2; };
+  const AIPATH = new Set([G.goal, ...reach(G.goal, parents)]);
   const partsOf = new Map(), undOf = new Map();   // S-029：部品（part）と、なぜ動くかを説明する知恵（understanding）
   for (const [f, t, k] of G.edges) { if (k === 'p') (partsOf.get(t) || partsOf.set(t, []).get(t)).push(f); if (k === 'u' && byId.has(f) && byId.get(f).kind === 'idea') (undOf.get(t) || undOf.set(t, []).get(t)).push(f); }
   const EN = () => document.documentElement.lang === 'en';
@@ -40,6 +45,11 @@
     detail: EN() ? 'Details' : '詳しく見る',
     share: EN() ? '🔗 Share' : '🔗 シェア',
     hint: EN() ? 'Tap a circle to light its links, tap again to put it in the middle' : '丸を押すとつながりが光る。もう1回押すと真ん中に',
+    askUp: n => EN() ? `What did ${nm(n)} make possible?` : `${nm(n)}が生んだ物は？`,
+    ahaUp: (a, b) => EN() ? `Follow "${a}" and you reach "${b}"!` : `あ！「${a}」の先に「${b}」がある`,
+    made: (k, n) => EN() ? `Without ${nm(k)}, ${n} things would not exist.` : `${nm(k)}が無ければ、${n} 個の物は生まれなかった`,
+    sumUp: n => EN() ? `leads to ${n}` : `${n} の物につながる`,
+    watchUp: EN() ? '▶ What it made' : '▶ これが生んだ物',
     sum: (n, r) => EN() ? `${n} technologies · ${r} starting points` : `${n} の技術・${r} 個の始まり`,
   };
   const reduce = () => !!window.FILM_STILL || matchMedia('(prefers-reduced-motion: reduce)').matches;   // FILM_STILL：見本で静止画を確かめる用
@@ -58,7 +68,7 @@
 .film .skip{position:absolute;right:12px;top:12px;min-height:48px;padding:0 18px;font:inherit;font-size:16px;font-weight:700;border:1px solid var(--accent,#2f6f8f);color:var(--accent,#2f6f8f);background:var(--panel,#fff);border-radius:12px;cursor:pointer}
 .film .nextb{position:absolute;right:12px;bottom:16px;min-height:48px;padding:0 18px;font:inherit;font-size:16px;font-weight:700;border:0;color:var(--panel,#fff);background:var(--accent,#2f6f8f);border-radius:12px}
 .film .bar{position:absolute;left:0;right:0;bottom:0;display:flex;gap:8px;padding:8px 12px calc(8px + env(safe-area-inset-bottom));background:var(--panel,#fff);border-top:1px solid var(--line,#ddd)}
-.film .bar[hidden]{display:none}.film .bar a,.film .bar button{flex:1;display:flex;align-items:center;justify-content:center;min-height:44px;border:1px solid var(--accent,#2f6f8f);border-radius:10px;color:var(--accent,#2f6f8f);background:var(--panel,#fff);text-decoration:none;font:inherit;font-weight:700;font-size:14px;cursor:pointer}
+.film .bar[hidden],.film .bar [hidden]{display:none}.film .bar a,.film .bar button{flex:1;display:flex;align-items:center;justify-content:center;min-height:44px;border:1px solid var(--accent,#2f6f8f);border-radius:10px;color:var(--accent,#2f6f8f);background:var(--panel,#fff);text-decoration:none;font:inherit;font-weight:700;font-size:14px;cursor:pointer}
 .film.centerMode .cap{bottom:calc(76px + env(safe-area-inset-bottom));font-size:clamp(18px,4vw,26px)}
 .film .fhint{position:absolute;left:16px;top:52px;font-size:13px;color:var(--sub,#666);pointer-events:none}
 .film.story .skip,.film.story .bar,.film.story .fhint{display:none}.film.story .cnt{top:96px;left:0;right:0;text-align:center;font-size:22px}.film.story .cap{bottom:110px;font-size:24px}
@@ -67,11 +77,13 @@
   }
 
   // ---- 図の形（世代ごとの輪）：祖先を「何段さかのぼるか（いちばん近い道）」で分け、円の上の角度を決める ----
-  function scene(id) {
-    const dist = new Map([[id, 0]]), via = new Map();
+  function scene(id, dir = 'down') {
+    const dist = new Map([[id, 0]]), via = new Map(), NB = dir === 'up' ? kidsMap : parents;   // up：真ん中から、それを使って生まれた物へ（子孫）
     let q = [id];
-    while (q.length) { const nq = []; for (const u of q) for (const p of parents.get(u) || []) if (!dist.has(p) && byId.has(p)) { dist.set(p, dist.get(u) + 1); via.set(p, u); nq.push(p); } q = nq; }
-    const LAY0 = window.FILM_LAYOUT || 'gen', und = new Set();
+    // up では、真ん中より前の年の物には進まない（考え方が「説明する」古い技術から先を、生んだ物に数えないため。S-037）
+    const y0 = byId.get(id).year, okUp = k => dir !== 'up' || y0 == null || byId.get(k).year == null || byId.get(k).year >= y0;
+    while (q.length) { const nq = []; for (const u of q) for (const p of NB.get(u) || []) if (!dist.has(p) && byId.has(p) && okUp(p)) { dist.set(p, dist.get(u) + 1); via.set(p, u); nq.push(p); } q = nq; }
+    const LAY0 = dir === 'up' ? 'gen' : (window.FILM_LAYOUT || 'gen'), und = new Set();
     if (LAY0 === 'D') {
       // 案D：一番内側の輪は部品（part を優先）、ほかのすぐ要る物はその外。そこから先は今と同じに前提をさかのぼる
       dist.clear(); via.clear(); dist.set(id, 0);
@@ -158,7 +170,7 @@
       RAD.push(r);
     }
     // 始まり＝前提の無いノード（データの中で）。光は全部の始まりから同時に、前提のつながり（via）をたどってモノへ
-    const roots = [...dist.keys()].filter(k => k !== id && !(parents.get(k) || []).some(p => byId.has(p)));
+    const roots = dir === 'up' ? [] : [...dist.keys()].filter(k => k !== id && !(parents.get(k) || []).some(p => byId.has(p)));
     // 始まりの群れ：考え方・発見（kind idea）／最初の道具（打製石器）／自然から得た物（鉱石・鉱物など、ほかの全部）
     const grp = k => byId.get(k).kind === 'idea' ? 'idea' : k === '0-01' ? 'tool' : 'nature';
     const groups = { nature: 0, tool: 0, idea: 0 }; for (const k of roots) groups[grp(k)]++;
@@ -169,7 +181,11 @@
         if (u === r || via.get(u) !== id) continue;
         cand.push({ part: u, root: r, path: [...path, id], score: (byId.get(r).kind !== 'idea' ? 2 : 0) + (byId.get(u).kind === 'product' ? 1 : 0) }); }
       cand.sort((a, b) => b.score - a.score || b.path.length - a.path.length || (a.root < b.root ? -1 : 1));
-      const seen = new Set(); for (const c of cand) { if (seen.has(c.part)) continue; seen.add(c.part); aha.push(c); if (aha.length >= 2) break; } }
+      const seen = new Set(); for (const c of cand) { if (seen.has(c.part)) continue; seen.add(c.part); aha.push(c); if (aha.length >= 2) break; }
+      if (dir === 'up') {   // 「あ！」：真ん中の先にある大事な物（AI までの道の上のモノを先に）。道は via をたどって真ん中まで
+        const far = [...dist.keys()].filter(k => k !== id && byId.get(k).kind === 'product').sort((a, b) => (AIPATH.has(b) - AIPATH.has(a)) || dist.get(b) - dist.get(a));
+        for (const k of far.slice(0, 2)) { const path = [k]; let u = k; while (via.has(u)) { u = via.get(u); path.push(u); } aha.push({ part: id, root: k, path }); }
+      } }
     const lit = new Map();   // 線（k→via）が光る段（始まりから何段目か。いちばん早い物）
     let hops = 1;
     for (const r of roots) { let j = 0; for (let u = r; via.has(u); u = via.get(u)) { j++; if (!lit.has(u) || lit.get(u) > j) lit.set(u, j); } hops = Math.max(hops, j); }
@@ -185,7 +201,7 @@
     }
     const all = [];   // 図の中のノードどうしの、全部のつながり（共通の祖先への線も）
     for (const [key, k] of EK) { const [f, t] = key.split('>'); if (dist.has(f) && dist.has(t)) all.push([f, t, k]); }
-    return { id, aha, all, dist, via, layers, ang, nL, RAD, P, roots, grp, groups, lit, hops, sectors, band, kindOf, LAY, rk, und, sectorKey, open: new Set((window.FILM_OPEN || '').split(',').filter(Boolean)), badges: [],   // FILM_OPEN：見本で開いた扇を写す用
+    return { id, dir, aha, all, dist, via, layers, ang, nL, RAD, P, roots, grp, groups, lit, hops, sectors, band, kindOf, LAY, rk, und, sectorKey, open: new Set((window.FILM_OPEN || '').split(',').filter(Boolean)), badges: [],   // FILM_OPEN：見本で開いた扇を写す用
       total: dist.size - 1, entries: [...dist.entries()] };
   }
   const nodeR = (S, d) => d === 0 ? 34 : Math.max(3, Math.min(15, 0.45 * (2 * Math.PI * S.RAD[d]) / S.layers[d].length));
@@ -218,7 +234,7 @@
     root.setAttribute('role', 'dialog');
     root.innerHTML = `<canvas></canvas><div class="cnt"></div><div class="fhint" hidden></div><div class="cap" aria-live="polite"></div>
       <button type="button" class="skip"></button>${reduce() && film ? `<button type="button" class="nextb">${T.next}</button>` : ''}
-      <div class="bar" hidden><button type="button" class="watch">${T.watch}</button><button type="button" class="share">${T.share}</button><a class="detail" href="#">${T.detail}</a></div>`;
+      <div class="bar" hidden><button type="button" class="watch">${T.watch}</button><button type="button" class="watchUp">${T.watchUp}</button><button type="button" class="share">${T.share}</button><a class="detail" href="#">${T.detail}</a></div>`;
     document.body.appendChild(root);
     const cv = root.querySelector('canvas'), ctx = cv.getContext('2d', { alpha: false });
     const cap = root.querySelector('.cap'), cnt = root.querySelector('.cnt'), hint = root.querySelector('.fhint'), skip = root.querySelector('.skip'), bar = root.querySelector('.bar');
@@ -228,7 +244,8 @@
     const GC = { nature: '#3f8f4f', tool: css('--hl') || '#d2691e', idea: '#8e5bd6' };
     const C = { bg: css('--bg') || '#f8f5ee', ink: css('--ink') || '#222', sub: css('--sub') || '#777', hl: css('--hl') || '#d2691e', prod: css('--node-prod') || '#2f6f8f', tech: css('--node-tech') || '#8a6a4a', font: css('--font') || 'sans-serif' };
 
-    let S = scene(id), mode = film ? 'film' : 'center', people = null;
+    let DIR = opt.dir || 'down';
+    let S = scene(id, DIR), mode = film ? 'film' : 'center', people = null;
     const loadPeople = () => loadDetail().then(() => {
       const D = window.TECH_DETAIL; if (!D) return;
       const seen = new Map(); let anon = 0;
@@ -257,22 +274,23 @@
     // 中心図の見る場所（拡大・移動）
     let zoom = 1, panX = 0, panY = 0, s = 0, centerAt = 0;
     function toCenter(newId, push) {
-      if (newId !== S.id) { S = scene(newId); people = null; }
+      if (newId !== S.id) { S = scene(newId, DIR); people = null; }
       mode = 'center'; zoom = 1; panX = panY = 0; s = 0; S.sel = null; centerAt = reduce() ? 0 : performance.now();
       root.classList.add('centerMode'); root.setAttribute('aria-label', nm(byId.get(S.id)));
       skip.textContent = T.close; bar.hidden = false; hint.hidden = false; hint.textContent = T.hint;
       root.querySelector('.detail').href = `${opt.base || ''}node.html#${S.id}`;
+      root.querySelector('.watch').hidden = !countOf(S.id, 'down'); root.querySelector('.watchUp').hidden = !countOf(S.id, 'up');
       const sb = root.querySelector('.share'); sb.dataset.share = S.id; sb.dataset.shareView = 'center';   // share.js が拾う（S-024）
       const nx = root.querySelector('.nextb'); if (nx) nx.remove();
       cap.dataset.t = ''; if (push !== false && opt.onCenter) opt.onCenter(S.id);
       req();
     }
     function startFilm(newId) {
-      if (newId !== S.id) S = scene(newId);
+      if (newId !== S.id || S.dir !== DIR) S = scene(newId, DIR);
       mode = 'film'; people = null; loadPeople(); timing();
       t0 = clk(); jump = 0; still = reduce() ? 0 : -1; s = 0;
       root.classList.remove('centerMode'); skip.textContent = T.skip; bar.hidden = true; hint.hidden = true;
-      root.setAttribute('aria-label', T.ask(byId.get(S.id)));
+      root.setAttribute('aria-label', (DIR === 'up' ? T.askUp : T.ask)(byId.get(S.id)));
       if (still >= 0 && !root.querySelector('.nextb')) { const b = document.createElement('button'); b.type = 'button'; b.className = 'nextb'; b.textContent = T.next; root.appendChild(b); }
       req();
     }
@@ -290,7 +308,8 @@
       jump += n - t;
     }
     skip.onclick = e => { e.stopPropagation(); if (mode === 'film') toCenter(S.id); else close(); };
-    root.querySelector('.watch').onclick = e => { e.stopPropagation(); startFilm(S.id); };
+    root.querySelector('.watch').onclick = e => { e.stopPropagation(); DIR = 'down'; startFilm(S.id); };
+    root.querySelector('.watchUp').onclick = e => { e.stopPropagation(); DIR = 'up'; startFilm(S.id); };
     root.querySelector('.detail').addEventListener('click', e => e.stopPropagation());
     root.addEventListener('keydown', e => { if (e.key === 'Escape') { if (mode === 'film') toCenter(S.id); else close(); } });
 
@@ -476,6 +495,7 @@
         const sl = A.slot.get(k);
         if (sl && rs >= 3) ctx.drawImage(A.c, sl[0], sl[1], 16, 16, x - r * 0.7, y - r * 0.7, r * 1.4, r * 1.4);
         if (film && d === 1 && a >= 1 && rs >= 5 && t < t2) labels.push([x, y + r + 13 * px, nm(n), d]);   // 分解の始め：部品の名前を読める速さで
+        if (!film && d && S.dir === 'up' && AIPATH.has(k) && n.kind === 'product' && rs >= 2) labels.push([x, y + r + 13 * px, nm(n), 0]);
         if (!film && d && (rs >= 9 || (S.LAY === 'D' && d <= 2 && rs >= 4))) labels.push([x, y + r + 13 * px, nm(n), d]);
       }
       // 始まりの光（3 の場面）：全部の始まりに輪が1回だけ広がる
@@ -538,14 +558,15 @@
       if (film) {
         const sc5 = t < t1 ? 0 : t < t2 ? 1 : t < t3 ? 2 : t < t4 ? 3 : 4;
         const fr = (t - t1) / P2, ah = sc5 === 1 && fr > 0.3 ? S.aha[fr < 0.62 ? 0 : 1] : null;
-        capText = [T.ask(target), ah ? T.aha(nm(byId.get(ah.part)), nm(byId.get(ah.root))) : T.ask(target), T.roots(S.groups), people ? T.people(people.n, people.anon) : '…', T.you][sc5];
-        ct = sc5 >= 1 ? T.count(Math.min(S.total, sc5 >= 2 ? S.total : arrived)) + (sc5 === 1 && shown ? (S.LAY === 'gran' ? `・${T.ring(shown)} +${S.layers[shown].length}` : T.gen(shown, S.layers[shown].length)) : '') : '';
+        const ASK = S.dir === 'up' ? T.askUp : T.ask, AHA = S.dir === 'up' ? T.ahaUp : T.aha;
+        capText = [ASK(target), ah ? AHA(nm(byId.get(ah.part)), nm(byId.get(ah.root))) : ASK(target), S.dir === 'up' ? T.made(target, S.total) : T.roots(S.groups), people ? T.people(people.n, people.anon) : '…', T.you][sc5];
+        ct = sc5 >= 1 ? T.count(Math.min(S.total, sc5 >= 2 ? S.total : arrived)) + (sc5 === 1 && shown ? (S.LAY === 'gran' ? `・${T.ring(shown)} +${S.layers[shown].length}` : S.dir === 'up' ? (EN() ? ` · ${shown} step${shown > 1 ? 's' : ''} ahead: +${S.layers[shown].length}` : `・${shown} 世代先 +${S.layers[shown].length}`) : T.gen(shown, S.layers[shown].length)) : '') : '';
       } else {
         if (S.sel && byId.has(S.sel)) {
           const a = S.all.filter(e => e[1] === S.sel).length, b = S.all.filter(e => e[0] === S.sel).length;
           capText = EN() ? `${nm(byId.get(S.sel))}: needs ${a}, used by ${b}` : `${nm(byId.get(S.sel))}：前提 ${a}・使う物 ${b}`;
         } else capText = `[${S.id}] ${nm(target)}`;
-        ct = S.total ? T.sum(S.total, S.roots.length) : (EN() ? 'A starting point (no prerequisites)' : '始まりの1つ（前提なし）');
+        ct = S.dir === 'up' ? T.sumUp(S.total) : S.total ? T.sum(S.total, S.roots.length) : (EN() ? 'A starting point (no prerequisites)' : '始まりの1つ（前提なし）');
       }
       if (cap.dataset.t !== capText) { cap.dataset.t = capText; cap.textContent = capText; cap.classList.remove('in'); void cap.offsetWidth; cap.classList.add('in'); }
       if (cnt.textContent !== ct) cnt.textContent = ct;
@@ -553,16 +574,18 @@
     }
     root.tabIndex = -1; root.focus();
     resize();
-    if (film) { skip.textContent = T.skip; root.setAttribute('aria-label', T.ask(byId.get(id))); req(); }
+    if (film) { skip.textContent = T.skip; root.setAttribute('aria-label', (DIR === 'up' ? T.askUp : T.ask)(byId.get(id))); req(); }
     else toCenter(id, false);
     return { center: k => toCenter(k, false), close, get id() { return S.id; }, get mode() { return mode; } };
   }
   const play = (id, opt) => open(id, opt, true);
+  const playUp = (id, opt) => open(id, { ...opt, dir: 'up' }, true);
   const center = (id, opt) => open(id, opt, false);
   // 初めての1回だけ（ブラウザに「見た」を保存。保存できない環境では出さない）
   function firstTime(id, opt) {
     try { if (localStorage.getItem('tn-film-seen')) return null; localStorage.setItem('tn-film-seen', '1'); } catch (e) { return null; }
     return play(id, opt);
   }
-  window.Film = { play, center, firstTime };
+  const countOf = (id, dir) => scene(id, dir).total;   // 中心図と同じ数え方（up は年の決まりも）
+  window.Film = { play, playUp, center, firstTime, countOf };
 })();

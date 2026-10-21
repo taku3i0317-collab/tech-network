@@ -8277,6 +8277,27 @@
 "or": false
 },
 {
+"from": "4-08",
+"to": "14-22",
+"kind": "requires",
+"group": 0,
+"or": false
+},
+{
+"from": "2-29",
+"to": "14-22",
+"kind": "requires",
+"group": 1,
+"or": false
+},
+{
+"from": "4-03",
+"to": "14-22",
+"kind": "requires",
+"group": 2,
+"or": false
+},
+{
 "from": "0-06",
 "to": "15-01",
 "kind": "requires",
@@ -13271,5 +13292,215 @@
 "from": "2-38",
 "to": "9-06",
 "kind": "tool"
+},
+{
+"from": "2-09",
+"to": "2-05",
+"kind": "demand"
+},
+{
+"from": "2-14",
+"to": "2-05",
+"kind": "demand"
+},
+{
+"from": "2-04",
+"to": "2-05",
+"kind": "replaces"
+},
+{
+"from": "2-05",
+"to": "6-06",
+"kind": "byproduct"
+},
+{
+"from": "2-05",
+"to": "2-06",
+"kind": "replaces"
+},
+{
+"from": "6-05",
+"to": "2-08",
+"kind": "byproduct"
+},
+{
+"from": "2-43",
+"to": "6-12",
+"kind": "replaces"
+},
+{
+"from": "0-12",
+"to": "1-10",
+"kind": "replaces"
+},
+{
+"from": "1-59",
+"to": "3-08",
+"kind": "replaces"
+},
+{
+"from": "1-08",
+"to": "1-26",
+"kind": "replaces"
+},
+{
+"from": "3-08",
+"to": "1-63",
+"kind": "demand"
+},
+{
+"from": "3-08",
+"to": "1-12",
+"kind": "replaces"
+},
+{
+"from": "1-12",
+"to": "1-48",
+"kind": "replaces"
+},
+{
+"from": "1-29",
+"to": "1-38",
+"kind": "demand"
+},
+{
+"from": "4-29",
+"to": "1-41",
+"kind": "demand"
+},
+{
+"from": "1-65",
+"to": "1-74",
+"kind": "replaces"
+},
+{
+"from": "6-16",
+"to": "6-09",
+"kind": "replaces"
+},
+{
+"from": "7-10",
+"to": "7-20",
+"kind": "replaces"
+},
+{
+"from": "9-17",
+"to": "9-18",
+"kind": "improves"
+},
+{
+"from": "9-04",
+"to": "9-18",
+"kind": "replaces"
+},
+{
+"from": "9-16",
+"to": "9-28",
+"kind": "replaces"
+},
+{
+"from": "9-06",
+"to": "9-27",
+"kind": "replaces"
+},
+{
+"from": "9-25",
+"to": "9-36",
+"kind": "replaces"
+},
+{
+"from": "9-23",
+"to": "9-37",
+"kind": "improves"
+},
+{
+"from": "10-07",
+"to": "10-09",
+"kind": "replaces"
+},
+{
+"from": "10-08",
+"to": "10-12",
+"kind": "replaces"
+},
+{
+"from": "10-33",
+"to": "10-24",
+"kind": "replaces"
+},
+{
+"from": "B-21",
+"to": "B-22",
+"kind": "replaces"
+},
+{
+"from": "B-02",
+"to": "P-27",
+"kind": "replaces"
+},
+{
+"from": "B-24",
+"to": "B-07",
+"kind": "replaces"
+},
+{
+"from": "B-01",
+"to": "B-07",
+"kind": "replaces"
+},
+{
+"from": "15-08",
+"to": "15-09",
+"kind": "replaces"
+},
+{
+"from": "15-05",
+"to": "15-28",
+"kind": "replaces"
+},
+{
+"from": "15-31",
+"to": "15-28",
+"kind": "replaces"
+},
+{
+"from": "15-32",
+"to": "10-03",
+"kind": "replaces"
+},
+{
+"from": "15-20",
+"to": "B-10",
+"kind": "improves"
+},
+{
+"from": "8-26",
+"to": "B-16",
+"kind": "replaces"
+},
+{
+"from": "P-38",
+"to": "8-35",
+"kind": "replaces"
+},
+{
+"from": "8-10",
+"to": "8-11",
+"kind": "improves"
+},
+{
+"from": "7-04",
+"to": "7-05",
+"kind": "improves"
+},
+{
+"from": "B-09",
+"to": "10-25",
+"kind": "demand"
+},
+{
+"from": "10-16",
+"to": "B-11",
+"kind": "demand"
 }
 ]

@@ -49,7 +49,7 @@
  },
  "game": {
   "status": "❓",
-  "buildable_now": false,
+  "buildable_now": true,
   "play": "",
   "missing": "",
   "item": null,

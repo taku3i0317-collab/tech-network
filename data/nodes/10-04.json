@@ -17,7 +17,20 @@
    "4": ""
   },
   "sources": [],
-  "refs": [],
+  "refs": [
+   {
+    "title": "F60. 回りすぎたら弁をしぼる（遠心調速機とフィードバック制御）［10-04］",
+    "answer": "目標（ねらいの速さ）と今の値のずれを測り、ずれを小さくする向きに直し続ける＝フィードバック制御。1788年、ワットは蒸気機関の軸に2つのおもりの玉を付け、速く回ると玉が遠心力で開いて蒸気の弁を閉じるようにした（遠心調速機）。",
+    "hee": {
+     "1": "調速機は風車の石臼のすき間の調整にすでに使われていて、ワットはそれを蒸気機関に応用した ⚠️",
+     "2": "1868年、マクスウェルが論文『調速機について』で、調速機が回転をふらつかせる（ハンチング）理由を式で調べ、制御の理論が始まった",
+     "3": "1922年、ミノルスキーが船の自動かじ取りの研究で、今の PID 制御（ずれ・ずれの合計・ずれの変わる速さ）の形を示した",
+     "4": "エアコン・自動運転・ロボットの腕・露光装置のステージも、みな「測って、くらべて、直す」のくり返し"
+    },
+    "certainty": "ワットの調速機 1788 ◎／マクスウェル 1868 ◎／ミノルスキー 1922 ◎／風車からの応用 △",
+    "basis": "Wikipedia「Centrifugal governor」https://en.wikipedia.org/wiki/Centrifugal_governor （英語）、J. C. Maxwell「On Governors」Proc. Royal Society 1868 https://doi.org/10.1098/rspl.1867.0055 、Wikipedia「Proportional–integral–derivative controller」（History）https://en.wikipedia.org/wiki/Proportional%E2%80%93integral%E2%80%93derivative_controller"
+   }
+  ],
   "people": [],
   "media": [],
   "requires": [
@@ -43,8 +56,8 @@
   "real": "1788 ワットの遠心調速機（回転が速すぎると弁を閉じる）、1868 マクスウェルの安定性の論文、1922 ミノルスキーの PID 制御（船の自動操舵）"
  },
  "game": {
-  "status": "❓",
-  "buildable_now": true,
+  "status": "✅",
+  "buildable_now": false,
   "play": "",
   "missing": "",
   "item": null,

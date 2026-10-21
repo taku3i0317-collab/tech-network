@@ -7,7 +7,7 @@ authors:
 license: CC0-1.0
 repository-code: "https://github.com/taku3i0317-collab/tech-network"
 url: "https://taku3i0317-collab.github.io/tech-network/"
-abstract: "A CC0 knowledge graph of 639 technologies, products and discoveries from stone tools to EUV lithography and AI, connected by prerequisites (1864 links), with years, people, sources and certainty marks. Most texts were written by AI and checked against sources; not yet reviewed by human experts."
+abstract: "A CC0 knowledge graph of 640 technologies, products and discoveries from stone tools to EUV lithography and AI, connected by prerequisites (1953 links), with years, people, sources and certainty marks. Most texts were written by AI and checked against sources; not yet reviewed by human experts."
 keywords:
   - history of technology
   - knowledge graph

@@ -17,7 +17,20 @@
    "4": ""
   },
   "sources": [],
-  "refs": [],
+  "refs": [
+   {
+    "title": "O92. 磁気で音を残す（磁気記録）［15-12］",
+    "answer": "1898年、デンマークのポールセンは、電話の声の電流を電磁石に流し、そのそばを走る鋼の線を声に合わせて磁化して記録する「テレグラフォン」を作った。読むときは、磁化した線が電磁石のそばを通って電流が生まれ、声に戻る。1928年にはドイツのプフロイマーが紙に鉄の粉をぬった磁気テープを作り、のちに酸化鉄をぬったプラスチックのテープになった。磁気で残す仕組みは、カセットテープからコンピューターのハードディスクまで続いている。",
+    "hee": {
+     "1": "カセットテープの茶色は、さびた鉄（酸化鉄）の粉の色。",
+     "2": "最初の磁気録音は、テープではなく鋼の線だった。",
+     "3": "蓄音機の溝とちがい、磁気の記録は何度聞いてもすり減らない。",
+     "4": "強い磁気をかけると消えて、何度でも記録し直せる。"
+    },
+    "certainty": "ポールセン 1898 ◎／プフロイマー 1928 ◎／茶色＝酸化鉄 ◎",
+    "basis": "- Wikipedia「Wire recording」「Magnetic tape」「Fritz Pfleumer」：https://en.wikipedia.org/wiki/Wire_recording ・ https://en.wikipedia.org/wiki/Magnetic_tape ・ https://en.wikipedia.org/wiki/Fritz_Pfleumer"
+   }
+  ],
   "people": [],
   "media": [],
   "requires": [
@@ -50,9 +63,9 @@
   "real": "1898 ヴァルデマール・ポールセンの鋼線録音、1928 フリッツ・プフロイマーの磁気テープ（紙に酸化鉄を塗る）⚠️"
  },
  "game": {
-  "status": "❓",
-  "buildable_now": true,
-  "play": "",
+  "status": "✅",
+  "buildable_now": false,
+  "play": "作品（記録して再生・消して記録し直す）",
   "missing": "",
   "item": null,
   "recipes": [],

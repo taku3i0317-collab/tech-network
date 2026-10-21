@@ -67,7 +67,9 @@
   "missing": "",
   "item": "al_dotted_wafer",
   "recipes": [],
-  "machine_recipes": [],
+  "machine_recipes": [
+   "真空蒸着装置「アルミの点（メサ）」：p-n 接合の板×8（ホウ素の p-n 接合） ＋ アルミニウムのインゴット → Al の点を付けた板×8（0.3 kW × 20 秒＝6 kJ）。[9-17] 隣の真空容器 0.01Pa 以下"
+  ],
   "placeholder": null,
   "game_text": "中間製品（第2章のトランジスタ）",
   "hee_game": {

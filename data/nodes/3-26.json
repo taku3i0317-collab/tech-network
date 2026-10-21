@@ -1,0 +1,71 @@
+{
+ "id": "3-26",
+ "history": {
+  "name": "焼結アルミナのセラミックス",
+  "name_en": null,
+  "kind": "tech",
+  "trunk": "3",
+  "trunk_name": "熱",
+  "year": 1930,
+  "year_range": null,
+  "year_uncertain": false,
+  "hee1": "点火プラグの白い部分はアルミナの焼き物（出典：Wikipedia「Aluminium oxide」「Electrostatic chuck」）",
+  "hee1_en": null,
+  "hee_tree": {
+   "2": "",
+   "3": "",
+   "4": ""
+  },
+  "sources": [],
+  "refs": [
+   {
+    "title": "C81. 焼き物でウェハーをつかむ（アルミナのセラミックス）［3-26］",
+    "answer": "酸化アルミニウム（アルミナ）の粉を型で押し固め、約1600℃で焼き固めると、白くてとてもかたく、電気を通さず熱に強い焼き物（ファインセラミックス）になる。1930年代から自動車の点火プラグの絶縁体に使われ、1960年代からは IC をのせる基板になった。真空の中では吸盤が使えないので、半導体の装置では、表面の下に電極をうめこんだセラミックスの台に電圧をかけ、ウェハーを電気の力で吸いつける（静電チャック）。",
+    "hee": {
+     "1": "点火プラグの白い部分はアルミナの焼き物。",
+     "2": "焼くと体積が約2割ちぢむ。",
+     "3": "真空の中でウェハーを持つのは、電気の力（静電チャック）。",
+     "4": "アルミナはとかすには熱すぎる（融点約2050℃）ので、粉を焼いて形にする。"
+    },
+    "certainty": "焼結・点火プラグ・IC 基板 ◎／静電チャックの実用化の時期 △",
+    "basis": "- Wikipedia「Aluminium oxide」（Applications）：https://en.wikipedia.org/wiki/Aluminium_oxide"
+   }
+  ],
+  "people": [],
+  "media": [],
+  "requires": [
+   [
+    [
+     "1-14"
+    ]
+   ],
+   [
+    [
+     "1-72"
+    ]
+   ]
+  ],
+  "understanding": [],
+  "enables": [],
+  "explains": [],
+  "parts": [],
+  "materials": [],
+  "enabled_by": [],
+  "explained_by": [],
+  "frontier": false,
+  "real": "酸化アルミニウムの粉を型で押し固め、約1600℃で焼き固める（約2割ちぢむ）。電気を通さず、熱に強く、とてもかたい。1930年代から自動車の点火プラグの絶縁体（アルミナ磁器）、1960年代から IC をのせる基板、今は半導体製造装置の静電チャック（真空の中でウェハーを電気の力で吸いつける台）⚠️"
+ },
+ "game": {
+  "status": "✅",
+  "buildable_now": false,
+  "play": "軽",
+  "missing": "",
+  "item": null,
+  "recipes": [],
+  "machine_recipes": [],
+  "placeholder": null,
+  "game_text": "",
+  "hee_game": {}
+ },
+ "icon": null
+}

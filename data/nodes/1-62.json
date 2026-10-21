@@ -17,7 +17,20 @@
    "4": ""
   },
   "sources": [],
-  "refs": [],
+  "refs": [
+   {
+    "title": "C80. さびない膜をまとった鋼（ステンレス鋼）［1-62］",
+    "answer": "鉄にクロムを約12%以上まぜると、表面に厚さ数ナノメートルのクロムの酸化物の膜ができ、酸素や水を通さなくなる（不動態）。傷がついても空気ですぐ膜がもどるので、さびない。1904〜06年にフランスのレオン・ギエが鉄とクロムの合金を調べ、1912年にドイツのクルップ社がニッケルも入れた「18-8」（磁石につかず、ねばり強い）の特許を取り、1913年にイギリスのハリー・ブレアリーが13%クロムの「さびない鋼」を作った。ガスを出しにくいので、超高真空の容器や超純水の配管にも使われる。",
+    "hee": {
+     "1": "ステンレスの「さびない」は、目に見えないほど薄い酸化物の膜のおかげ。",
+     "2": "18-8 は、クロム18%・ニッケル8% のこと。",
+     "3": "塩水では、ふつうの鋼はすぐさびるが、ステンレスはさびない。",
+     "4": "ブレアリーの最初の用途は、さびないナイフだった。"
+    },
+    "certainty": "不動態・ギエ・クルップ 1912・ブレアリー 1913 ◎",
+    "basis": "- Wikipedia「Stainless steel」：https://en.wikipedia.org/wiki/Stainless_steel"
+   }
+  ],
   "people": [],
   "media": [],
   "requires": [
@@ -48,15 +61,15 @@
   "real": "鉄にクロムを約12%以上混ぜると、表面にとても薄いクロムの酸化物の膜ができて、さびなくなる。1904〜06年にフランスのレオン・ギエが鉄とクロムの合金を研究し、1911年にドイツのモンナルツがクロム約12%以上でさびにくくなることを示した。1912年、ドイツのクルップ社のシュトラウスとマウラーがニッケルも入れた「18-8」（磁石につかない・粘り強い）の特許を取り、1913年にイギリスのハリー・ブレアリーが13% クロムの鋼を「さびない鋼」として作った。台所の流し・食器、超高真空の容器、超純水の配管に使われる。安くて強い鋼の板に、さびにくい金属（ニッケルやステンレス）のうすい板をはがれないように重ねた2層の板をクラッド鋼という。全部を高い金属で作らなくても、薬品にふれる面だけを守れる。1930年にアメリカでニッケルをはり合わせた鋼板が作られ、1950年代から広まった ⚠️（世界で最初かどうかは確かめられない。S-019 で追加。出典：Industeel（ArcelorMittal）「The history of plated sheets」 https://industeel.arcelormittal.com/the-history-of-plated-sheets/ 、亜留間次郎さん（Arumaddilo）が作った Wikipedia 日本語版「クラッド鋼」 https://ja.wikipedia.org/wiki/%E3%82%AF%E3%83%A9%E3%83%83%E3%83%89%E9%8B%BC ）"
  },
  "game": {
-  "status": "❓",
-  "buildable_now": true,
+  "status": "✅",
+  "buildable_now": false,
   "play": "",
   "missing": "",
   "item": null,
   "recipes": [],
   "machine_recipes": [],
   "placeholder": null,
-  "game_text": "未定（実装の前に相談）",
+  "game_text": "",
   "hee_game": {}
  },
  "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAPklEQVR42mNgoBAwEqvQysHnP4x97MAWuD4WYjV7+fggC/2HGcJEqReINmDLq0+0CQOiNSMbMKp5eGoeUAAA57sszKUSSY4AAAAASUVORK5CYII="

@@ -29,6 +29,18 @@
     },
     "certainty": "1999 の発表（IEDM の論文）◎／2011 インテルの 22nm 量産 ◎／TSMC・サムスンの採用 2015ごろ ○",
     "basis": "Wikipedia「FinFET」https://en.wikipedia.org/wiki/FinFET 、Intel のニュースリリース「Intel Reinvents Transistors Using New 3-D Structure」（2011年5月）、Wikipedia「Multigate device」https://en.wikipedia.org/wiki/Multigate_device （英語）"
+   },
+   {
+    "title": "F41. 原子1層ずつ積む（ALD と high-k のゲート）［1-70］［9-37］",
+    "answer": "トランジスタを小さくするとゲートの絶縁膜（SiO2）も薄くなり、電子がすり抜けて漏れる（トンネル効果）。そこで誘電率が約6倍高い酸化ハフニウム（high-k）に替え、厚いままでも同じ効き目にした。膜は ALD（原子層堆積）で、四塩化ハフニウムと水の蒸気を交互に流し、原子1層ずつ積む。2007年にインテルの 45nm の世代で量産に入った。",
+    "hee": {
+     "1": "ALD は1回で1層だけ付いて自分で止まる。だから厚さを原子の数で決められる。",
+     "2": "HfCl4 は、酸化ハフニウムを炭素と塩素で熱して作る（チタンのクロール法と同じ）。",
+     "3": "ジルコニウムとハフニウムはとても似ていて、原子炉の材料のためにわざわざ分ける（ハフニウムは中性子をよく吸う）。",
+     "4": "ALD の考えは 1960年代のソ連と、1970年代のフィンランドで別々に生まれた。"
+    },
+    "certainty": "インテル 45nm の high-k／金属ゲート（2007）◎／HfO2 の誘電率 約25 ○／ALD の起源 ○",
+    "basis": "Wikipedia「High-κ dielectric」https://en.wikipedia.org/wiki/High-%CE%BA_dielectric 、Wikipedia「Atomic layer deposition」https://en.wikipedia.org/wiki/Atomic_layer_deposition （英語）"
    }
   ],
   "people": [],

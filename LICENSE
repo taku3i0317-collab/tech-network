@@ -9,3 +9,6 @@ Summary: https://creativecommons.org/publicdomain/zero/1.0/
 
 Links to third-party images (Wikimedia Commons, etc.) in data/nodes/*.json "media" are references only; those images keep
 their own licenses as listed with each link.
+
+Exception: docs/vendor/budoux-ja.min.js is BudouX (Copyright 2021 Google LLC), licensed under the Apache License,
+Version 2.0, not CC0. Its license text is in docs/vendor/LICENSE-budoux.txt.

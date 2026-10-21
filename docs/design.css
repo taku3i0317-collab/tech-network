@@ -29,8 +29,8 @@ a { color: var(--accent); }
 /* S-015（ユーザーの決定：書体③）：見出しは全部ドット（小さな見出しも）。本文・ボタン・図の名前は BIZ UDPゴシック。ドットには太字が無いので太くしない */
 h1, h2, h3, h4, #card h2 span, #card .sec h3, .layers .layer h3, #card .layer h4, nav.toc b, .hero .col h3, .term dt, .pixel { font-family: var(--font-pixel); letter-spacing: .02em; font-weight: 400; }
 header h1 { font-size: 18px; }
-header.top h1 { font-size: 20px; }
-section h2, #card h2 { font-size: 16px; }
+header.top h1 { font-size: clamp(18px, 16px + 0.6vw, 22px); }
+section h2, #card h2 { font-size: clamp(15px, 14px + 0.3vw, 17px); }
 section h2 { margin: 0 0 var(--gap-3); }
 #card .sec h3, .layers .layer h3 { font-size: 13px; letter-spacing: .02em; }
 
@@ -69,3 +69,10 @@ ruby.fu rt { font-size: 0.55em; font-weight: 400; letter-spacing: 0; color: var(
 #furiBtn.on { background: var(--accent); color: var(--panel); }
 .alprev[hidden] { display: none; }   /* S-012：display:flex が hidden に勝って、左上に空のカードが残っていた */
 button, input, select, textarea { font-family: var(--font); }   /* S-013：ボタンは書体を受け継がないので、English ボタンだけ Arial になっていた */
+
+/* S-016：字の崩れ。日本語は文節の切れ目でだけ折り返す（Chrome は auto-phrase、ほかは linebreak.js の BudouX）。英語は長い単語をハイフンで。
+   字の大きさは画面の幅でなめらかに（360px で 14px → 広い画面で 15.5px）。長い URL などは箱からはみ出さずに折り返す */
+:lang(ja) { word-break: auto-phrase; }
+:lang(en) { hyphens: auto; overflow-wrap: break-word; }
+body { font-size: clamp(14px, 13px + 0.3vw, 15.5px); overflow-wrap: break-word; }
+img, video, canvas, svg { max-width: 100%; }

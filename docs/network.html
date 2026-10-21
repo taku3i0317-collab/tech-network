@@ -111,7 +111,7 @@ small.term { color: var(--sub); font-weight: 400; }
 .focus { position: absolute; inset: 0; z-index: 6; overflow: auto; background: var(--bg); padding-bottom: 76px; }
 .focus[hidden], .focus [hidden] { display: none !important; }
 .focus .time { position: relative; height: 34px; margin: 10px 12px 0; border-radius: 8px; background: linear-gradient(90deg, var(--band-a), var(--band-b)); font-size: 10px; color: var(--sub); }
-.focus .time span { position: absolute; top: 18px; transform: translateX(-50%); }
+.focus .time span { position: absolute; top: 18px; transform: translateX(-50%); white-space: nowrap; }
 .focus .time i { position: absolute; top: 2px; width: 3px; height: 16px; margin-left: -1px; background: var(--hl); border-radius: 2px; }
 .focus .time i.p { background: var(--sub); opacity: .6; height: 10px; top: 5px; }
 .focus h3 { font-size: 13px; color: var(--sub); margin: 14px 12px 6px; }
@@ -569,9 +569,10 @@ body.focusMode .intro { display: none; }
   }
 
   // ---- ズーム：近づくほど細かく（地図アプリのように）。遠いときはモノだけ ----
+  let started = false;
   const zoom = d3.zoom().scaleExtent([0.15, 8]).on('zoom', ev => {
     T = ev.transform;
-    const was = detail(); K = T.k; if (was !== detail()) render(); else requestDraw();
+    const was = detail(); K = T.k; if (was !== detail() && started) render(); else requestDraw();   // started：はじめの準備が終わるまでは render しない（S-016：768px で最初の倍率合わせのとき止まっていた）
   });
   resize();
   new ResizeObserver(resize).observe(chart);
@@ -585,6 +586,21 @@ body.focusMode .intro { display: none; }
   DETAIL_K = k0 * 1.8;
   d3.select(cv).call(zoom.transform, d3.zoomIdentity.translate(narrow ? 4 : Math.max(4, (box.width - W * k0) / 2), 4).scale(k0));
 
+  // 文の中の「（…出典：…）」を消す（S-016。出典は詳しいページの一番下の「出典」の欄に番号つきでまとめる）
+  function noCite(t) {
+    let s = String(t || ''), from = 0;
+    for (;;) {
+      const p = s.indexOf('出典', from);
+      if (p < 0) break;
+      if (!/[:：]/.test(s[p + 2] || '')) { from = p + 2; continue; }
+      let d = 0, o = -1, c = -1;
+      for (let j = p - 1; j >= 0; j--) { if (s[j] === '）') d++; else if (s[j] === '（') { if (!d) { o = j; break; } d--; } }
+      if (o >= 0) { let dd = 0; for (let j = p; j < s.length; j++) { if (s[j] === '（') dd++; else if (s[j] === '）') { if (!dd) { c = j; break; } dd--; } } }
+      if (o >= 0 && c >= 0) { s = s.slice(0, o) + s.slice(c + 1); from = o; }
+      else { let e = s.indexOf('。', p); if (e < 0) e = s.length; const b = s.slice(0, p).replace(/[、。\s]+$/, ''); s = b + s.slice(e); from = b.length; }
+    }
+    return s;
+  }
   // ---- 重いデータ（本物・へえ・出典・人物・前提の並び）：カードを開くか検索したときに読む ----
   let detailP = null, ALL = null;
   function ensureDetail() {
@@ -596,6 +612,7 @@ body.focusMode .intro { display: none; }
       for (const n of nodes) {
         Object.assign(n, D.nodes[n.id]);
         if (LANG === 'en' && n.hee1_en) n.hee1 = n.hee1_en;
+        n.hee1 = noCite(n.hee1); if (n.real_full) n.real_full = noCite(n.real_full);   // S-016：文の中の（出典：…）はカードには出さない（詳しいページの一番下にまとめてある）
         n.real = Array.from((n.real_full || '').split('\n')[0].trim()).slice(0, 400).join('');   // カードの「本物」は全文の1行目の400字
         for (const p of n.people || []) if (p.pi != null) p.portrait = D.portraits[p.pi];
       }
@@ -919,10 +936,14 @@ body.focusMode .intro { display: none; }
   try { saved = localStorage.getItem('tn-layout') || 'time'; } catch (e) { /* 保存できない環境では時間軸 */ }
   placeLabels();
   if (saved === 'net') applyLayout('net', false);
+  started = true;
   render();
   fromHash();
 })();
 </script>
+<script src="vendor/budoux-ja.min.js"></script>
+<script src="linebreak.js"></script>
+<script>LineBreak.init();</script>
 <script src="furigana.js"></script>
 <script>Furigana.init(document.getElementById('furiBtn'));</script>
 </body>

@@ -45,6 +45,13 @@ table.gap { border-collapse: collapse; width: 100%; font-size: 13px; }
 table.gap td { border-top: 1px solid var(--line); padding: 4px 6px; vertical-align: top; }
 .btn { display: inline-block; border: 1px solid var(--accent); color: var(--accent); border-radius: 8px; padding: 6px 12px; text-decoration: none; font-size: 14px; }
 del { color: var(--sub); }
+/* 出典（S-016）：Wikipedia の形。本文に小さな番号 [1]、ページの一番下に「出典」の欄。番号を押すとそこへ、↩ で本文へ戻る */
+sup.fn { font-size: .7em; line-height: 0; margin-left: 1px; }
+sup.fn a, ol.notes a.back { text-decoration: none; }
+ol.notes { padding-left: 1.8em; margin: 4px 0; font-size: 14px; }
+ol.notes li { margin: 6px 0; overflow-wrap: anywhere; }
+ol.notes li.hl, sup.fn.hl { background: color-mix(in srgb, var(--hl, #e0a000) 25%, transparent); border-radius: 4px; }
+ol.notes a.back { margin-right: 6px; }
 /* 道のりの時代ごとの折りたたみ・進み具合（NET-09 U-10） */
 details.era { border-top: 1px solid var(--line); padding: 6px 0; }
 details.era summary { cursor: pointer; }
@@ -168,6 +175,36 @@ header.top .ic { display: none; }   /* 大きなアイコンを絵の欄に出�
   const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
   // 本文の中の [番号] をリンクに、~~消し線~~ を del に
   const rich = s => esc(s).replace(/~~(.*?)~~/g, '<del>$1</del>').replace(/\[(\d+|B|P|I)-(\d+[a-z]?)\]/g, (m, t, n) => byId.has(`${t}-${n}`) ? `<a href="#${t}-${n}">[${t}-${n}]</a>` : m);
+  // ---- 出典（S-016）：文の中の「（…出典：…）」を取り出して番号 [n] にし、ページの一番下の「出典」の欄にまとめる ----
+  // TECH_TREE などの文はそのまま（書き換えない）で、見せるときだけ形を変える。同じ出典は同じ番号
+  let notes = [];
+  const MK = no => `\uE000${no}\uE001`;   // 番号の目印（文を esc・リンクにしたあとで <sup> に置きかえる）
+  const srcHtml = t => esc(String(t).replace(/^\s*[-・]\s*/gm, '').trim()).replace(/\n/g, '<br>').replace(/https?:\/\/[^\s（）、」]+/g, u => `<a href="${u}" target="_blank" rel="noopener">${u.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, '').slice(0, 60)}</a>`);
+  const noteNo = html => { let i = notes.findIndex(n => n.html === html); if (i < 0) { notes.push({ html, refs: 0 }); i = notes.length - 1; } return i + 1; };
+  function cite(raw) {
+    let s = String(raw || ''), from = 0;
+    for (;;) {
+      const p = s.indexOf('出典', from);
+      if (p < 0) break;
+      if (!/[:：]/.test(s[p + 2] || '')) { from = p + 2; continue; }
+      let depth = 0, open = -1, close = -1;
+      for (let j = p - 1; j >= 0; j--) { if (s[j] === '）') depth++; else if (s[j] === '（') { if (!depth) { open = j; break; } depth--; } }
+      if (open >= 0) { let dd = 0; for (let j = p; j < s.length; j++) { if (s[j] === '（') dd++; else if (s[j] === '）') { if (!dd) { close = j; break; } dd--; } } }
+      let src, before, after;
+      if (open >= 0 && close >= 0) {   // かっこの中の出典：かっこごと取り出す（「S-001 で追加」のような作業の覚え書きは出さない）
+        const pre = s.slice(open + 1, p).replace(/[A-Z]+-\d+\s*で追加[。、]?/g, '').replace(/[。、\s]+$/, '');
+        src = s.slice(p + 3, close).trim(); before = s.slice(0, open) + (pre ? `（${pre}）` : ''); after = s.slice(close + 1);
+      } else {   // かっこの外：文の終わり（。）まで
+        let end = s.indexOf('。', p); if (end < 0) end = s.length;
+        src = s.slice(p + 3, end).trim(); before = s.slice(0, p).replace(/[、。\s]+$/, ''); after = s.slice(end);
+      }
+      const m = MK(noteNo(srcHtml(src)));
+      s = before + m + after; from = before.length + m.length;
+    }
+    return s;
+  }
+  // 目印を <sup>[n]</sup> に。同じ番号が何度も出たら、出典の欄の ↩ も a・b… と増える
+  const supAll = html => html.replace(/\uE000(\d+)\uE001/g, (m, no) => { const n = notes[no - 1], k = n.refs++; return `<sup class="fn" id="fnref-${no}-${k}"><a href="#" data-fn="${no}" aria-label="出典 ${no}">[${no}]</a></sup>`; });
   const yearText = d => d.year == null ? '年 ?' : (d.year < 0 ? `前${(-d.year).toLocaleString()}年` : `${d.year}年`) + (d.year_range ? `（${d.year_range}）` : '') + (d.year_uncertain ? ' ⚠️' : '');
   const chip = id => { const n = byId.get(id); return n ? `<a class="chip${n.status === '✅' ? ' done' : ''}" href="#${id}">${id} ${esc(n.name)} ${n.status}</a>` : ''; };
   const silhouette = `<svg width="40" height="40" viewBox="0 0 34 34" aria-hidden="true"><circle cx="17" cy="11" r="7" fill="var(--sub)"/><path d="M4 33c0-8 6-13 13-13s13 5 13 13z" fill="var(--sub)"/></svg>`;
@@ -267,11 +304,12 @@ header.top .ic { display: none; }   /* 大きなアイコンを絵の欄に出�
     window.scrollTo(0, 0);
 
     // へえ①〜④：ゲームの説明（lang）→ 参考文献（REFERENCES）→ TECH_TREE の順に探す
+    notes = [];
     const ref = d.refs[0];
     const hee = k => (LANG === 'en' && k === '1' && d.hee1_en) || d.hee_game['note' + k] || (ref && ref.hee[k]) || (k === '1' ? d.hee1 : d.hee_tree[k]) || '';
     const levels = [['1', '①子ども'], ['2', '②学生'], ['3', '③大人'], ['4', '④ガチ']];
     const richL = t => AutoLink.link(rich(t), d.id, g => '#' + g);   // S-009：文の中の言葉をリンクに
-    const heeHtml = levels.map(([k, lv]) => hee(k) ? `<div class="lv">${lv}</div><div>${richL(hee(k))}</div>` : '').join('');
+    const heeHtml = levels.map(([k, lv]) => hee(k) ? `<div class="lv">${lv}</div><div>${richL(cite(hee(k)))}</div>` : '').join('');
 
     const anc = walk(id, parentsOf), desc = walk(id, kids);
     const still = makeable(id), lost = [...ALL].filter(x => x !== id && !still.has(x));
@@ -324,7 +362,7 @@ header.top .ic { display: none; }   /* 大きなアイコンを絵の欄に出�
       const body = isVideo && file ? `<video controls preload="none" src="${esc(m.url)}"></video>`
         : isVideo ? `<p><a href="${esc(m.url)}" target="_blank" rel="noopener">動画を開く</a></p>`
         : `<a href="${esc(m.page || m.url)}" target="_blank" rel="noopener"><img src="${esc(m.url)}" alt="${esc(m.description || d.name)}" loading="lazy"></a>`;
-      return `<figure class="media">${body}<figcaption>${esc(m.description || '')}<br><span class="muted">作者：${esc(m.author)}／ライセンス：${esc(m.license)}${m.page ? `／<a href="${esc(m.page)}" target="_blank" rel="noopener">出典のページ</a>` : ''}</span></figcaption></figure>`;
+      return `<figure class="media">${body}<figcaption>${esc(m.description || '')}<br><span class="muted">作者：${esc(m.author)}／ライセンス：${esc(m.license)}${m.page ? MK(noteNo(srcHtml(m.page))) : ''}</span></figcaption></figure>`;
     }).join('');
     // 発見・考え方（ideas.md）とのつながり。発見のページでは「作れるようになった技術」「説明する技術」、技術のページでは逆向き
     const ideaHtml = [
@@ -337,7 +375,7 @@ header.top .ic { display: none; }   /* 大きなアイコンを絵の欄に出�
     const XL = (D.extra_links || []).filter(x => x.from === id || x.to === id);
     const xlLabel = x => x.kind === 'tool' ? (x.to === id ? 'つくるのに使った道具' : '道具として使われた先') : '同じしくみで回る';
     const extraHtml = XL.map(x => `<p class="muted" style="margin-top:8px">${xlLabel(x)} <small class="term">（${x.kind === 'tool' ? '前提ではない：無くても作れたが、設計・計算に使われた' : '前提ではない：同じしくみ'}）</small></p>`
-      + `<div class="chips">${chip(x.from === id ? x.to : x.from)}</div><p class="muted">${esc(x.note)}（出典：${(x.sources || []).map(u => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(u.replace(/^https?:\/\/(www\.)?/, '').split('/')[0])}</a>`).join('、')}）</p>`).join('');
+      + `<div class="chips">${chip(x.from === id ? x.to : x.from)}</div><p class="muted">${esc(x.note)}${(x.sources || []).map(u => MK(noteNo(srcHtml(u)))).join('')}</p>`).join('');
     // 誤りの報告：.github/ISSUE_TEMPLATE の3つのひな形（GitHub の Issue フォーム）を、ノード番号を入れた状態で開く
     const issue = (template, tag) => `${REPO}/issues/new?` + new URLSearchParams({
       template, title: `[${tag}] [${d.id}] ${d.name}`, node: d.id
@@ -348,7 +386,7 @@ header.top .ic { display: none; }   /* 大きなアイコンを絵の欄に出�
       .map(([t, tag, label]) => `<a class="btn" href="${issue(t, tag)}" target="_blank" rel="noopener">${label}</a>`).join(' ');
     const req = d.requires.map(alts => alts.map(a => a.map(chip).join(' + ')).join(' <span class="muted">または</span> ')).join('<br>');
 
-    page.innerHTML = `
+    let html = `
       <header class="top">
         <div class="ic">${ic}</div>
         <div>
@@ -366,7 +404,7 @@ header.top .ic { display: none; }   /* 大きなアイコンを絵の欄に出�
 
       ${isIdea(d) && ideaHtml ? `<section><h2>この考え方がつながる技術</h2>${ideaHtml}</section>` : ''}
 
-      ${d.real_full ? `<section><h2>本当の話 <small class="term">（本物：工程・反応式）</small></h2><div>${d.real_full.split('\n').map(richL).join('<br>')}</div></section>` : ''}
+      ${d.real_full ? `<section><h2>本当の話 <small class="term">（本物：工程・反応式）</small></h2><div>${d.real_full.split('\n').map(t => richL(cite(t))).join('<br>')}${(d.sources || []).map(u => MK(noteNo(srcHtml(u)))).join('')}</div></section>` : ''}
 
       ${partsHtml ? `<section><h2>部品表 <small class="term">（このモノを形づくる部品（部品のモノ・技術））</small></h2><ul class="parts">${partsHtml}</ul></section>` : ''}
 
@@ -377,11 +415,11 @@ header.top .ic { display: none; }   /* 大きなアイコンを絵の欄に出�
       ${wall ? `<section>${wall}</section>` : ''}
 
 
-      <section><h2>確かさと出典</h2>
-        ${d.refs.length ? d.refs.map(r => `<div class="ref"><b>${esc(r.title)}</b>${r.answer ? `<div>${rich(r.answer)}</div>` : ''}<div class="muted">確かさ：${esc(r.certainty || '—')}</div>${r.basis ? `<div class="muted">根拠：${esc(r.basis)}</div>` : ''}</div>`).join('')
+      <section><h2>確かさ</h2>
+        ${d.refs.length ? d.refs.map(r => `<div class="ref"><b>${esc(r.title)}</b>${r.answer ? `<div>${rich(cite(r.answer))}${r.basis ? MK(noteNo(srcHtml(r.basis))) : ''}</div>` : ''}<div class="muted">確かさ：${esc(r.certainty || '—')}${!r.answer && r.basis ? MK(noteNo(srcHtml(r.basis))) : ''}</div></div>`).join('')
           + `<p><a href="${REPO}/blob/master/docs/REFERENCES.md">REFERENCES.md（参考文献のまとめ）を開く</a></p>`
           : `<p class="muted">まだ REFERENCES.md に項目がない（確かさは未評価）。${d.year_uncertain ? '年は ⚠️（諸説・未確認）。' : ''}</p>`}
-        ${d.sources && d.sources.length ? `<p>出典：${d.sources.map(u => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(decodeURIComponent(u.replace(/^https?:\/\/(www\.)?/, '')).slice(0, 60))}</a>`).join('<br>')}</p>` : ''}
+        ${!d.real_full && d.sources && d.sources.length ? `<p class="muted">出典 ${d.sources.map(u => MK(noteNo(srcHtml(u)))).join('')}</p>` : ''}
         <p class="muted">◎ 信頼できる出典2つ以上で一致／○ 1つで確認／△ 未確認（ゲームでは ⚠️）</p>
       </section>
 
@@ -426,6 +464,16 @@ header.top .ic { display: none; }   /* 大きなアイコンを絵の欄に出�
         <p style="display:flex;flex-wrap:wrap;gap:6px">${issues}</p>
         <p class="muted">ノード番号が入ったひな形が開きます（GitHub のアカウントが要ります）。</p>
       </section>`;
+    // 出典の番号を、ページに出てくる順に振り直す（Wikipedia と同じ）。一番下に「出典」の欄
+    const fnOrder = [];
+    html.replace(/\uE000(\d+)\uE001/g, (m, no) => { if (!fnOrder.includes(+no)) fnOrder.push(+no); return m; });
+    const remap = new Map(fnOrder.map((o, i) => [o, i + 1]));
+    notes = fnOrder.map(o => ({ html: notes[o - 1].html, refs: 0 }));
+    html = supAll(html.replace(/\uE000(\d+)\uE001/g, (m, no) => MK(remap.get(+no))));
+    if (notes.length) html += `<section id="notes"><h2>出典</h2><ol class="notes">${notes.map((n, i) => `<li id="fn-${i + 1}">${
+      n.refs > 1 ? '↩ ' + [...Array(n.refs)].map((_, k) => `<a href="#" class="back" data-back="fnref-${i + 1}-${k}" aria-label="本文へ戻る">${String.fromCharCode(97 + k)}</a>`).join('')
+        : `<a href="#" class="back" data-back="fnref-${i + 1}-0" aria-label="本文へ戻る">↩</a>`}${n.html}</li>`).join('')}</ol></section>`;
+    page.innerHTML = html;
     // S-012 決定3：絵を上に。大きなアイコンと、前提→これ→次 の小さな図（それぞれ4つまで）。押すとそのノードへ
     const miniOf = i => { const n = byId.get(i); if (!n) return '';
       const mi = n.icon ? `<img src="${n.icon}" alt="">` : `<i>${esc(isProd(n) ? (n.emoji || n.symbol) : isIdea(n) ? (n.emoji || '💡') : n.symbol)}</i>`;
@@ -462,10 +510,21 @@ header.top .ic { display: none; }   /* 大きなアイコンを絵の欄に出�
     const hit = nodes.find(n => n.id.toLowerCase() === q) || nodes.find(n => n.name.toLowerCase().includes(q));
     if (hit) location.hash = hit.id;
   };
+  const flash = el => { el.classList.add('hl'); setTimeout(() => el.classList.remove('hl'), 1600); };
+  page.addEventListener('click', e => {
+    const a = e.target.closest('a[data-fn], a[data-back]');
+    if (!a) return;
+    e.preventDefault();
+    const el = document.getElementById(a.dataset.fn ? 'fn-' + a.dataset.fn : a.dataset.back);
+    if (el) { el.scrollIntoView({ block: 'center' }); flash(el); }   // Wikipedia と同じく、すぐ飛ぶ（色で場所を知らせる）
+  });
   window.addEventListener('hashchange', render);
   render();
 })();
 </script>
+<script src="vendor/budoux-ja.min.js"></script>
+<script src="linebreak.js"></script>
+<script>LineBreak.init();</script>
 <script src="furigana.js"></script>
 <script>Furigana.init(document.getElementById('furiBtn'));</script>
 </body>

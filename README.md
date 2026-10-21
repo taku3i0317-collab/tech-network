@@ -22,4 +22,5 @@ https://github.com/taku3i0317-collab/tech-network/issues
 
 ## ライセンス / License
 CC0 1.0（パブリックドメイン）。名前を書かなくても、何にでも自由に使えます。/ CC0 1.0 (public domain dedication). Use it for anything, no attribution required.
+例外：docs/vendor/budoux-ja.min.js（日本語の折り返しの道具 BudouX、Google）は Apache License 2.0（docs/vendor/LICENSE-budoux.txt）。/ Exception: docs/vendor/budoux-ja.min.js (BudouX by Google, for Japanese line breaks) is under the Apache License 2.0 (docs/vendor/LICENSE-budoux.txt).
 元のリポジトリ / Source: https://github.com/taku3i0317-collab/semiconductor-lab

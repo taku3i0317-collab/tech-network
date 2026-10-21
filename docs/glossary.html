@@ -76,7 +76,7 @@ dl { margin: 0; }
     page.innerHTML = `<dl>${hit.map(k => {
       const t = GL[k], name = LANG === 'en' ? t.en : k, sub = LANG === 'en' ? k : t.en;
       const def = AutoLink.link(esc(LANG === 'en' ? t.en_def : t.ja_def), 'g:' + k, g => 'node.html#' + g);
-      return `<div class="term" id="${esc(k)}"><dt>${esc(name)}<small>${esc(sub)}</small></dt><dd>${def}</dd></div>`;
+      return `<div class="term" id="${esc(k)}"><dt>${esc(name)}<small lang="${LANG === 'en' ? 'ja' : 'en'}">${esc(sub)}</small></dt><dd>${def}</dd></div>`;
     }).join('')}</dl>${hit.length ? '' : `<p class="muted">${LANG === 'en' ? 'No match' : '見つかりません'}</p>`}`;
   }
   render('');
@@ -84,6 +84,9 @@ dl { margin: 0; }
   if (location.hash) { const el = document.getElementById(decodeURIComponent(location.hash.slice(1))); if (el) el.scrollIntoView(); }
 })();
 </script>
+<script src="vendor/budoux-ja.min.js"></script>
+<script src="linebreak.js"></script>
+<script>LineBreak.init();</script>
 <script src="furigana.js"></script>
 <script>Furigana.init(document.getElementById('furiBtn'));</script>
 </body>

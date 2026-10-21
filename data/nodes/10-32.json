@@ -17,7 +17,20 @@
    "4": ""
   },
   "sources": [],
-  "refs": [],
+  "refs": [
+   {
+    "title": "L19. どのコンピュータでも同じ答え（IEEE 754）［10-32］",
+    "answer": "浮動小数点は、数を「仮数×2の何乗（指数）」で表す方法。1941年のツーゼの Z3 から使われていたが、メーカーごとに形がばらばらで、同じ計算でも答えがちがった。カハンらの IEEE の小委員会（1977〜）が決まりを作り、1980年のインテル 8087（計算用の補助チップ）が最初に実装し、1985年に IEEE 754 として承認された。2008年の改訂で 16ビット（半精度）も決まり、AI の学習に使われる。",
+    "hee": {
+     "1": "0.1＋0.2 を計算すると 0.30000000000000004（2進では 0.1 がちょうどに表せない）。",
+     "2": "8087 は CPU の横に置く「補助のチップ」で、小数の計算を何十倍も速くした。",
+     "3": "決まりを作ったカハンは、1989年にチューリング賞を受けた。",
+     "4": "今の AI チップは、学習を 16ビット（bfloat16 など）、答えを 8・4ビットの整数ですることが多い。"
+    },
+    "certainty": "Z3 1941 の2進の浮動小数点 ◎／8087 1980 ◎／IEEE 754 1985 承認 ◎／2008 改訂の半精度 ◎／カハンのチューリング賞 1989 ◎",
+    "basis": "ETHW「Milestones: IEEE Standard 754 for Binary Floating-Point Arithmetic, 1985」、Intel「8087」、ACM「William Kahan, Turing Award 1989」"
+   }
+  ],
   "people": [],
   "media": [],
   "requires": [
@@ -43,15 +56,15 @@
   "real": "小数を「数字の並び（仮数）×2の何乗（指数）」の形で表し、どのコンピュータでも同じ計算をすれば同じ答えになるように決めた規格。2進の浮動小数点は1941年のツーゼの Z3 がすでに使っていたが、メーカーごとに形がばらばらで、同じ計算でも答えがちがった。1977年に IEEE の小委員会ができ、1980年のインテルの計算用チップ 8087 が最初に実装し、1985年に承認された（IEEE マイルストーン）。AI チップ（[B-11]）が使う半分の長さ（16ビット）の形も、2008年の改訂版で決まった"
  },
  "game": {
-  "status": "❓",
-  "buildable_now": true,
+  "status": "✅",
+  "buildable_now": false,
   "play": "",
   "missing": "",
   "item": null,
   "recipes": [],
   "machine_recipes": [],
   "placeholder": null,
-  "game_text": "未定（実装の前に相談）",
+  "game_text": "",
   "hee_game": {}
  },
  "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAmElEQVR42t2TsQ3DIBBF31mZw+UVXsGewLJSMYUHyhRUVsQEyQoUlFnkUiGhgOUirvzKf8D9/yXgWrweGIDqYKqDldoeXXl5XFx1YFzc4SOVgyPtVKTcMq1Izp5JKUor3vvpmVZEAOzjDEB6L6qDzfMdgBA2UoqS59X23kv3b4RbtlMSwlbZbUU4r8RcXEqxWeKvVs4u8H++38FEKvjR8O4AAAAASUVORK5CYII="

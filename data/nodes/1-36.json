@@ -17,7 +17,20 @@
    "4": ""
   },
   "sources": [],
-  "refs": [],
+  "refs": [
+   {
+    "title": "F50. マグネシウムで酸素を奪う（単体ホウ素）［1-36］",
+    "answer": "酸化ホウ素（B2O3）にマグネシウムを混ぜて熱すると、マグネシウムが酸素を奪ってホウ素が残る（B2O3 + 3Mg → 2B + 3MgO）。1892年にモアッサンがこの方法で純度 約90% のホウ素を作った。混じった酸化マグネシウムは塩酸で溶かして洗い流す。",
+    "hee": {
+     "1": "ホウ素はダイヤモンドに次ぐほど硬い物質（炭化ホウ素）の元。",
+     "2": "シリコンに入れると電子が1つ足りない穴ができ、p 型の半導体になる。",
+     "3": "もっと純粋なホウ素は、三塩化ホウ素を水素で還元して作る。",
+     "4": "原子炉の中性子を吸う棒にもホウ素が使われる。"
+    },
+    "certainty": "反応とモアッサン 1892 ◎",
+    "basis": "Wikipedia「Boron」（History／Production）https://en.wikipedia.org/wiki/Boron （英語）"
+   }
+  ],
   "people": [],
   "media": [],
   "requires": [
@@ -43,9 +56,9 @@
   "real": "B2O3+3Mg→2B+3MgO（1892 モアッサン、純度約90%）。高純度は BCl3 の水素還元 2BCl3+3H2→2B+6HCl"
  },
  "game": {
-  "status": "❓",
-  "buildable_now": true,
-  "play": "",
+  "status": "✅",
+  "buildable_now": false,
+  "play": "軽",
   "missing": "",
   "item": null,
   "recipes": [],

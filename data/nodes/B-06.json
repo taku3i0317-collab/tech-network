@@ -17,7 +17,20 @@
    "4": ""
   },
   "sources": [],
-  "refs": [],
+  "refs": [
+   {
+    "title": "C60. ヨウ素で染めたフィルムが光の向きを選ぶ（偏光フィルム）［B-06］",
+    "answer": "ふつうの光は、いろいろな向きにゆれる波がまざっている。偏光フィルムは、決まった向きにゆれる光だけを通す。1929年、アメリカのエドウィン・ランドがヨウ素キニーネ（ヘラパタイト）の小さな結晶を並べたシートを作り、1938年には、ポリビニルアルコール（PVA）の膜を引き伸ばしてヨウ素で染めた「H シート」を作った。引き伸ばすと PVA の鎖がそろい、ヨウ素がその鎖にそって細い列になって、列の向きにゆれる光を吸う。2枚を重ねて回すと、向きの差 θ に応じて明るさが cos²θ で変わり、直角でまっ暗になる（1809 マリュスの法則）。",
+    "hee": {
+     "1": "液晶の画面の前には、ヨウ素で染めたフィルムが貼ってある。",
+     "2": "偏光サングラスは、水面や道路の照り返し（横向きにゆれる光）を消す。",
+     "3": "2枚を直角に重ねると暗くなるが、間に3枚目を45度で入れると、また少し明るくなる。",
+     "4": "ヘラパタイトは、キニーネを飲んだ犬の尿から 1852年にヘラパスが見つけた結晶だった。"
+    },
+    "certainty": "ランド 1929・H シート 1938・マリュス 1809 ◎／ヘラパタイトの発見の話 ○",
+    "basis": "- Wikipedia「Polarizer」：https://en.wikipedia.org/wiki/Polarizer"
+   }
+  ],
   "people": [],
   "media": [],
   "requires": [
@@ -44,15 +57,15 @@
   "real": "1929 エドウィン・ランドがヘラパタイト（ヨウ素キニーネ）の微結晶を並べたシート、1938 PVA を引き伸ばしてヨウ素で染めた H シート（今の液晶画面の偏光板の原型）"
  },
  "game": {
-  "status": "❓",
-  "buildable_now": true,
+  "status": "✅",
+  "buildable_now": false,
   "play": "",
   "missing": "",
   "item": null,
   "recipes": [],
   "machine_recipes": [],
   "placeholder": null,
-  "game_text": "サングラス・液晶表示の部品",
+  "game_text": "",
   "hee_game": {}
  },
  "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAdElEQVR42mNgoBAwMjAwMFiUdf0npPBEVxkjTkmLsq7/ampa/9fceISVxmcBE6VeGHgD4IFYkhSBIlHl54HCFwpIwBqwLMTahG5Bz7wV1PECC7qJZIUBrrSB7GxsYUJSGLRt2oE1DIg2AFes0NYF5AYsSQAATzc2j5UtRTkAAAAASUVORK5CYII="

@@ -48,6 +48,7 @@
 .film .bar[hidden]{display:none}.film .bar a,.film .bar button{flex:1;display:flex;align-items:center;justify-content:center;min-height:44px;border:1px solid var(--accent,#2f6f8f);border-radius:10px;color:var(--accent,#2f6f8f);background:var(--panel,#fff);text-decoration:none;font:inherit;font-weight:700;font-size:14px;cursor:pointer}
 .film.centerMode .cap{bottom:calc(76px + env(safe-area-inset-bottom));font-size:clamp(18px,4vw,26px)}
 .film .fhint{position:absolute;left:16px;top:52px;font-size:13px;color:var(--sub,#666);pointer-events:none}
+.film.story .skip,.film.story .bar,.film.story .fhint{display:none}.film.story .cnt{top:96px;left:0;right:0;text-align:center;font-size:22px}.film.story .cap{bottom:110px;font-size:24px}
 @media (prefers-reduced-motion: reduce){.film,.film .cap.in{transition:none;animation:none}}`;
     document.head.appendChild(st);
   }
@@ -100,7 +101,7 @@
     const A = atlas();
     A.cb = () => req();
     const root = document.createElement('div');
-    root.className = 'film';
+    root.className = 'film' + (window.FILM_STORY ? ' story' : '');   // story：インスタのストーリー用（上下の端に大事な物を置かない）
     root.setAttribute('role', 'dialog');
     root.innerHTML = `<canvas></canvas><div class="cnt"></div><div class="fhint" hidden></div><div class="cap" aria-live="polite"></div>
       <button type="button" class="skip"></button>${reduce() && film ? `<button type="button" class="nextb">${T.next}</button>` : ''}
@@ -131,8 +132,10 @@
     const timing = () => { P2 = Math.max(1800, Math.min(6500, S.nL * 750)); t1 = 1400; t2 = t1 + P2 + 700; t3 = t2 + 1800; t4 = t3 + 2400; t5 = t4 + 2300; STARTS = [0, t1, t2, t3, t4, t5]; };
     timing();
     const layerStart = d => t1 + (d - 1) * (P2 / Math.max(1, S.nL));
-    let t0 = performance.now(), jump = 0, still = reduce() && film ? 0 : -1, hiddenAt = 0, done = false;
-    const now = () => still >= 0 ? STARTS[still + 1] - 1 : performance.now() - t0 + jump;
+    // 時計：ふつうは performance.now()。動画に書き出すとき（S-023）は外から1コマずつ進める（window.FILM_CLOCK）
+    const clk = () => window.FILM_CLOCK != null ? window.FILM_CLOCK : performance.now();
+    let t0 = clk(), jump = 0, still = reduce() && film ? 0 : -1, hiddenAt = 0, done = false;
+    const now = () => still >= 0 ? STARTS[still + 1] - 1 : clk() - t0 + jump;
     const onVis = () => { if (document.hidden) hiddenAt = performance.now(); else { if (hiddenAt && mode === 'film') t0 += performance.now() - hiddenAt; hiddenAt = 0; req(); } };
     document.addEventListener('visibilitychange', onVis);
     const stats = window.FILM_STATS = { id, frames: 0, start: performance.now(), first: 0, worst: 0, last: 0 };
@@ -152,7 +155,7 @@
     function startFilm(newId) {
       if (newId !== S.id) S = scene(newId);
       mode = 'film'; people = null; loadPeople(); timing();
-      t0 = performance.now(); jump = 0; still = reduce() ? 0 : -1; s = 0;
+      t0 = clk(); jump = 0; still = reduce() ? 0 : -1; s = 0;
       root.classList.remove('centerMode'); skip.textContent = T.skip; bar.hidden = true; hint.hidden = true;
       root.setAttribute('aria-label', T.ask(byId.get(S.id)));
       if (still >= 0 && !root.querySelector('.nextb')) { const b = document.createElement('button'); b.type = 'button'; b.className = 'nextb'; b.textContent = T.next; root.appendChild(b); }
@@ -220,9 +223,10 @@
       ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
       ctx.fillStyle = C.bg; ctx.fillRect(0, 0, W, H);
       let shown = 0; for (let d = 1; d <= S.nL; d++) if (t >= layerStart(d)) shown = d;
-      const want = Math.min(1.6, (Math.min(W, H * (film ? 0.72 : 0.66)) / 2 - 24) / (S.RAD[Math.max(1, shown)] + 18));
+      const ST = !!window.FILM_STORY;   // story：図を少し上に小さく（下の文と、上下の端を空ける）
+      const want = Math.min(1.6, (Math.min(W, H * (ST ? 0.56 : film ? 0.72 : 0.66)) / 2 - 24) / (S.RAD[Math.max(1, shown)] + 18));
       s = s ? s + (want - s) * (film && still < 0 ? 0.06 : 1) : want;
-      const sc = s * (film ? 1 : zoom), cx = W / 2 + (film ? 0 : panX), cy = H * (film ? 0.46 : 0.44) + (film ? 0 : panY);
+      const sc = s * (film ? 1 : zoom), cx = W / 2 + (film ? 0 : panX), cy = H * (ST ? 0.41 : film ? 0.46 : 0.44) + (film ? 0 : panY);
       view = { cx, cy, sc };
       ctx.translate(cx, cy); ctx.scale(sc, sc);
       const px = 1 / sc;
@@ -318,7 +322,7 @@
       // 人の肖像（4 の場面）
       if (film && t >= t3 && people) {
         const k = people.pics.length, sz = Math.min(48, Math.max(30, W / 12));
-        const rx = W / 2 - sz / 2 - 6, ry = Math.min(H * 0.46 - sz / 2 - 8, H * 0.36 - sz / 2);
+        const rx = W / 2 - sz / 2 - 6, ry = window.FILM_STORY ? H * 0.21 : Math.min(H * 0.46 - sz / 2 - 8, H * 0.36 - sz / 2);   // story：下の文と重ならないように内側へ
         people.pics.forEach((im, i) => {
           if (!im.complete || !im.naturalWidth) return;
           const p = still >= 0 ? 1 : ease((t - t3 - i * 40) / 600), a = -Math.PI / 2 + (i / k) * Math.PI * 2;

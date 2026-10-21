@@ -3,6 +3,19 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- リンクの見た目（OGP、S-023）：SNS でリンクを貼ったときの題・説明・絵。絵は docs/og_image.png（中心図、1200×630）。URL は公開の場所に合わせる（tech-network は export_tech_network.py が書きかえる） -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="技術ネットワーク — スマホを作るには、254 の技術が要った">
+<meta property="og:description" content="石器から AI まで、約630の技術・モノ・発見が「何が無いと何が作れないか」でつながる地図。どのモノでも「作るには？」をたどれます。">
+<meta property="og:url" content="https://taku3i0317-collab.github.io/tech-network/network.html">
+<meta property="og:image" content="https://taku3i0317-collab.github.io/tech-network/og_image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="スマホを真ん中に、作るのに要った技術が世代ごとの輪に並んだ図">
+<meta property="og:locale" content="ja_JP">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="技術ネットワーク — スマホを作るには、254 の技術が要った">
+<meta name="twitter:image" content="https://taku3i0317-collab.github.io/tech-network/og_image.png">
 <title>技術ネットワーク</title>
 <!-- データ：tools/gen_tree_views.py が書き出す tech_network_graph.js（図に要る軽いデータ。位置も計算済み）と
      tech_network_detail.js（カード用の重いデータ。押したとき・検索したときに読む）。実行すれば図も最新になる。描画は Canvas（NET-05）。

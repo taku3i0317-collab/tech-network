@@ -1648,7 +1648,7 @@
 "from": "6-05",
 "to": "2-38",
 "kind": "requires",
-"group": 1,
+"group": 2,
 "or": false
 },
 {
@@ -7797,14 +7797,14 @@
 "from": "2-01",
 "to": "13-03",
 "kind": "requires",
-"group": 0,
+"group": 1,
 "or": false
 },
 {
 "from": "6-11",
 "to": "13-03",
 "kind": "requires",
-"group": 1,
+"group": 2,
 "or": false
 },
 {

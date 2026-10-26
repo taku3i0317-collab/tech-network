@@ -8,7 +8,7 @@
   "source_checked": "2026-10-26",
   "notes": "Continuation of fr.json (do not merge over it; keys do not overlap). Done here: 3-06..3-26, 4-01..4-37, 5-01..5-16, 6-01..6-16, 7-01..7-28, 8-01..8-15, 11-01..11-17, 12-01..12-18, 13-01..13-13, 15-03..15-33 (name + hee1). Not done (context budget): 2-37 and after, 3-01..3-05, 8-16 and after, 13-14 and after, chapter 14, 15-01, 15-02, branch B. Skipped because ja source is broken (URLs or editorial fragments pasted into the sentence): 4-37.hee1, 7-27.hee1, 7-28.hee1, 12-18.hee1, 15-32.hee1, 15-33.hee1 (names translated). 15-18.hee1 and 7-23.hee1 have source fragments in ja; main sentence translated only. 3-14.hee1 'CHEMISTRY #142' kept as is. Stray closing ）dropped.",
   "keys": 969,
-  "coverage": 27.1
+  "coverage": 27.0
  },
  "strings": {
   "3-06.name": "Four à réverbère",

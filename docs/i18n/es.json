@@ -6,9 +6,9 @@
   "machine": true,
   "translator": "claude",
   "source_checked": "2026-10-26",
-  "notes": "es.json の続き（2つ目）。範囲: ノード 3-19〜9-01 の name・hee1。入れなかったキー: 4-37.hee1・7-27.hee1・7-28.hee1（元の文の末尾に『亜留間次郎さん（Arumaddilo）が作った Wikipedia 日本語版…』などの出典メモの残骸が混ざって文が壊れている。元を直してから訳す）。7-23.hee1 は末尾の『「LiDAR history」）』を出典の残骸とみて落とした。4-28.hee1・8-27.hee1 は末尾の URL を残し『））』を『)』にした。4-25・8-38・8-40 の hee1 は末尾の余分な『）』を落とした。en にだけ付いている『(Added in …. Sources: …)』は ja に無いので訳に含めていない。",
+  "notes": "es.json の続き（2つ目）。範囲: ノード 3-19〜9-01 の name・hee1。入れなかったキー: 4-37.hee1・7-27.hee1・7-28.hee1（元の文の末尾に『Wikipedia 日本語版…』などの出典メモの残骸が混ざって文が壊れている。元を直してから訳す）。7-23.hee1 は末尾の『「LiDAR history」）』を出典の残骸とみて落とした。4-28.hee1・8-27.hee1 は末尾の URL を残し『））』を『)』にした。4-25・8-38・8-40 の hee1 は末尾の余分な『）』を落とした。en にだけ付いている『(Added in …. Sources: …)』は ja に無いので訳に含めていない。",
   "keys": 1398,
-  "coverage": 39.1
+  "coverage": 39.0
  },
  "strings": {
   "3-19.name": "Horno de coque con recuperación de subproductos",

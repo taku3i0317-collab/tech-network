@@ -8,7 +8,7 @@
   "source_checked": "2026-10-26",
   "notes": "Scope: *.name, *.hee1, ui.*, term.*. 1413 keys translated, 1 left out (10-05.hee1: the Japanese source is truncated to just an opening quote). Editorial/source appendices glued onto the Japanese hee1 text (e.g. '(IMP-24 で追加…)', '(Added in S-004. Sources: …)', trailing URLs and Wikipedia-editor credits, stray '）', 'CHEMISTRY #142', '（枝 [B-xx] 候補）', '（[7-08] から移動）') were not translated as child-facing text; affected keys include 0-18, 1-48..1-76, 2-24, 2-45..2-56, 2-62..2-64, 3-14, 3-21..3-24, 4-15..4-33, 4-37, 7-22..7-28, 8-19..8-42, 9-41..9-49, 10-17..10-39, 11-17, 12-16..12-18, 13-16, 14-15..14-21, 15-16..15-33, B-05, B-18..B-23. Source oddities to check: 1-26.hee1 and 6-02.hee1 pack all four hee levels into one string; I-54.name looks truncated ('…回路図で考え'); P-37 (city bus) hee1 is the turbocharger text. Spelling: American English throughout (aluminum, color), so 1-29.name is 'Aluminum'.",
   "keys": 1413,
-  "coverage": 39.5
+  "coverage": 39.4
  },
  "strings": {
   "0-01.name": "Knapped stone tools",

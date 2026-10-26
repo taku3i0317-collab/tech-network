@@ -11,21 +11,21 @@
   "name": "English",
   "dir": "ltr",
   "machine": true,
-  "coverage": 39.5
+  "coverage": 39.4
  },
  {
   "lang": "es",
   "name": "Español",
   "dir": "ltr",
   "machine": true,
-  "coverage": 39.1
+  "coverage": 39.0
  },
  {
   "lang": "fr",
   "name": "Français",
   "dir": "ltr",
   "machine": true,
-  "coverage": 27.1
+  "coverage": 27.0
  },
  {
   "lang": "hi",
@@ -39,34 +39,34 @@
   "name": "Bahasa Indonesia",
   "dir": "ltr",
   "machine": true,
-  "coverage": 23.9
+  "coverage": 39.4
  },
  {
   "lang": "ko",
   "name": "한국어",
   "dir": "ltr",
   "machine": true,
-  "coverage": 38.9
+  "coverage": 38.8
  },
  {
   "lang": "pt",
   "name": "Português",
   "dir": "ltr",
   "machine": true,
-  "coverage": 36.4
+  "coverage": 36.3
  },
  {
   "lang": "ru",
   "name": "Русский",
   "dir": "ltr",
   "machine": true,
-  "coverage": 39.5
+  "coverage": 39.4
  },
  {
   "lang": "zh-Hans",
   "name": "简体中文",
   "dir": "ltr",
   "machine": true,
-  "coverage": 31.6
+  "coverage": 31.5
  }
 ]

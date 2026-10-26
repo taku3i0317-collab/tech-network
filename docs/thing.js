@@ -11,6 +11,9 @@
     const b = document.getElementById('langBtn'); if (b) b.textContent = en ? '日本語' : 'English';
   };
   apply();
+  // 前のウィキの URL から来た時など：#it-… の目印へ、字の読み込みで位置がずれた後にもう一度
+  const toHash = () => { const h = decodeURIComponent(location.hash.slice(1)); const el = h && document.getElementById(h); if (el) el.scrollIntoView(); };
+  if (location.hash) { addEventListener('load', toHash); if (document.fonts && document.fonts.ready) document.fonts.ready.then(toHash); }
   document.addEventListener('click', e => {
     if (e.target.closest('#langBtn')) { en = !en; try { localStorage.setItem('tn-lang', en ? 'en' : 'ja'); } catch (er) { /* 保存できない */ } apply(); return; }
     const f = e.target.closest('[data-film]');

@@ -194,7 +194,7 @@ body.focusMode .intro { display: none; }
     <button type="button" class="btn" data-film="B-10" id="filmAgain">はじめの動きをもう一度</button>
     <button type="button" class="btn" id="installBtn" hidden>ホーム画面に追加</button>
     <a class="btn" href="ranking.html" id="rankBtn">縁の下の力持ちランキング</a>
-    <a class="btn" href="wiki/index.html" id="wikiBtn">MOD のウィキ（アイテム・機械・道案内）</a>
+    <a class="btn" href="index.html" id="wikiBtn">入口（さがす・道案内・章）</a>
     <a class="btn" href="credits.html" id="creditsBtn">影響を受けた作品</a>
     <!-- S-051：応援の入口。network_meta.json の support.url が入るまで出さない。ただのリンク（外の会社のスクリプトは読まない）。ポップアップやくり返しの表示はしない -->
     <a class="btn" id="supportBtn" hidden rel="noopener" target="_blank">大人の方へ：この地図を続けるための応援</a>
@@ -274,7 +274,7 @@ body.focusMode .intro { display: none; }
     document.getElementById('intro').innerHTML = 'A map of how about 600 technologies, products and discoveries connect, from stone tools to AI: "what cannot be made without what". <b>Start by clicking a product (a big circle).</b> <small>(Only names and the first fun fact are in English for now; other text is Japanese.)</small>';
     for (const id of ['aiBtn', 'legendBtn', 'layoutBtn', 'toMap', 'toNode', 'toFocus', 'filmAgain', 'installBtn']) { const b = document.getElementById(id); b.textContent = tr(b.textContent); }
     document.querySelector('a[href="people.html"]').textContent = tr('人物の一覧');
-    document.getElementById('glossBtn').textContent = 'Glossary'; document.getElementById('creditsBtn').textContent = 'Inspirations'; document.getElementById('rankBtn').textContent = 'Unsung heroes ranking'; document.getElementById('wikiBtn').textContent = 'Mod wiki (items, machines, guides)'; document.getElementById('supportBtn').textContent = 'For grown-ups: support this map';
+    document.getElementById('glossBtn').textContent = 'Glossary'; document.getElementById('creditsBtn').textContent = 'Inspirations'; document.getElementById('rankBtn').textContent = 'Unsung heroes ranking'; document.getElementById('wikiBtn').textContent = 'Home (search, guides, chapters)'; document.getElementById('supportBtn').textContent = 'For grown-ups: support this map';
     document.querySelector('#trunk option').textContent = tr('すべての分野');
     for (const l of document.querySelectorAll('header label')) { const tx = l.lastChild; if (tx && tx.nodeType === 3) tx.textContent = tr(tx.textContent); }
   }

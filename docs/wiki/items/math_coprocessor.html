@@ -1,25 +1,7 @@
 <!doctype html>
-<html lang="ja">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>数値演算チップ（浮動小数点）（Math coprocessor (floating point)）の作り方と使い道｜Semiconductor Lab ウィキ</title>
-<meta name="description" content="小数の計算をする補助のチップ。右クリックで 0.1＋0.2 を計算してみよう。">
-
-<link rel="canonical" href="https://taku3i0317-collab.github.io/tech-network/wiki/items/math_coprocessor.html">
-<meta property="og:title" content="数値演算チップ（浮動小数点）（Math coprocessor (floating point)）の作り方と使い道｜Semiconductor Lab ウィキ"><meta property="og:description" content="小数の計算をする補助のチップ。右クリックで 0.1＋0.2 を計算してみよう。"><meta property="og:url" content="https://taku3i0317-collab.github.io/tech-network/wiki/items/math_coprocessor.html"><meta property="og:image" content="https://taku3i0317-collab.github.io/tech-network/og_image.png">
-<link rel="icon" type="image/png" href="../../app_icon_192.png">
-<link rel="stylesheet" href="../../design.css">
-<link rel="stylesheet" href="../../wiki/wiki.css">
-</head>
-<body>
-<div class="wrap">
-<nav class="wnav"><a href="../../wiki/index.html">ウィキ</a><a href="../../network.html">技術ネットワーク図</a><a href="../../wiki/guides/first-hour.html">はじめての1時間</a></nav>
-<header class="ihead"><img class="big" src="../icons/math_coprocessor.png" alt=""><div><h1>数値演算チップ（浮動小数点）</h1><p class="muted">Math coprocessor (floating point)・アイテム・Control</p><p class="hist">本当の歴史：<a href="../../nodes/10-32.html">[10-32] 浮動小数点の標準</a>（1985年）</p></div></header>
-<section><h2>説明</h2><p><b>①子ども</b> 小数の計算をする補助のチップ。右クリックで 0.1＋0.2 を計算してみよう。</p><p><b>②学生</b> 8ビット CPU・掛け算器・レジスタのお題に合格したチップ＋配線＋板を組立台で。AI チップの部品（学び直し＝学習は小数で）。</p><p><b>③大人</b> 1985年 IEEE 754：小数を「仮数×2の何乗」で表す世界の決まり。1980年のインテル 8087 が最初に作った。それまではメーカーごとに答えがちがった。</p><p><b>④ガチ</b> 2進では 0.1 がちょうどに表せないので、0.1＋0.2 は 0.3 から少しずれる（丸めの誤差）。AI は学習を小数（16・32ビット）、答えを整数（4・8ビット）でするのがふつう。⚠️ 学習の計算そのものは Java。</p></section>
-<section><h2>作り方</h2><div class="rec"><div class="ins"><a class="it" href="../../wiki/items/chip.html" title="チップ（ダイ）"><img src="../../wiki/icons/chip.png" alt=""><span>チップ（ダイ）</span></a><a class="it" href="../../wiki/items/chip.html" title="チップ（ダイ）"><img src="../../wiki/icons/chip.png" alt=""><span>チップ（ダイ）</span></a><a class="it" href="../../wiki/items/chip.html" title="チップ（ダイ）"><img src="../../wiki/icons/chip.png" alt=""><span>チップ（ダイ）</span></a><a class="it" href="../../wiki/items/copper_cable.html" title="銅ケーブル"><img src="../../wiki/icons/copper_cable.png" alt=""><span>銅ケーブル</span></a><span class="it vanilla" title="iron ingot（バニラ）"><span class="noimg">◇</span><span>iron ingot（バニラ）</span></span></div><div class="arrow">→ <a class="mach" href="../../wiki/machines/assembly_bench.html">組立台</a><small>組み立て（math_coprocessor）・10 秒</small> →</div><div class="outs"><a class="it" href="../../wiki/items/math_coprocessor.html" title="数値演算チップ（浮動小数点）"><img src="../../wiki/icons/math_coprocessor.png" alt=""><span>数値演算チップ（浮動小数点）</span></a></div><div class="muted">部品表で組み立てる。電気なし</div></div></section>
-<section><h2>使い道</h2><div class="rec"><div class="ins"><a class="it" href="../../wiki/items/chip.html" title="チップ（ダイ）"><img src="../../wiki/icons/chip.png" alt=""><span>チップ（ダイ）</span><b class="n">×4</b></a><a class="it" href="../../wiki/items/math_coprocessor.html" title="数値演算チップ（浮動小数点）"><img src="../../wiki/icons/math_coprocessor.png" alt=""><span>数値演算チップ（浮動小数点）</span></a><a class="it" href="../../wiki/items/chip.html" title="チップ（ダイ）"><img src="../../wiki/icons/chip.png" alt=""><span>チップ（ダイ）</span></a><a class="it" href="../../wiki/items/copper_cable.html" title="銅ケーブル"><img src="../../wiki/icons/copper_cable.png" alt=""><span>銅ケーブル</span><b class="n">×2</b></a><span class="it vanilla" title="iron ingot（バニラ）"><span class="noimg">◇</span><span>iron ingot（バニラ）</span><b class="n">×2</b></span></div><div class="arrow">→ <a class="mach" href="../../wiki/machines/assembly_bench.html">組立台</a><small>組み立て（ai_chip）・30 秒</small> →</div><div class="outs"><a class="it" href="../../wiki/items/ai_chip.html" title="AI チップ"><img src="../../wiki/icons/ai_chip.png" alt=""><span>AI チップ</span></a></div><div class="muted">部品表で組み立てる。電気なし</div></div></section>
-<footer class="muted">MOD「Semiconductor Lab」のウィキ（CC0、データから自動で作った）。誤りは <a href="https://github.com/taku3i0317-collab/semiconductor-lab/issues/new/choose" rel="noopener">Issue</a> で。お題の答え・ヒントはのせていません。</footer>
-</div>
-</body>
-</html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>数値演算チップ（浮動小数点）（ページが移りました）</title>
+<meta name="robots" content="noindex"><link rel="canonical" href="https://taku3i0317-collab.github.io/tech-network/nodes/10-32.html#it-math_coprocessor">
+<meta http-equiv="refresh" content="0; url=../../nodes/10-32.html#it-math_coprocessor">
+<script>location.replace('../../nodes/10-32.html#it-math_coprocessor' + (location.search || ''));</script>
+</head><body><p>このページは <a href="../../nodes/10-32.html#it-math_coprocessor">数値演算チップ（浮動小数点）</a> に移りました。</p></body></html>

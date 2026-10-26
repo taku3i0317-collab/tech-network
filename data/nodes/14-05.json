@@ -17,7 +17,20 @@
    "4": ""
   },
   "sources": [],
-  "refs": [],
+  "refs": [
+   {
+    "title": "O97. 蒸気で走る鉄の道（鉄道）［14-05］",
+    "answer": "1804年、イギリスのトレビシックが初めてレールの上で蒸気機関車を走らせた。1825年にはストックトン・ダーリントン鉄道で蒸気機関車が貨物と人を運び、1830年のリバプール・マンチェスター鉄道（スチーブンソンのロケット号）で鉄道の時代が始まった。初期のレールは錬鉄で、すぐすり減ったので、のちに鋼のレールに変わった。日本の最初の鉄道は1872年の新橋〜横浜。",
+    "hee": {
+     "1": "線路の幅は、馬車の車輪の幅に由来すると言われる（諸説あり）。",
+     "2": "車輪のふちの出っぱり（フランジ）のおかげで、列車はレールから外れない。",
+     "3": "日本の最初の機関車はイギリスから輸入した。",
+     "4": "鉄道ができて、国中で時刻をそろえる必要が生まれた（標準時）。"
+    },
+    "certainty": "トレビシック 1804・1825・1830・1872 ◎／線路の幅の由来 △⚠️／標準時と鉄道 ◎",
+    "basis": "- Wikipedia「Rail transport」「Richard Trevithick」「Stockton and Darlington Railway」「Rail transport in Japan」：https://en.wikipedia.org/wiki/Rail_transport ・ https://en.wikipedia.org/wiki/Richard_Trevithick ・ https://en.wikipedia.org/wiki/Stockton_and_Darlington_Railway ・ https://en.wikipedia.org/wiki/Rail_transport_in_Japan"
+   }
+  ],
   "people": [
    {
     "name": "トレビシック",
@@ -51,9 +64,9 @@
   "real": "1804 トレビシックの蒸気機関車、1825 ストックトン・ダーリントン鉄道、1830 リバプール・マンチェスター鉄道（スチーブンソンのロケット号）。1872 新橋〜横浜"
  },
  "game": {
-  "status": "❓",
-  "buildable_now": true,
-  "play": "",
+  "status": "✅",
+  "buildable_now": false,
+  "play": "解説（バニラのレール・トロッコ、E の [1-04] と同じ「解説だけ」）",
   "missing": "",
   "item": null,
   "recipes": [],

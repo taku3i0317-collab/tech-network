@@ -1,0 +1,72 @@
+[
+ {
+  "lang": "ar",
+  "name": "العربية",
+  "dir": "rtl",
+  "machine": true,
+  "coverage": 24.1
+ },
+ {
+  "lang": "en",
+  "name": "English",
+  "dir": "ltr",
+  "machine": true,
+  "coverage": 39.5
+ },
+ {
+  "lang": "es",
+  "name": "Español",
+  "dir": "ltr",
+  "machine": true,
+  "coverage": 39.1
+ },
+ {
+  "lang": "fr",
+  "name": "Français",
+  "dir": "ltr",
+  "machine": true,
+  "coverage": 27.1
+ },
+ {
+  "lang": "hi",
+  "name": "हिन्दी",
+  "dir": "ltr",
+  "machine": true,
+  "coverage": 39.0
+ },
+ {
+  "lang": "id",
+  "name": "Bahasa Indonesia",
+  "dir": "ltr",
+  "machine": true,
+  "coverage": 23.9
+ },
+ {
+  "lang": "ko",
+  "name": "한국어",
+  "dir": "ltr",
+  "machine": true,
+  "coverage": 38.9
+ },
+ {
+  "lang": "pt",
+  "name": "Português",
+  "dir": "ltr",
+  "machine": true,
+  "coverage": 36.4
+ },
+ {
+  "lang": "ru",
+  "name": "Русский",
+  "dir": "ltr",
+  "machine": true,
+  "coverage": 39.5
+ },
+ {
+  "lang": "zh-Hans",
+  "name": "简体中文",
+  "dir": "ltr",
+  "machine": true,
+  "coverage": 31.6
+ }
+]

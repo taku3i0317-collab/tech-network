@@ -1,7 +1,8 @@
 /* 物のページ nodes/<番号>.html・入口 index.html・章の一覧 chapters/*（S-061、設計図 docs/mockups/S060_spec.md） */
 :root { --bg: #faf7f0; --panel: #fffdf8; --ink: #2b2622; --sub: #6b6259; --line: #e4dccd; --accent: #2f6f8f; --warm: #c9861e; }
 * { box-sizing: border-box; }
-body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.75 "BIZ UDPGothic", system-ui, sans-serif; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.75 var(--lang-font, "BIZ UDPGothic"), "BIZ UDPGothic", system-ui, sans-serif; }
+#langSel { font: inherit; color: var(--sub); background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 2px 6px; }
 a { color: var(--accent); }
 .top { position: sticky; top: 0; z-index: 5; display: flex; gap: 8px; align-items: center; padding: 10px 16px; background: var(--bg); border-bottom: 1px solid var(--line); }
 .top a.home { font-family: "DotGothic16", sans-serif; font-size: 18px; color: var(--ink); text-decoration: none; white-space: nowrap; }

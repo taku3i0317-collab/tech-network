@@ -13,60 +13,34 @@
 <link rel="alternate" hreflang="x-default" href="https://taku3i0317-collab.github.io/tech-network/nodes/9-39.html">
 <meta property="og:type" content="article"><meta property="og:title" content="縮小投影露光 とは｜1978年・仕組みと歴史｜技術ネットワーク"><meta property="og:description" content="半導体の歴史は「もっと短い光で、もっと細かく」の歴史 — Reduction projection lithography"><meta property="og:url" content="https://taku3i0317-collab.github.io/tech-network/nodes/9-39.html"><meta property="og:image" content="https://taku3i0317-collab.github.io/tech-network/nodes/og/9-39.png"><meta name="twitter:card" content="summary_large_image">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "縮小投影露光 とは｜1978年・仕組みと歴史｜技術ネットワーク", "description": "半導体の歴史は「もっと短い光で、もっと細かく」の歴史 — Reduction projection lithography", "url": "https://taku3i0317-collab.github.io/tech-network/nodes/9-39.html", "inLanguage": "ja", "license": "https://creativecommons.org/publicdomain/zero/1.0/", "about": {"@type": "Thing", "name": "縮小投影露光", "alternateName": "Reduction projection lithography"}, "isPartOf": {"@type": "Dataset", "name": "tech-network: a map of technology", "url": "https://taku3i0317-collab.github.io/tech-network/"}}</script>
-<script>window.NODE_ID = "9-39";</script>
-<!-- S-050：検索に見つけてもらう（説明・正しい URL・英語の入り口・データの説明） -->
-<script>/* S-050：?lang=en・?lang=ja で言語を決める（検索の英語の入り口。ボタンと同じ保存 tn-lang） */(function(){var l=new URLSearchParams(location.search).get('lang');if(l==='en'||l==='ja'){try{localStorage.setItem('tn-lang',l)}catch(e){}document.documentElement.lang=l}})();</script>
-<!-- ホーム画面に置けるアプリ（S-026） -->
-<link rel="manifest" href="manifest.webmanifest">
-<meta name="theme-color" content="#faf7f0">
-<link rel="apple-touch-icon" href="apple-touch-icon.png">
-<meta name="apple-mobile-web-app-title" content="技術ネット">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<link rel="icon" type="image/png" href="app_icon_192.png">
-
-<!-- 1枚のページで、URL の #番号（例 node.html#9-07）を見て中身を表示する。データは tech_network_graph.js（軽い：番号・名前・年・つながり）と tech_network_detail.js（重い：本物・へえ・出典・人物）。どちらも tools/gen_tree_views.py が書き出す -->
-<link rel="stylesheet" href="node.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<meta name="theme-color" content="#faf7f0"><link rel="manifest" href="manifest.webmanifest"><link rel="icon" type="image/png" href="app_icon_192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&family=DotGothic16&display=swap">
-<link rel="stylesheet" href="design.css">
+<link rel="stylesheet" href="thing.css">
 </head>
 <body>
-<div class="wrap">
-  <nav>
-    <a href="network.html" id="back">← 技術ネットワーク図へ</a>
-    <a href="people.html">人物の一覧</a>
-    <a href="glossary.html">用語集</a>
-    <a href="#10-16">AI までの道</a>
-    <input type="search" id="go" placeholder="番号か名前で移動（例 9-07）" aria-label="ノードへ移動">
-    <button type="button" id="langBtn" class="btn" lang="en">English</button>
-    <button type="button" id="furiBtn" class="btn" aria-pressed="false">ふりがな</button>
-  </nav>
-  <main id="page"><article class="static"><h1>[9-39] 縮小投影露光</h1>
-<p class="muted">1978年・半導体プロセス・Reduction projection lithography</p>
-<section><h2>へえ</h2><p><b>①子ども</b> 半導体の歴史は「もっと短い光で、もっと細かく」の歴史</p><p><b>②学生</b> 最初の密着露光（1960年ごろ）はマスクをウェハーにじかに押し当てた。マスクがすぐ傷むので、1973年にパーキンエルマーのマイクラライン（等倍の投影、鏡を使う）、1978年に GCA の DSW4800（g線、10分の1に縮める最初のステッパー）が出た。</p><p><b>③大人</b> 液浸は、レンズとウェハーのあいだを水（屈折率 1.44）で満たして NA を 1.35 まで上げた。</p><p><b>④ガチ</b> EUV（13.5nm）はどんな物質にも吸われるのでレンズが作れず、多層膜の鏡で光を集める。</p></section>
-<section><h2>本当の話</h2><p>1978 GCA の DSW（1/10縮小。光源を g線とする解説があるが、DSW 4800 の仕様ページは i線（改造機の可能性）で、g線と確かめられるのは後継の 6300⚠️）、1980年代 ニコン・キヤノンのステッパー、1990年代 スキャナー（スリット状の光でマスクとウェハーを同時に走らせる）。レイリーの式 CD=k1·λ/NA で波長と NA が勝負</p></section>
-<section><h2>前提（これが無いと作れない）</h2><p><a href="nodes/9-20.html">密着・近接露光</a>・<a href="nodes/12-14.html">層流クリーンルーム</a>・<a href="nodes/7-19.html">投影レンズ</a>・<a href="nodes/8-08.html">ボールねじ精密ステージ</a>・<a href="nodes/10-15.html">露光装置の制御</a>・<a href="nodes/7-10.html">水銀ランプ</a>・<a href="nodes/7-20.html">エキシマレーザー</a></p></section>
-<section><h2>これを使って生まれた物</h2><p><a href="nodes/9-40.html">EUV 露光装置</a>・<a href="nodes/B-09.html">ゲーム機</a>・<a href="nodes/P-13.html">パソコンの GPU</a></p></section>
-<section><h2>ゲームでの作り方（ウィキ）</h2><p><a href="wiki/items/projection_lens_i.html">i線の投影レンズ</a>・<a href="wiki/items/i_line_filter.html">i線フィルター</a>・<a href="wiki/items/annular_aperture.html">輪帯の絞り（変形照明）</a>・<a href="wiki/items/quadrupole_aperture.html">四重極の絞り（変形照明）</a>・<a href="wiki/items/phase_shift_mask.html">位相シフトマスク</a>・<a href="wiki/items/stepper.html">ステッパー（縮小投影露光）</a>・<a href="wiki/items/scanner.html">スキャナー（ステップ・アンド・スキャン）</a></p></section>
-<p class="muted">技術ネットワーク（CC0）— <a href="network.html">図</a>・<a href="ranking.html">ランキング</a></p></article></main>
+<div class="top"><a class="home" href="index.html" data-en="Tech map">技術の地図</a><form action="index.html"><input type="search" name="q" placeholder="さがす（物・技術・人の名前）" data-en-ph="Search (things, techniques, people)" aria-label="さがす"></form></div>
+<div class="wrap cols2"><div class="cols"><div>
+<section class="what"><div class="big"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAp0lEQVR42mNgoBAwInMsyrr+E6PpRFcZXB8LuiTTqUN4Nf8zs0NVj03RsQNbGI8d2MKIi48MMFxQNGMaw795dv8ZGBgY/sG8ZgbhFyVFMPTMW4Hff1YOPv/JkSOoEJdmFmyxUJQUAfcG3GtIYsixwIQtenrmrWAoSYqAi5cg+R1ZM9HeINrv2AwhpJkRXyoswRNtGF6xKOuC20aIRraMkdR8gNMFAwYAZ/lWK7r0I9YAAAAASUVORK5CYII=" alt=""></div><div><h1 data-en="Reduction projection lithography">縮小投影露光</h1><div class="meta">1978年・半導体プロセス</div></div></section>
+<p class="one" data-en="The history of semiconductors is the history of &quot;shorter light, finer patterns&quot;.">半導体の歴史は「もっと短い光で、もっと細かく」の歴史</p>
+<div class="acts"><button type="button" class="btn main" data-film="9-39" data-en="▶ How it was made">▶ できるまで</button><button type="button" class="btn" data-share="9-39" data-share-view="node" data-en="Share">共有</button></div>
+<h2 data-en="How to get it">どうやって手に入れるか</h2><div class="get"><div><span data-en="In the game you make it as shown below.">ゲームでは、下の「作り方」で作る</span>（6）</div><div><img src="wiki/icons/i_line_filter.png" alt=""> <b>i線フィルター</b>：<span data-en="no recipe: found, mined or gathered">レシピは無い（拾う・掘る・ほかの方法）</span></div></div>
+<h2 data-en="How to make it">作り方</h2><div class="item" id="it-projection_lens_i"><div class="iname"><img src="wiki/icons/projection_lens_i.png" alt=""><span>i線の投影レンズ</span></div><div class="rec"><div class="ins"></div><div class="how"><span>作業台</span><small></small><em>→</em></div><div class="outs"><a class="cell" href="nodes/9-39.html#it-projection_lens_i"><img src="wiki/icons/projection_lens_i.png" alt=""><b>i線の投影レンズ</b></a></div></div></div><div class="item" id="it-annular_aperture"><div class="iname"><img src="wiki/icons/annular_aperture.png" alt=""><span>輪帯の絞り（変形照明）</span></div><div class="rec"><div class="ins"><a class="cell" href="nodes/1-26.html#it-steel_ingot"><img src="wiki/icons/steel_ingot.png" alt=""><b>鋼インゴット</b><i>×8</i></a></div><div class="how"><span>作業台</span><small></small><em>→</em></div><div class="outs"><a class="cell" href="nodes/9-39.html#it-annular_aperture"><img src="wiki/icons/annular_aperture.png" alt=""><b>輪帯の絞り（変形照明）</b></a></div></div></div><div class="item" id="it-quadrupole_aperture"><div class="iname"><img src="wiki/icons/quadrupole_aperture.png" alt=""><span>四重極の絞り（変形照明）</span></div><div class="rec"><div class="ins"><a class="cell" href="nodes/1-26.html#it-steel_ingot"><img src="wiki/icons/steel_ingot.png" alt=""><b>鋼インゴット</b><i>×4</i></a></div><div class="how"><span>作業台</span><small></small><em>→</em></div><div class="outs"><a class="cell" href="nodes/9-39.html#it-quadrupole_aperture"><img src="wiki/icons/quadrupole_aperture.png" alt=""><b>四重極の絞り（変形照明）</b></a></div></div></div><div class="item" id="it-phase_shift_mask"><div class="iname"><img src="wiki/icons/phase_shift_mask.png" alt=""><span>位相シフトマスク</span></div><div class="rec"><div class="ins"></div><div class="how"><span>作業台</span><small></small><em>→</em></div><div class="outs"><a class="cell" href="nodes/9-39.html#it-phase_shift_mask"><img src="wiki/icons/phase_shift_mask.png" alt=""><b>位相シフトマスク</b></a></div></div></div><div class="item" id="it-stepper"><div class="iname"><img src="wiki/icons/stepper.png" alt=""><span>ステッパー（縮小投影露光）</span></div><div class="rec"><div class="ins"><a class="cell" href="nodes/1-26.html#it-steel_ingot"><img src="wiki/icons/steel_ingot.png" alt=""><b>鋼インゴット</b><i>×6</i></a><a class="cell" href="nodes/4-08.html#it-electric_motor"><img src="wiki/icons/electric_motor.png" alt=""><b>電動モーター</b></a><a class="cell" href="nodes/9-20.html#it-mask_aligner"><img src="wiki/icons/mask_aligner.png" alt=""><b>マスクアライナー（密着・近接露光）</b></a><a class="cell" href="nodes/4-03.html#it-copper_cable"><img src="wiki/icons/copper_cable.png" alt=""><b>銅ケーブル</b></a></div><div class="how"><span>作業台</span><small></small><em>→</em></div><div class="outs"><a class="cell" href="nodes/9-39.html#it-stepper"><img src="wiki/icons/stepper.png" alt=""><b>ステッパー（縮小投影露光）</b></a></div></div><div class="iso"><img src="wiki/iso/stepper.png" alt=""><button type="button" class="btn" data-3d="semiconductor-lab:stepper" data-en="View in 3D">3D で見る</button></div><div id="v3d"></div></div><div class="item" id="it-scanner"><div class="iname"><img src="wiki/icons/scanner.png" alt=""><span>スキャナー（ステップ・アンド・スキャン）</span></div><div class="rec"><div class="ins"><a class="cell" href="nodes/1-26.html#it-steel_ingot"><img src="wiki/icons/steel_ingot.png" alt=""><b>鋼インゴット</b><i>×4</i></a><a class="cell" href="nodes/4-08.html#it-electric_motor"><img src="wiki/icons/electric_motor.png" alt=""><b>電動モーター</b></a><a class="cell" href="nodes/8-08.html#it-ball_screw"><img src="wiki/icons/ball_screw.png" alt=""><b>ボールねじ</b><i>×2</i></a><a class="cell" href="nodes/9-39.html#it-stepper"><img src="wiki/icons/stepper.png" alt=""><b>ステッパー（縮小投影露光）</b></a><a class="cell" href="nodes/4-03.html#it-copper_cable"><img src="wiki/icons/copper_cable.png" alt=""><b>銅ケーブル</b></a></div><div class="how"><span>作業台</span><small></small><em>→</em></div><div class="outs"><a class="cell" href="nodes/9-39.html#it-scanner"><img src="wiki/icons/scanner.png" alt=""><b>スキャナー（ステップ・アンド・スキャン）</b></a></div></div><div class="iso"><img src="wiki/iso/scanner.png" alt=""></div></div>
+<h2 data-en="Real history">本当の歴史</h2><p>1978 GCA の DSW（1/10縮小。光源を g線とする解説があるが、DSW 4800 の仕様ページは i線（改造機の可能性）で、g線と確かめられるのは後継の 6300⚠️）、1980年代 ニコン・キヤノンのステッパー、1990年代 スキャナー（スリット状の光でマスクとウェハーを同時に走らせる）。レイリーの式 CD=k1·λ/NA で波長と NA が勝負</p>
+<details class="more"><summary data-en="Read more (students, adults, deep dive, people, sources)">もっと読む（学生・大人・ガチ・人物・出典）</summary><p><b>②学生</b> 最初の密着露光（1960年ごろ）はマスクをウェハーにじかに押し当てた。マスクがすぐ傷むので、1973年にパーキンエルマーのマイクラライン（等倍の投影、鏡を使う）、1978年に GCA の DSW4800（g線、10分の1に縮める最初のステッパー）が出た。</p><p><b>③大人</b> 液浸は、レンズとウェハーのあいだを水（屈折率 1.44）で満たして NA を 1.35 まで上げた。</p><p><b>④ガチ</b> EUV（13.5nm）はどんな物質にも吸われるのでレンズが作れず、多層膜の鏡で光を集める。</p></details>
+</div><div class="side">
+<h2 data-en="Connections">つながり</h2><div class="links">
+<h3 data-en="Needed to make this">これを作るのに要る</h3><div class="th"><a href="nodes/9-20.html"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAARklEQVR42mOMCAv6z0ABYGFgYGDQMXMjS/OVU7sYmBgoBANvAAs2f+ED6OHFRKxCkr1AyCWDJxCpHwukpsrhEgbExjk2AABmfw4ng81uXQAAAABJRU5ErkJggg==" alt=""><span data-en="Contact and proximity printing">密着・近接露光</span></a><a href="nodes/12-14.html"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAXUlEQVR42mNgoBAwMjAwMFg5+PwnR/OxA1sYWWAcLx8fhi2vPjH4iPExMDAwEGRv27KFOi5goCqwKOv6TwqfgYGBgYlSS0cNQDIAFsLE0lSLRuoAWFImhSY3+WMAAPrNP88c0xdIAAAAAElFTkSuQmCC" alt=""><span data-en="Laminar-flow cleanroom">層流クリーンルーム</span></a><a href="nodes/7-19.html"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAi0lEQVR42mNgoBAwYhO0cvD5/+bZPRQxESklhmMHtmCoZ8FlspeXHwr/1IUrWNUxUeoFFmzO9/LxwXSRjAIDAwPDf3RvYPXCmycPiHYBxV6gbhhYOfj8NzPQYRCB+BcDmEEolHAYBmHAiO5/BgYGnGEA89qpC1fgyZriMEAxYNu2TURpEpFSYqAaAAC34yt1a5baxwAAAABJRU5ErkJggg==" alt=""><span data-en="Projection lens">投影レンズ</span></a><a href="nodes/8-08.html"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAYUlEQVR42mNgGGjAiC5g5eDzH5vCYwe2MGITZ6LUBSzotnr5+OBS+x+ba1Bc4OXjw7BtyxYGBgYGDBrZcCsHn/8wzIjP37gARniQYgC6WhZSDYF64z/MJSTHAnKYjILBAgAbFSbo7MBOkQAAAABJRU5ErkJggg==" alt=""><span data-en="Ball-screw precision stage">ボールねじ精密ステージ</span></a><a href="nodes/10-15.html"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAzUlEQVR42tWSIQ6DQBREHw3H4CSAQP8gkSgk4STVpOkhKsnXiJaTcI+tKCwssG1NRUdOdubPn/3wS9wvmDhuzLs34ZZwBS1ZJgCWG4Y28BrEcWMmgTUAcDnM2uTkFx8jy8RJGfoeSiQkeQHdy1RH/a6DWayjoleAyuEODXzxJVqmr9NICZSYtCYIAc5lawsDSPJimr7g0d2cBH2vQPtKkNYETopOgMq7d9+r/c7DDnRUGz/Ji930jyU6rXfiFTsGU6Td2Uo577tge41/jid7b1rEfKZEUAAAAABJRU5ErkJggg==" alt=""><span data-en="Lithography machine control">露光装置の制御</span></a><a href="nodes/7-10.html"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAANklEQVR42mNgGAhgUdb1H8ZmokQzyQZYlHX9L0mKIN/Za248+o/uglHNo5oxDCBbM7Y0TjcAAMmIVOjGIrItAAAAAElFTkSuQmCC" alt=""><span data-en="Mercury lamp">水銀ランプ</span></a><a href="nodes/7-20.html"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAbklEQVR42mNgGGjAyMDAwGDl4POfHM3HDmxhZIFxusK2kKS5bJUPAwMDAwMLsqBNFsRFhMCRaQxwFzOhS1o5+PzH5iVc4izY/IXLv9jEWXA5jVjAgh4odAMw1zKRqokcbxJ2ASkpEV0tCy6JoQMAlrYoIq8esdgAAAAASUVORK5CYII=" alt=""><span data-en="Excimer laser">エキシマレーザー</span></a></div>
+<h3 data-en="Made possible by this">これで作れるようになった</h3><div class="th"><a href="nodes/9-40.html"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAgUlEQVR42mNgoBAwInOsHHz+E6Pp2IEtcH0syJq9fHyItfg/zBAmdBkHrgycurDJYRhw4NsMrAoduDIYDnybQdgAbIbg0owSBvgMwaUZpwtIASz4JPHZjNUAfDGADLYx+GA3gBgbIWALbi9s27IFr1b0xMaCrhk5meJKhVSNhYEHAMYULBfGWT6fAAAAAElFTkSuQmCC" alt=""><span data-en="EUV lithography machine">EUV 露光装置</span></a><a href="nodes/B-09.html"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAl0lEQVR42mNgGAWMMIaamtZ/UjTeunWNkYGBgYEFWdDLy48hRK2DYc2tCgYGBgaGELUOBgYGBjgfBrZt2wRnM8Fs9/Lyw7Blza0KFM0wA728/OAuZkGXtPYJYWDYgmkzzGXILkQxAC64pQPDyTB5dM0YYYDNj6gA02AMA5ImaMFDGAvACCsmStMBC1KcEpUOYN7D48qhBgCsrzxoRpPs1gAAAABJRU5ErkJggg==" alt=""><span data-en="Game console">ゲーム機</span></a><a href="nodes/P-13.html"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAiklEQVR42mNgGBTAysHnP7l6mSi1nAXGUFPTItkVt25dY4Qb4OXlx3DqwhUMRWYGOhjiZgY6DNu2bUJ1AbIkDJy6cIXh1IUrKGIwcbxhgM0lMMNwhgEuV+ATw2oANv9iDYNn91ANgAWKl5cfVtu3bduEVY4FOUoYGBgYRKSU/uOKMmQ5mHomhlEAAJOHOQ+5T/DaAAAAAElFTkSuQmCC" alt=""><span data-en="GPU">パソコンの GPU</span></a></div>
+
 </div>
-<div class="backbar"><a id="backbar" href="network.html">← 図に戻る</a><button type="button" id="topBtn">↑ 上へ</button></div>
-<script src="tech_network_graph.js"></script>
-<script src="film.js"></script>
-<script src="tech_network_detail.js"></script>
-<script src="glossary.js"></script>
-<script src="autolink.js"></script>
-<script src="node.js"></script>
-<script src="share.js"></script>
-<script>document.addEventListener('click', e => { const b = e.target.closest('[data-film], [data-film-up]'); if (b) (b.dataset.filmUp ? Film.playUp : Film.play)(b.dataset.film || b.dataset.filmUp, { onClose: id => { location.hash = id; } }); });</script>
-<script src="ui_icons.js"></script>
-<script>UiIcons.init();</script>
-<script src="vendor/budoux-ja.min.js"></script>
-<script src="linebreak.js"></script>
-<script>LineBreak.init();</script>
-<script src="furigana.js"></script>
-<script>Furigana.init(document.getElementById('furiBtn'));</script>
-<script src="pwa.js"></script>
+<p><a class="btn" href="network.html#center/9-39" data-en="See the ring map">中心図で見る</a></p>
+<div class="quiet"><button type="button" id="langBtn" lang="en">English</button><button type="button" id="furiBtn" aria-pressed="false">ふりがな</button><a href="https://github.com/taku3i0317-collab/tech-network/issues/new/choose" rel="noopener" data-en="Report a mistake">誤りを知らせる</a><a href="network.html" data-en="Year map">年の図</a></div>
+</div></div></div>
+<script src="thing.js"></script>
+<script src="tech_network_graph.js" defer></script><script src="film.js" defer></script><script src="share.js" defer></script>
+<script src="wiki/viewer.js" defer></script>
+<script src="furigana.js"></script><script>Furigana.init(document.getElementById('furiBtn'));</script>
+<script src="pwa.js" defer></script>
 </body>
 </html>

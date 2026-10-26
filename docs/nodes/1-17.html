@@ -13,60 +13,34 @@
 <link rel="alternate" hreflang="x-default" href="https://taku3i0317-collab.github.io/tech-network/nodes/1-17.html">
 <meta property="og:type" content="article"><meta property="og:title" content="シーメンス法 とは｜1956年・仕組みと歴史｜技術ネットワーク"><meta property="og:description" content="熱した細いシリコンの棒が、ガスの中でどんどん太っていく — Siemens process"><meta property="og:url" content="https://taku3i0317-collab.github.io/tech-network/nodes/1-17.html"><meta property="og:image" content="https://taku3i0317-collab.github.io/tech-network/nodes/og/1-17.png"><meta name="twitter:card" content="summary_large_image">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "シーメンス法 とは｜1956年・仕組みと歴史｜技術ネットワーク", "description": "熱した細いシリコンの棒が、ガスの中でどんどん太っていく — Siemens process", "url": "https://taku3i0317-collab.github.io/tech-network/nodes/1-17.html", "inLanguage": "ja", "license": "https://creativecommons.org/publicdomain/zero/1.0/", "about": {"@type": "Thing", "name": "シーメンス法", "alternateName": "Siemens process"}, "isPartOf": {"@type": "Dataset", "name": "tech-network: a map of technology", "url": "https://taku3i0317-collab.github.io/tech-network/"}}</script>
-<script>window.NODE_ID = "1-17";</script>
-<!-- S-050：検索に見つけてもらう（説明・正しい URL・英語の入り口・データの説明） -->
-<script>/* S-050：?lang=en・?lang=ja で言語を決める（検索の英語の入り口。ボタンと同じ保存 tn-lang） */(function(){var l=new URLSearchParams(location.search).get('lang');if(l==='en'||l==='ja'){try{localStorage.setItem('tn-lang',l)}catch(e){}document.documentElement.lang=l}})();</script>
-<!-- ホーム画面に置けるアプリ（S-026） -->
-<link rel="manifest" href="manifest.webmanifest">
-<meta name="theme-color" content="#faf7f0">
-<link rel="apple-touch-icon" href="apple-touch-icon.png">
-<meta name="apple-mobile-web-app-title" content="技術ネット">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<link rel="icon" type="image/png" href="app_icon_192.png">
-
-<!-- 1枚のページで、URL の #番号（例 node.html#9-07）を見て中身を表示する。データは tech_network_graph.js（軽い：番号・名前・年・つながり）と tech_network_detail.js（重い：本物・へえ・出典・人物）。どちらも tools/gen_tree_views.py が書き出す -->
-<link rel="stylesheet" href="node.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<meta name="theme-color" content="#faf7f0"><link rel="manifest" href="manifest.webmanifest"><link rel="icon" type="image/png" href="app_icon_192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&family=DotGothic16&display=swap">
-<link rel="stylesheet" href="design.css">
+<link rel="stylesheet" href="thing.css">
 </head>
 <body>
-<div class="wrap">
-  <nav>
-    <a href="network.html" id="back">← 技術ネットワーク図へ</a>
-    <a href="people.html">人物の一覧</a>
-    <a href="glossary.html">用語集</a>
-    <a href="#10-16">AI までの道</a>
-    <input type="search" id="go" placeholder="番号か名前で移動（例 9-07）" aria-label="ノードへ移動">
-    <button type="button" id="langBtn" class="btn" lang="en">English</button>
-    <button type="button" id="furiBtn" class="btn" aria-pressed="false">ふりがな</button>
-  </nav>
-  <main id="page"><article class="static"><h1>[1-17] シーメンス法</h1>
-<p class="muted">1956年・冶金・Siemens process</p>
-<section><h2>へえ</h2><p><b>①子ども</b> 熱した細いシリコンの棒が、ガスの中でどんどん太っていく</p><p><b>②学生</b> シーメンス炉 [1-17] で作る：純度はトリクロロシランと同じ（9N〜11N）。小さな結晶の集まり。次は1つの大きな結晶（CZ [9-08]・FZ [9-09]）にしてウェハーへ。</p><p><b>③大人</b> 「多結晶」＝たくさんの結晶。棒に積もったシリコンは、向きのばらばらな小さな粒としてできる。トランジスタにするには、溶かして1つの結晶に育て直す。</p><p><b>④ガチ</b> 多結晶シリコンの多くは太陽電池に使われる（純度は少し低くてよい）。一番きれいなものが半導体のチップへ。世界では毎年100万トン以上作られ ⚠️、その大半がシーメンス法。</p></section>
-<section><h2>本当の話</h2><p>1950年代半ば シーメンス社が開発（基本特許 DE 1061593 は1956年6月出願・1959年公開。ワッカーは1958年にライセンスを受けて量産）。通電で約1100℃にした細いSi棒の上で SiHCl3+H2→Si+3HCl、棒が太っていく。純度 11N（99.999999999%）級</p></section>
-<section><h2>前提（これが無いと作れない）</h2><p><a href="nodes/1-16.html">トリクロロシラン合成・蒸留</a>・<a href="nodes/6-01.html">電解槽</a>・<a href="nodes/6-05.html">クロルアルカリ電解</a></p></section>
-<section><h2>これを使って生まれた物</h2><p><a href="nodes/7-17.html">多層膜ミラー</a>・<a href="nodes/9-08.html">CZ 法</a>・<a href="nodes/9-09.html">FZ 法</a></p></section>
-<section><h2>ゲームでの作り方（ウィキ）</h2><p><a href="wiki/items/polysilicon.html">多結晶シリコン</a>・<a href="wiki/items/siemens_reactor.html">シーメンス炉</a></p></section>
-<p class="muted">技術ネットワーク（CC0）— <a href="network.html">図</a>・<a href="ranking.html">ランキング</a></p></article></main>
+<div class="top"><a class="home" href="index.html" data-en="Tech map">技術の地図</a><form action="index.html"><input type="search" name="q" placeholder="さがす（物・技術・人の名前）" data-en-ph="Search (things, techniques, people)" aria-label="さがす"></form></div>
+<div class="wrap cols2"><div class="cols"><div>
+<section class="what"><div class="big"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAwUlEQVR42t2SoQ7CMBRF7xY+oWqZWCYqlokpBArdLHwCEsnXNeipCRSCICaaiqaq/1AEtKyj2zRc2dd7cl7ygJ9PsjTc7VsLAEYLDMMj+nczfaC0siQrAQCsbWGUBJoaAGwMksao26b+lN85ns7eaNaA0soydgDJCxglQfLCz4ySL6gWgUlgQLIyKMXi1ltcYazuizPgAGC0+FJfSxrTGxvEbGYBfceT6+3ulZ2Ng1w4R9/xZPWQxrdgtPBm0/Kf5Ankd0w0a0l1HgAAAABJRU5ErkJggg==" alt=""></div><div><h1 data-en="Siemens process">シーメンス法</h1><div class="meta">1956年・冶金</div></div></section>
+<p class="one" data-en="A thin, hot silicon rod keeps getting thicker inside the gas.">熱した細いシリコンの棒が、ガスの中でどんどん太っていく</p>
+<div class="acts"><button type="button" class="btn main" data-film="1-17" data-en="▶ How it was made">▶ できるまで</button><button type="button" class="btn" data-share="1-17" data-share-view="node" data-en="Share">共有</button></div>
+<h2 data-en="How to get it">どうやって手に入れるか</h2><div class="get"><div><span data-en="In the game you make it as shown below.">ゲームでは、下の「作り方」で作る</span>（2）</div></div>
+<h2 data-en="How to make it">作り方</h2><div class="item" id="it-polysilicon"><div class="iname"><img src="wiki/icons/polysilicon.png" alt=""><span>多結晶シリコン</span></div><div class="rec"><div class="ins"><a class="cell" href="nodes/1-16.html#it-trichlorosilane"><img src="wiki/icons/trichlorosilane.png" alt=""><b>トリクロロシラン</b></a><a class="cell" href="nodes/6-01.html#it-hydrogen_gas"><img src="wiki/icons/hydrogen_gas.png" alt=""><b>水素ガス（袋詰め）</b></a></div><div class="how"><span><a href="nodes/1-17.html#it-siemens_reactor">シーメンス炉</a></span><small>多結晶シリコン・500,000 W・648 秒</small><em>→</em></div><div class="outs"><a class="cell" href="nodes/1-17.html#it-polysilicon"><img src="wiki/icons/polysilicon.png" alt=""><b>多結晶シリコン</b></a><a class="cell" href="nodes/1-16.html#it-hydrogen_chloride_gas"><img src="wiki/icons/hydrogen_chloride_gas.png" alt=""><b>塩化水素ガス</b><i>×3</i></a></div><div class="note">SiHCl3 + H2 → Si + 3HCl（約1100℃の棒が太る）。HCl はトリクロロシラン作りに戻せる</div></div></div><div class="item" id="it-siemens_reactor"><div class="iname"><img src="wiki/icons/siemens_reactor.png" alt=""><span>シーメンス炉</span></div><div class="rec"><div class="ins"><a class="cell" href="nodes/1-26.html#it-steel_ingot"><img src="wiki/icons/steel_ingot.png" alt=""><b>鋼インゴット</b><i>×5</i></a><a class="cell" href="nodes/4-12.html#it-graphite_rod"><img src="wiki/icons/graphite_rod.png" alt=""><b>黒鉛棒</b><i>×2</i></a><a class="cell" href="nodes/7-02.html#it-quartz_tube"><img src="wiki/icons/quartz_tube.png" alt=""><b>石英管</b></a><a class="cell" href="nodes/4-03.html#it-copper_cable"><img src="wiki/icons/copper_cable.png" alt=""><b>銅ケーブル</b></a></div><div class="how"><span>作業台</span><small></small><em>→</em></div><div class="outs"><a class="cell" href="nodes/1-17.html#it-siemens_reactor"><img src="wiki/icons/siemens_reactor.png" alt=""><b>シーメンス炉</b></a></div></div><div class="iso"><img src="wiki/iso/siemens_reactor.png" alt=""><button type="button" class="btn" data-3d="semiconductor-lab:siemens_reactor" data-en="View in 3D">3D で見る</button></div><div id="v3d"></div><p class="meta"><span data-en="What this machine makes">この機械でできること</span>（1）</p><div class="rec"><div class="ins"><a class="cell" href="nodes/1-16.html#it-trichlorosilane"><img src="wiki/icons/trichlorosilane.png" alt=""><b>トリクロロシラン</b></a><a class="cell" href="nodes/6-01.html#it-hydrogen_gas"><img src="wiki/icons/hydrogen_gas.png" alt=""><b>水素ガス（袋詰め）</b></a></div><div class="how"><span><a href="nodes/1-17.html#it-siemens_reactor">シーメンス炉</a></span><small>多結晶シリコン・500,000 W・648 秒</small><em>→</em></div><div class="outs"><a class="cell" href="nodes/1-17.html#it-polysilicon"><img src="wiki/icons/polysilicon.png" alt=""><b>多結晶シリコン</b></a><a class="cell" href="nodes/1-16.html#it-hydrogen_chloride_gas"><img src="wiki/icons/hydrogen_chloride_gas.png" alt=""><b>塩化水素ガス</b><i>×3</i></a></div><div class="note">SiHCl3 + H2 → Si + 3HCl（約1100℃の棒が太る）。HCl はトリクロロシラン作りに戻せる</div></div></div>
+<h2 data-en="Real history">本当の歴史</h2><p>1950年代半ば シーメンス社が開発（基本特許 DE 1061593 は1956年6月出願・1959年公開。ワッカーは1958年にライセンスを受けて量産）。通電で約1100℃にした細いSi棒の上で SiHCl3+H2→Si+3HCl、棒が太っていく。純度 11N（99.999999999%）級</p>
+<details class="more"><summary data-en="Read more (students, adults, deep dive, people, sources)">もっと読む（学生・大人・ガチ・人物・出典）</summary><p><b>②学生</b> シーメンス炉 [1-17] で作る：純度はトリクロロシランと同じ（9N〜11N）。小さな結晶の集まり。次は1つの大きな結晶（CZ [9-08]・FZ [9-09]）にしてウェハーへ。</p><p><b>③大人</b> 「多結晶」＝たくさんの結晶。棒に積もったシリコンは、向きのばらばらな小さな粒としてできる。トランジスタにするには、溶かして1つの結晶に育て直す。</p><p><b>④ガチ</b> 多結晶シリコンの多くは太陽電池に使われる（純度は少し低くてよい）。一番きれいなものが半導体のチップへ。世界では毎年100万トン以上作られ ⚠️、その大半がシーメンス法。</p></details>
+</div><div class="side">
+<h2 data-en="Connections">つながり</h2><div class="links">
+<h3 data-en="Needed to make this">これを作るのに要る</h3><div class="th"><a href="nodes/1-16.html"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAQklEQVR42mNgoBAw4pKwKOv6j8w/0VXGSLQBampa/7GJ37p1DUM9Cy4XtG3agcKv8vPAqo6J0jAYNWDUAKok5YEHAJOsDxqJcfyWAAAAAElFTkSuQmCC" alt=""><span data-en="Trichlorosilane synthesis and distillation">トリクロロシラン合成・蒸留</span></a><a href="nodes/6-01.html"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAcElEQVR42mO0cvD5z0ABYGFgYGDw8vFhYGBgYPj2Tg4uwSX0CEXhti1b4GyY+m1btjAwISviEnoEx+gApglGwwATusJtW7ag2IbNBXgNICsMkP0OA9jEsIlT7IJRA4aFASzoAg5WWVgV4hJnpDQ7AwBulB+VynnlCwAAAABJRU5ErkJggg==" alt=""><span data-en="Electrolyzer">電解槽</span></a><a href="nodes/6-05.html"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAZ0lEQVR42mNgGPKAEV0gyU7pPz4N8w7dQ9HDgq7Zy0aNwcYNu+YjuxgYGBgY/iMbwkKsZgYGBqicGoohLMRqxmUIE6WBOAwMYEGK2/8MDIQD8sguBoZtR24xoMQCsYaga6ZKShx4AAD7JTFihVBNvQAAAABJRU5ErkJggg==" alt=""><span data-en="Chlor-alkali electrolysis">クロルアルカリ電解</span></a></div>
+<h3 data-en="Made possible by this">これで作れるようになった</h3><div class="th"><a href="nodes/7-17.html"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAUklEQVR42mNgGGjACGNMyxP5T4rGrElvGBkYGBhYYAJfrgmRaPcbBhQDeLTeMQQFmRCldd26MwwMexgYMFyw6No9Im0XGnUBLheQBPYwjAJqAQDdPib6DeaO3gAAAABJRU5ErkJggg==" alt=""><span data-en="Multilayer mirror">多層膜ミラー</span></a><a href="nodes/9-08.html"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAZElEQVR42mNUU9P6z0ABYGFgYGCoKssiS3Nb1zQGJgYKwSA04MKVJwwXrjzBECPaAAMdGQZcYtgMwuoCdENgGrEZTlQYYNOI1wvITsXFxusCZD8j206yF/A5fRAnJFIBI6XZGQCCSyQLUyfc9AAAAABJRU5ErkJggg==" alt=""><span data-en="CZ process">CZ 法</span></a><a href="nodes/9-09.html"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAQklEQVR42mOMCAv6z0ABYGFgYGCQkFIjS/OLZ7cYmBgoBANvAAu6gIGODF4NF648GWReGI6xgB7KIyUMXjy7RbYBALMWDVf1OUfdAAAAAElFTkSuQmCC" alt=""><span data-en="Float-zone (FZ) method">FZ 法</span></a></div>
+
 </div>
-<div class="backbar"><a id="backbar" href="network.html">← 図に戻る</a><button type="button" id="topBtn">↑ 上へ</button></div>
-<script src="tech_network_graph.js"></script>
-<script src="film.js"></script>
-<script src="tech_network_detail.js"></script>
-<script src="glossary.js"></script>
-<script src="autolink.js"></script>
-<script src="node.js"></script>
-<script src="share.js"></script>
-<script>document.addEventListener('click', e => { const b = e.target.closest('[data-film], [data-film-up]'); if (b) (b.dataset.filmUp ? Film.playUp : Film.play)(b.dataset.film || b.dataset.filmUp, { onClose: id => { location.hash = id; } }); });</script>
-<script src="ui_icons.js"></script>
-<script>UiIcons.init();</script>
-<script src="vendor/budoux-ja.min.js"></script>
-<script src="linebreak.js"></script>
-<script>LineBreak.init();</script>
-<script src="furigana.js"></script>
-<script>Furigana.init(document.getElementById('furiBtn'));</script>
-<script src="pwa.js"></script>
+<p><a class="btn" href="network.html#center/1-17" data-en="See the ring map">中心図で見る</a></p>
+<div class="quiet"><button type="button" id="langBtn" lang="en">English</button><button type="button" id="furiBtn" aria-pressed="false">ふりがな</button><a href="https://github.com/taku3i0317-collab/tech-network/issues/new/choose" rel="noopener" data-en="Report a mistake">誤りを知らせる</a><a href="network.html" data-en="Year map">年の図</a></div>
+</div></div></div>
+<script src="thing.js"></script>
+<script src="tech_network_graph.js" defer></script><script src="film.js" defer></script><script src="share.js" defer></script>
+<script src="wiki/viewer.js" defer></script>
+<script src="furigana.js"></script><script>Furigana.init(document.getElementById('furiBtn'));</script>
+<script src="pwa.js" defer></script>
 </body>
 </html>

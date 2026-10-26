@@ -13,60 +13,34 @@
 <link rel="alternate" hreflang="x-default" href="https://taku3i0317-collab.github.io/tech-network/nodes/10-16.html">
 <meta property="og:type" content="article"><meta property="og:title" content="ニューラルネット とは｜1998年・仕組みと歴史｜技術ネットワーク"><meta property="og:description" content="石と砂から始めて、数字を読める機械にたどり着いた — Neural network"><meta property="og:url" content="https://taku3i0317-collab.github.io/tech-network/nodes/10-16.html"><meta property="og:image" content="https://taku3i0317-collab.github.io/tech-network/nodes/og/10-16.png"><meta name="twitter:card" content="summary_large_image">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "ニューラルネット とは｜1998年・仕組みと歴史｜技術ネットワーク", "description": "石と砂から始めて、数字を読める機械にたどり着いた — Neural network", "url": "https://taku3i0317-collab.github.io/tech-network/nodes/10-16.html", "inLanguage": "ja", "license": "https://creativecommons.org/publicdomain/zero/1.0/", "about": {"@type": "Thing", "name": "ニューラルネット", "alternateName": "Neural network"}, "isPartOf": {"@type": "Dataset", "name": "tech-network: a map of technology", "url": "https://taku3i0317-collab.github.io/tech-network/"}}</script>
-<script>window.NODE_ID = "10-16";</script>
-<!-- S-050：検索に見つけてもらう（説明・正しい URL・英語の入り口・データの説明） -->
-<script>/* S-050：?lang=en・?lang=ja で言語を決める（検索の英語の入り口。ボタンと同じ保存 tn-lang） */(function(){var l=new URLSearchParams(location.search).get('lang');if(l==='en'||l==='ja'){try{localStorage.setItem('tn-lang',l)}catch(e){}document.documentElement.lang=l}})();</script>
-<!-- ホーム画面に置けるアプリ（S-026） -->
-<link rel="manifest" href="manifest.webmanifest">
-<meta name="theme-color" content="#faf7f0">
-<link rel="apple-touch-icon" href="apple-touch-icon.png">
-<meta name="apple-mobile-web-app-title" content="技術ネット">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<link rel="icon" type="image/png" href="app_icon_192.png">
-
-<!-- 1枚のページで、URL の #番号（例 node.html#9-07）を見て中身を表示する。データは tech_network_graph.js（軽い：番号・名前・年・つながり）と tech_network_detail.js（重い：本物・へえ・出典・人物）。どちらも tools/gen_tree_views.py が書き出す -->
-<link rel="stylesheet" href="node.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<meta name="theme-color" content="#faf7f0"><link rel="manifest" href="manifest.webmanifest"><link rel="icon" type="image/png" href="app_icon_192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&family=DotGothic16&display=swap">
-<link rel="stylesheet" href="design.css">
+<link rel="stylesheet" href="thing.css">
 </head>
 <body>
-<div class="wrap">
-  <nav>
-    <a href="network.html" id="back">← 技術ネットワーク図へ</a>
-    <a href="people.html">人物の一覧</a>
-    <a href="glossary.html">用語集</a>
-    <a href="#10-16">AI までの道</a>
-    <input type="search" id="go" placeholder="番号か名前で移動（例 9-07）" aria-label="ノードへ移動">
-    <button type="button" id="langBtn" class="btn" lang="en">English</button>
-    <button type="button" id="furiBtn" class="btn" aria-pressed="false">ふりがな</button>
-  </nav>
-  <main id="page"><article class="static"><h1>[10-16] ニューラルネット</h1>
-<p class="muted">1998年・制御・計算・Neural network</p>
-<section><h2>へえ</h2><p><b>①子ども</b> 石と砂から始めて、数字を読める機械にたどり着いた</p><p><b>②学生</b> AI は「教えた見本」から学ぶ。まちがえた字を教え直すと、そのとおりに答えるようになる。</p><p><b>③大人</b> 答えるときは掛け算を小さな整数（4・8ビット）ですることが多い。速く・電気が少なくてすむ。</p><p><b>④ガチ</b> この MOD の数字のデータは自分たちで描いた CC0 の 8×8（UCI・MNIST は使っていない）。</p></section>
-<section><h2>本当の話</h2><p>1943 マカロック＆ピッツの人工ニューロン、1958 ローゼンブラットのパーセプトロン、1986 ラメルハート・ヒントン・ウィリアムズの誤差逆伝播法、1998 ルカンらの LeNet-5 と MNIST（28×28 の手書き数字、学習用6万枚・テスト用1万枚）、2012 AlexNet（GPU で画像認識）。中身は掛け算と足し算の積み重ね（行列の積）で、それを速く大量にこなすのが AI チップ</p></section>
-<section><h2>前提（これが無いと作れない）</h2><p><a href="nodes/B-11.html">AIチップ</a>・<a href="nodes/9-40.html">EUV 露光装置</a></p></section>
-<section><h2>これを使って生まれた物</h2><p><a href="nodes/10-28.html">強化学習</a>・<a href="nodes/10-29.html">Transformer と大きな AI</a>・<a href="nodes/10-37.html">たんぱく質の形を AI で予測する</a></p></section>
-<section><h2>人物</h2><p>マカロック（1943）・ピッツ（1943）・ローゼンブラット（1958）</p></section>
-<p class="muted">技術ネットワーク（CC0）— <a href="network.html">図</a>・<a href="ranking.html">ランキング</a></p></article></main>
+<div class="top"><a class="home" href="index.html" data-en="Tech map">技術の地図</a><form action="index.html"><input type="search" name="q" placeholder="さがす（物・技術・人の名前）" data-en-ph="Search (things, techniques, people)" aria-label="さがす"></form></div>
+<div class="wrap cols2"><div class="cols"><div>
+<section class="what"><div class="big"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAr0lEQVR42mNgoBAwYhO0ssr5j0382LEpjAQNsLLK+e/g4IXVNpkvcQxZk96g6GHCplnmSxwDAwMDw4ED2xgOHNgG1/yEZxGG61iw2QLTjOTk/zEmMLkIBrwGPOFZxCDzJY4B6o3/DAwMEPaXFQxPeBYxMDBsw28AzBC4RjQxdMCEK7CwhQE2MPBhQFI6gHkHOVHhTIkODl5wDTA2tpSIEyAnGFxJG2csYNOAz5CBBQBzqGBVpNInwQAAAABJRU5ErkJggg==" alt=""></div><div><h1 data-en="Neural network">ニューラルネット</h1><div class="meta">1998年・制御・計算</div></div></section>
+<p class="one" data-en="Starting from stones and sand, we arrived at a machine that can read numbers.">石と砂から始めて、数字を読める機械にたどり着いた</p>
+<div class="acts"><button type="button" class="btn main" data-film="10-16" data-en="▶ How it was made">▶ できるまで</button><button type="button" class="btn" data-share="10-16" data-share-view="node" data-en="Share">共有</button></div>
+<h2 data-en="How to get it">どうやって手に入れるか</h2><div class="get"><div><span data-en="In the game (details not yet written).">ゲームで作れる（くわしい作り方はまだ）</span></div></div>
+
+<h2 data-en="Real history">本当の歴史</h2><p>1943 マカロック＆ピッツの人工ニューロン、1958 ローゼンブラットのパーセプトロン、1986 ラメルハート・ヒントン・ウィリアムズの誤差逆伝播法、1998 ルカンらの LeNet-5 と MNIST（28×28 の手書き数字、学習用6万枚・テスト用1万枚）、2012 AlexNet（GPU で画像認識）。中身は掛け算と足し算の積み重ね（行列の積）で、それを速く大量にこなすのが AI チップ</p>
+<details class="more"><summary data-en="Read more (students, adults, deep dive, people, sources)">もっと読む（学生・大人・ガチ・人物・出典）</summary><p><b>②学生</b> AI は「教えた見本」から学ぶ。まちがえた字を教え直すと、そのとおりに答えるようになる。</p><p><b>③大人</b> 答えるときは掛け算を小さな整数（4・8ビット）ですることが多い。速く・電気が少なくてすむ。</p><p><b>④ガチ</b> この MOD の数字のデータは自分たちで描いた CC0 の 8×8（UCI・MNIST は使っていない）。</p><p><b>人物</b>　マカロック（1943）・ピッツ（1943）・ローゼンブラット（1958）</p></details>
+</div><div class="side">
+<h2 data-en="Connections">つながり</h2><div class="links">
+<h3 data-en="Needed to make this">これを作るのに要る</h3><div class="th"><a href="nodes/B-11.html"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAmElEQVR42mNgoDaYlifyHx+NDpgotZAFmWNllfP/CY8Xg5XVNpw0AwMDw7FjUxhhehiRnfeEZxFRtsp8iWNgYGBgyJr0hpER3QUODl5wBTCAbPCBA9uIcwGyIeguQ3YBC4wBccG2/w4OXlhtl/kSx/CEZxHUBW9IdwHMAJJdgO4SolyALxCJigV8AD0WmHApwkcPrrxAMQAABZ59b7qiMVkAAAAASUVORK5CYII=" alt=""><span data-en="AI chip">AIチップ</span></a><a href="nodes/9-40.html"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAgUlEQVR42mNgoBAwInOsHHz+E6Pp2IEtcH0syJq9fHyItfg/zBAmdBkHrgycurDJYRhw4NsMrAoduDIYDnybQdgAbIbg0owSBvgMwaUZpwtIASz4JPHZjNUAfDGADLYx+GA3gBgbIWALbi9s27IFr1b0xMaCrhk5meJKhVSNhYEHAMYULBfGWT6fAAAAAElFTkSuQmCC" alt=""><span data-en="EUV lithography machine">EUV 露光装置</span></a><a href="nodes/I-05.html"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAaklEQVR42mNgoAZQU9P6r6am9Z8cvUzInCPTGP5T7BpSDWHEZYhNFkIO3Xu3bl1jJBgGMJdgCxtkMRYYw8vLj2FewTW4hLVPCIPaBAQfZiDMZSiupMQF1AkDiqMS5gVyNKMkJGRnjwLiAQBlHjtvrF59zwAAAABJRU5ErkJggg==" alt=""><span data-en="Perceptron">パーセプトロン</span></a><a href="nodes/I-36.html"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAWElEQVR42mNgGB5ATU3rP7l6mCi1nBHZxHkF1xgYGBgYbLIYGNFddevWNRS1MD4LLucha8AlhlUjvvAgJE8dcGQaw39CbLya/z8K+Q9TjEwji9POBSMUAAA4Sz0BLp34HQAAAABJRU5ErkJggg==" alt=""><span data-en="Energy-based neural networks">エネルギーで考えるニューラルネット</span></a><a href="nodes/I-49.html"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAfklEQVR42mNgoCU4Mo3h/5FpDP/xqWHBJ1m2ygfK2oJTDSMyx8rB5z8xLjt2YAsjVgliDEBXw0SM3/GFBROlAY01EG2yUMMGnU9ULKD7FVfAsZAc0oQMIDYqSYoqfAazYFPk5ePDwMCAGm3IYgQTEizOkeMfRqO7hLpJmRwAAAVEPWeMik+WAAAAAElFTkSuQmCC" alt=""><span data-en="The field of artificial intelligence">人工知能という分野</span></a></div>
+<h3 data-en="Made possible by this">これで作れるようになった</h3><div class="th"><a href="nodes/10-28.html"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAi0lEQVR42q1SuxGAIAx9ucssFMzgNJZUjmJl6TTOkIJlsOLOTyBGfQ3HhbxPAvARBAAhxPKmOWchBoB1kltxSKAQYslZSGs+idZLPbcFxXJWa2zZ1EiOrtjKaAk0CWoMayasKQ4J1CNTCVoDs2KwJ6/2hp9+mmuMcXYQ9GbC1s6tGOzdu3sLOgS/YQeq/j+so7pvAwAAAABJRU5ErkJggg==" alt=""><span data-en="Reinforcement learning">強化学習</span></a><a href="nodes/10-29.html"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAU0lEQVR42mNgoBawssr5b2WV8x+dTUiOiWouODKN4T82NiE5OPj/KOQ/TBKZfWQaw///j0Iw2DDAiGwAsa5llFvDSLUwGDWACtFIvYQ08HmBXAAAb99hMLsqMeMAAAAASUVORK5CYII=" alt=""><span data-en="Transformer and large AI">Transformer と大きな AI</span></a><a href="nodes/10-37.html"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAdUlEQVR42mNgGGjACGO4+HX9h7H3bCpjJMRHMQVZ8sg0hv+k8Jko9QLTgIRBg0cZg00WAyPZth6ZxjCIwoAJV3QSC1iQNYeEeDEwMDAQNKRhBwMDA0MZwgAkzQwwGh9Ys2YbqgugSfN/SIgXiiTJgJwwoBgAALZKP8oE7y7mAAAAAElFTkSuQmCC" alt=""><span data-en="Predicting protein shapes with AI">たんぱく質の形を AI で予測する</span></a></div>
+<h3>これが需要を生んだ物</h3><div class="th"><a href="nodes/B-11.html"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAmElEQVR42mNgoDaYlifyHx+NDpgotZAFmWNllfP/CY8Xg5XVNpw0AwMDw7FjUxhhehiRnfeEZxFRtsp8iWNgYGBgyJr0hpER3QUODl5wBTCAbPCBA9uIcwGyIeguQ3YBC4wBccG2/w4OXlhtl/kSx/CEZxHUBW9IdwHMAJJdgO4SolyALxCJigV8AD0WmHApwkcPrrxAMQAABZ59b7qiMVkAAAAASUVORK5CYII=" alt=""><span data-en="AI chip">AIチップ</span></a></div>
 </div>
-<div class="backbar"><a id="backbar" href="network.html">← 図に戻る</a><button type="button" id="topBtn">↑ 上へ</button></div>
-<script src="tech_network_graph.js"></script>
-<script src="film.js"></script>
-<script src="tech_network_detail.js"></script>
-<script src="glossary.js"></script>
-<script src="autolink.js"></script>
-<script src="node.js"></script>
-<script src="share.js"></script>
-<script>document.addEventListener('click', e => { const b = e.target.closest('[data-film], [data-film-up]'); if (b) (b.dataset.filmUp ? Film.playUp : Film.play)(b.dataset.film || b.dataset.filmUp, { onClose: id => { location.hash = id; } }); });</script>
-<script src="ui_icons.js"></script>
-<script>UiIcons.init();</script>
-<script src="vendor/budoux-ja.min.js"></script>
-<script src="linebreak.js"></script>
-<script>LineBreak.init();</script>
-<script src="furigana.js"></script>
-<script>Furigana.init(document.getElementById('furiBtn'));</script>
-<script src="pwa.js"></script>
+<p><a class="btn" href="network.html#center/10-16" data-en="See the ring map">中心図で見る</a></p>
+<div class="quiet"><button type="button" id="langBtn" lang="en">English</button><button type="button" id="furiBtn" aria-pressed="false">ふりがな</button><a href="https://github.com/taku3i0317-collab/tech-network/issues/new/choose" rel="noopener" data-en="Report a mistake">誤りを知らせる</a><a href="network.html" data-en="Year map">年の図</a></div>
+</div></div></div>
+<script src="thing.js"></script>
+<script src="tech_network_graph.js" defer></script><script src="film.js" defer></script><script src="share.js" defer></script>
+
+<script src="furigana.js"></script><script>Furigana.init(document.getElementById('furiBtn'));</script>
+<script src="pwa.js" defer></script>
 </body>
 </html>

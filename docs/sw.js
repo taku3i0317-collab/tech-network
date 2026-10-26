@@ -1,5 +1,5 @@
 // 自動生成：tools/gen_sw.py（手で直さない）。オフラインで見るための service worker（S-026）
-const VERSION = 'tn-cc2e46bb2284';
+const VERSION = 'tn-e04e0341a1ba';
 const CORE = ["./", "network.html", "node.html", "node.css", "node.js", "thing.css", "thing.js", "glossary.html", "people.html", "credits.html", "ranking.html", "design.css", "tech_network_graph.js", "tech_network_detail.js", "glossary.js", "autolink.js", "furigana.js", "furigana_dict.js", "linebreak.js", "vendor/budoux-ja.min.js", "ui_icons.js", "film.js", "share.js", "pwa.js", "manifest.webmanifest", "app_icon_192.png", "app_icon_512.png", "apple-touch-icon.png"];
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(VERSION).then(c => Promise.all(CORE.map(u => c.add(u).catch(() => {})))).then(() => self.skipWaiting()));

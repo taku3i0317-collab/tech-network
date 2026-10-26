@@ -1,1 +1,49 @@
-<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="google-site-verification" content="lP8qobgUCL3mnbf0cKd4l2dH_m3H-Vr99uwRI9Eea1A" /><title>tech-network — A map of technology / 技術の地図</title><meta name="description" content="A CC0 map of technologies from stone tools to EUV lithography and AI: what cannot be made without what. 石器から EUV・AI まで、技術のつながりの地図（CC0）。"><link rel="canonical" href="https://taku3i0317-collab.github.io/tech-network/network.html"><meta http-equiv="refresh" content="0; url=network.html"></head><body><a href="network.html">Technology network / 技術ネットワーク</a></body></html>
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="google-site-verification" content="lP8qobgUCL3mnbf0cKd4l2dH_m3H-Vr99uwRI9Eea1A" />
+<title>技術の地図 — 石器から AI チップまで</title>
+<meta name="description" content="石器から AI チップまで、644 の物と、それを作るのに要る物の地図（CC0）。A CC0 map of technologies: what cannot be made without what.">
+<link rel="canonical" href="https://taku3i0317-collab.github.io/tech-network/index.html"><link rel="alternate" hreflang="ja" href="https://taku3i0317-collab.github.io/tech-network/index.html"><link rel="alternate" hreflang="en" href="https://taku3i0317-collab.github.io/tech-network/index.html?lang=en">
+<meta property="og:title" content="技術の地図 — 石器から AI チップまで"><meta property="og:description" content="石器から AI チップまで、644 の物と、それを作るのに要る物の地図（CC0）。A CC0 map of technologies: what cannot be made without what."><meta property="og:url" content="https://taku3i0317-collab.github.io/tech-network/index.html"><meta property="og:image" content="https://taku3i0317-collab.github.io/tech-network/og_image.png">
+<meta name="theme-color" content="#faf7f0"><link rel="manifest" href="manifest.webmanifest"><link rel="icon" type="image/png" href="app_icon_192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&family=DotGothic16&display=swap">
+<link rel="stylesheet" href="thing.css">
+</head>
+<body>
+<div class="top"><a class="home" href="index.html" data-en="Tech map">技術の地図</a><form action="index.html"><input type="search" name="q" placeholder="さがす（物・技術・人の名前）" data-en-ph="Search (things, techniques, people)" aria-label="さがす"></form></div>
+<div class="wrap">
+<h1 data-en="Tech map">技術の地図</h1>
+<p class="meta" data-en="From stone tools to AI chips: 644 things and what each one needs. Search by name, or follow a guide.">石器から AI チップまで、644 の物と、それを作るのに要る物。名前でさがすか、道案内でたどる。</p>
+<form action="index.html"><input class="search" type="search" name="q" id="q" placeholder="さがす：スマホ・鉄・トランジスタ・ファラデー…" data-en-ph="Search: smartphone, iron, transistor, Faraday…" aria-label="さがす" autocomplete="off"></form>
+<ul class="res" id="res"></ul>
+<h2 data-en="Guides">道案内</h2><div class="cards"><a class="card" href="guides/first-hour.html"><b>はじめての1時間</b><span>石器・火・土器から、はじめての金属まで</span></a><a class="card" href="guides/ai-chip.html"><b>AI チップまで</b><span>作る順に、ぜんぶたどる</span></a></div>
+<h2 data-en="Chapters">章から</h2><div class="cards"><a class="card" href="chapters/0.html"><b>生きる道具</b><span>石器・火・土器・木炭（19）</span></a><a class="card" href="chapters/1.html"><b>金属</b><span>銅・鉄・鋼・いろいろな金属（76）</span></a><a class="card" href="chapters/2.html"><b>化学</b><span>ソーダ・酸・ガラス・プラスチック（65）</span></a><a class="card" href="chapters/3.html"><b>熱</b><span>炉・耐火物（24）</span></a><a class="card" href="chapters/4.html"><b>電気と動力</b><span>電池・発電機・モーター（37）</span></a><a class="card" href="chapters/5.html"><b>真空</b><span>ポンプ・真空管（15）</span></a><a class="card" href="chapters/6.html"><b>ガス</b><span>水素・酸素・塩素（16）</span></a><a class="card" href="chapters/7.html"><b>光</b><span>レンズ・光学ガラス・レーザー（27）</span></a><a class="card" href="chapters/8.html"><b>精密と計測</b><span>ねじ・旋盤・時計・はかり（48）</span></a><a class="card" href="chapters/9.html"><b>半導体</b><span>ゲルマニウム・シリコン・IC（49）</span></a><a class="card" href="chapters/10.html"><b>制御と計算</b><span>リレー・計算機・AI（39）</span></a><a class="card" href="chapters/11.html"><b>農業と食</b><span>畑・肥料・食べ物を保つ（17）</span></a><a class="card" href="chapters/12.html"><b>建築と土木</b><span>コンクリート・水道・橋（18）</span></a><a class="card" href="chapters/13.html"><b>医薬と衛生</b><span>消毒・ワクチン・薬（16）</span></a><a class="card" href="chapters/14.html"><b>輸送</b><span>車輪・船・鉄道・自動車（23）</span></a><a class="card" href="chapters/15.html"><b>通信と情報</b><span>紙・印刷・電信・ラジオ・ネット（33）</span></a></div>
+<h2 data-en="More">ほかに</h2><div class="cards"><a class="card" href="chapters/P.html"><b>モノ（作品）</b><span>スマホ・電卓・腕時計…（いくつもの技術を組み合わせた物）（38）</span></a><a class="card" href="chapters/B.html"><b>枝</b><span>太陽電池・液晶・LED…（26）</span></a><a class="card" href="chapters/I.html"><b>発見と考え方</b><span>周期表・電磁誘導・バンド理論…（58）</span></a></div>
+<h2 data-en="See the map">地図で見る</h2><p><a class="btn" href="network.html" data-en="Year map (all things by year)">年の図（全部を年の順に）</a> <a class="btn" href="ranking.html" data-en="Unsung heroes ranking">縁の下の力持ちランキング</a></p>
+<script>
+(async function () {
+  const q = document.getElementById('q'), res = document.getElementById('res');
+  let L = null;
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  const run = async () => {
+    const t = q.value.trim().toLowerCase(); if (!t) { res.innerHTML = ''; return; }
+    if (!L) L = await (await fetch('search.json')).json();
+    const hit = L.filter(x => x.ja.toLowerCase().includes(t) || x.en.toLowerCase().includes(t) || x.p.toLowerCase().includes(t));
+    hit.sort((a, b) => (a.k === '物' ? 0 : 1) - (b.k === '物' ? 0 : 1) || a.ja.length - b.ja.length);
+    res.innerHTML = hit.slice(0, 40).map(x => `<li><a href="${x.u}">${x.i ? `<img src="${x.i}" alt="" onerror="this.remove()">` : ''}<span><b>${esc(x.ja)}</b> <span class="meta">${esc(x.en)}${x.k === 'アイテム' ? '・' + esc(x.t) + ' のアイテム' : '・' + esc(x.t)}</span></span></a></li>`).join('') || '<li class="meta">見つからない</li>';
+  };
+  q.addEventListener('input', run);
+  const p = new URLSearchParams(location.search).get('q'); if (p) { q.value = p; run(); }
+})();
+</script>
+<div class="quiet"><button type="button" id="langBtn" lang="en">English</button><button type="button" id="furiBtn" aria-pressed="false">ふりがな</button><a href="network.html" data-en="Year map">年の図</a><a href="ranking.html" data-en="Ranking">ランキング</a><a href="people.html" data-en="People">人物</a><a href="glossary.html" data-en="Glossary">用語集</a><a href="credits.html" data-en="Credits">影響を受けた作品</a></div>
+</div>
+<script src="thing.js"></script>
+<script src="furigana.js"></script><script>Furigana.init(document.getElementById('furiBtn'));</script>
+<script src="pwa.js" defer></script>
+</body>
+</html>

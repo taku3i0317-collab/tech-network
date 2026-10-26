@@ -57,6 +57,6 @@ ol.order li::before { content: counter(o); width: 28px; text-align: right; color
 ol.order img { width: 32px; height: 32px; image-rendering: pixelated; }
 ol.order a { color: var(--ink); text-decoration: none; font-weight: 700; }
 ol.order .y { margin-left: auto; color: var(--sub); font-size: 13px; white-space: nowrap; }
-ol.order .g { color: #2e7d4f; font-size: 12px; }
+ol.order .g { color: #2e7d4f; font-size: 12px; white-space: nowrap; }
 @media (min-width: 900px) { .wrap.cols2 { max-width: 1080px; } .cols { display: grid; grid-template-columns: 1fr 320px; gap: 32px; } .side { position: sticky; top: 72px; align-self: start; } }
 @media (max-width: 480px) { .rec { grid-template-columns: 1fr; } .how { flex-direction: row; gap: 8px; justify-content: center; } .how em { transform: rotate(90deg); } }

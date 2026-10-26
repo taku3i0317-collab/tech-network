@@ -174,6 +174,9 @@ body.focusMode .intro { display: none; }
   aside#card { transition: transform 180ms ease-in, visibility 0s 180ms; }
   aside#card.open { transition: transform 220ms cubic-bezier(.2, 0, 0, 1), visibility 0s; }
 }
+.menu [hidden] { display: none !important; }   /* S-061：hidden を見た目の display に負けさせない（応援・ホーム画面に追加 は条件がそろう時だけ） */
+.menu details.viewopts { width: 100%; } .menu details.viewopts summary { cursor: pointer; font-weight: 700; color: var(--accent); padding: 4px 0; } .menu details.viewopts[open] { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.menu .mlinks { display: flex; flex-wrap: wrap; gap: 10px; font-size: 13px; } .menu .mlinks a { color: var(--sub); }
 </style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -187,21 +190,21 @@ body.focusMode .intro { display: none; }
   <div class="searchbox"><input type="search" id="q" placeholder="さがす（技術・モノ・人の名前、番号）" aria-label="さがす" autocomplete="off"><div id="results" class="results" hidden></div></div>
   <!-- S-012：上は「☰ メニュー」と検索だけ。ほかはメニューの中（ユーザーの決定） -->
   <div id="menu" class="menu" hidden>
-    <button type="button" id="layoutBtn" class="btn primary">つながりで見る</button>
+    <!-- S-061：メニューを小さく。いちばん上は入口へ。見え方の切り替えは「見え方を変える」にたたむ。ほかのページは小さなリンク -->
+    <a class="btn primary" href="index.html" id="wikiBtn">入口（さがす・道案内・章）</a>
+    <details class="viewopts"><summary id="viewSum">見え方を変える</summary>
+    <button type="button" id="layoutBtn" class="btn">つながりで見る</button>
     <button type="button" id="aiBtn" class="btn">AI までの道</button>
-    <a class="btn" href="people.html">人物の一覧</a>
-    <a class="btn" href="glossary.html" id="glossBtn">用語集</a>
     <button type="button" class="btn" data-film="B-10" id="filmAgain">はじめの動きをもう一度</button>
-    <button type="button" class="btn" id="installBtn" hidden>ホーム画面に追加</button>
-    <a class="btn" href="ranking.html" id="rankBtn">縁の下の力持ちランキング</a>
-    <a class="btn" href="index.html" id="wikiBtn">入口（さがす・道案内・章）</a>
-    <a class="btn" href="credits.html" id="creditsBtn">影響を受けた作品</a>
-    <!-- S-051：応援の入口。network_meta.json の support.url が入るまで出さない。ただのリンク（外の会社のスクリプトは読まない）。ポップアップやくり返しの表示はしない -->
-    <a class="btn" id="supportBtn" hidden rel="noopener" target="_blank">大人の方へ：この地図を続けるための応援</a>
     <select id="trunk" aria-label="分野でしぼる"><option value="">すべての分野</option></select>
     <label><input type="checkbox" id="all"> すべての技術</label>
     <label><input type="checkbox" id="now"> 今すぐ作れるだけ</label>
     <label><input type="checkbox" id="und" checked> なぜ動くかの線</label>
+    </details>
+    <div class="menuRow mlinks"><a href="ranking.html" id="rankBtn">縁の下の力持ちランキング</a><a href="people.html">人物の一覧</a><a href="glossary.html" id="glossBtn">用語集</a><a href="credits.html" id="creditsBtn">影響を受けた作品</a></div>
+    <button type="button" class="btn" id="installBtn" hidden>ホーム画面に追加</button>
+    <!-- S-051：応援の入口。network_meta.json の support.url が入るまで出さない。ただのリンク（外の会社のスクリプトは読まない）。ポップアップやくり返しの表示はしない -->
+    <a class="btn" id="supportBtn" hidden rel="noopener" target="_blank">大人の方へ：この地図を続けるための応援</a>
     <div class="menuRow"><button type="button" id="langBtn" class="btn" lang="en">English</button><button type="button" id="furiBtn" class="btn" aria-pressed="false" hidden>ふりがな</button></div>
     <span class="stat" id="stat"></span>
   </div>
@@ -274,7 +277,7 @@ body.focusMode .intro { display: none; }
     document.getElementById('intro').innerHTML = 'A map of how about 600 technologies, products and discoveries connect, from stone tools to AI: "what cannot be made without what". <b>Start by clicking a product (a big circle).</b> <small>(Only names and the first fun fact are in English for now; other text is Japanese.)</small>';
     for (const id of ['aiBtn', 'legendBtn', 'layoutBtn', 'toMap', 'toNode', 'toFocus', 'filmAgain', 'installBtn']) { const b = document.getElementById(id); b.textContent = tr(b.textContent); }
     document.querySelector('a[href="people.html"]').textContent = tr('人物の一覧');
-    document.getElementById('glossBtn').textContent = 'Glossary'; document.getElementById('creditsBtn').textContent = 'Inspirations'; document.getElementById('rankBtn').textContent = 'Unsung heroes ranking'; document.getElementById('wikiBtn').textContent = 'Home (search, guides, chapters)'; document.getElementById('supportBtn').textContent = 'For grown-ups: support this map';
+    document.getElementById('glossBtn').textContent = 'Glossary'; document.getElementById('creditsBtn').textContent = 'Inspirations'; document.getElementById('rankBtn').textContent = 'Unsung heroes ranking'; document.getElementById('viewSum').textContent = 'Change the view'; document.getElementById('wikiBtn').textContent = 'Home (search, guides, chapters)'; document.getElementById('supportBtn').textContent = 'For grown-ups: support this map';
     document.querySelector('#trunk option').textContent = tr('すべての分野');
     for (const l of document.querySelectorAll('header label')) { const tx = l.lastChild; if (tx && tx.nodeType === 3) tx.textContent = tr(tx.textContent); }
   }

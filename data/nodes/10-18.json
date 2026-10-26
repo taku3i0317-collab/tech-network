@@ -9,8 +9,8 @@
   "year": 1952,
   "year_range": "1952〜1959",
   "year_uncertain": true,
-  "hee1": "「計算機に人の言葉で命令したい」が、プログラミング言語の始まり （IMP-24 で追加、network_proposals W-4）",
-  "hee1_en": "\"I want to give orders to a computer in human words\" was the start of programming languages. (Added in IMP-24, network_proposals W-4)",
+  "hee1": "「計算機に人の言葉で命令したい」が、プログラミング言語の始まり",
+  "hee1_en": "\"I want to give orders to a computer in human words\" was the start of programming languages.",
   "hee_tree": {
    "2": "",
    "3": "",

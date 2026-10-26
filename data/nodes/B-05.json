@@ -9,7 +9,7 @@
   "year": 1669,
   "year_range": null,
   "year_uncertain": false,
-  "hee1": "透明な方解石を置くと、文字が2重に見える（[7-08] から移動）",
+  "hee1": "透明な方解石を置くと、文字が2重に見える",
   "hee1_en": "Put a clear calcite crystal on some writing and the letters look doubled. (Moved from [7-08])",
   "hee_tree": {
    "2": "",
@@ -35,7 +35,7 @@
   "enabled_by": [],
   "explained_by": [],
   "frontier": false,
-  "real": "1669 バルトリンの複屈折、1808 マリュスの反射光の偏光、1828 ニコルのプリズム。ヴァイキングは、方解石などの透きとおった石（太陽の石）で、雲にかくれた太陽の向きを空の偏光から探して航海したのかもしれない。2011年の実験と2018年の計算で「使えたかもしれない」と分かったが、本当に使った証拠はまだ無い ⚠️（仮説。S-019 で追加。出典：英国王立協会（2011） https://royalsociety.org/news/2011/mysteries-of-the-viking-sunstone/ 、Royal Society Open Science（2018） https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5936938/ 、亜留間次郎さん（Arumaddilo）が作った Wikipedia 日本語版「太陽の石 (ヴァイキング)」 https://ja.wikipedia.org/wiki/%E5%A4%AA%E9%99%BD%E3%81%AE%E7%9F%B3_%28%E3%83%B4%E3%82%A1%E3%82%A4%E3%82%AD%E3%83%B3%E3%82%B0%29 ）"
+  "real": "1669 バルトリンの複屈折、1808 マリュスの反射光の偏光、1828 ニコルのプリズム。ヴァイキングは、方解石などの透きとおった石（太陽の石）で、雲にかくれた太陽の向きを空の偏光から探して航海したのかもしれない。2011年の実験と2018年の計算で「使えたかもしれない」と分かったが、本当に使った証拠はまだ無い ⚠️（仮説。S-019 で追加。出典：英国王立協会（2011） https://royalsociety.org/news/2011/mysteries-of-the-viking-sunstone/ 、Royal Society Open Science（2018） https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5936938/ 、Wikipedia 日本語版「太陽の石 (ヴァイキング)」 https://ja.wikipedia.org/wiki/%E5%A4%AA%E9%99%BD%E3%81%AE%E7%9F%B3_%28%E3%83%B4%E3%82%A1%E3%82%A4%E3%82%AD%E3%83%B3%E3%82%B0%29 ）"
  },
  "game": {
   "status": "❓",

@@ -9,7 +9,7 @@
   "year": 1903,
   "year_range": null,
   "year_uncertain": false,
-  "hee1": "ロケットは押す空気がない宇宙でも、自分の噴射の反動で進む（IMP-24：T-3 で「ロケット」から「ロケット方程式」に変更）",
+  "hee1": "ロケットは押す空気がない宇宙でも、自分の噴射の反動で進む",
   "hee1_en": "Even in space, with no air to push on, a rocket moves by the recoil of its own exhaust (IMP-24: changed from \"Rocket\" to \"Rocket equation\" in T-3)",
   "hee_tree": {
    "2": "",

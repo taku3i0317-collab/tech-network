@@ -9,8 +9,8 @@
   "year": 1836,
   "year_range": "1834〜1851",
   "year_uncertain": false,
-  "hee1": "電池1つから、雷のような何万ボルトの火花を作れる（O-006 で追加。出典：IEEE Milestones「Callan's Pioneering Contributions 1836」、Wikipedia「Induction coil」）",
-  "hee1_en": "From a single battery it can make lightning-like sparks of tens of thousands of volts. (Added in O-006. Sources: IEEE Milestones \"Callan's Pioneering Contributions 1836\", Wikipedia \"Induction coil\")",
+  "hee1": "電池1つから、雷のような何万ボルトの火花を作れる（O-006 で追加。出典：IEEE Milestones「Callan's Pioneering Contributions 1836」",
+  "hee1_en": "From a single battery it can make lightning-like sparks of tens of thousands of volts.",
   "hee_tree": {
    "2": "",
    "3": "",

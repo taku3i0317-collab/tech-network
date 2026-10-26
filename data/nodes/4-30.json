@@ -9,8 +9,8 @@
   "year": 1891,
   "year_range": "1885〜1895",
   "year_uncertain": false,
-  "hee1": "電柱の上の電線が3本ずつ並んでいるのは、三相交流だから（O-011 で追加。出典：IEEE Milestones「Rotating Fields and Early Induction Motors」、Wikipedia「Mikhail Dolivo-Dobrovolsky」）",
-  "hee1_en": "Power lines on utility poles come in sets of three because they carry three-phase AC. (Added in O-011. Sources: IEEE Milestones \"Rotating Fields and Early Induction Motors\", Wikipedia \"Mikhail Dolivo-Dobrovolsky\")",
+  "hee1": "電柱の上の電線が3本ずつ並んでいるのは、三相交流だから（O-011 で追加。出典：IEEE Milestones「Rotating Fields and Early Induction Motors」",
+  "hee1_en": "Power lines on utility poles come in sets of three because they carry three-phase AC.",
   "hee_tree": {
    "2": "",
    "3": "",

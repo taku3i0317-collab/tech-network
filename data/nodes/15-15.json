@@ -43,7 +43,7 @@
   "enabled_by": [],
   "explained_by": [],
   "frontier": false,
-  "real": "1969 ARPANET、1983 TCP/IP へ移行、1991 ティム・バーナーズ＝リーの WWW 公開。電話の線でデータを送る機械（モデム）は、0と1を2つの高さの音に当てはめて送った（周波数偏移変調＝FSK）。1962年のベル103モデムは毎秒300ビットで、行きと帰りで別の音の組を使った ⚠️（S-019 で追加。出典：SMECC「Radio Teletype」 https://smecc.org/rtty_ratt_radio_teletype.htm 、Centre for Computing History「The first commercial modem」 https://www.computinghistory.org.uk/det/6986/ 、亜留間次郎さん（Arumaddilo）が作った Wikipedia 日本語版「周波数偏移変調」 https://ja.wikipedia.org/wiki/%E5%91%A8%E6%B3%A2%E6%95%B0%E5%81%8F%E7%A7%BB%E5%A4%89%E8%AA%BF ）"
+  "real": "1969 ARPANET、1983 TCP/IP へ移行、1991 ティム・バーナーズ＝リーの WWW 公開。電話の線でデータを送る機械（モデム）は、0と1を2つの高さの音に当てはめて送った（周波数偏移変調＝FSK）。1962年のベル103モデムは毎秒300ビットで、行きと帰りで別の音の組を使った ⚠️（S-019 で追加。出典：SMECC「Radio Teletype」 https://smecc.org/rtty_ratt_radio_teletype.htm 、Centre for Computing History「The first commercial modem」 https://www.computinghistory.org.uk/det/6986/ 、Wikipedia 日本語版「周波数偏移変調」 https://ja.wikipedia.org/wiki/%E5%91%A8%E6%B3%A2%E6%95%B0%E5%81%8F%E7%A7%BB%E5%A4%89%E8%AA%BF ）"
  },
  "game": {
   "status": "❓",

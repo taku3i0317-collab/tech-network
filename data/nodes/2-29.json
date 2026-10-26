@@ -67,7 +67,7 @@
   "recipes": [],
   "machine_recipes": [],
   "placeholder": "近似：ラテックスはすぐ採れる（本物は斜めの切り込みから何時間もかけて器にためる）。",
-  "game_text": "決定：新規の木「ゴムの木」をジャングルに生成。幹から樹液（ラテックス）を採取→ 酸で凝固 → 生ゴム → 硫黄と加熱で加硫ゴム。1931年にドイツの BASF が、イソブチレンをつないだねばねばの物（ポリイソブチレン）を作り、1937年にアメリカでイソプレンを少しまぜたブチルゴムが生まれた。ブチルゴムは空気をほとんど通さないので、タイヤのチューブや内側の膜に使われる（S-019 で追加。出典：BASF「Chronology 1929」 https://www.basf.com/si/sl/who-we-are/History/chronology/1925-1944/1929 、全米発明家殿堂「Robert M. Thomas」 https://invent.org/inductees/robert-m-thomas 、亜留間次郎さん（Arumaddilo）が作った Wikipedia 日本語版「ポリイソブチレン」 https://ja.wikipedia.org/wiki/%E3%83%9D%E3%83%AA%E3%82%A4%E3%82%BD%E3%83%96%E3%83%81%E3%83%AC%E3%83%B3 、Wikipedia 日本語版「ブチルゴム」 https://ja.wikipedia.org/wiki/%E3%83%96%E3%83%81%E3%83%AB%E3",
+  "game_text": "決定：新規の木「ゴムの木」をジャングルに生成。幹から樹液（ラテックス）を採取→ 酸で凝固 → 生ゴム → 硫黄と加熱で加硫ゴム。1931年にドイツの BASF が、イソブチレンをつないだねばねばの物（ポリイソブチレン）を作り、1937年にアメリカでイソプレンを少しまぜたブチルゴムが生まれた。ブチルゴムは空気をほとんど通さないので、タイヤのチューブや内側の膜に使われる（S-019 で追加。出典：BASF「Chronology 1929」 https://www.basf.com/si/sl/who-we-are/History/chronology/1925-1944/1929 、全米発明家殿堂「Robert M. Thomas」 https://invent.org/inductees/robert-m-thomas 、Wikipedia 日本語版「ポリイソブチレン」 https://ja.wikipedia.org/wiki/%E3%83%9D%E3%83%AA%E3%82%A4%E3%82%BD%E3%83%96%E3%83%81%E3%83%AC%E3%83%B3 、Wikipedia 日本語版「ブチルゴム」 https://ja.wikipedia.org/wiki/%E3%83%96%E3%83%81%E3%83%AB%E3",
   "hee_game": {
    "note1": "ジャングルに生えるゴムの木。幹に傷をつけると白い樹液が出る。",
    "note2": "ジャングルに生える。フリントか黒曜石の剥片で右クリックすると ラテックスが採れる（剥片が少し傷む）。燃料や木炭にもなる。",

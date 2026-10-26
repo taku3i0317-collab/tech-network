@@ -9,8 +9,8 @@
   "year": 1948,
   "year_range": "1948〜1967",
   "year_uncertain": false,
-  "hee1": "今の1秒は、セシウム原子が91億9263万1770回ゆれる時間と決められている（O-006 で追加。出典：IEEE Milestones「First Atomic Clock, 1948」、NIST、Wikipedia「Atomic clock」）",
-  "hee1_en": "Today one second is defined as the time it takes a cesium atom to vibrate 9,192,631,770 times. (Added in O-006. Sources: IEEE Milestones \"First Atomic Clock, 1948\", NIST, Wikipedia \"Atomic clock\")",
+  "hee1": "今の1秒は、セシウム原子が91億9263万1770回ゆれる時間と決められている（O-006 で追加。出典：IEEE Milestones「First Atomic Clock, 1948」、NIST",
+  "hee1_en": "Today one second is defined as the time it takes a cesium atom to vibrate 9,192,631,770 times.",
   "hee_tree": {
    "2": "",
    "3": "",

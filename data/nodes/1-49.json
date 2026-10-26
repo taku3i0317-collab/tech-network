@@ -9,8 +9,8 @@
   "year": 1900,
   "year_range": null,
   "year_uncertain": false,
-  "hee1": "古い鉄くずを、電気の火花で溶かして新しい鋼にする（S-001 で追加。出典：Techniques de l'Ingénieur「History of the arc furnace」、Wikipedia「Electric arc furnace」）",
-  "hee1_en": "Old scrap iron is melted with electric sparks and made into new steel. (Added in S-001. Sources: Techniques de l'Ingénieur \"History of the arc furnace\", Wikipedia \"Electric arc furnace\")",
+  "hee1": "古い鉄くずを、電気の火花で溶かして新しい鋼にする（S-001 で追加。出典：Techniques de l'Ingénieur「History of the arc furnace」",
+  "hee1_en": "Old scrap iron is melted with electric sparks and made into new steel.",
   "hee_tree": {
    "2": "",
    "3": "",

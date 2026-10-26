@@ -9,8 +9,8 @@
   "year": 1999,
   "year_range": "1980〜1999",
   "year_uncertain": false,
-  "hee1": "光学式マウスは、机の表面を1秒に1000枚以上写真に撮って、模様のずれから動きを計算している（S-002 で追加。出典：Wikipedia「Optical mouse」「IntelliMouse」）",
-  "hee1_en": "An optical mouse takes more than 1000 pictures of the desk surface per second and works out motion from how the pattern shifts (added in S-002. Sources: Wikipedia \"Optical mouse\", \"IntelliMouse\")",
+  "hee1": "光学式マウスは、机の表面を1秒に1000枚以上写真に撮って、模様のずれから動きを計算している（S-002 で追加。出典：",
+  "hee1_en": "An optical mouse takes more than 1000 pictures of the desk surface per second and works out motion from how the pattern shifts (added in S-002. Sources:",
   "hee_tree": {
    "2": "",
    "3": "",

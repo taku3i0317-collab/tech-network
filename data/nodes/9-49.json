@@ -9,8 +9,8 @@
   "year": 1957,
   "year_range": "1956〜1957",
   "year_uncertain": false,
-  "hee1": "電車のモーターの速さを変える装置は、最初はサイリスタという半導体のスイッチで作られた（O-011 で追加。出典：IEEE Milestones「SCR/Thyristor, 1957」、ETHW IEEE Milestones 'SCR/Thyristor, 1957' / IEEE Spectrum（https://ethw.org/Milestones:SCR/Thyristor,_1957））",
-  "hee1_en": "The devices that change the speed of train motors were first made with semiconductor switches called thyristors. (Added in O-011. Sources: IEEE Milestones \"SCR/Thyristor, 1957\", ETHW IEEE Milestones 'SCR/Thyristor, 1957' / IEEE Spectrum (https://ethw.org/Milestones:SCR/Thyristor,_1957))",
+  "hee1": "電車のモーターの速さを変える装置は、最初はサイリスタという半導体のスイッチで作られた（O-011 で追加。出典：IEEE Milestones「SCR/Thyristor, 1957」、ETHW IEEE Milestones 'SCR/Thyristor, 1957' / IEEE Spectrum",
+  "hee1_en": "The devices that change the speed of train motors were first made with semiconductor switches called thyristors.",
   "hee_tree": {
    "2": "",
    "3": "",

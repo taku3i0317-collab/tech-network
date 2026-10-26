@@ -9,8 +9,8 @@
   "year": 1919,
   "year_range": "1919〜1950",
   "year_uncertain": true,
-  "hee1": "電気を1回送るたびに、カチッと決まった角度だけ回る（S-001 で追加。出典：Nidec「History of the Motor」、Wikipedia「Marius Lavet」）",
-  "hee1_en": "Each time you send a pulse of electricity, it turns by exactly a set angle, click (added in S-001. Sources: Nidec \"History of the Motor\", Wikipedia \"Marius Lavet\")",
+  "hee1": "電気を1回送るたびに、カチッと決まった角度だけ回る（S-001 で追加。出典：Nidec「History of the Motor」",
+  "hee1_en": "Each time you send a pulse of electricity, it turns by exactly a set angle, click (added in S-001. Sources: Nidec \"History of the Motor\",",
   "hee_tree": {
    "2": "",
    "3": "",

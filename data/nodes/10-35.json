@@ -9,8 +9,8 @@
   "year": 1971,
   "year_range": "1969〜1973",
   "year_uncertain": false,
-  "hee1": "チップは作る前に、コンピュータの中で何度も動かして確かめている（O-011 で追加。出典：IEEE Milestones「SPICE, 1969-1970」、IEEE Milestone「SPICE, 1969-1970」（ETHW）（https://ethw.org/Milestones:SPICE_Circuit_Simulation_Program））",
-  "hee1_en": "Before chips are made, they are run many times inside a computer to check them. (Added in O-011. Sources: IEEE Milestones \"SPICE, 1969-1970\", IEEE Milestone \"SPICE, 1969-1970\" (ETHW) (https://ethw.org/Milestones:SPICE_Circuit_Simulation_Program))",
+  "hee1": "チップは作る前に、コンピュータの中で何度も動かして確かめている（O-011 で追加。出典：IEEE Milestones「SPICE, 1969-1970」、IEEE Milestone「SPICE, 1969-1970」（ETHW）",
+  "hee1_en": "Before chips are made, they are run many times inside a computer to check them.",
   "hee_tree": {
    "2": "",
    "3": "",

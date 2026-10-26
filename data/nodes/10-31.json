@@ -9,8 +9,8 @@
   "year": 1948,
   "year_range": "1945〜1949",
   "year_uncertain": false,
-  "hee1": "最初のプログラム内蔵式の計算機は、テレビのようなブラウン管の画面の点で数を覚えていた（O-008 で追加。出典：IEEE Milestones「Manchester University Baby Computer 1948-1951」、Wikipedia「Turing Award」）",
-  "hee1_en": "The first stored-program computer remembered numbers as dots on a CRT screen, like a TV. (Added in O-008. Sources: IEEE Milestones \"Manchester University Baby Computer 1948-1951\", Wikipedia \"Turing Award\")",
+  "hee1": "最初のプログラム内蔵式の計算機は、テレビのようなブラウン管の画面の点で数を覚えていた（O-008 で追加。出典：IEEE Milestones「Manchester University Baby Computer 1948-1951」",
+  "hee1_en": "The first stored-program computer remembered numbers as dots on a CRT screen, like a TV.",
   "hee_tree": {
    "2": "",
    "3": "",

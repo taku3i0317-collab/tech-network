@@ -9,8 +9,8 @@
   "year": 1887,
   "year_range": "1554〜1887",
   "year_uncertain": false,
-  "hee1": "金の鉱石1トンの中に、金は数グラムしか入っていないことが多い ⚠️（O-012 で追加。出典：Wikipedia「MacArthur–Forrest process」「Patio process」、Mining Foundation of the Southwest「Bartolomé de Medina」（https://miningfoundationsw.org/Bartolome_de_Medina ））",
-  "hee1_en": "One ton of gold ore often holds only a few grams of gold ⚠️ (Added in O-012. Sources: Wikipedia \"MacArthur–Forrest process\", \"Patio process\", Mining Foundation of the Southwest \"Bartolomé de Medina\" (https://miningfoundationsw.org/Bartolome_de_Medina))",
+  "hee1": "金の鉱石1トンの中に、金は数グラムしか入っていないことが多い ⚠️（O-012 で追加。出典：",
+  "hee1_en": "One ton of gold ore often holds only a few grams of gold ⚠️",
   "hee_tree": {
    "2": "",
    "3": "",
@@ -48,7 +48,7 @@
   "enabled_by": [],
   "explained_by": [],
   "frontier": false,
-  "real": "岩の中のわずかな金を取り出す方法。1554年ごろ（1554〜57年と資料で揺れる ⚠️）、メキシコのパチューカでバルトロメ・デ・メディナが、くだいた銀の鉱石に塩や硫酸銅と水銀を混ぜて、銀を水銀に溶かしこむ（アマルガム）パティオ法を広めた（金も水銀で同じように取れる）。1887年、スコットランドのマッカーサーとフォレスト兄弟が、うすいシアン化物の液で金を溶かし出す青化法を作り、少ない金しか含まない鉱石からも取れるようになった。水銀もシアン化物も毒なので、川や土の汚染が問題になり、扱いが厳しく決められている。チップのワイヤーボンディングの金線や、電子部品の接点のめっきに使われる。岩がくずれると、金やすず石のように重くてこわれにくい鉱物が川や海辺に流れ出し、流れがゆるい所で重い粒だけがたまる（漂砂鉱床）。砂金とりで皿をゆらすと金が底に残るのも同じしくみで、クロンダイクの金やマレーシアのすず石が有名（S-019 で追加。出典：Britannica「Placer deposit」 https://www.britannica.com/science/placer-deposit 、亜留間次郎さん（Arumaddilo）が作った Wikipedia 日本語版「漂砂鉱床」 https://ja.wikipedia.org/wiki/%E6%BC%82%E7%A0%82%E9%89%B1%E5%BA%8A ）"
+  "real": "岩の中のわずかな金を取り出す方法。1554年ごろ（1554〜57年と資料で揺れる ⚠️）、メキシコのパチューカでバルトロメ・デ・メディナが、くだいた銀の鉱石に塩や硫酸銅と水銀を混ぜて、銀を水銀に溶かしこむ（アマルガム）パティオ法を広めた（金も水銀で同じように取れる）。1887年、スコットランドのマッカーサーとフォレスト兄弟が、うすいシアン化物の液で金を溶かし出す青化法を作り、少ない金しか含まない鉱石からも取れるようになった。水銀もシアン化物も毒なので、川や土の汚染が問題になり、扱いが厳しく決められている。チップのワイヤーボンディングの金線や、電子部品の接点のめっきに使われる。岩がくずれると、金やすず石のように重くてこわれにくい鉱物が川や海辺に流れ出し、流れがゆるい所で重い粒だけがたまる（漂砂鉱床）。砂金とりで皿をゆらすと金が底に残るのも同じしくみで、クロンダイクの金やマレーシアのすず石が有名（S-019 で追加。出典：Britannica「Placer deposit」 https://www.britannica.com/science/placer-deposit 、Wikipedia 日本語版「漂砂鉱床」 https://ja.wikipedia.org/wiki/%E6%BC%82%E7%A0%82%E9%89%B1%E5%BA%8A ）"
  },
  "game": {
   "status": "✅",

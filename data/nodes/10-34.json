@@ -9,8 +9,8 @@
   "year": 1969,
   "year_range": "1961〜1973",
   "year_uncertain": false,
-  "hee1": "スマホの中でも、50年以上前の UNIX の考え方が生きている（O-011 で追加。出典：Wikipedia「Turing Award」「Compatible Time-Sharing System」「Unix」、IEEE Computer Society 'Fernando Jose Corbató' / MIT CSAIL（https://history.computer.org/pioneers/corbato.html））",
-  "hee1_en": "The ideas of UNIX from more than 50 years ago still live inside smartphones. (Added in O-011. Sources: Wikipedia \"Turing Award\", \"Compatible Time-Sharing System\", \"Unix\", IEEE Computer Society 'Fernando Jose Corbató' / MIT CSAIL (https://history.computer.org/pioneers/corbato.html))",
+  "hee1": "スマホの中でも、50年以上前の UNIX の考え方が生きている（O-011 で追加。出典：",
+  "hee1_en": "The ideas of UNIX from more than 50 years ago still live inside smartphones.",
   "hee_tree": {
    "2": "",
    "3": "",

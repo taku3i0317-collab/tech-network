@@ -10,7 +10,7 @@
   "year_range": "1975〜1976",
   "year_uncertain": false,
   "hee1": "カメラの画素の半分は緑。人の目が緑にいちばん敏感だから（S-004 で追加。出典：patents.google.com、en.wikipedia.org）",
-  "hee1_en": "Half of a camera's pixels are green, because the human eye is most sensitive to green. (Added in S-004. Sources: patents.google.com, en.wikipedia.org)",
+  "hee1_en": "Half of a camera's pixels are green, because the human eye is most sensitive to green.",
   "hee_tree": {
    "2": "",
    "3": "",

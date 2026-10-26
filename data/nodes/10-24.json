@@ -9,8 +9,8 @@
   "year": 1991,
   "year_range": "1978〜1991",
   "year_uncertain": false,
-  "hee1": "SSD の中の小さなコンピュータは、同じ場所ばかり書いてすり減らないよう、書く場所をこっそり散らしている（S-002 で追加。出典：Computer History Museum「Solid State Drive Module Demonstrated」、Wikipedia「Solid-state drive」）",
-  "hee1_en": "The tiny computer inside an SSD quietly spreads out where it writes, so the same spot does not wear out from being written over and over. (Added in S-002. Sources: Computer History Museum \"Solid State Drive Module Demonstrated\", Wikipedia \"Solid-state drive\")",
+  "hee1": "SSD の中の小さなコンピュータは、同じ場所ばかり書いてすり減らないよう、書く場所をこっそり散らしている（S-002 で追加。出典：Computer History Museum「Solid State Drive Module Demonstrated」",
+  "hee1_en": "The tiny computer inside an SSD quietly spreads out where it writes, so the same spot does not wear out from being written over and over.",
   "hee_tree": {
    "2": "",
    "3": "",

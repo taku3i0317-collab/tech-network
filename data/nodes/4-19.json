@@ -9,8 +9,8 @@
   "year": 1970,
   "year_range": "1960年代後半〜1977",
   "year_uncertain": true,
-  "hee1": "スマホの充電器が小さいのは、電気を1秒に何万回も入れたり切ったりして変圧器を小さくしているから（S-002 で追加。出典：righto.com「Apple didn't revolutionize power supplies」、Wikipedia「Switched-mode power supply」）",
-  "hee1_en": "Phone chargers are small because they switch the electricity on and off tens of thousands of times a second, which lets the transformer be small. (Added in S-002. Sources: righto.com \"Apple didn't revolutionize power supplies\", Wikipedia \"Switched-mode power supply\")",
+  "hee1": "スマホの充電器が小さいのは、電気を1秒に何万回も入れたり切ったりして変圧器を小さくしているから（S-002 で追加。出典：righto.com「Apple didn't revolutionize power supplies」",
+  "hee1_en": "Phone chargers are small because they switch the electricity on and off tens of thousands of times a second, which lets the transformer be small.",
   "hee_tree": {
    "2": "",
    "3": "",

@@ -10,7 +10,7 @@
   "year_range": "1929〜1970",
   "year_uncertain": false,
   "hee1": "海の底のケーブルで遠くへ電気を送るときは、交流より直流の方がむだが少ない（O-011 で追加。出典：IEEE Milestones「Gotland High Voltage Direct Current Link, 1954」、ETHW「Uno Lamm」）",
-  "hee1_en": "When sending electricity far through cables on the sea floor, direct current wastes less than alternating current. (Added in O-011. Sources: IEEE Milestones \"Gotland High Voltage Direct Current Link, 1954\", ETHW \"Uno Lamm\")",
+  "hee1_en": "When sending electricity far through cables on the sea floor, direct current wastes less than alternating current.",
   "hee_tree": {
    "2": "",
    "3": "",

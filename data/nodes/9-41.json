@@ -9,8 +9,8 @@
   "year": 1980,
   "year_range": null,
   "year_uncertain": true,
-  "hee1": "電気自動車は、電気を1秒に何千回もオン・オフしてモーターを回す （IMP-24 で追加、network_proposals N-4・N-5）",
-  "hee1_en": "An electric car turns electricity on and off thousands of times a second to drive its motor. (Added in IMP-24, network_proposals N-4, N-5)",
+  "hee1": "電気自動車は、電気を1秒に何千回もオン・オフしてモーターを回す",
+  "hee1_en": "An electric car turns electricity on and off thousands of times a second to drive its motor.",
   "hee_tree": {
    "2": "",
    "3": "",

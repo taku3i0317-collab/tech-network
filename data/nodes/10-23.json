@@ -9,8 +9,8 @@
   "year": 1984,
   "year_range": "1980〜1987",
   "year_uncertain": false,
-  "hee1": "電子を薄いガラスの壁の中に閉じこめるので、電気を切っても何年も忘れない（S-002 で追加。出典：Wikipedia「Fujio Masuoka」「Flash memory」、半導体産業人協会「NAND フラッシュメモリ」）",
-  "hee1_en": "Electrons are locked inside a thin glass wall, so it remembers for years even with the power off. (Added in S-002. Sources: Wikipedia \"Fujio Masuoka\" \"Flash memory\", Semiconductor History Museum of Japan (SSIS) \"NAND flash memory\")",
+  "hee1": "電子を薄いガラスの壁の中に閉じこめるので、電気を切っても何年も忘れない（S-002 で追加。出典：",
+  "hee1_en": "Electrons are locked inside a thin glass wall, so it remembers for years even with the power off.",
   "hee_tree": {
    "2": "",
    "3": "",

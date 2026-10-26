@@ -9,8 +9,8 @@
   "year": 1993,
   "year_range": "1954〜2010",
   "year_uncertain": false,
-  "hee1": "スマホの中には、シリコンでできた小さなばねとおもりがあって、傾けると本当に動いている（S-003 で追加。出典：Proc. IEEE「Silicon as a Mechanical Material」（1982）、Wikipedia「Microelectromechanical systems」）",
-  "hee1_en": "Inside a smartphone are tiny springs and weights made of silicon, and they really move when you tilt it. (Added in S-003. Sources: Proc. IEEE \"Silicon as a Mechanical Material\" (1982), Wikipedia \"Microelectromechanical systems\")",
+  "hee1": "スマホの中には、シリコンでできた小さなばねとおもりがあって、傾けると本当に動いている（S-003 で追加。出典：Proc. IEEE「Silicon as a Mechanical Material」（1982）",
+  "hee1_en": "Inside a smartphone are tiny springs and weights made of silicon, and they really move when you tilt it.",
   "hee_tree": {
    "2": "",
    "3": "",

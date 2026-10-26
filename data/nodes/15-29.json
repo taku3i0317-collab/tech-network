@@ -9,8 +9,8 @@
   "year": 1950,
   "year_range": "1947〜1950",
   "year_uncertain": false,
-  "hee1": "QR コードは、少し汚れたり欠けたりしても読めるように、余分な情報がしこんである（O-011 で追加。出典：IEEE Computer Society「Richard Hamming」、Wikipedia「Hamming code」）",
-  "hee1_en": "QR codes hide extra information so they can still be read when a little dirty or chipped. (Added in O-011. Sources: IEEE Computer Society \"Richard Hamming\", Wikipedia \"Hamming code\")",
+  "hee1": "QR コードは、少し汚れたり欠けたりしても読めるように、余分な情報がしこんである（O-011 で追加。出典：IEEE Computer Society「Richard Hamming」",
+  "hee1_en": "QR codes hide extra information so they can still be read when a little dirty or chipped.",
   "hee_tree": {
    "2": "",
    "3": "",

@@ -9,8 +9,8 @@
   "year": 2020,
   "year_range": "1994〜2020",
   "year_uncertain": false,
-  "hee1": "AI は、アミノ酸の並びだけから、たんぱく質がどんな形に折りたたまれるかを当てられるようになった（O-011 で追加。出典：Nobel Prize「Chemistry 2024」「Chemistry 1972」、Nobel Prize「The Nobel Prize in Chemistry 2024 press release」（https://www.nobelprize.org/prizes/chemistry/2024/press-release/））",
-  "hee1_en": "AI can now guess how a protein folds just from its order of amino acids (added in O-011. Sources: Nobel Prize \"Chemistry 2024\", \"Chemistry 1972\", Nobel Prize \"The Nobel Prize in Chemistry 2024 press release\" (https://www.nobelprize.org/prizes/chemistry/2024/press-release/))",
+  "hee1": "AI は、アミノ酸の並びだけから、たんぱく質がどんな形に折りたたまれるかを当てられるようになった（O-011 で追加。出典：Nobel Prize「Chemistry 2024」「Chemistry 1972」、Nobel Prize「The Nobel Prize in Chemistry 2024 press release」",
+  "hee1_en": "AI can now guess how a protein folds just from its order of amino acids (added in O-011. Sources: Nobel Prize \"Chemistry 2024\", \"Chemistry 1972\", Nobel Prize \"The Nobel Prize in Chemistry 2024 press release\" (",
   "hee_tree": {
    "2": "",
    "3": "",

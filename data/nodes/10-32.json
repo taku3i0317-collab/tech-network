@@ -9,8 +9,8 @@
   "year": 1985,
   "year_range": "1977〜1985",
   "year_uncertain": false,
-  "hee1": "コンピュータで 0.1＋0.2 を計算すると、ほんの少しだけ 0.3 からずれることがある（O-010 で追加。出典：IEEE Milestones「IEEE Standard 754, 1985」「Intel 8087, 1980」、IEEE Milestone「IEEE Standard 754 for Binary Floating-Point Arithmetic, 1985」（https://ethw.org/Milestones:IEEE_Standard_754_for_Binary_Floating-Point_Arithmetic,_1985））",
-  "hee1_en": "When a computer calculates 0.1 + 0.2, the answer can be just slightly off from 0.3. (Added in O-010. Sources: IEEE Milestones \"IEEE Standard 754, 1985\", \"Intel 8087, 1980\", IEEE Milestone \"IEEE Standard 754 for Binary Floating-Point Arithmetic, 1985\" (https://ethw.org/Milestones:IEEE_Standard_754_for_Binary_Floating-Point_Arithmetic,_1985))",
+  "hee1": "コンピュータで 0.1＋0.2 を計算すると、ほんの少しだけ 0.3 からずれることがある（O-010 で追加。出典：IEEE Milestones「IEEE Standard 754, 1985」「Intel 8087, 1980」、IEEE Milestone「IEEE Standard 754 for Binary Floating-Point Arithmetic, 1985」",
+  "hee1_en": "When a computer calculates 0.1 + 0.2, the answer can be just slightly off from 0.3.",
   "hee_tree": {
    "2": "",
    "3": "",

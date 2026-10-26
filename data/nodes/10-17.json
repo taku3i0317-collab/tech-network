@@ -9,7 +9,7 @@
   "year": 1963,
   "year_range": null,
   "year_uncertain": true,
-  "hee1": "図面を紙ではなく数字で持つと、何度でも直せる （IMP-24 で追加、network_proposals N-7）",
+  "hee1": "図面を紙ではなく数字で持つと、何度でも直せる",
   "hee1_en": "Keep drawings as numbers instead of on paper, and you can fix them as many times as you like (added in IMP-24, network_proposals N-7)",
   "hee_tree": {
    "2": "",

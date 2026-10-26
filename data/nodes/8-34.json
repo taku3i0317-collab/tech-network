@@ -9,8 +9,8 @@
   "year": 1952,
   "year_range": "1949〜1956",
   "year_uncertain": false,
-  "hee1": "最初の NC 工作機械は、穴のあいた紙テープを読んで刃を動かしていた（O-010 で追加。出典：日本機械学会「機械遺産 No.126」、Wikipedia「Numerical control」「John T. Parsons」）",
-  "hee1_en": "The first NC machine tool moved its cutter by reading paper tape with holes punched in it. (Added in O-010. Sources: JSME \"Mechanical Engineering Heritage No.126\", Wikipedia \"Numerical control\" \"John T. Parsons\")",
+  "hee1": "最初の NC 工作機械は、穴のあいた紙テープを読んで刃を動かしていた（O-010 で追加。出典：日本機械学会「機械遺産 No.126」",
+  "hee1_en": "The first NC machine tool moved its cutter by reading paper tape with holes punched in it.",
   "hee_tree": {
    "2": "",
    "3": "",

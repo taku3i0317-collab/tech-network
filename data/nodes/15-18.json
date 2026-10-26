@@ -9,8 +9,8 @@
   "year": 1965,
   "year_range": "1965〜2007",
   "year_uncertain": false,
-  "hee1": "指が近づくだけで、画面の下の見えない電極が「ここに指がある」と気づく（S-003 で追加。出典：Electronics Letters（1965）、CERN「The first touchscreens」、Google Patents US3482241）",
-  "hee1_en": "Just by bringing your finger close, invisible electrodes under the screen notice \"there is a finger here\". (Added in S-003. Sources: Electronics Letters (1965), CERN \"The first touchscreens\", Google Patents US3482241)",
+  "hee1": "指が近づくだけで、画面の下の見えない電極が「ここに指がある」と気づく（S-003 で追加。出典：Electronics Letters（1965）",
+  "hee1_en": "Just by bringing your finger close, invisible electrodes under the screen notice \"there is a finger here\".",
   "hee_tree": {
    "2": "",
    "3": "",

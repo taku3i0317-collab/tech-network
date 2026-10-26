@@ -9,15 +9,28 @@
   "year": 1930,
   "year_range": "1930〜1937",
   "year_uncertain": false,
-  "hee1": "冷蔵庫に貼る黒いマグネットも、焼き物でできたフェライトの磁石（O-005 で追加。出典：IEEE Milestones、東京工業大学「フェライトの発明」、Wikipedia「Ferrite (magnet)」）",
-  "hee1_en": "The black magnets on your fridge are ferrite magnets, made like pottery. (Added in O-005. Sources: IEEE Milestones, Tokyo Institute of Technology \"The invention of ferrite\", Wikipedia \"Ferrite (magnet)\")",
+  "hee1": "冷蔵庫に貼る黒いマグネットも、焼き物でできたフェライトの磁石（O-005 で追加。出典：IEEE Milestones、東京工業大学「フェライトの発明」",
+  "hee1_en": "The black magnets on your fridge are ferrite magnets, made like pottery.",
   "hee_tree": {
    "2": "",
    "3": "",
    "4": ""
   },
   "sources": [],
-  "refs": [],
+  "refs": [
+   {
+    "title": "F76. 日本で生まれた磁石の焼き物（フェライト）［1-53］",
+    "answer": "酸化鉄に酸化亜鉛・酸化マンガンなどを混ぜて焼き固めた焼き物で、磁石につく（フェライト）。電気をほとんど通さないので、速く変わる磁場の中でも渦電流で熱くなりにくく、高い周波数の変圧器やコイルの芯に向く。1930年、東京工業大学の加藤与五郎と武井武が発明した。",
+    "hee": {
+     "1": "フェライトを作るために、1935年に会社（今の TDK）が生まれた。",
+     "2": "充電器のトランスやケーブルの太いふくらみ（ノイズを取る）の中身がフェライト。",
+     "3": "冷蔵庫に貼る黒い磁石も、なかまのハードフェライト。",
+     "4": "鉄の芯を薄い板の重ねにする（電磁鋼板）のも、渦電流を小さくするため。"
+    },
+    "certainty": "加藤・武井 1930 ◎／TDK 1935 ○",
+    "basis": "Wikipedia「Ferrite (magnet)」https://en.wikipedia.org/wiki/Ferrite_(magnet) （英語）、IEEE Milestones「Ferrite」https://ethw.org/Milestones:Development_of_Ferrite_Materials_and_Their_Applications,_1930-1945 （英語）"
+   }
+  ],
   "people": [
    {
     "name": "加藤与五郎",
@@ -58,9 +71,9 @@
   "real": "鉄の酸化物に亜鉛・マンガン・ニッケルなどの酸化物を混ぜて焼き固めた、電気を通しにくい磁性体。1930年、東京工業大学の加藤与五郎と武井武が発明した（特許出願1930・登録1932）。1935年に作られた TDK が1937年ごろ磁心として製品にし、最初は無線機の高周波のコイル・トランスに使われた（IEEE マイルストーン「フェライトの開発と応用 1930-1945」）。電気を通しにくいので、高い周波数でも渦電流（鉄心の中をぐるぐる流れて熱になる電流）が少ない。コアメモリの小さな輪（[10-08]）、ラジオのアンテナ棒、磁気テープの仲間。磁石になるしくみ（フェリ磁性）はルイ・ネールが説明した（1970年ノーベル物理学賞）"
  },
  "game": {
-  "status": "❓",
-  "buildable_now": true,
-  "play": "",
+  "status": "✅",
+  "buildable_now": false,
+  "play": "材料（焼き物の芯）",
   "missing": "",
   "item": null,
   "recipes": [],

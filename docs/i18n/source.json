@@ -2,9 +2,9 @@
  "_meta": {
   "what": "翻訳の元の文（日本語が正）。形の説明は docs/i18n/README.md",
   "generated_by": "tools/i18n_export.py",
-  "keys": 3579,
+  "keys": 3583,
   "with_english": 1334,
-  "japanese_chars": 201773
+  "japanese_chars": 200191
  },
  "strings": {
   "0-01.name": {
@@ -358,7 +358,7 @@
    "en": "Rope"
   },
   "0-18.hee1": {
-   "ja": "細い繊維も、より合わせると重い物を吊れる （IMP-24 で追加、network_proposals N-2）",
+   "ja": "細い繊維も、より合わせると重い物を吊れる",
    "en": "Even thin fibers can hold up heavy things once you twist them together (added in IMP-24, network_proposals N-2)"
   },
   "0-18.hee2": {
@@ -1197,7 +1197,7 @@
    "ja": "ニッケルは水素化の触媒（サバティエ 1897、ノーベル賞 1912）になり、ナイロンやマーガリンを作るのに使われる。"
   },
   "1-37.real": {
-   "ja": "1751 クロンステットが単離。1890 モンド法 Ni+4CO→Ni(CO)4（約50℃で気体化）→約200℃で分解して純Ni。とても純粋なニッケルは、ルートヴィヒ・モンド（1839〜1909）が1890年に発表した方法で取り出す。ニッケルは一酸化炭素と低めの温度で反応して気体（ニッケルカルボニル）になるが、鉄や銅はほとんど気体にならない。この気体を約200℃に温めると分解して純粋なニッケルが残る（工業では1900年ごろから、カルボニル冶金）。が作った Wikipedia 日本語版「モンドプロセス」 https://ja.wikipedia.org/wiki/%E3%83%A2%E3%83%B3%E3%83%89%E3%83%97%E3%83%AD%E3%82%BB%E3%82%B9 、亜留間次郎さん（Arumaddilo）が作った Wikipedia 日本語版「カルボニル冶金」 https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%AB%E3%83%9C%E3%83%8B%E3%83%AB%E5%86%B6%E9%87%91 ）"
+   "ja": "1751 クロンステットが単離。1890 モンド法 Ni+4CO→Ni(CO)4（約50℃で気体化）→約200℃で分解して純Ni。とても純粋なニッケルは、ルートヴィヒ・モンド（1839〜1909）が1890年に発表した方法で取り出す。ニッケルは一酸化炭素と低めの温度で反応して気体（ニッケルカルボニル）になるが、鉄や銅はほとんど気体にならない。この気体を約200℃に温めると分解して純粋なニッケルが残る（工業では1900年ごろから、カルボニル冶金）。"
   },
   "1-37.play": {
    "ja": "重"
@@ -1428,8 +1428,8 @@
    "en": "Basic oxygen furnace"
   },
   "1-48.hee1": {
-   "ja": "空気の代わりに酸素を吹くと、鋼が数十分でできる",
-   "en": "Blow oxygen instead of air, and steel is made in a few tens of minutes. (Added in S-001. Sources: Wikipedia \"Basic oxygen steelmaking\", University of Leoben \"70 Years of LD-Steelmaking\")"
+   "ja": "空気の代わりに酸素を吹くと、鋼が数十分でできる（S-001 で追加。出典：",
+   "en": "Blow oxygen instead of air, and steel is made in a few tens of minutes."
   },
   "1-48.real": {
    "ja": "溶けた銑鉄に、空気ではなく純粋な酸素を吹きつけて炭素を燃やし、短い時間で鋼にする。スイスのロベルト・ドゥラーの研究をもとに、オーストリアの VÖEST が1949年に工夫し、1952年11月にリンツ、1953年5月にドナヴィッツで30トンの転炉が動き始めた（LD はリンツ・ドナヴィッツの頭文字）。ベッセマー転炉と平炉に代わり、2000年には世界の鋼の約6割がこの方法"
@@ -1439,8 +1439,8 @@
    "en": "Electric arc steelmaking"
   },
   "1-49.hee1": {
-   "ja": "古い鉄くずを、電気の火花で溶かして新しい鋼にする",
-   "en": "Old scrap iron is melted with electric sparks and made into new steel. (Added in S-001. Sources: Techniques de l'Ingénieur \"History of the arc furnace\", Wikipedia \"Electric arc furnace\")"
+   "ja": "古い鉄くずを、電気の火花で溶かして新しい鋼にする（S-001 で追加。出典：Techniques de l'Ingénieur「History of the arc furnace」",
+   "en": "Old scrap iron is melted with electric sparks and made into new steel."
   },
   "1-49.real": {
    "ja": "鉄くず（スクラップ）を黒鉛の電極のアークの熱で溶かして鋼を作る。1900年10月、ポール・エルーがフランスのラ・プラで製鋼用のアーク炉を動かした（特許1899年）。鉄鉱石からではなく鉄くずから作れるので、鋼のリサイクルの中心"
@@ -1450,8 +1450,8 @@
    "en": "Continuous casting"
   },
   "1-50.hee1": {
-   "ja": "鋼を止めずに流し続けて、型から長い板を引き出す）",
-   "en": "Steel keeps flowing without stopping, and a long slab is pulled out of the mold. (Added in S-001. Sources: encyclopedia.pub \"Continuous casting\", MDPI Metals review (continuous casting history, Junghans 1930s, CONCAST 1950s) (https://www.mdpi.com/2075-4701/12/5/862))"
+   "ja": "鋼を止めずに流し続けて、型から長い板を引き出す（S-001 で追加。出典：encyclopedia.pub「Continuous casting」、MDPI Metals review (continuous casting history, Junghans 1930s, CONCAST 1950s)",
+   "en": "Steel keeps flowing without stopping, and a long slab is pulled out of the mold."
   },
   "1-50.real": {
    "ja": "溶けた鋼を、底の開いた水冷の銅の型に流しこみ、外側が固まったものを下から引き出し続けて、長い板や棒をそのまま作る（インゴットを作って切り落とす無駄が減る）。1930年代にジークフリート・ユングハンスが研究を始め、まずマグネシウム・非鉄金属に使われ、鋼では1950年代に工業化したとされる（最初の鋼の工場の年は未確認 ⚠️）"
@@ -1461,8 +1461,8 @@
    "en": "Rolling"
   },
   "1-51.hee1": {
-   "ja": "2本の回るローラーの間を通すと、鉄がぐんぐん薄く長くなる",
-   "en": "Pass iron between two turning rollers and it quickly gets thinner and longer (added in S-001. Sources: Wikipedia \"Rolling (metalworking)\", ERIH \"Henry Cort\")"
+   "ja": "2本の回るローラーの間を通すと、鉄がぐんぐん薄く長くなる（S-001 で追加。出典：",
+   "en": "Pass iron between two turning rollers and it quickly gets thinner and longer (added in S-001. Sources:"
   },
   "1-51.real": {
    "ja": "回る2本のロールの間に金属を通して、薄く・長くのばす。1783年、ヘンリー・コートが溝付きのロールで鉄の棒を作る特許を取り、ハンマーでたたくよりずっと速く作れるようになった（同じころのコートのパドル法と組み合わせ、1786年頃カイファースファ製鉄所で初めて本格的に使われた）。熱いまま延ばす熱間圧延と、冷えてから延ばして表面と寸法を整える冷間圧延がある"
@@ -1472,8 +1472,8 @@
    "en": "Extrusion"
   },
   "1-52.hee1": {
-   "ja": "ところてんのように押し出すと、同じ形の長いアルミの棒ができる",
-   "en": "Push it out like squeezing toothpaste, and you get long aluminum bars all the same shape. (Added in S-001. Sources: Wikipedia \"Extrusion\", Grace's Guide \"Extruded Metal Co\")"
+   "ja": "ところてんのように押し出すと、同じ形の長いアルミの棒ができる（S-001 で追加。出典：",
+   "en": "Push it out like squeezing toothpaste, and you get long aluminum bars all the same shape."
   },
   "1-52.real": {
    "ja": "熱した金属を、強い力で型の穴から押し出して、同じ形の断面の長い材料（形材）を作る（ところてんと同じ）。1894年、アレクサンダー・ディック（ロンドン）が水圧の横型の押出し機で銅・真ちゅうを押し出した（実験は1892〜93年）。アルミの押出し機は1904年ごろ（アメリカ）とされる ⚠️。窓のサッシや、3Dプリンターの骨組みのアルミのレールはこの方法"
@@ -1483,11 +1483,23 @@
    "en": "Ferrite"
   },
   "1-53.hee1": {
-   "ja": "冷蔵庫に貼る黒いマグネットも、焼き物でできたフェライトの磁石",
-   "en": "The black magnets on your fridge are ferrite magnets, made like pottery. (Added in O-005. Sources: IEEE Milestones, Tokyo Institute of Technology \"The invention of ferrite\", Wikipedia \"Ferrite (magnet)\")"
+   "ja": "冷蔵庫に貼る黒いマグネットも、焼き物でできたフェライトの磁石（O-005 で追加。出典：IEEE Milestones、東京工業大学「フェライトの発明」",
+   "en": "The black magnets on your fridge are ferrite magnets, made like pottery."
+  },
+  "1-53.hee2": {
+   "ja": "充電器のトランスやケーブルの太いふくらみ（ノイズを取る）の中身がフェライト。"
+  },
+  "1-53.hee3": {
+   "ja": "冷蔵庫に貼る黒い磁石も、なかまのハードフェライト。"
+  },
+  "1-53.hee4": {
+   "ja": "鉄の芯を薄い板の重ねにする（電磁鋼板）のも、渦電流を小さくするため。"
   },
   "1-53.real": {
    "ja": "鉄の酸化物に亜鉛・マンガン・ニッケルなどの酸化物を混ぜて焼き固めた、電気を通しにくい磁性体。1930年、東京工業大学の加藤与五郎と武井武が発明した（特許出願1930・登録1932）。1935年に作られた TDK が1937年ごろ磁心として製品にし、最初は無線機の高周波のコイル・トランスに使われた（IEEE マイルストーン「フェライトの開発と応用 1930-1945」）。電気を通しにくいので、高い周波数でも渦電流（鉄心の中をぐるぐる流れて熱になる電流）が少ない。コアメモリの小さな輪（[10-08]）、ラジオのアンテナ棒、磁気テープの仲間。磁石になるしくみ（フェリ磁性）はルイ・ネールが説明した（1970年ノーベル物理学賞）"
+  },
+  "1-53.play": {
+   "ja": "材料（焼き物の芯）"
   },
   "person.1-53.0.intro": {
    "ja": "1930年、武井武とフェライト（焼き物の磁性体）を発明した"
@@ -1500,8 +1512,8 @@
    "en": "Invar"
   },
   "1-54.hee1": {
-   "ja": "鉄にニッケルを混ぜるだけで、夏も冬も長さがほとんど変わらない金属になる）",
-   "en": "Just by mixing nickel into iron, you get a metal whose length hardly changes in summer or winter. (Added in O-005. Sources: Nobel Prize \"Physics 1920\", Nobel Prize \"Physics 1920 Guillaume\" (https://www.nobelprize.org/prizes/physics/1920/guillaume/facts/))"
+   "ja": "鉄にニッケルを混ぜるだけで、夏も冬も長さがほとんど変わらない金属になる（O-005 で追加。出典：Nobel Prize「Physics 1920」、Nobel Prize「Physics 1920 Guillaume」",
+   "en": "Just by mixing nickel into iron, you get a metal whose length hardly changes in summer or winter."
   },
   "1-54.hee2": {
    "ja": "測量の巻尺や、温度で狂わない時計のてんぷに使われた。"
@@ -1523,8 +1535,8 @@
    "en": "Synthetic diamond"
   },
   "1-55.hee1": {
-   "ja": "工場で使うダイヤモンドのほとんどは、黒鉛をぎゅっと押して作った合成ダイヤモンド",
-   "en": "Most diamonds used in factories are synthetic diamonds made by squeezing graphite hard (added in O-010. Sources: ASME Landmark #198, Nobel Prize \"Physics 1946\", GIA, Wikipedia \"Synthetic diamond\")"
+   "ja": "工場で使うダイヤモンドのほとんどは、黒鉛をぎゅっと押して作った合成ダイヤモンド（O-010 で追加。出典：ASME Landmark #198、Nobel Prize「Physics 1946」、GIA",
+   "en": "Most diamonds used in factories are synthetic diamonds made by squeezing graphite hard (added in O-010. Sources: ASME Landmark #198, Nobel Prize \"Physics 1946\", GIA,"
   },
   "1-55.real": {
    "ja": "黒鉛を約5万気圧・1500℃ほどの高い圧力と温度にすると、炭素の並びが変わってダイヤモンドになる（高い圧力ではダイヤモンドの方が安定）。パーシー・ブリッジマンは1900年代から超高圧の装置を作り、高圧の物理を開いた（1946年ノーベル物理学賞）。1954年12月、アメリカの GE がベルト型のプレスで、鉄やニッケルを溶媒にして再現性のある合成に成功した（ASME ランドマーク #198）。スウェーデンの ASEA は1953年2月に先に合成していたが公表しなかった。今の工業用のダイヤモンド（ウェハーを切る刃や研磨の粉）の大部分は合成"
@@ -1534,8 +1546,8 @@
    "en": "Steam hammer"
   },
   "1-56.hee1": {
-   "ja": "人の腕では打てない大きな鋼の塊も、蒸気で動くハンマーなら100トンの力でたたける",
-   "en": "Huge blocks of steel that human arms cannot strike can be hit with 100 tons of force by a steam-powered hammer. (Added in O-010. Sources: ASME Landmark #69 \"Creusot Steam Hammer\", JSME \"Mechanical Engineering Heritage No.058\", Wikipedia \"Steam hammer\")"
+   "ja": "人の腕では打てない大きな鋼の塊も、蒸気で動くハンマーなら100トンの力でたたける（O-010 で追加。出典：ASME Landmark #69「Creusot Steam Hammer」、日本機械学会「機械遺産 No.058」",
+   "en": "Huge blocks of steel that human arms cannot strike can be hit with 100 tons of force by a steam-powered hammer."
   },
   "1-56.real": {
    "ja": "蒸気の力で重いハンマーを持ち上げて打ち下ろし、人の腕では打てない大きな鉄や鋼の塊を鍛える機械。1839年にイギリスのジェームズ・ナスミスが設計し、その図を見たフランスのシュナイダー社（ル・クルーゾ）のフランソワ・ブルドンが1840年ごろ最初の実機を作った（どちらが先かには争いがある）。1842年にナスミスが特許を取った。船の軸や大砲・機関車の大きな部品を作れるようになり、1876年のル・クルーゾの蒸気ハンマーは打撃100トン（ASME ランドマーク）。日本には1865年に横須賀製鉄所へ輸入された（機械遺産 No.058）"
@@ -1548,8 +1560,8 @@
    "en": "Carbon fiber"
   },
   "1-57.hee1": {
-   "ja": "炭素繊維は、鉄の4分の1ほどの重さで、鉄より強い ⚠️",
-   "en": "Carbon fiber weighs about a quarter as much as steel, yet is stronger than steel ⚠️ (Added in O-011. Sources: Wikipedia \"National Historic Chemical Landmarks\", Asia News Network)"
+   "ja": "炭素繊維は、鉄の4分の1ほどの重さで、鉄より強い ⚠️（O-011 で追加。出典：",
+   "en": "Carbon fiber weighs about a quarter as much as steel, yet is stronger than steel ⚠️"
   },
   "1-57.real": {
    "ja": "細い繊維を、空気を断って高い温度で焼くと、黒鉛の層が並んだ、軽くてとても強い炭素の繊維になる。1958年、アメリカのユニオン・カーバイドのロジャー・ベーコンがレーヨンから高性能の炭素繊維を作り、1961年、日本の大阪工業技術試験所の進藤昭男がアクリル繊維（PAN）から作る方法を発明した（今の主流）。鉄より軽くて強いので、飛行機の胴体や翼、釣りざお、テニスのラケット、自転車に使われる"
@@ -1559,8 +1571,8 @@
    "en": "Wire drawing"
   },
   "1-58.hee1": {
-   "ja": "電線の銅線は、太い棒を小さな穴に何十回も通して細く引きのばしている",
-   "en": "The copper wire in electric cables is made by pulling a thick rod through small holes dozens of times to stretch it thin. (Added in O-012. Sources: Wikipedia \"Wire drawing\", ASME Landmark #139)"
+   "ja": "電線の銅線は、太い棒を小さな穴に何十回も通して細く引きのばしている（O-012 で追加。出典：",
+   "en": "The copper wire in electric cables is made by pulling a thick rod through small holes dozens of times to stretch it thin."
   },
   "1-58.hee2": {
    "ja": "金は1g から数km の線が引けるほどよくのびる。"
@@ -1582,8 +1594,8 @@
    "en": "Puddling process"
   },
   "1-59.hee1": {
-   "ja": "エッフェル塔の鉄は、職人が炉の中の鉄を棒でかき混ぜて作った錬鉄）",
-   "en": "The iron of the Eiffel Tower is wrought iron, made by workers stirring the iron inside a furnace with a rod (added in O-012. Sources: Wikipedia \"Puddling (metallurgy)\", \"Henry Cort\", Britannica \"Puddling furnace\", Grace's Guide \"Henry Cort\" (https://www.britannica.com/technology/puddling-furnace))"
+   "ja": "エッフェル塔の鉄は、職人が炉の中の鉄を棒でかき混ぜて作った錬鉄（O-012 で追加。出典：",
+   "en": "The iron of the Eiffel Tower is wrought iron, made by workers stirring the iron inside a furnace with a rod (added in O-012. Sources:"
   },
   "1-59.real": {
    "ja": "高炉の銑鉄を、燃料と鉄を分けた反射炉で溶かし、職人が長い棒でかき混ぜて（パドル）空気にふれさせ、炭素を燃やして柔らかい錬鉄にする。1784年、イギリスのヘンリー・コートが特許を取った（同じころピーター・オニオンズも似た方法の特許）。石炭の硫黄が鉄に入らないので、木炭を使わずに錬鉄をたくさん作れるようになり、コートの溝付きロールの圧延（[1-51]）と組んで産業革命を支えた。1830年代にジョセフ・ホールが収率を上げた。エッフェル塔もパドル法の錬鉄でできている"
@@ -1596,8 +1608,8 @@
    "en": "Electrolytic copper refining"
   },
   "1-60.hee1": {
-   "ja": "電線の銅は、電気分解で 99.99% まで純粋にしてある）",
-   "en": "The copper in electric wires is purified to 99.99% by electrolysis. (Added in O-012. Sources: Wikipedia \"Copper extraction\", \"James Balfour Elkington\", OneMine (SME) 'Origins of Electrorefining: the World's First Commercial Electrorefinery' (https://www.onemine.org/documents/origins-of-electrorerefining-birth-of-the-technology-and-the-world-s-first-commercial-electrorefinery))"
+   "ja": "電線の銅は、電気分解で 99.99% まで純粋にしてある（O-012 で追加。出典：",
+   "en": "The copper in electric wires is purified to 99.99% by electrolysis."
   },
   "1-60.real": {
    "ja": "製錬でできた粗い銅（約99%）を陽極、うすい銅の板を陰極にして硫酸銅の液で電気分解すると、陰極に 99.99% の純粋な銅がつく。不純物の銀や金は陽極の下に泥として沈み、回収できる。1865年にイギリスのジェームズ・バルフォア・エルキントンが特許を取り、1869年にウェールズで最初の工場が動いた。安い大きな直流（発電機）ができてから大規模になった。電線の銅は少しでも不純物があると電気が通りにくくなるので、電解銅が電線の標準になった"
@@ -1607,8 +1619,8 @@
    "en": "Thomas process"
   },
   "1-61.hee1": {
-   "ja": "鉄から取りのぞいたリンのかすが、畑の肥料になった）",
-   "en": "The phosphorus slag removed from iron became fertilizer for fields. (Added in O-012. Sources: Wikipedia \"Gilchrist–Thomas process\" \"Sidney Gilchrist Thomas\", IOM3 \"Steel heroes\", Grace's Guide \"Percy Gilchrist\" (https://www.iom3.org/resource/steel-heroes.html))"
+   "ja": "鉄から取りのぞいたリンのかすが、畑の肥料になった（O-012 で追加。出典：",
+   "en": "The phosphorus slag removed from iron became fertilizer for fields."
   },
   "1-61.real": {
    "ja": "ベッセマー転炉は、リンの多い鉄鉱石から作った銑鉄ではもろい鋼しかできなかった。1877〜78年、イギリスのシドニー・ギルクリスト・トーマスと従兄弟のパーシー・ギルクリストが、転炉の内側を焼いたドロマイトなどの塩基性のれんがにして石灰を入れ、リンを石灰と結びつけてスラグに移す方法を作った（1879年にミドルズブラで公開）。ヨーロッパに多いリンの多い鉄鉱石が使えるようになり、リンを吸ったスラグ（トーマスりん肥）は畑の肥料にもなった"
@@ -1618,8 +1630,8 @@
    "en": "Stainless steel"
   },
   "1-62.hee1": {
-   "ja": "ステンレスがさびないのは、表面に目に見えないほど薄いクロムの膜ができて守っているから）",
-   "en": "Stainless steel does not rust because an invisibly thin chromium film forms on the surface and protects it. (Added in O-012. Sources: Wikipedia \"Stainless steel\", \"Harry Brearley\", Sheffield City Archives \"Sources for the Study of Harry Brearley and Stainless Steel\" (https://www.sheffield.gov.uk/sites/default/files/docs/libraries-and-archives/archives-and-local-studies/research/Stainless-Steel-and-Harry-Brearley-v-1-1--PDF--578-KB-.pdf))"
+   "ja": "ステンレスがさびないのは、表面に目に見えないほど薄いクロムの膜ができて守っているから（O-012 で追加。出典：",
+   "en": "Stainless steel does not rust because an invisibly thin chromium film forms on the surface and protects it."
   },
   "1-62.hee2": {
    "ja": "18-8 は、クロム18%・ニッケル8% のこと。"
@@ -1631,15 +1643,15 @@
    "ja": "ブレアリーの最初の用途は、さびないナイフだった。"
   },
   "1-62.real": {
-   "ja": "鉄にクロムを約12%以上混ぜると、表面にとても薄いクロムの酸化物の膜ができて、さびなくなる。1904〜06年にフランスのレオン・ギエが鉄とクロムの合金を研究し、1911年にドイツのモンナルツがクロム約12%以上でさびにくくなることを示した。1912年、ドイツのクルップ社のシュトラウスとマウラーがニッケルも入れた「18-8」（磁石につかない・粘り強い）の特許を取り、1913年にイギリスのハリー・ブレアリーが13% クロムの鋼を「さびない鋼」として作った。台所の流し・食器、超高真空の容器、超純水の配管に使われる。安くて強い鋼の板に、さびにくい金属（ニッケルやステンレス）のうすい板をはがれないように重ねた2層の板をクラッド鋼という。全部を高い金属で作らなくても、薬品にふれる面だけを守れる。1930年にアメリカでニッケルをはり合わせた鋼板が作られ、1950年代から広まった ⚠️「The history of plated sheets」 https://industeel.arcelormittal.com/the-history-of-plated-sheets/ 、亜留間次郎さん（Arumaddilo）が作った Wikipedia 日本語版「クラッド鋼」 https://ja.wikipedia.org/wiki/%E3%82%AF%E3%83%A9%E3%83%83%E3%83%89%E9%8B%BC ）"
+   "ja": "鉄にクロムを約12%以上混ぜると、表面にとても薄いクロムの酸化物の膜ができて、さびなくなる。1904〜06年にフランスのレオン・ギエが鉄とクロムの合金を研究し、1911年にドイツのモンナルツがクロム約12%以上でさびにくくなることを示した。1912年、ドイツのクルップ社のシュトラウスとマウラーがニッケルも入れた「18-8」（磁石につかない・粘り強い）の特許を取り、1913年にイギリスのハリー・ブレアリーが13% クロムの鋼を「さびない鋼」として作った。台所の流し・食器、超高真空の容器、超純水の配管に使われる。安くて強い鋼の板に、さびにくい金属（ニッケルやステンレス）のうすい板をはがれないように重ねた2層の板をクラッド鋼という。全部を高い金属で作らなくても、薬品にふれる面だけを守れる。1930年にアメリカでニッケルをはり合わせた鋼板が作られ、1950年代から広まった ⚠️「The history of plated sheets」 https://industeel.arcelormittal.com/the-history-of-plated-sheets/ 、Wikipedia 日本語版「クラッド鋼」 https://ja.wikipedia.org/wiki/%E3%82%AF%E3%83%A9%E3%83%83%E3%83%89%E9%8B%BC ）"
   },
   "1-63.name": {
    "ja": "マンガン添加",
    "en": "Manganese addition"
   },
   "1-63.hee1": {
-   "ja": "ほんの少しのマンガンを加えるだけで、割れやすかった鋼が丈夫になった）",
-   "en": "Adding just a little manganese made steel that used to crack easily strong (added in O-012. Sources: Wikipedia \"Robert Forester Mushet\", \"Mangalloy\", Grace's Guide 'Robert Mushet' (https://www.gracesguide.co.uk/Robert_Mushet))"
+   "ja": "ほんの少しのマンガンを加えるだけで、割れやすかった鋼が丈夫になった（O-012 で追加。出典：",
+   "en": "Adding just a little manganese made steel that used to crack easily strong (added in O-012. Sources:"
   },
   "1-63.real": {
    "ja": "ベッセマー転炉の鋼は、溶けた酸素や硫黄のせいで熱いときに割れやすかった。1856年、イギリスのロバート・マシェットが、マンガンを含む銑鉄（スピーゲル）を最後に加えると、マンガンが酸素と硫黄を取りのぞいて割れなくなることを見つけた（マシェットは特許の更新料を払えず報酬を得られず、のちにベッセマーが年金を出した）。1857年にはマシェットの鋼でレールが作られた。1882年、ロバート・ハドフィールドがマンガンを約12% 入れた、たたかれるほど硬くなる鋼（ハドフィールド鋼）を作った"
@@ -1649,8 +1661,8 @@
    "en": "Gold extraction"
   },
   "1-64.hee1": {
-   "ja": "金の鉱石1トンの中に、金は数グラムしか入っていないことが多い ⚠️）",
-   "en": "One ton of gold ore often holds only a few grams of gold ⚠️ (Added in O-012. Sources: Wikipedia \"MacArthur–Forrest process\", \"Patio process\", Mining Foundation of the Southwest \"Bartolomé de Medina\" (https://miningfoundationsw.org/Bartolome_de_Medina))"
+   "ja": "金の鉱石1トンの中に、金は数グラムしか入っていないことが多い ⚠️（O-012 で追加。出典：",
+   "en": "One ton of gold ore often holds only a few grams of gold ⚠️"
   },
   "1-64.hee2": {
    "ja": "さびないので、電子部品の接点にうすく金めっきをする。"
@@ -1662,7 +1674,7 @@
    "ja": "スマホ1台に含まれる金はごくわずかだが、たくさん集めると「都市鉱山」になる。"
   },
   "1-64.real": {
-   "ja": "岩の中のわずかな金を取り出す方法。1554年ごろ（1554〜57年と資料で揺れる ⚠️）、メキシコのパチューカでバルトロメ・デ・メディナが、くだいた銀の鉱石に塩や硫酸銅と水銀を混ぜて、銀を水銀に溶かしこむ（アマルガム）パティオ法を広めた（金も水銀で同じように取れる）。1887年、スコットランドのマッカーサーとフォレスト兄弟が、うすいシアン化物の液で金を溶かし出す青化法を作り、少ない金しか含まない鉱石からも取れるようになった。水銀もシアン化物も毒なので、川や土の汚染が問題になり、扱いが厳しく決められている。チップのワイヤーボンディングの金線や、電子部品の接点のめっきに使われる。岩がくずれると、金やすず石のように重くてこわれにくい鉱物が川や海辺に流れ出し、流れがゆるい所で重い粒だけがたまる（漂砂鉱床）。砂金とりで皿をゆらすと金が底に残るのも同じしくみで、クロンダイクの金やマレーシアのすず石が有名が作った Wikipedia 日本語版「漂砂鉱床」 https://ja.wikipedia.org/wiki/%E6%BC%82%E7%A0%82%E9%89%B1%E5%BA%8A ）"
+   "ja": "岩の中のわずかな金を取り出す方法。1554年ごろ（1554〜57年と資料で揺れる ⚠️）、メキシコのパチューカでバルトロメ・デ・メディナが、くだいた銀の鉱石に塩や硫酸銅と水銀を混ぜて、銀を水銀に溶かしこむ（アマルガム）パティオ法を広めた（金も水銀で同じように取れる）。1887年、スコットランドのマッカーサーとフォレスト兄弟が、うすいシアン化物の液で金を溶かし出す青化法を作り、少ない金しか含まない鉱石からも取れるようになった。水銀もシアン化物も毒なので、川や土の汚染が問題になり、扱いが厳しく決められている。チップのワイヤーボンディングの金線や、電子部品の接点のめっきに使われる。岩がくずれると、金やすず石のように重くてこわれにくい鉱物が川や海辺に流れ出し、流れがゆるい所で重い粒だけがたまる（漂砂鉱床）。砂金とりで皿をゆらすと金が底に残るのも同じしくみで、クロンダイクの金やマレーシアのすず石が有名"
   },
   "1-64.play": {
    "ja": "なし（解説）"
@@ -1672,8 +1684,8 @@
    "en": "High-speed steel"
   },
   "1-65.hee1": {
-   "ja": "ハイスの刃は、赤く光るほど熱くなっても切れ味が落ちない）",
-   "en": "A high-speed steel blade stays sharp even when it gets hot enough to glow red. (Added in O-012. Sources: Wikipedia \"High-speed steel\" \"Robert Forester Mushet\", Knife Steel Nerds \"The History of the First Tool Steel\", West Yorkshire Steel \"A History of High Speed Steel\" (https://knifesteelnerds.com/2018/03/22/the-history-of-the-first-tool-steel/))"
+   "ja": "ハイスの刃は、赤く光るほど熱くなっても切れ味が落ちない（O-012 で追加。出典：",
+   "en": "A high-speed steel blade stays sharp even when it gets hot enough to glow red."
   },
   "1-65.hee2": {
    "ja": "テイラーは、仕事の時間を測って工場を効率よくする「科学的管理法」でも知られる。"
@@ -1695,8 +1707,8 @@
    "en": "Tantalum"
   },
   "1-66.hee1": {
-   "ja": "電球の線は、炭素→タンタル→タングステンと、熱に強い物へ代わっていった）",
-   "en": "Light bulb filaments changed from carbon to tantalum to tungsten, each more heat-resistant than the last. (Added in O-012. Sources: Wikipedia \"Tantalum\", \"Werner von Bolton\", Deutsche Biographie 'Bolton, Werner' (https://www.deutsche-biographie.de/sfz5200.html))"
+   "ja": "電球の線は、炭素→タンタル→タングステンと、熱に強い物へ代わっていった（O-012 で追加。出典：",
+   "en": "Light bulb filaments changed from carbon to tantalum to tungsten, each more heat-resistant than the last."
   },
   "1-66.hee2": {
    "ja": "タンタルとニオブは似すぎていて、40年以上「同じ元素では？」と争われた。分けたのがマリニャック法。"
@@ -1718,8 +1730,8 @@
    "en": "Froth flotation"
   },
   "1-67.hee1": {
-   "ja": "鉱石の中の金属の粒は、泡にくっついて浮かび上がる）",
-   "en": "The metal grains in ore stick to bubbles and float up (added in O-012. Sources: Wikipedia \"Froth flotation\", Fuerstenau, Jameson, Yoon (eds.), Froth Flotation: A Century of Innovation (SME, 2007))"
+   "ja": "鉱石の中の金属の粒は、泡にくっついて浮かび上がる（O-012 で追加。出典：",
+   "en": "The metal grains in ore stick to bubbles and float up (added in O-012. Sources:"
   },
   "1-67.real": {
    "ja": "細かくくだいた鉱石を水に入れ、油や薬を加えて泡を立てると、金属の硫化物の粒は泡にくっついて浮かび、いらない岩の粒は沈む。1877年にドイツのベッセル兄弟が黒鉛で、1898年にイギリスのフランシス・エルモアが油を使う方法を始め、1905年にミネラルズ・セパレーション社がオーストラリアのブロークンヒルで泡を使う浮選を実用にした。銅が1% もない鉱石からでも精鉱が作れるようになり、閃亜鉛鉱と方鉛鉱を分けたり、輝水鉛鉱を集めたりするのにも使う"
@@ -1729,8 +1741,8 @@
    "en": "Permanent magnet steel"
   },
   "1-68.hee1": {
-   "ja": "日本の研究者が作った磁石の鋼は、当時世界でいちばん強い磁石だった",
-   "en": "A magnet steel made by Japanese researchers was the strongest magnet in the world at the time. (Added in O-012. Sources: Wikipedia \"Kotaro Honda\", Kotobank \"MK steel\", Japan Patent Office \"Ten Great Japanese Inventors: Tokushichi Mishima\")"
+   "ja": "日本の研究者が作った磁石の鋼は、当時世界でいちばん強い磁石だった（O-012 で追加。出典：",
+   "en": "A magnet steel made by Japanese researchers was the strongest magnet in the world at the time."
   },
   "1-68.real": {
    "ja": "それまでの磁石の鋼よりずっと強く、長く磁力を保つ鋼。1917年、東北帝国大学の本多光太郎と高木弘が、コバルト・タングステン・クロムを入れた KS 鋼を作った（1916年とする資料もある ⚠️）。1931年、東京帝国大学の三島徳七が、鉄・ニッケル・アルミニウムの MK 鋼を作り、のちのアルニコ磁石のもとになった（日本の十大発明家）。1934年には新 KS 鋼もできた。天然磁石よりずっと強い人工の磁石は、スピーカー・発電機・計器に使われ、のちのネオジム磁石（[1-35]）へ続く"
@@ -1746,8 +1758,8 @@
    "en": "Carburizing and nitriding"
   },
   "1-69.hee1": {
-   "ja": "歯車の表面だけを硬くして、中は割れにくく粘り強くしている",
-   "en": "Only the surface of a gear is made hard, while the inside stays tough and hard to crack. (Added in O-012. Sources: Wikipedia \"Nitriding\" \"Carburizing\", D. Pye, \"Practical Nitriding and Ferritic Nitrocarburizing\" (ASM International, 2003))"
+   "ja": "歯車の表面だけを硬くして、中は割れにくく粘り強くしている（O-012 で追加。出典：",
+   "en": "Only the surface of a gear is made hard, while the inside stays tough and hard to crack."
   },
   "1-69.real": {
    "ja": "鋼の表面に炭素や窒素を外からしみこませ、表面だけを硬く、中は粘り強くする。炭素をしみこませる浸炭は古代からある。1913年にアメリカのアドルフ・マクレットがアンモニアで窒素を入れる方法の特許を取り（出願は1908年）、1923年、ドイツのクルップ社のアドルフ・フライが窒化鋼を作った。歯車・玉軸受・エンジンのクランク軸などに使われる。表面から原子をしみこませるのは、半導体の熱拡散（[9-16]）と同じしくみ"
@@ -1757,8 +1769,8 @@
    "en": "Zirconium and hafnium"
   },
   "1-70.hee1": {
-   "ja": "ハフニウムは、X線で元素を調べる方法ができてから、やっと見つかった",
-   "en": "Hafnium was only found after a method of studying elements with X-rays was developed. (Added in O-012. Sources: Wikipedia \"Hafnium\", \"Crystal bar process\")"
+   "ja": "ハフニウムは、X線で元素を調べる方法ができてから、やっと見つかった（O-012 で追加。出典：",
+   "en": "Hafnium was only found after a method of studying elements with X-rays was developed."
   },
   "1-70.hee2": {
    "ja": "HfCl4 は、酸化ハフニウムを炭素と塩素で熱して作る（チタンのクロール法と同じ）。"
@@ -1777,8 +1789,8 @@
    "en": "Heat treatment"
   },
   "1-71.hee1": {
-   "ja": "同じ鋼でも、冷やす速さを変えるだけで硬さがまったく変わる）",
-   "en": "The same steel can become totally different in hardness just by changing how fast you cool it (added in O-012. Sources: Wikipedia \"Quenching\", \"Isothermal transformation diagram\", Davenport & Bain \"Transformation of austenite at constant subcritical temperatures\" Trans. AIME 90 (1930) (https://doi.org/10.1007/BF02643420))"
+   "ja": "同じ鋼でも、冷やす速さを変えるだけで硬さがまったく変わる（O-012 で追加。出典：",
+   "en": "The same steel can become totally different in hardness just by changing how fast you cool it (added in O-012. Sources:"
   },
   "1-71.real": {
    "ja": "鋼を赤く熱してから水や油で急に冷やす（焼入れ）と、硬い組織（マルテンサイト）になる。少し温め直す（焼戻し）と粘りが出て、ゆっくり冷ます（焼なまし）と柔らかくなる。焼入れは古代からあり、1890年代にマルテンスやオスモンドが組織に名前を付けた。1930年、アメリカのエドガー・ベインとエドマンド・ダヴェンポートが、温度と時間で組織がどう変わるかを表す図（恒温変態図）を作り、狙った硬さを計算で決められるようになった。熱で原子を動かして欠陥を直す考えは、半導体のアニール（[9-29]）と同じ"
@@ -1788,8 +1800,8 @@
    "en": "Powder metallurgy and hot isostatic pressing"
   },
   "1-72.hee1": {
-   "ja": "とても溶けにくい金属は、粉を固めて焼いて形にする",
-   "en": "Metals that are very hard to melt are shaped by pressing powder and baking it. (Added in O-012. Sources: Wikipedia \"Powder metallurgy\", \"Hot isostatic pressing\", ASME Landmark #103)"
+   "ja": "とても溶けにくい金属は、粉を固めて焼いて形にする（O-012 で追加。出典：",
+   "en": "Metals that are very hard to melt are shaped by pressing powder and baking it."
   },
   "1-72.hee2": {
    "ja": "車の歯車の多くは、鉄の粉を型で押して焼いた物で、削らなくてよい。"
@@ -1808,8 +1820,8 @@
    "en": "Coated steel sheet"
   },
   "1-73.hee1": {
-   "ja": "トタンの亜鉛は、自分が先にさびて中の鉄を守っている）",
-   "en": "The zinc on galvanized sheet rusts first itself, protecting the iron inside. (Added in O-012. Sources: Wikipedia \"Hot-dip galvanization\" \"Tinplate\", 1911 Encyclopædia Britannica \"Tin-plate and Terne-plate\", Galvanizers Association \"The potted history of galvanizing\" (https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Tin-plate_and_Terne-plate))"
+   "ja": "トタンの亜鉛は、自分が先にさびて中の鉄を守っている（O-012 で追加。出典：",
+   "en": "The zinc on galvanized sheet rusts first itself, protecting the iron inside."
   },
   "1-73.real": {
    "ja": "鉄の板の表面を、ほかの金属でおおってさびを防ぐ。錫をかぶせたブリキは中世のボヘミアで作られはじめ、1620年ごろザクセンへ広まり、1720年代にウェールズで大量に作られるようになった。1837年、フランスのスタニスラス・ソレルが、溶けた亜鉛に鉄をひたす亜鉛めっき（トタン）の特許を取った。亜鉛は鉄より先にさびて鉄を守る（犠牲防食）。缶詰の缶（ブリキ）や、屋根・バケツ（トタン）に使われる"
@@ -1819,8 +1831,8 @@
    "en": "Cemented carbide"
   },
   "1-74.hee1": {
-   "ja": "超硬合金の名前「ヴィディア」は、ドイツ語で「ダイヤモンドのような」という意味）",
-   "en": "The cemented carbide name \"Widia\" means \"like diamond\" in German. (Added in O-012. Sources: Wikipedia \"Cemented carbide\", \"Tungsten carbide\", Sandvik Coromant 'Celebrating 100 years of cemented carbide' / Mitsubishi Materials, history of cemented carbide (https://www.mmhm.co.jp/en/carbide/history.html))"
+   "ja": "超硬合金の名前「ヴィディア」は、ドイツ語で「ダイヤモンドのような」という意味（O-012 で追加。出典：",
+   "en": "The cemented carbide name \"Widia\" means \"like diamond\" in German."
   },
   "1-74.real": {
    "ja": "炭化タングステンの細かい粉をコバルトで焼き固めた、ダイヤモンドの次に近いほど硬い材料。1923年、ドイツのオスラム社のカール・シュレーターらが、電球のタングステン線を引くダイスの研究から作り、1926年にクルップ社が「ヴィディア」（ダイヤのような、の意味）として売り出した。旋盤やドリルの刃物を、ハイスよりさらに速く削れるようにした"
@@ -1830,8 +1842,8 @@
    "en": "Vacuum degassing"
   },
   "1-75.hee1": {
-   "ja": "溶けた鋼を真空に吸い上げると、中にかくれていた気体があわになって出てくる）",
-   "en": "Suck molten steel up into a vacuum, and the gas hidden inside comes out as bubbles (added in O-012. Sources: Wikipedia \"Vacuum degassing\", \"Secondary steelmaking\", AISE, The Making, Shaping and Treating of Steel (chapter on secondary refining))"
+   "ja": "溶けた鋼を真空に吸い上げると、中にかくれていた気体があわになって出てくる（O-012 で追加。出典：",
+   "en": "Suck molten steel up into a vacuum, and the gas hidden inside comes out as bubbles (added in O-012. Sources:"
   },
   "1-75.real": {
    "ja": "溶けた鋼を真空の容器に吸い上げて、溶けこんだ水素や窒素を抜く。鋼の中の水素は、あとで細かい割れ（水素割れ）の原因になる。1956年にドイツでドルトムント・ヘルデ法（DH 法）、1959年にルールシュタール社とヘレウス社の RH 法ができた。大きな鍛造品やレール、薄い鋼板の品質を上げる、転炉のあとの仕上げ（二次精錬）の中心"
@@ -1841,8 +1853,8 @@
    "en": "Direct reduced iron"
   },
   "1-76.hee1": {
-   "ja": "水素で鉄を作ると、煙突から出るのは二酸化炭素ではなく水になる）",
-   "en": "Make iron with hydrogen, and what comes out of the chimney is water, not carbon dioxide. (Added in O-012. Sources: Wikipedia \"Direct reduced iron\", Midrex Technologies \"It All Started in Portland… 50 Years Ago\", VDEh \"History of direct reduction\" (https://www.midrex.com/tech-article/it-all-started-in-portland-50-years-ago/))"
+   "ja": "水素で鉄を作ると、煙突から出るのは二酸化炭素ではなく水になる（O-012 で追加。出典：",
+   "en": "Make iron with hydrogen, and what comes out of the chimney is water, not carbon dioxide."
   },
   "1-76.real": {
    "ja": "高炉を使わず、鉄鉱石を溶かさないまま、天然ガスから作った水素と一酸化炭素で酸素を取って鉄にする（塊鉄炉と同じ「固体のまま還元」の考え）。1957年にメキシコで HYL 法、1969年にミドレックス法ができた。できた還元鉄はアーク炉（[3-15]）で溶かして鋼にする。2020年代には、電気分解（[6-01]）で作った水素だけで還元して、二酸化炭素を出さない製鉄が試されている（試験の段階）"
@@ -2363,7 +2375,7 @@
    "en": "Benzene"
   },
   "2-24.hee1": {
-   "ja": "1856 パーキンがタールからモーブ（初の合成染料）を作り、化学工業が始まった（枝 [B-xx] 候補）",
+   "ja": "1856 パーキンがタールからモーブ（初の合成染料）を作り、化学工業が始まった",
    "en": "In 1856 Perkin made mauve (the first synthetic dye) from tar, and the chemical industry began (candidate branch [B-xx])."
   },
   "2-24.hee2": {
@@ -2811,8 +2823,8 @@
    "en": "Light-curing resin"
   },
   "2-45.hee1": {
-   "ja": "チップの回路を描く樹脂と、3D プリンターの樹脂は同じしくみ （IMP-24 で追加、network_proposals N-6）",
-   "en": "The resin used to draw chip circuits and the resin in 3D printers work the same way. (Added in IMP-24, network_proposals N-6)"
+   "ja": "チップの回路を描く樹脂と、3D プリンターの樹脂は同じしくみ",
+   "en": "The resin used to draw chip circuits and the resin in 3D printers work the same way."
   },
   "2-45.hee2": {
    "ja": "手が3本の単量体を使うと、つながって固い網になる。"
@@ -2834,8 +2846,8 @@
    "en": "Transparent electrode ITO"
   },
   "2-46.hee1": {
-   "ja": "インジウムの名前は、炎の光を分けたときに見えた藍色（インディゴ）から付いた",
-   "en": "Indium is named after the indigo color seen when the light of its flame was split. (Added in S-003. Sources: RSC \"Indium\", USGS \"Mineral Commodity Summaries 2024: Indium\", Wikipedia \"Indium tin oxide\")"
+   "ja": "インジウムの名前は、炎の光を分けたときに見えた藍色（インディゴ）から付いた（S-003 で追加。出典：RSC「Indium」、USGS「Mineral Commodity Summaries 2024: Indium」",
+   "en": "Indium is named after the indigo color seen when the light of its flame was split."
   },
   "2-46.hee2": {
    "ja": "スマートフォンの画面を指でさわって動かせるのは、透明な電極があるから。"
@@ -2857,8 +2869,8 @@
    "en": "Chemically strengthened glass"
   },
   "2-47.hee1": {
-   "ja": "大きな原子を小さなすき間に押しこむと、ガラスの表面が締まって割れにくくなる",
-   "en": "Pushing big atoms into small gaps squeezes the glass surface tight and makes it harder to break. (Added in S-003. Sources: Corning \"Innovations\", WIRED \"The Glass That Saved Corning\", Wikipedia \"Chemically strengthened glass\")"
+   "ja": "大きな原子を小さなすき間に押しこむと、ガラスの表面が締まって割れにくくなる（S-003 で追加。出典：Corning「Innovations」、WIRED「The Glass That Saved Corning」",
+   "en": "Pushing big atoms into small gaps squeezes the glass surface tight and makes it harder to break."
   },
   "2-47.hee2": {
    "ja": "ガラスが割れるのは、引っぱる力でひびが広がるから。"
@@ -2907,7 +2919,7 @@
   },
   "2-49.hee1": {
    "ja": "冷蔵庫の壁の中には、小さな泡がぎっしり詰まったプラスチックが入っている",
-   "en": "Inside a refrigerator's walls is plastic packed with tiny bubbles. (Added in S-004. Sources: en.wikipedia.org, plasticstoday.com)"
+   "en": "Inside a refrigerator's walls is plastic packed with tiny bubbles."
   },
   "2-49.real": {
    "ja": "1937年、ドイツの IG ファルベンのオットー・バイエルの研究チームが、イソシアネートとアルコールの仲間（ポリオール）をつなげてポリウレタンを作った（11月13日に特許公開）。のちに、水とイソシアネートの反応で出る泡で膨らませる方法ができ、細かい泡に熱を伝えにくいガスを閉じこめた硬い断熱材になった。今の冷蔵庫の壁の中はほぼこれ。なお、オットー・バイエルは製薬会社バイエルの創業者の家族ではない"
@@ -2918,7 +2930,7 @@
   },
   "2-50.hee1": {
    "ja": "ペットボトルのふたのプラスチックは、金属の触媒の上で分子を1つずつつないで作っている",
-   "en": "The plastic in bottle caps is made by joining molecules one by one on a metal catalyst. (Added in O-008. Sources: Nobel Prize \"Chemistry 1963\", ACS \"Polypropylene and High-Density Polyethylene\")"
+   "en": "The plastic in bottle caps is made by joining molecules one by one on a metal catalyst."
   },
   "2-50.hee2": {
    "ja": "高圧で作るとやわらかいポリ袋、触媒で作ると硬いバケツになる。"
@@ -2940,8 +2952,8 @@
    "en": "Nylon"
   },
   "2-51.hee1": {
-   "ja": "ナイロンのストッキングが売り出された日、店には何千人もの行列ができた",
-   "en": "On the day nylon stockings went on sale, thousands of people lined up at the stores. (Added in O-010. Sources: Wikipedia \"National Historic Chemical Landmarks\", ACS \"Landmarks directory\")"
+   "ja": "ナイロンのストッキングが売り出された日、店には何千人もの行列ができた（O-010 で追加。出典：",
+   "en": "On the day nylon stockings went on sale, thousands of people lined up at the stores."
   },
   "2-51.hee2": {
    "ja": "「66」は、2つの原料の炭素の数（6と6）。"
@@ -2966,8 +2978,8 @@
    "en": "Boranes"
   },
   "2-52.hee1": {
-   "ja": "ジボランは空気にふれるだけで燃えるので、昔の化学者は空気を入れない装置を自分で作った）",
-   "en": "Diborane catches fire just by touching air, so chemists long ago built their own air-free apparatus (added in O-011. Sources: Nobel Prize \"Chemistry 1976\", Lipscomb Nobel Lecture 1976 (nobelprize.org) (https://www.nobelprize.org/uploads/2018/06/lipscomb-lecture.pdf))"
+   "ja": "ジボランは空気にふれるだけで燃えるので、昔の化学者は空気を入れない装置を自分で作った（O-011 で追加。出典：Nobel Prize「Chemistry 1976」、Lipscomb Nobel Lecture 1976 (nobelprize.org)",
+   "en": "Diborane catches fire just by touching air, so chemists long ago built their own air-free apparatus (added in O-011. Sources: Nobel Prize \"Chemistry 1976\", Lipscomb Nobel Lecture 1976 (nobelprize.org) ("
   },
   "2-52.real": {
    "ja": "ホウ素と水素だけでできた化合物。空気にふれると燃えるので、1912年からドイツのアルフレート・シュトックが空気を入れずに気体を扱うガラスの真空の装置を作って、初めて取り出した。1950年代、アメリカのウィリアム・リプスコムが、水素が2つのホウ素を同時につなぐ変わった結合（三中心結合、1943年にロンゲ＝ヒギンズらが提案）の考えを広げて、たくさんのボランの形を明らかにした（1976年ノーベル化学賞）。半導体工場では、ジボラン（B2H6）を p 型のドーパント（ホウ素）のガスとして、拡散や CVD の膜にホウ素を入れるのに使う"
@@ -2977,8 +2989,8 @@
    "en": "Catalytic cracking"
   },
   "2-53.hee1": {
-   "ja": "車のガソリンの多くは、原油の重い油を触媒の上で割って作っている",
-   "en": "Much of the gasoline in cars is made by breaking heavy crude oil apart over a catalyst. (Added in O-011. Sources: Wikipedia \"National Historic Chemical Landmarks\", ACS \"Landmarks directory\")"
+   "ja": "車のガソリンの多くは、原油の重い油を触媒の上で割って作っている（O-011 で追加。出典：",
+   "en": "Much of the gasoline in cars is made by breaking heavy crude oil apart over a catalyst."
   },
   "2-53.real": {
    "ja": "原油を蒸留したあとに残る重い油を、シリカとアルミナの触媒の上で熱して分子を割り、ガソリンにする。1936〜37年、フランス出身のウジェーヌ・ウードリーがアメリカのサン石油の工場で実用にし（ACS 化学遺産）、1942年には粉の触媒を流しながら使う流動接触分解がエッソのベイトンルージュの工場で動き出した。ノッキングしにくい（オクタン価の高い）ガソリンをたくさん作れるようになった"
@@ -2988,8 +3000,8 @@
    "en": "Chromatography"
   },
   "2-54.hee1": {
-   "ja": "クロマトグラフィーの名前は「色を書く」という意味。最初は植物の色素を色の帯に分けた",
-   "en": "The name chromatography means \"color writing.\" At first it separated plant pigments into bands of color. (Added in O-011. Sources: Nobel Prize \"Chemistry 1952\", Wikipedia \"National Historic Chemical Landmarks\")"
+   "ja": "クロマトグラフィーの名前は「色を書く」という意味。最初は植物の色素を色の帯に分けた（O-011 で追加。出典：Nobel Prize「Chemistry 1952」",
+   "en": "The name chromatography means \"color writing.\" At first it separated plant pigments into bands of color."
   },
   "2-54.hee2": {
    "ja": "くっつきやすさのちがいだけで、混ざった物が分かれる。"
@@ -3012,7 +3024,7 @@
   },
   "2-55.hee1": {
    "ja": "電気を通すプラスチックは、実験の材料の量のまちがいから生まれた",
-   "en": "Plastic that conducts electricity was born from a mistake in the amount of material used in an experiment. (Added in O-011. Sources: Nobel Prize \"Chemistry 2000\", WIPO Magazine 2020)"
+   "en": "Plastic that conducts electricity was born from a mistake in the amount of material used in an experiment."
   },
   "2-55.hee2": {
    "ja": "ヨウ素を加えると、電気の通りやすさが1億倍以上になった。"
@@ -3034,8 +3046,8 @@
    "en": "Automatic glass-forming machines"
   },
   "2-56.hee1": {
-   "ja": "電球のガラスの球は、1分に何百個も機械で吹いて作られるようになった（https://www.asme.org/about-asme/engineering-history/landmarks/81-corning-ribbon-machine））",
-   "en": "Glass bulbs for light bulbs came to be blown by machine, hundreds per minute (added in O-011. Sources: ASME Landmark #86 \"Owens AR Bottle Machine\", #81 \"Corning Ribbon Machine\", ASME Landmark #81 \"Corning Ribbon Machine\" (up to about 2000 per minute) (https://www.asme.org/about-asme/engineering-history/landmarks/81-corning-ribbon-machine))"
+   "ja": "電球のガラスの球は、1分に何百個も機械で吹いて作られるようになった",
+   "en": "Glass bulbs for light bulbs came to be blown by machine, hundreds per minute (added in O-011. Sources: ASME Landmark #86 \"Owens AR Bottle Machine\", #81 \"Corning Ribbon Machine\", ASME Landmark #81 \"Corning Ribbon Machine\" (up to about 2000 per minute) ("
   },
   "2-56.hee2": {
    "ja": "人の息と手の仕事が、真空・圧縮空気・型に置きかわった。"
@@ -3160,7 +3172,7 @@
    "ja": "危険物の表示"
   },
   "2-62.hee1": {
-   "ja": "トラックの後ろの4けたの数字は、世界中どこでも同じ物を指す国連番号 https://digitallibrary.un.org/record/760697 、ドイツ連邦環境庁「GHS」 https://www.umweltbundesamt.de/en/node/3620 、欧州労働安全衛生機関「CLP 規則」 https://osha.europa.eu/en/legislation/directives/regulation-ec-no-1272-2008-classification-labelling-and-packaging-of-substances-and-mixtures 、亜留間次郎さん（Arumaddilo）が作った Wikipedia 日本語版「ハザードシンボル」 https://ja.wikipedia.org/wiki/%E3%83%8F%E3%82%B6%E3%83%BC%E3%83%89%E3%82%B7%E3%83%B3%E3%83%9C%E3%83%AB 、亜留間次郎さん（Arumaddilo）が作った Wikipedia 日本語版「リスクフレーズ」 https://ja.wikipedia.org/wiki/%E3%83%AA%E3%82%B9%E3%82%AF%E3%83%95%E3%83%AC%E3%83%BC%E3%82%BA 、亜留間次郎さん（Arumaddilo）が作った Wikipedia 日本語版「セーフティフレーズ」 https://ja.wikipedia.org/wiki/%E3%82%BB%E3%83%BC%E3%83%95%E3%83%86%E3%82%A3%E3%83%95%E3%83%AC%E3%83%BC%E3%82%BA 、亜留間次郎さん（Arumaddilo）が作った Wikipedia 日本語版「国連番号」 https://ja.wikipedia.org/wiki/%E5%9B%BD%E9%80%A3%E7%95%AA%E5%8F%B7 、亜留間次郎さん（Arumaddilo）が作った Wikipedia 日本語版「危険物質指令」 https://ja.wikipedia.org/wiki/%E5%8D%B1%E9%99%BA%E7%89%A9%E8%B3%AA%E6%8C%87%E4%BB%A4 ）"
+   "ja": "トラックの後ろの4けたの数字は、世界中どこでも同じ物を指す国連番号"
   },
   "2-62.real": {
    "ja": "国によって薬品の呼び方や分け方がばらばらで、船や列車で運ぶときに事故が起きていた。国連の専門家委員会は1956年、危ない物に4けたの「国連番号」を付ける勧告を出した。ヨーロッパでは1967年の危険物質指令（67/548/EEC）から、オレンジ色の四角い絵（ハザードシンボル）と、危険を説明する文（R＝リスクフレーズ）・安全の注意の文（S＝セーフティフレーズ）で知らせた。2003年に世界共通の GHS ができ、赤いふちのひし形の絵と H・P の文に変わった（EU は 2015年に切り替え）"
@@ -3169,7 +3181,7 @@
    "ja": "ザイロン"
   },
   "2-63.hee1": {
-   "ja": "火星探査機のパラシュートのひもにも使われた、とてもじょうぶな糸が作った Wikipedia 日本語版「ザイロン」 https://ja.wikipedia.org/wiki/%E3%82%B6%E3%82%A4%E3%83%AD%E3%83%B3 ）"
+   "ja": "火星探査機のパラシュートのひもにも使われた、とてもじょうぶな糸（S-019 で追加。出典：SRI「75 years of innovation: Zylon」"
   },
   "2-63.real": {
    "ja": "棒のようにまっすぐな分子が並んだ合成繊維（PBO）。1980年代にアメリカの SRI インターナショナルで作られ、1998年に日本の東洋紡が「ザイロン」の名前で作り始めた。引っぱる強さはケブラーの約1.6倍で、650℃まで分解しにくく燃えにくい。日光や湿気には弱い"
@@ -3178,7 +3190,7 @@
    "ja": "フッ素ゴム"
   },
   "2-64.hee1": {
-   "ja": "フライパンのテフロンの親せき。フッ素の力で熱と油に強くなったゴムが作った Wikipedia 日本語版「FKM」 https://ja.wikipedia.org/wiki/FKM ）"
+   "ja": "フライパンのテフロンの親せき。フッ素の力で熱と油に強くなったゴム（S-019 で追加。出典：ChemPoint「Chemours Viton fluoroelastomers」"
   },
   "2-64.hee2": {
    "ja": "CF3 の出っぱりが鎖をきれいに並ばせないので、プラスチックでなくゴムになる。"
@@ -3199,7 +3211,7 @@
    "ja": "アマニ油とワニス"
   },
   "2-65.hee1": {
-   "ja": "アマニ油をしみこませた布は自然に燃えることがある"
+   "ja": "アマニ油をしみこませた布は自然に燃えることがある（出典："
   },
   "2-65.hee2": {
    "ja": "油絵の具は、顔料をアマニ油でねった物。"
@@ -3220,7 +3232,7 @@
    "ja": "すすと印刷のインク"
   },
   "2-66.hee1": {
-   "ja": "活字のインクが水でなく油なのは、金属にはじかれないため"
+   "ja": "活字のインクが水でなく油なのは、金属にはじかれないため（出典："
   },
   "2-66.hee2": {
    "ja": "日本の墨は、油煙か松煙のすすを、にかわでかためた物。"
@@ -3512,8 +3524,8 @@
    "en": "Induction furnace"
   },
   "3-14.hee1": {
-   "ja": "IH 調理器と同じ原理。CHEMISTRY #142",
-   "en": "Same principle as an induction (IH) cooktop. CHEMISTRY #142"
+   "ja": "IH 調理器と同じ原理。",
+   "en": "Same principle as an induction (IH) cooktop."
   },
   "3-14.hee2": {
    "ja": "左：ゲルマニウム（最大8）。中央：黒鉛ボート（減らない。粘土黒鉛＝9Nまで、人造黒鉛＝10Nまで）。右：ドーパント。電気で動く：組み込みの高周波発振器が 3kW を使う（電気がないと止まる）。1回30秒。"
@@ -3608,8 +3620,8 @@
    "en": "Heat pipe"
   },
   "3-21.hee1": {
-   "ja": "中は真空で少しの水しか入っていないので、体温くらいでも水が沸いて熱を運ぶ",
-   "en": "Inside is a vacuum with only a little water, so the water boils even at about body temperature and carries heat (added in S-002. Sources: Wikipedia \"Heat pipe\", C&R Technologies \"Two-Phase Musing\")"
+   "ja": "中は真空で少しの水しか入っていないので、体温くらいでも水が沸いて熱を運ぶ（S-002 で追加。出典：",
+   "en": "Inside is a vacuum with only a little water, so the water boils even at about body temperature and carries heat (added in S-002. Sources:"
   },
   "3-21.real": {
    "ja": "管の中の少しの液体が、熱い側で蒸発し、冷たい側で凝縮して、細い芯（ウィック）を伝って戻ってくることで熱を運ぶ。1942年にゼネラルモーターズのゴーグラーが考えた（特許1944年）が使われず、1963年にロスアラモスのジョージ・グローバーが知らずに再発明して「ヒートパイプ」と名づけた。1960年代後半に NASA が人工衛星で育て、今はノートパソコンの CPU の熱を銅の管でファンまで運ぶ"
@@ -3620,7 +3632,7 @@
   },
   "3-22.hee1": {
    "ja": "冷蔵庫は冷たさを作る機械ではなく、中の熱を外へくみ出す「熱のポンプ」",
-   "en": "A refrigerator is not a machine that makes cold; it is a \"heat pump\" that pumps the heat inside out. (Added in S-004. Sources: asme.org, en.wikipedia.org)"
+   "en": "A refrigerator is not a machine that makes cold; it is a \"heat pump\" that pumps the heat inside out."
   },
   "3-22.hee2": {
    "ja": "アルコールをぬったら冷たく感じるのと同じ「気化熱」を使っている。"
@@ -3646,7 +3658,7 @@
   },
   "3-23.hee1": {
    "ja": "エアコンの暖房は、冬の冷たい外の空気からも熱を集めて部屋に運んでいる",
-   "en": "An air conditioner's heating gathers heat even from the cold outside air in winter and carries it into the room. (Added in S-004. Sources: en.wikipedia.org, austria-forum.org)"
+   "en": "An air conditioner's heating gathers heat even from the cold outside air in winter and carries it into the room."
   },
   "3-23.real": {
    "ja": "1852年にケルビン卿（ウィリアム・トムソン）が、冷凍機を逆向きに使えば暖めるのにも使えると理論で示した。1856年、オーストリアの鉱山技師ペーター・フォン・リッティンガーが、エーベンゼーの塩の工場で、湯気の熱をくり返し使って塩水を煮つめる装置を作り始めた（真水ではうまく動いたが塩水では失敗し、1858年にやめた）。暖房のときは外の冷たい空気からも熱を集めて部屋へ運ぶので、使う電気より多くの熱を出せる。今のエアコンは四方弁で冷媒の向きを変えて冷房と暖房を切り替える"
@@ -3657,7 +3669,7 @@
   },
   "3-24.hee1": {
    "ja": "トースターの赤く光る線は、真っ赤になっても燃えつきないように、ニッケルとクロムを混ぜた特別な金属でできている。",
-   "en": "The glowing red wires in a toaster are made of a special metal mixing nickel and chromium, so they do not burn out even when red hot. (Added in S-004. Sources: en.wikipedia.org, en.wikipedia.org, hagley.org)"
+   "en": "The glowing red wires in a toaster are made of a special metal mixing nickel and chromium, so they do not burn out even when red hot."
   },
   "3-24.hee2": {
    "ja": "それまでの鉄の線は、熱くするとすぐ酸化して切れた。"
@@ -3696,7 +3708,7 @@
    "ja": "焼結アルミナのセラミックス"
   },
   "3-26.hee1": {
-   "ja": "点火プラグの白い部分はアルミナの焼き物"
+   "ja": "点火プラグの白い部分はアルミナの焼き物（出典："
   },
   "3-26.hee2": {
    "ja": "焼くと体積が約2割ちぢむ。"
@@ -3820,7 +3832,7 @@
    "ja": "1860年代の永久磁石は弱く、磁石式の発電機はエンジンの力の一部しか電気にできなかった。電磁石の界磁で大きな発電機が作れるようになった（ヴァーリーは1866年12月に特許を出願し、ホイートストンも1867年1月にジーメンスと同じ日に王立協会で発表した）。エネルギー保存は守られる：電気を2倍出すには蒸気も2倍いる。"
   },
   "4-05.real": {
-   "ja": "1866年12月 ヴァーリーが特許出願、1867年1月 ジーメンスとホイートストンが王立協会で発表（ほぼ同時）。鉄心の残留磁気で自分を励磁、永久磁石不要。鉄に残ったほんの少しの磁気で小さな電気を作り、それを自分の電磁石に流して磁場を強めるくり返しで強くなる。ジーメンス・ホイートストン・ヴァーリーが1866〜1867年にほぼ同時に別々に発表した ⚠️が作った Wikipedia 日本語版「自己励起発電機」 https://ja.wikipedia.org/wiki/%E8%87%AA%E5%B7%B1%E5%8A%B1%E8%B5%B7%E7%99%BA%E9%9B%BB%E6%A9%9F ）"
+   "ja": "1866年12月 ヴァーリーが特許出願、1867年1月 ジーメンスとホイートストンが王立協会で発表（ほぼ同時）。鉄心の残留磁気で自分を励磁、永久磁石不要。鉄に残ったほんの少しの磁気で小さな電気を作り、それを自分の電磁石に流して磁場を強めるくり返しで強くなる。ジーメンス・ホイートストン・ヴァーリーが1866〜1867年にほぼ同時に別々に発表した ⚠️"
   },
   "4-06.name": {
    "ja": "蒸気タービン",
@@ -3943,7 +3955,7 @@
    "ja": "日本は東が 50Hz（ドイツ製の発電機）、西が 60Hz（アメリカ製）。ゲームは周波数を扱わない（決定 S-007）。"
   },
   "4-11.real": {
-   "ja": "交流→直流。1902年 クーパー・ヒューイットの水銀整流器が最初の電力用の静止形整流器（真空管の整流器はフレミングの二極管 1904）。電解・イオン注入の高電圧直流に必要。真空管を使わない整流器もある。銅の板を熱して表面に酸化銅の層を作ると電流が一方向にだけ流れやすくなることを、鉄道信号の会社のグロンダールが見つけた（発表1926年）。電池の充電器や露出計に使われた、半導体の性質を使った早い実用部品 ⚠️が作った Wikipedia 日本語版「酸化銅整流器」 https://ja.wikipedia.org/wiki/%E9%85%B8%E5%8C%96%E9%8A%85%E6%95%B4%E6%B5%81%E5%99%A8 ）"
+   "ja": "交流→直流。1902年 クーパー・ヒューイットの水銀整流器が最初の電力用の静止形整流器（真空管の整流器はフレミングの二極管 1904）。電解・イオン注入の高電圧直流に必要。真空管を使わない整流器もある。銅の板を熱して表面に酸化銅の層を作ると電流が一方向にだけ流れやすくなることを、鉄道信号の会社のグロンダールが見つけた（発表1926年）。電池の充電器や露出計に使われた、半導体の性質を使った早い実用部品 ⚠️"
   },
   "4-12.name": {
    "ja": "電気炉",
@@ -4016,8 +4028,8 @@
    "en": "Lithium-ion battery"
   },
   "4-15.hee1": {
-   "ja": "充電とは、リチウムのイオンを黒鉛のすき間にしまい込むこと （IMP-24 で追加、network_proposals N-3）",
-   "en": "Charging means tucking lithium ions into the gaps in graphite. (Added in IMP-24, network_proposals N-3)"
+   "ja": "充電とは、リチウムのイオンを黒鉛のすき間にしまい込むこと",
+   "en": "Charging means tucking lithium ions into the gaps in graphite."
   },
   "4-15.hee2": {
    "ja": "LiFePO4 は電気をほとんど通さないが、粒を小さくして炭素でおおうと使えるようになった。"
@@ -4039,8 +4051,8 @@
    "en": "Arc lamp"
   },
   "4-16.hee1": {
-   "ja": "電気の明かりは、電球より先に「火花」で始まった （IMP-24 で追加、network_proposals N-9）",
-   "en": "Electric light began with \"sparks\", before the light bulb. (Added in IMP-24, network_proposals N-9)"
+   "ja": "電気の明かりは、電球より先に「火花」で始まった",
+   "en": "Electric light began with \"sparks\", before the light bulb."
   },
   "4-16.hee2": {
    "ja": "とても明るいので、部屋の中では明るすぎた。家の明かりは電球が勝った。"
@@ -4062,8 +4074,8 @@
    "en": "Stepper motor"
   },
   "4-17.hee1": {
-   "ja": "電気を1回送るたびに、カチッと決まった角度だけ回る",
-   "en": "Each time you send a pulse of electricity, it turns by exactly a set angle, click (added in S-001. Sources: Nidec \"History of the Motor\", Wikipedia \"Marius Lavet\")"
+   "ja": "電気を1回送るたびに、カチッと決まった角度だけ回る（S-001 で追加。出典：Nidec「History of the Motor」",
+   "en": "Each time you send a pulse of electricity, it turns by exactly a set angle, click (added in S-001. Sources: Nidec \"History of the Motor\","
   },
   "4-17.real": {
    "ja": "電気のパルスを1回送るごとに決まった角度だけ回るモーター。数を数えるだけで回った角度が分かるので、位置を決めるのに使う（3Dプリンター・プリンター・工作機械）。1919年にイギリスのC・L・ウォーカーが可変リラクタンス型の特許を取り、1936年にマリウス・ラヴェ（フランス）が時計用の原理を考えたとされ、工業的な生産は1950年ごろから ⚠️"
@@ -4073,8 +4085,8 @@
    "en": "Electric fan"
   },
   "4-18.hee1": {
-   "ja": "最初の電気扇風機は、モーターにプロペラを付けただけだった",
-   "en": "The first electric fan was just a motor with a propeller on it. (Added in S-002. Sources: Wikipedia \"Schuyler Wheeler\", ETHW \"Schuyler Wheeler\")"
+   "ja": "最初の電気扇風機は、モーターにプロペラを付けただけだった（S-002 で追加。出典：",
+   "en": "The first electric fan was just a motor with a propeller on it."
   },
   "4-18.hee2": {
    "ja": "冷却ファンは機械を速くするのではなく、熱で止まったり早く壊れたりしないようにする物。"
@@ -4096,8 +4108,8 @@
    "en": "Switching power supply"
   },
   "4-19.hee1": {
-   "ja": "スマホの充電器が小さいのは、電気を1秒に何万回も入れたり切ったりして変圧器を小さくしているから",
-   "en": "Phone chargers are small because they switch the electricity on and off tens of thousands of times a second, which lets the transformer be small. (Added in S-002. Sources: righto.com \"Apple didn't revolutionize power supplies\", Wikipedia \"Switched-mode power supply\")"
+   "ja": "スマホの充電器が小さいのは、電気を1秒に何万回も入れたり切ったりして変圧器を小さくしているから（S-002 で追加。出典：righto.com「Apple didn't revolutionize power supplies」",
+   "en": "Phone chargers are small because they switch the electricity on and off tens of thousands of times a second, which lets the transformer be small."
   },
   "4-19.real": {
    "ja": "コンセントの交流を直流に直し、トランジスタで1秒に何万回もオン・オフして小さな変圧器で電圧を下げ、また直流に整える電源。オン・オフを速くすると変圧器が小さく軽くなり、熱で捨てる電気も減る。1960年代後半〜1970年代半ばに、速く大電流をさばけるトランジスタが安くなってコンピュータに広まった（1969年の DEC PDP-11/20 など）。特定の発明者はいない（[9-41] パワー半導体の年 1980 との関係は proposals Y-4）"
@@ -4107,8 +4119,8 @@
    "en": "Vibration motor"
   },
   "4-20.hee1": {
-   "ja": "おもりが片側にだけ付いているから、回ると本体ごとブルブルゆれる",
-   "en": "The weight is attached on only one side, so when it spins the whole device shakes. (Added in S-003. Sources: Google Patents US4794392, Wikipedia \"Vibrating alert\")"
+   "ja": "おもりが片側にだけ付いているから、回ると本体ごとブルブルゆれる（S-003 で追加。出典：",
+   "en": "The weight is attached on only one side, so when it spins the whole device shakes."
   },
   "4-20.real": {
    "ja": "小さな直流モーターの軸に、片寄ったおもり（重いタングステン合金が多い）を付けて回すと、重心がぐるぐる回って本体ごとゆれる。ポケットベルで音の代わりに知らせる「バイブ」として広まり（1970年代の特許があるが、広まった年は資料で揺れる ⚠️）、携帯電話にも入った。今のスマホは、ばねに付けたおもりを電磁石で前後にゆらす方式（リニア振動アクチュエータ）が多い"
@@ -4130,7 +4142,7 @@
   },
   "4-22.hee1": {
    "ja": "誘導モーターの回る部分には電線がつながっていないのに、見えない『回る磁石』に引っぱられて回っている。",
-   "en": "No wires are connected to the spinning part of an induction motor, yet it turns, pulled by an invisible \"rotating magnet\". (Added in S-004. Sources: ethw.org, en.wikipedia.org, patents.google.com)"
+   "en": "No wires are connected to the spinning part of an induction motor, yet it turns, pulled by an invisible \"rotating magnet\"."
   },
   "4-22.real": {
    "ja": "向きの違う2組のコイルに、タイミング（位相）をずらした交流を流すと、磁石の向きがくるくる回る『回転磁界』ができる。中の金属の筒（かご形の回転子）には電磁誘導で電流が流れ、磁界に引っぱられて回る。ブラシ（こすれる接点）がいらず丈夫なので、扇風機・洗濯機・工場・エレベーターの主役になった。イタリアのガリレオ・フェラリスが1885年に考え1888年3月にトリノ科学アカデミーで発表、ニコラ・テスラも同じ1888年5月1日に特許を取った。どちらが先かは今も議論がある"
@@ -4147,7 +4159,7 @@
   },
   "4-23.hee1": {
    "ja": "エアコンの室内機の中には、ちくわのような細長い羽根車が入っていて、横に広い風を出している。",
-   "en": "Inside an air conditioner's indoor unit is a long, thin impeller shaped like a chikuwa tube, which blows a wide sheet of air. (Added in S-004. Sources: patents.google.com, research.unipd.it)"
+   "en": "Inside an air conditioner's indoor unit is a long, thin impeller shaped like a chikuwa tube, which blows a wide sheet of air."
   },
   "4-23.real": {
    "ja": "細長い円筒のまわりに小さな曲がった羽根をたくさん並べた羽根車で、空気は筒の横から入り、筒の中を横切って反対側から出る。筒の中にできる渦がこの流れを助ける。長さをのばせば幅の広い平たい風が作れるので、タワーファンやエアコンの室内機の中に使われている。フランスのポール・モルティエが鉱山の換気用に考えた（1891年・1892年と書く資料もある）。今も設計は経験にたよる部分が多い"
@@ -4158,7 +4170,7 @@
   },
   "4-24.hee1": {
    "ja": "羽根のない扇風機は、本当は台の中に羽根があり、輪から出る風がまわりの空気を引っぱって何倍にもふやしている。",
-   "en": "A bladeless fan actually has blades inside its base, and the air coming out of the ring pulls the surrounding air along, multiplying the flow many times. (Added in S-004. Sources: designingbuildings.co.uk, arxiv.org)"
+   "en": "A bladeless fan actually has blades inside its base, and the air coming out of the ring pulls the surrounding air along, multiplying the flow many times."
   },
   "4-24.real": {
    "ja": "台の中のモーターと羽根車で空気を吸い、輪っかの中の細いすき間から薄く速く吹き出す。輪の断面は飛行機の翼のような形で、吹き出した風がその面に沿って流れ（コアンダ効果）、輪の後ろやまわりの空気を引きこんで前へ送る。羽根が見えないので指を入れても安全で、風のむらも少ない。輪にすき間のある羽根のない扇風機の考えは1981年に日本の東京芝浦電気（今の東芝）が特許を出していたが、製品にしたのは2009年のダイソン"
@@ -4168,8 +4180,8 @@
    "en": "Regenerative braking"
   },
   "4-25.hee1": {
-   "ja": "電気自動車はブレーキをかけると、そのとき作った電気で電池を少し充電できる。）",
-   "en": "When an electric car brakes, it can recharge its battery a little with the electricity made at that moment. (added in S-004. Sources: en.wikipedia.org, en.wikipedia.org, Science Museum Group \"Electric brougham motor car (Kriéger, 1904)\", Grace's Guide \"J. S. Raworth\" (https://collection.sciencemuseumgroup.org.uk/objects/co8038670/electric-brougham-motor-car-electric))"
+   "ja": "電気自動車はブレーキをかけると、そのとき作った電気で電池を少し充電できる。（S-004 で追加。出典：en.wikipedia.org、en.wikipedia.org、Science Museum Group「Electric brougham motor car (Kriéger, 1904)」・Grace's Guide「J. S. Raworth」",
+   "en": "When an electric car brakes, it can recharge its battery a little with the electricity made at that moment. (added in S-004. Sources: en.wikipedia.org, en.wikipedia.org, Science Museum Group \"Electric brougham motor car (Kriéger, 1904)\", Grace's Guide \"J. S. Raworth\" ("
   },
   "4-25.real": {
    "ja": "モーターは回されると発電機になる。減速するときにモーターで発電して、動く力を電気として電池や架線に戻すのが回生ブレーキ。1890年代のパリでルイ・アントワーヌ・クリエジェが、前輪ごとのモーターに回生用の巻線を付けた電気自動車を作った（始めた年は1894年と1897年の説がある）。路面電車では1903〜08年にレイワースの特許で広まった"
@@ -4180,7 +4192,7 @@
   },
   "4-26.hee1": {
    "ja": "急速充電では、充電器と車が話し合いながら「今はこれくらいの電流」と決めている。",
-   "en": "In fast charging, the charger and the car talk to each other and decide \"this much current right now\". (Added in S-004. Sources: en.wikipedia.org, www4.tepco.co.jp)"
+   "en": "In fast charging, the charger and the car talk to each other and decide \"this much current right now\"."
   },
   "4-26.real": {
    "ja": "家のコンセントの交流は車の中の充電器で直流にするが、急速充電は外の大きな機械が直流を直接電池に入れる。東京電力が自動車会社と2006〜2009年に実験した方式をもとに、2010年3月に CHAdeMO 協議会ができた（会社名は歴史の例）。第1世代は最大 500V・125A。車と充電器が通信して、電池の状態に合わせて電流を決める。世界には CCS など別の規格もある"
@@ -4190,8 +4202,8 @@
    "en": "Induction coil"
   },
   "4-27.hee1": {
-   "ja": "電池1つから、雷のような何万ボルトの火花を作れる",
-   "en": "From a single battery it can make lightning-like sparks of tens of thousands of volts. (Added in O-006. Sources: IEEE Milestones \"Callan's Pioneering Contributions 1836\", Wikipedia \"Induction coil\")"
+   "ja": "電池1つから、雷のような何万ボルトの火花を作れる（O-006 で追加。出典：IEEE Milestones「Callan's Pioneering Contributions 1836」",
+   "en": "From a single battery it can make lightning-like sparks of tens of thousands of volts."
   },
   "4-27.real": {
    "ja": "鉄心に、太い線を少し巻いた一次コイルと、細い線をたくさん巻いた二次コイルを重ね、一次の電流を断続器で何度も急に切ると、電磁誘導で二次側に何万ボルトもの高い電圧が出て火花が飛ぶ。1836年、アイルランドのメイヌースの司祭で科学者のニコラス・カランが最初の誘導コイルを作り（IEEE マイルストーン）、同じころアメリカのチャールズ・グラフトン・ペイジも独立に作った。1851年ごろハインリッヒ・ルームコルフが改良して売り出し、実験室に広まった。ヘルツの電波の実験（[15-06]）やレントゲンの X 線の発見（[B-03]）の火花・放電はこれで作った"
@@ -4201,8 +4213,8 @@
    "en": "Dry cell battery"
   },
   "4-28.hee1": {
-   "ja": "「乾」電池でも中は完全に乾いているわけではなく、しめったペーストが入っている（https://www.acs.org/education/whatischemistry/landmarks/drycellbattery.html））",
-   "en": "Even a \"dry\" cell is not completely dry inside; it holds a damp paste. (Added in O-009. Sources: ACS \"Columbia Dry Cell Battery\", ACS \"Columbia Dry Cell Battery\" (chemical landmark) (https://www.acs.org/education/whatischemistry/landmarks/drycellbattery.html))"
+   "ja": "「乾」電池でも中は完全に乾いているわけではなく、しめったペーストが入っている",
+   "en": "Even a \"dry\" cell is not completely dry inside; it holds a damp paste."
   },
   "4-28.hee2": {
    "ja": "二酸化マンガンは「減極剤」：水素の泡がたまって電気が弱くなるのを防ぐ。"
@@ -4235,8 +4247,8 @@
    "en": "Three-phase AC transmission"
   },
   "4-30.hee1": {
-   "ja": "電柱の上の電線が3本ずつ並んでいるのは、三相交流だから",
-   "en": "Power lines on utility poles come in sets of three because they carry three-phase AC. (Added in O-011. Sources: IEEE Milestones \"Rotating Fields and Early Induction Motors\", Wikipedia \"Mikhail Dolivo-Dobrovolsky\")"
+   "ja": "電柱の上の電線が3本ずつ並んでいるのは、三相交流だから（O-011 で追加。出典：IEEE Milestones「Rotating Fields and Early Induction Motors」",
+   "en": "Power lines on utility poles come in sets of three because they carry three-phase AC."
   },
   "4-30.real": {
    "ja": "3本の電線に少しずつずれた交流を流すと、モーターの中に回る磁界ができ（[4-22]）、同じ太さの電線で多くの電気を送れる。1891年、ドイツの AEG のミハイル・ドリヴォ＝ドブロヴォルスキーとオスカー・フォン・ミラーらが、ラウフェンからフランクフルトまで約175km、変圧器で電圧を上げて三相交流を送った（IEEE マイルストーン）。回転磁界を考えたフェラリスは特許を取らずに公開していた。今の発電所から家までの送電と、工場のモーターのほとんどは三相交流"
@@ -4246,8 +4258,8 @@
    "en": "Nuclear power"
   },
   "4-31.hee1": {
-   "ja": "最初の原子力発電がともしたのは、4つの電球だった ⚠️",
-   "en": "The first nuclear power lit up four light bulbs ⚠️ (Added in O-011. Sources: ASME Landmark #39 \"EBR-I\", ASME Landmark #47 \"Shippingport\", Wikipedia \"Nuclear power\")"
+   "ja": "最初の原子力発電がともしたのは、4つの電球だった ⚠️（O-011 で追加。出典：ASME Landmark #39「EBR-I」、ASME Landmark #47「Shippingport」",
+   "en": "The first nuclear power lit up four light bulbs ⚠️"
   },
   "4-31.real": {
    "ja": "ウランの原子核が分かれる（核分裂）ときに出る熱で水を沸かし、そこから先はふつうの蒸気発電と同じように蒸気タービンで発電機を回す。1951年12月20日、アメリカのアイダホ州の実験炉 EBR-I が初めて原子力で電気を作り、電球をともした（ASME ランドマーク #39）。1957年にはペンシルベニア州のシッピングポートで本格的な規模の原子力発電所が動いた（ASME ランドマーク #47）。二酸化炭素を出さずに大きな電気を作れる一方、1979年のスリーマイル島、1986年のチェルノブイリ、2011年の福島第一の事故があり、事故への備えと、使い終わった燃料の処分が大きな課題になっている"
@@ -4258,7 +4270,7 @@
   },
   "4-32.hee1": {
    "ja": "海の底のケーブルで遠くへ電気を送るときは、交流より直流の方がむだが少ない",
-   "en": "When sending electricity far through cables on the sea floor, direct current wastes less than alternating current. (Added in O-011. Sources: IEEE Milestones \"Gotland High Voltage Direct Current Link, 1954\", ETHW \"Uno Lamm\")"
+   "en": "When sending electricity far through cables on the sea floor, direct current wastes less than alternating current."
   },
   "4-32.real": {
    "ja": "交流を直流に変えて送り、向こう側でまた交流にもどす送電。長い海底ケーブルでは交流よりむだが少ない。スウェーデンの ASEA のウノ・ラムが25年かけて大きな電力を扱える水銀アークバルブを作り、1954年、本土とゴットランド島の間を約96km の海底ケーブルでつなぎ、20MW・100kV の直流送電を始めた（IEEE マイルストーン）。1970年には半導体のサイリスタのバルブが加わった。今は遠くの大きな発電所や海の上の風力発電所と町を結ぶのに使われる"
@@ -4268,8 +4280,8 @@
    "en": "Water turbine"
   },
   "4-33.hee1": {
-   "ja": "水力発電所の水車は、昔の木の水車とはちがう、金属の羽根車のタービン",
-   "en": "The wheel in a hydroelectric plant is not an old wooden water wheel but a turbine with metal blades (added in O-011. Sources: ASME Landmark #57 \"Kaplan Turbine\", #157 \"Pelton Waterwheel\", Wikipedia \"Water turbine\")"
+   "ja": "水力発電所の水車は、昔の木の水車とはちがう、金属の羽根車のタービン（O-011 で追加。出典：ASME Landmark #57「Kaplan Turbine」・#157「Pelton Waterwheel」",
+   "en": "The wheel in a hydroelectric plant is not an old wooden water wheel but a turbine with metal blades (added in O-011. Sources: ASME Landmark #57 \"Kaplan Turbine\", #157 \"Pelton Waterwheel\","
   },
   "4-33.real": {
    "ja": "昔の水車より速く回り、水の力をむだなく取り出せる羽根車の水車。1827年にフランスのブノワ・フルネロンが最初の実用的な水車タービンを作り、1849年にアメリカのジェームズ・フランシスが今も一番多く使われるフランシス水車を、1880年ごろレスター・ペルトンが高い所から落ちる細い水の勢いで回すペルトン水車を（ASME ランドマーク #157）、1913年にオーストリアのヴィクトール・カプランが羽根の角度を変えられるカプラン水車を考えた（ASME ランドマーク #57）。水力発電所の発電機（[4-01]）を回すのはこのタービン水車"
@@ -4335,7 +4347,7 @@
    "ja": "NaS 電池"
   },
   "4-37.hee1": {
-   "ja": "中身がアツアツにとけている電池。300℃に保ったまま、電気の貯金箱として働く https://gov-online.go.jp/eng/publicity/book/hlj/html/201707/201707_07_en.html 、亜留間次郎さん（Arumaddilo）が作った Wikipedia 日本語版「溶融塩電池」 https://ja.wikipedia.org/wiki/%E6%BA%B6%E8%9E%8D%E5%A1%A9%E9%9B%BB%E6%B1%A0 、Wikipedia 日本語版「ナトリウム・硫黄電池」 https://ja.wikipedia.org/wiki/%E3%83%8A%E3%83%88%E3%83%AA%E3%82%A6%E3%83%A0%E3%83%BB%E7%A1%AB%E9%BB%84%E9%9B%BB%E6%B1%A0 ）"
+   "ja": "中身がアツアツにとけている電池。300℃に保ったまま、電気の貯金箱として働く（S-019 で追加。出典：米国特許 US3413150A"
   },
   "4-37.real": {
    "ja": "とけたナトリウムととけた硫黄を、ナトリウムのイオンだけを通すセラミック（ベータアルミナ）の管で仕切った電池で、約300℃で動く（溶融塩電池のなかま）。アメリカのフォード社が1966年に発表し、日本では日本ガイシと東京電力が1984年から開発して、2002年に送電網用に実用化した。昼と夜の電気のならしや、太陽・風の電気の調整に使われる。塩化ニッケルを使う ZEBRA 電池もなかま"
@@ -4381,7 +4393,7 @@
    "ja": "ド・フォレストの最初のオーディオンは中にガスが残った「軟真空管」で、動きが不安定だった。ラングミュアとアーノルド（1913頃）が高真空（約 10⁻⁴ Pa）なら安定すると示し、拡散ポンプとゲッターが必要になった（管の内側の銀色の膜が、残りのガスを食べたゲッター）。"
   },
   "5-02.real": {
-   "ja": "1904 フレミング二極管（熱した陰極から電子が出るエジソン効果を整流に利用）、1906 ド・フォレストのオーディオン（三極管＝網状のグリッドで電流を制御、増幅できる）。1913頃 ラングミュアとアーノルドが「高真空でないと安定しない」と示した。1914 ラングミュアのトリウム入りW フィラメント（Th はモナザイト[1-19]から）⚠️。1906年、リー・ド・フォレスト（1873〜1961）は真空管の中のフィラメントと板の間にジグザグの線（グリッド）を入れたオーディオン管を作った。小さな電気で大きな電流を変えられる三極管の始まりで、1912年ごろから声を大きくする増幅器として使われた ⚠️が作った Wikipedia 日本語版「オーディオン管」 https://ja.wikipedia.org/wiki/%E3%82%AA%E3%83%BC%E3%83%87%E3%82%A3%E3%82%AA%E3%83%B3%E7%AE%A1 ）"
+   "ja": "1904 フレミング二極管（熱した陰極から電子が出るエジソン効果を整流に利用）、1906 ド・フォレストのオーディオン（三極管＝網状のグリッドで電流を制御、増幅できる）。1913頃 ラングミュアとアーノルドが「高真空でないと安定しない」と示した。1914 ラングミュアのトリウム入りW フィラメント（Th はモナザイト[1-19]から）⚠️。1906年、リー・ド・フォレスト（1873〜1961）は真空管の中のフィラメントと板の間にジグザグの線（グリッド）を入れたオーディオン管を作った。小さな電気で大きな電流を変えられる三極管の始まりで、1912年ごろから声を大きくする増幅器として使われた ⚠️"
   },
   "person.5-02.0.intro": {
    "ja": "1904年、熱した陰極から電子が出るエジソン効果を使って、二極管を作った"
@@ -5452,7 +5464,7 @@
    "en": "Anti-reflection coating"
   },
   "7-22.hee1": {
-   "ja": "薄い膜を重ねると、ガラスが「見えなく」なる （IMP-24 で追加、network_proposals W-3）",
+   "ja": "薄い膜を重ねると、ガラスが「見えなく」なる",
    "en": "Stack thin films on glass and the glass becomes \"invisible\" (added in IMP-24, network_proposals W-3)"
   },
   "7-22.hee2": {
@@ -5478,8 +5490,8 @@
    "en": "LiDAR"
   },
   "7-23.hee1": {
-   "ja": "アポロ15号は、レーザーの光が月面からはね返る時間を測って、月のでこぼこを調べた「LiDAR history」）",
-   "en": "Apollo 15 measured the bumps of the Moon by timing how long laser light took to bounce back from its surface. (Added in S-005. Sources: Wikipedia \"Lidar\", Frontiers in Remote Sensing (2022) \"LiDAR history\")"
+   "ja": "アポロ15号は、レーザーの光が月面からはね返る時間を測って、月のでこぼこを調べた（S-005 で追加。出典：",
+   "en": "Apollo 15 measured the bumps of the Moon by timing how long laser light took to bounce back from its surface."
   },
   "7-23.real": {
    "ja": "レーザーの光を当て、はね返って戻るまでの時間から距離を測る（光は1ナノ秒に約30cm 進む）。1960年のレーザーの発明のすぐ後に距離計が作られ（最初の実用機は1963年とされる ⚠️）、1971年のアポロ15号はレーザー高度計で月の表面の高さを測った。2005年ごろ、たくさんのレーザーを並べて回し、周り360度の形を一度に測る装置ができ、2007年の無人自動車レースで多くのチームが使った"
@@ -5489,8 +5501,8 @@
    "en": "Camera autofocus"
   },
   "7-24.hee1": {
-   "ja": "「ピントが自動で合うカメラ」を世界で初めて量産したのは日本のコニカで、1977年のこと）",
-   "en": "The first mass-produced camera that focuses by itself was made by Konica of Japan, in 1977. (Added in S-004. Sources: en.wikipedia.org, en.wikipedia.org, en.wikipedia.org, Camera-wiki \"Konica C35 AF\", Fstoppers \"Autofocus Turns 50\" (https://camera-wiki.org/wiki/Konica_C35_AF))"
+   "ja": "「ピントが自動で合うカメラ」を世界で初めて量産したのは日本のコニカで、1977年のこと（S-004 で追加。出典：en.wikipedia.org、en.wikipedia.org、en.wikipedia.org、Camera-wiki「Konica C35 AF」・Fstoppers「Autofocus Turns 50」",
+   "en": "The first mass-produced camera that focuses by itself was made by Konica of Japan, in 1977."
   },
   "7-24.real": {
    "ja": "1977年11月のコニカ C35 AF（愛称ジャスピンコニカ）が、量産されたカメラで初めてピントを自動で合わせた。中にはアメリカのハネウェル社の「ビジトロニック」モジュールがあり、2つの窓から見た像のずれを光センサーで比べる、自動の距離計のしくみだった。35ミリの一眼レフでは1981年のペンタックス ME F（モーター付きの専用レンズ）が先で、1985年のミノルタ α-7000 はモーターを本体に入れて広まった（よく「α-7000 が最初の AF 一眼レフ」と言われるが、正しくは「本体に AF を組みこんだ最初の量産機」）"
@@ -5500,8 +5512,8 @@
    "en": "Semiconductor laser"
   },
   "7-25.hee1": {
-   "ja": "光ファイバーの中を走る光は、米つぶより小さな半導体レーザーが出している",
-   "en": "The light running through optical fibers comes from semiconductor lasers smaller than a grain of rice. (Added in O-010. Sources: IEEE Milestones \"Semiconductor Laser, 1962\", Wikipedia \"Laser diode\")"
+   "ja": "光ファイバーの中を走る光は、米つぶより小さな半導体レーザーが出している（O-010 で追加。出典：IEEE Milestones「Semiconductor Laser, 1962」",
+   "en": "The light running through optical fibers comes from semiconductor lasers smaller than a grain of rice."
   },
   "7-25.real": {
    "ja": "ガリウムヒ素の p-n 接合に強い電流を流し、結晶の割れた面を鏡にして光を行き来させると、レーザーの光が出る。1962年の秋、GE のロバート・ホール（スケネクタディ）、ニック・ホロニアック（シラキュース、目に見える赤い光）、IBM、MIT リンカーン研究所が、ほぼ同時に別々に発表した（IEEE マイルストーン「Semiconductor Laser, 1962」）。はじめは強く冷やさないと動かなかったが、1970年に半導体ヘテロ構造（[9-48]）で室温で連続して光るようになった。光ファイバー通信・CD/DVD/ブルーレイ・レーザーポインター・バーコードの読み取りに使われる"
@@ -5511,8 +5523,8 @@
    "en": "Holography"
   },
   "7-26.hee1": {
-   "ja": "お札やカードのキラキラ光る模様は、光の波をまるごと記録したホログラム",
-   "en": "The shiny patterns on banknotes and cards are holograms that record a whole light wave (added in O-011. Sources: IEEE Milestones \"Invention of Holography, 1947\", Wikipedia \"Holography\")"
+   "ja": "お札やカードのキラキラ光る模様は、光の波をまるごと記録したホログラム（O-011 で追加。出典：IEEE Milestones「Invention of Holography, 1947」",
+   "en": "The shiny patterns on banknotes and cards are holograms that record a whole light wave (added in O-011. Sources: IEEE Milestones \"Invention of Holography, 1947\","
   },
   "7-26.real": {
    "ja": "物から来る光と、もとの光を重ねてできる干渉の縞を記録すると、光の強さだけでなく波の位置（位相）まで残り、あとで光を当てると立体の像がよみがえる。1947年、イギリスの BTH 社の研究所のデニス・ガボールが、電子顕微鏡の解像度を上げる方法として考えた（1948年 Nature、1971年ノーベル物理学賞、IEEE マイルストーン）。そろった光が無かったので、実用はレーザー（[7-13]、1960年）を待ち、1962〜64年にアメリカとソ連で立体のホログラムが作られた。お札やカードの偽造防止の光る模様もホログラム"
@@ -5524,7 +5536,7 @@
    "ja": "ペッツバールレンズ"
   },
   "7-27.hee1": {
-   "ja": "このレンズの前は、写真をとるあいだ何分もじっとしていなければならなかったペッツバールの伝記 https://dml.cz/bitstream/handle/10338.dmlcz/143837/ActaCarolinae_046-2005-3_20.pdf 、亜留間次郎さん（Arumaddilo）が作った Wikipedia 日本語版「ペッツバールレンズ」 https://ja.wikipedia.org/wiki/%E3%83%9A%E3%83%83%E3%83%84%E3%83%90%E3%83%BC%E3%83%AB%E3%83%AC%E3%83%B3%E3%82%BA ）"
+   "ja": "このレンズの前は、写真をとるあいだ何分もじっとしていなければならなかった（S-019 で追加。出典：COMSOL「Happy Birthday, Joseph Petzval」"
   },
   "7-27.real": {
    "ja": "数学者ヨーゼフ・ペッツバール（1807〜1891）が計算で設計した4枚組のレンズ（F3.6 ほど）。それまでの写真のレンズより20倍ほど多く光を集めるので、写すのにかかる時間が大きく短くなり、人がじっと座っていられる長さで肖像写真がとれるようになった。ウィーンのフォクトレンダーが作った ⚠️（短くなった時間・明るさの倍率は資料で違う）"
@@ -5536,7 +5548,7 @@
    "ja": "自由電子レーザー"
   },
   "7-28.hee1": {
-   "ja": "電子の速さを変えるだけで、光の色を選べるレーザーが作った Wikipedia 日本語版「自由電子レーザー」 https://ja.wikipedia.org/wiki/%E8%87%AA%E7%94%B1%E9%9B%BB%E5%AD%90%E3%83%AC%E3%83%BC%E3%82%B6%E3%83%BC ）"
+   "ja": "電子の速さを変えるだけで、光の色を選べるレーザー（S-019 で追加。出典：APS Physics「Focus: Landmarks—The First Free-Electron Laser」"
   },
   "7-28.real": {
    "ja": "光の速さ近くまで加速した電子を、N極とS極が交互に並んだ磁石の列（アンジュレーター）の中でくねくね走らせて光を出す。原子や分子が光を出すふつうのレーザーと違い、電子のエネルギーや磁石の間隔を変えると波長を広く変えられる。スタンフォード大学のジョン・マディ（1943〜2016）が1971年に考え、1976年に光が強まるのを確かめ、1977年に発振させた。半導体の露光に使う EUV 光（13.5nm）の光源にする研究もあるが、まだ実用になっていない（今の EUV 光源はスズのプラズマ [7-18]） ⚠️（最初に動いた年は 1976・1977・1978 の説）"
@@ -5942,8 +5954,8 @@
    "en": "Pulley"
   },
   "8-19.hee1": {
-   "ja": "力を4分の1にする代わりに、綱を4倍引く （IMP-24 で追加、network_proposals N-1）",
-   "en": "You need only a quarter of the force, but you pull the rope four times as far. (Added in IMP-24, network_proposals N-1)"
+   "ja": "力を4分の1にする代わりに、綱を4倍引く",
+   "en": "You need only a quarter of the force, but you pull the rope four times as far."
   },
   "8-19.hee2": {
    "ja": "楽をしても、した仕事の量は変わらない。"
@@ -5965,8 +5977,8 @@
    "en": "Ball bearing"
   },
   "8-20.hee1": {
-   "ja": "鋼の玉をはさむと、こすれる代わりに転がる。だから車輪やモーターは軽く回る",
-   "en": "Put steel balls in between, and things roll instead of rubbing. That is why wheels and motors turn easily (added in NET-06. Sources: Wikipedia \"Bearing (mechanical)\", Schaeffler \"Impeccably round and smooth\", Wikipedia \"Jules Suriray\", Wikipedia \"Sven Gustaf Wingqvist\")"
+   "ja": "鋼の玉をはさむと、こすれる代わりに転がる。だから車輪やモーターは軽く回る（NET-06 で追加。出典：",
+   "en": "Put steel balls in between, and things roll instead of rubbing. That is why wheels and motors turn easily (added in NET-06. Sources:"
   },
   "8-20.hee2": {
    "ja": "焼入れした鋼は刃物で削れないので、砥石で少しずつ削る。"
@@ -5988,8 +6000,8 @@
    "en": "Sextant"
   },
   "8-21.hee1": {
-   "ja": "2枚の鏡で太陽を水平線に重ねると、自分が地球のどこにいるかが分かる",
-   "en": "Line up the Sun with the horizon using two mirrors, and you can tell where on Earth you are. (Added in NET-06. Sources: Wikipedia \"Sextant\", \"Octant (instrument)\", Grace's Guide \"John Hadley\")"
+   "ja": "2枚の鏡で太陽を水平線に重ねると、自分が地球のどこにいるかが分かる（NET-06 で追加。出典：",
+   "en": "Line up the Sun with the horizon using two mirrors, and you can tell where on Earth you are."
   },
   "8-21.hee2": {
    "ja": "鏡を θ 回すと光は 2θ 曲がるので、60°の弧で 120°まで測れる（だから「六分」儀）。"
@@ -6011,8 +6023,8 @@
    "en": "Meter prototype"
   },
   "8-22.hee1": {
-   "ja": "1メートルは、地球の大きさから決めた長さだった",
-   "en": "One meter was a length decided from the size of the Earth. (Added in NET-06. Sources: Wikipedia \"Mètre des Archives\", Quality Magazine \"The Emergence of the Metric System\")"
+   "ja": "1メートルは、地球の大きさから決めた長さだった（NET-06 で追加。出典：",
+   "en": "One meter was a length decided from the size of the Earth."
   },
   "8-22.hee2": {
    "ja": "白金インゴット×3＋セオドライト（戻る）。ブロックを右クリックで1つ目の印、別のブロックを右クリックで長さ（m）と、昔の単位（尺・トワーズ）。マイクラでは1ブロック＝1m。"
@@ -6031,8 +6043,8 @@
    "en": "International Prototype of the Kilogram"
   },
   "8-23.hee1": {
-   "ja": "2019年まで、1キログラムはパリの金庫にある金属のかたまり1個の重さだった",
-   "en": "Until 2019, one kilogram was the weight of a single lump of metal in a vault in Paris. (Added in NET-06. Sources: Wikipedia \"International Prototype of the Kilogram\", EPFL Graph Search)"
+   "ja": "2019年まで、1キログラムはパリの金庫にある金属のかたまり1個の重さだった（NET-06 で追加。出典：",
+   "en": "Until 2019, one kilogram was the weight of a single lump of metal in a vault in Paris."
   },
   "8-23.hee2": {
    "ja": "原器は3重のガラスのふたの中にあり、比べるときだけ取り出して決まった方法で洗った。"
@@ -6078,7 +6090,7 @@
   },
   "8-25.hee1": {
    "ja": "いまの1キログラムは、金属のかたまりではなく、電気の力で決めている",
-   "en": "Today one kilogram is defined not by a lump of metal but by electric force. (Added in NET-06. Sources: NPL \"Bryan Kibble\", NIST \"Kilogram: Kibble balance\", Comptes Rendus Physique 2019)"
+   "en": "Today one kilogram is defined not by a lump of metal but by electric force."
   },
   "8-25.hee2": {
    "ja": "1911〜1990年の「1ボルト」は、水銀とカドミウムでできた小さな電池で保たれていた。"
@@ -6100,8 +6112,8 @@
    "en": "Typewriter"
   },
   "8-26.hee1": {
-   "ja": "パソコンのキーの並びは、150年前のタイプライターの並びがそのまま残っている",
-   "en": "The key layout on computers is the same layout typewriters used 150 years ago. (Added in S-002. Sources: Wikipedia \"QWERTY\", Computer Hope \"Why is the keyboard not in alphabetical order\")"
+   "ja": "パソコンのキーの並びは、150年前のタイプライターの並びがそのまま残っている（S-002 で追加。出典：",
+   "en": "The key layout on computers is the same layout typewriters used 150 years ago."
   },
   "8-26.real": {
    "ja": "1868年、アメリカの新聞人クリストファー・ショールズらがタイプライターの特許を取り、何年も文字の並びを入れかえて QWERTY に近い形にした。1873年にレミントン社が製造権を買って1874年に発売し、1878年のレミントン2号でシフトキーが付いて、この配列が広まった"
@@ -6114,8 +6126,8 @@
    "en": "Strain wave gearing"
   },
   "8-27.hee1": {
-   "ja": "ロボットの関節の中では、金属の歯車の輪が楕円にぐにゃっと曲がりながら回っている（https://legacy.harmonicdrive.net/aboutus/musser/））",
-   "en": "Inside a robot's joints, a metal gear ring turns while bending into a wobbly oval. (Added in S-005. Sources: Wikipedia \"Strain wave gearing\", \"Walton Musser\", Harmonic Drive LLC 'C. Walton Musser' (announced 1957, US Patent 2,906,143) (https://legacy.harmonicdrive.net/aboutus/musser/))"
+   "ja": "ロボットの関節の中では、金属の歯車の輪が楕円にぐにゃっと曲がりながら回っている（S-005 で追加。出典：",
+   "en": "Inside a robot's joints, a metal gear ring turns while bending into a wobbly oval."
   },
   "8-27.real": {
    "ja": "モーターは速く回るが力が弱いので、歯車で回転を遅くして力を大きくする（減速機）。アメリカのユナイテッド・シュー・マシナリー社のウォルトン・マッサーが、薄くて曲がる歯車の輪を楕円の部品で押し広げながら回す「波動歯車」を1957年に発表した（特許の成立は1959年）。1段で回転を数十〜百分の1にでき、ガタ（すき間）が小さいので、ロボットの関節によく使われる"
@@ -6137,7 +6149,7 @@
   },
   "8-29.hee1": {
    "ja": "自転車のチェーンの形は、140年以上前に考えられた形とほとんど変わっていない。",
-   "en": "The shape of a bicycle chain has barely changed from the design thought up more than 140 years ago. (Added in S-004. Sources: en.wikipedia.org, gracesguide.co.uk)"
+   "en": "The shape of a bicycle chain has barely changed from the design thought up more than 140 years ago."
   },
   "8-29.real": {
    "ja": "1880年、マンチェスター近くのサルフォードで鎖の工場を営んだハンス・レノルドが、ピンと回るローラーの間に筒（ブシュ）を入れたローラーチェーンを作った。ブシュが軸受の役をするので減りにくく、力を伝える鎖の基本の形は今も同じ。1864年にジェームズ・スレーターがローラー付きの鎖を作っていたが、ブシュは無かった。自転車・エスカレーター・バイクに使われる"
@@ -6147,8 +6159,8 @@
    "en": "Atomic clock"
   },
   "8-30.hee1": {
-   "ja": "今の1秒は、セシウム原子が91億9263万1770回ゆれる時間と決められている",
-   "en": "Today one second is defined as the time it takes a cesium atom to vibrate 9,192,631,770 times. (Added in O-006. Sources: IEEE Milestones \"First Atomic Clock, 1948\", NIST, Wikipedia \"Atomic clock\")"
+   "ja": "今の1秒は、セシウム原子が91億9263万1770回ゆれる時間と決められている（O-006 で追加。出典：IEEE Milestones「First Atomic Clock, 1948」、NIST",
+   "en": "Today one second is defined as the time it takes a cesium atom to vibrate 9,192,631,770 times."
   },
   "8-30.real": {
    "ja": "水晶時計の振動数を、原子や分子が決まった振動数の電波だけを吸う性質に合わせ続けて、ずれない時計にする。1948年8月、アメリカ国立標準局（NBS）のハロルド・ライオンズらがアンモニア分子を使った最初の原子時計を動かした（公開は1949年、IEEE マイルストーン）。1955年、イギリス国立物理学研究所のルイス・エッセンとジャック・パリーが最初の実用的なセシウム時計を作り、1967年から1秒はセシウム原子の振動の回数で決められている。GPS の衛星（[B-17]）は原子時計の時刻を送っている"
@@ -6158,8 +6170,8 @@
    "en": "Grinding machine"
   },
   "8-31.hee1": {
-   "ja": "硬すぎて刃物で削れない鋼も、砥石でこすれば髪の毛の100分の1の正確さで形をそろえられる",
-   "en": "Even steel too hard to cut with a blade can be shaped to one hundredth of a hair's accuracy by rubbing it with a grinding wheel. (Added in O-009. Sources: JSME \"Mechanical Engineering Heritage No.059, No.114, No.106\", Wikipedia \"Grinding machine\", Schaeffler \"Impeccably round and smooth\")"
+   "ja": "硬すぎて刃物で削れない鋼も、砥石でこすれば髪の毛の100分の1の正確さで形をそろえられる（O-009 で追加。出典：日本機械学会「機械遺産 No.059・No.114・No.106」",
+   "en": "Even steel too hard to cut with a blade can be shaped to one hundredth of a hair's accuracy by rubbing it with a grinding wheel."
   },
   "8-31.hee2": {
    "ja": "焼入れした鋼は刃物で削れないので、砥石で少しずつ削る。"
@@ -6178,8 +6190,8 @@
    "en": "Gear cutting machine"
   },
   "8-32.hee1": {
-   "ja": "歯車を作る機械の歯車を、もっと正確に作り直すことをくり返して、正確さを上げていった",
-   "en": "Accuracy rose by remaking the gears of the gear-making machine more precisely, again and again (added in O-010. Sources: JSME \"Mechanical Engineering Heritage No.034\", Wikipedia \"Hobbing\")"
+   "ja": "歯車を作る機械の歯車を、もっと正確に作り直すことをくり返して、正確さを上げていった（O-010 で追加。出典：日本機械学会「機械遺産 No.034」",
+   "en": "Accuracy rose by remaking the gears of the gear-making machine more precisely, again and again (added in O-010. Sources: JSME \"Mechanical Engineering Heritage No.034\","
   },
   "8-32.real": {
    "ja": "ねじの形の刃物（ホブ）と歯車の材料を、決まった速さの比で一緒に回しながら削ると、歯の形が正しくそろった歯車が次々にできる。1897年、ドイツのヘルマン・プファウターがホブ盤を作った。日本では芝浦の親歯車ホブ盤 HRS-500（1953年）が、親歯車で歯車を切り、それよりも正確な親歯車を作り直すことをくり返して精度を上げた（機械遺産 No.034）。船のタービンの大きな減速歯車や自動車の変速機の歯車はこうして作る"
@@ -6189,8 +6201,8 @@
    "en": "Mass spectrometry"
   },
   "8-33.hee1": {
-   "ja": "原子は、電磁石で曲げると重さごとに分かれて飛んでいく",
-   "en": "When bent by an electromagnet, atoms fly apart sorted by weight. (Added in O-010. Sources: Nobel Prize \"Chemistry 1922\", \"Chemistry 2002\", Wikipedia \"National Historic Chemical Landmarks\")"
+   "ja": "原子は、電磁石で曲げると重さごとに分かれて飛んでいく（O-010 で追加。出典：Nobel Prize「Chemistry 1922」「Chemistry 2002」",
+   "en": "When bent by an electromagnet, atoms fly apart sorted by weight."
   },
   "8-33.hee2": {
    "ja": "ホウ素は ¹⁰B が約20%、¹¹B が約80%。リンや金は1種類だけ。"
@@ -6212,8 +6224,8 @@
    "en": "NC"
   },
   "8-34.hee1": {
-   "ja": "最初の NC 工作機械は、穴のあいた紙テープを読んで刃を動かしていた",
-   "en": "The first NC machine tool moved its cutter by reading paper tape with holes punched in it. (Added in O-010. Sources: JSME \"Mechanical Engineering Heritage No.126\", Wikipedia \"Numerical control\" \"John T. Parsons\")"
+   "ja": "最初の NC 工作機械は、穴のあいた紙テープを読んで刃を動かしていた（O-010 で追加。出典：日本機械学会「機械遺産 No.126」",
+   "en": "The first NC machine tool moved its cutter by reading paper tape with holes punched in it."
   },
   "8-34.hee2": {
    "ja": "構想を出したパーソンズの名前は、長いあいだ表に出なかった。"
@@ -6235,8 +6247,8 @@
    "en": "Quartz wristwatch"
   },
   "8-35.hee1": {
-   "ja": "クオーツ時計の中の水晶は、1秒に 32768 回も震えている",
-   "en": "The quartz crystal in a quartz watch vibrates as many as 32,768 times a second. (Added in O-010. Sources: JSME \"Mechanical Engineering Heritage No.066\", Wikipedia \"Seiko Astron\")"
+   "ja": "クオーツ時計の中の水晶は、1秒に 32768 回も震えている（O-010 で追加。出典：日本機械学会「機械遺産 No.066」",
+   "en": "The quartz crystal in a quartz watch vibrates as many as 32,768 times a second."
   },
   "8-35.hee2": {
    "ja": "32768 は 2 の15乗なので、「2で割る」回路を15段つなぐとちょうど1秒。"
@@ -6258,8 +6270,8 @@
    "en": "Tilting-pad thrust bearing"
   },
   "8-36.hee1": {
-   "ja": "大きな水車の何百トンもの重さを、薄い油の膜だけで浮かせて支えている",
-   "en": "The hundreds of tons of a big water turbine are held up floating on just a thin film of oil (added in O-011. Sources: ASME Landmark #123 \"Kingsbury Thrust Bearing\", Wikipedia \"Fluid bearing\")"
+   "ja": "大きな水車の何百トンもの重さを、薄い油の膜だけで浮かせて支えている（O-011 で追加。出典：ASME Landmark #123「Kingsbury Thrust Bearing」",
+   "en": "The hundreds of tons of a big water turbine are held up floating on just a thin film of oil (added in O-011. Sources: ASME Landmark #123 \"Kingsbury Thrust Bearing\","
   },
   "8-36.real": {
    "ja": "回る軸を押す大きな力（スラスト）を、少し傾けた何枚もの板（パッド）と軸の間にできるくさび形の油の膜で支える。金属どうしは触れず、油の膜の上に浮いて回る。1907年、アメリカのアルバート・キングスベリーが特許を出し（1910年登録）、1912年にホルトウッド水力発電所の大きな立て軸の水車に初めて付けられた（ASME ランドマーク #123）。オーストラリアの A・G・M・ミッチェルも独立に同じものを発明した。理論の土台は1886年のレイノルズの潤滑の理論。玉で転がす玉軸受（[8-20]）とならぶ、軸受のもう1つの道"
@@ -6269,8 +6281,8 @@
    "en": "Electrical discharge machining"
   },
   "8-37.hee1": {
-   "ja": "火花を1秒に何万回も飛ばして、硬い金属を少しずつ溶かして削る",
-   "en": "Tens of thousands of sparks per second melt and carve hard metal bit by bit. (Added in O-011. Sources: Wikipedia \"Electrical discharge machining\", National Museum of Nature and Science \"Essential Historical Materials for Science and Technology\")"
+   "ja": "火花を1秒に何万回も飛ばして、硬い金属を少しずつ溶かして削る（O-011 で追加。出典：",
+   "en": "Tens of thousands of sparks per second melt and carve hard metal bit by bit."
   },
   "8-37.real": {
    "ja": "電極と金属のわずかなすき間に、油や水の中で小さな火花（放電）を1秒に何万回も飛ばし、その熱で金属の表面を少しずつ溶かして飛ばして形を作る。刃物で削れない焼入れ鋼や超硬合金でも、電極の形どおりに加工できる。1943年、ソ連のボリス・ラザレンコとナタリア・ラザレンコが発明した。日本でも1954年に放電加工機の会社が作られ（国立科学博物館の重要科学技術史資料）、1970年代には細い線を電極にするワイヤ放電加工や NC 化が進んだ。今は金型づくりに欠かせない"
@@ -6280,8 +6292,8 @@
    "en": "Cryo-electron microscope"
   },
   "8-38.hee1": {
-   "ja": "水を一瞬で凍らせると、氷の結晶ができずにガラスのように固まる）",
-   "en": "If water is frozen in an instant, no ice crystals form and it sets solid like glass. (Added in O-011. Sources: Nobel Prize \"Chemistry 2017\", Nobel Prize \"Chemistry 2017 press release\" (https://www.nobelprize.org/prizes/chemistry/2017/press-release/))"
+   "ja": "水を一瞬で凍らせると、氷の結晶ができずにガラスのように固まる（O-011 で追加。出典：Nobel Prize「Chemistry 2017」、Nobel Prize「Chemistry 2017 press release」",
+   "en": "If water is frozen in an instant, no ice crystals form and it sets solid like glass."
   },
   "8-38.real": {
    "ja": "たんぱく質のような生き物の分子を、水ごと一瞬で凍らせて（氷の結晶ができない「ガラスのような氷」にして）、冷やしたまま電子顕微鏡で見る。何十万枚もの像を計算機で重ねて平均し、立体の形を組み立てる。1975年から1986年にかけての像の計算の方法と、1982〜84年の急速に凍らせる方法がそろって実用になった（2017年ノーベル化学賞。受賞者は存命なので名前を出さない）。ウイルスや薬の標的のたんぱく質の形を調べるのに使われる"
@@ -6291,8 +6303,8 @@
    "en": "Arc welding"
   },
   "8-39.hee1": {
-   "ja": "アーク溶接の光はとても強いので、溶接する人は黒い面で目を守る",
-   "en": "The light from arc welding is so strong that welders protect their eyes with a dark mask. (Added in O-012. Sources: Wikipedia \"Arc welding\", ASME Landmark #44)"
+   "ja": "アーク溶接の光はとても強いので、溶接する人は黒い面で目を守る（O-012 で追加。出典：",
+   "en": "The light from arc welding is so strong that welders protect their eyes with a dark mask."
   },
   "8-39.real": {
    "ja": "電極と金属の間に電気のアーク（火花の連続）を作り、その熱で金属を溶かしてつなぐ。1881年、ロシアのニコライ・ベナルドスが炭素の電極でアーク溶接をパリの電気博覧会で発表し（特許1887年）、1888年にニコライ・スラヴャノフが金属の棒を電極にした。1904〜07年、スウェーデンのオスカー・シェルベリが、金属の棒に被覆を付けてアークを安定させる溶接棒を作った。リベットに代わって鉄骨・船・ボイラー・真空容器を組むのに使われる（ASME ランドマーク #44 の溶接ボイラー、1930年）"
@@ -6302,8 +6314,8 @@
    "en": "Gas welding and cutting"
   },
   "8-40.hee1": {
-   "ja": "酸素とアセチレンの炎は約3100℃で、鉄をバターのように切れる ⚠️）",
-   "en": "An oxygen-acetylene flame is about 3100°C and cuts iron like butter ⚠️ (added in O-012. Sources: Wikipedia \"Oxy-fuel welding and cutting\", \"Edmond Fouché\", Linde \"A Look at The History of Welding\" (https://www.lindedirect.com/blogs/industrial-guides/industrial-guides/2024/01/30/a-look-at-the-history-of-welding))"
+   "ja": "酸素とアセチレンの炎は約3100℃で、鉄をバターのように切れる ⚠️（O-012 で追加。出典：",
+   "en": "An oxygen-acetylene flame is about 3100°C and cuts iron like butter ⚠️ (added in O-012. Sources:"
   },
   "8-40.real": {
    "ja": "アセチレンを純粋な酸素で燃やすと約3100℃の炎になる（1895年、ル・シャトリエが報告）。1903年、フランスのエドモン・フーシェとシャルル・ピカールがトーチ（吹管）を作り、鉄を溶かしてつないだり、酸素を吹きつけて鉄を燃やしながら切ったりできるようになった。空気分離（[6-07]）で純酸素が安くなり、溶解アセチレン（[B-23]）で運べるようになって広まった。鉄骨や船の切断と解体に使われる"
@@ -6313,8 +6325,8 @@
    "en": "Hydraulic forging press"
   },
   "8-41.hee1": {
-   "ja": "5万トンのプレスは、何階建てのビルほどの大きさがある ⚠️",
-   "en": "A 50,000-ton press is as big as a building several stories tall ⚠️ (Added in O-012. Sources: Wikipedia \"Heavy Press Program\", ASME Landmark #71 and #89)"
+   "ja": "5万トンのプレスは、何階建てのビルほどの大きさがある ⚠️（O-012 で追加。出典：",
+   "en": "A 50,000-ton press is as big as a building several stories tall ⚠️"
   },
   "8-41.real": {
    "ja": "水の圧力で、大きな金属の塊を型の中でゆっくり押しつぶして形を作る。1795年、イギリスのジョセフ・ブラマーが水圧プレスを作り、1893年にアメリカのベスレヘムで1万4千トンのプレスが動いた。1954〜55年、アメリカの空軍の「重プレス計画」で5万トンのプレスが2台作られ（ASME ランドマーク #71・#89）、飛行機の主翼の桁や脚、タービンの円板などの大きなアルミや鋼の部品を一体で作れるようになった"
@@ -6324,8 +6336,8 @@
    "en": "Dividing engine"
   },
   "8-42.hee1": {
-   "ja": "六分儀の目盛りを、人の手ではなく機械が刻むようになった",
-   "en": "Sextant scales came to be engraved by a machine instead of by hand. (Added in O-012. Sources: Smithsonian NMAH 694508, MacTutor \"Jesse Ramsden\", Wikipedia \"Dividing engine\")"
+   "ja": "六分儀の目盛りを、人の手ではなく機械が刻むようになった（O-012 で追加。出典：Smithsonian NMAH 694508、MacTutor「Jesse Ramsden」",
+   "en": "Sextant scales came to be engraved by a machine instead of by hand."
   },
   "8-42.real": {
    "ja": "円や直線の目盛りを、人の手ではなく機械で正確に等しく刻む。それまで六分儀（[8-21]）や計算尺（[10-21]）の目盛りは職人が手で刻んでいた。イギリスのジェシー・ラムスデンは1766年ごろ最初の機械を作り、1775年に完成させた機械では誤差を角度の0.5秒より小さくした（スミソニアン、セント・アンドルーズ大学の資料）。経度委員会は、特許を取らずに作り方を公開し、ほかの人に教えることを条件に賞金を出した。のちの回折格子の刻線機（[8-12]、1882年）の先祖"
@@ -7309,8 +7321,8 @@
    "en": "Power semiconductors and inverters"
   },
   "9-41.hee1": {
-   "ja": "電気自動車は、電気を1秒に何千回もオン・オフしてモーターを回す （IMP-24 で追加、network_proposals N-4・N-5）",
-   "en": "An electric car turns electricity on and off thousands of times a second to drive its motor. (Added in IMP-24, network_proposals N-4, N-5)"
+   "ja": "電気自動車は、電気を1秒に何千回もオン・オフしてモーターを回す",
+   "en": "An electric car turns electricity on and off thousands of times a second to drive its motor."
   },
   "9-41.hee2": {
    "ja": "サイリスタは一度オンになると自分では止まらない（ラッチ）。止めるには電流を0にする。"
@@ -7332,8 +7344,8 @@
    "en": "Image sensor"
   },
   "9-42.hee1": {
-   "ja": "スマホのカメラも光学式マウスも、中身は同じ仲間の「光を電子に変えて数える」チップ",
-   "en": "Phone cameras and optical mice both use the same family of chips that \"turn light into electrons and count them\" (added in S-003. Sources: Nobel Prize \"Physics 2009\", Wikipedia \"Active-pixel sensor\", \"Optical mouse\")"
+   "ja": "スマホのカメラも光学式マウスも、中身は同じ仲間の「光を電子に変えて数える」チップ（S-003 で追加。出典：Nobel Prize「Physics 2009」",
+   "en": "Phone cameras and optical mice both use the same family of chips that \"turn light into electrons and count them\" (added in S-003. Sources: Nobel Prize \"Physics 2009\","
   },
   "9-42.hee2": {
    "ja": "加速度センサーは、立っていると 1g、自由に落ちると 0g を示す。感じるのは「支えられている分」。"
@@ -7355,8 +7367,8 @@
    "en": "MEMS"
   },
   "9-43.hee1": {
-   "ja": "スマホの中には、シリコンでできた小さなばねとおもりがあって、傾けると本当に動いている、Wikipedia「Microelectromechanical systems」）",
-   "en": "Inside a smartphone are tiny springs and weights made of silicon, and they really move when you tilt it. (Added in S-003. Sources: Proc. IEEE \"Silicon as a Mechanical Material\" (1982), Wikipedia \"Microelectromechanical systems\")"
+   "ja": "スマホの中には、シリコンでできた小さなばねとおもりがあって、傾けると本当に動いている",
+   "en": "Inside a smartphone are tiny springs and weights made of silicon, and they really move when you tilt it."
   },
   "9-43.hee2": {
    "ja": "加速度センサーは、立っていると 1g、自由に落ちると 0g を示す。感じるのは「支えられている分」。"
@@ -7379,7 +7391,7 @@
   },
   "9-44.hee1": {
    "ja": "エアコンの温度計は、温まると電気が通りやすくなる小さな焼き物のつぶ",
-   "en": "An air conditioner's thermometer is a tiny ceramic bead that lets electricity flow more easily as it warms up. (Added in S-004. Sources: shura.shu.ac.uk, murata.com)"
+   "en": "An air conditioner's thermometer is a tiny ceramic bead that lets electricity flow more easily as it warms up."
   },
   "9-44.hee2": {
    "ja": "25℃ で 10kΩ の物が、0℃ では約3倍、100℃ では約7分の1になる。"
@@ -7402,7 +7414,7 @@
   },
   "9-45.hee1": {
    "ja": "カメラの画素の半分は緑。人の目が緑にいちばん敏感だから",
-   "en": "Half of a camera's pixels are green, because the human eye is most sensitive to green. (Added in S-004. Sources: patents.google.com, en.wikipedia.org)"
+   "en": "Half of a camera's pixels are green, because the human eye is most sensitive to green."
   },
   "9-45.hee2": {
    "ja": "1画素は1色しか見ていない。残りの色は計算で作っている。"
@@ -7448,7 +7460,7 @@
   },
   "9-47.hee1": {
    "ja": "半導体の工場には、小さな加速器（イオン注入装置）が並んでいる",
-   "en": "Semiconductor factories have rows of small accelerators (ion implanters). (Added in O-008. Sources: Nobel Prize \"Physics 1939\", \"Physics 1951\", University of Bern \"Greinacher\", DESY \"Wideröe\")"
+   "en": "Semiconductor factories have rows of small accelerators (ion implanters)."
   },
   "9-47.hee2": {
    "ja": "はしごの段の数だけ、電圧が積み上がる。"
@@ -7474,7 +7486,7 @@
   },
   "9-48.hee1": {
    "ja": "CD や光ファイバーのレーザーは、ちがう半導体を原子の厚さで重ねたサンドイッチの中で光っている",
-   "en": "The lasers in CDs and optical fibers shine inside a sandwich of different semiconductors stacked atoms thick. (Added in O-009. Sources: Nobel Prize \"Physics 2000\", Kyoto Prize, IEEE Milestones \"HEMT 1979\", Semiconductor History Museum of Japan (SSIS))"
+   "en": "The lasers in CDs and optical fibers shine inside a sandwich of different semiconductors stacked atoms thick."
   },
   "9-48.real": {
    "ja": "性質のちがう半導体（ガリウムヒ素とアルミニウムガリウムヒ素など）を原子の並びをそろえて薄く重ねると、その境目に電子や光を閉じこめられる。1963年、ハーバート・クレーマーとジョレス・アルフェロフが別々にこの考えを出し、1970年、アルフェロフのグループとベル研究所の林厳雄らが、室温で連続して光る半導体レーザーを作った（アルフェロフの方が約1か月早く発表）。アルフェロフとクレーマーは2000年にノーベル物理学賞。光ファイバー通信の光源、CD・DVD・ブルーレイのレーザー、明るい LED、1979年に富士通で発明された HEMT（スマホや衛星放送の電波を受けるトランジスタ、IEEE マイルストーン）に使われる"
@@ -7487,8 +7499,8 @@
    "en": "Thyristor"
   },
   "9-49.hee1": {
-   "ja": "電車のモーターの速さを変える装置は、最初はサイリスタという半導体のスイッチで作られた）",
-   "en": "The devices that change the speed of train motors were first made with semiconductor switches called thyristors. (Added in O-011. Sources: IEEE Milestones \"SCR/Thyristor, 1957\", ETHW IEEE Milestones 'SCR/Thyristor, 1957' / IEEE Spectrum (https://ethw.org/Milestones:SCR/Thyristor,_1957))"
+   "ja": "電車のモーターの速さを変える装置は、最初はサイリスタという半導体のスイッチで作られた（O-011 で追加。出典：IEEE Milestones「SCR/Thyristor, 1957」、ETHW IEEE Milestones 'SCR/Thyristor, 1957' / IEEE Spectrum",
+   "en": "The devices that change the speed of train motors were first made with semiconductor switches called thyristors."
   },
   "9-49.hee2": {
    "ja": "サイリスタは一度オンになると自分では止まらない（ラッチ）。止めるには電流を0にする。"
@@ -7797,7 +7809,7 @@
    "en": "CAD"
   },
   "10-17.hee1": {
-   "ja": "図面を紙ではなく数字で持つと、何度でも直せる （IMP-24 で追加、network_proposals N-7）",
+   "ja": "図面を紙ではなく数字で持つと、何度でも直せる",
    "en": "Keep drawings as numbers instead of on paper, and you can fix them as many times as you like (added in IMP-24, network_proposals N-7)"
   },
   "10-17.real": {
@@ -7811,8 +7823,8 @@
    "en": "Compiler"
   },
   "10-18.hee1": {
-   "ja": "「計算機に人の言葉で命令したい」が、プログラミング言語の始まり （IMP-24 で追加、network_proposals W-4）",
-   "en": "\"I want to give orders to a computer in human words\" was the start of programming languages. (Added in IMP-24, network_proposals W-4)"
+   "ja": "「計算機に人の言葉で命令したい」が、プログラミング言語の始まり",
+   "en": "\"I want to give orders to a computer in human words\" was the start of programming languages."
   },
   "10-18.real": {
    "ja": "人が読める命令を、計算機の機械語に自動で翻訳するプログラム。1952 グレース・ホッパーの A-0 システム（初期のコンパイラ。「世界初」とする言い方には諸説 ⚠️）、のち COBOL（network_proposals W-4）"
@@ -7828,8 +7840,8 @@
    "en": "VLSI design methodology"
   },
   "10-19.hee1": {
-   "ja": "何百万個のトランジスタも、決まったルールで並べれば設計できる （IMP-24 で追加、network_proposals W-5）",
-   "en": "Even millions of transistors can be designed if you arrange them by fixed rules. (Added in IMP-24, network_proposals W-5)"
+   "ja": "何百万個のトランジスタも、決まったルールで並べれば設計できる",
+   "en": "Even millions of transistors can be designed if you arrange them by fixed rules."
   },
   "10-19.real": {
    "ja": "1979 リン・コンウェイらの『Introduction to VLSI Systems』。大きさを変えても使える設計ルールで、大きな IC の設計の教え方と進め方を変えた（network_proposals W-5）。人物はリン・コンウェイのみ（存命の共同研究者は載せない）"
@@ -7845,8 +7857,8 @@
    "en": "Analytical Engine"
   },
   "10-20.hee1": {
-   "ja": "電気のない時代に、歯車だけでプログラムを動かす計算機が設計されていた （IMP-24 で追加、network_proposals N-8）",
-   "en": "In an age without electricity, a computer that ran programs with gears alone was designed. (Added in IMP-24, network_proposals N-8)"
+   "ja": "電気のない時代に、歯車だけでプログラムを動かす計算機が設計されていた",
+   "en": "In an age without electricity, a computer that ran programs with gears alone was designed."
   },
   "10-20.real": {
    "ja": "チャールズ・バベッジが設計した、歯車で動くプログラム式の計算機。設計だけで、完成しなかった ⚠️。1843 エイダ・ラブレスが論文を英訳して注を付け、注G にベルヌーイ数を計算する手順表を書いた（どこまで本人が書いたかは諸説 ⚠️、network_proposals N-8・W-2）"
@@ -7859,7 +7871,7 @@
    "en": "Slide rule"
   },
   "10-21.hee1": {
-   "ja": "掛け算を「長さの足し算」に変える物差し。電卓が出るまで、技術者のポケットにはいつもこれがあった",
+   "ja": "掛け算を「長さの足し算」に変える物差し。電卓が出るまで、技術者のポケットにはいつもこれがあった（NET-06 で追加。出典：Oughtred Society「History」、Smithsonian「Slide Rules」",
    "en": "A ruler that turns multiplication into \"adding lengths\". Until calculators came, engineers always had one in their pocket (added in NET-06. Sources: Oughtred Society \"History\", Smithsonian \"Slide Rules\", Britannica \"slide rule\", ETHW \"HP-35 Milestone\")"
   },
   "10-21.real": {
@@ -7870,8 +7882,8 @@
    "en": "Keyboard"
   },
   "10-22.hee1": {
-   "ja": "キーボードの中にも、押されたキーを調べる小さなコンピュータが入っている",
-   "en": "Inside a keyboard is a small computer that checks which keys are pressed. (Added in S-002. Sources: Wikipedia \"QWERTY\", Computer Hope \"Keyboard history\")"
+   "ja": "キーボードの中にも、押されたキーを調べる小さなコンピュータが入っている（S-002 で追加。出典：",
+   "en": "Inside a keyboard is a small computer that checks which keys are pressed."
   },
   "10-22.real": {
    "ja": "タイプライターの配列をそのまま使い、キーの下のスイッチ（ばね・金属の接点・ゴムのドーム）が押されたことを電気の信号にし、中の小さなマイクロコンピュータが「どのキーか」を調べて送る。1986年の IBM モデル M が、今の101キー配列のもとになった"
@@ -7881,8 +7893,8 @@
    "en": "Flash memory"
   },
   "10-23.hee1": {
-   "ja": "電子を薄いガラスの壁の中に閉じこめるので、電気を切っても何年も忘れない",
-   "en": "Electrons are locked inside a thin glass wall, so it remembers for years even with the power off. (Added in S-002. Sources: Wikipedia \"Fujio Masuoka\" \"Flash memory\", Semiconductor History Museum of Japan (SSIS) \"NAND flash memory\")"
+   "ja": "電子を薄いガラスの壁の中に閉じこめるので、電気を切っても何年も忘れない（S-002 で追加。出典：",
+   "en": "Electrons are locked inside a thin glass wall, so it remembers for years even with the power off."
   },
   "10-23.real": {
    "ja": "トランジスタのゲートの下に、薄い酸化膜で囲まれて電気の逃げ場のない「浮いたゲート」を作り、そこに電子を閉じこめて記憶する。電気を切っても消えない。浮いたゲートの考えは1967年にベル研究所で出され、1971年にインテルが紫外線で消す EPROM を、1970年代後半に電気で消せる EEPROM が作られた。東芝の研究者らが1980年ごろに考え、1984年12月の国際学会（IEDM）で NOR 型、1987年に NAND 型を発表した。まとめて一気に消せるので、カメラのフラッシュにたとえて名づけられた"
@@ -7892,8 +7904,8 @@
    "en": "SSD"
   },
   "10-24.hee1": {
-   "ja": "SSD の中の小さなコンピュータは、同じ場所ばかり書いてすり減らないよう、書く場所をこっそり散らしている",
-   "en": "The tiny computer inside an SSD quietly spreads out where it writes, so the same spot does not wear out from being written over and over. (Added in S-002. Sources: Computer History Museum \"Solid State Drive Module Demonstrated\", Wikipedia \"Solid-state drive\")"
+   "ja": "SSD の中の小さなコンピュータは、同じ場所ばかり書いてすり減らないよう、書く場所をこっそり散らしている（S-002 で追加。出典：Computer History Museum「Solid State Drive Module Demonstrated」",
+   "en": "The tiny computer inside an SSD quietly spreads out where it writes, so the same spot does not wear out from being written over and over."
   },
   "10-24.real": {
    "ja": "1978年、ストレージテックが半導体メモリをハードディスクと同じつなぎ方で使う装置を作った（電気を切ると消える）。1991年、サンディスクがフラッシュメモリを使った 20MB の SSD を IBM 向けに作った（約1000ドル）。フラッシュの弱いところ（書きかえ回数・悪いセル）は、中の制御チップが書く場所を散らしたり、悪いところを避けたりしておぎなう"
@@ -7903,8 +7915,8 @@
    "en": "GPU"
   },
   "10-25.hee1": {
-   "ja": "GPU は、簡単な計算しかできない小さな計算器を何千個も並べて、いっしょに動かしている",
-   "en": "A GPU lines up thousands of small calculators that can only do simple math, and runs them all together (added in S-002. Sources: Wikipedia \"GeForce 256\", Jon Peddie Research \"NEC µPD7220\")"
+   "ja": "GPU は、簡単な計算しかできない小さな計算器を何千個も並べて、いっしょに動かしている（S-002 で追加。出典：",
+   "en": "A GPU lines up thousands of small calculators that can only do simple math, and runs them all together (added in S-002. Sources:"
   },
   "10-25.real": {
    "ja": "画面の点（画素）の色を決める計算を、たくさんの小さな計算器で同時に行う専用のチップ。1982年の NEC μPD7220 は線や図形を描く最初期のグラフィックス用チップ。1999年、エヌビディアが立体の向きと光の当たり方の計算までまとめた GeForce 256 を「世界初の GPU」と名づけて売り出した。2000年代に計算の中身をプログラムで書けるようになり、2012年ごろから AI の学習にも使われる（[B-11]）"
@@ -7915,7 +7927,7 @@
   },
   "10-26.hee1": {
    "ja": "最初に工場で働いたロボットの仕事は、人がさわると危ない熱い金属の部品を取り出すことだった",
-   "en": "The first robot to work in a factory took out hot metal parts that were dangerous for people to touch. (Added in S-005. Sources: The Henry Ford \"Unimate\", Guinness World Records \"First industrial production robot\", IEEE Spectrum)"
+   "en": "The first robot to work in a factory took out hot metal parts that were dangerous for people to touch."
   },
   "10-26.hee2": {
    "ja": "動きは人がペンダント（手元の操作盤）で腕を動かして1つずつ覚えさせた（ティーチング）"
@@ -7934,19 +7946,19 @@
    "en": "Servomechanism"
   },
   "10-27.hee1": {
-   "ja": "「サーボ」のもとのフランス語は「従う」という意味で、最初は船のかじを回す装置の名前だった",
-   "en": "\"Servo\" comes from a French word meaning \"to serve/obey,\" and at first it was the name of a device that turned a ship's rudder. (Added in S-005. Sources: Wikipedia \"Joseph Farcot\", Merriam-Webster \"servomotor\", Caltech \"Harold Hazen\")"
+   "ja": "「サーボ」のもとのフランス語は「従う」という意味で、最初は船のかじを回す装置の名前だった（S-005 で追加。出典：",
+   "en": "\"Servo\" comes from a French word meaning \"to serve/obey,\" and at first it was the name of a device that turned a ship's rudder."
   },
   "10-27.real": {
-   "ja": "「いまの位置」をセンサーで測り、「ねらいの位置」との差を小さくするようにモーターを回すしくみ。サーボモーターという特別なモーターがあるのではなく、ふつうのモーター＋位置のセンサー＋フィードバック制御の組み合わせ。名前は、フランスのジョゼフ・ファルコが1860年代に船のかじを動かす装置を servo-moteur（従うモーター）と呼んだのが始まりとされ、1934年に MIT のハロルド・ヘイゼンがサーボ機構の理論をまとめた。4本足のロボット BigDog（2005年）は、体の傾きをはかるセンサーと油圧の足で、氷ですべっても足を踏み直して倒れなかった ⚠️が作った Wikipedia 日本語版「ビッグドッグ」 https://ja.wikipedia.org/wiki/%E3%83%93%E3%83%83%E3%82%B0%E3%83%89%E3%83%83%E3%82%B0 ）"
+   "ja": "「いまの位置」をセンサーで測り、「ねらいの位置」との差を小さくするようにモーターを回すしくみ。サーボモーターという特別なモーターがあるのではなく、ふつうのモーター＋位置のセンサー＋フィードバック制御の組み合わせ。名前は、フランスのジョゼフ・ファルコが1860年代に船のかじを動かす装置を servo-moteur（従うモーター）と呼んだのが始まりとされ、1934年に MIT のハロルド・ヘイゼンがサーボ機構の理論をまとめた。4本足のロボット BigDog（2005年）は、体の傾きをはかるセンサーと油圧の足で、氷ですべっても足を踏み直して倒れなかった ⚠️"
   },
   "10-28.name": {
    "ja": "強化学習",
    "en": "Reinforcement learning"
   },
   "10-28.hee1": {
-   "ja": "AI はゲームのルールを教わらずに、画面と点数だけを見て何度も遊ぶうちに上手になった、Nature 529（2016））",
-   "en": "Without being taught the rules of a game, an AI got good just by watching the screen and the score and playing again and again. (Added in S-005. Sources: NSF \"Barto and Sutton win 2024 Turing Award\", Nature 518 (2015), Nature 529 (2016))"
+   "ja": "AI はゲームのルールを教わらずに、画面と点数だけを見て何度も遊ぶうちに上手になった（S-005 で追加。出典：NSF「Barto and Sutton win 2024 Turing Award」",
+   "en": "Without being taught the rules of a game, an AI got good just by watching the screen and the score and playing again and again."
   },
   "10-28.real": {
    "ja": "やってみて、うまくいったら「ごほうび（点数）」をもらい、点数が多くなる行動を自分で学ぶやり方。考え方は1950年代の動的計画法から続き、1980年代にアメリカの2人の研究者がまとめた（2024年度のチューリング賞）。1957年のベルマンの動的計画法が数学の土台で、1989年には Q 学習、1992年にはバックギャモンを自分で対戦して覚えたプログラムが作られた。2013年、ニューラルネットと組み合わせた DQN が、画面の絵と点数だけからテレビゲームの遊び方を学び（Nature 掲載は2015年）、2016年には囲碁の AlphaGo がトップ棋士に勝った。ロボットが歩き方やつかみ方を練習するのにも使われる"
@@ -7968,7 +7980,7 @@
   },
   "10-30.hee1": {
    "ja": "ロボット掃除機は『自分はどこ？』と『部屋はどんな形？』を同じ計算で少しずつ当てていく。",
-   "en": "A robot vacuum guesses \"Where am I?\" and \"What shape is the room?\" bit by bit, with the same calculation. (Added in S-004. Sources: doc.ic.ac.uk, arxiv.org)"
+   "en": "A robot vacuum guesses \"Where am I?\" and \"What shape is the room?\" bit by bit, with the same calculation."
   },
   "10-30.real": {
    "ja": "知らない部屋で、ロボットは『地図が無いと自分の位置がわからない』『位置がわからないと地図が書けない』という困りごとに出会う。1986年ごろ、アメリカとイギリスの研究者たちが、位置と地図の両方を『どのくらい確かか』という確率で一緒に見積もり、センサーで見るたびに少しずつ直す方法を示した。1995年ごろ SLAM という名前がつき、2000年代に計算が速くなってロボット掃除機・自動運転・AR に使われるようになった"
@@ -7978,8 +7990,8 @@
    "en": "Stored-program computer"
   },
   "10-31.hee1": {
-   "ja": "最初のプログラム内蔵式の計算機は、テレビのようなブラウン管の画面の点で数を覚えていた",
-   "en": "The first stored-program computer remembered numbers as dots on a CRT screen, like a TV. (Added in O-008. Sources: IEEE Milestones \"Manchester University Baby Computer 1948-1951\", Wikipedia \"Turing Award\")"
+   "ja": "最初のプログラム内蔵式の計算機は、テレビのようなブラウン管の画面の点で数を覚えていた（O-008 で追加。出典：IEEE Milestones「Manchester University Baby Computer 1948-1951」",
+   "en": "The first stored-program computer remembered numbers as dots on a CRT screen, like a TV."
   },
   "10-31.real": {
    "ja": "それまでの電子計算機（ENIAC など）は、計算の手順を変えるたびに配線をつなぎかえていた。手順（プログラム）を数として記憶の中に入れておけば、読み出して次々に実行でき、すぐに取り替えられる。この考えは1945年のフォン・ノイマンの EDVAC の報告書の草稿、エッカートとモークリーの構想、チューリングの ACE の設計に書かれた。1948年6月21日、イギリスのマンチェスター大学の「ベビー」（フレデリック・ウィリアムズ、トム・キルバーンら）が、ブラウン管の画面の電荷を記憶にして最初のプログラムを動かした（IEEE マイルストーン）。1949年にはケンブリッジ大学の EDSAC（モーリス・ウィルクス）が毎日の計算に使われ始めた。「世界初」は定義しだいで説が分かれる。今のパソコン・スマホの CPU（[10-13]）もこの方式"
@@ -7989,8 +8001,8 @@
    "en": "Floating-point standard"
   },
   "10-32.hee1": {
-   "ja": "コンピュータで 0.1＋0.2 を計算すると、ほんの少しだけ 0.3 からずれることがある）",
-   "en": "When a computer calculates 0.1 + 0.2, the answer can be just slightly off from 0.3. (Added in O-010. Sources: IEEE Milestones \"IEEE Standard 754, 1985\", \"Intel 8087, 1980\", IEEE Milestone \"IEEE Standard 754 for Binary Floating-Point Arithmetic, 1985\" (https://ethw.org/Milestones:IEEE_Standard_754_for_Binary_Floating-Point_Arithmetic,_1985))"
+   "ja": "コンピュータで 0.1＋0.2 を計算すると、ほんの少しだけ 0.3 からずれることがある（O-010 で追加。出典：IEEE Milestones「IEEE Standard 754, 1985」「Intel 8087, 1980」、IEEE Milestone「IEEE Standard 754 for Binary Floating-Point Arithmetic, 1985」",
+   "en": "When a computer calculates 0.1 + 0.2, the answer can be just slightly off from 0.3."
   },
   "10-32.hee2": {
    "ja": "8087 は CPU の横に置く「補助のチップ」で、小数の計算を何十倍も速くした。"
@@ -8009,8 +8021,8 @@
    "en": "Hard disk drive"
   },
   "10-33.hee1": {
-   "ja": "最初のハードディスクは直径約60cm の円盤を50枚も重ねて、入るのは約5MB だった",
-   "en": "The first hard disk stacked 50 platters about 60 cm across, and held only about 5 MB (added in O-011. Sources: ASME Landmark #90 \"IBM 350 RAMAC\", Wikipedia \"IBM 350\", National Museum of Nature and Science \"Essential Historical Materials for Science and Technology\")"
+   "ja": "最初のハードディスクは直径約60cm の円盤を50枚も重ねて、入るのは約5MB だった（O-011 で追加。出典：ASME Landmark #90「IBM 350 RAMAC」",
+   "en": "The first hard disk stacked 50 platters about 60 cm across, and held only about 5 MB (added in O-011. Sources: ASME Landmark #90 \"IBM 350 RAMAC\","
   },
   "10-33.real": {
    "ja": "回る円盤に磁石の向きで記録し、腕の先の磁気ヘッドを動かして、好きな場所のデータをすぐに読み書きできる装置。1956年、IBM のサンノゼ研究所（レイノルド・ジョンソンのチーム）が、直径約60cm の円盤50枚で約5MB を記録する IBM 350 RAMAC を作った（ASME ランドマーク #90）。1971年に IBM が持ち運べるフロッピーディスクを、1980年ごろにソニーが3.5インチのフロッピーを作った。パソコンの保存は長くハードディスクが主役で、今は SSD（[10-24]）に置きかわりつつある"
@@ -8020,8 +8032,8 @@
    "en": "Operating system"
   },
   "10-34.hee1": {
-   "ja": "スマホの中でも、50年以上前の UNIX の考え方が生きている）",
-   "en": "The ideas of UNIX from more than 50 years ago still live inside smartphones. (Added in O-011. Sources: Wikipedia \"Turing Award\", \"Compatible Time-Sharing System\", \"Unix\", IEEE Computer Society 'Fernando Jose Corbató' / MIT CSAIL (https://history.computer.org/pioneers/corbato.html))"
+   "ja": "スマホの中でも、50年以上前の UNIX の考え方が生きている（O-011 で追加。出典：",
+   "en": "The ideas of UNIX from more than 50 years ago still live inside smartphones."
   },
   "10-34.real": {
    "ja": "計算機の上で、ほかのプログラムを動かし、記憶・ファイル・入出力を管理する土台のプログラム（OS）。1961年、MIT のフェルナンド・コルバトらの CTSS が、1台の高い計算機を多くの人で順番に細かく使う「時分割」を始めた。1969年、ベル研究所で UNIX が作られ、1973年にデニス・リッチーらが高級言語 C で書き直して、ほかの計算機に移せるようになった。スマホの OS もこの流れを受けついでいる"
@@ -8031,8 +8043,8 @@
    "en": "Circuit simulator"
   },
   "10-35.hee1": {
-   "ja": "チップは作る前に、コンピュータの中で何度も動かして確かめている（https://ethw.org/Milestones:SPICE_Circuit_Simulation_Program））",
-   "en": "Before chips are made, they are run many times inside a computer to check them. (Added in O-011. Sources: IEEE Milestones \"SPICE, 1969-1970\", IEEE Milestone \"SPICE, 1969-1970\" (ETHW) (https://ethw.org/Milestones:SPICE_Circuit_Simulation_Program))"
+   "ja": "チップは作る前に、コンピュータの中で何度も動かして確かめている",
+   "en": "Before chips are made, they are run many times inside a computer to check them."
   },
   "10-35.real": {
    "ja": "IC は作ってから直せないので、作る前に計算機の中で回路を動かして確かめる。トランジスタのふるまいを式（デバイスモデル）にして入れ、電圧と電流を計算する。1969〜70年、カリフォルニア大学バークレー校の授業の課題から生まれ、1971年に SPICE（IC を重視した回路のシミュレーションのプログラム）として公開された（IEEE マイルストーン）。誰でも使える形で配られたので、世界中の IC の設計の標準の道具になった"
@@ -8042,8 +8054,8 @@
    "en": "RISC"
   },
   "10-36.hee1": {
-   "ja": "スマホの CPU は、命令をわざと単純にして速くした設計の子孫",
-   "en": "Smartphone CPUs are descendants of a design that made instructions simple on purpose to make them faster. (Added in O-011. Sources: IEEE Milestones \"RISC-I\", Wikipedia \"Reduced instruction set computer\")"
+   "ja": "スマホの CPU は、命令をわざと単純にして速くした設計の子孫（O-011 で追加。出典：IEEE Milestones「RISC-I」",
+   "en": "Smartphone CPUs are descendants of a design that made instructions simple on purpose to make them faster."
   },
   "10-36.real": {
    "ja": "CPU の命令の種類を減らして単純にし、1つの命令を速く実行する。空いたトランジスタを、数を置いておく場所（レジスタ）や、命令を流れ作業で進める仕組み（パイプライン）に回す。複雑な仕事は、人ではなくコンパイラが単純な命令を組み合わせて作る。1975〜80年に IBM のジョン・コックのチームが IBM 801 で始め、1980〜82年にカリフォルニア大学バークレー校で大学院生たちが RISC-I を作り（1981年完成、IEEE マイルストーン）、同じころスタンフォード大学で MIPS が作られた。スマホの CPU（Arm、[I-13]）もこの流れ"
@@ -8053,8 +8065,8 @@
    "en": "Predicting protein shapes with AI"
   },
   "10-37.hee1": {
-   "ja": "AI は、アミノ酸の並びだけから、たんぱく質がどんな形に折りたたまれるかを当てられるようになった）",
-   "en": "AI can now guess how a protein folds just from its order of amino acids (added in O-011. Sources: Nobel Prize \"Chemistry 2024\", \"Chemistry 1972\", Nobel Prize \"The Nobel Prize in Chemistry 2024 press release\" (https://www.nobelprize.org/prizes/chemistry/2024/press-release/))"
+   "ja": "AI は、アミノ酸の並びだけから、たんぱく質がどんな形に折りたたまれるかを当てられるようになった（O-011 で追加。出典：Nobel Prize「Chemistry 2024」「Chemistry 1972」、Nobel Prize「The Nobel Prize in Chemistry 2024 press release」",
+   "en": "AI can now guess how a protein folds just from its order of amino acids (added in O-011. Sources: Nobel Prize \"Chemistry 2024\", \"Chemistry 1972\", Nobel Prize \"The Nobel Prize in Chemistry 2024 press release\" ("
   },
   "10-37.real": {
    "ja": "たんぱく質はアミノ酸の並びで形が決まる（1972年ノーベル化学賞のアンフィンセンの考え）が、並びから形を当てるのは50年近く難しい問題だった。1994年から並びから形を当てる世界の予測コンテスト（CASP）が開かれ、2020年、ニューラルネットの AlphaFold2 が実験に近い正確さで形を予測した。世界中の研究者が登録したたんぱく質の構造のデータで学んでいる。2024年のノーベル化学賞（受賞者は存命なので名前を出さない）。薬づくりや病気の研究に使われる"
@@ -8063,7 +8075,7 @@
    "ja": "ストレージ管のグラフィック端末"
   },
   "10-38.hee1": {
-   "ja": "この画面は、線を消すとき画面全体をピカッと光らせて、いっぺんに消していたが作った Wikipedia 日本語版「直視型双安定ストレージチューブ」 https://ja.wikipedia.org/wiki/%E7%9B%B4%E8%A6%96%E5%9E%8B%E5%8F%8C%E5%AE%89%E5%AE%9A%E3%82%B9%E3%83%88%E3%83%AC%E3%83%BC%E3%82%B8%E3%83%81%E3%83%A5%E3%83%BC%E3%83%96 、亜留間次郎さん（Arumaddilo）が作った Wikipedia 日本語版「Tektronix 4010」 https://ja.wikipedia.org/wiki/Tektronix_4010 ）"
+   "ja": "この画面は、線を消すとき画面全体をピカッと光らせて、いっぺんに消していた（S-019 で追加。出典：TekWiki「4010」"
   },
   "10-38.real": {
    "ja": "ブラウン管の蛍光面のすぐ裏に電荷を残しておくと、一度描いた線が光り続ける（直視型双安定ストレージ管、テクトロニクスのオシロスコープ 564 で1962年に製品に）。高価なメモリに絵を覚えさせなくても線画を出せるので、この管を使った端末 Tektronix 4010（1971〜1972年）が、1970年代にコンピューターの絵（グラフィックス）を安く広めた ⚠️（4010 の年は 1971 と 1972 の2説）"
@@ -8072,7 +8084,7 @@
    "ja": "BASIC で動く小さなマイコンの板"
   },
   "10-39.hee1": {
-   "ja": "「スタンプ」は郵便切手。切手くらい小さいコンピューターが作った Wikipedia 日本語版「BASIC Stamp」 https://ja.wikipedia.org/wiki/BASIC_Stamp ）"
+   "ja": "「スタンプ」は郵便切手。切手くらい小さいコンピューター（S-019 で追加。出典：Parallax「Our Story」"
   },
   "10-39.real": {
    "ja": "切手くらいの大きさの板に、小さなコンピューター（マイコン）とプログラムを覚えておく部品をのせた物。機械語ではなく、やさしい BASIC の言葉でプログラムを書けるので、趣味でものを作る人や学校の授業で広く使われた（1992年に最初の型、1995年に2番目の型） ⚠️（使われた数は作った会社の発表）"
@@ -8406,7 +8418,7 @@
   },
   "11-17.hee1": {
    "ja": "エスプレッソは、タイヤの空気の約4倍、9気圧ほどの力でお湯をコーヒーの粉に押し通して作っている。",
-   "en": "Espresso is made by forcing hot water through coffee grounds at about 9 atmospheres, roughly 4 times the air pressure in a tire. (Added in S-004. Sources: en.wikipedia.org, gaggia.com, home-barista.com)"
+   "en": "Espresso is made by forcing hot water through coffee grounds at about 9 atmospheres, roughly 4 times the air pressure in a tire."
   },
   "11-17.real": {
    "ja": "1901年、ミラノのルイジ・ベッツェラがボイラーの蒸気の圧力でお湯を粉に通す機械の特許を取り、1905年にデジデリオ・パボーニが量産した。この方式は約1.5気圧しかなく、お湯も熱すぎた。アキッレ・ガッジアは1938年に蒸気を使わない方式の特許、1947年にレバーでばねを縮めてピストンで押す方式の特許を取り、1948年に店用の機械を出した。約9気圧で押すことで、表面にクレマ（細かい泡の層）ができる今のエスプレッソになった。『ジープのエンジンを見て思いついた』という話は言い伝え"
@@ -8693,7 +8705,7 @@
   },
   "12-16.hee1": {
    "ja": "エレベーターを発明したのはオーチスではなく、オーチスが作ったのは『ロープが切れても落ちない』つめの仕組みだった。",
-   "en": "Otis did not invent the elevator; what he made was a catch that stops it from falling even if the rope breaks. (Added in S-004. Sources: asme.org, theelevatormuseum.org, invent.org)"
+   "en": "Otis did not invent the elevator; what he made was a catch that stops it from falling even if the rope breaks."
   },
   "12-16.real": {
    "ja": "1852年ごろ、エリシャ・オーチスは工場の荷物用リフトのために、ロープが切れると強いばね（荷馬車用の鋼のばね）が開いて、ガイドレールのぎざぎざ（ラチェット）にかみ合う装置を作った。1854年、ニューヨークの博覧会（クリスタルパレス）で自分が乗った台のロープを切らせ、台が少し落ちただけで止まるのを見せた。よく『エレベーターの発明者』と言われるが、昇降機そのものは古代からあり、オーチスが作ったのは『落ちない仕組み』。今の非常止めは、速さを見張る調速機とくさびのブレーキに発展している"
@@ -8707,7 +8719,7 @@
   },
   "12-17.hee1": {
    "ja": "エレベーターのロープの反対側にはかごと同じくらい重いおもりがぶら下がっていて、モーターは『重さの差』だけを持ち上げている。",
-   "en": "On the other end of an elevator's rope hangs a weight about as heavy as the car, so the motor only lifts the \"difference in weight.\" (Added in S-004. Sources: en.wikipedia.org, theelevatormuseum.org, britannica.com)"
+   "en": "On the other end of an elevator's rope hangs a weight about as heavy as the car, so the motor only lifts the \"difference in weight.\""
   },
   "12-17.real": {
    "ja": "1880年、ヴェルナー・フォン・シーメンスがドイツ・マンハイムの博覧会で、電動モーターで動くリフトを見せた。1903年、オーチス社はモーターで綱車を直接回し、ロープの反対側につり合いおもりを下げる『ギアレス・トラクション式』を実用化した。かごとおもりの重さでロープが綱車の溝に押しつけられ、その摩擦で動く。巻き取らないのでロープの長さに限りがなく、高層ビル（摩天楼）が建てられるようになった"
@@ -8716,7 +8728,7 @@
    "ja": "削岩機"
   },
   "12-18.hee1": {
-   "ja": "空気で動く削岩機は、使い終わった空気でトンネルの中の息苦しさまで減らした https://www.tunnelsandtunnelling.com/?p=488 、Britannica「Germain Sommeiller」 https://www.britannica.com/biography/Germain-Sommeiller 、亜留間次郎さん（Arumaddilo）が作った Wikipedia 日本語版「削岩機」 https://ja.wikipedia.org/wiki/%E5%89%8A%E5%B2%A9%E6%A9%9F ）"
+   "ja": "空気で動く削岩機は、使い終わった空気でトンネルの中の息苦しさまで減らした"
   },
   "12-18.real": {
    "ja": "アルプスを抜けるモン・スニ（フレジュス）鉄道トンネル（約13km）は1857年に手掘りで始まったが、とても遅かった。技師ジェルマン・ソメイエ（1815〜1871）は、水の力で空気を押し縮め、その圧縮空気で岩に穴をあける機械を1861年から使った。煙を出さず、使ったあとの空気が換気にも役立った。1870年に貫通、1871年に開通 ⚠️（機械のもとの考えは別の人とする資料もある）"
@@ -8755,7 +8767,7 @@
    "en": "The world's first surgery under general anesthesia was done in Japan."
   },
   "13-03.real": {
-   "ja": "1844 ホレス・ウェルズの笑気（N2O）、1846 ウィリアム・モートンのエーテル麻酔の公開手術（ボストン）。1804 華岡青洲が通仙散で全身麻酔⚠️。燃えたり爆発したりする危険のあったエーテルに代わり、1951年にイギリスで燃えない吸入麻酔薬ハロタンが作られ、1956年から手術で使われた（のちに肝臓への副作用が分かり、新しい薬に替わった）。体の一部だけをしびれさせる局所麻酔では、1928年にドイツで、ききめが長く続くテトラカインが作られた ⚠️ https://www.digitalcollections.manchester.ac.uk/view/MH-02004-00444 、Wood Library-Museum of Anesthesiology「Pontocaine」 https://www.woodlibrarymuseum.org/museum/pontocaine 、亜留間次郎さん（Arumaddilo）が作った Wikipedia 日本語版「ハロタン」 https://ja.wikipedia.org/wiki/%E3%83%8F%E3%83%AD%E3%82%BF%E3%83%B3 、亜留間次郎さん（Arumaddilo）が作った Wikipedia 日本語版「テトラカイン」 https://ja.wikipedia.org/wiki/%E3%83%86%E3%83%88%E3%83%A9%E3%82%AB%E3%82%A4%E3%83%B3 ）"
+   "ja": "1844 ホレス・ウェルズの笑気（N2O）、1846 ウィリアム・モートンのエーテル麻酔の公開手術（ボストン）。1804 華岡青洲が通仙散で全身麻酔⚠️。燃えたり爆発したりする危険のあったエーテルに代わり、1951年にイギリスで燃えない吸入麻酔薬ハロタンが作られ、1956年から手術で使われた（のちに肝臓への副作用が分かり、新しい薬に替わった）。体の一部だけをしびれさせる局所麻酔では、1928年にドイツで、ききめが長く続くテトラカインが作られた ⚠️ https://www.digitalcollections.manchester.ac.uk/view/MH-02004-00444 、Wood Library-Museum of Anesthesiology「Pontocaine」 https://www.woodlibrarymuseum.org/museum/pontocaine 、Wikipedia 日本語版「ハロタン」 https://ja.wikipedia.org/wiki/%E3%83%8F%E3%83%AD%E3%82%BF%E3%83%B3 、Wikipedia 日本語版「テトラカイン」 https://ja.wikipedia.org/wiki/%E3%83%86%E3%83%88%E3%83%A9%E3%82%AB%E3%82%A4%E3%83%B3 ）"
   },
   "person.13-03.0.intro": {
    "ja": "1804年、薬草から作った麻酔薬・通仙散で全身麻酔をして手術をした ⚠️"
@@ -8911,7 +8923,7 @@
    "ja": "血管をしばって血を止める"
   },
   "13-16.hee1": {
-   "ja": "床屋出身の外科医が、油が足りなくなったおかげでやさしい手当てを見つけた「Ambroise Paré」 International Orthopaedics https://pmc.ncbi.nlm.nih.gov/articles/PMC3609990/ 、Wellcome Collection（パレの外科書） https://wellcomecollection.org/works/bjdkvy9n 、亜留間次郎さん（Arumaddilo）が作った Wikipedia 日本語版「アンブロワーズ・パレ」 https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%B3%E3%83%96%E3%83%AD%E3%83%AF%E3%83%BC%E3%82%BA%E3%83%BB%E3%83%91%E3%83%AC ）"
+   "ja": "床屋出身の外科医が、油が足りなくなったおかげでやさしい手当てを見つけた"
   },
   "13-16.real": {
    "ja": "当時は、けがを煮えた油で焼き、切った足の血を真っ赤な鉄で焼いて止めていた。フランスの床屋外科医アンブロワーズ・パレ（1510〜1590）は、油が足りなくなったとき軟膏をぬったほうが痛みもはれも少ないことに気づき、1552年には焼くかわりに糸で血管をしばって血を止めた。1564年の本でこの方法を広めた ⚠️（結紮を最初に考えたのはパレではなく、広めたのがパレ。場所・年は資料で違う）"
@@ -8951,7 +8963,7 @@
    "ja": "船の羅針盤の両わきの丸い玉は、そのくるいを打ち消すための鉄の玉。"
   },
   "14-02.real": {
-   "ja": "1088 沈括『夢渓筆談』が磁針と磁気偏角を記録。12世紀ごろ航海に使用。船のコンパスの台（ビナクル）は、コンパスを雨風から守り夜は照らす。鉄の船では船の鉄が針をくるわせるので、1801年ごろフリンダースが縦の鉄の棒で直す方法を考え、1876年にウィリアム・トムソン（ケルビン卿）が、両わきの鉄の玉でくるいを打ち消すコンパスとビナクルの特許をとった ⚠️が作った Wikipedia 日本語版「ビナクル」 https://ja.wikipedia.org/wiki/%E3%83%93%E3%83%8A%E3%82%AF%E3%83%AB ）"
+   "ja": "1088 沈括『夢渓筆談』が磁針と磁気偏角を記録。12世紀ごろ航海に使用。船のコンパスの台（ビナクル）は、コンパスを雨風から守り夜は照らす。鉄の船では船の鉄が針をくるわせるので、1801年ごろフリンダースが縦の鉄の棒で直す方法を考え、1876年にウィリアム・トムソン（ケルビン卿）が、両わきの鉄の玉でくるいを打ち消すコンパスとビナクルの特許をとった ⚠️"
   },
   "14-02.play": {
    "ja": "軽（持つと北の矢印、鉄のそばでくるう）"
@@ -9153,7 +9165,7 @@
    "en": "Rocket equation"
   },
   "14-15.hee1": {
-   "ja": "ロケットは押す空気がない宇宙でも、自分の噴射の反動で進む（IMP-24：T-3 で「ロケット」から「ロケット方程式」に変更）",
+   "ja": "ロケットは押す空気がない宇宙でも、自分の噴射の反動で進む",
    "en": "Even in space, with no air to push on, a rocket moves by the recoil of its own exhaust (IMP-24: changed from \"Rocket\" to \"Rocket equation\" in T-3)"
   },
   "14-15.real": {
@@ -9167,8 +9179,8 @@
    "en": "Self-driving cars"
   },
   "14-16.hee1": {
-   "ja": "最初の無人自動車レースでは1台も完走できず、いちばん遠くまで行った車でもコースの約20分の1だったUrmson ほか、DTIC「DARPA Grand Challenge」）",
-   "en": "In the first driverless car race, not a single car finished; even the one that went farthest covered only about 1/20 of the course. (Added in S-005. Sources: AI Magazine (2009) Urmson et al., DTIC \"DARPA Grand Challenge\")"
+   "ja": "最初の無人自動車レースでは1台も完走できず、いちばん遠くまで行った車でもコースの約20分の1だった",
+   "en": "In the first driverless car race, not a single car finished; even the one that went farthest covered only about 1/20 of the course."
   },
   "14-16.real": {
    "ja": "1980年代にはドイツや米国の大学の実験車がすでに走っていた。アメリカ国防高等研究計画局（DARPA）が砂漠を無人で走るレースを開き、2004年は約227km のコースで完走ゼロ（最長でも約12km）、2005年はスタンフォード大学の「スタンレー」が約7時間で優勝して5台が完走した。2007年は街の中を交通ルールを守って走るレースで、カーネギーメロン大学の「ボス」が優勝した。車は GPS・LiDAR・カメラ・レーダーで周りを知り、コンピュータがハンドルとアクセルを動かす"
@@ -9179,7 +9191,7 @@
   },
   "14-17.hee1": {
    "ja": "空気ブレーキは「空気が抜けたら止まる」ように作られていて、壊れたときも安全なほうに働く。",
-   "en": "The air brake is built to \"stop when the air leaks out,\" so even when it breaks it fails on the safe side. (Added in S-004. Sources: en.wikipedia.org, britannica.com)"
+   "en": "The air brake is built to \"stop when the air leaks out,\" so even when it breaks it fails on the safe side."
   },
   "14-17.real": {
    "ja": "1869年4月13日、ジョージ・ウェスティングハウスが鉄道の空気ブレーキの特許を取った。機関車の圧縮機の空気を1本の管で全部の車両に送り、運転士がまとめてブレーキをかけられる。その後の自動空気ブレーキ（1872〜73年）は、管が切れて空気が抜けるとブレーキがかかる「安全側に倒れる」しくみ。よくある間違い：1869年の型はまだこの自動式ではなかった。今の大型バスやトラックも空気ブレーキを使う"
@@ -9190,7 +9202,7 @@
   },
   "14-18.hee1": {
    "ja": "ブレーキは車の動く力を「熱」に変えて止めるので、山道を下ると熱くなりすぎることがある。",
-   "en": "Brakes stop a car by turning its motion into \"heat\", so they can get too hot going down a mountain road. (Added in S-004. Sources: en.wikipedia.org, classicsworld.co.uk)"
+   "en": "Brakes stop a car by turning its motion into \"heat\", so they can get too hot going down a mountain road."
   },
   "14-18.real": {
    "ja": "ドラムブレーキは車輪と回る筒（ドラム）の内側に摩擦材を押しつけるもので、1900年にマイバッハが車に使い、1902年にルイ・ルノーが特許を取った。ディスクブレーキは回る円板を両側からはさむもので、1902年にフレデリック・ランチェスターが特許を取った。どちらも動く力を摩擦で熱に変えて止める。よくある間違い：二人の役を逆に書いた解説がある（ドラム＝ルノー、ディスク＝ランチェスター）"
@@ -9212,7 +9224,7 @@
   },
   "14-20.hee1": {
    "ja": "ターボは、捨てるはずだった排気ガスの勢いを使ってエンジンに空気を押し込む。",
-   "en": "A turbo uses the force of exhaust gas, which would be wasted, to push air into the engine. (Added in S-004. Sources: en.wikipedia.org, accelleron-industries.com)"
+   "en": "A turbo uses the force of exhaust gas, which would be wasted, to push air into the engine."
   },
   "14-20.real": {
    "ja": "1905年11月、スイスの技師アルフレッド・ビュッヒがドイツで特許を取った。捨てていた排気ガスで羽根車（タービン）を回し、同じ軸の圧縮機でエンジンに空気を押し込むので、同じ大きさでも強い力が出る。当時は材料が熱に耐えられず、実用は1920年代の大型ディーゼルから。今の大型バスやトラックのディーゼルにはほぼ付いている"
@@ -9221,7 +9233,7 @@
    "ja": "E6B フライトコンピューター"
   },
   "14-21.hee1": {
-   "ja": "電池のいらない、くるくる回す計算機。今もパイロットが練習で使う https://www.aopa.org/news-and-media/all-news/2000/april/pilot/wind-triangle-computers 、スミソニアン博物館の所蔵品 https://www.si.edu/object/nmah_690053 、亜留間次郎さん（Arumaddilo）が作った Wikipedia 日本語版「風の三角形」 https://ja.wikipedia.org/wiki/%E9%A2%A8%E3%81%AE%E4%B8%89%E8%A7%92%E5%BD%A2 、亜留間次郎さん（Arumaddilo）が作った Wikipedia 日本語版「E6Bフライトコンピューター」 https://ja.wikipedia.org/wiki/E6B%E3%83%95%E3%83%A9%E3%82%A4%E3%83%88%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%E3%83%BC ）"
+   "ja": "電池のいらない、くるくる回す計算機。今もパイロットが練習で使う"
   },
   "14-21.real": {
    "ja": "飛行機は横風で流されるので、「機首の向きと空気に対する速さ」「風の向きと強さ」「地面に対する進路と速さ」の3本の矢印を三角形にして考える（風の三角形）。アメリカのフィリップ・ドルトン（1903〜1941）は、この三角形と、時間・速さ・距離の計算を、手で回す円形の計算尺にまとめた（特許1937年）。第二次世界大戦のころから E-6B の名で広まり、今もパイロットの練習で使われる ⚠️（特許番号・名前の由来は資料で違う）"
@@ -9557,7 +9569,7 @@
    "en": "The first network message stopped after 2 letters, \"LO\" (it crashed partway through LOGIN)"
   },
   "15-15.real": {
-   "ja": "1969 ARPANET、1983 TCP/IP へ移行、1991 ティム・バーナーズ＝リーの WWW 公開。電話の線でデータを送る機械（モデム）は、0と1を2つの高さの音に当てはめて送った（周波数偏移変調＝FSK）。1962年のベル103モデムは毎秒300ビットで、行きと帰りで別の音の組を使った ⚠️が作った Wikipedia 日本語版「周波数偏移変調」 https://ja.wikipedia.org/wiki/%E5%91%A8%E6%B3%A2%E6%95%B0%E5%81%8F%E7%A7%BB%E5%A4%89%E8%AA%BF ）"
+   "ja": "1969 ARPANET、1983 TCP/IP へ移行、1991 ティム・バーナーズ＝リーの WWW 公開。電話の線でデータを送る機械（モデム）は、0と1を2つの高さの音に当てはめて送った（周波数偏移変調＝FSK）。1962年のベル103モデムは毎秒300ビットで、行きと帰りで別の音の組を使った ⚠️"
   },
   "15-16.name": {
    "ja": "USB",
@@ -9565,7 +9577,7 @@
   },
   "15-16.hee1": {
    "ja": "USB の前のパソコンには、マウス用・キーボード用・プリンター用と形のちがう差し口がいくつもあった",
-   "en": "Before USB, computers had several differently shaped ports: one for the mouse, one for the keyboard, one for the printer. (Added in S-002. Sources: IEEE Milestones \"Universal Serial Bus (USB)\", heise \"30 years of USB 1.0\")"
+   "en": "Before USB, computers had several differently shaped ports: one for the mouse, one for the keyboard, one for the printer."
   },
   "15-16.real": {
    "ja": "1994年、7社（コンパック・DEC・IBM・インテル・マイクロソフト・NEC・ノーテル）が、ばらばらだったプリンター・マウス・キーボードの差し口を1つにまとめる規格を作り始め、1996年1月に USB 1.0（最大12Mbit/s）を出した。挿したまま抜き差しでき、電気も一緒に送れる。インテルの技術者が早くから提案した"
@@ -9575,8 +9587,8 @@
    "en": "Wi-Fi"
   },
   "15-17.hee1": {
-   "ja": "「Wi-Fi」は何かの略ではなく、覚えやすいように付けた名前",
-   "en": "\"Wi-Fi\" does not stand for anything; it is a name chosen to be easy to remember. (Added in S-002. Sources: Wikipedia \"Wi-Fi Alliance\", EE World \"Wi-Fi's long road\")"
+   "ja": "「Wi-Fi」は何かの略ではなく、覚えやすいように付けた名前（S-002 で追加。出典：",
+   "en": "\"Wi-Fi\" does not stand for anything; it is a name chosen to be easy to remember."
   },
   "15-17.real": {
    "ja": "1990年に IEEE 802.11 委員会が動き出し、1997年に最初の無線 LAN の規格（2.4GHz、2Mbit/s）を出した。1999年に 802.11b（11Mbit/s）が決まり、同じ年に各社が互換性を保証する団体（WECA、のちの Wi-Fi Alliance）を作って「Wi-Fi」と名づけた。部屋の壁で電波がはね返って遅れて届く問題には、オーストラリアの CSIRO の特許の方法が 802.11a/g 以降で使われた"
@@ -9586,8 +9598,8 @@
    "en": "Capacitive touchscreen"
   },
   "15-18.hee1": {
-   "ja": "指が近づくだけで、画面の下の見えない電極が「ここに指がある」と気づく、CERN「The first touchscreens」、Google Patents US3482241）",
-   "en": "Just by bringing your finger close, invisible electrodes under the screen notice \"there is a finger here\". (Added in S-003. Sources: Electronics Letters (1965), CERN \"The first touchscreens\", Google Patents US3482241)"
+   "ja": "指が近づくだけで、画面の下の見えない電極が「ここに指がある」と気づく",
+   "en": "Just by bringing your finger close, invisible electrodes under the screen notice \"there is a finger here\"."
   },
   "15-18.hee2": {
    "ja": "変化はほんの 1pF ほど（1兆分の1ファラッド）。それを何千回も読んで指の場所を決める。"
@@ -9609,8 +9621,8 @@
    "en": "Loudspeaker"
   },
   "15-19.hee1": {
-   "ja": "スピーカーは、磁石と電線のコイルで紙をふるわせて音を作る（モーターの親せき））",
-   "en": "A loudspeaker makes sound by shaking paper with a magnet and a coil of wire (a cousin of the motor) (added in S-003. Sources: Wikipedia \"Loudspeaker\", Britannica \"Loudspeaker\", Trans. AIEE (1925))"
+   "ja": "スピーカーは、磁石と電線のコイルで紙をふるわせて音を作る（モーターの親せき）（S-003 で追加。出典：",
+   "en": "A loudspeaker makes sound by shaking paper with a magnet and a coil of wire (a cousin of the motor) (added in S-003. Sources:"
   },
   "15-19.real": {
    "ja": "磁石のすき間に置いた銅線のコイルに音の電流を流すと、コイルが前後に動いて振動板をゆらし、空気をふるわせる。1874年のジーメンス、1898年のオリバー・ロッジが動くコイルの特許を出していたが、1925年に GE のチェスター・ライスとエドワード・ケロッグが真空管のアンプで動かす実用的なスピーカーを作り、今の形のもとになった。スマホの小さなスピーカーは、小さくても強いネオジム磁石（[1-35]）を使う"
@@ -9620,8 +9632,8 @@
    "en": "Mobile phone radio"
   },
   "15-20.hee1": {
-   "ja": "世界で最初の携帯電話のネットワークは、1979年の東京の自動車電話",
-   "en": "The world's first mobile phone network was the car phone in Tokyo in 1979. (Added in S-003. Sources: Wikipedia \"History of mobile phones\", Britannica \"Mobile telephone\", NTT Docomo \"History\")"
+   "ja": "世界で最初の携帯電話のネットワークは、1979年の東京の自動車電話（S-003 で追加。出典：",
+   "en": "The world's first mobile phone network was the car phone in Tokyo in 1979."
   },
   "15-20.real": {
    "ja": "町を小さな区画（セル）に分けてそれぞれに基地局を置き、離れたセルでは同じ周波数を使い回す。動いて隣のセルに入ると通話を引き継ぐ。1947年、ベル研究所の研究者がセルの考えを社内メモに書いた。1973年にモトローラが手で持つ携帯電話で初めて通話した。世界で最初の商用のセルラー網は、1979年の日本電信電話公社（NTT）の東京の自動車電話で、アメリカは1983年"
@@ -9632,7 +9644,7 @@
   },
   "15-21.hee1": {
    "ja": "Bluetooth は、国々をまとめた昔の王様のあだ名「青い歯」から名前が付いた",
-   "en": "Bluetooth is named after the nickname \"Blue Tooth\" of an old king who united countries. (Added in S-003. Sources: Bluetooth SIG \"Origin of the Bluetooth name\", Ericsson \"Bluetooth: a wireless success story\")"
+   "en": "Bluetooth is named after the nickname \"Blue Tooth\" of an old king who united countries."
   },
   "15-21.real": {
    "ja": "ケーブルの代わりに数m〜10m を結ぶ近い距離の無線。1994年、エリクソン（スウェーデン）で開発が始まった。2.4GHz の電波で1秒に1600回周波数を飛び移るので、混信に強い。1998年に企業の連合ができ、1999年に規格1.0。名前は、10世紀にデンマークとノルウェーをまとめたハーラル「青歯王」から"
@@ -9642,8 +9654,8 @@
    "en": "Antenna"
   },
   "15-22.hee1": {
-   "ja": "アンテナの長さは受ける電波の波長で決まる。スマホの Wi-Fi なら3cm ほど",
-   "en": "An antenna's length is set by the wavelength of the radio waves it receives. For smartphone Wi-Fi, it is about 3 cm. (Added in S-003. Sources: Wikipedia \"Antenna (radio)\", \"Inverted-F antenna\", Britannica \"Antenna\")"
+   "ja": "アンテナの長さは受ける電波の波長で決まる。スマホの Wi-Fi なら3cm ほど（S-003 で追加。出典：",
+   "en": "An antenna's length is set by the wavelength of the radio waves it receives. For smartphone Wi-Fi, it is about 3 cm."
   },
   "15-22.real": {
    "ja": "電線の中の電気のゆれを電波に（また逆に）変える金属の形。長さが波長の半分〜4分の1のとき、よく共振する。1888年にヘルツが2本の金属棒で電波を出し、1895年にマルコーニが長い空中線で遠くへ送った。携帯電話は伸ばす棒のアンテナから本体の中の板（逆F アンテナ）に変わった（内蔵の最初の機種の年は資料で揺れる ⚠️）。今のスマホは金属の枠や基板の銅の模様をアンテナに使う"
@@ -9668,7 +9680,7 @@
   },
   "15-24.hee1": {
    "ja": "カラオケのマイクは、スピーカーを逆向きに使っているのと同じしくみ",
-   "en": "A karaoke microphone works the same way as a speaker used in reverse. (Added in S-004. Sources: mixonline.com, en.wikipedia.org)"
+   "en": "A karaoke microphone works the same way as a speaker used in reverse."
   },
   "15-24.real": {
    "ja": "膜につけた銅線のコイルが、磁石のすき間で音といっしょに動くと、電磁誘導で電気が生まれる。スピーカーを逆に使うのと同じしくみ。1931年、ベル研究所のエドワード・ウェンテとアルバート・スラースが、最初の商用ダイナミックマイク「618A」を出した（ジュラルミンの膜とコバルト鋼の磁石）。じょうぶで電源が要らないので、今もカラオケやライブで使われる"
@@ -9679,7 +9691,7 @@
   },
   "15-25.hee1": {
    "ja": "電話やおもちゃのマイクの多くは、電気をためたままのプラスチックの膜でできている",
-   "en": "Many microphones in phones and toys are made of a plastic film that keeps an electric charge stored in it. (Added in S-004. Sources: aps.org, lemelson.mit.edu)"
+   "en": "Many microphones in phones and toys are made of a plastic film that keeps an electric charge stored in it."
   },
   "15-25.real": {
    "ja": "コンデンサーマイクは、ふつう膜に高い電圧をかけておく必要があった。1962年、ベル研究所の2人の研究者が、電気をためたままにできるテフロン（フッ素樹脂）の膜＝エレクトレットを使い、その電圧をいらなくしたマイクを完成させた（米国特許3,118,022、1964年）。1968年から大量生産され、小さく安いので、100年使われた電話の炭素マイクに代わった。今も1年に20億個以上作られる。（よく「電池が要らないマイク」と言われるが、正しくは膜にかける電圧が要らないということで、中の小さな増幅用トランジスタには少し電気が要る。）"
@@ -9690,7 +9702,7 @@
   },
   "15-26.hee1": {
    "ja": "スマホには、シリコンを削って作った小さなマイクが何個も入っていて、雑音を消すのにも使っている",
-   "en": "A smartphone has several tiny microphones carved from silicon, and they are also used to cancel noise. (Added in S-004. Sources: businesswirechina.com, nt.tu-darmstadt.de)"
+   "en": "A smartphone has several tiny microphones carved from silicon, and they are also used to cancel noise."
   },
   "15-26.real": {
    "ja": "シリコンを削って作った、ごく薄い膜と穴のあいた板のすき間で音をとらえるコンデンサーマイク。1980年代にドイツのダルムシュタット工科大学でシリコンのコンデンサーマイクを研究し、2003年2月にアメリカのノウルズ社（エムケイ部門）が、基板にそのままはんだ付けできる MEMS マイク「SiSonic」を発売した。熱に強く機械で組み立てやすいので、スマホには何個も入っている（ノウルズは2009年に10億個目を出荷）"
@@ -9700,8 +9712,8 @@
    "en": "Yagi-Uda antenna"
   },
   "15-27.hee1": {
-   "ja": "屋根のテレビのアンテナの横に並んだ棒は、電波を一方向に集めるための形",
-   "en": "The rods lined up on a rooftop TV antenna are shaped to gather radio waves from one direction (added in O-010. Sources: IEEE Milestones \"Directive Short Wave Antenna, 1924\", ETHW \"Yagi Antenna\", Wikipedia \"Yagi–Uda antenna\")"
+   "ja": "屋根のテレビのアンテナの横に並んだ棒は、電波を一方向に集めるための形（O-010 で追加。出典：IEEE Milestones「Directive Short Wave Antenna, 1924」、ETHW「Yagi Antenna」",
+   "en": "The rods lined up on a rooftop TV antenna are shaped to gather radio waves from one direction (added in O-010. Sources: IEEE Milestones \"Directive Short Wave Antenna, 1924\", ETHW \"Yagi Antenna\","
   },
   "15-27.real": {
    "ja": "電波を受ける棒の前に少し短い金属の棒を、後ろに少し長い棒を並べると、電波が一方向に強め合い、その方向の電波だけを強く送ったり受けたりできる。東北帝国大学の宇田新太郎が実験と最初の発表を行い、八木秀次と1926年に論文にした（IEEE マイルストーン「Directive Short Wave Antenna, 1924」、未来技術遺産）。英語の論文と特許が八木の名前だったので、外国では長く「八木アンテナ」と呼ばれた。家の屋根のテレビのアンテナの多くはこの形"
@@ -9717,8 +9729,8 @@
    "en": "Optical disc"
   },
   "15-28.hee1": {
-   "ja": "CD に傷があっても音が出るのは、こわれた所を計算で直しているから",
-   "en": "A scratched CD still plays because the broken parts are fixed by calculation. (Added in O-010. Sources: Wikipedia \"Compact disc\", National Museum of Nature and Science \"Essential Historical Materials for Science and Technology\")"
+   "ja": "CD に傷があっても音が出るのは、こわれた所を計算で直しているから（O-010 で追加。出典：",
+   "en": "A scratched CD still plays because the broken parts are fixed by calculation."
   },
   "15-28.real": {
    "ja": "プラスチックの円盤に、長さのちがう小さなくぼみ（ピット、幅は約0.5µm）を渦巻きに並べて音を数字で記録し、半導体レーザーの反射で読み取る。オランダのフィリップスと日本のソニーが共同で規格を作り（1979年に試作）、1982年に世界初の CD プレーヤーが売り出された（未来技術遺産 CDP-101）。傷やほこりがあっても音がとぎれないのは、誤りを見つけて直す符号（リード・ソロモン符号、[15-14] 情報理論）のおかげ。のちに CD-ROM としてゲームやソフトの配布にも使われ、DVD・ブルーレイへ続いた"
@@ -9728,8 +9740,8 @@
    "en": "Error-correcting code"
   },
   "15-29.hee1": {
-   "ja": "QR コードは、少し汚れたり欠けたりしても読めるように、余分な情報がしこんである",
-   "en": "QR codes hide extra information so they can still be read when a little dirty or chipped. (Added in O-011. Sources: IEEE Computer Society \"Richard Hamming\", Wikipedia \"Hamming code\")"
+   "ja": "QR コードは、少し汚れたり欠けたりしても読めるように、余分な情報がしこんである（O-011 で追加。出典：IEEE Computer Society「Richard Hamming」",
+   "en": "QR codes hide extra information so they can still be read when a little dirty or chipped."
   },
   "15-29.real": {
    "ja": "送る数字に、決まった計算で作った余分な数字（検査のビット）を足しておくと、途中で1つまちがっても、どこがまちがったかを見つけて直せる。ベル研究所のリチャード・ハミングは、週末にリレー計算機が誤りを見つけると仕事を止めてしまうことにいらだち、「見つけられるなら直せるはず」と考えて、1950年に論文を出した（1968年チューリング賞）。シャノンの情報理論（[15-14]）が示した「雑音があっても誤りなく送れる」ための、最初の具体的な方法の1つ。フラッシュメモリ・無線・CD・QR コードは誤り訂正なしでは使えない"
@@ -9742,8 +9754,8 @@
    "en": "Public-key cryptography"
   },
   "15-30.hee1": {
-   "ja": "ネットで買い物ができるのは、誰でも閉められて自分だけが開けられる「鍵」の数学があるから（https://amturing.acm.org/award_winners/diffie_8371646.cfm））",
-   "en": "You can shop online because of the math of a \"lock\" that anyone can close but only you can open. (Added in O-011. Sources: Wikipedia \"Turing Award\", \"Public-key cryptography\", ACM A.M. Turing Award 2015 (public-key cryptography, 1976) (https://amturing.acm.org/award_winners/diffie_8371646.cfm))"
+   "ja": "ネットで買い物ができるのは、誰でも閉められて自分だけが開けられる「鍵」の数学があるから（O-011 で追加。出典：",
+   "en": "You can shop online because of the math of a \"lock\" that anyone can close but only you can open."
   },
   "15-30.real": {
    "ja": "鍵を2つに分け、閉じるための鍵はみんなに公開し、開けるための鍵は自分だけが持つ暗号。会ったことのない相手とも、ネットワークの上で秘密の話ができる。1976年にアメリカで鍵を安全に決める方法（鍵交換）が、1977年に今も広く使われる方式（RSA）が発表された（考えた人の多くは存命なので名前を出さない）。実はイギリスの政府の通信の研究所（GCHQ）のジェームズ・エリスらが1969〜75年に同じ考えにたどり着いていたが、1997年まで秘密だった。スマホの通信やネットの買い物の暗号（HTTPS など）は、公開鍵で鍵を決めている"
@@ -9753,8 +9765,8 @@
    "en": "Rotary-head videotape"
   },
   "15-31.hee1": {
-   "ja": "ビデオテープは、テープより速く回る小さなヘッドで斜めに映像を書いていた",
-   "en": "Videotape had a small head spinning faster than the tape, writing the picture at a slant (added in O-011. Sources: Wikipedia \"Videotape\", \"VHS\", National Museum of Nature and Science \"Essential Historical Materials for Science and Technology\")"
+   "ja": "ビデオテープは、テープより速く回る小さなヘッドで斜めに映像を書いていた（O-011 で追加。出典：",
+   "en": "Videotape had a small head spinning faster than the tape, writing the picture at a slant (added in O-011. Sources:"
   },
   "15-31.real": {
    "ja": "映像の信号は音よりずっと速く変わるので、テープを速く動かす代わりに、磁気ヘッドの方を回してテープの上を速くなぞって記録する。1956年、アメリカのアンペックス社が放送局用のビデオテープレコーダー VRX-1000 を売り出した。1959年に日本の東芝がテープを斜めになぞるヘリカルスキャン方式を試作し、1976年に日本ビクターが家庭用の VHS を出した（国立科学博物館の重要科学技術史資料）。テレビ番組を録って後で見られるようになった"
@@ -9763,7 +9775,7 @@
    "ja": "腕木通信"
   },
   "15-32.hee1": {
-   "ja": "馬で1日かかる知らせを、塔のリレーなら1時間かからずにパリへ届けられたが作った Wikipedia 日本語版「腕木通信」 https://ja.wikipedia.org/wiki/%E8%85%95%E6%9C%A8%E9%80%9A%E4%BF%A1 、亜留間次郎さん（Arumaddilo）が作った Wikipedia 日本語版「クロード・シャップ」 https://ja.wikipedia.org/wiki/%E3%82%AF%E3%83%AD%E3%83%BC%E3%83%89%E3%83%BB%E3%82%B7%E3%83%A3%E3%83%83%E3%83%97 ）"
+   "ja": "馬で1日かかる知らせを、塔のリレーなら1時間かからずにパリへ届けられた（S-019 で追加。出典：ETHW「France Builds Visual Telegraph」"
   },
   "15-32.real": {
    "ja": "丘の上に10〜15kmおきに塔を建て、塔の上の大きな腕木（長い棒と両はしの小さな腕）をロープで動かして形を作る。となりの塔の係が望遠鏡で形を読み、同じ形を作って次へ送る。腕の角度の組み合わせを暗号表のページと行に当てはめて言葉にした。フランスのクロード・シャップ（1763〜1805）が1791年に試し、1794年にパリ〜リールの線（15局）ができた ⚠️（最初の知らせの中身・線の長さは資料で違う）"
@@ -9775,7 +9787,7 @@
    "ja": "ヘルシュライバー"
   },
   "15-33.hee1": {
-   "ja": "文字を絵として送るから、雑音で点が消えても人が見れば読めたが作った Wikipedia 日本語版「ヘルシュライバー」 https://ja.wikipedia.org/wiki/%E3%83%98%E3%83%AB%E3%82%B7%E3%83%A5%E3%83%A9%E3%82%A4%E3%83%90%E3%83%BC ）"
+   "ja": "文字を絵として送るから、雑音で点が消えても人が見れば読めた（S-019 で追加。出典：Hellschreiber.com「History」"
   },
   "15-33.real": {
    "ja": "文字を小さな点のます目に分け、点のある所だけ音をオンにして順に送る。受け手は回るらせんに紙テープを当て、オンの間だけ点を打って文字の形を作り直す。文字を記号に直さず形のまま送るので、雑音で点が欠けても人の目で読める。ドイツのルドルフ・ヘル（1901〜2002）の特許（1929年）、報道で使われ始めたのは1934年 ⚠️（発明した町・点の数は資料で違う）"
@@ -9805,7 +9817,7 @@
    "en": "Silver halide photography"
   },
   "B-02.hee1": {
-   "ja": "フォトリソグラフィの祖先（第3章 [7-11] の伏線）",
+   "ja": "フォトリソグラフィの祖先",
    "en": "The ancestor of photolithography (a setup for Chapter 3, [7-11])."
   },
   "B-02a.name": {
@@ -9884,11 +9896,11 @@
    "en": "Polarization"
   },
   "B-05.hee1": {
-   "ja": "透明な方解石を置くと、文字が2重に見える（[7-08] から移動）",
+   "ja": "透明な方解石を置くと、文字が2重に見える",
    "en": "Put a clear calcite crystal on some writing and the letters look doubled. (Moved from [7-08])"
   },
   "B-05.real": {
-   "ja": "1669 バルトリンの複屈折、1808 マリュスの反射光の偏光、1828 ニコルのプリズム。ヴァイキングは、方解石などの透きとおった石（太陽の石）で、雲にかくれた太陽の向きを空の偏光から探して航海したのかもしれない。2011年の実験と2018年の計算で「使えたかもしれない」と分かったが、本当に使った証拠はまだ無い ⚠️ https://royalsociety.org/news/2011/mysteries-of-the-viking-sunstone/ 、Royal Society Open Science（2018） https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5936938/ 、亜留間次郎さん（Arumaddilo）が作った Wikipedia 日本語版「太陽の石 (ヴァイキング)」 https://ja.wikipedia.org/wiki/%E5%A4%AA%E9%99%BD%E3%81%AE%E7%9F%B3_%28%E3%83%B4%E3%82%A1%E3%82%A4%E3%82%AD%E3%83%B3%E3%82%B0%29 ）"
+   "ja": "1669 バルトリンの複屈折、1808 マリュスの反射光の偏光、1828 ニコルのプリズム。ヴァイキングは、方解石などの透きとおった石（太陽の石）で、雲にかくれた太陽の向きを空の偏光から探して航海したのかもしれない。2011年の実験と2018年の計算で「使えたかもしれない」と分かったが、本当に使った証拠はまだ無い ⚠️ https://royalsociety.org/news/2011/mysteries-of-the-viking-sunstone/ 、Royal Society Open Science（2018） https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5936938/ 、Wikipedia 日本語版「太陽の石 (ヴァイキング)」 https://ja.wikipedia.org/wiki/%E5%A4%AA%E9%99%BD%E3%81%AE%E7%9F%B3_%28%E3%83%B4%E3%82%A1%E3%82%A4%E3%82%AD%E3%83%B3%E3%82%B0%29 ）"
   },
   "B-06.name": {
    "ja": "偏光フィルム",
@@ -10102,8 +10114,8 @@
    "en": "Liquid crystal display"
   },
   "B-18.hee1": {
-   "ja": "液晶はそれ自体は光らず、電気で向きを変えて光の通り道を開け閉めしている",
-   "en": "Liquid crystal doesn't glow by itself; electricity turns it to open and close the path for light (added in S-002. Sources: Wikipedia \"Liquid crystal\", \"Twisted nematic field effect\", KIT \"100 Objekte\")"
+   "ja": "液晶はそれ自体は光らず、電気で向きを変えて光の通り道を開け閉めしている（S-002 で追加。出典：",
+   "en": "Liquid crystal doesn't glow by itself; electricity turns it to open and close the path for light (added in S-002. Sources:"
   },
   "B-18.hee2": {
    "ja": "ガラスを布で一方向にこするだけで、液晶の分子の向きがそろう（1911 モーガン）。"
@@ -10122,8 +10134,8 @@
    "en": "TFT LCD"
   },
   "B-19.hee1": {
-   "ja": "画面の画素1つ1つの裏に薄いトランジスタが1個ずつあり、何百万個もガラスの上に並んでいる",
-   "en": "Behind each pixel of a screen is one thin transistor, and millions of them are lined up on glass. (Added in S-002. Sources: Wikipedia \"Thin-film transistor\", IEEE Milestones \"Amorphous Silicon TFT Switches\")"
+   "ja": "画面の画素1つ1つの裏に薄いトランジスタが1個ずつあり、何百万個もガラスの上に並んでいる（S-002 で追加。出典：",
+   "en": "Behind each pixel of a screen is one thin transistor, and millions of them are lined up on glass."
   },
   "B-19.hee2": {
    "ja": "アモルファスシリコンは結晶でないので電子は遅いが、大きなガラスに安く積める。"
@@ -10146,7 +10158,7 @@
   },
   "B-20.hee1": {
    "ja": "白い LED の中身は青い LED で、黄色く光る粉をかぶせて青と黄色を混ぜて白に見せている",
-   "en": "A white LED is really a blue LED covered with a powder that glows yellow; blue and yellow mix to look white. (Added in S-002. Sources: Semiconductor History Museum of Japan (SSIS) \"White LED\", LEDinside)"
+   "en": "A white LED is really a blue LED covered with a powder that glows yellow; blue and yellow mix to look white."
   },
   "B-20.hee2": {
    "ja": "窒化ガリウムを p 型にするマグネシウムは、熱で処理して初めて働く。これが見つかって明るい青色 LED ができた。"
@@ -10168,8 +10180,8 @@
    "en": "Ball mouse"
   },
   "B-21.hee1": {
-   "ja": "最初のマウスは木の箱に車輪が2つ付いたもので、ボールではなかった",
-   "en": "The first mouse was a wooden box with two wheels, not a ball. (Added in S-002. Sources: Computer History Museum \"Revolution: Input & Output\", Wikipedia \"Bill English\")"
+   "ja": "最初のマウスは木の箱に車輪が2つ付いたもので、ボールではなかった（S-002 で追加。出典：Computer History Museum「Revolution: Input & Output」",
+   "en": "The first mouse was a wooden box with two wheels, not a ball."
   },
   "B-21.real": {
    "ja": "1963〜64年、SRI のエンゲルバートが考え、イングリッシュが作った最初のマウスは、直角に付けた2つの車輪で動きを測るもので、ボールは使っていない（1968年の有名な実演もこの車輪式）。ボールを転がして測る最初のマウスは、西ドイツのテレフンケンが1968年10月に発表した「ロールクーゲル」とされる ⚠️。1972年ごろ、ゼロックス PARC に移ったイングリッシュが車輪をボールに替えたマウスを作り、アルトで使われてパソコンのマウスの形になった。ボールの回転を X・Y の2本の軸に伝え、スリット付きの円板と光で数える"
@@ -10179,8 +10191,8 @@
    "en": "Optical mouse"
   },
   "B-22.hee1": {
-   "ja": "光学式マウスは、机の表面を1秒に1000枚以上写真に撮って、模様のずれから動きを計算している",
-   "en": "An optical mouse takes more than 1000 pictures of the desk surface per second and works out motion from how the pattern shifts (added in S-002. Sources: Wikipedia \"Optical mouse\", \"IntelliMouse\")"
+   "ja": "光学式マウスは、机の表面を1秒に1000枚以上写真に撮って、模様のずれから動きを計算している（S-002 で追加。出典：",
+   "en": "An optical mouse takes more than 1000 pictures of the desk surface per second and works out motion from how the pattern shifts (added in S-002. Sources:"
   },
   "B-22.real": {
    "ja": "1980年12月、MIT とゼロックスの研究者が別々に光学式マウスを発表したが、どちらも模様を印刷した専用の板が必要だった。1999年、アジレントの画像センサー（1秒に1500枚撮る）を使ったマイクロソフトのインテリマウス・エクスプローラーが、机の表面の模様を写真で比べて動きを出し、ふつうの机で使える光学式マウスが広まった"
@@ -10190,8 +10202,8 @@
    "en": "Dissolved acetylene and the automatic lighthouse flasher"
   },
   "B-23.hee1": {
-   "ja": "昔の灯台の中には、昼は光に反応して自動で火を消す仕組みが入っていた",
-   "en": "Old lighthouses had a device that sensed daylight and put out the flame automatically during the day. (Added in O-008. Sources: Nobel Prize \"Physics 1912 Award Ceremony Speech\", Wikipedia \"Agamassan\", Linda Hall Library \"Gustaf Dalén\")"
+   "ja": "昔の灯台の中には、昼は光に反応して自動で火を消す仕組みが入っていた（O-008 で追加。出典：Nobel Prize「Physics 1912 授賞演説」",
+   "en": "Old lighthouses had a device that sensed daylight and put out the flame automatically during the day."
   },
   "B-23.real": {
    "ja": "アセチレンは押し縮めると爆発しやすく、そのままではボンベで運べなかった。1896年、フランスのジョルジュ・クロードとアルベール・エスが、アセチレンがアセトンにたくさん溶けて安全になることを見つけた。スウェーデンの AGA 社のグスタフ・ダレンは、ボンベの中に珪藻土などのすき間の多い詰め物（アガマッサン、1906年）を入れてアセトンを含ませ、さらに灯台の火を必要なときだけ点滅させる装置と、明るくなると自動でガスを止める「太陽弁」（1907年）を作った。これで灯台を人がいなくても何か月も動かせるようになった（1912年ノーベル物理学賞）。ダレン自身は1912年、実験中の事故で目が見えなくなった"

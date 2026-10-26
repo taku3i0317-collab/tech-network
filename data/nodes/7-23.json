@@ -9,8 +9,8 @@
   "year": 1963,
   "year_range": "1963〜2007",
   "year_uncertain": true,
-  "hee1": "アポロ15号は、レーザーの光が月面からはね返る時間を測って、月のでこぼこを調べた（S-005 で追加。出典：Wikipedia「Lidar」、Frontiers in Remote Sensing（2022）「LiDAR history」）",
-  "hee1_en": "Apollo 15 measured the bumps of the Moon by timing how long laser light took to bounce back from its surface. (Added in S-005. Sources: Wikipedia \"Lidar\", Frontiers in Remote Sensing (2022) \"LiDAR history\")",
+  "hee1": "アポロ15号は、レーザーの光が月面からはね返る時間を測って、月のでこぼこを調べた（S-005 で追加。出典：",
+  "hee1_en": "Apollo 15 measured the bumps of the Moon by timing how long laser light took to bounce back from its surface.",
   "hee_tree": {
    "2": "",
    "3": "",

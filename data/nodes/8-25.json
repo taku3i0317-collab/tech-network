@@ -10,7 +10,7 @@
   "year_range": "1975〜2019",
   "year_uncertain": false,
   "hee1": "いまの1キログラムは、金属のかたまりではなく、電気の力で決めている（NET-06 で追加。出典：NPL「Bryan Kibble」、NIST「Kilogram: Kibble balance」、Comptes Rendus Physique 2019）",
-  "hee1_en": "Today one kilogram is defined not by a lump of metal but by electric force. (Added in NET-06. Sources: NPL \"Bryan Kibble\", NIST \"Kilogram: Kibble balance\", Comptes Rendus Physique 2019)",
+  "hee1_en": "Today one kilogram is defined not by a lump of metal but by electric force.",
   "hee_tree": {
    "2": "",
    "3": "",

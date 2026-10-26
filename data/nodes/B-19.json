@@ -9,8 +9,8 @@
   "year": 1979,
   "year_range": "1962〜1988",
   "year_uncertain": false,
-  "hee1": "画面の画素1つ1つの裏に薄いトランジスタが1個ずつあり、何百万個もガラスの上に並んでいる（S-002 で追加。出典：Wikipedia「Thin-film transistor」、IEEE Milestones「Amorphous Silicon TFT Switches」）",
-  "hee1_en": "Behind each pixel of a screen is one thin transistor, and millions of them are lined up on glass. (Added in S-002. Sources: Wikipedia \"Thin-film transistor\", IEEE Milestones \"Amorphous Silicon TFT Switches\")",
+  "hee1": "画面の画素1つ1つの裏に薄いトランジスタが1個ずつあり、何百万個もガラスの上に並んでいる（S-002 で追加。出典：",
+  "hee1_en": "Behind each pixel of a screen is one thin transistor, and millions of them are lined up on glass.",
   "hee_tree": {
    "2": "",
    "3": "",

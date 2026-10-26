@@ -9,8 +9,8 @@
   "year": 1981,
   "year_range": "1981〜1984",
   "year_uncertain": true,
-  "hee1": "チップの回路を描く樹脂と、3D プリンターの樹脂は同じしくみ （IMP-24 で追加、network_proposals N-6）",
-  "hee1_en": "The resin used to draw chip circuits and the resin in 3D printers work the same way. (Added in IMP-24, network_proposals N-6)",
+  "hee1": "チップの回路を描く樹脂と、3D プリンターの樹脂は同じしくみ",
+  "hee1_en": "The resin used to draw chip circuits and the resin in 3D printers work the same way.",
   "hee_tree": {
    "2": "",
    "3": "",

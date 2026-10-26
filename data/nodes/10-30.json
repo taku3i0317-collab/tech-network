@@ -10,7 +10,7 @@
   "year_range": "1986〜2000年代",
   "year_uncertain": false,
   "hee1": "ロボット掃除機は『自分はどこ？』と『部屋はどんな形？』を同じ計算で少しずつ当てていく。（S-004 で追加。出典：doc.ic.ac.uk、arxiv.org）",
-  "hee1_en": "A robot vacuum guesses \"Where am I?\" and \"What shape is the room?\" bit by bit, with the same calculation. (Added in S-004. Sources: doc.ic.ac.uk, arxiv.org)",
+  "hee1_en": "A robot vacuum guesses \"Where am I?\" and \"What shape is the room?\" bit by bit, with the same calculation.",
   "hee_tree": {
    "2": "",
    "3": "",
